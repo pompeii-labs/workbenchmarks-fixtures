@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#05030c" />
+    <meta name="description" content="Neon Orbit - a small 3D arcade pinball table built with three.js" />
+    <title>Neon Orbit Pinball</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='%23ff2bd6'/%3E%3Ccircle cx='24' cy='24' r='8' fill='%23fff'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div id="hud">
+      <div class="cell"><label>BALL</label><span id="ball">-</span></div>
+      <div class="cell main"><label>SCORE</label><span id="score">0</span></div>
+      <div class="cell"><label>BONUS</label><span id="mult">1X</span></div>
+      <div class="cell"><label>HIGH</label><span id="high">0</span></div>
+    </div>
+
+    <div id="msg"></div>
+
+    <div id="overlay">
+      <h1>NEON ORBIT</h1>
+      <div class="sub">3 balls. Light the top lanes for bonus multipliers.<br />25 bumper pops = JACKPOT.</div>
+      <div class="cta">PRESS ENTER TO PLAY</div>
+      <div class="keys">
+        <div><kbd>&larr;</kbd>/<kbd>Z</kbd> left flipper &nbsp; <kbd>&rarr;</kbd>/<kbd>/</kbd> right flipper</div>
+        <div>hold <kbd>Space</kbd>/<kbd>&darr;</kbd> to pull the plunger, release to launch &nbsp; <kbd>M</kbd> mute</div>
+      </div>
+      <div class="touchkeys">Tap left / right side for flippers. Hold <b>LAUNCH</b> to pull the plunger.</div>
+    </div>
+
+    <button id="plunge" aria-label="Launch">LAUNCH</button>
+    <button id="mute" aria-label="Toggle sound" title="Sound (M)">&#9835;</button>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
