@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#ffcfa8" />
+    <meta name="description" content="Tidehopper: a cozy dolphin trick game. Ride the swells along the coast, leap, flip, and splash down smoothly." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ffb37a'/%3E%3Cpath d='M12 40c8-14 26-20 40-12-6 0-10 2-12 6-6-4-18-2-28 6z' fill='%233f7fb8'/%3E%3C/svg%3E" />
+    <title>Tidehopper</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #ffd9b8; font-family: 'Trebuchet MS', 'Avenir Next', system-ui, sans-serif; }
+      #loading { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: linear-gradient(#7fb6e6, #ffc9a6 60%, #ffe0bf); color: #fff; transition: opacity 0.6s ease; }
+      #loading.done { opacity: 0; pointer-events: none; }
+      #loading .ld { text-align: center; font-weight: 800; font-size: 28px; letter-spacing: 0.04em; text-shadow: 0 2px 0 rgba(31, 79, 122, 0.35); }
+      #loading .ld i { display: block; margin: 14px auto 0; width: 120px; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.4); overflow: hidden; position: relative; }
+      #loading .ld i::after { content: ''; position: absolute; inset: 0; width: 40%; border-radius: 3px; background: #fff; animation: ld 1s ease-in-out infinite alternate; }
+      @keyframes ld { to { transform: translateX(150%); } }
+      [hidden] { display: none !important; }
+    </style>
+  </head>
+  <body data-phase="title">
+    <div id="loading"><div class="ld">Tidehopper<i></i></div></div>
+    <canvas id="game-canvas" aria-label="Tidehopper game view"></canvas>
+
+    <section id="hud" hidden>
+      <div class="chip score"><span>Score</span><strong id="score">0</strong></div>
+      <div class="chip time"><span>Time</span><strong id="timer">1:30</strong></div>
+      <div class="chip chain" id="chain-box"><span>Chain</span><strong id="chain">×1.0</strong></div>
+      <button id="pause-btn" type="button" aria-label="Pause">
+        <svg viewBox="0 0 24 24" width="20" height="20"><rect x="6" y="5" width="4" height="14" rx="1.5" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1.5" fill="currentColor"/></svg>
+      </button>
+      <div id="launch"></div>
+      <div id="air"><strong id="air-height">0.0 m</strong><span id="air-tricks"></span></div>
+      <div id="popup"></div>
+      <div id="hint">Dive with <b>S</b>, pull up with <b>W</b> on a rising swell · steer <b>A/D</b> · in the air: <b>W/S</b> flip, <b>A/D</b> spin, <b>Q/E</b> roll · <b>Esc</b> pause</div>
+    </section>
+
+    <div id="touch" hidden>
+      <div id="pad"><div id="knob"></div><span>steer · dive · flip</span></div>
+      <button id="roll-btn" type="button">Roll</button>
+    </div>
+
+    <section id="title" class="overlay">
+      <div class="card">
+        <h1>Tide<span>hopper</span></h1>
+        <p class="tag">A cozy coast. A very bouncy dolphin.</p>
+        <ul class="how">
+          <li><b>Dive</b> deep for speed, then <b>pull up</b> as a swell rises toward you.</li>
+          <li><b>Angle seaward</b> into the wave face for the biggest launches.</li>
+          <li>In the air, <b>flip, spin and roll</b> — then let go so you slip back in nose first.</li>
+          <li>Height, landing and chain all <b>multiply</b> your trick score. 90 seconds. Go!</li>
+        </ul>
+        <div class="keys desktop-only"><span><kbd>W</kbd><kbd>S</kbd> rise / dive · flip</span><span><kbd>A</kbd><kbd>D</kbd> steer · spin</span><span><kbd>Q</kbd><kbd>E</kbd> roll</span></div>
+        <div class="keys touch-only"><span>Drag the left pad to steer, dive and flip · hold <b>Roll</b></span></div>
+        <button id="start-btn" class="big" type="button">Start swimming</button>
+      </div>
+    </section>
+
+    <section id="pause" class="overlay" hidden>
+      <div class="card small">
+        <h2>Floating&nbsp;a&nbsp;moment</h2>
+        <p class="tag">The waves will wait for you.</p>
+        <button id="resume-btn" class="big" type="button">Keep swimming</button>
+      </div>
+    </section>
+
+    <section id="results" class="overlay" hidden>
+      <div class="card">
+        <h2>What a swim!</h2>
+        <div class="final"><span id="final-score">0</span><em id="new-best" hidden>New best!</em></div>
+        <dl class="stats">
+          <div><dt>Jumps</dt><dd id="final-jumps">0</dd></div>
+          <div><dt>Clean landings</dt><dd id="final-clean">0</dd></div>
+          <div class="wide"><dt>Best jump</dt><dd id="final-best-jump">—</dd></div>
+          <div class="wide"><dt>Personal best</dt><dd id="final-best">0</dd></div>
+        </dl>
+        <button id="again-btn" class="big" type="button">Swim again</button>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

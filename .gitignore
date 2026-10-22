@@ -1,6 +1,9 @@
 node_modules/
 dist/
-.DS_Store
+test-results/
+artifacts/pass-*/
+artifacts/tgcheck.json
+artifacts/playtest-metrics.json
+artifacts/playtest/
 *.log
-.env
-.env.*
+.DS_Store

@@ -1,0 +1,40 @@
+{
+  "game": "6970982f5beb7d78",
+  "sections": {
+    "belly-flop": {
+      "file": "belly-flop.mjs",
+      "hash": "2f3368caab9cf204",
+      "ok": true,
+      "seconds": 5,
+      "at": "pass-8"
+    },
+    "boundary": {
+      "file": "boundary.mjs",
+      "hash": "41fa0d8506ff6102",
+      "ok": true,
+      "seconds": 10,
+      "at": "pass-8"
+    },
+    "jump-trick": {
+      "file": "jump-trick.mjs",
+      "hash": "63d253200e1bb295",
+      "ok": true,
+      "seconds": 5,
+      "at": "pass-8"
+    },
+    "mobile": {
+      "file": "mobile.mjs",
+      "hash": "94ec5f2abc077464",
+      "ok": true,
+      "seconds": 6,
+      "at": "pass-8"
+    },
+    "pause-end-retry": {
+      "file": "pause-end-retry.mjs",
+      "hash": "3c60576a1807a3c9",
+      "ok": true,
+      "seconds": 8,
+      "at": "pass-8"
+    }
+  }
+}
