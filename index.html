@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#05060d" />
+    <meta name="description" content="Neon Pinball: a small 3D arcade pinball table in the browser." />
+    <link rel="icon" href="data:," />
+    <title>Neon Pinball</title>
+    <style>
+      /* Critical CSS: the loading screen is styled before any bundle loads. */
+      html, body { margin: 0; height: 100%; background: #05060d; overflow: hidden; }
+      #loading {
+        position: fixed; inset: 0; z-index: 50; display: grid; place-items: center;
+        background: radial-gradient(circle at 50% 40%, #2a1060 0%, #05060d 70%);
+        color: #ff6fc0; font: 900 clamp(28px, 7vw, 56px) "Trebuchet MS", "Arial Black", sans-serif;
+        letter-spacing: 0.08em; text-shadow: 0 0 18px #ff2d95; transition: opacity 0.35s ease;
+      }
+      #loading small { display: block; margin-top: 14px; font-size: 14px; color: #8ff4ff; letter-spacing: 0.3em; text-shadow: 0 0 10px #22e4ff; text-align: center; }
+      #loading.done { opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="loading"><div>NEON PINBALL<small>LOADING</small></div></div>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="Pinball table"></canvas>
+      <div id="popups" aria-hidden="true"></div>
+      <header id="hud" aria-live="polite">
+        <div class="hud-block hud-score">
+          <span class="label">Score</span>
+          <strong id="score-value">0</strong>
+        </div>
+        <div class="hud-block hud-balls">
+          <span class="label">Ball</span>
+          <div id="ball-pips"><i></i><i></i><i></i></div>
+        </div>
+        <div class="hud-block hud-mult">
+          <span class="label">Mult</span>
+          <strong id="mult-value">1x</strong>
+        </div>
+        <div class="hud-block hud-high">
+          <span class="label">High</span>
+          <strong id="high-value">0</strong>
+        </div>
+      </header>
+      <div id="message" role="status"></div>
+      <button id="pause-button" type="button" aria-label="Pause">II</button>
+      <button id="plunger-button" type="button" aria-label="Hold to pull the plunger, release to launch">
+        <span>HOLD</span><b>LAUNCH</b><i id="plunger-meter"></i>
+      </button>
+      <section id="overlay-title" class="overlay">
+        <div class="panel">
+          <h1><span class="pink">NEON</span><span class="cyan">PINBALL</span></h1>
+          <p class="high-line">High score <b id="title-high">0</b></p>
+          <ul class="controls">
+            <li><kbd>Z</kbd> / <kbd>&larr;</kbd> left flipper</li>
+            <li><kbd>/</kbd> / <kbd>&rarr;</kbd> right flipper</li>
+            <li>Hold <kbd>Space</kbd> / <kbd>&darr;</kbd>, release to launch</li>
+            <li class="touch-only">Tap left / right half to flip, hold LAUNCH</li>
+          </ul>
+          <p class="cta"><span class="key-text">Press <kbd>Space</kbd> or click to start</span><span class="touch-text">Tap to start</span></p>
+        </div>
+      </section>
+      <section id="overlay-gameover" class="overlay hidden">
+        <div class="panel">
+          <h2>GAME OVER</h2>
+          <p id="new-high" class="badge hidden">NEW HIGH SCORE</p>
+          <p class="final">Score <b id="final-score">0</b></p>
+          <p class="high-line">High score <b id="final-high">0</b></p>
+          <p class="cta"><span class="key-text">Press <kbd>Space</kbd> to play again</span><span class="touch-text">Tap to play again</span></p>
+        </div>
+      </section>
+      <section id="overlay-pause" class="overlay hidden">
+        <div class="panel">
+          <h2>PAUSED</h2>
+          <button id="resume-button" type="button" class="big">Resume</button>
+          <button id="mute-button" type="button" class="small">Sound: on</button>
+          <p class="cta"><kbd>P</kbd> / <kbd>Esc</kbd> to resume</p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

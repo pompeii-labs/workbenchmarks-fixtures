@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "runId": "pass-15",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "title",
+      "report": "artifacts/pass-15/desktop-title.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "active-play",
+      "report": "artifacts/pass-15/desktop-active-play.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "active-play",
+      "report": "artifacts/pass-15/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "plunger",
+      "report": "artifacts/pass-15/desktop-plunger.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "plunger",
+      "report": "artifacts/pass-15/mobile-plunger.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "late-game",
+      "report": "artifacts/pass-15/desktop-late-game.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "paused",
+      "report": "artifacts/pass-15/desktop-paused.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "game-over",
+      "report": "artifacts/pass-15/desktop-game-over.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "game-over",
+      "report": "artifacts/pass-15/mobile-game-over.json"
+    }
+  ]
+}
