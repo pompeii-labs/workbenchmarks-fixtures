@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#07061a" />
+    <meta name="description" content="Neon Pinball: a small arcade pinball table in your browser." />
+    <title>Neon Pinball</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='%23ff2bd6'/%3E%3Ccircle cx='24' cy='24' r='8' fill='%23fff' opacity='.7'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="view" aria-label="Pinball table"></canvas>
+
+      <div id="hud">
+        <div class="panel left">
+          <div class="label">Score</div>
+          <div id="score" class="value big">0</div>
+          <div id="mult" class="mult">x1</div>
+        </div>
+        <div class="panel right">
+          <div class="label">Ball</div>
+          <div id="ball" class="value">-</div>
+          <div class="label hi">High</div>
+          <div id="hi" class="value">0</div>
+        </div>
+      </div>
+
+      <div id="message" class="message"></div>
+
+      <div id="overlay" class="overlay">
+        <h1>NEON<span>PINBALL</span></h1>
+        <div id="overlay-sub" class="sub"></div>
+        <button id="start" type="button">Start game</button>
+        <div class="controls">
+          <div class="kb">
+            <div><kbd>Z</kbd> / <kbd>&larr;</kbd> / <kbd>L-Shift</kbd> &nbsp;left flipper</div>
+            <div><kbd>/</kbd> / <kbd>&rarr;</kbd> / <kbd>R-Shift</kbd> &nbsp;right flipper</div>
+            <div>Hold <kbd>Space</kbd> / <kbd>&darr;</kbd> &nbsp;pull plunger, release to launch</div>
+            <div><kbd>Enter</kbd> start &nbsp; <kbd>M</kbd> mute &nbsp; <kbd>P</kbd> pause</div>
+          </div>
+          <div class="touch">Touch: tap left / right half to flip.<br />Hold the LAUNCH button, release to shoot.</div>
+        </div>
+      </div>
+
+      <button id="launch" class="touch-btn" type="button">LAUNCH</button>
+      <button id="mute" class="icon-btn" type="button" aria-label="Toggle sound">&#9834;</button>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
