@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "runId": "pass-5",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "active-play",
+      "report": "artifacts/pass-5/desktop-active-play.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "active-play",
+      "report": "artifacts/pass-5/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "title",
+      "report": "artifacts/pass-5/desktop-title.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "launch",
+      "report": "artifacts/pass-5/desktop-launch.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "late-game",
+      "report": "artifacts/pass-5/desktop-late-game.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "game-over",
+      "report": "artifacts/pass-5/desktop-game-over.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "game-over",
+      "report": "artifacts/pass-5/mobile-game-over.json"
+    }
+  ]
+}
