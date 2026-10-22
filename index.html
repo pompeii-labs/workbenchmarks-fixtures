@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Dolphin Coast</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐬</text></svg>" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud">
+      <div id="score-box">
+        <div class="label">Score</div>
+        <div id="score">0</div>
+        <div id="best" class="sub">Best jump 0</div>
+      </div>
+      <div id="chain-box" class="hidden">
+        <div id="chain">Chain x1</div>
+        <div class="bar"><div id="chain-fill"></div></div>
+      </div>
+      <div id="air-box" class="hidden">
+        <div id="air-height">0.0 m</div>
+        <div id="air-tricks"></div>
+      </div>
+      <div id="popup"></div>
+      <div id="meters">
+        <div class="meter"><span>Wave lift</span><div class="bar"><div id="lift-fill"></div></div></div>
+        <div class="meter"><span>Dive</span><div class="bar"><div id="charge-fill"></div></div></div>
+      </div>
+      <div id="hint"></div>
+      <button id="mute" title="Mute (M)">♪</button>
+    </div>
+    <div id="touch" class="hidden">
+      <div id="stick"><div id="knob"></div></div>
+      <div id="touch-buttons">
+        <button id="btn-spin">Spin</button>
+        <button id="btn-dive">Dive<br /><small>hold</small></button>
+      </div>
+    </div>
+    <div id="title">
+      <div class="card">
+        <h1>Dolphin Coast</h1>
+        <p class="tag">Ride the swells. Leap for the sky. Land it gently.</p>
+        <div class="controls">
+          <div><kbd>Space</kbd> hold to dive, release to leap</div>
+          <div><kbd>A</kbd><kbd>D</kbd> steer &nbsp;·&nbsp; <kbd>W</kbd> swim faster</div>
+          <div>In the air: <kbd>W</kbd><kbd>S</kbd> flip &nbsp;·&nbsp; <kbd>A</kbd><kbd>D</kbd> roll &nbsp;·&nbsp; <kbd>Q</kbd><kbd>E</kbd> spin</div>
+          <div class="tip">Leap while climbing the face of a swell for big air. Hit waves head-on for the most lift.<br />Enter the water nose-first for a clean landing. Belly flops score nothing!</div>
+        </div>
+        <button id="start">Start swimming</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
