@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#07050f" />
+    <meta name="description" content="Neon Orbit: a small 3D pinball table. Two flippers, a plunger, three balls." />
+    <link rel="icon" href="data:," />
+    <title>Neon Orbit Pinball</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #07050f; color: #f3ecff; overflow: hidden; }
+      #loading { position: fixed; inset: 0; display: grid; place-content: center; gap: 14px; text-align: center;
+        background: radial-gradient(circle at 50% 40%, #2a0f4f 0%, #07050f 70%); z-index: 50;
+        font: 800 14px/1.2 "Avenir Next", "Segoe UI", Arial, sans-serif; letter-spacing: 0.3em; transition: opacity 0.4s; }
+      #loading b { font-size: 40px; letter-spacing: 0.12em; color: #ffe7f6; text-shadow: 0 0 18px #ff3d9a, 0 0 36px #ff3d9a; }
+      #loading i { display: block; width: 120px; height: 3px; margin: 0 auto; background: linear-gradient(90deg, #ff3d9a, #29e6ff); animation: ld 1s ease-in-out infinite alternate; }
+      @keyframes ld { from { transform: scaleX(0.2); } to { transform: scaleX(1); } }
+      #loading.done { opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="loading"><b>NEON ORBIT</b><span>LOADING TABLE</span><i></i></div>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="Pinball table"></canvas>
+
+      <header id="hud" aria-live="polite">
+        <div class="panel panel-score">
+          <span class="label">Score</span>
+          <strong id="score">0</strong>
+          <span id="mult" class="mult">x1</span>
+        </div>
+        <div class="panel panel-info">
+          <div class="info-row"><span class="label">Ball</span><span id="balls" class="balls"></span></div>
+          <div class="info-row"><span class="label">Best</span><strong id="best">0</strong></div>
+        </div>
+      </header>
+
+      <aside id="help" class="panel">
+        <div><kbd>Z</kbd> / <kbd>&larr;</kbd> left flipper</div>
+        <div><kbd>/</kbd> / <kbd>&rarr;</kbd> right flipper</div>
+        <div><kbd>Space</kbd> hold &amp; release to launch</div>
+        <div><kbd>P</kbd> pause &middot; <kbd>M</kbd> sound</div>
+      </aside>
+
+      <div id="banner" role="status"></div>
+
+      <div id="touch-left" class="zone" aria-hidden="true"><span>FLIP</span></div>
+      <div id="touch-right" class="zone" aria-hidden="true"><span>FLIP</span></div>
+      <button id="launch" type="button" aria-label="Hold to pull the plunger, release to launch">
+        <span class="launch-meter"><span id="launch-fill"></span></span>
+        <span class="launch-text">LAUNCH</span>
+      </button>
+
+      <div id="top-buttons">
+        <button id="pause-btn" type="button" aria-label="Pause">II</button>
+        <button id="mute-btn" type="button" aria-label="Toggle sound">SND</button>
+      </div>
+
+      <section id="overlay" data-screen="title">
+        <div class="card">
+          <h1 class="logo"><span>NEON</span><span>ORBIT</span></h1>
+          <p id="overlay-kicker" class="kicker">3 balls. Light the lanes. Beat the best.</p>
+          <div id="overlay-score" class="final">
+            <span class="label">Score</span><strong id="final-score">0</strong>
+            <span id="new-best" class="new-best">NEW HIGH SCORE</span>
+          </div>
+          <p id="overlay-best" class="best-line">Best <strong id="overlay-best-value">0</strong></p>
+          <p id="overlay-cta" class="cta">Press SPACE or tap to start</p>
+          <ul class="controls">
+            <li><kbd>Z</kbd><kbd>/</kbd> flippers (or tap left / right side)</li>
+            <li><kbd>Space</kbd> hold to pull plunger, release to fire</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
