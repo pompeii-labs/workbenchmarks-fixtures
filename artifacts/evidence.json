@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "runId": "pass-9",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "active-play",
+      "report": "artifacts/pass-9/desktop-active-play.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "active-play",
+      "report": "artifacts/pass-9/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "airborne-trick",
+      "report": "artifacts/pass-9/desktop-airborne-trick.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "title",
+      "report": "artifacts/pass-9/desktop-title.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "results",
+      "report": "artifacts/pass-9/desktop-results.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "results",
+      "report": "artifacts/pass-9/mobile-results.json"
+    }
+  ]
+}

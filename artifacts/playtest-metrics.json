@@ -1,0 +1,204 @@
+{
+  "runner": "tgplaytest@1",
+  "timeScale": 3,
+  "renderScale": 0.5,
+  "hooks": {
+    "setTimeScale": true,
+    "setRenderScale": true
+  },
+  "sections": {
+    "belly-flop": {
+      "file": "belly-flop.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 11
+    },
+    "boundary": {
+      "file": "boundary.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 8
+    },
+    "controls": {
+      "file": "controls.mjs",
+      "pass": 3,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 7
+    },
+    "flip": {
+      "file": "flip.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 6
+    },
+    "jump-score": {
+      "file": "jump-score.mjs",
+      "pass": 4,
+      "fail": 0,
+      "metrics": {
+        "breachPoints": 1822,
+        "breachHeight": 6.422523990479786
+      },
+      "seconds": 7
+    },
+    "mobile": {
+      "file": "mobile.mjs",
+      "pass": 4,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 6
+    },
+    "pause": {
+      "file": "pause.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 11
+    },
+    "timeup-retry": {
+      "file": "timeup-retry.mjs",
+      "pass": 3,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 9
+    }
+  },
+  "checks": [
+    {
+      "section": "belly-flop",
+      "label": "landing upside-down is a belly flop",
+      "ok": true,
+      "detail": "{\"id\":2,\"points\":0,\"height\":6.345115161662344,\"airtime\":1.6833333333333322,\"flips\":0,\"spins\":0,\"grade\":\"Belly flop\",\"heightMult\":2.269023032332469,\"landMult\":0,\"waveMult\":1.574152185397292,\"comboMult\":1,\"name\":\"Breach\"}"
+    },
+    {
+      "section": "belly-flop",
+      "label": "belly flop resets combo and shows a popup",
+      "ok": true,
+      "detail": "{\"t\":{\"id\":2,\"points\":0,\"height\":6.345115161662344,\"airtime\":1.6833333333333322,\"flips\":0,\"spins\":0,\"grade\":\"Belly flop\",\"heightMult\":2.269023032332469,\"landMult\":0,\"waveMult\":1.574152185397292,\"comboMult\":1,\"name\":\"Breach\"},\"combo\":0,\"popup\":true}"
+    },
+    {
+      "section": "boundary",
+      "label": "shore edge holds the dolphin in the lane",
+      "ok": true,
+      "detail": "10.75789671532568"
+    },
+    {
+      "section": "boundary",
+      "label": "steering away from the edge works immediately (not trapped)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "controls",
+      "label": "Down dives the dolphin",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "controls",
+      "label": "Right steers toward +x (shore) and yaws right",
+      "ok": true,
+      "detail": "yaw 0.6750000000000003"
+    },
+    {
+      "section": "controls",
+      "label": "Left steers back toward open sea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "flip",
+      "label": "holding Up in the air completes a backflip",
+      "ok": true,
+      "detail": "{\"id\":2,\"points\":2861,\"height\":6.345115161662344,\"airtime\":1.6833333333333322,\"flips\":1,\"spins\":0,\"grade\":\"Sloppy\",\"heightMult\":2.269023032332469,\"landMult\":1,\"waveMult\":1.574152185397292,\"comboMult\":1,\"name\":\"Backflip\"}"
+    },
+    {
+      "section": "flip",
+      "label": "flip scores more than a plain breach base",
+      "ok": true,
+      "detail": "2861"
+    },
+    {
+      "section": "jump-score",
+      "label": "rising from a dive launches out of the water",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "jump-score",
+      "label": "a hands-off breach lands clean and scores",
+      "ok": true,
+      "detail": "{\"id\":2,\"points\":1822,\"height\":6.422523990479786,\"airtime\":1.6999999999999988,\"flips\":0,\"spins\":0,\"grade\":\"Perfect\",\"heightMult\":2.2845047980959574,\"landMult\":2,\"waveMult\":1.5789990893333812,\"comboMult\":1.25,\"name\":\"Breach\"}"
+    },
+    {
+      "section": "jump-score",
+      "label": "height multiplier applied",
+      "ok": true,
+      "detail": "2.2845047980959574"
+    },
+    {
+      "section": "jump-score",
+      "label": "clean landing starts a combo",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "section": "mobile",
+      "label": "touch pad is visible on a touch device",
+      "ok": true,
+      "detail": "{\"x\":22,\"y\":692,\"width\":130,\"height\":130}"
+    },
+    {
+      "section": "mobile",
+      "label": "dragging the pad down dives",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "mobile",
+      "label": "dragging up launches a leap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "mobile",
+      "label": "mobile leap scores",
+      "ok": true,
+      "detail": "683"
+    },
+    {
+      "section": "pause",
+      "label": "P pauses: overlay shown and sim time frozen",
+      "ok": true,
+      "detail": "24.61221821764451 -> 24.61221821764451"
+    },
+    {
+      "section": "pause",
+      "label": "Resume continues play",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "timeup-retry",
+      "label": "session ends at sunset with a results card",
+      "ok": true,
+      "detail": "{\"score\":1822,\"best\":1822,\"text\":\"1,822\",\"shown\":true}"
+    },
+    {
+      "section": "timeup-retry",
+      "label": "best score recorded",
+      "ok": true,
+      "detail": "{\"score\":1822,\"best\":1822,\"text\":\"1,822\",\"shown\":true}"
+    },
+    {
+      "section": "timeup-retry",
+      "label": "Swim again restarts a fresh session",
+      "ok": true,
+      "detail": "{\"score\":0,\"rem\":88.50000000000009}"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffd7b0" />
+    <link rel="icon" href="data:," />
+    <title>Dolphin Coast</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #ffd7b0; font-family: ui-rounded, "SF Pro Rounded", "Nunito", "Trebuchet MS", system-ui, sans-serif; }
+      #loading { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: linear-gradient(#7ec3ec, #ffd7b0 60%, #39b8c0 61%, #1a8aa8); color: #fff; transition: opacity .5s; }
+      #loading.done { opacity: 0; pointer-events: none; }
+      #loading b { font-size: 34px; letter-spacing: .02em; text-shadow: 0 3px 0 rgba(20,80,110,.35); }
+      [hidden] { display: none !important; }
+    </style>
+  </head>
+  <body data-phase="title">
+    <div id="loading"><b>Dolphin Coast…</b></div>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="Dolphin Coast game view"></canvas>
+
+      <section id="hud" class="inactive" aria-live="polite">
+        <div class="chip score"><span>Score</span><strong id="score-value">0</strong></div>
+        <div class="chip time"><span>Sunset in</span><strong id="timer-value">1:30</strong></div>
+        <div id="combo"></div>
+        <div id="height"></div>
+        <div id="meters">
+          <div id="swell" class="meter"><label>Swell boost</label><div class="bar"><i id="swell-fill"></i></div></div>
+          <div class="meter stamina"><label>Sprint</label><div class="bar"><i id="stamina-fill"></i></div></div>
+        </div>
+        <button id="pause-button" type="button" aria-label="Pause">II</button>
+      </section>
+      <div id="pops"></div>
+
+      <div id="touch-controls" aria-hidden="true">
+        <div id="touch-stick"><div id="touch-knob"></div></div>
+        <button id="sprint-button" type="button">Kick</button>
+      </div>
+
+      <section id="title-screen" class="overlay">
+        <div class="card">
+          <h1>Dolphin Coast</h1>
+          <p class="tag">Ride the evening swell. Leap, flip, and splash down clean.</p>
+          <ul class="how">
+            <li><kbd>↓</kbd><kbd>S</kbd> dive deep to build speed, <kbd>↑</kbd><kbd>W</kbd> to rise and leap</li>
+            <li>Leap while the <b>swell meter</b> glows: rising water and climbing a wave face throw you higher</li>
+            <li>In the air: <kbd>↑</kbd><kbd>↓</kbd> flip, <kbd>←</kbd><kbd>→</kbd> spin. Land nose-first and level</li>
+            <li><kbd>Space</kbd> sprint · <kbd>P</kbd> pause</li>
+          </ul>
+          <p class="touch-how">Touch: drag the left pad to steer, dive and flip. Hold Kick to sprint.</p>
+          <button id="play-button" type="button">Swim</button>
+          <div id="title-best"></div>
+        </div>
+      </section>
+
+      <section id="pause-screen" class="overlay" hidden>
+        <div class="card small">
+          <h2>Floating…</h2>
+          <button id="resume-button" type="button">Resume</button>
+        </div>
+      </section>
+
+      <section id="results-screen" class="overlay" hidden>
+        <div class="card">
+          <h2>The sun sets</h2>
+          <div class="big" id="res-score">0</div>
+          <div class="best" id="res-best"></div>
+          <dl>
+            <dt>Leaps</dt><dd id="res-jumps">0</dd>
+            <dt>Clean landings</dt><dd id="res-clean">0</dd>
+            <dt>Best trick</dt><dd id="res-trick">—</dd>
+          </dl>
+          <button id="again-button" type="button">Swim again</button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
