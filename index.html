@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#05030c" />
+    <meta name="description" content="Neon Pinball: a small 3D pinball table in the browser." />
+    <title>Neon Pinball</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%23ff2bd6'/%3E%3Ccircle cx='12' cy='12' r='4' fill='%23fff'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="touch" aria-hidden="true"></div>
+    <div id="hud">
+      <div class="panel">
+        <div class="stat"><span class="label">SCORE</span><span id="score" class="value">0</span></div>
+        <div class="stat"><span class="label">BALL</span><span id="ball" class="value small">-</span></div>
+        <div class="stat"><span class="label">HIGH</span><span id="hi" class="value small">0</span></div>
+        <span id="mult" class="mult"></span>
+      </div>
+      <div id="center">
+        <div id="msg"></div>
+        <div id="sub"></div>
+      </div>
+      <div id="hint">
+        <span><b>Z</b> / <b>&larr;</b> left flipper</span>
+        <span><b>/</b> / <b>&rarr;</b> right flipper</span>
+        <span>hold <b>SPACE</b> plunger</span>
+        <button id="mute" type="button">SOUND ON</button>
+      </div>
+    </div>
+    <noscript>Neon Pinball needs JavaScript and WebGL.</noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

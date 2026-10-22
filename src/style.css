@@ -1,0 +1,206 @@
+:root {
+  --cyan: #19f0ff;
+  --pink: #ff2bd6;
+  --yellow: #ffd21f;
+  --font: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #05030c;
+  color: #fff;
+  font-family: var(--font);
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+#app,
+#touch {
+  position: fixed;
+  inset: 0;
+}
+
+#app canvas {
+  display: block;
+}
+
+#touch {
+  touch-action: none;
+  z-index: 1;
+}
+
+#hud {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  padding: max(10px, env(safe-area-inset-top)) 14px max(10px, env(safe-area-inset-bottom));
+}
+
+.panel {
+  display: flex;
+  gap: 22px;
+  align-items: flex-end;
+  justify-content: center;
+  text-shadow: 0 0 8px var(--pink);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  color: var(--cyan);
+  text-shadow: 0 0 6px var(--cyan);
+}
+
+.value {
+  font-size: clamp(22px, 4.6vw, 36px);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.05;
+}
+
+.value.small {
+  font-size: clamp(16px, 3vw, 22px);
+  color: #ffe9fb;
+}
+
+.mult {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--yellow);
+  text-shadow: 0 0 10px var(--yellow);
+  min-width: 40px;
+}
+
+#center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 38%;
+  text-align: center;
+}
+
+#msg {
+  font-size: clamp(24px, 6vw, 52px);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-shadow: 0 0 12px var(--pink), 0 0 30px var(--pink);
+  min-height: 1.2em;
+}
+
+#msg.pop {
+  animation: pop 0.35s cubic-bezier(0.2, 1.8, 0.4, 1);
+}
+
+#sub {
+  margin-top: 8px;
+  font-size: clamp(13px, 2.4vw, 18px);
+  letter-spacing: 0.2em;
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--cyan);
+}
+
+#sub.blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+#hint {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: max(10px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #c9c3e6;
+  transition: opacity 0.4s;
+}
+
+#hint b {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+#mute {
+  pointer-events: auto;
+  font: inherit;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: var(--cyan);
+  background: rgba(25, 240, 255, 0.08);
+  border: 1px solid rgba(25, 240, 255, 0.5);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+@media (pointer: coarse) {
+  #hint span {
+    display: none;
+  }
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #msg.pop,
+  #sub.blink {
+    animation: none;
+  }
+}
+
+/* Landscape: stack the score panel on the left so it doesn't cover the backglass */
+@media (min-aspect-ratio: 1/1) {
+  .panel {
+    position: absolute;
+    left: max(18px, env(safe-area-inset-left));
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .stat {
+    align-items: flex-start;
+  }
+  .value {
+    font-size: clamp(26px, 3.4vw, 44px);
+  }
+}
