@@ -51,6 +51,9 @@ export class Player {
     this.onRamp = false;
     this.wasOnRamp = false;
     this.rampJump = false;
+    this.power = 1; // engine multiplier (AI skill / catch-up); 1 for the player
+    this.mass = 1;
+    this.yawVel = 0; // spin from bumps (rad/s), bleeds off quickly on the water
     this.fwd = new THREE.Vector3(0, 0, 1);
     this.right = new THREE.Vector3(-1, 0, 0);
     this.surface = this.sampleSurface(0);
@@ -106,7 +109,7 @@ export class Player {
     if (!this.airborne) {
       this.boosting = control && input.boost && this.boost > 0.02 && throttleIn > 0;
       let accel = 0;
-      if (throttleIn > 0) accel = throttleIn * (this.boosting ? BOOST_ACCEL : ACCEL);
+      if (throttleIn > 0) accel = throttleIn * (this.boosting ? BOOST_ACCEL : ACCEL) * this.power;
       else if (throttleIn < 0) accel = vF > 1 ? -22 : -7;
       vF += accel * dt;
       vF -= (vF * Math.abs(vF) * QUAD_DRAG + vF * LIN_DRAG) * dt;
@@ -122,6 +125,9 @@ export class Player {
       vel.x -= (this.slopeF * fwd.x + this.slopeR * right.x) * G * 0.3 * dt;
       vel.z -= (this.slopeF * fwd.z + this.slopeR * right.z) * G * 0.3 * dt;
       this.heading -= turn * dt;
+      // knocked sideways by a bump: the hull spins, and the water damps it out
+      this.heading += this.yawVel * dt;
+      this.yawVel *= Math.exp(-5 * dt);
 
       if (control && input.hop && this.hopCooldown <= 0) {
         vel.y = Math.max(vel.y, this.surfVy) + HOP;
@@ -130,6 +136,7 @@ export class Player {
         this.takeOff(t, true);
       }
     } else {
+      this.yawVel *= Math.exp(-2 * dt);
       vel.x *= 1 - 0.04 * dt;
       vel.z *= 1 - 0.04 * dt;
       this.boosting = false;
@@ -308,6 +315,7 @@ export class Player {
       this.heading = pose.heading;
     }
     this.vel.set(0, 0, 0);
+    this.yawVel = 0;
     this.airborne = false;
     this.wipeout = 0;
     this.airSpin = this.airFlip = this.airPitch = 0;

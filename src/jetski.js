@@ -38,14 +38,18 @@ function limb(a, b, r, mat) {
 
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
 
-export function createJetSki() {
+/**
+ * colors: { paint, accent, vest, helmet } (hex). Defaults are the player's ski.
+ */
+export function createJetSki(colors = {}) {
+  const c = { paint: 0xff2d6f, accent: 0x1ad1c8, vest: 0xffa31a, helmet: 0xffffff, ...colors };
   const root = new THREE.Group();
   const body = new THREE.Group(); // bob / draft offset
   root.add(body);
 
   const white = new THREE.MeshStandardMaterial({ color: 0xf4f6f8, roughness: 0.35, metalness: 0.05, flatShading: true });
-  const paint = new THREE.MeshStandardMaterial({ color: 0xff2d6f, roughness: 0.25, metalness: 0.2, flatShading: true });
-  const paint2 = new THREE.MeshStandardMaterial({ color: 0x1ad1c8, roughness: 0.3, metalness: 0.2, flatShading: true });
+  const paint = new THREE.MeshStandardMaterial({ color: c.paint, roughness: 0.25, metalness: 0.2, flatShading: true });
+  const paint2 = new THREE.MeshStandardMaterial({ color: c.accent, roughness: 0.3, metalness: 0.2, flatShading: true });
   const black = new THREE.MeshStandardMaterial({ color: 0x15171c, roughness: 0.6 });
   const chrome = new THREE.MeshStandardMaterial({ color: 0xcfd6dd, roughness: 0.15, metalness: 0.9 });
 
@@ -104,10 +108,10 @@ export function createJetSki() {
   const rider = new THREE.Group();
   rider.position.set(0, 0.95, -0.55);
   body.add(rider);
-  const vest = new THREE.MeshStandardMaterial({ color: 0xffa31a, roughness: 0.7 });
+  const vest = new THREE.MeshStandardMaterial({ color: c.vest, roughness: 0.7 });
   const suit = new THREE.MeshStandardMaterial({ color: 0x1b2a4a, roughness: 0.8 });
   const skin = new THREE.MeshStandardMaterial({ color: 0xd9a07a, roughness: 0.7 });
-  const helmetMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.25, metalness: 0.1 });
+  const helmetMat = new THREE.MeshStandardMaterial({ color: c.helmet, roughness: 0.25, metalness: 0.1 });
   const visorMat = new THREE.MeshStandardMaterial({ color: 0x101820, roughness: 0.05, metalness: 0.8 });
 
   // positions relative to rider origin (on the seat)

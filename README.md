@@ -1,6 +1,6 @@
 # Swell Rider
 
-A small three.js jet ski game. You ride across choppy open water, launch off the swells, and race a buoy course with kicker ramps.
+A small three.js jet ski game. You ride across choppy open water, launch off the swells, and race five AI rivals around a buoy course with kicker ramps.
 
 ## Controls
 
@@ -11,13 +11,25 @@ A small three.js jet ski game. You ride across choppy open water, launch off the
 | A D / ← → | Steer (in the air: spin) |
 | Shift | Boost (refills over time, plus a bonus for tricks and rings) |
 | Space | Hop |
-| T / 🏁 | Back to the start line (abandons the current lap) |
+| T / 🏁 | Restart the race (in free ride: back to the start line) |
+| Enter | Race again (on the finish screen) |
 | M | Mute |
 | R | Reset |
 
 On touch devices you get an on-screen stick and HOP / BOOST buttons.
 
 Hit a swell at speed to get air. Fly through the gold rings, and land clean (nose level, facing forward) to build your combo.
+
+## Race mode
+
+Press **RACE** on the title screen (or Enter / W / Space) to line up on a six-ski grid behind the start arch against five AI riders: MARLIN, RIPTIDE, CORAL, GULL and BARNACLE. You start fifth. After a 3-2-1 countdown it's **3 laps**. Pass the gates in order; the first rider back through the arch after lap 3 wins.
+
+- **Rivals** run on the same `Player` physics as you. They get the same swells, the same ramp pops and the same landings (they can wipe out too). They follow the course centerline in their own lanes, slow for the bends, line up on every ramp from ~120 m out, steer the nose with small air spins while airborne, and boost on the straights. They differ in cornering skill, engine power and aggression. RIPTIDE leans in on you when you're side by side; GULL gives you room. A gentle catch-up keeps the pack close: rivals get up to +10% power when they're behind you and -6% when far ahead.
+- **Bumping**: every ski is a capsule. Overlapping skis get pushed apart and trade momentum along the contact normal with an impulse (equal mass, slightly bouncy). Off-centre hits also spin both hulls, and there's a bit of scrub friction. Skis can fly over each other. Bumps make spray, a hull knock and camera shake when you're involved.
+- **HUD**: your position (e.g. `2ND /6`), the race clock and a live standings list with time gaps. The lap counter shows `n/3`. Rivals show as coloured dots on the minimap and have name tags with their position over their heads.
+- **Finish screen**: your place, total time, best lap and score (with a place bonus), plus a results table that keeps updating as the rivals finish. Your ski drives itself on a cool-down lap behind it. **RACE AGAIN** or **FREE RIDE**.
+- Progress only counts up to the next gate you have actually been through, so skipping a gate never moves you up the order. A rival that gets wedged somewhere or knocked way off course is put back on the line just before the gate it needs. It blinks for a moment and can't collide while it does.
+- **FREE RIDE** is the original solo mode: no rivals, endless timed laps, open water.
 
 ## Race course
 
@@ -47,4 +59,5 @@ npm run preview  # serve dist/ locally
 - `src/player.js` handles the arcade physics. The ski sticks to the water while the water's vertical acceleration is weaker than gravity. When a crest falls away faster than that, you're airborne, with a little extra launch.
 - `src/particles.js` has the pooled spray, mist and foam particles, plus a foam wake ribbon draped on the waves.
 - `src/track.js` is the race course. A closed Catmull-Rom centerline is sampled every 2 m. Gates are placed automatically at every corner apex and then at most 95 m apart. It also builds the corner marker buoys, the start arch and the ramps, and runs the lap/gate logic (segment crossing, interpolated to the physics step). The ramps are extra ground for the physics: `Player.heightAt` takes the higher of the water and the deck, and the lip gives a speed-dependent pop. `src/racehud.js` draws the timer, splits, minimap and wrong-way warning.
-- `src/audio.js` synthesizes the engine, water, wind, splash and chime sounds with WebAudio, so there are no audio files.
+- `src/ai.js` is the AI rider. It outputs the same `{ throttle, steer, boost, hop }` a human produces: pure pursuit on a look-ahead point in its lane, corner speed from the tightest curvature in its braking window, ramp alignment, dodging and air control. `src/race.js` has the grid, countdown, per-rider gate tracking and progress, ranking, rescues and the capsule bump physics. `src/collide.js` is ski-vs-scenery collision, shared by every ski.
+- `src/audio.js` synthesizes the engine, water, wind, splash, chime, hull-bump and rival-engine sounds with WebAudio, so there are no audio files.

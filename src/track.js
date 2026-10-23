@@ -493,6 +493,7 @@ export class Track {
 
   resetRace() {
     this.next = 0;
+    this.lap = 0;
     this.lapStart = null;
     this.splits = [];
     this.missed = -1;

@@ -138,3 +138,76 @@ body.touch #minimap { top: 168px; }
   .toast { top: 38%; }
   #air { top: 33%; }
 }
+
+/* ---------- race vs rivals ---------- */
+.modes { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.go.alt { background: rgba(255, 255, 255, 0.9); box-shadow: 0 5px 0 #7fb3d9; animation: none; }
+#pos-box { position: absolute; top: 66px; right: 18px; text-align: right; }
+.pos-main { font-size: 60px; font-weight: bold; font-style: italic; line-height: 0.95; }
+#pos-sfx { font-size: 26px; vertical-align: top; margin-left: 2px; }
+.pos-main small { font-size: 24px; opacity: 0.8; margin-left: 4px; }
+#pos-box.p1 .pos-main { color: #ffcc33; }
+.pos-time { font-size: 12px; letter-spacing: 0.12em; opacity: 0.9; }
+.pos-time b { font-size: 15px; letter-spacing: 0; font-variant-numeric: tabular-nums; color: #ffe08a; }
+#standings {
+  list-style: none; margin: 8px 0 0; padding: 6px 10px; background: rgba(0, 30, 60, 0.28); border-radius: 10px;
+  font-size: 13px; line-height: 1.55; min-width: 150px; text-align: left; font-variant-numeric: tabular-nums;
+}
+#standings li { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+#standings li .n { width: 14px; opacity: 0.8; text-align: right; }
+#standings li .sw { width: 10px; height: 10px; border-radius: 3px; border: 1px solid rgba(255,255,255,.7); flex: none; }
+#standings li .nm { flex: 1; letter-spacing: 0.05em; }
+#standings li .gap { opacity: 0.8; font-size: 12px; }
+#standings li.me { color: #ffe08a; font-weight: bold; }
+#countdown {
+  position: absolute; top: 24%; left: 0; right: 0; text-align: center; font-size: clamp(90px, 20vw, 190px); font-weight: bold;
+  font-style: italic; opacity: 0; text-shadow: 0 6px 0 #0b4f8a, 0 14px 40px rgba(0, 0, 0, 0.4);
+}
+#countdown.show { animation: count 0.9s ease-out forwards; }
+#countdown.go { color: #6dff8f; }
+@keyframes count { 0% { opacity: 0; transform: scale(1.8); } 15% { opacity: 1; transform: scale(1); } 75% { opacity: 1; } 100% { opacity: 0; transform: scale(0.85); } }
+
+#finish { cursor: default; background: linear-gradient(180deg, rgba(10, 40, 80, 0.35), rgba(3, 30, 60, 0.75)); }
+.finish-panel { background: rgba(0, 20, 45, 0.55); border-radius: 22px; padding: 22px 30px 18px; max-height: 96vh; overflow: auto; }
+.finish-kicker { font-size: 14px; letter-spacing: 0.4em; opacity: 0.85; }
+#finish-place { margin: 0; font-size: clamp(56px, 13vw, 110px); font-style: italic; line-height: 1; text-shadow: 0 4px 0 #0b4f8a, 0 10px 30px rgba(0,0,0,.35); }
+#finish-place.win { color: #ffcc33; }
+#finish .tag { margin: 6px 0 14px; }
+.finish-stats { display: flex; gap: 26px; justify-content: center; margin-bottom: 14px; }
+.finish-stats span { display: block; font-size: 11px; letter-spacing: 0.2em; opacity: 0.8; }
+.finish-stats b { font-size: 24px; font-style: italic; font-variant-numeric: tabular-nums; }
+#finish-table { margin: 0 auto 18px; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; min-width: min(380px, 84vw); }
+#finish-table td { padding: 4px 10px; text-align: left; border-bottom: 1px solid rgba(255,255,255,.12); }
+#finish-table td.r { text-align: right; }
+#finish-table td.p { font-weight: bold; font-style: italic; width: 40px; }
+#finish-table tr.me td { color: #ffe08a; font-weight: bold; }
+#finish-table .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 8px; vertical-align: -1px; border: 1px solid rgba(255,255,255,.7); }
+#finish-table .racing { opacity: 0.6; font-style: italic; }
+.hint { font-size: 13px; opacity: 0.75; margin: 12px 0 0; }
+
+/* touch: the right side belongs to speed, minimap and the buttons, so position goes under the score */
+body.touch #pos-box { left: 18px; right: auto; top: 112px; text-align: left; }
+body.touch #standings { display: none; }
+@media (max-width: 700px) { body.touch #pos-box { top: 190px; } }
+@media (max-height: 500px) {
+  h1 { font-size: 44px; }
+  .tag { margin: 4px 0 8px; font-size: 16px; }
+  .tip { display: none; }
+  .controls { line-height: 1.6; padding: 8px 16px; font-size: 13px; }
+  .panel { padding: 10px 20px; }
+  .go { padding: 10px 28px; font-size: 18px; }
+  .finish-panel { padding: 10px 20px; }
+  #finish-place { font-size: 48px; }
+  #finish-table td { padding: 1px 8px; }
+  .finish-stats { margin-bottom: 6px; }
+  #finish-table { margin-bottom: 8px; }
+}
+@media (max-width: 700px) {
+  .pos-main { font-size: 44px; }
+  #pos-sfx { font-size: 20px; }
+  #standings { display: none; }
+  .finish-stats { gap: 16px; }
+  .finish-stats b { font-size: 19px; }
+  #finish-table { font-size: 13px; }
+}
+body.finished #toast, body.finished #air, body.finished #split, body.finished #wrongway, body.finished .race-box { visibility: hidden; }
