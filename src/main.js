@@ -1,13 +1,14 @@
 import "./style.css";
 import * as THREE from "three";
-import { newRide, stepRide, waveHeight, BOOST_SPEED } from "./physics.js";
+import { waveHeight, BOOST_SPEED } from "./physics.js";
 import {
   createWorld,
   createJetSki,
   createBuoys,
   createSpray,
 } from "./world.js";
-import { COURSE, GATES, RAMPS, newRace, stepRace, formatLap } from "./course.js";
+import { COURSE, GATES, RAMPS, formatLap } from "./course.js";
+import { RIDERS, RACE_LAPS, newCompetition, stepCompetition, standings } from "./racers.js";
 import { createRamps } from "./ramps.js";
 import { createAudio } from "./audio.js";
 
@@ -25,6 +26,12 @@ try {
 const { renderer, scene, camera, ocean, sky, birds } = world;
 const { root: ski, rider } = createJetSki();
 scene.add(ski);
+const opponents = RIDERS.slice(1).map(({ color }) => {
+  const model = createJetSki(color);
+  model.root.visible = false;
+  scene.add(model.root);
+  return { ...model, spray: createSpray(scene, 500) };
+});
 const buoys = createBuoys(scene);
 const ramps = createRamps(scene);
 const spray = createSpray(scene);
@@ -41,14 +48,15 @@ const touches = new Set();
 const coarse =
   window.matchMedia("(pointer: coarse)").matches ||
   navigator.maxTouchPoints > 0;
-let ride = newRide();
+let competition = newCompetition();
+let ride = competition.racers[0].ride;
 let mode = "landing",
   previousMode = "landing";
 let time = 8,
   lastFrame = 0,
   accumulator = 0,
   frameCount = 0;
-let race = newRace();
+let race = competition.racers[0].race;
 let toastTimeout,
   calloutTimeout;
 let shake = 0,
@@ -81,6 +89,7 @@ const map = $("course-map");
 map.innerHTML = `<polyline class="map-course" points="${[...COURSE, COURSE[0]].map(([x, z]) => `${x},${z}`).join(" ")}" />
   ${GATES.map((gate, i) => `<circle class="map-gate" data-gate="${i}" cx="${gate.x}" cy="${gate.z}" r="11" /><text x="${gate.x + 19}" y="${gate.z + 7}">${i === 0 ? "S/F" : i}</text>`).join("")}
   ${RAMPS.map((ramp) => `<path class="map-ramp" d="M-12 12 L0 -15 L12 12" transform="translate(${ramp.x} ${ramp.z}) rotate(${-ramp.heading * 180 / Math.PI})" />`).join("")}
+  ${RIDERS.slice(1).map((rider, i) => `<circle id="map-opponent-${i}" class="map-opponent" r="9" fill="${rider.color}" />`).join("")}
   <path id="map-rider" d="M0 -15 L10 11 L0 6 L-10 11 Z" />`;
 const mapGates = [...map.querySelectorAll(".map-gate")];
 
@@ -122,25 +131,25 @@ function saveBest() {
 
 function startRide() {
   clearInput();
-  ride = newRide();
-  ride.y = waveHeight(ride.x, ride.z, time) + 0.47;
-  race = newRace(race.bestLap);
+  competition = newCompetition(race.bestLap, time);
+  ({ ride, race } = competition.racers[0]);
   mode = "playing";
   cameraInitialized = false;
   shake = 0;
   clearTimeout(calloutTimeout);
   $("jump-callout").classList.remove("visible");
   document.body.classList.add("playing");
-  for (const id of ["landing", "landing-footer", "world-tag", "modal"])
+  for (const id of ["landing", "landing-footer", "world-tag", "modal", "finish"])
     $(id).classList.add("hidden");
   $("hud").classList.remove("hidden");
   $("pause").classList.remove("hidden");
+  $("help").classList.remove("hidden");
   if (coarse) $("touch-controls").classList.remove("hidden");
   $("route-hint").textContent = "Cross the checkered gate to start.";
   toast(
     coarse
-      ? "Hold GO. Race the gates, jump the ramps, or roam."
-      : "Hold W or ↑. Race the gates, jump the ramps, or roam.",
+      ? "GO! Hold GO. Two laps. Three rivals. Make waves."
+      : "GO! Hold W or ↑. Two laps. Three rivals. Make waves.",
   );
   updateHUD();
 }
@@ -172,7 +181,7 @@ function closeModal() {
     startRide();
     return;
   }
-  mode = "playing";
+  mode = previousMode;
   $("modal").classList.add("hidden");
   if (coarse) $("touch-controls").classList.remove("hidden");
   $("pause").focus({ preventScroll: true });
@@ -185,6 +194,17 @@ $("resume").addEventListener("click", closeModal);
 $("restart").addEventListener("click", () => {
   saveBest();
   startRide();
+});
+$("race-again").addEventListener("click", startRide);
+$("free-ride").addEventListener("click", () => {
+  mode = "roaming";
+  clearInput();
+  $("finish").classList.add("hidden");
+  $("pause").classList.remove("hidden");
+  $("help").classList.remove("hidden");
+  if (coarse) $("touch-controls").classList.remove("hidden");
+  $("route-hint").textContent = "Race complete. The rest of the ocean is yours. R to race again.";
+  $("pause").focus({ preventScroll: true });
 });
 $("sound").addEventListener("click", () => {
   try {
@@ -216,21 +236,21 @@ window.addEventListener("keydown", (event) => {
     event.preventDefault();
     if (event.repeat) return;
     if (mode === "paused") closeModal();
-    else if (mode === "playing") openModal();
+    else if (mode === "playing" || mode === "roaming") openModal();
     return;
   }
-  if (event.code === "KeyR" && mode === "playing" && !event.repeat) {
+  if (event.code === "KeyR" && ["playing", "roaming", "finished"].includes(mode) && !event.repeat) {
     saveBest();
     startRide();
     return;
   }
-  if (gameKeys.includes(event.code) && mode === "playing") {
+  if (gameKeys.includes(event.code) && (mode === "playing" || mode === "roaming")) {
     event.preventDefault();
     keys.add(event.code);
     updateInput();
   }
-  if (mode === "paused" && event.code === "Tab") {
-    const buttons = [...$("modal").querySelectorAll("button:not(.hidden)")];
+  if ((mode === "paused" || mode === "finished") && event.code === "Tab") {
+    const buttons = [...$(mode === "finished" ? "finish" : "modal").querySelectorAll("button:not(.hidden)")];
     const first = buttons[0],
       last = buttons.at(-1);
     if (event.shiftKey && document.activeElement === first) {
@@ -248,10 +268,10 @@ window.addEventListener("keyup", (event) => {
 });
 window.addEventListener("blur", () => {
   clearInput();
-  if (mode === "playing") openModal();
+  if (mode === "playing" || mode === "roaming") openModal();
 });
 document.addEventListener("visibilitychange", () => {
-  if (document.hidden && mode === "playing") openModal();
+  if (document.hidden && (mode === "playing" || mode === "roaming")) openModal();
 });
 for (const button of document.querySelectorAll("[data-control]")) {
   const control = button.dataset.control;
@@ -278,13 +298,20 @@ function updateHUD() {
   $("speed").textContent = Math.round(ride.speed * 3.6);
   $("air-time").innerHTML = `${ride.totalAirTime.toFixed(1)}<span>s</span>`;
   $("best-jump").innerHTML = `${ride.bestJump.toFixed(1)}<span>m</span>`;
-  $("buoy-count").innerHTML =
-    `${String(race.started ? race.nextGate === 0 ? 8 : race.nextGate : 0).padStart(2, "0")}<span>/ 08</span>`;
-  $("lap-number").textContent = race.started ? `LAP ${String(race.lap).padStart(2, "0")}` : "READY TO RACE";
-  $("lap-time").textContent = formatLap(race.elapsed);
+  const order = standings(competition);
+  const position = order.findIndex((racer) => racer.id === 0) + 1;
+  $("race-position").innerHTML = `${position}<span>/ ${order.length}</span>`;
+  $("compact-position").textContent = `POS ${position} / ${order.length}`;
+  $("lap-number").textContent = race.started ? `LAP ${Math.min(race.lap, RACE_LAPS)} / ${RACE_LAPS}` : `2 LAP RACE`;
+  $("lap-time").textContent = formatLap(competition.racers[0].finishTime !== null ? race.lastLap : race.elapsed);
   $("best-lap").textContent = formatLap(race.bestLap);
   $("last-lap").textContent = race.lastLap === null ? "NO LAPS YET" : `LAST ${formatLap(race.lastLap)}`;
-  $("race-status").textContent = !race.started ? "CROSS START / FINISH" : race.nextGate === 0 ? "NEXT: START / FINISH" : `NEXT: GATE ${race.nextGate} / 7`;
+  $("race-status").textContent = competition.racers[0].finishTime !== null ? "RACE COMPLETE" : !race.started ? "CROSS START / FINISH" : race.nextGate === 0 ? "NEXT: START / FINISH" : `NEXT: GATE ${race.nextGate} / 7`;
+  $("race-order").innerHTML = order.map((racer, i) => `<li class="${racer.id === 0 ? "you" : ""}"><span>${i + 1}</span><i style="background:${racer.color}"></i><span>${racer.name}</span>${racer.finishTime !== null ? "<span>FIN</span>" : ""}</li>`).join("");
+  competition.racers.slice(1).forEach(({ ride: rival }, i) => {
+    $("map-opponent-" + i).setAttribute("cx", rival.x);
+    $("map-opponent-" + i).setAttribute("cy", rival.z);
+  });
   $("boost-fill").style.width = `${ride.boost * 100}%`;
   $("ride-state").textContent = ride.airborne
     ? "AIRBORNE"
@@ -315,13 +342,12 @@ function updateHUD() {
   $("map-rider").setAttribute("transform", `translate(${Math.max(-435, Math.min(130, ride.x))} ${Math.max(-385, Math.min(265, ride.z))}) rotate(${-ride.heading * 180 / Math.PI})`);
 }
 
-function updateCourse(previous, dt) {
-  const event = stepRace(race, previous, ride, dt);
+function updateCourse(event) {
   if (!event) return;
   audio.chime();
   if (event.type === "start") toast("LAP 01 STARTED. Find your line.");
   else if (event.type === "lap") {
-    toast(`${event.record ? "NEW BEST LAP" : "LAP COMPLETE"}: ${formatLap(race.lastLap)}. Keep it flowing.`);
+    toast(`${event.record ? "NEW BEST LAP" : "LAP COMPLETE"}: ${formatLap(race.lastLap)}. ${race.lap <= RACE_LAPS ? "Final lap. Bring it home." : "Race complete."}`);
     if (event.record) {
       try {
         localStorage.setItem("tideline-circuit-v1-best", String(race.bestLap));
@@ -336,11 +362,35 @@ function updateCourse(previous, dt) {
   updateHUD();
 }
 
+function finishRace() {
+  mode = "finished";
+  clearInput();
+  saveBest();
+  clearTimeout(calloutTimeout);
+  $("jump-callout").classList.remove("visible");
+  for (const id of ["touch-controls", "pause", "help"]) $(id).classList.add("hidden");
+  const order = standings(competition);
+  const position = order.findIndex((racer) => racer.id === 0) + 1;
+  $("finish-title").textContent = position === 1 ? "MADE WAVES." : "WHAT A RIDE.";
+  $("finish-summary").textContent = `You finished ${position} / ${order.length} in ${formatLap(competition.racers[0].finishTime)}. Two laps, all gates cleared.`;
+  $("finish-results").innerHTML = order.map((racer, i) => `<li class="${racer.id === 0 ? "you" : ""}"><b>${i + 1}</b><i style="background:${racer.color}"></i><strong>${racer.name}</strong><span>${racer.finishTime !== null ? formatLap(racer.finishTime) : `LAP ${racer.race.started ? racer.race.lap : 1} / ${RACE_LAPS}`}</span></li>`).join("");
+  $("finish").classList.remove("hidden");
+  updateHUD();
+  $("race-again").focus();
+}
+
 function step(dt) {
   time += dt;
-  if (mode === "playing") {
-    const previous = { x: ride.x, z: ride.z };
-    const events = stepRide(ride, input, time, dt);
+  if (mode === "playing" || mode === "roaming") {
+    const result = stepCompetition(competition, input, time, dt);
+    const events = result.events[0];
+    for (const impact of result.impacts) {
+      if ((impact.a === 0 || impact.b === 0) && impact.impulse > 1)
+        shake = Math.max(shake, Math.min(0.5, impact.impulse * 0.035));
+    }
+    result.events.slice(1).forEach((event, i) => {
+      if (event.landed && !event.landedOnRamp) opponents[i].spray.emit(competition.racers[i + 1].ride, 60, true);
+    });
     if (events.launched) {
       clearTimeout(calloutTimeout);
       $("jump-callout").classList.add("visible");
@@ -372,7 +422,10 @@ function step(dt) {
       );
       saveBest();
     }
-    updateCourse(previous, dt);
+    if (mode === "playing") {
+      updateCourse(result.courseEvents[0]);
+      if (competition.racers[0].finishTime !== null) finishRace();
+    }
   } else if (mode === "landing") {
     ride.heading = -0.15;
     ride.speed = 5;
@@ -390,14 +443,24 @@ function animate(timestamp) {
   requestAnimationFrame(animate);
   const dt = Math.min((timestamp - lastFrame) / 1000 || 1 / 60, 0.1);
   lastFrame = timestamp;
-  if (mode !== "paused") {
+  if (mode !== "paused" && mode !== "finished") {
     accumulator += dt;
     while (accumulator >= 1 / 90) {
       step(1 / 90);
       accumulator -= 1 / 90;
     }
     spray.update(ride, time, dt, true);
+    opponents.forEach((model, i) => model.spray.update(competition.racers[i + 1].ride, time, dt, mode === "playing" || mode === "roaming"));
   }
+  opponents.forEach((model, i) => {
+    const rival = competition.racers[i + 1].ride;
+    model.root.visible = mode !== "landing" && !(mode === "paused" && previousMode === "landing");
+    model.root.position.set(rival.x, rival.y, rival.z);
+    model.root.rotation.set(0, rival.heading, 0);
+    model.root.rotateX(rival.pitch);
+    model.root.rotateZ(rival.roll);
+    model.rider.rotation.z = rival.steering * 0.08;
+  });
   ski.position.set(ride.x, ride.y, ride.z);
   ski.rotation.set(0, ride.heading, 0);
   ski.rotateX(ride.pitch);
@@ -482,10 +545,10 @@ function animate(timestamp) {
       bird.children[j].rotation.z =
         (j ? 1 : -1) * (0.2 + Math.sin(time * 3 + i) * 0.18);
   }
-  audio.update(ride, mode === "playing");
+  audio.update(ride, mode === "playing" || mode === "roaming");
   hudTime += dt;
   if (hudTime > 0.08) {
-    if (mode === "playing") updateHUD();
+    if (mode === "playing" || mode === "roaming") updateHUD();
     hudTime = 0;
   }
   renderer.render(scene, camera);
@@ -525,6 +588,12 @@ window.__tideline = {
       mode, time, ...ride,
       rampContact: ride.rampContact ? { ...ride.rampContact } : null,
       collected: race.nextGate, lap: race.lap, race: { ...race }, frameCount,
+      raceElapsed: competition.elapsed,
+      position: standings(competition).findIndex((racer) => racer.id === 0) + 1,
+      racers: competition.racers.map(({ id, name, color, ride: state, race: progress, finishTime }) => ({
+        id, name, color, ...state, rampContact: state.rampContact ? { ...state.rampContact } : null,
+        race: { ...progress }, finishTime,
+      })),
     };
   },
   get rendererInfo() {

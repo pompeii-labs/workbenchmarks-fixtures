@@ -54,6 +54,8 @@ export function newRide() {
     y: 0,
     heading: 0,
     speed: 0,
+    pushX: 0,
+    pushZ: 0,
     verticalSpeed: 0,
     pitch: 0,
     roll: 0,
@@ -97,7 +99,9 @@ export function stepRide(ride, input, time, dt) {
           dt,
     ),
   );
-  const steerInput = (input.left ? 1 : 0) - (input.right ? 1 : 0);
+  const steerInput = input.steer === undefined
+    ? (input.left ? 1 : 0) - (input.right ? 1 : 0)
+    : Math.max(-1, Math.min(1, input.steer));
   ride.steering += (steerInput - ride.steering) * Math.min(1, dt * 7);
   ride.heading +=
     ride.steering *
@@ -106,8 +110,11 @@ export function stepRide(ride, input, time, dt) {
     dt;
   const dx = -Math.sin(ride.heading);
   const dz = -Math.cos(ride.heading);
-  ride.x += dx * ride.speed * dt;
-  ride.z += dz * ride.speed * dt;
+  ride.x += (dx * ride.speed + ride.pushX) * dt;
+  ride.z += (dz * ride.speed + ride.pushZ) * dt;
+  const grip = Math.exp(-dt * (ride.airborne ? 0.25 : 1.8));
+  ride.pushX *= grip;
+  ride.pushZ *= grip;
   ride.distance += ride.speed * dt;
   const sea = waveHeight(ride.x, ride.z, time);
   const surfaceY = sea + 0.47;
@@ -253,4 +260,57 @@ export function stepRide(ride, input, time, dt) {
     (-ride.steering * Math.min(ride.speed / MAX_SPEED, 1) * 0.4 - ride.roll) *
     Math.min(1, dt * 5);
   return { launched: !wasAirborne && ride.airborne, landed, landedOnRamp };
+}
+
+// Three overlapping discs approximate the long hull, rather than a wide sphere.
+// Equal-mass impulses exchange actual world velocity; lateral momentum survives
+// steering and is gradually absorbed by water grip in stepRide.
+export function resolveRideCollisions(rides) {
+  const impacts = [];
+  for (let iteration = 0; iteration < 4; iteration++) {
+    for (let a = 0; a < rides.length; a++) {
+      for (let b = a + 1; b < rides.length; b++) {
+        const first = rides[a], second = rides[b];
+        if (Math.abs(first.y - second.y) > 1.5 ||
+            Math.hypot(first.x - second.x, first.z - second.z) > 4) continue;
+        let contact = null;
+        for (const front of [-1, 0, 1]) {
+          for (const back of [-1, 0, 1]) {
+            const x = second.x - Math.sin(second.heading) * back -
+              first.x + Math.sin(first.heading) * front;
+            const z = second.z - Math.cos(second.heading) * back -
+              first.z + Math.cos(first.heading) * front;
+            const distance = Math.hypot(x, z);
+            if (distance < 1.8 && (!contact || distance < contact.distance))
+              contact = { x, z, distance };
+          }
+        }
+        if (!contact) continue;
+        const nx = contact.distance > 1e-8 ? contact.x / contact.distance : 1;
+        const nz = contact.distance > 1e-8 ? contact.z / contact.distance : 0;
+        const correction = Math.max(0, 1.8 - contact.distance - 0.001) * 0.5;
+        first.x -= nx * correction;
+        first.z -= nz * correction;
+        second.x += nx * correction;
+        second.z += nz * correction;
+        const vx = -Math.sin(second.heading) * second.speed + second.pushX +
+          Math.sin(first.heading) * first.speed - first.pushX;
+        const vz = -Math.cos(second.heading) * second.speed + second.pushZ +
+          Math.cos(first.heading) * first.speed - first.pushZ;
+        const closing = vx * nx + vz * nz;
+        if (closing >= 0) continue;
+        const impulse = -closing * 1.22 / 2;
+        for (const [body, sign] of [[first, -1], [second, 1]]) {
+          const dx = -Math.sin(body.heading), dz = -Math.cos(body.heading);
+          const x = dx * body.speed + body.pushX + sign * nx * impulse;
+          const z = dz * body.speed + body.pushZ + sign * nz * impulse;
+          body.speed = Math.max(0, x * dx + z * dz);
+          body.pushX = x - dx * body.speed;
+          body.pushZ = z - dz * body.speed;
+        }
+        impacts.push({ a, b, impulse });
+      }
+    }
+  }
+  return impacts;
 }

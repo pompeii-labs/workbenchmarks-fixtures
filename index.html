@@ -74,8 +74,8 @@
         </div>
         <h1>MAKE<br /><span>WAVES.</span></h1>
         <p>
-          No roads. No rules. Just you, a jet ski,<br class="desktop-break" />
-          and a whole lot of ocean.
+          Three rivals. Two laps. A whole lot of ocean.<br class="desktop-break" />
+          Find your line. Make it yours.
         </p>
         <button id="start" class="primary-button">
           LET’S RIDE
@@ -115,12 +115,12 @@
             ><strong id="best-jump">0.0<span>m</span></strong>
           </div>
           <div>
-            <span class="stat-label">GATES</span
-            ><strong id="buoy-count">00<span>/ 08</span></strong>
+            <span class="stat-label">POSITION</span
+            ><strong id="race-position" aria-label="Race position">1<span>/ 4</span></strong>
           </div>
         </div>
         <div class="race-timing" aria-label="Lap timing">
-          <div class="race-timing-heading"><span id="lap-number">READY TO RACE</span><span id="last-lap">NO LAPS YET</span></div>
+          <div class="race-timing-heading"><span id="lap-number">READY TO RACE</span><span id="compact-position" aria-label="Race position"></span><span id="last-lap">NO LAPS YET</span></div>
           <strong id="lap-time" aria-label="Current lap time">00:00.00</strong>
           <div class="best-lap-row"><span>BEST LAP</span><strong id="best-lap">--:--.--</strong></div>
           <span id="race-status">CROSS START / FINISH</span>
@@ -135,9 +135,9 @@
         </div>
         <div class="course-chart">
           <div class="chart-heading"><span>THE LONG WAY ROUND</span><span>01</span></div>
-          <svg id="course-map" viewBox="-450 -405 610 700" role="img" aria-label="Eight-gate course map, two jump ramps, and your position"></svg>
+          <svg id="course-map" viewBox="-450 -405 610 700" role="img" aria-label="Eight-gate course map, two jump ramps, and all four racers"></svg>
           <div class="chart-legend"><span><i></i> NEXT GATE</span><span>△ JUMP</span></div>
-          <p>Race the clock. Or leave it behind.</p>
+          <ol id="race-order" aria-label="Live race standings"></ol>
         </div>
         <div class="speed-panel">
           <div class="speed-label">
@@ -227,15 +227,27 @@
             <div><span>Reset ride</span><kbd>R</kbd></div>
           </div>
           <p class="tip">
-            Cross between the checkered buoys to start a timed lap. Pass gates
-            1-7 in order, then cross start / finish again. Follow the map and
+            Race three rivals over two laps. Cross between the checkered buoys,
+            pass gates 1-7 in order, then cross start / finish again. Follow the map and
             numbered flags; approach each gate along the course direction.
             Hit the striped ramps at speed for big air. Boost goes bigger.
+            Bumps transfer momentum, so leave room at the jumps.
             Best lap saves on this device. The rest of the ocean is still yours.
           </p>
           <button id="resume" class="primary-button">
             BACK TO THE WATER <span>↗</span></button
           ><button id="restart" class="text-button">START A FRESH RIDE</button>
+        </div>
+      </div>
+      <div id="finish" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="finish-title" aria-describedby="finish-summary">
+        <div class="modal-card finish-card">
+          <span class="eyebrow">THE SALTWATER CIRCUIT / RESULTS</span>
+          <h2 id="finish-title">MADE WAVES.</h2>
+          <p id="finish-summary"></p>
+          <ol id="finish-results" aria-label="Race results"></ol>
+          <p class="tip">Standings at your finish. Riders still on course are ranked by gates cleared and distance along the current leg.</p>
+          <button id="race-again" class="primary-button">RACE AGAIN <span>↗</span></button>
+          <button id="free-ride" class="text-button">KEEP EXPLORING</button>
         </div>
       </div>
       <div id="loading" class="loading">

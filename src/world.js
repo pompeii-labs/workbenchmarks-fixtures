@@ -241,10 +241,10 @@ function hullGeometry(sections) {
   return geometry;
 }
 
-export function createJetSki() {
+export function createJetSki(color = coral) {
   const root = new THREE.Group();
   const white = material(cream, 0.3);
-  const orange = material(coral, 0.27);
+  const orange = material(color, 0.27);
   const dark = material(navy, 0.55);
   const black = material(0x152c31, 0.8);
   const chrome = material(0xa0b9b4, 0.3, 0.65);
@@ -340,7 +340,7 @@ export function createJetSki() {
   const rider = new THREE.Group();
   const skin = material(0xd69f72, 0.85);
   const shorts = material(0x294e54, 0.9);
-  const vest = material(0xf6c273, 0.85);
+  const vest = material(color === coral ? 0xf6c273 : color, 0.85);
   const hair = material(0x3b302b, 1);
   // Limb meshes connect explicit joints so hands stay on the handlebars.
   function limb(a, b, r, mat) {

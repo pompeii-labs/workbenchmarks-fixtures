@@ -403,6 +403,10 @@ kbd {
   font-size: 7px;
   opacity: 0.65;
 }
+#compact-position {
+  display: none;
+  color: var(--orange);
+}
 #lap-time {
   display: block;
   font-family: "Barlow Condensed", Impact, sans-serif;
@@ -475,6 +479,55 @@ kbd {
   fill: var(--ink);
   stroke: var(--paper);
   stroke-width: 3;
+}
+.map-opponent {
+  stroke: var(--paper);
+  stroke-width: 3;
+}
+#race-order,
+#finish-results {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  font-variant-numeric: tabular-nums;
+}
+#race-order li,
+#finish-results li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  border-top: 1px solid #173e4020;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+#race-order i,
+#finish-results i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+#race-order li.you,
+#finish-results li.you {
+  color: var(--orange);
+  font-weight: 700;
+}
+#race-order li > span:last-child:not(:nth-child(3)) {
+  margin-left: auto;
+  font-size: 7px;
+}
+#finish-results li {
+  padding: 14px 0;
+  font-size: 11px;
+}
+#finish-results li > span {
+  margin-left: auto;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+.finish-card {
+  width: 460px;
 }
 .chart-legend {
   font-size: 6px;
@@ -911,6 +964,9 @@ h2 {
   }
 }
 @media (max-width: 600px) {
+  #race-order {
+    display: none;
+  }
   #app {
     min-height: 380px;
   }
@@ -1251,6 +1307,12 @@ h2 {
   }
 }
 @media (max-height: 450px) {
+  #compact-position {
+    display: inline;
+  }
+  #last-lap {
+    display: none;
+  }
   .topbar {
     padding-top: 12px;
     padding-bottom: 12px;
