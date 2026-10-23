@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0b4557" />
+    <meta
+      name="description"
+      content="Chase the swell. A fast, splashy, open-water jet ski game. No finish line. Just one more wave."
+    />
+    <title>WAKE RUN / Open Water Club</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  </head>
+  <body>
+    <main id="game">
+      <canvas id="ocean" aria-label="3D jet ski game on open water"></canvas>
+      <div class="vignette" aria-hidden="true"></div>
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="Wake Run home">
+          <span class="brand-symbol" aria-hidden="true"
+            ><svg viewBox="0 0 32 32">
+              <path
+                d="M5 20c4-10 7-10 11 0M14 20c4-10 7-10 11 0M5 25h22"
+              /></svg
+          ></span>
+          <span
+            >WAKE<span class="brand-slash">/</span>RUN<small
+              >OPEN WATER CLUB</small
+            ></span
+          >
+        </a>
+        <div class="mode-pill">
+          <span class="live-dot"></span> FREE RIDE
+          <span class="pill-divider">/</span> ENDLESS SUMMER
+        </div>
+        <nav class="top-actions" aria-label="Game settings">
+          <button
+            id="sound-button"
+            class="icon-button"
+            aria-label="Turn sound on"
+            title="Sound (M)"
+          >
+            <svg id="sound-icon" viewBox="0 0 24 24">
+              <path d="M11 5 6 9H3v6h3l5 4V5ZM16 9l6 6m0-6-6 6" />
+            </svg>
+          </button>
+          <button
+            id="pause-button"
+            class="icon-button"
+            aria-label="Pause game"
+            title="Pause (P)"
+            disabled
+          >
+            <svg viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" /></svg>
+          </button>
+        </nav>
+      </header>
+
+      <section id="intro" class="intro">
+        <div class="eyebrow"><span></span> NO TRACK. NO LIMITS.</div>
+        <h1>CHASE<br />THE <span>SWELL.</span></h1>
+        <p>
+          Salt in the air. Nothing ahead but water.<br />Open it up and make a
+          little chaos.
+        </p>
+        <button id="start-button" class="start-button">
+          LET'S RIDE <span>↗</span>
+        </button>
+        <div class="intro-controls">
+          <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> DRIVE</span
+          ><span><kbd>SPACE</kbd> BOOST</span>
+        </div>
+      </section>
+
+      <div id="scene-label" class="scene-label">
+        <span class="label-line"></span
+        ><span
+          >THE BREAKWATER<small
+            >28° N / 80° W &nbsp; · &nbsp; ALWAYS GOLDEN</small
+          ></span
+        >
+      </div>
+      <div id="intro-footer" class="intro-footer">
+        <span>A LITTLE ESCAPE. A LOT OF THROTTLE.</span
+        ><span>01 / OPEN OCEAN <span class="tiny-arrow">↗</span></span>
+      </div>
+
+      <section id="hud" class="hud" hidden aria-label="Game dashboard">
+        <div class="session-stats">
+          <div class="stat">
+            <span class="stat-label">SESSION SCORE</span
+            ><strong id="score">00000</strong>
+          </div>
+          <div class="stat stat-small">
+            <span class="stat-label">BEST AIR</span
+            ><strong><span id="best-air">0.0</span><small> M</small></strong>
+          </div>
+          <div class="stat stat-small">
+            <span class="stat-label">GATES</span><strong id="gates">00</strong>
+          </div>
+        </div>
+        <div class="objective">
+          <span class="objective-dot"></span>
+          <div>
+            TAKE THE LONG WAY HOME<small id="objective-text"
+              >Follow the blue gates. Or don't.</small
+            >
+          </div>
+        </div>
+        <div id="air-callout" class="air-callout" aria-live="polite">
+          <span id="air-label">AIR TIME</span
+          ><strong id="air-height">0.0<small>M</small></strong>
+          <div id="air-detail">LET IT FLY</div>
+        </div>
+        <div id="toast" class="toast" role="status"></div>
+        <div class="bottom-hud">
+          <div class="drive-help">
+            <span
+              ><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> DRIVE <i></i>
+              <kbd>SPACE</kbd> BOOST</span
+            ><small
+              ><span class="live-dot"></span> SWELL 1.8 M <b>/</b> WIND SE 12 KN
+              <b>/</b>
+              <button id="reset-button" title="Reset position (R)">
+                R RESET
+              </button></small
+            >
+          </div>
+          <div class="speed-panel">
+            <div class="speed-reading">
+              <span id="speed">0</span>
+              <div>KM/H<small id="speed-status">IDLE</small></div>
+            </div>
+            <div class="boost-track"><div id="boost-fill"></div></div>
+            <div class="boost-label">
+              <span>BOOST RESERVE</span><span id="boost-percent">100%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="touch-controls" class="touch-controls" hidden>
+        <div class="touch-steering">
+          <button data-control="left" aria-label="Steer left">‹</button
+          ><button data-control="right" aria-label="Steer right">›</button>
+        </div>
+        <div class="touch-throttle">
+          <button data-control="brake" aria-label="Brake">BRAKE</button
+          ><button data-control="boost" class="touch-boost" aria-label="Boost">
+            BOOST ↗</button
+          ><button data-control="gas" class="touch-gas" aria-label="Accelerate">
+            GAS
+          </button>
+        </div>
+      </div>
+
+      <section
+        id="pause-overlay"
+        class="overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="pause-title"
+        hidden
+      >
+        <div class="pause-card">
+          <div class="eyebrow">TAKE A BREATHER</div>
+          <h2 id="pause-title">WATER CAN WAIT.</h2>
+          <p>Your next wave isn't going anywhere.</p>
+          <button id="resume-button" class="start-button">
+            KEEP RIDING <span>↗</span></button
+          ><button id="restart-button" class="text-button">
+            START A FRESH SESSION
+          </button>
+          <div class="pause-keys">
+            WASD / ARROWS TO DRIVE · SPACE TO BOOST<br />P / ESC TO PAUSE · M
+            FOR SOUND · R TO RESET
+          </div>
+        </div>
+      </section>
+      <div id="loading" class="loading">
+        <span class="loading-ring"></span> FINDING A LITTLE OPEN WATER
+      </div>
+      <div id="error" class="error" hidden>
+        <h2>We're out of water.</h2>
+        <p>
+          This game needs WebGL. Please try a current browser with hardware
+          acceleration enabled.
+        </p>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
