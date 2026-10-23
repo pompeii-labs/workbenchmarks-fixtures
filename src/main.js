@@ -10,6 +10,8 @@ import { Particles, Wake, SPRAY, FOAM, MIST } from './particles.js';
 import { GameAudio } from './audio.js';
 import { Input } from './input.js';
 import { createIslands, Buoys, Rings } from './world.js';
+import { Track } from './track.js';
+import { RaceHud, fmtTime } from './racehud.js';
 
 const $ = (id) => document.getElementById(id);
 const rand = (a, b) => a + Math.random() * (b - a);
@@ -56,10 +58,15 @@ const buoys = new Buoys();
 scene.add(buoys.group);
 const rings = new Rings();
 scene.add(rings.group);
+const track = new Track();
+scene.add(track.group);
+// free-roam buoys stay off the race course
+const keepBuoy = (x, z) => track.nearest(x, z).d > 30;
 
 const ski = createJetSki();
 scene.add(ski);
 const player = new Player(ski);
+player.ground = track;
 
 const particles = new Particles(7000, colors, FOG);
 scene.add(particles.points);
@@ -112,12 +119,25 @@ if (isTouch) {
   input.bindTouch($('stick'), $('knob'), $('btn-hop'), $('btn-boost'));
 }
 
+function teleport(pose) {
+  player.respawn(state.t, pose);
+  wake.pts.length = 0;
+  camInit = false;
+}
+
+function restartRace() {
+  track.resetRace();
+  teleport(track.startPose());
+  race.reset();
+}
+
 function start() {
   if (state.started) return;
   state.started = true;
   $('title').classList.add('hidden');
   $('hud').classList.remove('hidden');
   audio.init();
+  restartRace();
 }
 $('title').addEventListener('click', start);
 $('title').addEventListener('touchend', (e) => {
@@ -134,7 +154,22 @@ input.onKey = (code) => {
     player.respawn(state.t);
     toast('RESET', '', 'small');
   }
+  if (code === 'KeyT' && state.started) {
+    restartRace();
+    toast('BACK TO THE START', 'ride through the arch to start a lap', 'small');
+  }
 };
+$('btn-restart')?.addEventListener('click', (e) => {
+  e.stopPropagation();
+  restartRace();
+  toast('BACK TO THE START', 'ride through the arch to start a lap', 'small');
+});
+$('btn-restart')?.addEventListener('touchend', (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  restartRace();
+  toast('BACK TO THE START', '', 'small');
+});
 $('btn-mute')?.addEventListener('click', (e) => {
   e.stopPropagation();
   audio.init();
@@ -182,7 +217,7 @@ function burst(x, y, z, n, power, spread = 1) {
 
 function emitRide(dt) {
   const p = player;
-  if (p.airborne) return;
+  if (p.airborne || p.onRamp) return;
   const s = Math.min(1.4, p.speed / 30);
   if (p.speed < 1.5) return;
   const fwd = p.fwd, right = p.right;
@@ -237,7 +272,10 @@ function emitRide(dt) {
 function handleEvents() {
   for (const ev of player.events) {
     if (ev.type === 'launch') {
-      if (ev.vy > 4) {
+      if (ev.ramp) {
+        burst(player.pos.x, player.pos.y - 0.5, player.pos.z, 50, 5);
+        audio.splash(0.35);
+      } else if (ev.vy > 4) {
         burst(player.pos.x - player.fwd.x * 1.5, player.pos.y, player.pos.z - player.fwd.z * 1.5, 30, 4);
         audio.splash(0.25);
       }
@@ -260,6 +298,7 @@ function handleEvents() {
       if (ev.flips) parts.push(Math.abs(ev.flips) > 1 ? `${Math.abs(ev.flips)}x BACKFLIP` : 'BACKFLIP');
       let name = parts.join(' + ');
       if (!name) name = ev.height > 6 ? 'HUGE AIR' : ev.height > 3 ? 'BIG AIR' : 'AIR';
+      if (ev.ramp && !ev.spins && !ev.flips) name = ev.height > 12 ? 'MEGA RAMP' : 'RAMP JUMP';
       let pts = Math.round(ev.airTime * 150 + ev.height * 40 + Math.abs(ev.spins) * 600 + Math.abs(ev.flips) * 1200);
       if (ev.sketchy) {
         pts = Math.round(pts * 0.3);
@@ -307,7 +346,45 @@ function collide() {
       }
     }
   }
+  for (const c of track.colliders) {
+    const dx = p.x - c.x, dz = p.z - c.z;
+    const d2 = dx * dx + dz * dz;
+    if (d2 < c.r * c.r && p.y < c.y + 3.6) {
+      const d = Math.sqrt(d2) || 1;
+      const nx = dx / d, nz = dz / d;
+      const vn = player.vel.x * nx + player.vel.z * nz;
+      if (vn < 0) {
+        player.vel.x -= 1.5 * vn * nx;
+        player.vel.z -= 1.5 * vn * nz;
+        if (-vn > 3) {
+          burst(c.x, p.y, c.z, 40, 4);
+          audio.splash(0.4);
+          state.shake = 0.3;
+        }
+      }
+      p.x = c.x + nx * c.r;
+      p.z = c.z + nz * c.r;
+    }
+  }
+  const wall = track.rampWall(p.x, p.z, p.y, state.t);
+  if (wall) {
+    p.x = wall.x;
+    p.z = wall.z;
+    const vn = player.vel.x * wall.nx + player.vel.z * wall.nz;
+    if (vn < 0) {
+      player.vel.x -= 1.5 * vn * wall.nx;
+      player.vel.z -= 1.5 * vn * wall.nz;
+      player.vel.x *= 0.7;
+      player.vel.z *= 0.7;
+      if (-vn > 4) {
+        burst(p.x, p.y, p.z, 60, 5);
+        audio.splash(0.6);
+        state.shake = 0.5;
+      }
+    }
+  }
   for (const b of buoys.items) {
+    if (b.hidden) continue;
     const dx = p.x - b.x, dz = p.z - b.z;
     const d2 = dx * dx + dz * dz;
     if (d2 < 1.6 * 1.6 && p.y < waveHeight(b.x, b.z, state.t) + 1.5) {
@@ -324,6 +401,34 @@ function collide() {
       }
       p.x = b.x + nx * 1.6;
       p.z = b.z + nz * 1.6;
+    }
+  }
+}
+
+// ---------- race ----------
+const race = new RaceHud(track, isTouch);
+function handleRace(events) {
+  for (const ev of events) {
+    if (ev.type === 'start') {
+      toast('GO!', `lap ${track.lap} · ${track.gates.length - 1} gates, then back through the arch`, 'ring');
+      audio.chime(1.2);
+    } else if (ev.type === 'gate') {
+      audio.beep(ev.delta !== null && ev.delta < 0 ? 1320 : 990);
+      addScore(100);
+      race.showSplit(ev);
+    } else if (ev.type === 'lap') {
+      let sub;
+      if (ev.best && ev.prevBest !== null) sub = `NEW BEST LAP! (-${(ev.prevBest - ev.time).toFixed(2)}s)`;
+      else if (ev.best) sub = 'BEST LAP SET';
+      else sub = `+${(ev.time - track.best).toFixed(2)}s off your best`;
+      toast(`LAP ${fmtTime(ev.time)}`, sub, ev.best ? 'trick' : 'ring');
+      audio.chime(ev.best ? 1.5 : 1.25);
+      if (ev.best) setTimeout(() => audio.chime(2), 180);
+      addScore(ev.best ? 3000 : 1000);
+      race.showLap(ev);
+    } else if (ev.type === 'missed') {
+      toast('MISSED GATE', 'turn back for the glowing gate', 'bad');
+      audio.beep(330);
     }
   }
 }
@@ -405,7 +510,7 @@ let demoT = 0;
 
 function frame(now) {
   requestAnimationFrame(frame);
-  let dt = Math.min(0.05, (now - last) / 1000);
+  let dt = Math.max(0, Math.min(0.05, (now - last) / 1000));
   last = now;
   if (document.hidden) return;
 
@@ -421,11 +526,13 @@ function frame(now) {
   acc += dt;
   let first = true;
   while (acc >= STEP) {
+    const x0 = player.pos.x, z0 = player.pos.z, t0 = state.t;
     player.step(STEP, state.t, first ? inp : { ...inp, hop: false });
     first = false;
     state.t += STEP;
     acc -= STEP;
     collide();
+    if (state.started) handleRace(track.update(x0, z0, player.pos.x, player.pos.z, t0, state.t));
   }
   handleEvents();
 
@@ -438,7 +545,7 @@ function frame(now) {
   state.wakeTimer -= dt;
   if (state.wakeTimer <= 0) {
     state.wakeTimer = 1 / 30;
-    const k = player.airborne ? 0 : Math.min(1, player.speed / 12);
+    const k = player.airborne || player.onRamp ? 0 : Math.min(1, player.speed / 12);
     wake.push(player.pos.x - player.fwd.x * 1.6, player.pos.z - player.fwd.z * 1.6, player.right.x * 0.5, player.right.z * 0.5, k);
   }
 
@@ -454,12 +561,13 @@ function frame(now) {
       particles.spawn(MIST, h.x + Math.cos(a) * 3, h.y + Math.sin(a) * 3, h.z, Math.cos(a) * 4, Math.sin(a) * 4, rand(-1, 1), 0.8, 0.8);
     }
   }
-  buoys.update(dt, state.t, player.pos.x, player.pos.z);
+  buoys.update(dt, state.t, player.pos.x, player.pos.z, keepBuoy);
+  track.animate(state.t);
   particles.update(dt, state.t, camera, renderer.domElement.height);
   wake.update(dt, state.t);
 
   // contact shadow
-  const sh = waveHeight(player.pos.x, player.pos.z, state.t);
+  const sh = track.groundHeight(player.pos.x, player.pos.z, state.t);
   const above = Math.max(0, player.pos.y - sh);
   shadow.position.set(player.pos.x, sh + 0.12, player.pos.z);
   shadow.rotation.z = player.heading + player.airSpin;
@@ -474,7 +582,10 @@ function frame(now) {
   sunLight.target.position.copy(player.pos);
 
   audio.update({ throttle: player.throttle, speed: player.speed, airborne: player.airborne, boosting: player.boosting });
-  if (state.started) updateHud(dt);
+  if (state.started) {
+    updateHud(dt);
+    race.update(dt, state.t, player);
+  }
   renderer.render(scene, camera);
 }
 requestAnimationFrame(frame);
@@ -486,4 +597,4 @@ window.addEventListener('resize', () => {
 });
 
 // for debugging in the console
-window.__game = { player, state, camera };
+window.__game = { player, state, camera, track, teleport };

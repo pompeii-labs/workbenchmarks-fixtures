@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#1f6fd1" />
     <title>Swell Rider - jet ski game</title>
-    <meta name="description" content="Ride a jet ski across choppy open water and launch off the swells. A small three.js browser game." />
+    <meta name="description" content="Ride a jet ski across choppy open water, race a buoy course and launch off ramps and swells. A small three.js browser game." />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%8A%3C/text%3E%3C/svg%3E" />
   </head>
   <body>
@@ -14,20 +14,21 @@
     <div id="title" class="overlay">
       <div class="panel">
         <h1>SWELL<span>RIDER</span></h1>
-        <p class="tag">Hit the swells. Catch air. Get wet.</p>
+        <p class="tag">Hit the swells. Race the buoys. Catch air.</p>
         <div class="controls desktop-only">
           <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / arrows <span>drive</span></div>
           <div><kbd>Shift</kbd> <span>boost</span></div>
           <div><kbd>Space</kbd> <span>hop</span></div>
           <div class="air">In the air: <kbd>A</kbd><kbd>D</kbd> <span>spin</span> &middot; <kbd>S</kbd> <span>backflip</span></div>
-          <div class="air"><kbd>M</kbd> <span>mute</span> &middot; <kbd>R</kbd> <span>reset</span></div>
+          <div class="air"><kbd>T</kbd> <span>back to the start line</span> &middot; <kbd>R</kbd> <span>reset</span> &middot; <kbd>M</kbd> <span>mute</span></div>
         </div>
         <div class="controls touch-only">
           <div>Left stick: steer (touch = gas, pull down = brake)</div>
           <div>HOP and BOOST buttons on the right</div>
           <div class="air">In the air: stick sideways to spin, down to backflip</div>
+          <div class="air">🏁 button: back to the start line</div>
         </div>
-        <p class="tip">Fly through the gold rings. Land clean to build your combo.</p>
+        <p class="tip">Race the buoy course: ride through the glowing gates in order and hit the ramps for big air.<br />Or ignore it and roam the open water. Gold rings and clean landings build your combo.</p>
         <button class="go">TAP / CLICK TO RIDE</button>
       </div>
     </div>
@@ -43,9 +44,18 @@
         <div><span id="speed">0</span><small>km/h</small></div>
         <div class="boost"><div id="boost-fill"></div></div>
       </div>
+      <div class="race-box">
+        <div class="race-main"><span class="label">LAP <b id="lap-n">-</b></span><span id="lap-time">0:00.00</span></div>
+        <div class="race-sub"><span>BEST <b id="lap-best">-:--.--</b></span><span>LAST <b id="lap-last">-:--.--</b></span></div>
+        <div id="gate-info"></div>
+        <div id="split"></div>
+      </div>
+      <canvas id="minimap"></canvas>
+      <div id="wrongway">WRONG WAY</div>
       <div id="air"></div>
       <div id="toast" class="toast"></div>
       <button id="btn-mute" title="Sound">🔊</button>
+      <button id="btn-restart" title="Back to the start line (T)">🏁</button>
       <div class="touch-ui">
         <div id="stick"><div id="knob"></div></div>
         <button id="btn-boost">BOOST</button>
