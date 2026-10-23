@@ -88,10 +88,18 @@ export class Buoys {
     }
   }
 
-  update(dt, t, px, pz) {
+  // keep(x, z) -> false hides a buoy there (e.g. on the race course)
+  update(dt, t, px, pz, keep = null) {
     for (const it of this.items) {
       it.x = it.bx + Math.round((px - it.bx) / TILE) * TILE;
       it.z = it.bz + Math.round((pz - it.bz) / TILE) * TILE;
+      if (keep && (it.kx !== it.x || it.kz !== it.z)) {
+        it.kx = it.x;
+        it.kz = it.z;
+        it.hidden = !keep(it.x, it.z);
+        it.g.visible = !it.hidden;
+      }
+      if (it.hidden) continue;
       const h = waveHeight(it.x, it.z, t);
       const hx = waveHeight(it.x + 0.8, it.z, t), hz = waveHeight(it.x, it.z + 0.8, t);
       it.tilt *= Math.exp(-2 * dt);

@@ -19,10 +19,23 @@ export const WAVES = DEFS.map(([a, len, amp, sm, ph, sharp, swell]) => {
   return { dx: Math.cos(a), dz: Math.sin(a), k, amp, w: Math.sqrt(G * k) * sm, ph, sharp: !!sharp, swell: !!swell };
 });
 
+// The race course sits in a slightly sheltered patch of sea: the big swells are
+// toned down over it (so you can actually make the turns) and build back up to
+// full open-water size outside. Must match COURSE_GLSL below.
+export const COURSE = { x: -175, z: 25, rx: 250, rz: 390, calm: 0.62 };
+const smoothstep = (a, b, x) => {
+  const u = Math.min(1, Math.max(0, (x - a) / (b - a)));
+  return u * u * (3 - 2 * u);
+};
+export function courseCalm(x, z) {
+  const dx = (x - COURSE.x) / COURSE.rx, dz = (z - COURSE.z) / COURSE.rz;
+  return COURSE.calm + (1 - COURSE.calm) * smoothstep(0.95, 1.7, Math.sqrt(dx * dx + dz * dz));
+}
+
 // Slowly drifting envelope that makes patches of the sea much bigger than others.
 export function swellEnvelope(x, z, t) {
   const e = 0.72 + 0.33 * Math.sin(0.0105 * x - 0.0042 * z + 0.06 * t) + 0.25 * Math.sin(-0.0051 * x + 0.0093 * z - 0.045 * t);
-  return Math.max(0.15, e);
+  return Math.max(0.15, e) * courseCalm(x, z);
 }
 
 export function waveHeight(x, z, t) {
@@ -43,8 +56,12 @@ export function waveHeight(x, z, t) {
 const f = (n) => n.toFixed(6);
 
 export const WAVE_GLSL = /* glsl */ `
+float courseCalm(vec2 p) {
+  vec2 d = (p - vec2(${f(COURSE.x)}, ${f(COURSE.z)})) / vec2(${f(COURSE.rx)}, ${f(COURSE.rz)});
+  return ${f(COURSE.calm)} + ${f(1 - COURSE.calm)} * smoothstep(0.95, 1.7, length(d));
+}
 float waveEnvelope(vec2 p, float t) {
-  return max(0.15, 0.72 + 0.33 * sin(0.0105 * p.x - 0.0042 * p.y + 0.06 * t) + 0.25 * sin(-0.0051 * p.x + 0.0093 * p.y - 0.045 * t));
+  return max(0.15, 0.72 + 0.33 * sin(0.0105 * p.x - 0.0042 * p.y + 0.06 * t) + 0.25 * sin(-0.0051 * p.x + 0.0093 * p.y - 0.045 * t)) * courseCalm(p);
 }
 float waveHeight(vec2 p, float t) {
   float env = waveEnvelope(p, t);

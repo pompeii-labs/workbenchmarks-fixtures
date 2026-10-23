@@ -8,6 +8,9 @@ const LIN_DRAG = 0.1;
 const QUAD_DRAG = (ACCEL - LIN_DRAG * 32) / (32 * 32); // ~32 m/s top speed, ~45 with boost
 const LAUNCH_MULT = 1.4;
 const HOP = 6.5;
+const RAMP_POP = 4; // launch speed off a ramp lip: RAMP_POP + speed * RAMP_POP_K, capped
+const RAMP_POP_K = 0.5;
+const RAMP_POP_MAX = 22;
 const TWO_PI = Math.PI * 2;
 
 const lerpRate = (a, b, rate, dt) => a + (b - a) * (1 - Math.exp(-rate * dt));
@@ -43,6 +46,11 @@ export class Player {
     this.slopeF = 0;
     this.slopeR = 0;
     this.events = [];
+    this.ground = null; // optional track with floating ramps
+    this.rampAllow = false;
+    this.onRamp = false;
+    this.wasOnRamp = false;
+    this.rampJump = false;
     this.fwd = new THREE.Vector3(0, 0, 1);
     this.right = new THREE.Vector3(-1, 0, 0);
     this.surface = this.sampleSurface(0);
@@ -56,14 +64,28 @@ export class Player {
   }
 
   // Hull-averaged surface: filters out small chop so the ski rides the swells.
+  // Ramp decks count as ground too (see Track.rampGround).
+  heightAt(x, z, t) {
+    const w = waveHeight(x, z, t);
+    if (!this.ground) return w;
+    return Math.max(w, this.ground.rampGround(x, z, t, this.rampAllow));
+  }
+
   sampleSurface(t, x = this.pos.x, z = this.pos.z) {
     const fx = this.fwd.x, fz = this.fwd.z, rx = this.right.x, rz = this.right.z;
-    const c = waveHeight(x, z, t);
-    const b = waveHeight(x + fx * 1.4, z + fz * 1.4, t);
-    const s = waveHeight(x - fx * 1.4, z - fz * 1.4, t);
-    const r = waveHeight(x + rx * 0.6, z + rz * 0.6, t);
-    const l = waveHeight(x - rx * 0.6, z - rz * 0.6, t);
-    return { h: (c * 2 + b + s + r + l) / 6, slopeF: (b - s) / 2.8, slopeR: (r - l) / 1.2 };
+    const c = this.heightAt(x, z, t);
+    const b = this.heightAt(x + fx * 1.4, z + fz * 1.4, t);
+    const s = this.heightAt(x - fx * 1.4, z - fz * 1.4, t);
+    const r = this.heightAt(x + rx * 0.6, z + rz * 0.6, t);
+    const l = this.heightAt(x - rx * 0.6, z - rz * 0.6, t);
+    let h = (c * 2 + b + s + r + l) / 6;
+    this.onRamp = false;
+    if (this.ground && c > waveHeight(x, z, t) + 0.05) {
+      // on a deck: ride the deck itself, not the average with the water around it
+      h = Math.max(h, c - 0.15);
+      this.onRamp = true;
+    }
+    return { h, slopeF: (b - s) / 2.8, slopeR: (r - l) / 1.2 };
   }
 
   step(dt, t, input) {
@@ -111,8 +133,19 @@ export class Player {
       vel.x *= 1 - 0.04 * dt;
       vel.z *= 1 - 0.04 * dt;
       this.boosting = false;
+      // skimming just above the chop: the hull still bites, so you can keep carving
+      const skim = this.pos.y - this.surface.h < 0.9 && Math.abs(this.airSpin) < 0.3;
+      if (skim) {
+        const spd = Math.hypot(vel.x, vel.z);
+        const a = -this.steerS * 2.1 * Math.min(1, 0.25 + spd / 10) / (1 + spd / 55) * dt;
+        this.heading += a;
+        const ca = Math.cos(a), sa = Math.sin(a);
+        const vx = vel.x;
+        vel.x = vx * ca + vel.z * sa;
+        vel.z = -vx * sa + vel.z * ca;
+      }
       // tricks: steer = spin, brake = backflip. Release and it eases back to the nearest clean angle.
-      const spinTarget = this.airTime > 0.2 ? -steerIn * 7.0 : 0;
+      const spinTarget = this.airTime > 0.2 && !skim ? -steerIn * 7.0 : 0;
       this.spinVel = lerpRate(this.spinVel, spinTarget, 6, dt);
       this.airSpin += this.spinVel * dt;
       if (Math.abs(steerIn) < 0.1) this.airSpin -= wrapNear(this.airSpin) * Math.min(1, 3.5 * dt);
@@ -135,15 +168,30 @@ export class Player {
     else this.boost = Math.min(1, this.boost + 0.07 * dt);
 
     // vertical: ballistic, then glued to the (hull-averaged) water surface on contact
-    const hOld = this.surface.h;
+    let hOld = this.surface.h;
+    const oldX = this.pos.x, oldZ = this.pos.z;
     vel.y -= G * dt;
     this.pos.addScaledVector(vel, dt);
     this.basis();
+    if (this.ground) this.rampAllow = this.ground.rampAllow(this.pos.x, this.pos.z, this.pos.y, t + dt);
     const surf = this.sampleSurface(t + dt);
     this.surface = surf;
     this.slopeF = surf.slopeF;
     this.slopeR = surf.slopeR;
-    const surfVy = (surf.h - hOld) / dt;
+    if (this.airborne && this.ground && this.pos.y <= surf.h) {
+      // touching down: compare with the surface under where we just were, using the
+      // same ramp rules, so landing on a deck doesn't read as the deck shooting up
+      const onRamp = this.onRamp;
+      hOld = this.sampleSurface(t, oldX, oldZ).h;
+      this.onRamp = onRamp;
+    }
+    const hs = Math.hypot(vel.x, vel.z);
+    let surfVy = Math.max(-30, Math.min(Math.max(12, hs * 0.6 + 3), (surf.h - hOld) / dt));
+    if (this.onRamp) {
+      // on a deck use its true motion, so stepping onto it from the side doesn't fling you
+      const rv = this.ground.rampVy(this.pos.x, this.pos.z, vel.x, vel.z, t, dt);
+      if (rv !== null) surfVy = rv;
+    }
 
     if (this.pos.y <= surf.h) {
       if (this.airborne) this.land(surfVy);
@@ -152,9 +200,18 @@ export class Player {
       this.surfVy = surfVy;
     } else if (!this.airborne) {
       // the water fell away faster than gravity can pull us down: we're flying
-      if (vel.y > 2.5) vel.y *= LAUNCH_MULT;
+      if (this.wasOnRamp) {
+        // off the lip of a kicker ramp: big, speed-dependent pop
+        const hs = Math.hypot(vel.x, vel.z);
+        vel.y = Math.max(vel.y, Math.min(RAMP_POP_MAX, RAMP_POP + hs * RAMP_POP_K));
+        this.rampJump = true;
+      } else if (vel.y > 2.5) vel.y *= LAUNCH_MULT;
       this.takeOff(t, false);
     }
+    if (this.onRamp && !this.airborne) {
+      const hit = this.ground.rampUnder(this.pos.x, this.pos.z);
+      this.wasOnRamp = !!hit && hit.u > 0.7 && vel.x * hit.r.fx + vel.z * hit.r.fz > 3;
+    } else this.wasOnRamp = false;
 
     this.speed = Math.hypot(vel.x, vel.z);
     this.lateral = Math.abs(vel.x * this.right.x + vel.z * this.right.z);
@@ -163,6 +220,7 @@ export class Player {
   }
 
   takeOff(t, hop) {
+    if (hop) this.rampJump = false;
     this.airborne = true;
     this.airTime = 0;
     this.airSpin = 0;
@@ -172,7 +230,7 @@ export class Player {
     this.airPitch = this.pitch;
     this.takeoffY = this.pos.y;
     this.maxY = this.pos.y;
-    this.events.push({ type: 'launch', hop, vy: this.vel.y });
+    this.events.push({ type: 'launch', hop, vy: this.vel.y, ramp: !hop && this.rampJump });
   }
 
   land(surfVy) {
@@ -194,8 +252,10 @@ export class Player {
     this.flipVel = 0;
     this.crouch = Math.min(1, impact / 12);
 
-    const ev = { type: 'land', impact, airTime, height, spins, flips, clean: true, sketchy: false, wipeout: false };
-    if (Math.abs(pitchErr) > 1.0 || (impact > 26 && Math.abs(pitchErr) > 0.6)) {
+    const ev = { type: 'land', impact, airTime, height, spins, flips, clean: true, sketchy: false, wipeout: false, ramp: this.rampJump };
+    this.rampJump = false;
+    // (a skip off the chop right after a landing is too short to crash on)
+    if (airTime > 0.15 && (Math.abs(pitchErr) > 1.0 || (impact > 26 && Math.abs(pitchErr) > 0.6))) {
       ev.clean = false;
       ev.wipeout = true;
       this.wipeout = 1.3;
@@ -241,7 +301,12 @@ export class Player {
     upper.rotation.x = 0.1 + this.crouch * 0.3 + (this.boosting ? 0.15 : 0);
   }
 
-  respawn(t) {
+  respawn(t, pose = null) {
+    if (pose) {
+      this.pos.x = pose.x;
+      this.pos.z = pose.z;
+      this.heading = pose.heading;
+    }
     this.vel.set(0, 0, 0);
     this.airborne = false;
     this.wipeout = 0;
