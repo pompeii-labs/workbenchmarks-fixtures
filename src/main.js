@@ -12,9 +12,13 @@ import { Input } from './input.js';
 import { createIslands, Buoys, Rings } from './world.js';
 import { Track } from './track.js';
 import { RaceHud, fmtTime } from './racehud.js';
+import { Race, RIVALS, RACE_LAPS, ordinal } from './race.js';
+import { collideScenery } from './collide.js';
 
 const $ = (id) => document.getElementById(id);
 const rand = (a, b) => a + Math.random() * (b - a);
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+const hex = (c) => '#' + c.toString(16).padStart(6, '0');
 const damp = (a, b, rate, dt) => a + (b - a) * (1 - Math.exp(-rate * dt));
 
 // ---------- renderer / scene ----------
@@ -92,12 +96,71 @@ const shadow = new THREE.Mesh(
 shadow.rotation.x = -Math.PI / 2;
 scene.add(shadow);
 
+// ---------- rivals ----------
+function makeTag(name, color) {
+  const c = document.createElement('canvas');
+  c.width = 256;
+  c.height = 64;
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthWrite: false }));
+  sprite.scale.set(3.6, 0.9, 1);
+  sprite.renderOrder = 3;
+  let shown = null;
+  sprite.userData.draw = (place) => {
+    if (shown === place) return;
+    shown = place;
+    const g = c.getContext('2d');
+    g.clearRect(0, 0, 256, 64);
+    g.fillStyle = 'rgba(0, 25, 50, 0.6)';
+    g.beginPath();
+    if (g.roundRect) g.roundRect(8, 8, 240, 48, 24);
+    else g.rect(8, 8, 240, 48);
+    g.fill();
+    g.fillStyle = hex(color);
+    g.beginPath();
+    g.arc(36, 32, 16, 0, Math.PI * 2);
+    g.fill();
+    g.fillStyle = '#fff';
+    g.font = 'italic bold 22px Trebuchet MS, sans-serif';
+    g.textAlign = 'center';
+    g.textBaseline = 'middle';
+    g.fillText(place ? String(place) : '', 36, 33);
+    g.textAlign = 'left';
+    g.font = 'bold 26px Trebuchet MS, sans-serif';
+    g.fillText(name, 62, 33);
+    tex.needsUpdate = true;
+  };
+  sprite.userData.draw(0);
+  return sprite;
+}
+
+const rivals = RIVALS.map((cfg) => {
+  const model = createJetSki({ paint: cfg.color, accent: cfg.accent, vest: cfg.vest, helmet: cfg.color });
+  scene.add(model);
+  const ski = new Player(model);
+  ski.ground = track;
+  return { ...cfg, ski, basePower: 0.9 + 0.1 * cfg.skill };
+});
+const race = new Race(track, player, rivals);
+for (const r of race.racers) {
+  r.fx = { acc: { side: 0, rooster: 0, mist: 0 }, wakeTimer: 0, wake: r.isPlayer ? wake : new Wake(colors, FOG, 120) };
+  if (r.isPlayer) continue;
+  r.fx.shadow = shadow.clone();
+  r.fx.shadow.material = shadow.material.clone();
+  scene.add(r.fx.shadow);
+  scene.add(r.fx.wake.mesh);
+  r.fx.tag = makeTag(r.name, r.color);
+  scene.add(r.fx.tag);
+}
+
 const audio = new GameAudio();
 const input = new Input();
 
 // ---------- game state ----------
 const state = {
   started: false,
+  mode: 'race', // race (vs rivals) | free (solo)
   t: 0,
   score: 0,
   combo: 1,
@@ -108,7 +171,6 @@ const state = {
   spraySide: 0,
   rooster: 0,
   wakeTimer: 0,
-  emitAcc: { side: 0, rooster: 0, mist: 0 },
 };
 $('best').textContent = state.best.toLocaleString();
 rings.reset(0, 0, 0);
@@ -119,57 +181,121 @@ if (isTouch) {
   input.bindTouch($('stick'), $('knob'), $('btn-hop'), $('btn-boost'));
 }
 
+function clearWakes() {
+  for (const r of race.racers) if (r.fx.wake) r.fx.wake.pts.length = 0;
+}
+
 function teleport(pose) {
   player.respawn(state.t, pose);
   wake.pts.length = 0;
   camInit = false;
 }
 
-function restartRace() {
-  track.resetRace();
-  teleport(track.startPose());
-  race.reset();
+function setRivals(on) {
+  for (const r of race.racers) {
+    if (r.isPlayer) continue;
+    r.active = on;
+    r.ski.model.visible = on;
+    r.fx.shadow.visible = on;
+    r.fx.tag.visible = on;
+    r.fx.wake.mesh.visible = on;
+    r.fx.wake.pts.length = 0;
+  }
 }
 
-function start() {
+let finishShowAt = null;
+function hideFinish() {
+  finishShowAt = null;
+  state.scoreLocked = false;
+  document.body.classList.remove('finished');
+  $('finish').classList.add('hidden');
+}
+
+/** Line up on the grid against the rivals and count down. */
+function startRace() {
+  state.mode = 'race';
+  setRivals(true);
+  track.resetRace();
+  raceHud.reset();
+  race.setup(state.t, { playerSlot: 4 });
+  for (const r of race.racers) r.ski.power = r.basePower ?? 1;
+  clearWakes();
+  camInit = false;
+  state.score = 0;
+  state.combo = 1;
+  hideFinish();
+  $('pos-box').classList.remove('hidden');
+  $('pos-of').textContent = String(race.racers.length);
+  toast(`${RACE_LAPS} LAPS`, `${race.racers.length - 1} rivals · gates in order · first back through the arch wins`, 'small');
+  toastTimer = 2.2;
+}
+
+/** The original solo mode: no rivals, just you, the course and the open sea. */
+function startFree() {
+  state.mode = 'free';
+  setRivals(false);
+  race.phase = 'idle';
+  hideFinish();
+  $('pos-box').classList.add('hidden');
+  track.resetRace();
+  teleport(track.startPose());
+  raceHud.reset();
+  toast('FREE RIDE', 'ride through the arch for a timed lap, or just explore', 'small');
+}
+
+function restart() {
+  if (state.mode === 'race') startRace();
+  else {
+    track.resetRace();
+    teleport(track.startPose());
+    raceHud.reset();
+    toast('BACK TO THE START', 'ride through the arch to start a lap', 'small');
+  }
+}
+
+function start(mode = 'race') {
   if (state.started) return;
   state.started = true;
   $('title').classList.add('hidden');
   $('hud').classList.remove('hidden');
   audio.init();
-  restartRace();
+  if (mode === 'free') startFree();
+  else startRace();
 }
-$('title').addEventListener('click', start);
+const pick = (e) => (e.target.closest && e.target.closest('#btn-free') ? 'free' : 'race');
+$('title').addEventListener('click', (e) => start(pick(e)));
 $('title').addEventListener('touchend', (e) => {
   e.preventDefault();
-  start();
+  start(pick(e));
 });
+const onButton = (id, fn) => {
+  const el = $(id);
+  el.addEventListener('click', (e) => {
+    e.stopPropagation();
+    fn();
+  });
+  el.addEventListener('touchend', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    fn();
+  });
+};
+onButton('btn-again', startRace);
+onButton('btn-free2', startFree);
 input.onKey = (code) => {
-  if (!state.started && (code === 'Enter' || code === 'Space' || code === 'KeyW' || code === 'ArrowUp')) start();
+  if (!state.started && (code === 'Enter' || code === 'Space' || code === 'KeyW' || code === 'ArrowUp')) start('race');
   if (code === 'KeyM') {
     audio.setMuted(!audio.muted);
     toast(audio.muted ? 'SOUND OFF' : 'SOUND ON', '', 'small');
   }
-  if (code === 'KeyR') {
+  if (code === 'KeyR' && state.started && race.phase !== 'countdown') {
     player.respawn(state.t);
     toast('RESET', '', 'small');
   }
-  if (code === 'KeyT' && state.started) {
-    restartRace();
-    toast('BACK TO THE START', 'ride through the arch to start a lap', 'small');
-  }
+  if (code === 'KeyT' && state.started) restart();
+  if (code === 'Enter' && state.started && finishShowAt !== null) startRace();
 };
-$('btn-restart')?.addEventListener('click', (e) => {
-  e.stopPropagation();
-  restartRace();
-  toast('BACK TO THE START', 'ride through the arch to start a lap', 'small');
-});
-$('btn-restart')?.addEventListener('touchend', (e) => {
-  e.preventDefault();
-  e.stopPropagation();
-  restartRace();
-  toast('BACK TO THE START', '', 'small');
-});
+onButton('btn-restart', restart);
 $('btn-mute')?.addEventListener('click', (e) => {
   e.stopPropagation();
   audio.init();
@@ -187,6 +313,7 @@ function toast(main, sub = '', cls = '') {
 }
 
 function addScore(pts) {
+  if (state.scoreLocked) return; // the autopilot cool-down lap after the finish doesn't score
   state.score += pts;
   if (state.score > state.best) {
     state.best = state.score;
@@ -195,12 +322,12 @@ function addScore(pts) {
 }
 
 // ---------- splash emitters ----------
-function burst(x, y, z, n, power, spread = 1) {
+function burst(x, y, z, n, power, spread = 1, vel = player.vel) {
   for (let i = 0; i < n; i++) {
     const a = Math.random() * Math.PI * 2;
     const r = rand(0.3, 1) * power * spread;
     particles.spawn(SPRAY, x + Math.cos(a) * rand(0.5, 1.8), y + 0.2, z + Math.sin(a) * rand(0.5, 1.8),
-      Math.cos(a) * r + player.vel.x * 0.3, rand(0.5, 1.2) * power, Math.sin(a) * r + player.vel.z * 0.3,
+      Math.cos(a) * r + vel.x * 0.3, rand(0.5, 1.2) * power, Math.sin(a) * r + vel.z * 0.3,
       rand(0.7, 1.5), rand(0.25, 0.6));
   }
   for (let i = 0; i < n / 3; i++) {
@@ -215,16 +342,16 @@ function burst(x, y, z, n, power, spread = 1) {
   }
 }
 
-function emitRide(dt) {
-  const p = player;
-  if (p.airborne || p.onRamp) return;
+// spray for one ski; k scales the particle count (far-off rivals spray less)
+function emitRide(p, acc, dt, k = 1) {
+  if (p.airborne || p.onRamp || k <= 0) return;
   const s = Math.min(1.4, p.speed / 30);
   if (p.speed < 1.5) return;
   const fwd = p.fwd, right = p.right;
   const vx = p.vel.x, vz = p.vel.z;
   const y = p.pos.y;
   const turn = Math.abs(p.steerS);
-  const acc = state.emitAcc;
+  dt *= k;
 
   // side sheets of spray from the hull, heavier on the outside of a turn
   acc.side += dt * (90 + 260 * s) * s;
@@ -323,114 +450,161 @@ function handleEvents() {
 }
 
 // ---------- obstacles ----------
-function collide() {
-  const p = player.pos;
-  for (const c of islands.colliders) {
-    const dx = p.x - c.x, dz = p.z - c.z;
-    const d = Math.hypot(dx, dz);
-    if (d < c.r) {
-      const nx = dx / d, nz = dz / d;
-      p.x = c.x + nx * c.r;
-      p.z = c.z + nz * c.r;
-      const vn = player.vel.x * nx + player.vel.z * nz;
-      if (vn < 0) {
-        player.vel.x -= 1.6 * vn * nx;
-        player.vel.z -= 1.6 * vn * nz;
-        player.vel.x *= 0.6;
-        player.vel.z *= 0.6;
-        if (-vn > 6) {
-          burst(p.x, p.y, p.z, 80, 6);
-          audio.splash(0.8);
-          state.shake = 0.6;
-        }
+const world = { islands, track, buoys };
+/** Ski vs scenery for any racer; k = how loud / big the splash is (by distance from you). */
+function collide(r, k = 1) {
+  const hit = collideScenery(r.ski, world, state.t);
+  if (!hit || k <= 0) return;
+  burst(hit.x, hit.y, hit.z, Math.round(hit.strength * 100 * Math.max(0.3, k)), 4 + hit.strength * 2.5, 1, r.ski.vel);
+  audio.splash(hit.strength * k);
+  if (r.isPlayer) state.shake = Math.max(state.shake, hit.strength * 0.75);
+}
+
+// splashes for the rivals' own jumps and landings
+function handleRivalEvents(r, k) {
+  const p = r.ski;
+  for (const ev of p.events) {
+    if (k <= 0) break;
+    if (ev.type === 'launch' && (ev.ramp || ev.vy > 4)) {
+      burst(p.pos.x, p.pos.y - 0.3, p.pos.z, Math.round(35 * k), 4.5, 1, p.vel);
+      if (ev.ramp) audio.splash(0.3 * k);
+    } else if (ev.type === 'land' && (ev.airTime > 0.25 || ev.impact > 6)) {
+      const intensity = Math.min(1.5, ev.impact / 14);
+      burst(p.pos.x, p.pos.y, p.pos.z, Math.round((40 + intensity * 180) * k), 3 + intensity * 7, 1 + intensity * 0.5, p.vel);
+      audio.splash(intensity * k * k);
+    }
+  }
+  p.events.length = 0;
+}
+
+// ski-on-ski bumps: spray where the hulls met, a knock, and a jolt if it was you
+const bumpCool = new Map();
+function handleBumps() {
+  for (const b of race.bumps) {
+    if (b.impulse < 1.2) continue;
+    const key = b.a.name + b.b.name;
+    const mine = b.a.isPlayer || b.b.isPlayer;
+    const k = mine ? 1 : audible(b.x, b.z);
+    if (k <= 0) continue;
+    const hard = Math.min(1.5, b.impulse / 8);
+    burst(b.x, b.y + 0.2, b.z, Math.round((20 + hard * 70) * Math.max(0.4, k)), 2.5 + hard * 4, 0.6, b.a.ski.vel);
+    if ((bumpCool.get(key) ?? -1) < state.t - 0.25) {
+      audio.bump(hard * k);
+      bumpCool.set(key, state.t);
+    }
+    if (mine) {
+      state.shake = Math.max(state.shake, 0.2 + hard * 0.5);
+      if (hard > 0.6 && toastTimer <= 0) {
+        const other = b.a.isPlayer ? b.b : b.a;
+        toast('BUMP!', other.name, 'meh');
+        toastTimer = 0.7;
       }
     }
   }
-  for (const c of track.colliders) {
-    const dx = p.x - c.x, dz = p.z - c.z;
-    const d2 = dx * dx + dz * dz;
-    if (d2 < c.r * c.r && p.y < c.y + 3.6) {
-      const d = Math.sqrt(d2) || 1;
-      const nx = dx / d, nz = dz / d;
-      const vn = player.vel.x * nx + player.vel.z * nz;
-      if (vn < 0) {
-        player.vel.x -= 1.5 * vn * nx;
-        player.vel.z -= 1.5 * vn * nz;
-        if (-vn > 3) {
-          burst(c.x, p.y, c.z, 40, 4);
-          audio.splash(0.4);
-          state.shake = 0.3;
-        }
-      }
-      p.x = c.x + nx * c.r;
-      p.z = c.z + nz * c.r;
-    }
-  }
-  const wall = track.rampWall(p.x, p.z, p.y, state.t);
-  if (wall) {
-    p.x = wall.x;
-    p.z = wall.z;
-    const vn = player.vel.x * wall.nx + player.vel.z * wall.nz;
-    if (vn < 0) {
-      player.vel.x -= 1.5 * vn * wall.nx;
-      player.vel.z -= 1.5 * vn * wall.nz;
-      player.vel.x *= 0.7;
-      player.vel.z *= 0.7;
-      if (-vn > 4) {
-        burst(p.x, p.y, p.z, 60, 5);
-        audio.splash(0.6);
-        state.shake = 0.5;
-      }
-    }
-  }
-  for (const b of buoys.items) {
-    if (b.hidden) continue;
-    const dx = p.x - b.x, dz = p.z - b.z;
-    const d2 = dx * dx + dz * dz;
-    if (d2 < 1.6 * 1.6 && p.y < waveHeight(b.x, b.z, state.t) + 1.5) {
-      const d = Math.sqrt(d2) || 1;
-      const nx = dx / d, nz = dz / d;
-      const vn = player.vel.x * nx + player.vel.z * nz;
-      if (vn < 0) {
-        player.vel.x -= 1.5 * vn * nx;
-        player.vel.z -= 1.5 * vn * nz;
-        b.tilt = Math.min(1.2, -vn * 0.08);
-        burst(b.x, p.y, b.z, 40, 4);
-        audio.splash(0.4);
-        state.shake = 0.3;
-      }
-      p.x = b.x + nx * 1.6;
-      p.z = b.z + nz * 1.6;
-    }
-  }
+  race.bumps.length = 0;
+}
+
+/** 1 close to you, fading to 0 by ~160 m: scales rivals' effects and sounds. */
+function audible(x, z) {
+  const d = Math.hypot(x - camera.position.x, z - camera.position.z);
+  return clamp(1.25 - d / 130, 0, 1);
 }
 
 // ---------- race ----------
-const race = new RaceHud(track, isTouch);
+const raceHud = new RaceHud(track, isTouch);
 function handleRace(events) {
   for (const ev of events) {
+    const vs = state.mode === 'race';
     if (ev.type === 'start') {
-      toast('GO!', `lap ${track.lap} · ${track.gates.length - 1} gates, then back through the arch`, 'ring');
-      audio.chime(1.2);
+      if (vs) audio.beep(1320);
+      else {
+        toast('GO!', `lap ${track.lap} · ${track.gates.length - 1} gates, then back through the arch`, 'ring');
+        audio.chime(1.2);
+      }
     } else if (ev.type === 'gate') {
       audio.beep(ev.delta !== null && ev.delta < 0 ? 1320 : 990);
       addScore(100);
-      race.showSplit(ev);
+      raceHud.showSplit(ev);
     } else if (ev.type === 'lap') {
       let sub;
       if (ev.best && ev.prevBest !== null) sub = `NEW BEST LAP! (-${(ev.prevBest - ev.time).toFixed(2)}s)`;
       else if (ev.best) sub = 'BEST LAP SET';
       else sub = `+${(ev.time - track.best).toFixed(2)}s off your best`;
-      toast(`LAP ${fmtTime(ev.time)}`, sub, ev.best ? 'trick' : 'ring');
+      if (vs && ev.lap >= RACE_LAPS) sub = null; // the finish takes over
+      else if (vs) toast(ev.lap + 1 === RACE_LAPS ? 'FINAL LAP!' : `LAP ${ev.lap + 1} / ${RACE_LAPS}`, `${fmtTime(ev.time)} · ${sub}`, ev.best ? 'trick' : 'ring');
+      else toast(`LAP ${fmtTime(ev.time)}`, sub, ev.best ? 'trick' : 'ring');
       audio.chime(ev.best ? 1.5 : 1.25);
       if (ev.best) setTimeout(() => audio.chime(2), 180);
       addScore(ev.best ? 3000 : 1000);
-      race.showLap(ev);
+      raceHud.showLap(ev);
     } else if (ev.type === 'missed') {
       toast('MISSED GATE', 'turn back for the glowing gate', 'bad');
       audio.beep(330);
     }
   }
+}
+
+// countdown, the finish, rescues
+const PLACE_BONUS = [5000, 3000, 2000, 1200, 800, 500];
+function showCount(text, go = false) {
+  const el = $('countdown');
+  el.textContent = text;
+  el.className = '';
+  void el.offsetWidth; // restart the animation
+  el.className = go ? 'show go' : 'show';
+}
+function handleRaceEvents() {
+  for (const ev of race.events) {
+    if (!state.started || state.mode !== 'race') continue;
+    if (ev.type === 'count') {
+      showCount(String(ev.n));
+      audio.beep(660);
+    } else if (ev.type === 'go') {
+      showCount('GO!', true);
+      audio.beep(1320);
+      audio.chime(1.2);
+    } else if (ev.type === 'finish' && ev.racer.isPlayer) {
+      const place = ev.racer.place;
+      toast(place === 1 ? 'YOU WIN!' : `${ordinal(place)} PLACE`, fmtTime(ev.racer.finishTime), place === 1 ? 'trick' : 'ring');
+      toastTimer = 2.5;
+      audio.chime(place === 1 ? 1.5 : 1.2);
+      if (place <= 3) setTimeout(() => audio.chime(2), 200);
+      addScore(PLACE_BONUS[place - 1] ?? 0);
+      state.scoreLocked = true;
+      finishShowAt = state.t + 1.6;
+      finishRefresh = 0;
+    }
+  }
+  race.events.length = 0;
+}
+
+// ---------- finish screen ----------
+let finishRefresh = 0;
+function updateFinish(dt) {
+  if (finishShowAt === null || state.t < finishShowAt) return;
+  const el = $('finish');
+  const first = el.classList.contains('hidden');
+  if (first) {
+    el.classList.remove('hidden');
+    document.body.classList.add('finished'); // the "YOU WIN" toast has had its moment
+    const me = race.player;
+    $('finish-place').textContent = me.place === 1 ? '1ST!' : ordinal(me.place);
+    $('finish-place').className = me.place === 1 ? 'win' : '';
+    $('finish-sub').textContent = me.place === 1 ? `You beat all ${race.racers.length - 1} rivals` : `You finished ${ordinal(me.place).toLowerCase()} of ${race.racers.length}`;
+    $('finish-time').textContent = fmtTime(me.finishTime);
+    $('finish-best').textContent = fmtTime(me.bestLap);
+    $('finish-score').textContent = Math.round(state.score).toLocaleString();
+  }
+  // the rest of the field is still racing behind the screen: keep the table live
+  if ((finishRefresh -= dt) > 0 && !first) return;
+  finishRefresh = 0.25;
+  const rows = race.order.map((r) => {
+    const time = r.finished
+      ? `<td class="r">${fmtTime(r.finishTime)}</td>`
+      : `<td class="r racing">lap ${Math.min(RACE_LAPS, Math.max(1, Math.ceil(r.c / race.N)))} / ${RACE_LAPS}</td>`;
+    return `<tr class="${r.isPlayer ? 'me' : ''}"><td class="p">${ordinal(r.place)}</td><td><span class="sw" style="background:${hex(r.color)}"></span>${r.name}</td>${time}<td class="r">${fmtTime(r.bestLap)}</td></tr>`;
+  });
+  $('finish-table').innerHTML = `<tr><td></td><td></td><td class="r"><small>TIME</small></td><td class="r"><small>BEST LAP</small></td></tr>${rows.join('')}`;
 }
 
 // ---------- camera ----------
@@ -501,12 +675,74 @@ function updateHud(dt) {
   }
 }
 
+// ---------- race HUD: position, race clock, standings ----------
+const posEl = { box: $('pos-box'), n: $('pos-n'), sfx: $('pos-sfx'), time: $('race-time'), list: $('standings') };
+let standT = 0;
+function updatePosHud(dt) {
+  if (state.mode !== 'race') return;
+  const me = race.player;
+  const pre = race.phase === 'countdown';
+  posEl.n.textContent = pre ? '-' : String(me.place);
+  posEl.sfx.textContent = pre ? '' : ordinal(me.place).replace(/^\d+/, '');
+  posEl.box.classList.toggle('p1', !pre && me.place === 1);
+  posEl.time.textContent = fmtTime(race.raceTime(state.t));
+  if ((standT -= dt) > 0) return;
+  standT = 0.2;
+  // gaps in seconds, estimated from the distance between you and them
+  const pace = Math.max(14, player.speed);
+  posEl.list.innerHTML = race.order
+    .map((r) => {
+      let gap = '';
+      if (r.finished) gap = fmtTime(r.finishTime);
+      else if (!r.isPlayer && !pre) {
+        const d = (r.progress - me.progress) / pace;
+        gap = `${d > 0 ? '▲' : '▼'} ${Math.abs(d).toFixed(1)}s`;
+      }
+      return `<li class="${r.isPlayer ? 'me' : ''}"><span class="n">${r.place}</span><span class="sw" style="background:${hex(r.color)}"></span><span class="nm">${r.name}</span><span class="gap">${gap}</span></li>`;
+    })
+    .join('');
+}
+
+// ---------- per-ski visuals ----------
+function updateSkiFx(r, dt) {
+  const p = r.ski;
+  const k = r.isPlayer ? 1 : audible(p.pos.x, p.pos.z);
+  // wake ribbon
+  r.fx.wakeTimer -= dt;
+  if (r.fx.wakeTimer <= 0) {
+    r.fx.wakeTimer = 1 / 30;
+    const w = p.airborne || p.onRamp ? 0 : Math.min(1, p.speed / 12);
+    r.fx.wake.push(p.pos.x - p.fwd.x * 1.6, p.pos.z - p.fwd.z * 1.6, p.right.x * 0.5, p.right.z * 0.5, w);
+  }
+  r.fx.wake.update(dt, state.t);
+  emitRide(p, r.fx.acc, dt, r.isPlayer ? 1 : k * 0.6);
+  // contact shadow
+  const sh = r.isPlayer ? shadow : r.fx.shadow;
+  const g = track.groundHeight(p.pos.x, p.pos.z, state.t);
+  const above = Math.max(0, p.pos.y - g);
+  sh.position.set(p.pos.x, g + 0.12, p.pos.z);
+  sh.rotation.z = p.heading + p.airSpin;
+  sh.scale.setScalar(1 + above * 0.08);
+  sh.material.opacity = Math.max(0, 1 - above / 10);
+  if (r.isPlayer) return;
+  // blink while a rescued rival is still a ghost (it can't hit anyone yet)
+  p.model.visible = r.ghost > 0 ? Math.floor(state.t * 12) % 2 === 0 : true;
+  const tag = r.fx.tag;
+  const d = Math.hypot(p.pos.x - camera.position.x, p.pos.z - camera.position.z);
+  // (right next to you the rider is obvious; a huge label would just block the view)
+  tag.visible = d < 170 && d > 9;
+  tag.material.opacity = clamp((d - 9) / 8, 0, 1);
+  tag.position.set(p.pos.x, p.pos.y + 2.9, p.pos.z);
+  const sc = 1 + d / 140; // stay readable a little further out
+  tag.scale.set(3.6 * sc, 0.9 * sc, 1);
+  tag.userData.draw(state.mode === 'race' && race.phase !== 'countdown' && race.phase !== 'demo' ? r.place : 0);
+}
+
 // ---------- loop ----------
 const STEP = 1 / 120;
 let acc = 0;
 let last = performance.now();
-const idleInput = { throttle: 0, steer: 0, boost: false, hop: false };
-let demoT = 0;
+const raceOn = () => !state.started || state.mode === 'race';
 
 function frame(now) {
   requestAnimationFrame(frame);
@@ -514,42 +750,51 @@ function frame(now) {
   last = now;
   if (document.hidden) return;
 
-  let inp;
-  if (state.started) inp = input.read();
-  else {
-    // attract mode behind the title screen: cruise around on its own
-    demoT += dt;
-    inp = { throttle: 0.85, steer: Math.sin(demoT * 0.35) * 0.45, boost: false, hop: false };
-    input.read();
+  const human = input.read();
+  // attract mode behind the title, and the cool-down lap after you finish: autopilot
+  const autopilot = !state.started || (state.mode === 'race' && race.player.finished);
+
+  // catch-up: rivals behind you find a little extra, the ones way ahead ease off
+  for (const r of race.racers) {
+    if (r.isPlayer) continue;
+    let pw = r.basePower;
+    if (state.started && race.phase === 'racing' && !race.player.finished) pw *= 1 + clamp((race.player.progress - r.progress) / 450, -0.06, 0.1);
+    r.ski.power = pw;
   }
 
   acc += dt;
   let first = true;
   while (acc >= STEP) {
     const x0 = player.pos.x, z0 = player.pos.z, t0 = state.t;
-    player.step(STEP, state.t, first ? inp : { ...inp, hop: false });
+    const on = raceOn();
+    if (on) race.pre();
+    for (const r of race.racers) {
+      if (r.active === false) continue;
+      let inp;
+      if (r.isPlayer && !autopilot) inp = first ? human : { ...human, hop: false };
+      else if (race.phase === 'countdown') inp = { throttle: Math.sin(state.t * 3 + r.place) > 0.3 ? 1 : 0, steer: 0, boost: false, hop: false }; // revving on the line
+      else inp = race.aiInput(r, state.t, STEP);
+      r.ski.step(STEP, state.t, inp);
+    }
     first = false;
     state.t += STEP;
     acc -= STEP;
-    collide();
-    if (state.started) handleRace(track.update(x0, z0, player.pos.x, player.pos.z, t0, state.t));
+    for (const r of race.racers) if (r.active !== false) collide(r, r.isPlayer ? 1 : audible(r.ski.pos.x, r.ski.pos.z));
+    if (state.started && (state.mode === 'free' || (race.phase === 'racing' && !race.player.finished))) {
+      handleRace(track.update(x0, z0, player.pos.x, player.pos.z, t0, state.t));
+    }
+    if (on) race.post(t0, state.t, STEP, playerCrossings());
   }
   handleEvents();
+  for (const r of race.racers) if (!r.isPlayer && r.active !== false) handleRivalEvents(r, audible(r.ski.pos.x, r.ski.pos.z));
+  handleBumps();
+  handleRaceEvents();
 
   if (!player.airborne) {
     state.comboTimer -= dt;
     if (state.comboTimer <= 0 && state.combo > 1) state.combo = 1;
   }
 
-  // wake ribbon
-  state.wakeTimer -= dt;
-  if (state.wakeTimer <= 0) {
-    state.wakeTimer = 1 / 30;
-    const k = player.airborne || player.onRamp ? 0 : Math.min(1, player.speed / 12);
-    wake.push(player.pos.x - player.fwd.x * 1.6, player.pos.z - player.fwd.z * 1.6, player.right.x * 0.5, player.right.z * 0.5, k);
-  }
-
-  emitRide(dt);
   const hits = rings.update(dt, state.t, player.pos, player.heading);
   for (const h of hits) {
     addScore(500 * state.combo);
@@ -563,31 +808,54 @@ function frame(now) {
   }
   buoys.update(dt, state.t, player.pos.x, player.pos.z, keepBuoy);
   track.animate(state.t);
-  particles.update(dt, state.t, camera, renderer.domElement.height);
-  wake.update(dt, state.t);
-
-  // contact shadow
-  const sh = track.groundHeight(player.pos.x, player.pos.z, state.t);
-  const above = Math.max(0, player.pos.y - sh);
-  shadow.position.set(player.pos.x, sh + 0.12, player.pos.z);
-  shadow.rotation.z = player.heading + player.airSpin;
-  shadow.scale.setScalar(1 + above * 0.08);
-  shadow.material.opacity = Math.max(0, 1 - above / 10);
 
   water.material.uniforms.uTime.value = state.t;
   water.userData.follow(player.pos.x, player.pos.z);
   updateCamera(dt);
+  for (const r of race.racers) if (r.active !== false) updateSkiFx(r, dt);
+  particles.update(dt, state.t, camera, renderer.domElement.height);
   sky.position.copy(camera.position);
   sunLight.position.copy(player.pos).addScaledVector(colors.sunDir, 100);
   sunLight.target.position.copy(player.pos);
 
   audio.update({ throttle: player.throttle, speed: player.speed, airborne: player.airborne, boosting: player.boosting });
+  // the closest rival's engine
+  let near = null, nd = 1e9;
+  for (const r of race.racers) {
+    if (r.isPlayer || r.active === false) continue;
+    const d = r.ski.pos.distanceTo(player.pos);
+    if (d < nd) {
+      nd = d;
+      near = r;
+    }
+  }
+  if (near) {
+    const dx = near.ski.pos.x - player.pos.x, dz = near.ski.pos.z - player.pos.z;
+    const closing = -((near.ski.vel.x - player.vel.x) * dx + (near.ski.vel.z - player.vel.z) * dz) / Math.max(1, nd);
+    audio.rival(nd, near.ski.speed, closing);
+  } else audio.rival(1e9, 0);
+
   if (state.started) {
     updateHud(dt);
-    race.update(dt, state.t, player);
+    raceHud.update(dt, state.t, player, {
+      lapText: state.mode === 'race' ? `${race.lap}/${RACE_LAPS}` : null,
+      rivals: state.mode === 'race' ? race.racers.filter((r) => !r.isPlayer) : null,
+    });
+    updatePosHud(dt);
+    updateFinish(dt);
   }
   renderer.render(scene, camera);
 }
+
+/** How many gates the player has been through (the first arch crossing = 1), from Track's lap logic. */
+function playerCrossings() {
+  if (!track.racing) return 0;
+  const N = track.gates.length;
+  return track.next === 0 ? track.lap * N : (track.lap - 1) * N + track.next;
+}
+
+// attract mode: a demo race behind the title screen
+race.setup(state.t, { demo: true });
 requestAnimationFrame(frame);
 
 window.addEventListener('resize', () => {
@@ -597,4 +865,4 @@ window.addEventListener('resize', () => {
 });
 
 // for debugging in the console
-window.__game = { player, state, camera, track, teleport };
+window.__game = { player, state, camera, renderer, input, track, teleport, race, startRace, startFree };

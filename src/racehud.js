@@ -78,11 +78,12 @@ export class RaceHud {
     this.splitTimer = 3;
   }
 
-  update(dt, t, player) {
+  /** opts.lapText: e.g. "2/3" in a race; opts.rivals: racers to draw on the minimap */
+  update(dt, t, player, opts = {}) {
     const tr = this.track;
     const el = this.el;
     const N = tr.gates.length;
-    el.lapN.textContent = tr.racing ? String(tr.lap) : '-';
+    el.lapN.textContent = opts.lapText ?? (tr.racing ? String(tr.lap) : '-');
     el.time.textContent = fmtTime(tr.lapTime(t));
     el.best.textContent = fmtTime(tr.best);
     el.last.textContent = fmtTime(tr.lastLap);
@@ -104,10 +105,10 @@ export class RaceHud {
     else this.wrongT = Math.max(0, this.wrongT - dt * 3);
     el.wrong.classList.toggle('show', this.wrongT > 0.8);
 
-    this.drawMap(t, player);
+    this.drawMap(t, player, opts.rivals);
   }
 
-  drawMap(t, player) {
+  drawMap(t, player, rivals = null) {
     const g = this.ctx;
     const S = this.size;
     const tr = this.track;
@@ -147,6 +148,20 @@ export class RaceHud {
     g.beginPath();
     g.arc(gx, gy, 4 + Math.sin(t * 6) * 1.2, 0, Math.PI * 2);
     g.fill();
+    // rivals
+    if (rivals) {
+      g.lineWidth = 1.2;
+      g.strokeStyle = 'rgba(0, 20, 40, 0.8)';
+      for (const r of rivals) {
+        if (r.active === false) continue;
+        const [x, y] = this.map(r.ski.pos.x, r.ski.pos.z);
+        g.fillStyle = '#' + r.color.toString(16).padStart(6, '0');
+        g.beginPath();
+        g.arc(Math.max(4, Math.min(S - 4, x)), Math.max(4, Math.min(S - 4, y)), 3.6, 0, Math.PI * 2);
+        g.fill();
+        g.stroke();
+      }
+    }
     // player
     let [px, py] = this.map(player.pos.x, player.pos.z);
     px = Math.max(6, Math.min(S - 6, px));

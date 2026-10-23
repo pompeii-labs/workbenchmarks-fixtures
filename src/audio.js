@@ -58,6 +58,62 @@ export class GameAudio {
     };
     this.water = mkNoise('bandpass', 900, 0.7);
     this.wind = mkNoise('highpass', 1800, 0.5);
+
+    // the nearest rival's engine: a thinner, buzzier drone than ours
+    this.rivFilter = ctx.createBiquadFilter();
+    this.rivFilter.type = 'bandpass';
+    this.rivFilter.Q.value = 1.5;
+    this.rivFilter.frequency.value = 900;
+    this.rivGain = ctx.createGain();
+    this.rivGain.gain.value = 0;
+    this.rivOsc = ctx.createOscillator();
+    this.rivOsc.type = 'sawtooth';
+    this.rivOsc.connect(this.rivFilter).connect(this.rivGain).connect(this.master);
+    this.rivOsc.start();
+  }
+
+  /** dist (m) and speed (m/s) of the closest rival, closing = approach speed (for a little doppler) */
+  rival(dist, speed, closing = 0) {
+    if (!this.ctx) return;
+    const t = this.ctx.currentTime;
+    const near = Math.max(0, 1 - dist / 70);
+    const f = (70 + Math.min(1.3, speed / 32) * 110) * (1 + Math.max(-0.08, Math.min(0.08, closing / 340)));
+    this.rivOsc.frequency.setTargetAtTime(f, t, 0.08);
+    this.rivFilter.frequency.setTargetAtTime(500 + speed * 30, t, 0.1);
+    this.rivGain.gain.setTargetAtTime(near * near * 0.16, t, 0.1);
+  }
+
+  /** hull-on-hull knock */
+  bump(intensity) {
+    if (!this.ctx) return;
+    const ctx = this.ctx;
+    const t = ctx.currentTime;
+    const k = Math.min(1, intensity);
+    const o = ctx.createOscillator();
+    o.type = 'sine';
+    o.frequency.setValueAtTime(150 + Math.random() * 40, t);
+    o.frequency.exponentialRampToValueAtTime(55, t + 0.18);
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.25 + k * 0.5, t + 0.006);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.25);
+    o.connect(g).connect(this.master);
+    o.start(t);
+    o.stop(t + 0.3);
+    // plastic clack on top
+    const src = ctx.createBufferSource();
+    src.buffer = this.noiseBuf;
+    const f = ctx.createBiquadFilter();
+    f.type = 'bandpass';
+    f.frequency.value = 1400;
+    f.Q.value = 2;
+    const g2 = ctx.createGain();
+    g2.gain.setValueAtTime(0.0001, t);
+    g2.gain.exponentialRampToValueAtTime(0.15 + k * 0.35, t + 0.003);
+    g2.gain.exponentialRampToValueAtTime(0.0001, t + 0.09);
+    src.connect(f).connect(g2).connect(this.master);
+    src.start(t, Math.random());
+    src.stop(t + 0.12);
   }
 
   setMuted(m) {
