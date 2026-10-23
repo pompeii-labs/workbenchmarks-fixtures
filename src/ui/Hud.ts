@@ -1,5 +1,35 @@
 import type { SimState } from '../sim/sim';
-import { TUNING } from '../sim/sim';
+import { lapClock, TUNING } from '../sim/sim';
+import { COURSE_LENGTH, COURSE_SAMPLES, GATES, courseAt, formatLap, nearestSample } from '../sim/course';
+
+export type RaceMessage = '' | 'start' | 'wrong-way' | 'missed';
+
+/** Where the rider is relative to the course (pure: also used by diagnostics). */
+export function raceGuidance(s: SimState, cursor: number): { cursor: number; message: RaceMessage; bearing: number; dist: number } {
+  const g = GATES[s.race.nextGate];
+  const dx = g.x - s.x;
+  const dz = g.z - s.z;
+  const dist = Math.hypot(dx, dz);
+  const want = Math.atan2(-dx, -dz);
+  const speed = Math.hypot(s.vx, s.vz);
+  const travel = speed > 4 ? Math.atan2(-s.vx, -s.vz) : s.heading;
+  const bearing = Math.atan2(Math.sin(want - travel), Math.cos(want - travel));
+  let c = nearestSample(s.x, s.z, cursor, 40);
+  if (Math.hypot(COURSE_SAMPLES[c].x - s.x, COURSE_SAMPLES[c].z - s.z) > 30) c = nearestSample(s.x, s.z);
+  const sample = COURSE_SAMPLES[c];
+  const off = Math.hypot(sample.x - s.x, sample.z - s.z);
+  let message: RaceMessage = '';
+  if (!s.race.started) message = 'start';
+  else if (off < 45) {
+    let ahead = sample.arc - g.arc;
+    ahead = ((ahead + COURSE_LENGTH * 1.5) % COURSE_LENGTH) - COURSE_LENGTH / 2;
+    const tan = courseAt(sample.arc);
+    const along = s.vx * tan.tx + s.vz * tan.tz;
+    if (ahead > 20 && ahead < 200) message = 'missed';
+    else if (along < -6) message = 'wrong-way';
+  }
+  return { cursor: c, message, bearing, dist };
+}
 
 function el(sel: string): HTMLElement {
   const e = document.querySelector<HTMLElement>(sel);
@@ -20,7 +50,23 @@ export class Hud {
   private readonly popups = el('#popups');
   private readonly wipeout = el('#wipeout');
   private readonly hint = el('#hint');
-  private last = { score: -1, combo: -1, speed: -1, best: -1 };
+  private readonly lapNum = el('#lap-num');
+  private readonly gateNum = el('#gate-num');
+  private readonly lapTime = el('#lap-time');
+  private readonly bestLap = el('#best-lap');
+  private readonly lastLap = el('#last-lap');
+  private readonly raceMsg = el('#race-msg');
+  private readonly arrow = el('#gate-arrow');
+  private readonly arrowSvg = el('#gate-arrow svg');
+  private readonly gateDist = el('#gate-dist');
+  private readonly banner = el('#lap-banner');
+  private readonly bannerTitle = el('#lap-banner-title');
+  private readonly bannerTime = el('#lap-banner-time');
+  private readonly bannerSub = el('#lap-banner-sub');
+  private bannerUntil = 0;
+  private cursor = -1;
+  private last = { score: -1, combo: -1, speed: -1, best: -1, gate: -1, lap: -1, bestLap: -2, lastLap: -2, msg: 'x', clock: '' };
+  message: RaceMessage = '';
 
   update(s: SimState): void {
     if (s.score !== this.last.score) {
@@ -47,7 +93,78 @@ export class Hud {
     this.air.classList.toggle('hidden', !showAir);
     if (showAir) this.airValue.textContent = s.airTime.toFixed(1);
     this.wipeout.classList.toggle('hidden', s.mode !== 'wipeout');
-    if (s.jumps > 2 || s.score > 0) this.hint.classList.add('hidden');
+    if (s.jumps > 2 || s.score > 0 || s.race.started) this.hint.classList.add('hidden');
+    this.updateRace(s);
+  }
+
+  private updateRace(s: SimState): void {
+    const r = s.race;
+    const lap = r.laps + 1;
+    if (lap !== this.last.lap) {
+      this.lapNum.textContent = String(lap);
+      this.last.lap = lap;
+    }
+    const gatesDone = r.started ? (r.nextGate === 0 ? GATES.length : r.nextGate) : 0;
+    if (gatesDone !== this.last.gate) {
+      this.gateNum.textContent = `${gatesDone}/${GATES.length}`;
+      if (this.last.gate >= 0 && gatesDone > this.last.gate) {
+        this.gateNum.classList.remove('flash');
+        void this.gateNum.offsetWidth;
+        this.gateNum.classList.add('flash');
+      }
+      this.last.gate = gatesDone;
+    }
+    const clock = r.started ? formatLap(Math.max(0.001, lapClock(s))) : '0:00.00';
+    if (clock !== this.last.clock) {
+      this.lapTime.textContent = clock;
+      this.lapTime.classList.toggle('idle', !r.started);
+      this.last.clock = clock;
+    }
+    if (r.bestLap !== this.last.bestLap) {
+      this.bestLap.textContent = formatLap(r.bestLap);
+      this.last.bestLap = r.bestLap;
+    }
+    if (r.lastLap !== this.last.lastLap) {
+      this.lastLap.textContent = formatLap(r.lastLap);
+      this.last.lastLap = r.lastLap;
+    }
+    const g = raceGuidance(s, this.cursor);
+    this.cursor = g.cursor;
+    this.message = g.message;
+    if (g.message !== this.last.msg) {
+      const gateN = r.nextGate === 0 ? 'finish' : `gate ${r.nextGate}`;
+      const text = g.message === 'start' ? 'Ride through the start gate' : g.message === 'wrong-way' ? 'Wrong way' : g.message === 'missed' ? `Missed ${gateN}: turn back` : '';
+      this.raceMsg.textContent = text;
+      this.raceMsg.classList.toggle('hidden', !text);
+      this.raceMsg.classList.toggle('info', g.message === 'start');
+      this.last.msg = g.message;
+    }
+    // CSS rotation is clockwise; a positive bearing means the gate is to the left.
+    this.arrowSvg.style.transform = `rotate(${(-g.bearing * 180) / Math.PI}deg)`;
+    this.gateDist.textContent = `${Math.round(g.dist)} m`;
+    this.arrow.classList.toggle('hidden', s.mode !== 'ride' || this.bannerUntil > 0);
+    if (this.bannerUntil > 0 && s.t > this.bannerUntil) {
+      this.bannerUntil = 0;
+      this.banner.classList.add('hidden');
+    }
+  }
+
+  lapComplete(nowT: number, lapNumber: number, time: number, best: boolean, previousBest: number): void {
+    this.bannerTitle.textContent = best ? 'NEW BEST LAP' : `LAP ${lapNumber}`;
+    this.bannerTime.textContent = formatLap(time);
+    let sub = '';
+    if (best && previousBest > 0) sub = `${(previousBest - time).toFixed(2)}s faster`;
+    else if (!best && previousBest > 0) sub = `+${(time - previousBest).toFixed(2)}s off best`;
+    this.bannerSub.textContent = sub;
+    this.banner.classList.toggle('best', best);
+    this.banner.classList.remove('hidden');
+    this.bannerUntil = nowT + 3.2;
+  }
+
+  resetRace(): void {
+    this.cursor = -1;
+    this.bannerUntil = 0;
+    this.banner.classList.add('hidden');
   }
 
   popup(label: string, points: number): void {

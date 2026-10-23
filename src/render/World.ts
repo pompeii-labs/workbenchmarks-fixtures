@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { ISLANDS, ringCenterY, type Ring } from '../sim/sim';
+import { distanceToCourse } from '../sim/course';
 import { waveHeight } from '../sim/waves';
 import { createSeededRandom } from '../utils/random';
 
@@ -180,7 +181,7 @@ export class World {
         const present = h > 0.45;
         const bx = (ix + 0.2 + cellHash(ix + 91, iz) * 0.6) * BUOY_CELL;
         const bz = (iz + 0.2 + cellHash(ix, iz + 57) * 0.6) * BUOY_CELL;
-        if (present && !this.insideIsland(bx, bz)) {
+        if (present && !this.insideIsland(bx, bz) && distanceToCourse(bx, bz) > 28) {
           const wy = waveHeight(bx, bz, t);
           this.dummy.position.set(bx, wy - 0.3, bz);
           const tilt = (waveHeight(bx + 1, bz, t) - waveHeight(bx - 1, bz, t)) * 0.5;

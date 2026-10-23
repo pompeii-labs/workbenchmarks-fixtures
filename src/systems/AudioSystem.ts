@@ -102,6 +102,27 @@ export class AudioSystem {
     src.stop(now + 0.65);
   }
 
+  /** Lap complete: rising arpeggio, longer for a new best. */
+  fanfare(best: boolean): void {
+    if (!this.ctx || !this.master) return;
+    const now = this.ctx.currentTime;
+    const notes = best ? [523, 659, 784, 1047, 1319] : [523, 659, 784];
+    notes.forEach((n, i) => {
+      const o = this.ctx!.createOscillator();
+      const g = this.ctx!.createGain();
+      o.type = 'square';
+      o.frequency.value = n;
+      const t = now + i * 0.09;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.07, t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 0.4);
+      o.connect(g);
+      g.connect(this.master!);
+      o.start(t);
+      o.stop(t + 0.45);
+    });
+  }
+
   chime(high: boolean): void {
     if (!this.ctx || !this.master) return;
     const now = this.ctx.currentTime;

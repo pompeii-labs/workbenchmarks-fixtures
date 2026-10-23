@@ -1,5 +1,6 @@
 import { createSeededRandom } from '../utils/random';
 import { waveHeight } from './waves';
+import { GATES, RAMPS, SPAWN, rampLocal, rampTop, type Ramp } from './course';
 
 /** The one input type that drives the ski (player or bot). */
 export interface Command {
@@ -14,7 +15,7 @@ export interface Command {
 
 export const IDLE: Command = { throttle: 0, steer: 0, boost: false, jump: false };
 
-export type SimEventType = 'launch' | 'land' | 'wipeout' | 'respawn' | 'ring' | 'trick' | 'pop';
+export type SimEventType = 'launch' | 'land' | 'wipeout' | 'respawn' | 'ring' | 'trick' | 'pop' | 'gate' | 'lap' | 'race-start';
 
 export interface SimEvent {
   id: number;
@@ -45,6 +46,24 @@ export interface Island {
 }
 
 export type RideMode = 'ride' | 'wipeout';
+
+export interface RaceState {
+  /** lap clock running (start line crossed once) */
+  started: boolean;
+  /** index into GATES of the gate you must take next (0 = start/finish) */
+  nextGate: number;
+  /** completed laps this run */
+  laps: number;
+  /** sim time the current lap began */
+  lapStart: number;
+  lastLap: number;
+  /** 0 = no lap set yet */
+  bestLap: number;
+  gatesPassed: number;
+  /** most recent lap times, newest last */
+  history: number[];
+}
+
 
 export interface SimState {
   t: number;
@@ -83,6 +102,16 @@ export interface SimState {
   ringsHit: number;
   rings: Ring[];
   nextRingId: number;
+  /** RAMPS index the hull is riding on, -1 when on water */
+  onRamp: number;
+  /** current flight started off a ramp lip */
+  airFromRamp: boolean;
+  /** completed ramp jumps this run */
+  rampJumps: number;
+  /** airtime / peak height of the last landed ramp jump */
+  lastRampAir: number;
+  lastRampHeight: number;
+  race: RaceState;
   events: SimEvent[];
   nextEventId: number;
 }
@@ -117,6 +146,9 @@ export const TUNING = {
   wipeoutTime: 1.7,
   comboWindow: 7,
   ringCount: 10,
+  pylonRadius: 1.2,
+  gateBoost: 0.12,
+  lapPoints: 500,
 };
 
 function rngFrom(state: SimState): () => number {
@@ -136,13 +168,13 @@ export function createState(seed: number): SimState {
     rngState: seed >>> 0,
     mode: 'ride',
     modeTimer: 0,
-    x: 0,
+    x: SPAWN.x,
     y: 0,
-    z: 0,
+    z: SPAWN.z,
     vx: 0,
     vy: 0,
     vz: 0,
-    heading: 0,
+    heading: SPAWN.heading,
     steerVisual: 0,
     airborne: false,
     airTime: 0,
@@ -166,6 +198,12 @@ export function createState(seed: number): SimState {
     ringsHit: 0,
     rings: [],
     nextRingId: 1,
+    onRamp: -1,
+    airFromRamp: false,
+    rampJumps: 0,
+    lastRampAir: 0,
+    lastRampHeight: 0,
+    race: { started: false, nextGate: 0, laps: 0, lapStart: 0, lastLap: 0, bestLap: 0, gatesPassed: 0, history: [] },
     events: [],
     nextEventId: 1,
   };
@@ -188,6 +226,139 @@ export function hullHeight(x: number, z: number, heading: number, t: number): nu
   const fx = fwdX(heading) * TUNING.hullHalf;
   const fz = fwdZ(heading) * TUNING.hullHalf;
   return (waveHeight(x + fx, z + fz, t) + 2 * waveHeight(x, z, t) + waveHeight(x - fx, z - fz, t)) * 0.25;
+}
+
+/** Riding surface under the hull: water, or the ramp deck while on a ramp. */
+function groundAt(s: SimState, x: number, z: number, t: number, hull: boolean): number {
+  const w = hull ? hullHeight(x, z, s.heading, t) : waveHeight(x, z, t);
+  if (s.onRamp < 0) return w;
+  const r = RAMPS[s.onRamp];
+  const { u, v } = rampLocal(r, x, z);
+  if (u < 0 || u > r.len || Math.abs(v) > r.halfWidth + 0.3) return w;
+  return Math.max(w, rampTop(r, u, t));
+}
+
+/** Ramps: ride on from the low end (or drop onto the deck); the sides and lip are solid. */
+function resolveRamps(s: SimState): void {
+  if (s.onRamp >= 0) {
+    const r = RAMPS[s.onRamp];
+    const { u, v } = rampLocal(r, s.x, s.z);
+    if (u < -0.5 || u > r.len || Math.abs(v) > r.halfWidth + 0.3) s.onRamp = -1;
+  }
+  if (s.onRamp >= 0) return;
+  for (const r of RAMPS) {
+    const { u, v } = rampLocal(r, s.x, s.z);
+    if (u < 0 || u > r.len || Math.abs(v) > r.halfWidth) continue;
+    const top = rampTop(r, u, s.t);
+    const along = s.vx * r.dx + s.vz * r.dz;
+    if ((u < 2.5 && along > 1) || s.y >= top - 0.25) {
+      s.onRamp = r.index;
+      return;
+    }
+    pushOutOfRamp(s, r, u, v);
+  }
+}
+
+function pushOutOfRamp(s: SimState, r: Ramp, u: number, v: number): void {
+  const rx = -r.dz;
+  const rz = r.dx;
+  const side = r.halfWidth - Math.abs(v);
+  const back = r.len - u;
+  const front = u;
+  let nx: number;
+  let nz: number;
+  let push: number;
+  if (side <= back && side <= front) {
+    const sg = v >= 0 ? 1 : -1;
+    nx = rx * sg;
+    nz = rz * sg;
+    push = side;
+  } else if (back <= front) {
+    nx = r.dx;
+    nz = r.dz;
+    push = back;
+  } else {
+    nx = -r.dx;
+    nz = -r.dz;
+    push = front;
+  }
+  s.x += nx * (push + 0.05);
+  s.z += nz * (push + 0.05);
+  const vn = s.vx * nx + s.vz * nz;
+  if (vn < 0) {
+    s.vx -= vn * nx * 1.3;
+    s.vz -= vn * nz * 1.3;
+  }
+}
+
+/** Gate pylons are solid buoys: soft push-out, keep tangential speed. */
+function resolvePylons(s: SimState): void {
+  const R = TUNING.pylonRadius + 0.5;
+  for (const g of GATES) {
+    for (const sg of [-1, 1]) {
+      const px = g.x + -g.tz * g.halfWidth * sg;
+      const pz = g.z + g.tx * g.halfWidth * sg;
+      const dx = s.x - px;
+      const dz = s.z - pz;
+      const d = Math.hypot(dx, dz);
+      if (d < R && d > 0.001 && s.y < 3.5 + s.surfaceY) {
+        const nx = dx / d;
+        const nz = dz / d;
+        s.x = px + nx * R;
+        s.z = pz + nz * R;
+        const vn = s.vx * nx + s.vz * nz;
+        if (vn < 0) {
+          s.vx -= vn * nx * 1.4;
+          s.vz -= vn * nz * 1.4;
+        }
+      }
+    }
+  }
+}
+
+/** Lap logic: only the next gate counts, crossed forward between its buoys. */
+function updateRace(s: SimState, px: number, pz: number): void {
+  const race = s.race;
+  const g = GATES[race.nextGate];
+  const dPrev = (px - g.x) * g.tx + (pz - g.z) * g.tz;
+  const dNow = (s.x - g.x) * g.tx + (s.z - g.z) * g.tz;
+  if (!(dPrev < 0 && dNow >= 0)) return;
+  const f = dPrev / (dPrev - dNow);
+  const cx = px + (s.x - px) * f;
+  const cz = pz + (s.z - pz) * f;
+  const lat = (cx - g.x) * -g.tz + (cz - g.z) * g.tx;
+  if (Math.abs(lat) > g.halfWidth) return;
+  const crossT = s.t - TUNING.dt + f * TUNING.dt;
+  if (g.start) {
+    if (!race.started) {
+      race.started = true;
+      race.lapStart = crossT;
+      race.nextGate = 1;
+      emit(s, 'race-start', 0);
+      return;
+    }
+    const lap = crossT - race.lapStart;
+    const best = race.bestLap <= 0 || lap < race.bestLap;
+    race.lastLap = lap;
+    if (best) race.bestLap = lap;
+    race.laps += 1;
+    race.history.push(lap);
+    if (race.history.length > 5) race.history.shift();
+    race.lapStart = crossT;
+    race.nextGate = 1;
+    emit(s, 'lap', lap, best ? 'best' : 'lap');
+    s.score += Math.round(TUNING.lapPoints * s.combo);
+    return;
+  }
+  race.gatesPassed += 1;
+  race.nextGate = (race.nextGate + 1) % GATES.length;
+  s.boost = Math.min(1, s.boost + TUNING.gateBoost);
+  emit(s, 'gate', g.index);
+}
+
+/** Current lap clock (0 before the start line). */
+export function lapClock(s: SimState): number {
+  return s.race.started ? s.t - s.race.lapStart : 0;
 }
 
 function wrapAngle(a: number): number {
@@ -352,6 +523,8 @@ export function step(s: SimState, cmd: Command): void {
   s.boost = Math.min(1, s.boost + T.boostRegen * dt);
 
   // Horizontal integrate
+  const px = s.x;
+  const pz = s.z;
   s.x += s.vx * dt;
   s.z += s.vz * dt;
 
@@ -374,24 +547,33 @@ export function step(s: SimState, cmd: Command): void {
     }
   }
 
-  // Vertical: ballistic against a moving surface. Leaving the water happens
-  // naturally when a crest drops away faster than gravity can follow.
+  resolvePylons(s);
+  resolveRamps(s);
+  updateRace(s, px, pz);
+
+  // Vertical: ballistic against a moving surface. Leaving the water (or a
+  // ramp lip) happens naturally when the surface drops away faster than
+  // gravity can follow.
   const prevSurface = s.surfaceY;
-  const surface = hullHeight(s.x, s.z, s.heading, s.t);
-  const surfaceVy = (surface - prevSurface) / dt;
+  const surface = groundAt(s, s.x, s.z, s.t, true);
+  // Clamp the rate so a discontinuity (ramp edge) can never fire a rocket launch.
+  const surfaceVy = Math.max(-30, Math.min(22, (surface - prevSurface) / dt));
   s.surfaceY = surface;
   s.surfaceVy = surfaceVy;
 
+  // Riding off a ramp edge too slowly to launch: fall off it, don't teleport down.
+  const fellOff = !s.airborne && surface < prevSurface - 0.3;
   if (!s.airborne) {
     // Riding: glued to the surface; jump pops off it.
-    s.y = surface;
-    s.vy = surfaceVy;
+    const prevVy = s.vy;
+    s.y = fellOff ? prevSurface : surface;
+    s.vy = fellOff ? Math.max(0, prevVy) : surfaceVy;
     const wantsPop = cmd.jump && !wiped && s.jumpCooldown <= 0;
     // Predict next step: does the surface fall away faster than gravity?
-    const nextSurface = hullHeight(s.x + s.vx * dt, s.z + s.vz * dt, s.heading, s.t + dt);
+    const nextSurface = groundAt(s, s.x + s.vx * dt, s.z + s.vz * dt, s.t + dt, true);
     const ballistic = s.y + (s.vy - T.gravity * dt) * dt;
     const crestLaunch = ballistic > nextSurface + 0.004 && s.vy > 1.6 && !wiped;
-    if (wantsPop || crestLaunch) {
+    if (wantsPop || crestLaunch || fellOff) {
       s.airborne = true;
       s.vy = Math.max(s.vy, 0) * T.launchKick;
       if (wantsPop) {
@@ -403,6 +585,7 @@ export function step(s: SimState, cmd: Command): void {
       s.airMaxHeight = 0;
       s.airSpin = 0;
       s.airStartHeading = s.heading;
+      s.airFromRamp = s.onRamp >= 0 && !wantsPop;
       s.jumps += 1;
       emit(s, 'launch', s.vy);
     }
@@ -425,8 +608,8 @@ export function step(s: SimState, cmd: Command): void {
   if (!s.airborne) {
     const hx = fwdX(s.heading) * T.hullHalf;
     const hz = fwdZ(s.heading) * T.hullHalf;
-    const front = waveHeight(s.x + hx, s.z + hz, s.t);
-    const back = waveHeight(s.x - hx, s.z - hz, s.t);
+    const front = groundAt(s, s.x + hx, s.z + hz, s.t, false);
+    const back = groundAt(s, s.x - hx, s.z - hz, s.t, false);
     const left = waveHeight(s.x + hz * 0.45, s.z - hx * 0.45, s.t);
     const right = waveHeight(s.x - hz * 0.45, s.z + hx * 0.45, s.t);
     const targetPitch = Math.atan2(front - back, T.hullHalf * 2) + Math.min(0.12, Math.abs(forward) * 0.004);
@@ -519,9 +702,15 @@ function land(s: SimState, impact: number): void {
   if (big) {
     s.bestAir = Math.max(s.bestAir, s.airTime);
     const base = s.airTime * 120 + s.airMaxHeight * 45;
-    const label = s.airTime > 1.5 ? 'HUGE AIR' : s.airTime > 1.0 ? 'BIG AIR' : 'AIR';
+    const kind = s.airTime > 1.5 ? 'HUGE' : s.airTime > 1.0 ? 'BIG' : '';
+    const label = s.airFromRamp ? `${kind ? `${kind} ` : ''}RAMP JUMP` : `${kind ? `${kind} ` : ''}AIR`;
+    if (s.airFromRamp) {
+      s.rampJumps += 1;
+      s.lastRampAir = s.airTime;
+      s.lastRampHeight = s.airMaxHeight;
+    }
     const spins = Math.floor((Math.abs(s.airSpin) + 0.9) / (Math.PI * 2));
-    award(s, base, `${label} ${s.airTime.toFixed(1)}s`);
+    award(s, base * (s.airFromRamp ? 1.5 : 1), `${label} ${s.airTime.toFixed(1)}s`);
     if (spins > 0) award(s, 260 * spins, `${spins * 360} SPIN`);
     s.boost = Math.min(1, s.boost + 0.12 + spins * 0.15);
     bumpCombo(s);

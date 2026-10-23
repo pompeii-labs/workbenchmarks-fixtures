@@ -3,11 +3,12 @@ export const name = 'controls';
 
 export default async function ({ page, check, state, until, metric }) {
     await startRide(page, until);
+    const z0 = await state((d) => d.sim.z);
     await page.keyboard.down('KeyW');
     await until(() => window.__THREE_GAME_DIAGNOSTICS__.sim.speed > 15, 20000);
     const s1 = await state((d) => ({ speed: d.sim.speed, heading: d.sim.heading, x: d.sim.x, z: d.sim.z }));
     check('W throttles up past 54 km/h', s1.speed > 15, JSON.stringify(s1));
-    check('ski drives forward (-Z at start)', s1.z < -5, JSON.stringify(s1));
+    check('ski drives forward (-Z at start)', s1.z < z0 - 5, `${z0} -> ${JSON.stringify(s1)}`);
 
     // Steer right: heading decreases (clockwise from above) and the bars turn right.
     await page.keyboard.down('KeyD');
@@ -26,11 +27,14 @@ export default async function ({ page, check, state, until, metric }) {
     // Boost
     await page.keyboard.down('ShiftLeft');
     await until(() => window.__THREE_GAME_DIAGNOSTICS__.sim.boosting, 10000);
+    // Gates and rings refill boost, so prove the drain on its own.
+    await until(() => window.__THREE_GAME_DIAGNOSTICS__.sim.boosting && window.__THREE_GAME_DIAGNOSTICS__.sim.boost < 0.97, 15000);
+    const drained = await state((d) => d.sim.boost);
     await until(() => window.__THREE_GAME_DIAGNOSTICS__.sim.speed > 26 || window.__THREE_GAME_DIAGNOSTICS__.sim.boost < 0.05, 20000);
     const s4 = await state((d) => ({ speed: d.sim.speed, boost: d.sim.boost }));
     await page.keyboard.up('ShiftLeft');
     metric('boostTopSpeedKmh', Math.round(s4.speed * 3.6));
-    check('Shift boost exceeds normal top speed and drains meter', s4.speed > 25.5 && s4.boost < 1, JSON.stringify(s4));
+    check('Shift boost exceeds normal top speed and drains meter', s4.speed > 25.5 && drained < 0.97, JSON.stringify({ ...s4, drained }));
 
     // Brake
     await page.keyboard.up('KeyW');
