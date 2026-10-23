@@ -9,12 +9,21 @@ import { World } from '../render/World';
 import { Course } from '../render/Course';
 import { Autopilot } from '../sim/autopilot';
 import { GATES, RAMPS, formatLap, rampLocal } from '../sim/course';
-import { createState, hullHeight, IDLE, lapClock, placeRingAhead, step, TUNING, type Command, type SimEvent, type SimState } from '../sim/sim';
+import { hullHeight, IDLE, lapClock, placeRingAhead, TUNING, type Command, type SimEvent, type SimState } from '../sim/sim';
+import { createRace, raceClock, RIVALS, stepRace, type RaceEvent, type RacePhase, type RaceWorld } from '../sim/race';
+import { RivalTags } from '../ui/RivalTags';
 import { waveHeight } from '../sim/waves';
 import { AudioSystem } from '../systems/AudioSystem';
 import { Hud } from '../ui/Hud';
 
-type UiMode = 'title' | 'play' | 'paused';
+type UiMode = 'title' | 'play' | 'paused' | 'finished';
+
+interface FxAcc {
+  rooster: number;
+  bow: number;
+  carve: number;
+  foam: number;
+}
 
 const DT = TUNING.dt;
 const MAX_DPR = 1.75;
@@ -41,6 +50,8 @@ export class Game {
   private readonly camera = new THREE.PerspectiveCamera(64, 1, 0.1, 2000);
   private readonly water = new Water(PALETTE);
   private readonly ski = new JetSki();
+  private readonly rivalSkis = RIVALS.map((r) => new JetSki({ accent: r.color, vest: '#f3f5f7' }));
+  private readonly tags = new RivalTags(el('#tags'));
   private readonly splash = new Splash();
   private readonly world = new World();
   private readonly course = new Course();
@@ -54,8 +65,15 @@ export class Game {
   private readonly sky: THREE.Mesh;
   private readonly hudEl = el('#hud');
 
-  private sim: SimState;
+  private race!: RaceWorld;
   private seed = 1;
+  private raceLaps = 3;
+  private rivalCount = RIVALS.length;
+  /** sim time at which the finish screen opens (0 = not pending) */
+  private finishAt = 0;
+  private lastRaceEventId = 0;
+  private rivalEventIds: number[] = [];
+  private rivalFx: FxAcc[] = [];
   private ui: UiMode = 'title';
   private lastEventId = 0;
   private acc = 0;
@@ -97,6 +115,7 @@ export class Game {
     sun.position.copy(PALETTE.sunDir).multiplyScalar(100);
     this.scene.add(sun);
     this.scene.add(this.water.mesh, this.world.group, this.course.group, this.ski.root, this.splash.foam, this.splash.spray);
+    for (const r of this.rivalSkis) this.scene.add(r.root);
 
     try {
       const b = Number(localStorage.getItem('swellrider-bestlap'));
@@ -104,15 +123,12 @@ export class Game {
     } catch {
       // storage unavailable
     }
-    this.sim = createState(this.seed);
-    this.resetRun();
+    this.resetRun('free');
 
     el('#start-btn').addEventListener('click', () => this.startPlay());
     el('#resume-btn').addEventListener('click', () => this.setPaused(false));
-    el('#restart-btn').addEventListener('click', () => {
-      this.resetRun();
-      this.startPlay();
-    });
+    el('#restart-btn').addEventListener('click', () => this.restartRace());
+    el('#again-btn').addEventListener('click', () => this.restartRace());
     el('#pause-btn').addEventListener('click', () => this.setPaused(this.ui !== 'paused'));
     el('#mute-btn').addEventListener('click', () => this.toggleMute());
     document.addEventListener('visibilitychange', () => {
@@ -146,6 +162,7 @@ export class Game {
     this.audio.dispose();
     this.water.dispose();
     this.ski.dispose();
+    for (const r of this.rivalSkis) r.dispose();
     this.splash.dispose();
     this.world.dispose();
     this.course.dispose();
@@ -161,16 +178,24 @@ export class Game {
       if (a === 'start' || a === 'restart') this.startPlay();
       return;
     }
+    if (a === 'restart') return this.restartRace();
+    if (this.ui === 'finished') return;
     if (a === 'pause') this.setPaused(this.ui !== 'paused');
-    else if (a === 'restart') {
-      this.resetRun();
-      this.startPlay();
-    }
+  }
+
+  private get sim(): SimState {
+    return this.race.racers[0].s;
+  }
+
+  private restartRace(): void {
+    this.resetRun('countdown');
+    this.ui = 'title';
+    this.startPlay();
   }
 
   private startPlay(): void {
     this.audio.unlock();
-    if (this.ui === 'title') this.resetRun();
+    if (this.ui === 'title') this.resetRun('countdown');
     this.ui = 'play';
     this.input.flush();
     el('#title').classList.add('hidden');
@@ -178,13 +203,15 @@ export class Game {
   }
 
   private setPaused(p: boolean): void {
-    if (this.ui === 'title') return;
+    if (this.ui === 'title' || this.ui === 'finished') return;
     this.ui = p ? 'paused' : 'play';
     el('#pause').classList.toggle('hidden', !p);
     if (p) {
       const r = this.sim.race;
       const best = Math.max(0, this.bestLap || r.bestLap);
-      el('#pause-laps').textContent = best > 0 ? `Best lap ${formatLap(best)} · ${r.laps} lap${r.laps === 1 ? '' : 's'} this run` : 'No lap set yet: follow the glowing gates';
+      const me = this.race.racers[0];
+      const pos = this.race.phase === 'racing' ? `Running ${me.place} of ${this.race.racers.length} · lap ${Math.min(r.laps + 1, this.race.totalLaps)}/${this.race.totalLaps}` : 'On the grid';
+      el('#pause-laps').textContent = best > 0 ? `${pos} · best lap ${formatLap(best)}` : `${pos} · follow the glowing gates`;
     }
     if (p) el<HTMLButtonElement>('#resume-btn').focus({ preventScroll: true });
     else {
@@ -204,9 +231,12 @@ export class Game {
     }
   }
 
-  private resetRun(): void {
-    this.sim = createState(this.seed);
-    this.sim.race.bestLap = this.bestLap;
+  private resetRun(phase: RacePhase): void {
+    this.race = createRace(this.seed, { phase, laps: this.raceLaps, rivals: this.rivalCount, playerBest: this.bestLap });
+    this.finishAt = 0;
+    this.lastRaceEventId = 0;
+    this.rivalEventIds = this.race.racers.map(() => 0);
+    this.rivalFx = this.race.racers.map(() => ({ rooster: 0, bow: 0, carve: 0, foam: 0 }));
     this.autopilot.reset();
     this.hintPilot.reset();
     this.hud.resetRace();
@@ -236,7 +266,7 @@ export class Game {
         const maxSteps = Math.ceil(6 * this.timeScale);
         let n = 0;
         while (this.acc >= DT && n < maxSteps) {
-          const cmd = this.ui === 'play' ? this.input.read() : this.attractCommand();
+          const cmd = this.ui === 'play' ? this.input.read() : IDLE;
           this.stepOnce(cmd);
           this.acc -= DT;
           n += 1;
@@ -249,27 +279,47 @@ export class Game {
     if (this.frame === 2) el('#loading').classList.add('done');
     this.audio.engine(
       Math.min(1, Math.hypot(this.sim.vx, this.sim.vz) / TUNING.boostSpeed),
-      this.lastCmd.throttle,
+      this.race.phase === 'countdown' ? this.lastCmd.throttle * 0.4 : this.race.racers[0].lastCmd.throttle,
       this.sim.airborne,
       this.sim.boosting,
-      this.ui === 'play' && this.sim.mode === 'ride',
+      (this.ui === 'play' || this.ui === 'finished') && this.sim.mode === 'ride',
     );
     this.publishDiagnostics();
   }
 
-  /** Title-screen autopilot: rides the course so the menu shows the game. */
-  private attractCommand(): Command {
-    return this.autopilot.command(this.sim);
-  }
-
   private stepOnce(cmd: Command): void {
     this.lastCmd = cmd;
-    step(this.sim, cmd);
-    this.emitWaterFx(cmd);
+    stepRace(this.race, cmd, this.ui === 'title');
+    const w = this.race;
+    this.emitWaterFx(this.sim, w.racers[0].lastCmd, this.emitAcc, 1);
     for (const ev of this.sim.events) {
       if (ev.id <= this.lastEventId) continue;
       this.lastEventId = ev.id;
       this.handleEvent(ev);
+    }
+    // Rivals: spray and splashes near the camera only.
+    const cam = this.camera.position;
+    for (let i = 1; i < w.racers.length; i += 1) {
+      const r = w.racers[i];
+      const near = Math.hypot(r.s.x - cam.x, r.s.z - cam.z) < 110;
+      if (near) this.emitWaterFx(r.s, r.lastCmd, this.rivalFx[i], 0.45);
+      for (const ev of r.s.events) {
+        if (ev.id <= this.rivalEventIds[i]) continue;
+        this.rivalEventIds[i] = ev.id;
+        if (near) this.handleRivalEvent(r.s, ev);
+      }
+    }
+    for (const ev of w.events) {
+      if (ev.id <= this.lastRaceEventId) continue;
+      this.lastRaceEventId = ev.id;
+      this.handleRaceEvent(ev);
+    }
+    if (this.finishAt > 0 && this.sim.t >= this.finishAt && this.ui !== 'title') {
+      this.finishAt = 0;
+      if (this.ui === 'paused') el('#pause').classList.add('hidden');
+      this.ui = 'finished';
+      this.hud.showFinish(w);
+      el<HTMLButtonElement>('#again-btn').focus({ preventScroll: true });
     }
     this.splash.update(DT, this.sim.t);
     this.splash.tickFoam(DT);
@@ -331,8 +381,45 @@ export class Game {
     }
   }
 
-  private emitWaterFx(cmd: Command): void {
-    const s = this.sim;
+  private handleRivalEvent(s: SimState, ev: SimEvent): void {
+    this.carry.set(s.vx, 0, s.vz);
+    if (ev.type === 'launch') this.splash.burst(ev.x, ev.y, ev.z, 14, 3 + Math.min(4, ev.value * 0.3), this.carry);
+    else if (ev.type === 'land' && ev.value > 2) this.splash.burst(ev.x, ev.y, ev.z, Math.min(120, 30 + ev.value * 6), 3 + ev.value * 0.4, this.carry);
+    else if (ev.type === 'wipeout') this.splash.burst(ev.x, ev.y, ev.z, 140, 7, this.carry);
+  }
+
+  private handleRaceEvent(ev: RaceEvent): void {
+    const loud = this.ui === 'play' || this.ui === 'finished';
+    switch (ev.type) {
+      case 'countdown':
+        if (loud) this.audio.chime(false);
+        break;
+      case 'go':
+        if (loud) this.audio.chime(true);
+        break;
+      case 'bump': {
+        const a = this.race.racers[ev.a].s;
+        const b = this.race.racers[ev.b].s;
+        this.carry.set((a.vx + b.vx) / 2, 0, (a.vz + b.vz) / 2);
+        this.splash.burst(ev.x, ev.y, ev.z, Math.min(90, 20 + ev.value * 10), 2.5 + ev.value * 0.5, this.carry);
+        if (ev.a === 0) {
+          this.trauma = Math.min(1, this.trauma + 0.15 + ev.value * 0.05);
+          if (loud) this.audio.splash(4 + ev.value * 1.5);
+        }
+        break;
+      }
+      case 'finish':
+        if (ev.a === 0 && this.ui !== 'title') {
+          this.finishAt = this.sim.t + 1.1;
+          if (loud) this.audio.fanfare(ev.b === 1);
+        }
+        break;
+      default:
+        break;
+    }
+  }
+
+  private emitWaterFx(s: SimState, cmd: Command, acc: FxAcc, rate: number): void {
     const speed = Math.hypot(s.vx, s.vz);
     const onWater = !s.airborne && s.y - s.surfaceY < 0.2;
     if (!onWater || speed < 1.5) return;
@@ -345,16 +432,16 @@ export class Game {
     const boost = s.boosting ? 1.6 : 1;
 
     // Rooster tail from the jet nozzle
-    this.emitAcc.rooster += (speed / 3) * boost * (s.mode === 'wipeout' ? 0 : 1) * (cmd.throttle > 0 ? 1 : 0.35);
-    while (this.emitAcc.rooster >= 1) {
-      this.emitAcc.rooster -= 1;
+    acc.rooster += rate * (speed / 3) * boost * (s.mode === 'wipeout' ? 0 : 1) * (cmd.throttle > 0 ? 1 : 0.35);
+    while (acc.rooster >= 1) {
+      acc.rooster -= 1;
       const up = 3 + speed * 0.28 * boost;
       sp.emit(s.x - fx * 1.6, s.y + 0.05, s.z - fz * 1.6, -fx * speed * 0.12 + s.vx * 0.45, up, -fz * speed * 0.12 + s.vz * 0.45, 1.4, 0.4, 1.0);
     }
     // Bow spray peeling off both sides
-    this.emitAcc.bow += speed / 9;
-    while (this.emitAcc.bow >= 1) {
-      this.emitAcc.bow -= 1;
+    acc.bow += (rate * speed) / 9;
+    while (acc.bow >= 1) {
+      acc.bow -= 1;
       for (const side of [-1, 1]) {
         const out = 1.6 + speed * 0.11;
         sp.emit(s.x + fx * 0.6 + rx * side * 0.6, s.y, s.z + fz * 0.6 + rz * side * 0.6,
@@ -364,19 +451,19 @@ export class Game {
     // Carve sheet: slip sideways throws a wall of water to the outside
     const slip = Math.abs(lateral);
     if (slip > 1.2) {
-      this.emitAcc.carve += slip * 0.9;
+      acc.carve += rate * slip * 0.9;
       const side = Math.sign(lateral);
-      while (this.emitAcc.carve >= 1) {
-        this.emitAcc.carve -= 1;
+      while (acc.carve >= 1) {
+        acc.carve -= 1;
         const out = 3 + slip * 1.1;
         sp.emit(s.x + rx * side * 0.7 - fx * 0.4, s.y, s.z + rz * side * 0.7 - fz * 0.4,
           rx * side * out + s.vx * 0.5, 2.6 + slip * 0.5, rz * side * out + s.vz * 0.5, 2, 0.34, 0.9);
       }
     }
     // Wake foam
-    this.emitAcc.foam += 1;
-    if (this.emitAcc.foam >= 3) {
-      this.emitAcc.foam = 0;
+    acc.foam += rate;
+    if (acc.foam >= 3) {
+      acc.foam = 0;
       sp.emitFoam(s.x - fx * 1.5, s.z - fz * 1.5, 0, 1.3 + speed * 0.05, 2.4, 3.6);
     }
   }
@@ -435,14 +522,23 @@ export class Game {
     const s = this.sim;
     const wipeT = s.mode === 'wipeout' ? Math.max(0, s.modeTimer / TUNING.wipeoutTime) : 0;
     this.ski.apply(s.x, s.y, s.z, s.heading, s.pitch, s.roll, s.steerVisual, s.airborne, wipeT, s.t);
+    this.rivalSkis.forEach((ski, i) => {
+      const r = this.race.racers[i + 1];
+      ski.root.visible = !!r;
+      if (!r) return;
+      const o = r.s;
+      const wt = o.mode === 'wipeout' ? Math.max(0, o.modeTimer / TUNING.wipeoutTime) : 0;
+      ski.apply(o.x, o.y, o.z, o.heading, o.pitch, o.roll, o.steerVisual, o.airborne, wt, o.t);
+    });
     this.water.update(s.t, s.x, s.z);
     this.water.setShadow(s.x, s.z, Math.max(0, s.y - s.surfaceY));
     this.world.update(s.rings, s.t, s.x, s.z, this.frozen || this.ui === 'paused' ? 0 : 1 / 60);
     this.course.update(s.t, s.race.nextGate, s.race.started, this.camera.position, this.ui !== 'title');
     this.splash.syncFoam(s.t);
     this.sky.position.copy(this.camera.position);
-    this.hud.update(s);
-    this.hudEl.classList.toggle('off', this.ui === 'title');
+    this.hud.update(s, this.race);
+    this.hudEl.classList.toggle('off', this.ui === 'title' || this.ui === 'finished');
+    this.tags.update(this.race, this.camera, this.ui === 'play' || this.ui === 'paused');
     this.renderer.render(this.scene, this.camera);
   }
 
@@ -494,6 +590,45 @@ export class Game {
         lastRampAir: s.lastRampAir,
         lastRampHeight: s.lastRampHeight,
         surfaceY: s.surfaceY,
+        vx: s.vx,
+        vz: s.vz,
+        bumps: s.bumps,
+      },
+      field: {
+        phase: this.race.phase,
+        countdown: this.race.countdown,
+        totalLaps: this.race.totalLaps,
+        clock: raceClock(this.race),
+        position: this.race.racers[0].place,
+        racers: this.race.racers.length,
+        finished: this.race.racers[0].finished,
+        finishTime: this.race.racers[0].finishTime,
+        finishOrder: [...this.race.finishOrder],
+        finishVisible: this.hud.finishVisible,
+        bumpsPlayerRival: this.race.bumpsPlayerRival,
+        bumpsRivalRival: this.race.bumpsRivalRival,
+        holdRivals: this.race.holdRivals,
+        lastBump: this.race.lastBump,
+        rivals: this.race.racers.slice(1).map((r) => ({
+          name: r.name,
+          place: r.place,
+          x: r.s.x,
+          y: r.s.y,
+          z: r.s.z,
+          vx: r.s.vx,
+          vz: r.s.vz,
+          speed: Math.hypot(r.s.vx, r.s.vz),
+          laps: r.s.race.laps,
+          nextGate: r.s.race.nextGate,
+          gatesPassed: r.s.race.gatesPassed,
+          progress: r.progress,
+          rampJumps: r.s.rampJumps,
+          airborne: r.s.airborne,
+          wipeouts: r.s.wipeouts,
+          bumps: r.s.bumps,
+          finished: r.finished,
+          finishTime: r.finishTime,
+        })),
       },
       race: {
         started: s.race.started,
@@ -541,7 +676,10 @@ export class Game {
 
   private applyState(name: string): void {
     if (!__TEST_HOOKS__) return;
-    this.resetRun();
+    const laps = this.raceLaps;
+    if (name === 'race-finish') this.raceLaps = 1;
+    this.resetRun(name === 'countdown' || name === 'title' ? (name === 'title' ? 'free' : 'countdown') : 'racing');
+    this.raceLaps = laps;
     el('#title').classList.add('hidden');
     el('#pause').classList.add('hidden');
     this.ui = 'play';
@@ -550,8 +688,41 @@ export class Game {
       case 'title':
         this.ui = 'title';
         el('#title').classList.remove('hidden');
-        this.drive(120, () => this.attractCommand(), () => false);
+        this.drive(240, () => IDLE, () => false);
         break;
+      case 'countdown':
+        this.drive(75, () => IDLE, () => false);
+        break;
+      case 'pack-ramp': {
+        // Follow the pack onto the first kicker until a rival is flying off it.
+        const ok = this.drive(
+          2400,
+          (s) => this.autopilot.command(s),
+          () => this.race.racers.some((r) => r.bot && r.s.airborne && r.s.airFromRamp && r.s.airTime > 0.35 && Math.hypot(r.s.x - this.sim.x, r.s.z - this.sim.z) < 45),
+        );
+        if (!ok) throw new Error('pack-ramp: no rival flew off a ramp near the player');
+        break;
+      }
+      case 'bump': {
+        // Ride up the start straight, then a rival closes in from the right and they trade paint.
+        this.drive(120, (s) => this.autopilot.command(s), () => false);
+        let ok = false;
+        for (let attempt = 0; attempt < 12 && !ok; attempt += 1) {
+          // Wait for both hulls to be on the water (a hop clears a rival), then converge.
+          this.drive(300, (s) => this.autopilot.command(s), (s) => !s.airborne);
+          window.__THREE_GAME_TEST_HOOKS__?.placeRival(1, 1.5, 3.2, 0.3, Math.hypot(this.sim.vx, this.sim.vz) + 1);
+          ok = this.drive(60, (s) => this.autopilot.command(s), () => this.race.bumpsPlayerRival >= 1);
+        }
+        if (!ok) throw new Error('bump: no player-rival contact');
+        this.drive(8, (s) => this.autopilot.command(s), () => false);
+        break;
+      }
+      case 'race-finish': {
+        const ok = this.drive(9000, (s) => this.autopilot.command(s, true), () => this.hud.finishVisible);
+        if (!ok) throw new Error('race-finish: player never finished');
+        this.drive(240, () => IDLE, () => false);
+        break;
+      }
       case 'active-play':
         this.drive(200, (s, i) => ({ ...full, steer: i > 120 && !s.airborne ? 0.55 : 0 }), () => false);
         break;
@@ -563,9 +734,9 @@ export class Game {
         const ok = this.drive(
           3000,
           (s) => this.autopilot.command(s, true),
-          (s) => s.onRamp === 0 && !s.airborne && rampLocal(RAMPS[0], s.x, s.z).u > 8,
+          (s) => s.onRamp >= 0 && !s.airborne && rampLocal(RAMPS[s.onRamp], s.x, s.z).u > 8,
         );
-        if (!ok) throw new Error('ramp-jump: never rode up the first ramp');
+        if (!ok) throw new Error('ramp-jump: never rode up a ramp');
         break;
       }
       case 'hairpin': {
@@ -620,7 +791,37 @@ export class Game {
     window.__THREE_GAME_TEST_HOOKS__ = {
       seed: (value: number) => {
         this.seed = value >>> 0 || 1;
-        this.resetRun();
+        this.resetRun(this.ui === 'title' ? 'free' : 'countdown');
+      },
+      setRaceLaps: (n: number) => {
+        this.raceLaps = Math.max(1, Math.min(9, Math.floor(n)));
+        if (!this.race.racers[0].finished) this.race.totalLaps = this.raceLaps;
+        this.publishDiagnostics();
+      },
+      setRivalsHold: (hold: boolean) => {
+        this.race.holdRivals = hold;
+        this.publishDiagnostics();
+      },
+      placeRival: (index: number, ahead: number, side: number, headingOffset: number, speed: number) => {
+        const r = this.race.racers[index + 1];
+        const p = this.sim;
+        const fx = -Math.sin(p.heading);
+        const fz = -Math.cos(p.heading);
+        const o = r.s;
+        o.x = p.x + fx * ahead + -fz * side;
+        o.z = p.z + fz * ahead + fx * side;
+        o.heading = p.heading + headingOffset;
+        o.vx = -Math.sin(o.heading) * speed;
+        o.vz = -Math.cos(o.heading) * speed;
+        o.vy = 0;
+        o.airborne = false;
+        o.mode = 'ride';
+        o.onRamp = -1;
+        o.y = hullHeight(o.x, o.z, o.heading, o.t);
+        o.surfaceY = o.y;
+        r.brain.cursor = -1;
+        this.publishDiagnostics();
+        return { x: o.x, z: o.z };
       },
       setState: (name: string) => {
         this.applyState(name);

@@ -29,6 +29,7 @@
     <main id="app">
       <canvas id="game-canvas" aria-label="Swell Rider game view"></canvas>
 
+      <div id="tags" aria-hidden="true"></div>
       <section id="hud" aria-live="polite">
         <div id="score-box">
           <div class="label">Score</div>
@@ -36,7 +37,7 @@
           <div id="combo"><span id="combo-value">x1</span><div id="combo-bar"><i id="combo-fill"></i></div></div>
         </div>
         <div id="race-box">
-          <div id="race-top"><span class="label">Lap <b id="lap-num">1</b></span><span class="label">Gate <b id="gate-num">0/8</b></span></div>
+          <div id="race-top"><span class="label">Lap <b id="lap-num">1/3</b></span><span class="label">Gate <b id="gate-num">0/8</b></span></div>
           <div id="lap-time">0:00.00</div>
           <div id="race-sub"><span>Best <b id="best-lap">--:--.--</b></span><span>Last <b id="last-lap">--:--.--</b></span></div>
           <div id="race-msg" class="hidden"></div>
@@ -44,6 +45,11 @@
         <div id="gate-arrow" aria-hidden="true"><svg viewBox="0 0 40 40" width="40" height="40"><path d="M20 3 L35 30 L20 23 L5 30 Z" fill="currentColor" stroke="#0b2a42" stroke-width="2" stroke-linejoin="round"/></svg><span id="gate-dist">0 m</span></div>
         <div id="lap-banner" class="hidden"><div id="lap-banner-title">LAP 1</div><div id="lap-banner-time">0:00.00</div><div id="lap-banner-sub"></div></div>
         <div id="air-readout" class="hidden">AIR <span id="air-value">0.0</span>s</div>
+        <div id="pos-box" class="hidden">
+          <div id="pos-main"><span id="pos-place">1st</span><span id="pos-of">/6</span></div>
+          <ol id="standings" class="desktop-only"></ol>
+        </div>
+        <div id="countdown" class="hidden"></div>
         <div id="best-box">
           <div class="label">Best air</div>
           <div id="best-value">0.0s</div>
@@ -54,7 +60,7 @@
           <div id="boost-bar" aria-label="Boost"><i id="boost-fill"></i></div>
         </div>
         <div id="popups"></div>
-        <div id="hint"><span class="desktop-only">Ride through the start gate. Hit the ramps flat out for big air.</span><span class="touch-only">Ride through the start gate. Ramps = big air.</span></div>
+        <div id="hint"><span class="desktop-only">Beat 5 rivals over 3 laps. Hit the ramps flat out, bump them off your line.</span><span class="touch-only">Beat 5 rivals over 3 laps. Ramps = big air.</span></div>
       </section>
 
       <button id="mute-btn" type="button" aria-label="Toggle sound">
@@ -66,21 +72,21 @@
       <div id="title" class="overlay">
         <div class="panel">
           <h1>SWELL RIDER</h1>
-          <p class="tag">Open water. Big swells. Race the buoys.</p>
+          <p class="tag">Open water. Big swells. Five rivals. Three laps.</p>
           <ul class="keys desktop-only">
             <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> ride &amp; steer</li>
             <li><kbd>Space</kbd> pop jump</li>
             <li><kbd>Shift</kbd> boost</li>
             <li><kbd>A</kbd>/<kbd>D</kbd> in the air: spin</li>
-            <li>Follow the glowing gates for a lap time</li>
+            <li>Follow the glowing gates, finish first</li>
           </ul>
           <ul class="keys touch-only">
             <li>Left stick: ride &amp; steer (pull down to brake)</li>
             <li>JUMP to pop, BOOST to go faster</li>
             <li>Steer in the air to spin</li>
-            <li>Follow the glowing gates for a lap time</li>
+            <li>Follow the glowing gates, finish first</li>
           </ul>
-          <button id="start-btn" type="button">Ride</button>
+          <button id="start-btn" type="button">Race</button>
           <p class="small desktop-only">Press any key to start</p>
         </div>
       </div>
@@ -92,6 +98,18 @@
           <button id="restart-btn" type="button" class="ghost">Restart</button>
           <p id="pause-laps" class="small"></p>
           <p class="small desktop-only"><kbd>P</kbd> resume · <kbd>R</kbd> restart · <kbd>M</kbd> sound</p>
+        </div>
+      </div>
+
+      <div id="finish" class="overlay hidden">
+        <div class="panel">
+          <div class="label">Finish</div>
+          <div id="finish-place">1st</div>
+          <h2 id="finish-title">You win!</h2>
+          <p id="finish-sub" class="small"></p>
+          <ol id="finish-rows"></ol>
+          <button id="again-btn" type="button">Race again</button>
+          <p class="small desktop-only"><kbd>R</kbd> race again</p>
         </div>
       </div>
 

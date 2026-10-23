@@ -17,7 +17,7 @@ export async function driveWithKeys(page, done, timeoutMs) {
         const d = await page.evaluate((src) => {
             const g = window.__THREE_GAME_DIAGNOSTICS__;
             // eslint-disable-next-line no-new-func
-            return { steer: g.race.steerHint, thr: g.race.throttleHint, air: g.sim.airborne, done: new Function(`return (${src})()`)() };
+            return { steer: g.race.steerHint, thr: g.race.throttleHint, air: g.sim.airborne, speed: g.sim.speed, done: new Function(`return (${src})()`)() };
         }, done.toString());
         if (d.done) {
             ok = true;
@@ -27,7 +27,8 @@ export async function driveWithKeys(page, done, timeoutMs) {
         await set('KeyD', !d.air && d.steer > 0.25);
         await set('KeyA', !d.air && d.steer < -0.25);
         await set('KeyW', d.thr > 0.3);
-        await set('KeyS', d.thr < -0.2);
+        // Brake only while fast: a slow poll loop holding S would stop the ski dead.
+        await set('KeyS', d.thr < -0.2 && d.speed > 13);
         await page.waitForTimeout(15);
     }
     for (const k of [...held]) await set(k, false);

@@ -1,4 +1,12 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
+
+export interface SkiLivery {
+  /** hull band, cowl stripe, helmet, bar pod */
+  accent: string;
+  /** rider vest */
+  vest: string;
+}
 
 function hullShape(scale = 1): THREE.Shape {
   const s = new THREE.Shape();
@@ -36,10 +44,11 @@ export class JetSki {
   private readonly materials: THREE.Material[] = [];
   private readonly geometries: THREE.BufferGeometry[] = [];
 
-  constructor() {
+  constructor(livery: SkiLivery = { accent: '#ec4a36', vest: '#ffc21a' }) {
     const white = this.mat(new THREE.MeshPhysicalMaterial({ color: '#f3f5f7', roughness: 0.28, clearcoat: 0.8, clearcoatRoughness: 0.15 }));
-    const coral = this.mat(new THREE.MeshPhysicalMaterial({ color: '#ec4a36', roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.2 }));
+    const coral = this.mat(new THREE.MeshPhysicalMaterial({ color: livery.accent, roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.2 }));
     const yellow = this.mat(new THREE.MeshStandardMaterial({ color: '#ffc21a', roughness: 0.45 }));
+    const vest = livery.vest === '#ffc21a' ? yellow : this.mat(new THREE.MeshStandardMaterial({ color: livery.vest, roughness: 0.5 }));
     const navy = this.mat(new THREE.MeshStandardMaterial({ color: '#1b2433', roughness: 0.7 }));
     const black = this.mat(new THREE.MeshStandardMaterial({ color: '#15171a', roughness: 0.55, metalness: 0.2 }));
     const chrome = this.mat(new THREE.MeshStandardMaterial({ color: '#c9d2da', roughness: 0.2, metalness: 0.9 }));
@@ -132,7 +141,7 @@ export class JetSki {
       const boot = add(new THREE.BoxGeometry(0.14, 0.1, 0.26), black, this.rider);
       boot.position.set(side * 0.32, -0.32, -0.42);
     }
-    const torso = add(new THREE.CapsuleGeometry(0.22, 0.42, 6, 12), yellow, this.rider);
+    const torso = add(new THREE.CapsuleGeometry(0.22, 0.42, 6, 12), vest, this.rider);
     torso.position.set(0, 0.55, -0.05);
     torso.rotation.x = -0.45;
     torso.scale.set(1.1, 1, 0.85);
@@ -160,6 +169,33 @@ export class JetSki {
     visor.rotation.y = Math.PI;
 
     this.root.add(this.attitude);
+    // Fewer draw calls: merge the static parts of each animated group by material.
+    for (const g of [this.attitude, this.bars, this.rider]) this.mergeGroup(g);
+  }
+
+  private mergeGroup(group: THREE.Object3D): void {
+    const byMat = new Map<THREE.Material, THREE.Mesh[]>();
+    for (const c of [...group.children]) {
+      if (!(c instanceof THREE.Mesh)) continue;
+      const list = byMat.get(c.material as THREE.Material) ?? [];
+      list.push(c);
+      byMat.set(c.material as THREE.Material, list);
+    }
+    for (const [mat, meshes] of byMat) {
+      if (meshes.length < 2) continue;
+      const parts = meshes.map((m) => {
+        m.updateMatrix();
+        const g = (m.geometry.index ? m.geometry.toNonIndexed() : m.geometry.clone()).applyMatrix4(m.matrix);
+        for (const name of Object.keys(g.attributes)) if (name !== 'position' && name !== 'normal' && name !== 'uv') g.deleteAttribute(name);
+        return g;
+      });
+      const merged = mergeGeometries(parts, false);
+      for (const p of parts) p.dispose();
+      if (!merged) continue;
+      for (const m of meshes) group.remove(m);
+      this.geometries.push(merged);
+      group.add(new THREE.Mesh(merged, mat));
+    }
   }
 
   private mat<T extends THREE.Material>(m: T): T {

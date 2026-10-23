@@ -33,6 +33,45 @@ interface ThreeGameDiagnostics {
     lastRampAir: number;
     lastRampHeight: number;
     surfaceY: number;
+    vx: number;
+    vz: number;
+    bumps: number;
+  };
+  field: {
+    phase: string;
+    countdown: number;
+    totalLaps: number;
+    clock: number;
+    position: number;
+    racers: number;
+    finished: boolean;
+    finishTime: number;
+    finishOrder: number[];
+    finishVisible: boolean;
+    bumpsPlayerRival: number;
+    bumpsRivalRival: number;
+    holdRivals: boolean;
+    lastBump: { a: number; b: number; j: number; t: number; aBefore: number; bBefore: number; aAfter: number; bAfter: number; pnBefore: number; pnAfter: number } | null;
+    rivals: {
+      name: string;
+      place: number;
+      x: number;
+      y: number;
+      z: number;
+      vx: number;
+      vz: number;
+      speed: number;
+      laps: number;
+      nextGate: number;
+      gatesPassed: number;
+      progress: number;
+      rampJumps: number;
+      airborne: boolean;
+      wipeouts: number;
+      bumps: number;
+      finished: boolean;
+      finishTime: number;
+    }[];
   };
   race: {
     started: boolean;
@@ -62,6 +101,9 @@ interface ThreeGameTestHooks {
   setRenderScale(scale: number): void;
   placeRingAhead(dist: number, air: boolean): number;
   placeBeforeRamp(index: number, dist: number): { x: number; z: number; heading: number };
+  setRaceLaps(n: number): void;
+  setRivalsHold(hold: boolean): void;
+  placeRival(index: number, ahead: number, side: number, headingOffset: number, speed: number): { x: number; z: number };
 }
 
 interface Window {

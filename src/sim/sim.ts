@@ -15,7 +15,7 @@ export interface Command {
 
 export const IDLE: Command = { throttle: 0, steer: 0, boost: false, jump: false };
 
-export type SimEventType = 'launch' | 'land' | 'wipeout' | 'respawn' | 'ring' | 'trick' | 'pop' | 'gate' | 'lap' | 'race-start';
+export type SimEventType = 'launch' | 'land' | 'wipeout' | 'respawn' | 'ring' | 'trick' | 'pop' | 'gate' | 'lap' | 'race-start' | 'bump';
 
 export interface SimEvent {
   id: number;
@@ -112,6 +112,14 @@ export interface SimState {
   lastRampAir: number;
   lastRampHeight: number;
   race: RaceState;
+  /** AI rival: no personal ring field */
+  bot: boolean;
+  /** ski-to-ski contacts this run */
+  bumps: number;
+  /** steer direction held at takeoff: holding it through the air carves, it never spins (-1, 0, 1) */
+  airSteerLatch: number;
+  /** seconds of loosened side grip after a hit (the hull slides sideways) */
+  knock: number;
   events: SimEvent[];
   nextEventId: number;
 }
@@ -161,20 +169,27 @@ function rngFrom(state: SimState): () => number {
   };
 }
 
-export function createState(seed: number): SimState {
+export interface SpawnOptions {
+  x: number;
+  z: number;
+  heading: number;
+  bot?: boolean;
+}
+
+export function createState(seed: number, spawn: SpawnOptions = SPAWN): SimState {
   const s: SimState = {
     t: 0,
     step: 0,
     rngState: seed >>> 0,
     mode: 'ride',
     modeTimer: 0,
-    x: SPAWN.x,
+    x: spawn.x,
     y: 0,
-    z: SPAWN.z,
+    z: spawn.z,
     vx: 0,
     vy: 0,
     vz: 0,
-    heading: SPAWN.heading,
+    heading: spawn.heading,
     steerVisual: 0,
     airborne: false,
     airTime: 0,
@@ -204,20 +219,24 @@ export function createState(seed: number): SimState {
     lastRampAir: 0,
     lastRampHeight: 0,
     race: { started: false, nextGate: 0, laps: 0, lapStart: 0, lastLap: 0, bestLap: 0, gatesPassed: 0, history: [] },
+    bot: spawn.bot ?? false,
+    bumps: 0,
+    knock: 0,
+    airSteerLatch: 0,
     events: [],
     nextEventId: 1,
   };
   s.y = hullHeight(s.x, s.z, s.heading, s.t);
   s.surfaceY = s.y;
   const rand = rngFrom(s);
-  for (let i = 0; i < TUNING.ringCount; i += 1) spawnRing(s, rand, i < 3 ? 40 + i * 35 : 50);
+  if (!s.bot) for (let i = 0; i < TUNING.ringCount; i += 1) spawnRing(s, rand, i < 3 ? 40 + i * 35 : 50);
   return s;
 }
 
-function fwdX(h: number): number {
+export function fwdX(h: number): number {
   return -Math.sin(h);
 }
-function fwdZ(h: number): number {
+export function fwdZ(h: number): number {
   return -Math.cos(h);
 }
 
@@ -368,7 +387,7 @@ function wrapAngle(a: number): number {
   return r;
 }
 
-function emit(s: SimState, type: SimEventType, value: number, label?: string): void {
+export function emit(s: SimState, type: SimEventType, value: number, label?: string): void {
   s.events.push({ id: s.nextEventId, type, x: s.x, y: s.y, z: s.z, value, label });
   s.nextEventId += 1;
   if (s.events.length > 48) s.events.splice(0, s.events.length - 48);
@@ -439,6 +458,7 @@ export function step(s: SimState, cmd: Command): void {
   s.t += dt;
   s.step += 1;
   s.jumpCooldown = Math.max(0, s.jumpCooldown - dt);
+  s.knock = Math.max(0, s.knock - dt);
 
   if (s.comboTimer > 0) {
     s.comboTimer -= dt;
@@ -475,7 +495,9 @@ export function step(s: SimState, cmd: Command): void {
     if (wantBoost) s.boost = Math.max(0, s.boost - T.boostDrain * dt);
 
     // Lateral grip: the hull bites and kills slip, leaving a carve.
-    lateral -= lateral * Math.min(1, T.grip * dt);
+    // A fresh hit knocks the hull loose so the shove carries before it bites again.
+    const grip = s.knock > 0 ? T.grip * 0.2 : T.grip;
+    lateral -= lateral * Math.min(1, grip * dt);
 
     // Steering: works best at mid speed, needs some speed to bite.
     const speedAbs = Math.abs(forward);
@@ -491,10 +513,14 @@ export function step(s: SimState, cmd: Command): void {
     s.vz = nfz * forward + nfx * lateral;
   } else if (s.airborne && !wiped) {
     const realAir = s.airTime > 0.25 || s.y - s.surfaceY > 0.7;
+    // A turn held through takeoff is not a trick request: release or re-press to spin.
+    const dirNow = Math.abs(steer) < 0.1 ? 0 : Math.sign(steer);
+    if (s.airSteerLatch !== 0 && dirNow !== s.airSteerLatch) s.airSteerLatch = 0;
+    const airSteer = s.airSteerLatch !== 0 ? 0 : steer;
     if (realAir) {
       // In real air steer spins the ski: that's the trick input.
-      let spin = -steer * T.airSpinRate * dt;
-      if (Math.abs(steer) < 0.1) {
+      let spin = -airSteer * T.airSpinRate * dt;
+      if (Math.abs(airSteer) < 0.1) {
         // Hands off: the nose drifts back to the direction of travel when it
         // is close, so casual riders land clean and tricksters must commit.
         const travel = Math.atan2(-s.vx, -s.vz);
@@ -585,6 +611,7 @@ export function step(s: SimState, cmd: Command): void {
       s.airMaxHeight = 0;
       s.airSpin = 0;
       s.airStartHeading = s.heading;
+      s.airSteerLatch = Math.abs(steer) < 0.1 ? 0 : Math.sign(steer);
       s.airFromRamp = s.onRamp >= 0 && !wantsPop;
       s.jumps += 1;
       emit(s, 'launch', s.vy);
