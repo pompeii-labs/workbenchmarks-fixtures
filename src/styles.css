@@ -121,7 +121,7 @@ html, body, #app {
 
 #popups {
   position: absolute;
-  top: 26%;
+  top: 33%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -307,17 +307,85 @@ kbd {
 #boost-button { width: clamp(60px, 17vw, 74px); aspect-ratio: 1; margin-bottom: 30px; background: #ff8a3a; }
 #touch-buttons button.down { transform: scale(0.92); filter: brightness(1.15); }
 
+#race-box {
+  position: absolute;
+  top: max(14px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 210px;
+  padding: 8px 16px 9px;
+  border-radius: 14px;
+  background: var(--glass);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+#race-top { display: flex; justify-content: space-between; gap: 18px; }
+#race-top b { font-size: 0.9rem; letter-spacing: 0.04em; color: var(--sun); }
+#race-top b.flash { animation: flash 0.5s ease-out; }
+@keyframes flash { 0% { color: #7dffcf; transform: scale(1.5); } 100% { color: var(--sun); transform: scale(1); } }
+#lap-time { font-size: 2.1rem; font-weight: 900; font-style: italic; line-height: 1.05; font-variant-numeric: tabular-nums; }
+#lap-time.idle { opacity: 0.55; }
+#race-sub { display: flex; justify-content: space-between; gap: 16px; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.92; }
+#race-sub b { font-size: 0.88rem; letter-spacing: 0.02em; font-variant-numeric: tabular-nums; margin-left: 4px; }
+#best-lap { color: #7dffcf; }
+#race-msg { margin-top: 5px; padding: 3px 10px; border-radius: 999px; background: var(--coral); font-size: 0.78rem; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
+#race-msg.info { background: rgba(125, 255, 207, 0.22); color: #d9fff1; }
+#race-msg.hidden { display: none; }
+#gate-arrow {
+  position: absolute;
+  top: calc(max(14px, env(safe-area-inset-top)) + 118px);
+  left: 50%;
+  width: 60px;
+  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #7dffcf;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+#gate-arrow svg { filter: drop-shadow(0 2px 4px rgba(0, 20, 40, 0.5)); }
+#gate-arrow.hidden { visibility: hidden; }
+#lap-banner {
+  position: absolute;
+  top: calc(max(14px, env(safe-area-inset-top)) + 112px);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+  animation: banner-in 0.35s cubic-bezier(0.2, 1.6, 0.4, 1);
+}
+@keyframes banner-in { from { transform: translateX(-50%) scale(2); opacity: 0; } to { transform: translateX(-50%) scale(1); opacity: 1; } }
+#lap-banner.hidden { display: none; }
+#lap-banner-title { font-size: 1.1rem; font-weight: 900; letter-spacing: 0.24em; }
+#lap-banner-time { font-size: clamp(2.6rem, 9vw, 4.2rem); font-weight: 900; font-style: italic; line-height: 1; font-variant-numeric: tabular-nums; text-shadow: 0 5px 0 #0b6b55, 0 12px 30px rgba(0, 0, 0, 0.35); }
+#lap-banner.best #lap-banner-title { color: #7dffcf; }
+#lap-banner-sub { margin-top: 6px; font-size: 0.9rem; font-weight: 800; letter-spacing: 0.08em; }
+
 @media (pointer: coarse), (max-width: 760px) {
   #touch-controls { display: flex; }
   #pause-btn { display: grid; }
   .desktop-only { display: none; }
   ul.touch-only { display: grid; }
   span.touch-only { display: inline; }
-  #speedo { top: max(14px, env(safe-area-inset-top)); bottom: auto; min-width: 0; }
+  #speedo { top: calc(max(14px, env(safe-area-inset-top)) + 50px); bottom: auto; left: auto; right: max(16px, env(safe-area-inset-right)); transform: none; min-width: 0; text-align: right; }
+  #boost-bar { margin: 6px 0 0 auto; }
+  #race-box { min-width: 0; width: min(150px, 38vw); padding: 5px 9px 6px; }
+  #race-top .label { font-size: 0.58rem; letter-spacing: 0.1em; }
+  #race-sub { align-items: center; }
+  #lap-banner { top: calc(max(14px, env(safe-area-inset-top)) + 104px); }
+  #lap-banner-time { font-size: 2.4rem; }
+  #race-top { gap: 8px; }
+  #lap-time { font-size: 1.55rem; }
+  #race-sub { flex-direction: column; gap: 0; font-size: 0.62rem; }
+  #race-sub b { font-size: 0.78rem; }
+  #gate-arrow { top: calc(max(14px, env(safe-area-inset-top)) + 112px); }
+  #popups { top: 32%; }
   #speed-value { font-size: 2rem; }
   #boost-bar { width: 96px; height: 6px; }
   #score-value { font-size: 1.7rem; }
-  #best-box { top: calc(max(14px, env(safe-area-inset-top)) + 52px); right: max(16px, env(safe-area-inset-right)); }
+  #best-box { top: calc(max(14px, env(safe-area-inset-top)) + 84px); left: max(18px, env(safe-area-inset-left)); right: auto; text-align: left; }
   #best-value { font-size: 1.05rem; }
   #hint { bottom: calc(max(18px, env(safe-area-inset-bottom)) + 160px); font-size: 0.75rem; }
   .popup { font-size: 1.15rem; }

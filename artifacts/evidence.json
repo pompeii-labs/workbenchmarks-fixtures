@@ -1,41 +1,61 @@
 {
   "version": 1,
-  "runId": "pass-7",
+  "runId": "pass-17",
   "captures": [
     {
       "mode": "desktop",
       "state": "active-play",
-      "report": "artifacts/pass-7/desktop-active-play.json"
+      "report": "artifacts/pass-17/desktop-active-play.json"
     },
     {
       "mode": "mobile",
       "state": "active-play",
-      "report": "artifacts/pass-7/mobile-active-play.json"
+      "report": "artifacts/pass-17/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "ramp-jump",
+      "report": "artifacts/pass-17/desktop-ramp-jump.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "ramp-jump",
+      "report": "artifacts/pass-17/mobile-ramp-jump.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "hairpin",
+      "report": "artifacts/pass-17/desktop-hairpin.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "lap-complete",
+      "report": "artifacts/pass-17/desktop-lap-complete.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "lap-complete",
+      "report": "artifacts/pass-17/mobile-lap-complete.json"
     },
     {
       "mode": "desktop",
       "state": "big-air",
-      "report": "artifacts/pass-7/desktop-big-air.json"
-    },
-    {
-      "mode": "mobile",
-      "state": "big-air",
-      "report": "artifacts/pass-7/mobile-big-air.json"
+      "report": "artifacts/pass-17/desktop-big-air.json"
     },
     {
       "mode": "desktop",
       "state": "wipeout",
-      "report": "artifacts/pass-7/desktop-wipeout.json"
+      "report": "artifacts/pass-17/desktop-wipeout.json"
     },
     {
       "mode": "desktop",
       "state": "title",
-      "report": "artifacts/pass-7/desktop-title.json"
+      "report": "artifacts/pass-17/desktop-title.json"
     },
     {
       "mode": "mobile",
       "state": "paused",
-      "report": "artifacts/pass-7/mobile-paused.json"
+      "report": "artifacts/pass-17/mobile-paused.json"
     }
   ]
 }

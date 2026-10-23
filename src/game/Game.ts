@@ -6,7 +6,10 @@ import { createSky } from '../render/Sky';
 import { Splash } from '../render/Splash';
 import { Water } from '../render/Water';
 import { World } from '../render/World';
-import { createState, IDLE, placeRingAhead, step, TUNING, type Command, type SimEvent, type SimState } from '../sim/sim';
+import { Course } from '../render/Course';
+import { Autopilot } from '../sim/autopilot';
+import { GATES, RAMPS, formatLap, rampLocal } from '../sim/course';
+import { createState, hullHeight, IDLE, lapClock, placeRingAhead, step, TUNING, type Command, type SimEvent, type SimState } from '../sim/sim';
 import { waveHeight } from '../sim/waves';
 import { AudioSystem } from '../systems/AudioSystem';
 import { Hud } from '../ui/Hud';
@@ -40,6 +43,11 @@ export class Game {
   private readonly ski = new JetSki();
   private readonly splash = new Splash();
   private readonly world = new World();
+  private readonly course = new Course();
+  private readonly autopilot = new Autopilot();
+  private readonly hintPilot = new Autopilot();
+  /** Best lap survives restarts (and reloads, via localStorage). */
+  private bestLap = 0;
   private readonly hud = new Hud();
   private readonly audio = new AudioSystem();
   private readonly input: Input;
@@ -88,8 +96,14 @@ export class Game {
     const sun = new THREE.DirectionalLight('#fff0d0', 2.8);
     sun.position.copy(PALETTE.sunDir).multiplyScalar(100);
     this.scene.add(sun);
-    this.scene.add(this.water.mesh, this.world.group, this.ski.root, this.splash.foam, this.splash.spray);
+    this.scene.add(this.water.mesh, this.world.group, this.course.group, this.ski.root, this.splash.foam, this.splash.spray);
 
+    try {
+      const b = Number(localStorage.getItem('swellrider-bestlap'));
+      if (Number.isFinite(b) && b > 5) this.bestLap = b;
+    } catch {
+      // storage unavailable
+    }
     this.sim = createState(this.seed);
     this.resetRun();
 
@@ -134,6 +148,7 @@ export class Game {
     this.ski.dispose();
     this.splash.dispose();
     this.world.dispose();
+    this.course.dispose();
     this.renderer.dispose();
   }
 
@@ -166,6 +181,11 @@ export class Game {
     if (this.ui === 'title') return;
     this.ui = p ? 'paused' : 'play';
     el('#pause').classList.toggle('hidden', !p);
+    if (p) {
+      const r = this.sim.race;
+      const best = Math.max(0, this.bestLap || r.bestLap);
+      el('#pause-laps').textContent = best > 0 ? `Best lap ${formatLap(best)} · ${r.laps} lap${r.laps === 1 ? '' : 's'} this run` : 'No lap set yet: follow the glowing gates';
+    }
     if (p) el<HTMLButtonElement>('#resume-btn').focus({ preventScroll: true });
     else {
       this.input.flush();
@@ -186,6 +206,10 @@ export class Game {
 
   private resetRun(): void {
     this.sim = createState(this.seed);
+    this.sim.race.bestLap = this.bestLap;
+    this.autopilot.reset();
+    this.hintPilot.reset();
+    this.hud.resetRace();
     this.lastEventId = 0;
     this.acc = 0;
     this.splash.reset(this.seed);
@@ -233,10 +257,9 @@ export class Game {
     this.publishDiagnostics();
   }
 
-  /** Title-screen autopilot: gentle cruising so the menu shows the game. */
+  /** Title-screen autopilot: rides the course so the menu shows the game. */
   private attractCommand(): Command {
-    const t = this.sim.t;
-    return { throttle: 0.75, steer: Math.sin(t * 0.35) * 0.45, boost: false, jump: false };
+    return this.autopilot.command(this.sim);
   }
 
   private stepOnce(cmd: Command): void {
@@ -279,6 +302,27 @@ export class Game {
         this.splash.burst(ev.x, ev.y - 1, ev.z, 40, 4, this.carry);
         if (loud) this.audio.chime(ev.label === 'air');
         break;
+      case 'race-start':
+        if (loud) this.audio.chime(false);
+        break;
+      case 'gate':
+        if (loud) this.audio.chime(false);
+        break;
+      case 'lap': {
+        const best = ev.label === 'best';
+        const prev = this.bestLap;
+        if (best && this.ui === 'play') {
+          this.bestLap = ev.value;
+          try {
+            localStorage.setItem('swellrider-bestlap', ev.value.toFixed(3));
+          } catch {
+            // ignore
+          }
+        }
+        if (this.ui !== 'title') this.hud.lapComplete(s.t, s.race.laps, ev.value, best, prev);
+        if (loud) this.audio.fanfare(best);
+        break;
+      }
       case 'trick':
         if (ev.label && this.ui !== 'title') this.hud.popup(ev.label, ev.value);
         break;
@@ -394,6 +438,7 @@ export class Game {
     this.water.update(s.t, s.x, s.z);
     this.water.setShadow(s.x, s.z, Math.max(0, s.y - s.surfaceY));
     this.world.update(s.rings, s.t, s.x, s.z, this.frozen || this.ui === 'paused' ? 0 : 1 / 60);
+    this.course.update(s.t, s.race.nextGate, s.race.started, this.camera.position, this.ui !== 'title');
     this.splash.syncFoam(s.t);
     this.sky.position.copy(this.camera.position);
     this.hud.update(s);
@@ -443,6 +488,25 @@ export class Game {
         boosting: s.boosting,
         bestAir: s.bestAir,
         rings: s.rings.length,
+        onRamp: s.onRamp,
+        airFromRamp: s.airFromRamp,
+        rampJumps: s.rampJumps,
+        lastRampAir: s.lastRampAir,
+        lastRampHeight: s.lastRampHeight,
+        surfaceY: s.surfaceY,
+      },
+      race: {
+        started: s.race.started,
+        nextGate: s.race.nextGate,
+        gates: GATES.length,
+        laps: s.race.laps,
+        gatesPassed: s.race.gatesPassed,
+        clock: lapClock(s),
+        lastLap: s.race.lastLap,
+        bestLap: s.race.bestLap,
+        storedBest: this.bestLap,
+        message: this.hud.message,
+        ...((c) => ({ steerHint: c.steer, throttleHint: c.throttle }))(this.hintPilot.command(s)),
       },
       renderer: {
         calls: info.render.calls,
@@ -495,6 +559,30 @@ export class Game {
         this.drive(200, () => full, () => false);
         this.setPaused(true);
         break;
+      case 'ramp-jump': {
+        const ok = this.drive(
+          3000,
+          (s) => this.autopilot.command(s, true),
+          (s) => s.onRamp === 0 && !s.airborne && rampLocal(RAMPS[0], s.x, s.z).u > 8,
+        );
+        if (!ok) throw new Error('ramp-jump: never rode up the first ramp');
+        break;
+      }
+      case 'hairpin': {
+        const ok = this.drive(
+          6000,
+          (s) => this.autopilot.command(s),
+          (s) => s.race.nextGate === 2 && Math.hypot(s.x - GATES[2].x, s.z - GATES[2].z) < 55,
+        );
+        if (!ok) throw new Error('hairpin: autopilot never reached gate 2');
+        break;
+      }
+      case 'lap-complete': {
+        const ok = this.drive(9000, (s) => this.autopilot.command(s, true), (s) => s.race.laps >= 1);
+        if (!ok) throw new Error('lap-complete: autopilot did not finish a lap');
+        this.drive(40, (s) => this.autopilot.command(s), () => false);
+        break;
+      }
       case 'big-air': {
         const ok = this.drive(
           2400,
@@ -552,6 +640,25 @@ export class Game {
       setRenderScale: (scale: number) => {
         this.renderScale = Math.max(0.25, Math.min(1, scale));
         this.resize();
+      },
+      placeBeforeRamp: (index: number, dist: number) => {
+        const r = RAMPS[index];
+        const s = this.sim;
+        s.x = r.x - r.dx * dist;
+        s.z = r.z - r.dz * dist;
+        s.heading = Math.atan2(-r.dx, -r.dz);
+        s.vx = 0;
+        s.vz = 0;
+        s.vy = 0;
+        s.airborne = false;
+        s.mode = 'ride';
+        s.onRamp = -1;
+        s.y = hullHeight(s.x, s.z, s.heading, s.t);
+        s.surfaceY = s.y;
+        this.camYaw = s.heading;
+        this.camY = s.y;
+        this.publishDiagnostics();
+        return { x: s.x, z: s.z, heading: s.heading };
       },
       placeRingAhead: (dist: number, air: boolean) => {
         const r = placeRingAhead(this.sim, dist, air);

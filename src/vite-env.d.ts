@@ -27,6 +27,26 @@ interface ThreeGameDiagnostics {
     boosting: boolean;
     bestAir: number;
     rings: number;
+    onRamp: number;
+    airFromRamp: boolean;
+    rampJumps: number;
+    lastRampAir: number;
+    lastRampHeight: number;
+    surfaceY: number;
+  };
+  race: {
+    started: boolean;
+    nextGate: number;
+    gates: number;
+    laps: number;
+    gatesPassed: number;
+    clock: number;
+    lastLap: number;
+    bestLap: number;
+    storedBest: number;
+    message: string;
+    steerHint: number;
+    throttleHint: number;
   };
   renderer: { calls: number; triangles: number; geometries: number; textures: number };
   canvas: { clientWidth: number; clientHeight: number; width: number; height: number; dpr: number };
@@ -41,6 +61,7 @@ interface ThreeGameTestHooks {
   setTimeScale(n: number): void;
   setRenderScale(scale: number): void;
   placeRingAhead(dist: number, air: boolean): number;
+  placeBeforeRamp(index: number, dist: number): { x: number; z: number; heading: number };
 }
 
 interface Window {
