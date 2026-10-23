@@ -1,6 +1,6 @@
 # Tideline
 
-A small, self-contained Three.js jet ski playground. Ride an endless procedural ocean, launch off swells, hold boost for bigger air, and follow an optional eight-buoy loop. No server, accounts, API keys, or external asset requests are needed.
+A small, self-contained Three.js jet ski playground. Ride an endless procedural ocean, race an optional eight-gate buoy circuit, and hit two floating ramps for big jumps. No server, accounts, API keys, or external asset requests are needed.
 
 ## Run Locally
 
@@ -55,13 +55,25 @@ Click inside the game to use keyboard controls. It also works as a standalone fu
 | Fresh ride     | R                  | Start a fresh ride in pause menu |
 | Toggle audio   | Speaker button     | Speaker button                   |
 
-Hold throttle to build speed. Hit the rising face of a swell to automatically launch; boost makes the jumps larger. Release boost to recharge it. Steering works in the air, too. Reach the highlighted orange buoy, then follow the direction arrow toward the next one, or ignore the loop and free-roam. `AIR TIME` is cumulative for the current ride; `BEST JUMP` measures height gained above the launch point. Your personal-best height is stored locally to recognize new records. The game pauses if the tab loses focus.
+Hold throttle to build speed. Hit the rising face of a swell or a striped ramp to launch; boost makes the jumps larger. Release boost to recharge it. Steering works in the air, too. `AIR TIME` is cumulative for the current ride; `BEST JUMP` measures height gained above the launch point. Your personal-best height is stored locally to recognize new records. The game pauses if the tab loses focus.
+
+## Race the Circuit
+
+Cross **between the two checkered buoys** ahead of the starting position to begin your first timed lap. Pass numbered gates **1 through 7 in order**, then cross the checkered start / finish gate again to complete the lap. Each gate is a pair of buoys, not a collectible: cross the space between them in the course direction. Jumping through a gate counts, too. Missing a gate or crossing it backwards does not advance the race. The direction arrow and orange map marker always point to the next required gate.
+
+The circuit includes a fast opening straight, sweeping bends, a tighter chicane, and a return run. Sparse edge floats suggest the route without walls or invisible boundaries. Two striped floating ramps sit on the opening and back straights. Approach their low ends at speed and ride up to the lip for takeoff. You can also steer around them without invalidating your lap.
+
+The HUD shows current lap, live time, last lap, and best lap. Timing begins at the actual start crossing, excludes pauses, and rolls straight into the next lap after a valid finish. Best lap persists in this browser on this device, even after a fresh ride or reload; changing browsers or clearing site data clears the record. If browser storage is unavailable, the record still works for the current page session. A fresh ride resets course progress and the current timer, but keeps your best lap.
+
+Racing is completely optional. Leave the circuit whenever you like and enjoy the open water. If you return, the next required gate stays highlighted and the running lap time includes your detour.
 
 ## Implementation
 
 - GPU-displaced water with matching CPU wave functions for buoyancy and launch physics, foam crests, sun glitter, and atmospheric haze.
 - Fixed-timestep arcade handling, ballistic jumps, leaning rider, speed-sensitive chase camera, and landing shake.
-- Pooled spray and wake particles, procedural rider, craft, buoys, islands, and seabirds.
+- Pooled spray and wake particles, procedural rider, craft, paired numbered buoys, islands, and seabirds.
+- Ordered directional gate crossings, interpolated lap timing, local best-lap storage, and a live course chart.
+- Floating jump ramps with wave-conforming entry aprons, speed-dependent lip launches, and one-way deck landings.
 - Synthesized engine, rushing water, splashes, and buoy chimes using Web Audio; no audio downloads.
 - Responsive keyboard/touch interface, focus-trapped pause dialog, adaptive rendering resolution, and WebGL error screen.
 - All fonts are bundled locally; their SIL Open Font License notices are in `public/fonts/` and are included in the build.
@@ -77,12 +89,14 @@ npx playwright install chromium  # once, if Chromium is not already installed
 npm run test:browser
 ```
 
-The eight unit tests cover wave continuity, throttle, braking, boost depletion/recharge, steering, swell launches, splashdowns, and simulation-rate consistency. Three Chromium tests run against the production build and cover desktop gameplay and jumps, buoy collection, pause/resume, reset, sound toggling, no external requests, mobile multitouch controls, phone rotation, and deployment to a nested static directory.
+The 29 unit tests cover wave continuity, handling, boost, swell and ramp launches, deck/apron surface alignment, landings, simulation-rate consistency, ordered directional gates, lap timing, and record selection. Five Chromium tests run against the production build and cover desktop gameplay, a complete keyboard-driven lap with ramp takeoff, paused timing, record persistence after reset/reload, unavailable storage, sound, no external requests, mobile multitouch controls, phone rotation, and deployment to a nested static directory.
 
 ## Customize
 
 - `src/physics.js`: wave parameters, top speed, boost, gravity, and jump behavior.
-- `src/world.js`: ocean shader, procedural models, course positions, and spray.
+- `src/course.js`: gate and ramp positions, race progression, and lap timing.
+- `src/ramps.js`: floating ramp models and wave-conforming aprons.
+- `src/world.js`: ocean shader, procedural models, buoys, and spray.
 - `src/style.css` and `index.html`: visual identity and interface.
 - `src/audio.js`: synthesized sound.
 

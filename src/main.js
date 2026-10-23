@@ -6,8 +6,9 @@ import {
   createJetSki,
   createBuoys,
   createSpray,
-  COURSE,
 } from "./world.js";
+import { COURSE, GATES, RAMPS, newRace, stepRace, formatLap } from "./course.js";
+import { createRamps } from "./ramps.js";
 import { createAudio } from "./audio.js";
 
 const $ = (id) => document.getElementById(id);
@@ -25,6 +26,7 @@ const { renderer, scene, camera, ocean, sky, birds } = world;
 const { root: ski, rider } = createJetSki();
 scene.add(ski);
 const buoys = createBuoys(scene);
+const ramps = createRamps(scene);
 const spray = createSpray(scene);
 const audio = createAudio();
 const input = {
@@ -46,9 +48,8 @@ let time = 8,
   lastFrame = 0,
   accumulator = 0,
   frameCount = 0;
-let collected = 0,
-  lap = 1,
-  toastTimeout,
+let race = newRace();
+let toastTimeout,
   calloutTimeout;
 let shake = 0,
   bestEver = 0;
@@ -70,9 +71,18 @@ compassTrack.innerHTML = Array.from({ length: 4 }, () =>
 ).join("");
 try {
   bestEver = Number(localStorage.getItem("tideline-best")) || 0;
+  const storedLap = Number(localStorage.getItem("tideline-circuit-v1-best"));
+  if (Number.isFinite(storedLap) && storedLap > 0) race.bestLap = storedLap;
 } catch {
   /* Storage can be disabled on embedded sites. */
 }
+
+const map = $("course-map");
+map.innerHTML = `<polyline class="map-course" points="${[...COURSE, COURSE[0]].map(([x, z]) => `${x},${z}`).join(" ")}" />
+  ${GATES.map((gate, i) => `<circle class="map-gate" data-gate="${i}" cx="${gate.x}" cy="${gate.z}" r="11" /><text x="${gate.x + 19}" y="${gate.z + 7}">${i === 0 ? "S/F" : i}</text>`).join("")}
+  ${RAMPS.map((ramp) => `<path class="map-ramp" d="M-12 12 L0 -15 L12 12" transform="translate(${ramp.x} ${ramp.z}) rotate(${-ramp.heading * 180 / Math.PI})" />`).join("")}
+  <path id="map-rider" d="M0 -15 L10 11 L0 6 L-10 11 Z" />`;
+const mapGates = [...map.querySelectorAll(".map-gate")];
 
 function clearInput() {
   keys.clear();
@@ -114,8 +124,7 @@ function startRide() {
   clearInput();
   ride = newRide();
   ride.y = waveHeight(ride.x, ride.z, time) + 0.47;
-  collected = 0;
-  lap = 1;
+  race = newRace(race.bestLap);
   mode = "playing";
   cameraInitialized = false;
   shake = 0;
@@ -127,11 +136,11 @@ function startRide() {
   $("hud").classList.remove("hidden");
   $("pause").classList.remove("hidden");
   if (coarse) $("touch-controls").classList.remove("hidden");
-  $("route-hint").textContent = "Follow the orange buoys. Or don’t.";
+  $("route-hint").textContent = "Cross the checkered gate to start.";
   toast(
     coarse
-      ? "Hold GO to ride. Hit BOOST for bigger air."
-      : "Hold W or ↑ to ride. The swells do the rest.",
+      ? "Hold GO. Race the gates, jump the ramps, or roam."
+      : "Hold W or ↑. Race the gates, jump the ramps, or roam.",
   );
   updateHUD();
 }
@@ -270,7 +279,12 @@ function updateHUD() {
   $("air-time").innerHTML = `${ride.totalAirTime.toFixed(1)}<span>s</span>`;
   $("best-jump").innerHTML = `${ride.bestJump.toFixed(1)}<span>m</span>`;
   $("buoy-count").innerHTML =
-    `${String(collected).padStart(2, "0")}<span>/ 08</span>`;
+    `${String(race.started ? race.nextGate === 0 ? 8 : race.nextGate : 0).padStart(2, "0")}<span>/ 08</span>`;
+  $("lap-number").textContent = race.started ? `LAP ${String(race.lap).padStart(2, "0")}` : "READY TO RACE";
+  $("lap-time").textContent = formatLap(race.elapsed);
+  $("best-lap").textContent = formatLap(race.bestLap);
+  $("last-lap").textContent = race.lastLap === null ? "NO LAPS YET" : `LAST ${formatLap(race.lastLap)}`;
+  $("race-status").textContent = !race.started ? "CROSS START / FINISH" : race.nextGate === 0 ? "NEXT: START / FINISH" : `NEXT: GATE ${race.nextGate} / 7`;
   $("boost-fill").style.width = `${ride.boost * 100}%`;
   $("ride-state").textContent = ride.airborne
     ? "AIRBORNE"
@@ -283,7 +297,7 @@ function updateHUD() {
   tickElements.forEach((element, i) =>
     element.classList.toggle("active", i < active),
   );
-  const target = COURSE[collected % COURSE.length];
+  const target = COURSE[race.nextGate];
   const distance = Math.hypot(ride.x - target[0], ride.z - target[1]);
   $("target-distance").textContent = `${Math.round(distance)} m`;
   const bearing = Math.atan2(-(target[0] - ride.x), -(target[1] - ride.z));
@@ -297,29 +311,35 @@ function updateHUD() {
   const heading = THREE.MathUtils.euclideanModulo(-ride.heading, Math.PI * 2);
   const offset = (heading / (Math.PI * 2)) * 368;
   compassTrack.style.transform = `translateX(${$("hud").querySelector(".compass").clientWidth / 2 - 9 - 368 - offset}px)`;
+  mapGates.forEach((gate, i) => gate.classList.toggle("active", i === race.nextGate));
+  $("map-rider").setAttribute("transform", `translate(${Math.max(-435, Math.min(130, ride.x))} ${Math.max(-385, Math.min(265, ride.z))}) rotate(${-ride.heading * 180 / Math.PI})`);
 }
 
-function updateCourse() {
-  const target = COURSE[collected];
-  if (Math.hypot(ride.x - target[0], ride.z - target[1]) < 11) {
-    collected++;
-    audio.chime();
-    if (collected === COURSE.length) {
-      toast(`LOOP ${lap} COMPLETE. The ocean is yours. Let’s go again.`);
-      lap++;
-      collected = 0;
-      $("route-hint").textContent = `Loop ${lap}. Find your own line.`;
-    } else {
-      toast(
-        `BUOY ${String(collected).padStart(2, "0")} / 08 — Nice line. Keep it going.`,
-      );
+function updateCourse(previous, dt) {
+  const event = stepRace(race, previous, ride, dt);
+  if (!event) return;
+  audio.chime();
+  if (event.type === "start") toast("LAP 01 STARTED. Find your line.");
+  else if (event.type === "lap") {
+    toast(`${event.record ? "NEW BEST LAP" : "LAP COMPLETE"}: ${formatLap(race.lastLap)}. Keep it flowing.`);
+    if (event.record) {
+      try {
+        localStorage.setItem("tideline-circuit-v1-best", String(race.bestLap));
+      } catch {
+        /* Timing still works when storage is unavailable. */
+      }
     }
-  }
+  } else toast(`GATE ${event.gate} / 7. ${race.nextGate === 0 ? "Bring it home." : "Nice line. Keep going."}`);
+  $("route-hint").textContent = race.nextGate === 0
+    ? "Return through the checkered gate."
+    : `Through gate ${race.nextGate}. Follow the numbered flags.`;
+  updateHUD();
 }
 
 function step(dt) {
   time += dt;
   if (mode === "playing") {
+    const previous = { x: ride.x, z: ride.z };
     const events = stepRide(ride, input, time, dt);
     if (events.launched) {
       clearTimeout(calloutTimeout);
@@ -334,8 +354,10 @@ function step(dt) {
     }
     if (events.landed) {
       shake = Math.min(0.65, 0.12 + ride.jumpPeak * 0.06);
-      spray.emit(ride, 150, true);
-      audio.splash();
+      if (!events.landedOnRamp) {
+        spray.emit(ride, 150, true);
+        audio.splash();
+      }
       $("jump-label").textContent =
         ride.jumpPeak >= bestEver && ride.jumpPeak > 1
           ? "PERSONAL BEST"
@@ -350,7 +372,7 @@ function step(dt) {
       );
       saveBest();
     }
-    updateCourse();
+    updateCourse(previous, dt);
   } else if (mode === "landing") {
     ride.heading = -0.15;
     ride.speed = 5;
@@ -390,15 +412,17 @@ function animate(timestamp) {
     Math.round(ride.z / 2) * 2,
   );
   for (const buoy of buoys) {
-    const [x, z] = COURSE[buoy.index];
+    const { x, z } = buoy;
     buoy.group.position.y = waveHeight(x, z, time);
     buoy.group.rotation.z = Math.sin(time * 1.4 + buoy.index) * 0.07;
     buoy.group.rotation.x = Math.cos(time + buoy.index) * 0.06;
+    if (!buoy.flag) continue;
     buoy.flag.rotation.y = Math.sin(time * 3 + buoy.index) * 0.3;
-    buoy.ring.visible = mode !== "landing" && buoy.index === collected;
+    buoy.ring.visible = mode !== "landing" && buoy.index === race.nextGate;
     buoy.ring.material.opacity = 0.45 + Math.sin(time * 3) * 0.2;
     buoy.ring.scale.setScalar(1 + Math.sin(time * 2) * 0.04);
   }
+  for (const { update } of ramps) update(time);
   const sin = Math.sin(ride.heading),
     cos = Math.cos(ride.heading);
   if (mode === "landing" || (mode === "paused" && previousMode === "landing")) {
@@ -497,7 +521,11 @@ requestAnimationFrame(animate);
 // A read-only snapshot makes browser smoke tests useful without affecting the simulation.
 window.__tideline = {
   get state() {
-    return { mode, time, ...ride, collected, lap, frameCount };
+    return {
+      mode, time, ...ride,
+      rampContact: ride.rampContact ? { ...ride.rampContact } : null,
+      collected: race.nextGate, lap: race.lap, race: { ...race }, frameCount,
+    };
   },
   get rendererInfo() {
     return renderer.info.render;

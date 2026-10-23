@@ -81,6 +81,16 @@ test("mobile controls support throttle and steering with a responsive layout", a
   );
   await page.getByRole("button", { name: "LET’S RIDE", exact: true }).click();
   await expect(page.locator("#touch-controls")).toBeVisible();
+  await expect(page.locator("#lap-time")).toBeVisible();
+  await expect(page.locator("#best-lap")).toBeVisible();
+  await page.setViewportSize({ width: 320, height: 740 });
+  const timing = await page.locator(".race-timing").boundingBox();
+  const chart = await page.locator(".course-chart").boundingBox();
+  const route = await page.locator(".route-card").boundingBox();
+  expect(timing.x + timing.width).toBeLessThanOrEqual(chart.x);
+  expect(timing.y + timing.height).toBeLessThanOrEqual(route.y);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(320);
+  await page.setViewportSize({ width: 390, height: 844 });
   const go = page.getByRole("button", { name: "Accelerate" });
   const box = await go.boundingBox();
   expect(box.x + box.width).toBeLessThanOrEqual(390);
@@ -120,6 +130,8 @@ test("mobile controls support throttle and steering with a responsive layout", a
   await expect(page.locator("#touch-controls")).toBeHidden();
   await page.getByRole("button", { name: "BACK TO THE WATER" }).click();
   await page.setViewportSize({ width: 667, height: 320 });
+  await expect(page.locator("#lap-time")).toBeVisible();
+  await expect(page.locator("#best-lap")).toBeVisible();
   const landscapeGo = await go.boundingBox();
   expect(landscapeGo.y + landscapeGo.height).toBeLessThanOrEqual(320);
   expect(landscapeGo.x + landscapeGo.width).toBeLessThanOrEqual(667);
