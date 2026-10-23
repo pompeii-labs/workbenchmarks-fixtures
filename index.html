@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#0b3a5c" />
+    <meta name="description" content="Swell Rider: a fast, splashy jet ski game in your browser." />
+    <link rel="icon" href="data:," />
+    <title>Swell Rider</title>
+    <style>
+      /* Critical CSS: the loading screen is styled before any script or stylesheet loads. */
+      html, body { margin: 0; height: 100%; background: #0b3a5c; overflow: hidden; }
+      #loading {
+        position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column;
+        align-items: center; justify-content: center; gap: 18px;
+        background: linear-gradient(180deg, #8fd3f4 0%, #2a8fc4 55%, #0b3a5c 100%);
+        color: #fff; font: 800 15px/1.2 system-ui, -apple-system, "Segoe UI", sans-serif;
+        letter-spacing: 0.18em; text-transform: uppercase; transition: opacity 0.4s ease;
+      }
+      #loading .logo { font-size: clamp(34px, 8vw, 64px); letter-spacing: 0.04em; font-style: italic; text-shadow: 0 4px 0 #ec4a36, 0 10px 30px rgba(0,0,0,0.25); }
+      #loading .bar { width: 160px; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.3); overflow: hidden; }
+      #loading .bar i { display: block; width: 40%; height: 100%; background: #ffc21a; border-radius: 3px; animation: ld 1s ease-in-out infinite alternate; }
+      @keyframes ld { from { transform: translateX(-20%); } to { transform: translateX(170%); } }
+      #loading.done { opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="loading"><div class="logo">SWELL RIDER</div><div class="bar"><i></i></div><div>Loading the ocean</div></div>
+    <main id="app">
+      <canvas id="game-canvas" aria-label="Swell Rider game view"></canvas>
+
+      <section id="hud" aria-live="polite">
+        <div id="score-box">
+          <div class="label">Score</div>
+          <div id="score-value">0</div>
+          <div id="combo"><span id="combo-value">x1</span><div id="combo-bar"><i id="combo-fill"></i></div></div>
+        </div>
+        <div id="air-readout" class="hidden">AIR <span id="air-value">0.0</span>s</div>
+        <div id="best-box">
+          <div class="label">Best air</div>
+          <div id="best-value">0.0s</div>
+        </div>
+        <div id="speedo">
+          <div id="speed-value">0</div>
+          <div class="unit">km/h</div>
+          <div id="boost-bar" aria-label="Boost"><i id="boost-fill"></i></div>
+        </div>
+        <div id="popups"></div>
+        <div id="hint"><span class="desktop-only">Hit a swell at speed to launch. <b>Space</b> pops you higher.</span><span class="touch-only">Hit swells fast to launch. JUMP pops higher.</span></div>
+      </section>
+
+      <button id="mute-btn" type="button" aria-label="Toggle sound">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path id="mute-icon" fill="currentColor" d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>
+      </button>
+
+      <div id="wipeout" class="hidden"><div>WIPEOUT!</div><small>Land nose-first. Combo lost.</small></div>
+
+      <div id="title" class="overlay">
+        <div class="panel">
+          <h1>SWELL RIDER</h1>
+          <p class="tag">Open water. Big swells. Send it.</p>
+          <ul class="keys desktop-only">
+            <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> ride &amp; steer</li>
+            <li><kbd>Space</kbd> pop jump</li>
+            <li><kbd>Shift</kbd> boost</li>
+            <li><kbd>A</kbd>/<kbd>D</kbd> in the air: spin</li>
+          </ul>
+          <ul class="keys touch-only">
+            <li>Left stick: ride &amp; steer (pull down to brake)</li>
+            <li>JUMP to pop, BOOST to go faster</li>
+            <li>Steer in the air to spin</li>
+          </ul>
+          <button id="start-btn" type="button">Ride</button>
+          <p class="small desktop-only">Press any key to start</p>
+        </div>
+      </div>
+
+      <div id="pause" class="overlay hidden">
+        <div class="panel">
+          <h2>Paused</h2>
+          <button id="resume-btn" type="button">Resume</button>
+          <button id="restart-btn" type="button" class="ghost">Restart</button>
+          <p class="small desktop-only"><kbd>P</kbd> resume · <kbd>R</kbd> restart · <kbd>M</kbd> sound</p>
+        </div>
+      </div>
+
+      <div id="touch-controls" aria-hidden="true">
+        <div id="touch-stick"><div id="touch-knob"></div></div>
+        <div id="touch-buttons">
+          <button id="boost-button" type="button">BOOST</button>
+          <button id="jump-button" type="button">JUMP</button>
+        </div>
+      </div>
+      <button id="pause-btn" type="button" aria-label="Pause">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+      </button>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

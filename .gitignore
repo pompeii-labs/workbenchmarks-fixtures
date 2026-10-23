@@ -1,6 +1,9 @@
 node_modules/
 dist/
-.DS_Store
+test-results/
+artifacts/pass-*/
+artifacts/playtest-ledger.json
 *.log
+.DS_Store
 .env
 .env.*

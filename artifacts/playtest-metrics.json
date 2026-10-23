@@ -1,0 +1,234 @@
+{
+  "runner": "tgplaytest@1",
+  "timeScale": 3,
+  "renderScale": 0.5,
+  "hooks": {
+    "setTimeScale": true,
+    "setRenderScale": true
+  },
+  "sections": {
+    "controls": {
+      "file": "controls.mjs",
+      "pass": 6,
+      "fail": 0,
+      "metrics": {
+        "boostTopSpeedKmh": 126
+      },
+      "seconds": 11
+    },
+    "jump": {
+      "file": "jump.mjs",
+      "pass": 3,
+      "fail": 0,
+      "metrics": {
+        "bestAirSeconds": 1.266666666666667
+      },
+      "seconds": 6
+    },
+    "mobile": {
+      "file": "mobile.mjs",
+      "pass": 5,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 13
+    },
+    "pause": {
+      "file": "pause.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 11
+    },
+    "rings": {
+      "file": "rings.mjs",
+      "pass": 3,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 5
+    },
+    "start": {
+      "file": "start.mjs",
+      "pass": 4,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 6
+    },
+    "wipeout": {
+      "file": "wipeout.mjs",
+      "pass": 5,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 12
+    }
+  },
+  "checks": [
+    {
+      "section": "controls",
+      "label": "W throttles up past 54 km/h",
+      "ok": true,
+      "detail": "{\"speed\":16.013483656121952,\"heading\":0,\"x\":0,\"z\":-15.261379379559859}"
+    },
+    {
+      "section": "controls",
+      "label": "ski drives forward (-Z at start)",
+      "ok": true,
+      "detail": "{\"speed\":16.013483656121952,\"heading\":0,\"x\":0,\"z\":-15.261379379559859}"
+    },
+    {
+      "section": "controls",
+      "label": "D turns right (heading decreases)",
+      "ok": true,
+      "detail": "{\"heading\":-6.2101064442310205}"
+    },
+    {
+      "section": "controls",
+      "label": "A turns left (heading increases)",
+      "ok": true,
+      "detail": "-6.2101064442310205 -> 0.11788083650431538"
+    },
+    {
+      "section": "controls",
+      "label": "Shift boost exceeds normal top speed and drains meter",
+      "ok": true,
+      "detail": "{\"speed\":35,\"boost\":0.7615000000000023}"
+    },
+    {
+      "section": "controls",
+      "label": "S brakes to a stop",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "jump",
+      "label": "Space pops the ski off the water",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "jump",
+      "label": "swell launch + pop gives >0.9 s big air that scores",
+      "ok": true,
+      "detail": "{\"bestAir\":1.266666666666667,\"score\":1110,\"wipeouts\":0,\"jumps\":4}"
+    },
+    {
+      "section": "jump",
+      "label": "straight jumps land clean (no wipeouts)",
+      "ok": true,
+      "detail": "{\"bestAir\":1.266666666666667,\"score\":1110,\"wipeouts\":0,\"jumps\":4}"
+    },
+    {
+      "section": "mobile",
+      "label": "touch controls visible on phone viewport",
+      "ok": true,
+      "detail": "flex"
+    },
+    {
+      "section": "mobile",
+      "label": "stick drives the ski",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "mobile",
+      "label": "stick right steers right",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "mobile",
+      "label": "JUMP button pops",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "mobile",
+      "label": "pause button pauses on touch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "pause",
+      "label": "P pauses: overlay up, sim frozen",
+      "ok": true,
+      "detail": "{\"t0\":2.3999999999999964,\"t\":2.3999999999999964,\"overlay\":true}"
+    },
+    {
+      "section": "pause",
+      "label": "Resume continues the run",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "rings",
+      "label": "driving through a ring scores and bumps combo",
+      "ok": true,
+      "detail": "{\"hits\":1,\"score\":617,\"combo\":3,\"rings\":11,\"popup\":2}"
+    },
+    {
+      "section": "rings",
+      "label": "a popup shows the points",
+      "ok": true,
+      "detail": "{\"hits\":1,\"score\":617,\"combo\":3,\"rings\":11,\"popup\":2}"
+    },
+    {
+      "section": "rings",
+      "label": "ring field refills",
+      "ok": true,
+      "detail": "{\"hits\":1,\"score\":617,\"combo\":3,\"rings\":11,\"popup\":2}"
+    },
+    {
+      "section": "start",
+      "label": "opens on the title screen",
+      "ok": true,
+      "detail": "{\"ui\":\"title\",\"titleVisible\":true,\"loadingGone\":true}"
+    },
+    {
+      "section": "start",
+      "label": "loading screen clears after first frames",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "start",
+      "label": "Ride button starts a fresh run",
+      "ok": true,
+      "detail": "{\"ui\":\"play\",\"titleHidden\":true,\"score\":0}"
+    },
+    {
+      "section": "start",
+      "label": "simulation advances during play",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "wipeout",
+      "label": "landing sideways is a wipeout",
+      "ok": true,
+      "detail": "{\"mode\":\"wipeout\",\"wipeouts\":1,\"combo\":1,\"banner\":true}"
+    },
+    {
+      "section": "wipeout",
+      "label": "wipeout resets combo and shows banner",
+      "ok": true,
+      "detail": "{\"mode\":\"wipeout\",\"wipeouts\":1,\"combo\":1,\"banner\":true}"
+    },
+    {
+      "section": "wipeout",
+      "label": "auto-respawns and banner clears",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "wipeout",
+      "label": "W drives again after respawn",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "wipeout",
+      "label": "R restarts a fresh run",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
