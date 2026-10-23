@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { WAVES, waveHeight } from "./physics.js";
+import { GATES } from "./course.js";
 
 const coral = 0xf15b35;
 const cream = 0xfff8dd;
@@ -420,22 +421,13 @@ export function createJetSki() {
   return { root, rider };
 }
 
-export const COURSE = [
-  [0, -95],
-  [-90, -245],
-  [-270, -310],
-  [-440, -210],
-  [-430, 15],
-  [-230, 130],
-  [-55, 255],
-  [90, 160],
-];
-
 export function createBuoys(scene) {
   const orange = material(coral, 0.5);
   const white = material(cream, 0.65);
   const dark = material(navy, 0.75);
-  const buoys = COURSE.map(([x, z], i) => {
+  const buoys = GATES.flatMap((gate, i) => [-1, 1].map((side) => {
+    const x = gate.x + Math.cos(gate.heading) * gate.halfWidth * side;
+    const z = gate.z - Math.sin(gate.heading) * gate.halfWidth * side;
     const group = new THREE.Group();
     part(
       group,
@@ -462,15 +454,33 @@ export function createBuoys(scene) {
       dark,
       [0, 2.5, 0],
     );
+    const flagCanvas = document.createElement("canvas");
+    flagCanvas.width = 256;
+    flagCanvas.height = 128;
+    const context = flagCanvas.getContext("2d");
+    context.fillStyle = i === 0 ? "#fff8dd" : "#f15b35";
+    context.fillRect(0, 0, 256, 128);
+    context.fillStyle = "#183b42";
+    if (i === 0) {
+      for (let row = 0; row < 4; row++)
+        for (let column = 0; column < 8; column++)
+          if ((row + column) % 2 === 0) context.fillRect(column * 32, row * 32, 32, 32);
+    } else {
+      context.font = "bold 96px sans-serif";
+      context.textAlign = "center";
+      context.fillText(String(i), 128, 100);
+    }
+    const texture = new THREE.CanvasTexture(flagCanvas);
+    texture.colorSpace = THREE.SRGBColorSpace;
     const flag = part(
       group,
-      new THREE.PlaneGeometry(1.15, 0.65),
-      orange,
-      [0.56, 3.5, 0],
+      new THREE.PlaneGeometry(2, 1),
+      new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide }),
+      [0.95, 3.5, 0],
     );
     flag.material.side = THREE.DoubleSide;
     const ring = new THREE.Mesh(
-      new THREE.TorusGeometry(5.5, 0.08, 6, 64),
+      new THREE.TorusGeometry(2.6, 0.07, 6, 32),
       new THREE.MeshBasicMaterial({
         color: 0xffc282,
         transparent: true,
@@ -480,10 +490,29 @@ export function createBuoys(scene) {
     ring.rotation.x = -Math.PI / 2;
     ring.position.y = 0.2;
     group.add(ring);
+    group.scale.setScalar(1.5);
     group.position.set(x, 0, z);
     scene.add(group);
-    return { group, ring, flag, index: i };
-  });
+    return { group, ring, flag, index: i, x, z };
+  }));
+  // Sparse floating edge markers suggest a racing line without fencing in the sea.
+  for (let i = 0; i < GATES.length; i++) {
+    const a = GATES[i], b = GATES[(i + 1) % GATES.length];
+    const length = Math.hypot(b.x - a.x, b.z - a.z);
+    const count = Math.floor(length / 55);
+    for (let j = 1; j <= count; j++) {
+      const fraction = j / (count + 1);
+      for (const side of [-1, 1]) {
+        const x = a.x + (b.x - a.x) * fraction + (b.z - a.z) / length * 23 * side;
+        const z = a.z + (b.z - a.z) * fraction - (b.x - a.x) / length * 23 * side;
+        const group = new THREE.Group();
+        part(group, new THREE.SphereGeometry(0.65, 8, 6), side < 0 ? orange : white, [0, 0.25, 0]);
+        group.position.set(x, 0, z);
+        scene.add(group);
+        buoys.push({ group, index: i, x, z });
+      }
+    }
+  }
   return buoys;
 }
 
@@ -552,7 +581,7 @@ export function createSpray(scene, count = 1500) {
   return {
     emit,
     update(ride, time, dt, active) {
-      if (active && !ride.airborne && ride.speed > 2) {
+      if (active && !ride.airborne && !ride.rampContact && ride.speed > 2) {
         accumulator += ride.speed * dt * 8;
         const amount = Math.floor(accumulator);
         accumulator -= amount;

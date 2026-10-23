@@ -115,17 +115,29 @@
             ><strong id="best-jump">0.0<span>m</span></strong>
           </div>
           <div>
-            <span class="stat-label">BUOYS</span
+            <span class="stat-label">GATES</span
             ><strong id="buoy-count">00<span>/ 08</span></strong>
           </div>
+        </div>
+        <div class="race-timing" aria-label="Lap timing">
+          <div class="race-timing-heading"><span id="lap-number">READY TO RACE</span><span id="last-lap">NO LAPS YET</span></div>
+          <strong id="lap-time" aria-label="Current lap time">00:00.00</strong>
+          <div class="best-lap-row"><span>BEST LAP</span><strong id="best-lap">--:--.--</strong></div>
+          <span id="race-status">CROSS START / FINISH</span>
         </div>
         <div class="route-card">
           <span class="route-symbol">↗</span>
           <div>
-            <span class="stat-label">A LITTLE DIRECTION</span>
-            <p id="route-hint">Follow the orange buoys. Or don’t.</p>
+            <span class="stat-label">THE SALTWATER CIRCUIT</span>
+            <p id="route-hint">Cross the checkered gate to start.</p>
           </div>
           <span id="target-distance">— m</span>
+        </div>
+        <div class="course-chart">
+          <div class="chart-heading"><span>THE LONG WAY ROUND</span><span>01</span></div>
+          <svg id="course-map" viewBox="-450 -405 610 700" role="img" aria-label="Eight-gate course map, two jump ramps, and your position"></svg>
+          <div class="chart-legend"><span><i></i> NEXT GATE</span><span>△ JUMP</span></div>
+          <p>Race the clock. Or leave it behind.</p>
         </div>
         <div class="speed-panel">
           <div class="speed-label">
@@ -215,8 +227,11 @@
             <div><span>Reset ride</span><kbd>R</kbd></div>
           </div>
           <p class="tip">
-            Hit a steep swell at speed to catch air. Hold boost for bigger
-            launches. Orange buoys mark an optional loop.
+            Cross between the checkered buoys to start a timed lap. Pass gates
+            1-7 in order, then cross start / finish again. Follow the map and
+            numbered flags; approach each gate along the course direction.
+            Hit the striped ramps at speed for big air. Boost goes bigger.
+            Best lap saves on this device. The rest of the ocean is still yours.
           </p>
           <button id="resume" class="primary-button">
             BACK TO THE WATER <span>↗</span></button

@@ -1,6 +1,9 @@
+import { RAMPS } from "./course.js";
+
 export const GRAVITY = 12.8;
 export const MAX_SPEED = 29;
 export const BOOST_SPEED = 42;
+export const RAMP_APRON_LENGTH = 6;
 
 // These terms also generate the GPU ocean surface. Physics and visuals share one sea.
 export const WAVES = [
@@ -18,6 +21,30 @@ export function waveHeight(x, z, time) {
   }
   const swell = Math.max(0, Math.sin(x * 0.012 + z * 0.038 + time * 0.8));
   return height + swell ** 6 * 3.8;
+}
+
+function rampPosition(ramp, x, z) {
+  const sin = Math.sin(ramp.heading), cos = Math.cos(ramp.heading);
+  return {
+    across: (x - ramp.x) * cos - (z - ramp.z) * sin,
+    along: -(x - ramp.x) * sin - (z - ramp.z) * cos,
+  };
+}
+
+// Absolute deck height, without hull clearance. Shared with the flexible mesh.
+export function rampSurfaceHeight(ramp, x, z, time) {
+  const { along } = rampPosition(ramp, x, z);
+  const base = waveHeight(ramp.x, ramp.z, time);
+  const rear = -ramp.length / 2;
+  if (along >= rear) return base + (along / ramp.length + 0.5) * ramp.height;
+  const progress = Math.max(0, (along - rear + RAMP_APRON_LENGTH) / RAMP_APRON_LENGTH);
+  const blend = progress ** 2 * (3 - 2 * progress);
+  return waveHeight(x, z, time) * (1 - blend) + base * blend;
+}
+
+function rampSlope(ramp, x, z, dx, dz, time) {
+  return (rampSurfaceHeight(ramp, x + dx * 0.001, z + dz * 0.001, time) -
+    rampSurfaceHeight(ramp, x - dx * 0.001, z - dz * 0.001, time)) / 0.002;
 }
 
 export function newRide() {
@@ -40,12 +67,14 @@ export function newRide() {
     bestJump: 0,
     launchY: 0,
     launchCooldown: 1,
+    rampContact: null,
     distance: 0,
   };
 }
 
 export function stepRide(ride, input, time, dt) {
   const wasAirborne = ride.airborne;
+  const previousX = ride.x, previousZ = ride.z, previousY = ride.y;
   const forward = input.forward ? 1 : 0;
   const braking = input.brake ? 1 : 0;
   ride.boosting = input.boost && ride.boost > 0.015 && forward && !braking;
@@ -84,7 +113,7 @@ export function stepRide(ride, input, time, dt) {
   const surfaceY = sea + 0.47;
   const lookAhead = waveHeight(ride.x + dx * 1.6, ride.z + dz * 1.6, time);
   const lookBehind = waveHeight(ride.x - dx * 1.6, ride.z - dz * 1.6, time);
-  const slope = (lookAhead - lookBehind) / 3.2;
+  let slope = (lookAhead - lookBehind) / 3.2;
   const curve = (lookAhead + lookBehind - 2 * sea) / (1.6 * 1.6);
   const surfaceVelocity =
     (waveHeight(
@@ -96,7 +125,74 @@ export function stepRide(ride, input, time, dt) {
     0.035;
   ride.launchCooldown = Math.max(0, ride.launchCooldown - dt);
   let landed = false;
-  if (!ride.airborne) {
+  let landedOnRamp = false;
+  let rampHandled = false;
+  if (!ride.airborne && !ride.rampContact) {
+    for (const ramp of RAMPS) {
+      const before = rampPosition(ramp, previousX, previousZ);
+      const after = rampPosition(ramp, ride.x, ride.z);
+      const rear = -ramp.length / 2 - RAMP_APRON_LENGTH;
+      if (before.along > rear || after.along < rear ||
+          after.along <= before.along ||
+          Math.cos(ride.heading - ramp.heading) < 0.5) continue;
+      const fraction = (rear - before.along) / (after.along - before.along);
+      const across = before.across + (after.across - before.across) * fraction;
+      if (Math.abs(across) > ramp.width / 2) continue;
+      ride.rampContact = ramp;
+      break;
+    }
+  }
+  if (ride.rampContact && !ride.airborne) {
+    rampHandled = true;
+    const ramp = ride.rampContact;
+    const before = rampPosition(ramp, previousX, previousZ);
+    const after = rampPosition(ramp, ride.x, ride.z);
+    const halfLength = ramp.length / 2, halfWidth = ramp.width / 2;
+    const rear = -halfLength - RAMP_APRON_LENGTH;
+    const inside = Math.abs(after.across) <= halfWidth &&
+      after.along >= rear && after.along <= halfLength;
+    const alignment = Math.cos(ride.heading - ramp.heading);
+    const baseVelocity = (waveHeight(ramp.x, ramp.z, time) -
+      waveHeight(ramp.x, ramp.z, time - dt)) / dt;
+    slope = rampSlope(ramp, ride.x, ride.z, dx, dz, time);
+    if (inside) {
+      ride.y = rampSurfaceHeight(ramp, ride.x, ride.z, time) + 0.47;
+      ride.verticalSpeed = (ride.y - previousY) / dt;
+    } else {
+      // Resolve the first crossed edge, not just the endpoint (lip vs. side).
+      let fraction = 1;
+      if (after.along > halfLength)
+        fraction = Math.min(fraction, (halfLength - before.along) / (after.along - before.along));
+      if (after.along < rear)
+        fraction = Math.min(fraction, (rear - before.along) / (after.along - before.along));
+      if (Math.abs(after.across) > halfWidth)
+        fraction = Math.min(fraction, (Math.sign(after.across) * halfWidth - before.across) / (after.across - before.across));
+      fraction = Math.max(0, fraction);
+      const edgeAlong = before.along + (after.along - before.along) * fraction;
+      const lip = edgeAlong >= halfLength - 1e-6 && alignment >= 0.5 &&
+        after.along > before.along && ride.speed >= 10;
+      const edgeTime = time - dt * (1 - fraction);
+      const edgeX = previousX + (ride.x - previousX) * fraction;
+      const edgeZ = previousZ + (ride.z - previousZ) * fraction;
+      const edgeY = rampSurfaceHeight(ramp, edgeX, edgeZ, edgeTime) + 0.47;
+      const edgeVelocity = (rampSurfaceHeight(ramp, edgeX, edgeZ, edgeTime + 0.001) -
+        rampSurfaceHeight(ramp, edgeX, edgeZ, edgeTime - 0.001)) / 0.002;
+      ride.verticalSpeed = edgeVelocity + ride.speed *
+        rampSlope(ramp, edgeX, edgeZ, dx, dz, edgeTime);
+      if (lip) ride.verticalSpeed = Math.max(0, baseVelocity) +
+        ride.speed * (ramp.height / ramp.length * alignment + 0.38);
+      const remaining = dt * (1 - fraction);
+      ride.y = edgeY + ride.verticalSpeed * remaining - GRAVITY * remaining ** 2 / 2;
+      ride.verticalSpeed -= GRAVITY * remaining;
+      ride.airborne = true;
+      ride.rampContact = null;
+      ride.launchY = edgeY;
+      ride.jumpPeak = Math.max(0, ride.y - edgeY);
+      ride.airTime = remaining;
+      ride.totalAirTime += remaining;
+    }
+  }
+  if (!rampHandled && !ride.airborne) {
     ride.y = surfaceY;
     ride.verticalSpeed = surfaceVelocity;
     if (
@@ -114,14 +210,34 @@ export function stepRide(ride, input, time, dt) {
       ride.jumpPeak = 0;
       ride.airTime = 0;
     }
-  } else {
+  } else if (!rampHandled) {
     ride.verticalSpeed -= GRAVITY * dt;
     ride.y += ride.verticalSpeed * dt;
     ride.airTime += dt;
     ride.totalAirTime += dt;
     ride.jumpPeak = Math.max(ride.jumpPeak, ride.y - ride.launchY);
     ride.bestJump = Math.max(ride.bestJump, ride.jumpPeak);
-    if (ride.y <= surfaceY && ride.verticalSpeed < surfaceVelocity) {
+    for (const ramp of RAMPS) {
+      const after = rampPosition(ramp, ride.x, ride.z);
+      if (Math.abs(after.across) > ramp.width / 2 ||
+          after.along < -ramp.length / 2 - RAMP_APRON_LENGTH ||
+          after.along > ramp.length / 2) continue;
+      const deckY = rampSurfaceHeight(ramp, ride.x, ride.z, time) + 0.47;
+      const previousDeckY = rampSurfaceHeight(ramp, previousX, previousZ, time - dt) + 0.47;
+      // A one-way deck: only a downward crossing from above can land.
+      if (previousY < previousDeckY || ride.y > deckY ||
+          ride.y - previousY >= deckY - previousDeckY) continue;
+      ride.y = deckY;
+      ride.verticalSpeed = (deckY - previousDeckY) / dt;
+      ride.airborne = false;
+      ride.rampContact = ramp;
+      ride.launchCooldown = 0.85;
+      slope = rampSlope(ramp, ride.x, ride.z, dx, dz, time);
+      landed = true;
+      landedOnRamp = true;
+      break;
+    }
+    if (!landed && ride.y <= surfaceY && ride.verticalSpeed < surfaceVelocity) {
       ride.y = surfaceY;
       ride.airborne = false;
       ride.launchCooldown = 0.85;
@@ -136,5 +252,5 @@ export function stepRide(ride, input, time, dt) {
   ride.roll +=
     (-ride.steering * Math.min(ride.speed / MAX_SPEED, 1) * 0.4 - ride.roll) *
     Math.min(1, dt * 5);
-  return { launched: !wasAirborne && ride.airborne, landed };
+  return { launched: !wasAirborne && ride.airborne, landed, landedOnRamp };
 }
