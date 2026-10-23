@@ -1,6 +1,7 @@
 import type { SimState } from '../sim/sim';
 import { lapClock, TUNING } from '../sim/sim';
 import { COURSE_LENGTH, COURSE_SAMPLES, GATES, courseAt, formatLap, nearestSample } from '../sim/course';
+import { ordinal, raceClock, type RaceWorld } from '../sim/race';
 
 export type RaceMessage = '' | 'start' | 'wrong-way' | 'missed';
 
@@ -63,12 +64,121 @@ export class Hud {
   private readonly bannerTitle = el('#lap-banner-title');
   private readonly bannerTime = el('#lap-banner-time');
   private readonly bannerSub = el('#lap-banner-sub');
+  private readonly posBox = el('#pos-box');
+  private readonly posPlace = el('#pos-place');
+  private readonly posOf = el('#pos-of');
+  private readonly standings = el('#standings');
+  private readonly countdown = el('#countdown');
+  private readonly finish = el('#finish');
+  private readonly finishPlace = el('#finish-place');
+  private readonly finishTitle = el('#finish-title');
+  private readonly finishSub = el('#finish-sub');
+  private readonly finishRows = el('#finish-rows');
+  private rowEls: HTMLElement[] = [];
+  private finishShown = false;
+  private lastStandings = '';
+  private lastFinishRows = '';
+  private lastCountdown = '';
   private bannerUntil = 0;
   private cursor = -1;
   private last = { score: -1, combo: -1, speed: -1, best: -1, gate: -1, lap: -1, bestLap: -2, lastLap: -2, msg: 'x', clock: '' };
   message: RaceMessage = '';
+  totalLaps = 3;
+  private countingDown = false;
 
-  update(s: SimState): void {
+  /** Position badge, standings, countdown and the finish screen. */
+  private updateField(w: RaceWorld): void {
+    this.totalLaps = w.totalLaps;
+    this.countingDown = w.phase === 'countdown';
+    const me = w.racers[0];
+    const racing = w.phase !== 'free';
+    this.posBox.classList.toggle('hidden', !racing);
+    if (racing) {
+      this.posPlace.textContent = ordinal(me.place);
+      this.posOf.textContent = `/${w.racers.length}`;
+      const order = [...w.racers].sort((a, b) => a.place - b.place);
+      const key = order.map((r) => `${r.id}:${r.finished ? 'f' : Math.round((r.progress - me.progress) / 5)}`).join(',');
+      if (key !== this.lastStandings) {
+        this.lastStandings = key;
+        while (this.rowEls.length < order.length) {
+          const row = document.createElement('li');
+          row.innerHTML = '<span class="p"></span><i></i><span class="n"></span><span class="g"></span>';
+          this.standings.appendChild(row);
+          this.rowEls.push(row);
+        }
+        order.forEach((r, i) => {
+          const row = this.rowEls[i];
+          row.classList.toggle('me', r === me);
+          (row.children[0] as HTMLElement).textContent = String(r.place);
+          (row.children[1] as HTMLElement).style.background = r.color;
+          (row.children[2] as HTMLElement).textContent = r.name;
+          const gap = r.progress - me.progress;
+          (row.children[3] as HTMLElement).textContent = r === me ? '' : r.finished ? 'FIN' : `${gap >= 0 ? '+' : '−'}${Math.abs(Math.round(gap))} m`;
+        });
+      }
+    }
+    // Countdown 3-2-1-GO
+    let cd = '';
+    if (w.phase === 'countdown') cd = String(Math.ceil(w.countdown));
+    else if (w.phase === 'racing' && raceClock(w) < 0.9) cd = 'GO!';
+    if (cd !== this.lastCountdown) {
+      this.lastCountdown = cd;
+      this.countdown.textContent = cd;
+      this.countdown.classList.toggle('hidden', !cd);
+      this.countdown.classList.toggle('go', cd === 'GO!');
+      // restart the pop animation per number
+      this.countdown.style.animation = 'none';
+      void this.countdown.offsetWidth;
+      this.countdown.style.animation = '';
+    }
+    if (this.finishShown) this.renderFinish(w);
+  }
+
+  showFinish(w: RaceWorld): void {
+    this.finishShown = true;
+    this.lastFinishRows = '';
+    this.finish.classList.remove('hidden');
+    this.banner.classList.add('hidden');
+    this.bannerUntil = 0;
+    this.renderFinish(w);
+  }
+
+  hideFinish(): void {
+    this.finishShown = false;
+    this.finish.classList.add('hidden');
+  }
+
+  get finishVisible(): boolean {
+    return this.finishShown;
+  }
+
+  private renderFinish(w: RaceWorld): void {
+    const me = w.racers[0];
+    const order = [...w.racers].sort((a, b) => a.place - b.place);
+    const key = order.map((r) => `${r.id}:${r.finished ? r.finishTime.toFixed(2) : Math.min(r.s.race.laps + 1, w.totalLaps)}`).join(',');
+    if (key === this.lastFinishRows) return;
+    this.lastFinishRows = key;
+    this.finishPlace.textContent = ordinal(me.place);
+    this.finishPlace.classList.toggle('win', me.place === 1);
+    this.finishTitle.textContent = me.place === 1 ? 'You win!' : me.place <= 3 ? 'Podium finish' : 'Race complete';
+    this.finishSub.textContent = `Race ${formatLap(me.finishTime)} · Best lap ${formatLap(me.s.race.bestLap)}`;
+    const leader = order[0];
+    const rows = order.map((r) => {
+      const li = document.createElement('li');
+      if (r === me) li.className = 'me';
+      const time = r.finished
+        ? r === leader
+          ? formatLap(r.finishTime)
+          : `+${(r.finishTime - leader.finishTime).toFixed(2)}s`
+        : `Lap ${Math.min(r.s.race.laps + 1, w.totalLaps)}/${w.totalLaps}`;
+      li.innerHTML = `<span class="p">${ordinal(r.place)}</span><i style="background:${r.color}"></i><span class="n">${r.name}</span><span class="t${r.finished ? '' : ' live'}">${time}</span>`;
+      return li;
+    });
+    this.finishRows.replaceChildren(...rows);
+  }
+
+  update(s: SimState, w: RaceWorld): void {
+    this.updateField(w);
     if (s.score !== this.last.score) {
       this.score.textContent = s.score.toLocaleString('en-US');
       this.last.score = s.score;
@@ -99,10 +209,10 @@ export class Hud {
 
   private updateRace(s: SimState): void {
     const r = s.race;
-    const lap = r.laps + 1;
-    if (lap !== this.last.lap) {
-      this.lapNum.textContent = String(lap);
-      this.last.lap = lap;
+    const lap = Math.min(r.laps + 1, this.totalLaps);
+    if (lap * 100 + this.totalLaps !== this.last.lap) {
+      this.lapNum.textContent = `${lap}/${this.totalLaps}`;
+      this.last.lap = lap * 100 + this.totalLaps;
     }
     const gatesDone = r.started ? (r.nextGate === 0 ? GATES.length : r.nextGate) : 0;
     if (gatesDone !== this.last.gate) {
@@ -131,6 +241,7 @@ export class Hud {
     const g = raceGuidance(s, this.cursor);
     this.cursor = g.cursor;
     this.message = g.message;
+    if (this.countingDown && g.message === 'start') g.message = '';
     if (g.message !== this.last.msg) {
       const gateN = r.nextGate === 0 ? 'finish' : `gate ${r.nextGate}`;
       const text = g.message === 'start' ? 'Ride through the start gate' : g.message === 'wrong-way' ? 'Wrong way' : g.message === 'missed' ? `Missed ${gateN}: turn back` : '';
@@ -142,7 +253,7 @@ export class Hud {
     // CSS rotation is clockwise; a positive bearing means the gate is to the left.
     this.arrowSvg.style.transform = `rotate(${(-g.bearing * 180) / Math.PI}deg)`;
     this.gateDist.textContent = `${Math.round(g.dist)} m`;
-    this.arrow.classList.toggle('hidden', s.mode !== 'ride' || this.bannerUntil > 0);
+    this.arrow.classList.toggle('hidden', s.mode !== 'ride' || this.bannerUntil > 0 || this.countingDown);
     if (this.bannerUntil > 0 && s.t > this.bannerUntil) {
       this.bannerUntil = 0;
       this.banner.classList.add('hidden');
@@ -150,11 +261,13 @@ export class Hud {
   }
 
   lapComplete(nowT: number, lapNumber: number, time: number, best: boolean, previousBest: number): void {
+    if (lapNumber >= this.totalLaps) return; // the finish screen takes over
     this.bannerTitle.textContent = best ? 'NEW BEST LAP' : `LAP ${lapNumber}`;
     this.bannerTime.textContent = formatLap(time);
     let sub = '';
     if (best && previousBest > 0) sub = `${(previousBest - time).toFixed(2)}s faster`;
     else if (!best && previousBest > 0) sub = `+${(time - previousBest).toFixed(2)}s off best`;
+    if (lapNumber === this.totalLaps - 1) sub = sub ? `${sub} · FINAL LAP` : 'FINAL LAP';
     this.bannerSub.textContent = sub;
     this.banner.classList.toggle('best', best);
     this.banner.classList.remove('hidden');
@@ -162,6 +275,9 @@ export class Hud {
   }
 
   resetRace(): void {
+    this.hideFinish();
+    this.lastStandings = '';
+    this.lastCountdown = 'x';
     this.cursor = -1;
     this.bannerUntil = 0;
     this.banner.classList.add('hidden');

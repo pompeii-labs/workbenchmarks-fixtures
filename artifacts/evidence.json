@@ -1,61 +1,91 @@
 {
   "version": 1,
-  "runId": "pass-17",
+  "runId": "pass-27",
   "captures": [
     {
       "mode": "desktop",
       "state": "active-play",
-      "report": "artifacts/pass-17/desktop-active-play.json"
+      "report": "artifacts/pass-27/desktop-active-play.json"
     },
     {
       "mode": "mobile",
       "state": "active-play",
-      "report": "artifacts/pass-17/mobile-active-play.json"
+      "report": "artifacts/pass-27/mobile-active-play.json"
     },
     {
       "mode": "desktop",
       "state": "ramp-jump",
-      "report": "artifacts/pass-17/desktop-ramp-jump.json"
+      "report": "artifacts/pass-27/desktop-ramp-jump.json"
     },
     {
       "mode": "mobile",
       "state": "ramp-jump",
-      "report": "artifacts/pass-17/mobile-ramp-jump.json"
+      "report": "artifacts/pass-27/mobile-ramp-jump.json"
     },
     {
       "mode": "desktop",
       "state": "hairpin",
-      "report": "artifacts/pass-17/desktop-hairpin.json"
+      "report": "artifacts/pass-27/desktop-hairpin.json"
     },
     {
       "mode": "desktop",
       "state": "lap-complete",
-      "report": "artifacts/pass-17/desktop-lap-complete.json"
+      "report": "artifacts/pass-27/desktop-lap-complete.json"
     },
     {
       "mode": "mobile",
       "state": "lap-complete",
-      "report": "artifacts/pass-17/mobile-lap-complete.json"
+      "report": "artifacts/pass-27/mobile-lap-complete.json"
     },
     {
       "mode": "desktop",
       "state": "big-air",
-      "report": "artifacts/pass-17/desktop-big-air.json"
+      "report": "artifacts/pass-27/desktop-big-air.json"
     },
     {
       "mode": "desktop",
       "state": "wipeout",
-      "report": "artifacts/pass-17/desktop-wipeout.json"
+      "report": "artifacts/pass-27/desktop-wipeout.json"
     },
     {
       "mode": "desktop",
       "state": "title",
-      "report": "artifacts/pass-17/desktop-title.json"
+      "report": "artifacts/pass-27/desktop-title.json"
     },
     {
       "mode": "mobile",
       "state": "paused",
-      "report": "artifacts/pass-17/mobile-paused.json"
+      "report": "artifacts/pass-27/mobile-paused.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "countdown",
+      "report": "artifacts/pass-27/desktop-countdown.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "countdown",
+      "report": "artifacts/pass-27/mobile-countdown.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "pack-ramp",
+      "report": "artifacts/pass-27/desktop-pack-ramp.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "bump",
+      "report": "artifacts/pass-27/desktop-bump.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "race-finish",
+      "report": "artifacts/pass-27/desktop-race-finish.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "race-finish",
+      "report": "artifacts/pass-27/mobile-race-finish.json"
     }
   ]
 }

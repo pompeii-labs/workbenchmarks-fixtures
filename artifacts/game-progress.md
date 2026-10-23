@@ -30,3 +30,14 @@ Intent: add a buoy race course with real turns, ramps for big jumps, lap timing 
 - Playtest: new sections ramp, race-lap (full lap with real keys), race-guide. pass-17: tgcheck PASS, full playtest PASS.
 
 Remaining: the gate arrow can overlap the rider's head during big air on mobile; the bot lap (~69 s) is slower than a good human line.
+
+## AI rivals update (this run)
+Intent: AI jet skis racing the player around the course, taking the jumps, bumping with real push physics; race position HUD; finish screen; still a static build.
+- `src/sim/race.ts`: RaceWorld (plain data) with player and 5 rivals as SimStates stepped by the same `step()`/Command. Grid, 3-2-1 countdown, 3 laps, gate-clamped progress → places, finish order. Bot driver: lanes, lane change to pass, merge and aim through ramp lips, boost on straights and ramp run-ups, missed-gate recovery, mild catch-up. Capsule contacts with equal-mass impulses (momentum conserved), yaw kick, and a short grip loss after a hit.
+- Sim: `bot` flag (no ring field), `bumps`, `knock`, `airSteerLatch` (a turn held through takeoff carves, so carving over chop no longer spins you out). Autopilot hint gained missed-gate recovery.
+- Render: rival JetSkis in their own colours (meshes merged by material: 135 draw calls with the full pack), rival spray near the camera, DOM place/name tags.
+- HUD: place badge, standings with gaps, countdown, FINAL LAP banner, finish overlay with standings.
+- Tests: new states countdown, pack-ramp, bump, race-finish. New playtest section bumps; race-lap is now a full 1-lap race to the finish screen; race-guide brakes before its U-turn.
+- pass-26: full playtest 11/11 on this build. pass-27: fast gate PASS with 17 captures.
+
+Remaining: the keyboard playtest bot drives ~118 s laps at the ~4 fps software frame rate (rivals ~72 s). That's bot latency, not game pace. Rival tags can overlap your ski when a rival is right behind you.

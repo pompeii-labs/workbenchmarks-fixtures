@@ -7,52 +7,106 @@
     "setRenderScale": true
   },
   "sections": {
-    "controls": {
-      "file": "controls.mjs",
-      "pass": 6,
+    "race-lap": {
+      "file": "race-lap.mjs",
+      "pass": 14,
       "fail": 0,
       "metrics": {
-        "boostTopSpeedKmh": 108
+        "positionsHeld": "5,6",
+        "botEndState": "t=117.4 x=-1 z=-27 ng=1 laps=1 fin=true ui=play",
+        "botRaceSeconds": 113.60582646682336,
+        "botFinishPlace": 6,
+        "rivalRampJumps": "2,4,3,4,4",
+        "bumpsPlayerRival": 0,
+        "bumpsRivalRival": 2
       },
-      "seconds": 10
+      "seconds": 162
     }
   },
   "checks": [
     {
-      "section": "controls",
-      "label": "W throttles up past 54 km/h",
+      "section": "race-lap",
+      "label": "race opens on a countdown with 6 skis on the grid",
       "ok": true,
-      "detail": "{\"speed\":18,\"heading\":0,\"x\":0,\"z\":19.05}"
+      "detail": "{\"phase\":\"countdown\",\"countdown\":1.6500000000000048,\"totalLaps\":1,\"clock\":0,\"position\":5,\"racers\":6,\"finished\":false,\"finishTime\":0,\"finishOrder\":[],\"finishVisible\":false,\"bumpsPlayerRival\":0,\"bumpsRivalRival\":0,\"holdRivals\":false,\"lastBump\":null,\"cd\":\"2\"}"
     },
     {
-      "section": "controls",
-      "label": "ski drives forward (-Z at start)",
+      "section": "race-lap",
+      "label": "lap clock waits for the start line",
       "ok": true,
-      "detail": "30 -> {\"speed\":18,\"heading\":0,\"x\":0,\"z\":19.05}"
+      "detail": "{\"started\":false,\"nextGate\":0,\"gates\":8,\"laps\":0,\"gatesPassed\":0,\"clock\":0,\"lastLap\":0,\"bestLap\":0,\"storedBest\":0,\"message\":\"start\",\"steerHint\":0.3421291677905936,\"throttleHint\":1}"
     },
     {
-      "section": "controls",
-      "label": "D turns right (heading decreases)",
+      "section": "race-lap",
+      "label": "HUD shows race position",
       "ok": true,
-      "detail": "{\"heading\":-2.3926911660421166}"
+      "detail": "5th"
     },
     {
-      "section": "controls",
-      "label": "A turns left (heading increases)",
+      "section": "race-lap",
+      "label": "W during countdown does not move the ski",
       "ok": true,
-      "detail": "-2.3926911660421166 -> 4.247539820521292"
+      "detail": "{\"phase\":\"countdown\",\"speed\":0}"
     },
     {
-      "section": "controls",
-      "label": "Shift boost exceeds normal top speed and drains meter",
-      "ok": true,
-      "detail": "{\"speed\":29.92107335892912,\"boost\":0.989666666666667,\"drained\":0.964666666666667}"
-    },
-    {
-      "section": "controls",
-      "label": "S brakes to a stop",
+      "section": "race-lap",
+      "label": "rivals launch off the grid after GO",
       "ok": true,
       "detail": ""
+    },
+    {
+      "section": "race-lap",
+      "label": "keyboard bot finishes the race through every gate",
+      "ok": true,
+      "detail": "{\"started\":true,\"nextGate\":1,\"gates\":8,\"laps\":1,\"gatesPassed\":7,\"clock\":1.2441735331712351,\"lastLap\":110.68251800190741,\"bestLap\":110.68251800190741,\"storedBest\":110.68251800190741,\"message\":\"\",\"steerHint\":0,\"throttleHint\":1}"
+    },
+    {
+      "section": "race-lap",
+      "label": "finish screen shows place and 6 standings rows",
+      "ok": true,
+      "detail": "{\"place\":\"6th\",\"rows\":[\"1stKAI1:11.79\",\"2ndJUNO+0.70s\",\"3rdSKYE+0.89s\",\"4thRIO+1.53s\",\"5thMARA+2.79s\",\"6thYOU+41.82s\"]}"
+    },
+    {
+      "section": "race-lap",
+      "label": "my row is in the standings at my place",
+      "ok": true,
+      "detail": "[\"1stKAI1:11.79\",\"2ndJUNO+0.70s\",\"3rdSKYE+0.89s\",\"4thRIO+1.53s\",\"5thMARA+2.79s\",\"6thYOU+41.82s\"]"
+    },
+    {
+      "section": "race-lap",
+      "label": "race time is plausible (30-200 s) and becomes best lap",
+      "ok": true,
+      "detail": "{\"t\":113.60582646682336,\"best\":110.68251800190741}"
+    },
+    {
+      "section": "race-lap",
+      "label": "every rival completes the lap through all gates",
+      "ok": true,
+      "detail": "[[\"KAI\",1,9],[\"MARA\",1,9],[\"RIO\",1,9],[\"JUNO\",1,9],[\"SKYE\",1,9]]"
+    },
+    {
+      "section": "race-lap",
+      "label": "rivals take the ramps (each at least one ramp jump)",
+      "ok": true,
+      "detail": "[[\"KAI\",2],[\"MARA\",4],[\"RIO\",3],[\"JUNO\",4],[\"SKYE\",4]]"
+    },
+    {
+      "section": "race-lap",
+      "label": "finish table updates with rival times",
+      "ok": true,
+      "detail": "[\"1stKAI1:11.79\",\"2ndJUNO+0.70s\",\"3rdSKYE+0.89s\",\"4thRIO+1.53s\",\"5thMARA+2.79s\",\"6thYOU+41.82s\"]"
+    },
+    {
+      "section": "race-lap",
+      "label": "the pack bumped into each other during the race",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "section": "race-lap",
+      "label": "R restarts on the grid, finish screen closed, best lap kept",
+      "ok": true,
+      "detail": "{\"race\":{\"started\":false,\"nextGate\":0,\"gates\":8,\"laps\":0,\"gatesPassed\":0,\"clock\":0,\"lastLap\":0,\"bestLap\":110.68251800190741,\"storedBest\":110.68251800190741,\"message\":\"start\",\"steerHint\":0.3421291677905936,\"throttleHint\":1},\"overlay\":true,\"bestText\":\"1:50.68\"}"
     }
   ]
 }
