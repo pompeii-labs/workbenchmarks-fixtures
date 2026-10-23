@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "runId": "pass-7",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "active-play",
+      "report": "artifacts/pass-7/desktop-active-play.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "active-play",
+      "report": "artifacts/pass-7/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "big-air",
+      "report": "artifacts/pass-7/desktop-big-air.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "big-air",
+      "report": "artifacts/pass-7/mobile-big-air.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "wipeout",
+      "report": "artifacts/pass-7/desktop-wipeout.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "title",
+      "report": "artifacts/pass-7/desktop-title.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "paused",
+      "report": "artifacts/pass-7/mobile-paused.json"
+    }
+  ]
+}
