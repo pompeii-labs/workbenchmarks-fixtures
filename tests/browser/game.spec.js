@@ -83,6 +83,7 @@ test("mobile controls support throttle and steering with a responsive layout", a
   await expect(page.locator("#touch-controls")).toBeVisible();
   await expect(page.locator("#lap-time")).toBeVisible();
   await expect(page.locator("#best-lap")).toBeVisible();
+  await expect(page.locator("#race-position")).toBeVisible();
   await page.setViewportSize({ width: 320, height: 740 });
   const timing = await page.locator(".race-timing").boundingBox();
   const chart = await page.locator(".course-chart").boundingBox();
@@ -130,6 +131,7 @@ test("mobile controls support throttle and steering with a responsive layout", a
   await expect(page.locator("#touch-controls")).toBeHidden();
   await page.getByRole("button", { name: "BACK TO THE WATER" }).click();
   await page.setViewportSize({ width: 667, height: 320 });
+  await expect(page.locator("#compact-position")).toBeVisible();
   await expect(page.locator("#lap-time")).toBeVisible();
   await expect(page.locator("#best-lap")).toBeVisible();
   const landscapeGo = await go.boundingBox();
