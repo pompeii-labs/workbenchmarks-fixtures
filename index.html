@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#edf1db" />
+    <meta
+      name="description"
+      content="Find your flow in Tideline, a free-roaming jet ski playground. Chase swells, catch air, and leave the shore behind."
+    />
+    <title>Tideline — An Open Water Playground</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" aria-label="Tideline 3D jet ski game"></canvas>
+      <div class="vignette"></div>
+
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="Tideline home"
+          ><svg viewBox="0 0 40 32" fill="none" aria-hidden="true">
+            <path
+              d="M2 13C8 13 8 5 14 5s6 8 12 8 6-8 12-8M2 23c6 0 6-8 12-8s6 8 12 8 6-8 12-8"
+              stroke="currentColor"
+              stroke-width="4"
+            /></svg
+          ><span>TIDELINE<span class="brand-dot">®</span></span></a
+        >
+        <div class="location">
+          <span class="live-dot"></span> OPEN WATER
+          <span class="location-divider">/</span> NO LIMITS
+        </div>
+        <div class="header-actions">
+          <button
+            id="sound"
+            class="icon-button"
+            aria-label="Enable sound"
+            title="Enable sound"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+            >
+              <path d="M11 5 5 9H2v6h3l6 4V5Z" />
+              <path
+                class="sound-on"
+                d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"
+              />
+              <path class="sound-off" d="m16 9 6 6m0-6-6 6" />
+            </svg></button
+          ><button
+            id="pause"
+            class="icon-button hidden"
+            aria-label="Pause game"
+            title="Pause (Esc)"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+            </svg></button
+          ><button id="help" class="help-button" aria-label="Show controls">
+            ?
+          </button>
+        </div>
+      </header>
+
+      <main id="landing" class="landing">
+        <div class="eyebrow">
+          <span class="tiny-cross">+</span> YOUR DAILY DOSE OF SALTWATER
+        </div>
+        <h1>MAKE<br /><span>WAVES.</span></h1>
+        <p>
+          No roads. No rules. Just you, a jet ski,<br class="desktop-break" />
+          and a whole lot of ocean.
+        </p>
+        <button id="start" class="primary-button">
+          LET’S RIDE
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M4 12h15m-6-6 6 6-6 6" />
+          </svg>
+        </button>
+        <div class="landing-hint">
+          <span class="key">W</span><span class="key">A</span
+          ><span class="key">S</span><span class="key">D</span
+          ><span>TO DRIVE <i>·</i> SPACE TO BOOST</span>
+        </div>
+      </main>
+
+      <div id="world-tag" class="world-tag">
+        <span class="tag-line"></span
+        ><span>THE OPEN WATER COLLECTION<br /><b>01 — ENDLESS SUMMER</b></span>
+      </div>
+      <div id="landing-footer" class="landing-footer">
+        <span>A LITTLE ESCAPE. A LOT OF THROTTLE.</span
+        ><span>BUILT FOR THE FEELING <span class="sun-mark">☼</span></span>
+      </div>
+
+      <section id="hud" class="hud hidden" aria-label="Game statistics">
+        <div class="session-stats">
+          <div>
+            <span class="stat-label">AIR TIME</span
+            ><strong id="air-time">0.0<span>s</span></strong>
+          </div>
+          <div>
+            <span class="stat-label">BEST JUMP</span
+            ><strong id="best-jump">0.0<span>m</span></strong>
+          </div>
+          <div>
+            <span class="stat-label">BUOYS</span
+            ><strong id="buoy-count">00<span>/ 08</span></strong>
+          </div>
+        </div>
+        <div class="route-card">
+          <span class="route-symbol">↗</span>
+          <div>
+            <span class="stat-label">A LITTLE DIRECTION</span>
+            <p id="route-hint">Follow the orange buoys. Or don’t.</p>
+          </div>
+          <span id="target-distance">— m</span>
+        </div>
+        <div class="speed-panel">
+          <div class="speed-label">
+            <span>SPEED</span><span id="ride-state">CRUISING</span>
+          </div>
+          <div class="speed-number">
+            <span id="speed">0</span><span>KM/H</span>
+          </div>
+          <div class="speed-ticks">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i>
+          </div>
+          <div class="boost-row">
+            <span>BOOST</span>
+            <div class="boost-track"><div id="boost-fill"></div></div>
+            <span class="key">SPACE</span>
+          </div>
+        </div>
+        <div class="compass">
+          <div id="compass-track">
+            <span>N</span><span>NE</span><span>E</span><span>SE</span
+            ><span>S</span><span>SW</span><span>W</span><span>NW</span>
+          </div>
+          <span class="compass-pointer"></span>
+        </div>
+        <div class="game-hint">
+          <span class="key">W A S D</span> DRIVE
+          <span class="hint-separator">/</span
+          ><span class="key">SPACE</span> BOOST
+          <span class="hint-separator">/</span
+          ><span class="key">ESC</span> PAUSE
+        </div>
+      </section>
+      <div id="jump-callout" class="jump-callout" aria-live="polite">
+        <span id="jump-label">OFF THE CLOCK</span
+        ><strong id="jump-height">BIG AIR</strong
+        ><span id="jump-detail">KEEP IT FLOATING</span>
+      </div>
+      <div id="toast" class="toast" role="status"></div>
+
+      <div id="touch-controls" class="touch-controls hidden">
+        <div class="touch-steering">
+          <button data-control="left" aria-label="Steer left">←</button
+          ><button data-control="right" aria-label="Steer right">→</button>
+        </div>
+        <div class="touch-throttle">
+          <button data-control="boost" class="touch-boost" aria-label="Boost">
+            BOOST</button
+          ><button data-control="brake" aria-label="Brake">SLOW</button
+          ><button
+            data-control="forward"
+            class="touch-go"
+            aria-label="Accelerate"
+          >
+            GO ↑
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="modal"
+        class="modal hidden"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-card">
+          <span class="eyebrow">TAKE A BREATHER</span>
+          <h2 id="modal-title">STAY SALTY.</h2>
+          <p id="modal-description">The ocean isn’t going anywhere.</p>
+          <div class="controls-list">
+            <div>
+              <span>Throttle / brake</span
+              ><span
+                ><kbd>W</kbd> <kbd>S</kbd> or <kbd>↑</kbd> <kbd>↓</kbd></span
+              >
+            </div>
+            <div>
+              <span>Steer</span
+              ><span
+                ><kbd>A</kbd> <kbd>D</kbd> or <kbd>←</kbd> <kbd>→</kbd></span
+              >
+            </div>
+            <div><span>Boost</span><kbd>SPACE</kbd></div>
+            <div><span>Pause</span><kbd>ESC</kbd></div>
+            <div><span>Reset ride</span><kbd>R</kbd></div>
+          </div>
+          <p class="tip">
+            Hit a steep swell at speed to catch air. Hold boost for bigger
+            launches. Orange buoys mark an optional loop.
+          </p>
+          <button id="resume" class="primary-button">
+            BACK TO THE WATER <span>↗</span></button
+          ><button id="restart" class="text-button">START A FRESH RIDE</button>
+        </div>
+      </div>
+      <div id="loading" class="loading">
+        <span class="brand">TIDELINE</span
+        ><span
+          >FINDING YOUR NEXT WAVE<span class="loading-dots">...</span></span
+        >
+      </div>
+      <div id="error" class="error hidden">
+        <h2>A little too far offshore.</h2>
+        <p>
+          This game needs a browser with WebGL. Try a current version of Chrome,
+          Firefox, Edge, or Safari with hardware acceleration enabled.
+        </p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
