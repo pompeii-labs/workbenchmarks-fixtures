@@ -254,7 +254,7 @@ text.m-label[y="160"] { text-anchor: middle; font-family: var(--serif); font-sty
     top: auto; margin-top: 0; padding: 1.2rem 0 .4rem; background: linear-gradient(to top, rgba(22,17,14,.95) 60%, rgba(22,17,14,0));
   }
   .chapter--hero .lede { font-size: 1.05rem; }
-  .scrollhint { display: none; }
+  .scrollhint, .hide-sm { display: none; }
   .board { grid-template-columns: 1fr; border-width: 7px; }
   .actions .btn { flex: 1 1 auto; }
 }
