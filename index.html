@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#050302" />
+    <meta name="description" content="A real-time cup of espresso. Move across the crema to make waves." />
+    <link rel="icon" href="data:," />
+    <title>Espresso</title>
+    <style>
+      html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #050302; }
+      body {
+        color: #e9dccb;
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        -webkit-font-smoothing: antialiased;
+        overscroll-behavior: none;
+      }
+      #scene {
+        position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh;
+        display: block; touch-action: none; outline: none;
+        opacity: 0; transition: opacity 900ms ease;
+        -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none;
+      }
+      body.ready #scene { opacity: 1; }
+      .vignette {
+        position: fixed; inset: 0; pointer-events: none;
+        background: radial-gradient(120% 95% at 50% 52%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+      }
+      #loader {
+        position: fixed; inset: 0; display: grid; place-items: center; pointer-events: none;
+        background: radial-gradient(60% 50% at 50% 50%, #1a110b 0%, #050302 70%);
+        transition: opacity 900ms ease;
+      }
+      #loader-text { font-size: 0.85rem; letter-spacing: 0.32em; text-transform: lowercase; opacity: 0.65; }
+      body.ready #loader { opacity: 0; }
+      body.failed #loader-text { letter-spacing: 0.04em; max-width: 22rem; text-align: center; line-height: 1.5; padding: 0 1.5rem; }
+      #title {
+        position: fixed;
+        left: max(20px, env(safe-area-inset-left));
+        bottom: max(18px, env(safe-area-inset-bottom));
+        margin: 0; pointer-events: none; font-weight: 400;
+        font-size: 0.95rem; letter-spacing: 0.08em; color: rgba(233, 220, 203, 0.72);
+        opacity: 0; transition: opacity 1200ms ease 400ms;
+      }
+      body.ready #title { opacity: 1; }
+      #title .hint { display: block; margin-top: 3px; font-size: 0.72rem; font-style: italic; letter-spacing: 0.04em; color: rgba(233, 220, 203, 0.48); transition: opacity 1500ms ease; }
+      #title .touch { display: none; }
+      body.touched #title .hint, body.reduced-motion #title .hint { opacity: 0; }
+      @media (pointer: coarse) {
+        #title .touch { display: inline; }
+        #title .mouse { display: none; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #scene, #loader, #title, #title .hint { transition: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="scene" aria-label="A cup of espresso with crema; move the pointer or a finger across it to make waves"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <div id="loader" aria-hidden="true"><span id="loader-text">pouring</span></div>
+    <h1 id="title">Espresso<span class="hint"><span class="mouse">move across the cup</span><span class="touch">drag a finger across the cup</span></span></h1>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

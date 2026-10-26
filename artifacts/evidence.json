@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "runId": "pass-12",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "wake",
+      "report": "artifacts/pass-12/desktop-wake.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "wake",
+      "report": "artifacts/pass-12/mobile-wake.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "calm",
+      "report": "artifacts/pass-12/desktop-calm.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "settled",
+      "report": "artifacts/pass-12/desktop-settled.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "still",
+      "report": "artifacts/pass-12/mobile-still.json"
+    }
+  ]
+}

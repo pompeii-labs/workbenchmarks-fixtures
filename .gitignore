@@ -1,6 +1,12 @@
 node_modules/
 dist/
-.DS_Store
+test-results/
+artifacts/*
+!artifacts/design.md
+!artifacts/game-progress.md
+!artifacts/final-evidence.md
+!artifacts/evidence.json
 *.log
+.DS_Store
 .env
 .env.*
