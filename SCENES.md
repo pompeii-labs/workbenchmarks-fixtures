@@ -1,6 +1,6 @@
 # Caffè Scavo scene handoff
 
-This pass intentionally contains **no WebGL, Three.js, or other 3D runtime**. The four stills below are finished fallbacks and composition references, not requests for decorative animation. The next pass should replace them with procedural, real time scenes of coffee craft while preserving the page layout and lightweight first paint.
+The four stills below are the finished fallbacks and composition references. The real-time scenes that replace them are now built; see **Implementation** at the end of this file. The contract that follows is unchanged and the scenes follow it.
 
 ## Shared integration contract
 
@@ -206,3 +206,29 @@ Use restrained pitcher movement and real fluid depth cues. The final drink shoul
 ## Existing motion outside the 3D contract
 
 `src/main.ts` owns navigation, viewport reveals, icons, and opening status. `src/scenes.ts` owns tagline word activation and all scene progress. Section reveals use `IntersectionObserver`; scroll work is batched into one animation frame and only requested by scroll, resize, initialization, renderer requests, or preference changes. Do not add a second global scroll listener for individual scene components.
+
+## Implementation (3D pass)
+
+All four scenes are procedural three.js r184 on `WebGPURenderer` (WebGPU first, automatic WebGL2 fallback), with every shader written in TSL node materials. There are no model or texture downloads: cups, saucers, pitcher and portafilter are lathed or primitive geometry; crema, microfoam, the rosetta, streams and steam are shader fields.
+
+| File | Role |
+| --- | --- |
+| `src/three/boot.ts` | In the main bundle; imports nothing from three. Skips everything under reduced motion or with no WebGPU/WebGL2. Hero starts on idle after first paint; craft mounts preload within 30% of the viewport and are promoted when actually in view. |
+| `src/three/engine.ts` | Lazy chunk (~225 kB gzip, the three.js runtime). One `SceneController` per mount: own renderer, camera, `ResizeObserver` on the mount, progress easing, on-demand frame loop, `scavo:scene` listener and `scavo:scene-ready` handshake. Starts are serialized by priority so one scene's shader build never stalls the one in view. The canvas is attached only after the GPU has finished the first frame; then `.has-scene-renderer` is added. Device or context loss, a render exception, or a reduced-motion event disposes the renderer and brings the still back. |
+| `src/three/kit.ts` | Props and TSL materials: lathe cup/saucer/pitcher (spout pulled from the rim), portafilter with twin spouts, necking liquid stream, liquid surface whose height field drives displacement and per-pixel normals, espresso crema field, pooled steam (one instanced draw). |
+| `src/three/extraction.ts` | The extraction rig shared by hero and espresso: one phase value `e` drives drops, stream head/tail, flow radius, colour, cup level, crema and settling, so scrubbing backward retraces the same states. |
+| `src/three/scenes/*.ts` | `hero`, `espresso`, `milk`, `latte`. |
+| `src/three/testHooks.ts` | Test build only (`npm run build:test`, Vite `--mode test`). Not present in `npm run build`. |
+
+Frame loop rules: frames are drawn while progress is easing, while the hero's loop plays, or for 18 s of ambient liquid motion (stream oscillation, ripples, steam) after the last scroll change; never when the mount is offscreen, the scene is `idle`, or the tab is hidden. Settled end states (an empty cup at 0, a finished drink at 1) draw nothing. DPR is capped at 1.5 below 1024 px or on coarse pointers and 2 otherwise. Animation reads a per-scene clock uniform advanced by the controller, never the renderer clock.
+
+Scene notes:
+
+- **Hero**: a 27 s cycle: portafilter twists into the group head, preinfusion, first drops, twin streams from chestnut to tiger striped amber, taper, break, crema closes and holds, then the served cup glides out on its saucer while a fresh one slides in. Scroll only moves the camera from the portafilter toward the cup.
+- **Espresso**: the same rig on a terracotta cup, scrubbed by `data-progress` per the table above.
+- **Milk**: the pitcher rises to a fixed wand (first purge wisp), rides the tip near the surface (vortex, tremor, sparse fine bubbles, volume grows), sinks it to fold (bubbles fold away, gloss and warmth rise, steam thickens), then lowers away with a glossy spiral.
+- **Latte**: the pour point and pitcher height follow progress. Phase one dives (crema turns and lightens), then each side-to-side wiggle surfaces a new milk front that pushes older fronts outward with a thin crema line between them, a small heart, and a draw-through that drags every line into a chevron and leaves the stem. Impact rings decay and the pitcher exits.
+
+Rendering uses `NoToneMapping`: `WebGPURenderer` applies tone mapping to the whole frame in its output pass, which shifted the flat brand backdrops, so lights are balanced to stay in range instead.
+
+Verification tools: `npm run verify` (page contract, production build), `npm run verify:scenes` (wheel-scroll through every chapter, reverse, live reduced-motion switch), `scripts/scene-shots.mjs` and `scripts/scene-sequence.mjs` (test build: mount screenshots and progress contact strips), and the bench gate `tgcheck` with `artifacts/evidence.json`.

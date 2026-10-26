@@ -1,0 +1,122 @@
+{
+  "url": "http://127.0.0.1:5188",
+  "mode": "mobile",
+  "state": "latte-rosetta",
+  "requestedState": "latte-rosetta",
+  "appliedState": "latte-rosetta",
+  "runId": "pass-5",
+  "seed": 42,
+  "screenshotPath": "artifacts/pass-5/mobile-latte-rosetta.png",
+  "gpu": {
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)",
+    "softwareRendered": true
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "rect": {
+      "x": 17,
+      "y": 569,
+      "width": 356,
+      "height": 356
+    },
+    "drawingBuffer": {
+      "width": 537,
+      "height": 537
+    },
+    "alphaPixels": 4225,
+    "variance": 235,
+    "colorBuckets": 102,
+    "metrics": {
+      "colorBuckets": 135,
+      "colorEntropyBits": 3.8,
+      "edgeDensity": 0.127,
+      "luminance": {
+        "mean": 85.2,
+        "p5": 33.8,
+        "p95": 222.9,
+        "contrast": 189
+      },
+      "dominantColorShare": 0.333,
+      "nonBackgroundShare": 0.667
+    },
+    "renderBudget": {
+      "tier": "mobile",
+      "note": "starting-point budget; adjust per game and document overrides",
+      "rows": [
+        {
+          "metric": "calls",
+          "actual": 15,
+          "limit": 150,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "actual": 22505,
+          "limit": 300000,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "actual": 16,
+          "limit": 200,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "actual": 5,
+          "limit": 40,
+          "ok": true
+        }
+      ],
+      "withinBudget": true
+    },
+    "diagnostics": {
+      "renderer": {
+        "backend": "webgl2",
+        "calls": 15,
+        "drawCalls": 15,
+        "triangles": 22505,
+        "geometries": 16,
+        "textures": 5,
+        "frames": 3,
+        "progress": 0.62
+      },
+      "scene": "latte",
+      "scenes": {
+        "hero-extraction": {
+          "backend": "webgl2",
+          "calls": 0,
+          "drawCalls": 0,
+          "triangles": 0,
+          "geometries": 18,
+          "textures": 5,
+          "frames": 5,
+          "progress": 0
+        },
+        "latte": {
+          "backend": "webgl2",
+          "calls": 15,
+          "drawCalls": 15,
+          "triangles": 22505,
+          "geometries": 16,
+          "textures": 5,
+          "frames": 3,
+          "progress": 0.62
+        }
+      },
+      "seed": 42,
+      "runtime": {
+        "paused": true,
+        "frozen": true,
+        "timeScale": 1,
+        "renderScale": 1
+      }
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "consoleErrorCount": 0,
+  "pageErrorCount": 0
+}

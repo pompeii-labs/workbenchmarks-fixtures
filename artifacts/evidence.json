@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "runId": "pass-5",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "hero-extraction",
+      "report": "artifacts/pass-5/desktop-hero-extraction.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "hero-extraction",
+      "report": "artifacts/pass-5/mobile-hero-extraction.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "espresso-pour",
+      "report": "artifacts/pass-5/desktop-espresso-pour.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "milk-stretch",
+      "report": "artifacts/pass-5/desktop-milk-stretch.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "latte-rosetta",
+      "report": "artifacts/pass-5/mobile-latte-rosetta.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "latte-finished",
+      "report": "artifacts/pass-5/desktop-latte-finished.json"
+    }
+  ]
+}

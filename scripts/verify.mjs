@@ -21,7 +21,10 @@ try {
   assert.match(await desktop.title(), /Caffè Scavo/);
   assert.equal(await desktop.locator('h1').count(), 1);
   assert.equal(await desktop.locator('[data-scene]').count(), 4);
-  assert.equal(await desktop.locator('canvas').count(), 0, 'This pass must not initialize a 3D renderer');
+  // The hero renderer loads after first paint and replaces the still only after a complete frame.
+  await desktop.waitForSelector('#scene-hero-extraction.has-scene-renderer', { timeout: 60000 });
+  assert.equal(await desktop.locator('#scene-hero-extraction > canvas[aria-hidden="true"]').count(), 1);
+  assert.equal(await desktop.locator('#scene-latte > canvas').count(), 0, 'Below the fold scenes must not start on the initial request');
 
   const missingAnchors = await desktop.locator('a[href^="#"]').evaluateAll((links) =>
     links.filter((link) => !document.getElementById(link.getAttribute('href').slice(1))).map((link) => link.getAttribute('href')),
@@ -101,7 +104,10 @@ try {
   const wordOpacities = await reduced.locator('.tagline-word').evaluateAll((words) => words.map((word) => getComputedStyle(word).opacity));
   assert.ok(wordOpacities.every((opacity) => opacity === '1'));
   assert.equal(await reduced.locator('.craft-step-scene').first().evaluate((element) => getComputedStyle(element).position), 'relative');
-  assert.equal(await reduced.locator('canvas').count(), 0);
+  await reduced.waitForTimeout(2500);
+  assert.equal(await reduced.locator('canvas').count(), 0, 'Reduced motion must not start any renderer');
+  const engineRequested = await reduced.evaluate(() => performance.getEntriesByType('resource').some((entry) => /engine-.*\.js/.test(entry.name)));
+  assert.equal(engineRequested, false, 'Reduced motion must not download the 3D runtime');
   checks.push('reduced motion keeps complete stills, static mounts, and unstuck chapters');
 
   assert.deepEqual(errors, [], 'Browser console and requests should stay clean');

@@ -8,6 +8,7 @@ import clock from '@phosphor-icons/core/regular/clock.svg?raw';
 import coffee from '@phosphor-icons/core/regular/coffee.svg?raw';
 import mapPin from '@phosphor-icons/core/regular/map-pin.svg?raw';
 import { initSceneStory } from './scenes';
+import { initRealtimeScenes } from './three/boot';
 
 const icons: Record<string, string> = {
   'arrow-down': arrowDown,
@@ -40,7 +41,12 @@ if (motionPreference.matches || !('IntersectionObserver' in window)) {
     },
     { threshold: 0.12, rootMargin: '0px 0px -8% 0px' },
   );
-  revealElements.forEach((element) => revealObserver.observe(element));
+  revealElements.forEach((element) => {
+    // Hero content is the first impression: reveal it on load even when a
+    // short phone viewport leaves the visual mostly below the fold.
+    if (element.closest('[data-hero]')) requestAnimationFrame(() => element.classList.add('is-visible'));
+    else revealObserver.observe(element);
+  });
 }
 
 const menuToggle = document.querySelector<HTMLButtonElement>('[data-menu-toggle]');
@@ -150,3 +156,4 @@ function updateOpeningStatus(): void {
 
 updateOpeningStatus();
 initSceneStory(motionPreference);
+initRealtimeScenes(motionPreference);

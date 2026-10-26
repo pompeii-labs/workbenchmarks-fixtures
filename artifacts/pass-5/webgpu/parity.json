@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "runId": "pass-5",
+  "size": [
+    320,
+    180
+  ],
+  "results": [
+    {
+      "state": "hero-extraction",
+      "pass": true,
+      "metrics": {
+        "meanDiff": 0.03,
+        "farFraction": 0,
+        "lumaStddev": 37.62
+      },
+      "drawCalls": 0,
+      "fails": []
+    },
+    {
+      "state": "espresso-pour",
+      "pass": true,
+      "metrics": {
+        "meanDiff": 0.04,
+        "farFraction": 0,
+        "lumaStddev": 40.96
+      },
+      "drawCalls": 0,
+      "fails": []
+    },
+    {
+      "state": "milk-stretch",
+      "pass": true,
+      "metrics": {
+        "meanDiff": 0.08,
+        "farFraction": 0.0002,
+        "lumaStddev": 37.22
+      },
+      "drawCalls": 0,
+      "fails": []
+    },
+    {
+      "state": "latte-rosetta",
+      "pass": true,
+      "metrics": {
+        "meanDiff": 0.14,
+        "farFraction": 0.0002,
+        "lumaStddev": 45.62
+      },
+      "drawCalls": 0,
+      "fails": []
+    },
+    {
+      "state": "latte-finished",
+      "pass": true,
+      "metrics": {
+        "meanDiff": 0.13,
+        "farFraction": 0.0002,
+        "lumaStddev": 46.79
+      },
+      "drawCalls": 0,
+      "fails": []
+    }
+  ]
+}

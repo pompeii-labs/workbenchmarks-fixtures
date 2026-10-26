@@ -8,15 +8,22 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "art": "node scripts/render-art.mjs",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "build:test": "tsc --noEmit && vite build --mode test",
+    "verify:scenes": "node scripts/verify-scenes.mjs",
+    "shots": "node scripts/scene-shots.mjs"
   },
   "dependencies": {
     "@fontsource/manrope": "^5.2.6",
-    "@phosphor-icons/core": "^2.1.1"
+    "@phosphor-icons/core": "^2.1.1",
+    "three": "0.184.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.60.0",
     "@tailwindcss/vite": "^4.1.13",
+    "@types/three": "^0.184.1",
     "playwright": "1.60.0",
+    "pngjs": "^7.0.0",
     "sharp": "^0.35.5",
     "tailwindcss": "^4.1.13",
     "typescript": "~5.9.2",

@@ -1,0 +1,125 @@
+{
+  "url": "http://127.0.0.1:5188",
+  "mode": "desktop",
+  "state": "milk-stretch",
+  "requestedState": "milk-stretch",
+  "appliedState": "milk-stretch",
+  "runId": "pass-5",
+  "seed": 42,
+  "screenshotPath": "artifacts/pass-5/desktop-milk-stretch.png",
+  "gpu": {
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)",
+    "softwareRendered": true
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "rect": {
+      "x": 719.078125,
+      "y": 102.03125,
+      "width": 527.921875,
+      "height": 527.921875
+    },
+    "drawingBuffer": {
+      "width": 530,
+      "height": 530
+    },
+    "alphaPixels": 4100,
+    "variance": 235,
+    "colorBuckets": 94,
+    "metrics": {
+      "colorBuckets": 139,
+      "colorEntropyBits": 3.78,
+      "edgeDensity": 0.129,
+      "luminance": {
+        "mean": 88.7,
+        "p5": 34.5,
+        "p95": 222.9,
+        "contrast": 188.3
+      },
+      "dominantColorShare": 0.358,
+      "nonBackgroundShare": 0.642
+    },
+    "renderBudget": {
+      "tier": "desktop",
+      "note": "starting-point budget; adjust per game and document overrides",
+      "rows": [
+        {
+          "metric": "calls",
+          "actual": 10,
+          "limit": 300,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "actual": 15993,
+          "limit": 750000,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "actual": 11,
+          "limit": 300,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "actual": 5,
+          "limit": 60,
+          "ok": true
+        }
+      ],
+      "withinBudget": true
+    },
+    "diagnostics": {
+      "renderer": {
+        "backend": "webgl2",
+        "calls": 10,
+        "drawCalls": 10,
+        "triangles": 15993,
+        "geometries": 11,
+        "textures": 5,
+        "frames": 3,
+        "progress": 0.4
+      },
+      "scene": "milk",
+      "scenes": {
+        "hero-extraction": {
+          "backend": "webgl2",
+          "calls": 0,
+          "drawCalls": 0,
+          "triangles": 0,
+          "geometries": 18,
+          "textures": 5,
+          "frames": 4,
+          "progress": 0
+        },
+        "milk": {
+          "backend": "webgl2",
+          "calls": 10,
+          "drawCalls": 10,
+          "triangles": 15993,
+          "geometries": 11,
+          "textures": 5,
+          "frames": 3,
+          "progress": 0.4
+        },
+        "espresso": {
+          "starting": true
+        }
+      },
+      "seed": 42,
+      "runtime": {
+        "paused": true,
+        "frozen": true,
+        "timeScale": 1,
+        "renderScale": 1
+      }
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "consoleErrorCount": 0,
+  "pageErrorCount": 0
+}

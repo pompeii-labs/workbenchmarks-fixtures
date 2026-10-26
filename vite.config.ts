@@ -7,6 +7,8 @@ export default defineConfig({
   build: {
     target: 'es2022',
     cssCodeSplit: false,
+    // The lazily imported 3D runtime (three/webgpu) is one ~220 kB gzip chunk, fetched after first paint.
+    chunkSizeWarningLimit: 900,
     rollupOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),

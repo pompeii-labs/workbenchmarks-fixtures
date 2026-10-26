@@ -1,0 +1,112 @@
+{
+  "url": "http://127.0.0.1:5188",
+  "mode": "mobile",
+  "state": "hero-extraction",
+  "requestedState": "hero-extraction",
+  "appliedState": "hero-extraction",
+  "runId": "pass-5",
+  "seed": 42,
+  "screenshotPath": "artifacts/pass-5/mobile-hero-extraction.png",
+  "gpu": {
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)",
+    "softwareRendered": true
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "rect": {
+      "x": 17,
+      "y": 569,
+      "width": 356,
+      "height": 356
+    },
+    "drawingBuffer": {
+      "width": 537,
+      "height": 537
+    },
+    "alphaPixels": 4225,
+    "variance": 235,
+    "colorBuckets": 113,
+    "metrics": {
+      "colorBuckets": 156,
+      "colorEntropyBits": 3.84,
+      "edgeDensity": 0.136,
+      "luminance": {
+        "mean": 84.3,
+        "p5": 33.8,
+        "p95": 222.1,
+        "contrast": 188.3
+      },
+      "dominantColorShare": 0.331,
+      "nonBackgroundShare": 0.669
+    },
+    "renderBudget": {
+      "tier": "mobile",
+      "note": "starting-point budget; adjust per game and document overrides",
+      "rows": [
+        {
+          "metric": "calls",
+          "actual": 37,
+          "limit": 150,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "actual": 29722,
+          "limit": 300000,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "actual": 21,
+          "limit": 200,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "actual": 5,
+          "limit": 40,
+          "ok": true
+        }
+      ],
+      "withinBudget": true
+    },
+    "diagnostics": {
+      "renderer": {
+        "backend": "webgl2",
+        "calls": 37,
+        "drawCalls": 37,
+        "triangles": 29722,
+        "geometries": 21,
+        "textures": 5,
+        "frames": 6,
+        "progress": 0
+      },
+      "scene": "hero-extraction",
+      "scenes": {
+        "hero-extraction": {
+          "backend": "webgl2",
+          "calls": 37,
+          "drawCalls": 37,
+          "triangles": 29722,
+          "geometries": 21,
+          "textures": 5,
+          "frames": 6,
+          "progress": 0
+        }
+      },
+      "seed": 42,
+      "runtime": {
+        "paused": true,
+        "frozen": true,
+        "timeScale": 1,
+        "renderScale": 1
+      }
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "consoleErrorCount": 0,
+  "pageErrorCount": 0
+}
