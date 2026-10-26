@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Lapillo — Specialty coffee in Pompei, since rather recently</title>
+  <meta name="description" content="Lapillo is a small specialty coffee bar in modern Pompei, four minutes from the Porta Marina gate. Espresso at the counter, milk from Agerola, coffee sospeso always on." />
+  <meta name="theme-color" content="#16110e" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="/posters/hero-landscape.webp" media="(min-aspect-ratio: 4/5)" fetchpriority="high" />
+  <link rel="preload" as="image" href="/posters/hero-portrait.webp" media="(max-aspect-ratio: 4/5)" fetchpriority="high" />
+</head>
+<body>
+  <a class="skip" href="#menu">Skip to the menu</a>
+
+  <header class="bar" id="top">
+    <a class="brand" href="#top" aria-label="Lapillo, home">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 27 L16 13 L20 18 L23 12 L32 27 Z" fill="currentColor"/><circle cx="27" cy="9" r="1.6" fill="currentColor"/><circle cx="31" cy="13" r="1.1" fill="currentColor"/></svg>
+      <span class="brand__word">Lapillo</span>
+    </a>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="#perche">Why us</a>
+      <a href="#menu">Menu</a>
+      <a href="#dove">Hours &amp; map</a>
+    </nav>
+    <a class="btn btn--small" href="#dove">Come by</a>
+  </header>
+
+  <!-- The fixed stage: a still poster paints first, the live WebGL scene fades in over it. -->
+  <div class="stage" id="stage" aria-hidden="true">
+    <picture class="stage__poster" id="poster">
+      <source media="(max-aspect-ratio: 4/5)" srcset="/posters/hero-portrait.webp" />
+      <img src="/posters/hero-landscape.webp" alt="" width="1600" height="1000" fetchpriority="high" decoding="async" />
+    </picture>
+    <div class="stage__canvas" id="canvas-host"></div>
+    <div class="stage__grain"></div>
+  </div>
+
+  <main>
+    <!-- The story: five chapters. Scroll position drives the scene. -->
+    <section class="story" id="story" aria-label="How a cappuccino is made at Lapillo">
+      <article class="chapter chapter--hero" data-ch="0">
+        <div class="card">
+          <p class="eyebrow"><span class="num">I</span> Estrazione · Pompei, Via Plinio 14</p>
+          <h1>The town stopped in 79&nbsp;AD. <em>We stop for twenty-seven seconds.</em></h1>
+          <p class="lede">Lapillo is a nine-stool espresso bar four minutes from the gates of the ruins. Eighteen grams in, thirty-six out, and nobody rushes the pour. Not even Vesuvius.</p>
+          <div class="actions">
+            <a class="btn" href="#dove">Find the bar</a>
+            <a class="btn btn--ghost" href="#menu">See the menu</a>
+          </div>
+          <p class="scrollhint"><span aria-hidden="true">↓</span> Scroll to pull a cappuccino</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-ch="1">
+        <div class="card">
+          <p class="eyebrow"><span class="num">II</span> Crema</p>
+          <h2>Let it settle. The stripes are the bean talking.</h2>
+          <p>That tiger mottling is gas and oil leaving a coffee roasted nine days ago, across the road, by us. When the crema goes quiet and hazel-gold, the shot is ready. We don't serve it before.</p>
+          <p class="graffito" aria-hidden="true">Successus the barista was here — and so was his tamper</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-ch="2">
+        <div class="card">
+          <p class="eyebrow"><span class="num">III</span> Vapore</p>
+          <h2>Milk from Agerola, stretched to wet paint.</h2>
+          <p>Whole milk from cows in the Lattari hills, half an hour up the road. A short hiss to pull air in, then a long roll until it's glossy, sixty degrees, and too small to see a bubble. Steam rises here. Not ash.</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-ch="3">
+        <div class="card">
+          <p class="eyebrow"><span class="num">IV</span> Disegno</p>
+          <h2>A rosetta, poured close, pulled through.</h2>
+          <p>Pompei has always painted on walls. We paint on crema. Tip in low, rock the jug, step back, pull a line through the middle. It takes four seconds and about four thousand cups to learn.</p>
+        </div>
+      </article>
+
+      <article class="chapter chapter--end" data-ch="4">
+        <div class="card">
+          <p class="eyebrow"><span class="num">V</span> Servito</p>
+          <h2>At the counter, standing, as Naples intended.</h2>
+          <p>Cappuccino, <strong>€1.80</strong>. Drink it at the marble while it's still trembling, or take a stool and stay a while. The ruins have waited two thousand years. They'll wait ten minutes more.</p>
+          <div class="actions">
+            <a class="btn" href="#dove">Directions</a>
+            <a class="btn btn--ghost" href="#menu">Full menu</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Ordinary landing content sits on plaster, over the stage. -->
+    <section class="plaster" id="perche" aria-labelledby="perche-title">
+      <div class="wrap">
+        <p class="kicker">Why Lapillo</p>
+        <h2 id="perche-title" class="title">Small, local, and a little bit stubborn.</h2>
+        <p class="intro">A <em>lapillo</em> is one of the little pumice stones that fell on Pompei for eighteen hours in 79&nbsp;AD. We named the bar after the smallest thing in the story. That's the scale we like to work at.</p>
+
+        <ul class="panels">
+          <li class="panel">
+            <span class="panel__num">I</span>
+            <h3>Roasted across the road</h3>
+            <p>Three-kilo batches on a drum roaster in our back room, twice a week. A house espresso of Brazilian and Ethiopian beans for the classic Neapolitan cup, plus one rotating single origin for people who want to argue about it.</p>
+          </li>
+          <li class="panel">
+            <span class="panel__num">II</span>
+            <h3>Neapolitan, not nostalgic</h3>
+            <p>Short, hot, and at the counter, with a glass of water first. Caffè sospeso is always on: pay for two, and the second is waiting on the board for whoever needs it.</p>
+          </li>
+          <li class="panel">
+            <span class="panel__num">III</span>
+            <h3>Before the gates open</h3>
+            <p>We open at 6:30, so guides, guards, and early visitors get a proper cup before the Scavi open at nine. Tell us which house you're seeing and we'll tell you where the shade is.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="thermo" id="menu" aria-labelledby="menu-title">
+      <div class="wrap thermo__wrap">
+        <div class="thermo__head">
+          <p class="kicker kicker--light">Il banco</p>
+          <h2 id="menu-title" class="title title--light">A short menu, like a thermopolium.</h2>
+          <p class="intro intro--light">Ancient Pompei had about 150 street counters serving hot food and drink. Ours is one of the few that takes cards. Prices are for the counter. Add €0.50 at a table.</p>
+        </div>
+
+        <div class="board">
+          <div class="board__col">
+            <h3 class="board__title">Caffè</h3>
+            <dl class="menu">
+              <div class="item"><dt>Espresso <small>house blend, 25 ml</small></dt><dd>€1,20</dd></div>
+              <div class="item"><dt>Caffè sospeso <small>one for a stranger</small></dt><dd>€1,20</dd></div>
+              <div class="item"><dt>Macchiato <small>a spoon of foam</small></dt><dd>€1,40</dd></div>
+              <div class="item"><dt>Cappuccino <small>Agerola milk, rosetta</small></dt><dd>€1,80</dd></div>
+              <div class="item"><dt>Marocchino <small>cocoa, espresso, foam, in glass</small></dt><dd>€2,00</dd></div>
+              <div class="item"><dt>Filtro del giorno <small>V60, rotating single origin</small></dt><dd>€3,50</dd></div>
+            </dl>
+          </div>
+          <div class="board__col">
+            <h3 class="board__title">Della casa</h3>
+            <dl class="menu">
+              <div class="item item--sig"><dt>Cenere <small>espresso, almond cream, a dusting of cocoa “ash”</small></dt><dd>€3,00</dd></div>
+              <div class="item"><dt>Shakerato <small>shaken on ice, a little sugar</small></dt><dd>€3,00</dd></div>
+            </dl>
+            <h3 class="board__title">Dal forno</h3>
+            <dl class="menu">
+              <div class="item"><dt>Cornetto <small>plain, cream, or pistachio</small></dt><dd>€1,30</dd></div>
+              <div class="item"><dt>Sfogliatella riccia <small>warm, ricotta and orange peel</small></dt><dd>€1,80</dd></div>
+              <div class="item"><dt>Pastiera <small>by the slice, all year</small></dt><dd>€3,00</dd></div>
+            </dl>
+          </div>
+        </div>
+        <p class="thermo__note">Oat or lactose-free milk at no extra charge. Beans by the bag: €9 for 250&nbsp;g.</p>
+      </div>
+    </section>
+
+    <section class="plaster plaster--alt" id="dove" aria-labelledby="dove-title">
+      <div class="wrap dove">
+        <div class="dove__text">
+          <p class="kicker">Orari &amp; dove</p>
+          <h2 id="dove-title" class="title">Four minutes from the Porta Marina gate.</h2>
+          <address>
+            <strong>Lapillo — caffè e torrefazione</strong><br />
+            Via Plinio 14, 80045 Pompei (NA), Italia
+          </address>
+          <table class="hours">
+            <caption class="sr">Opening hours</caption>
+            <tbody>
+              <tr><th scope="row">Monday – Friday</th><td>6:30 – 19:30</td></tr>
+              <tr><th scope="row">Saturday</th><td>7:00 – 20:00</td></tr>
+              <tr><th scope="row">Sunday</th><td>7:30 – 13:30</td></tr>
+            </tbody>
+          </table>
+          <p class="small">Cupping every Saturday at 10:00. Six places, free, bring questions.</p>
+          <p class="small">By train: Circumvesuviana to <em>Pompei Scavi – Villa dei Misteri</em>, then walk downhill and turn left.</p>
+          <div class="actions">
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Plinio+Pompei+NA" target="_blank" rel="noopener">Open in Maps</a>
+            <a class="btn btn--ghost btn--dark" href="mailto:ciao@lapillo.example?subject=Saturday%20cupping">Book a cupping</a>
+          </div>
+        </div>
+        <figure class="map" aria-label="Sketch map: Lapillo sits on Via Plinio, a short walk from the Porta Marina entrance to the ruins and the Pompei Scavi station.">
+          <svg viewBox="0 0 400 320" role="img" aria-hidden="true">
+            <defs>
+              <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#8e2a1c" stroke-opacity=".35" stroke-width="2"/></pattern>
+            </defs>
+            <rect width="400" height="320" fill="#efe4d0"/>
+            <path d="M120 40 L330 30 L372 120 L350 230 L210 250 L130 200 L100 120 Z" fill="url(#hatch)" stroke="#8e2a1c" stroke-width="2"/>
+            <text x="250" y="140" class="m-label m-label--big">SCAVI</text>
+            <text x="250" y="160" class="m-label">the ruins</text>
+            <path d="M0 268 C 90 262, 160 250, 260 292 S 380 300, 400 296" fill="none" stroke="#16110e" stroke-width="5"/>
+            <text x="12" y="290" class="m-label">Via Plinio</text>
+            <path d="M100 120 L60 160 L40 268" fill="none" stroke="#16110e" stroke-width="2.5" stroke-dasharray="6 5"/>
+            <circle cx="100" cy="120" r="6" fill="#16110e"/>
+            <text x="18" y="112" class="m-label">Porta Marina</text>
+            <path d="M0 220 L400 196" stroke="#6b625a" stroke-width="3" stroke-dasharray="14 6"/>
+            <text x="300" y="190" class="m-label m-label--grey">Circumvesuviana</text>
+            <rect x="148" y="208" width="14" height="10" fill="#6b625a"/>
+            <text x="168" y="216" class="m-label m-label--grey">Pompei Scavi</text>
+            <g transform="translate(40 268)">
+              <circle r="15" fill="#8e2a1c"/>
+              <circle r="5" fill="#efe4d0"/>
+            </g>
+            <text x="62" y="250" class="m-label m-label--red">LAPILLO</text>
+            <text x="340" y="306" class="m-label m-label--grey">not to scale</text>
+          </svg>
+        </figure>
+      </div>
+    </section>
+
+    <section class="finale" aria-labelledby="finale-title">
+      <div class="wrap finale__wrap">
+        <p class="salve" aria-hidden="true">SALVE</p>
+        <h2 id="finale-title" class="title title--light">Your caffè is already on the counter.</h2>
+        <p class="intro intro--light">Walk in, say <em>buongiorno</em>, point at whatever looks good. We'll do the rest in twenty-seven seconds.</p>
+        <div class="actions actions--center">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Plinio+Pompei+NA" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn--ghost" href="tel:+390810000000">Call the bar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__wrap">
+      <p>Lapillo · Via Plinio 14, Pompei · ciao@lapillo.example</p>
+      <p class="foot__joke">CAVE CREMAM — it's hot.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
