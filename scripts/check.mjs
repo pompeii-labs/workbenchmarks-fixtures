@@ -42,7 +42,6 @@ async function run(name, ctxOpts, { reduced = false } = {}) {
   });
   await page.goto(url, { waitUntil: 'load' });
   loaded = true;
-  const fcp = await page.evaluate(() => performance.getEntriesByName('first-contentful-paint')[0]?.startTime ?? -1);
   if (!reduced) {
     await page.waitForFunction(() => document.documentElement.classList.contains('is-live'), null, { timeout: 60000 })
       .catch(() => fail(`${name}: live scene never started`));
@@ -65,7 +64,7 @@ async function run(name, ctxOpts, { reduced = false } = {}) {
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 1) fail(`${name}: horizontal overflow ${overflow}px`);
   if (errors.length) fail(`${name}: console errors: ${errors.join(' | ')}`);
-  console.log(`${name}: FCP ${fcp.toFixed(0)} ms, ${(bytes.beforeLoad / 1024).toFixed(0)} KB before load, ${(bytes.total / 1024).toFixed(0)} KB total, three loaded: ${bytes.three}, live: ${live}`);
+  console.log(`${name}: ${(bytes.beforeLoad / 1024).toFixed(0)} KB (decoded) before load event, ${(bytes.total / 1024).toFixed(0)} KB total, three loaded: ${bytes.three}, live: ${live}`);
   await ctx.close();
 }
 
