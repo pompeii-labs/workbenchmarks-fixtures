@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "run": 1,
+  "steps": [
+    {
+      "name": "plan",
+      "ok": true,
+      "detail": "artifacts/landing/plan.md"
+    },
+    {
+      "name": "build",
+      "ok": true,
+      "detail": "npm run build"
+    },
+    {
+      "name": "desktop errors",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "desktop captures",
+      "ok": true,
+      "detail": "6 shots"
+    },
+    {
+      "name": "phone errors",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "phone captures",
+      "ok": true,
+      "detail": "3 shots"
+    },
+    {
+      "name": "reduced-motion errors",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "reduced-motion captures",
+      "ok": true,
+      "detail": "3 shots"
+    },
+    {
+      "name": "phone overflow",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "first load",
+      "ok": true,
+      "detail": "0.15 MB gzip before scroll (max 1.5)"
+    },
+    {
+      "name": "reduced motion",
+      "ok": true,
+      "detail": "0 animation frames in 2s idle (max 10)"
+    },
+    {
+      "name": "visual rules",
+      "ok": true,
+      "detail": "9 files scanned"
+    }
+  ],
+  "captures": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "reducedMotion": false,
+      "firstLoadGz": 148524,
+      "errors": [],
+      "shots": [
+        {
+          "file": "desktop-000.png",
+          "scrollFraction": 0,
+          "lumaStddev": 41.82
+        },
+        {
+          "file": "desktop-020.png",
+          "scrollFraction": 0.2,
+          "lumaStddev": 34.4
+        },
+        {
+          "file": "desktop-040.png",
+          "scrollFraction": 0.4,
+          "lumaStddev": 71.93
+        },
+        {
+          "file": "desktop-060.png",
+          "scrollFraction": 0.6,
+          "lumaStddev": 97.14
+        },
+        {
+          "file": "desktop-080.png",
+          "scrollFraction": 0.8,
+          "lumaStddev": 94.4
+        },
+        {
+          "file": "desktop-100.png",
+          "scrollFraction": 1,
+          "lumaStddev": 85.72
+        }
+      ],
+      "overflowX": 0
+    },
+    {
+      "label": "phone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reducedMotion": false,
+      "firstLoadGz": 105696,
+      "errors": [],
+      "shots": [
+        {
+          "file": "phone-000.png",
+          "scrollFraction": 0,
+          "lumaStddev": 47.58
+        },
+        {
+          "file": "phone-050.png",
+          "scrollFraction": 0.5,
+          "lumaStddev": 86.07
+        },
+        {
+          "file": "phone-100.png",
+          "scrollFraction": 1,
+          "lumaStddev": 63.01
+        }
+      ],
+      "overflowX": 0
+    },
+    {
+      "label": "reduced-motion",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "reducedMotion": true,
+      "firstLoadGz": 105696,
+      "errors": [],
+      "shots": [
+        {
+          "file": "reduced-motion-000.png",
+          "scrollFraction": 0,
+          "lumaStddev": 41.84
+        },
+        {
+          "file": "reduced-motion-050.png",
+          "scrollFraction": 0.5,
+          "lumaStddev": 86.94
+        },
+        {
+          "file": "reduced-motion-100.png",
+          "scrollFraction": 1,
+          "lumaStddev": 85.72
+        }
+      ],
+      "overflowX": 0,
+      "idleRaf": 0
+    }
+  ],
+  "fails": []
+}
