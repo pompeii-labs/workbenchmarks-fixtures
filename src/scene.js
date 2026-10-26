@@ -350,7 +350,7 @@ export function createScene(host, { still = null, poster = false } = {}) {
     camera.aspect = W / H;
     // keep the subject clear of the copy: right of it on desktop, above it on phones
     const portrait = W / H < 0.9;
-    if (portrait) camera.setViewOffset(W, H, 0, H * 0.17, W, H);
+    if (portrait) camera.setViewOffset(W, H, 0, H * 0.24, W, H);
     else if (W > 720) camera.setViewOffset(W, H, -W * 0.17, 0, W, H);
     else camera.clearViewOffset();
     camera.updateProjectionMatrix();

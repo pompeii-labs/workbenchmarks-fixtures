@@ -53,7 +53,7 @@ async function run(name, ctxOpts, { reduced = false } = {}) {
   if (reduced && live) fail(`${name}: WebGL started under reduced motion`);
   const tops = await page.evaluate(() => [...document.querySelectorAll('.chapter')].map((c) => c.getBoundingClientRect().top + scrollY));
   for (let i = 0; i < tops.length; i++) {
-    await page.evaluate((y) => window.scrollTo(0, y), tops[i] + (i === 0 ? 0 : 200));
+    await page.evaluate((y) => window.scrollTo({ top: y, behavior: 'instant' }), tops[i] + (i === 0 ? 0 : 200));
     await page.waitForTimeout(reduced ? 300 : 2500);
     await page.screenshot({ path: join(out, `${name}-ch${i}.png`) });
   }

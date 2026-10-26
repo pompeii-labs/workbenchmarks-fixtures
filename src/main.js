@@ -44,14 +44,10 @@ function setPoster(i) {
   posterPic.querySelector('img').src = `/posters/${name}-landscape.webp`;
 }
 
-// ---------- chapter highlight + bar ----------
-const io = new IntersectionObserver(
-  (entries) => {
-    for (const e of entries) e.target.classList.toggle('is-on', e.isIntersecting);
-  },
-  { rootMargin: '-35% 0px -35% 0px' }
-);
-chapters.forEach((c) => io.observe(c));
+// ---------- chapter highlight: driven by story time so copy and scene stay in step ----------
+function highlight(t) {
+  chapters.forEach((c, i) => c.classList.toggle('is-on', t > i - 0.45 && (t < i + 0.9 || i === chapters.length - 1)));
+}
 
 let stageVisible = true;
 const storyIo = new IntersectionObserver(([e]) => {
@@ -67,6 +63,7 @@ let mode = 'still';
 function onScroll() {
   bar.classList.toggle('is-solid', window.scrollY > window.innerHeight * 0.5);
   const t = storyTime();
+  highlight(t);
   if (mode === 'still') setPoster(Math.round(t - 0.25));
   else if (scene) scene.setTarget(t);
 }
