@@ -1,0 +1,839 @@
+{
+  "query": {
+    "q": "victory fanfare jingle",
+    "max_duration": "6",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 12,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmv1ch98a000106l2iggye0d5",
+      "url": "https://soundza.com/sound/victory-fanfare-sting",
+      "title": "Victory Fanfare Sting",
+      "description": "A bright, upbeat chiptune fanfare with synthetic square-wave melodies and a triumphant character. Perfect for game victories, level completions, or retro menu screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 4.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "sting",
+        "jingle"
+      ],
+      "sync_ms": null,
+      "lufs": -21.1,
+      "true_peak_db": -10.7,
+      "loudness": {
+        "value": -21.1,
+        "basis": "integrated"
+      },
+      "gain_db": 5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 645696,
+      "category": null,
+      "pack": {
+        "id": "cmv1ch975000006l2168st70a",
+        "name": "Menu, Victory & Game Over Music",
+        "slug": "menu-victory-and-game-over-music",
+        "sound_count": 10,
+        "url": "https://soundza.com/packs/menu-victory-and-game-over-music"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cZZ-zx1QCy2ttVaKGSJ2Edc5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1ch98a000106l2iggye0d5/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Victory Fanfare Sting\" on Soundza (https://soundza.com/sound/victory-fanfare-sting)"
+    },
+    {
+      "id": "cmv5n88dt01m806l4su9luzi3",
+      "url": "https://soundza.com/sound/nes-jingle-12",
+      "title": "NES Jingle 12",
+      "description": "A bright, chiptune-style victory fanfare with digital synthesizer tones. Perfect for game level completion or success moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "impact_on_beat"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "synth",
+        "lo-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 220896,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-laCyRaE-H03npkiDHbfT7Bz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m806l4su9luzi3/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 12\" on Soundza (https://soundza.com/sound/nes-jingle-12)"
+    },
+    {
+      "id": "cmv5n88dt01m906l4f1x7p1rc",
+      "url": "https://soundza.com/sound/nes-jingle-13",
+      "title": "NES Jingle 13",
+      "description": "A short, bright chiptune fanfare with synthetic bleeps and bloops, perfect for game victory screens or level completion.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "synth",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -10.3,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -10.3,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 225594,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/re5k2lhIH-UqKzCcazqF36vI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m906l4f1x7p1rc/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 13\" on Soundza (https://soundza.com/sound/nes-jingle-13)"
+    },
+    {
+      "id": "cmv5n88dt01mb06l41hnqy79g",
+      "url": "https://soundza.com/sound/nes-jingle-15",
+      "title": "NES Jingle 15",
+      "description": "A bright, punchy synthesized fanfare with a classic 8-bit video game character. Perfect for victory moments and level completion in retro-styled games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "synth",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 98742,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GgvUUTCb2uZkMo9UPhms74WG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mb06l41hnqy79g/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 15\" on Soundza (https://soundza.com/sound/nes-jingle-15)"
+    },
+    {
+      "id": "cmv5n88dt01mc06l44pdav27p",
+      "url": "https://soundza.com/sound/nes-jingle-16",
+      "title": "NES Jingle 16",
+      "description": "A bright, short chiptune-style fanfare with synthetic tones, perfect for game victory or win scenarios. Cheerful 8-bit character captures classic NES-era game aesthetics.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "8-bit",
+        "retro",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.4,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -12.4,
+        "basis": "integrated"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 112836,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4lik79DeK2C2N-a1OZy0rCrZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mc06l44pdav27p/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 16\" on Soundza (https://soundza.com/sound/nes-jingle-16)"
+    },
+    {
+      "id": "cmv5n88dt01m106l4zqdytc96",
+      "url": "https://soundza.com/sound/nes-jingle-5",
+      "title": "NES Jingle 5",
+      "description": "A short, bright chiptune fanfare celebrating victory in a retro video game. Perfect for level completions, achievements, or winning screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -10.3,
+      "true_peak_db": -4.7,
+      "loudness": {
+        "value": -10.3,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 159816,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R_0ifS2kzYJuSPr47XPwYlkL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m106l4zqdytc96/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 5\" on Soundza (https://soundza.com/sound/nes-jingle-5)"
+    },
+    {
+      "id": "cmv5n88dt01m306l4djaz2dng",
+      "url": "https://soundza.com/sound/nes-jingle-7",
+      "title": "NES Jingle 7",
+      "description": "A bright, cheerful 8-bit synthesizer fanfare perfect for game victory moments. Quick and punchy, ideal for celebrating wins in retro-style games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 0.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "E3",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "8-bit",
+        "retro",
+        "synth"
+      ],
+      "sync_ms": null,
+      "lufs": -12.9,
+      "true_peak_db": -6.3,
+      "loudness": {
+        "value": -12.9,
+        "basis": "integrated"
+      },
+      "gain_db": -3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 211500,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/if-RYxyeBQaKUOOgBegChQIj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m306l4djaz2dng/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 7\" on Soundza (https://soundza.com/sound/nes-jingle-7)"
+    },
+    {
+      "id": "cmv5n88dt01ma06l4wjr7iujw",
+      "url": "https://soundza.com/sound/nes-jingle-14",
+      "title": "NES Jingle 14",
+      "description": "A bright, chiptune-style victory fanfare using simple synth tones. Perfect for game level completion or success states.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 1.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#3",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "synth",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 277272,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YOcyPy90-DYWJohFDn6nFq9p.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01ma06l4wjr7iujw/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 14\" on Soundza (https://soundza.com/sound/nes-jingle-14)"
+    },
+    {
+      "id": "cmukcos5odne16tlvwvp7xkkn",
+      "url": "https://soundza.com/sound/retro-chiptune-win-jingle",
+      "title": "Retro Chiptune Win Jingle",
+      "description": "A bright, cheerful 8-bit style success fanfare with melodic chiptune tones. Perfect for marking level completions, victories, or successful actions in video games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "outro",
+        "notification"
+      ],
+      "duration": 2.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "8-bit",
+        "game",
+        "arcade"
+      ],
+      "sync_ms": 145,
+      "lufs": -21.4,
+      "true_peak_db": -9.1,
+      "loudness": {
+        "value": -16.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 671160,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tLA4dT3UL94cyMh8-XirNdkt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcos5odne16tlvwvp7xkkn/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Chiptune Win Jingle\" on Soundza (https://soundza.com/sound/retro-chiptune-win-jingle)"
+    },
+    {
+      "id": "cmv5n88du01n106l4hdn4z6hp",
+      "url": "https://soundza.com/sound/sax-jingle-7",
+      "title": "Sax Jingle 7",
+      "description": "A bright, punchy saxophone stinger lasting half a second, perfect for game notifications, menu selections, or quick victory fanfares. Designed as a standalone game asset with vintage charm.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -18.2,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -17.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 136326,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JIwetZ2fkobGYzuIXyrtZky-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01n106l4hdn4z6hp/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sax Jingle 7\" on Soundza (https://soundza.com/sound/sax-jingle-7)"
+    },
+    {
+      "id": "cmv5n88dt01m606l4jr61t9q9",
+      "url": "https://soundza.com/sound/nes-jingle-10",
+      "title": "NES Jingle 10",
+      "description": "A bright, cheerful chiptune fanfare with electronic beeps and chimes, perfect for signaling victory or level completion in retro games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "retro",
+        "chime"
+      ],
+      "sync_ms": null,
+      "lufs": -12.2,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -12.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 117534,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xy3ieFvIkpIzBx8F6ymLv1I5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m606l4jr61t9q9/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 10\" on Soundza (https://soundza.com/sound/nes-jingle-10)"
+    },
+    {
+      "id": "cmv5n88dt01m706l4og8hsstl",
+      "url": "https://soundza.com/sound/nes-jingle-11",
+      "title": "NES Jingle 11",
+      "description": "A bright, chirpy synthesized fanfare with retro video game character. Perfect for signaling victory or level completion in game projects.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 0.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "8-bit",
+        "game",
+        "synth"
+      ],
+      "sync_ms": null,
+      "lufs": -12.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -12.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 108138,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/I6njgt4-4H5ZOe1MxMESteLO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m706l4og8hsstl/file?search_id=ortij9v584mqk1o0tn4jgmlx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 11\" on Soundza (https://soundza.com/sound/nes-jingle-11)"
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "music",
+    "query": "victory fanfare jingle",
+    "form": "one_shot",
+    "parts": "full_mix",
+    "vocals": null,
+    "mood": [
+      "upbeat",
+      "energetic"
+    ],
+    "genre": "pop",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 6,
+    "style": null,
+    "good_for": [
+      "title_or_logo",
+      "intro"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A victory fanfare jingle, likely a short, upbeat, and energetic musical piece for a title or intro. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "ortij9v584mqk1o0tn4jgmlx"
+}

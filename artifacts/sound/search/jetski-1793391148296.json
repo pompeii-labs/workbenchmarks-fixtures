@@ -1,0 +1,22 @@
+{
+  "query": {
+    "q": "jetski",
+    "type": "sound_effect",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 0,
+  "next_page": null,
+  "sounds": [],
+  "relaxed_filters": [
+    "type"
+  ],
+  "text_match": null,
+  "interpreted_as": null,
+  "notes": [
+    "Nothing matched with type set, so every type was searched.",
+    "Nothing in the catalog matches \"jetski\" yet."
+  ],
+  "search_id": "tf986gqhutqryevmt4raoiyu"
+}

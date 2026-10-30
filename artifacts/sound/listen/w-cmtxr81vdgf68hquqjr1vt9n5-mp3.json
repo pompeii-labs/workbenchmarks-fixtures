@@ -1,0 +1,16 @@
+{
+  "file": "scratch/w-cmtxr81vdgf68hquqjr1vt9n5.mp3",
+  "sha": "e7872ce989fab038",
+  "want": "a body and machine crashing hard into the sea: a huge chaotic water crash splash with churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    2,
+    2,
+    2
+  ],
+  "fit": 2,
+  "heard": "Ocean surf — waves rolling in and breaking on a shore, moderate size, heard from mid-distance on the beach. The tail is foam fizzing and water receding back down the sand before the next wave rolls in. Steady, rhythmic, natural beach ambience.",
+  "sounds_like": "A calm-to-medium beach surf loop",
+  "problems": "No impact transient at all — nothing crashes, nothing hits. It's a steady surf bed, not an event. No splash, no chaos, no churning water, no low-end thud of a heavy body/machine slamming into the sea. Too calm, too distant, too rhythmic. At best it could sit underneath as ambience after the fact, but it can't deliver the crash the game needs.",
+  "veto": true
+}

@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/go.mp3",
+  "sha": "508c700afe7a6dc2",
+  "want": "a loud air horn blast starting a race, short",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    9,
+    9,
+    9
+  ],
+  "fit": 9,
+  "heard": "A loud, brassy air horn blast — like a stadium or ship horn — recorded close and big, with a hard attack and a short tail that cuts off quickly with just a touch of room decay.",
+  "sounds_like": "A stadium air horn blast",
+  "problems": "Tail carries a little room reverb that could be trimmed for a tighter race-start cue, and it's a single blast with no alternate takes or pitch variations to avoid repetition across multiple races.",
+  "veto": false
+}

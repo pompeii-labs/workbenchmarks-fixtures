@@ -1,0 +1,3390 @@
+{
+  "query": {
+    "q": "lake water lapping gentle",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=lake+water+lapping+gentle&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmuhyjgbl5jhuufkz7o9fmy7u",
+      "url": "https://soundza.com/sound/flowing-water-loop",
+      "title": "Flowing Water Loop",
+      "description": "A gentle, naturalistic water flow with soft trickling and babbling textures, creating an organic, minimal ambient soundscape perfect for atmospheric pads and environmental transitions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 14.47,
+      "bpm": 117,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "soft"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "texture",
+        "atmospheric",
+        "organic",
+        "soft",
+        "minimal",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -23.2,
+        "basis": "integrated"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4168020,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lOzKFSdzE4LuujEG3I5D4zWH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyjgbl5jhuufkz7o9fmy7u/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water Loop\" on Soundza (https://soundza.com/sound/flowing-water-loop)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmukbi5zp7ponezkp49ohtv6j",
+      "url": "https://soundza.com/sound/underwater-lake-ambience",
+      "title": "Underwater Lake Ambience",
+      "description": "A submerged contact microphone recording capturing the muted, tonal qualities of underwater acoustics beneath a rail bridge on a lake. Subtle mechanical vibrations and water movements create a peaceful, immersive soundscape ideal for scenes requiring aquatic depth and stillness.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 186.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "field-recording",
+        "texture",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22.3,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -22.3,
+        "basis": "integrated"
+      },
+      "gain_db": 0,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 49350114,
+      "category": {
+        "id": "WATRUndwtr",
+        "label": "Water › Underwater"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/IHmrFRVcakuQ8tlK8R3Ymihh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbi5zp7ponezkp49ohtv6j/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Underwater Lake Ambience\" on Soundza (https://soundza.com/sound/underwater-lake-ambience)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhykyrrvd0mbi5gcex5rlqq",
+      "url": "https://soundza.com/sound/flowing-water-river-recording",
+      "title": "Flowing Water, River Recording",
+      "description": "A serene river field recording with gentle water flows and natural ambience, rich in mid-range frequencies that create an organic, airy texture perfect for atmospheric layering.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.77,
+      "bpm": null,
+      "key": "G# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "texture",
+        "pad",
+        "organic",
+        "airy",
+        "ethereal",
+        "atmospheric",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -35.6,
+      "true_peak_db": -21.4,
+      "loudness": {
+        "value": -35.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2237856,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tvk9bSslj0JjpxR0gzl9XXAO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhykyrrvd0mbi5gcex5rlqq/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water, River Recording\" on Soundza (https://soundza.com/sound/flowing-water-river-recording)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmuhy7ul5k7ejyxj2fgtbzeki",
+      "url": "https://soundza.com/sound/gentle-rain-texture",
+      "title": "Gentle Rain Texture",
+      "description": "A layered rain and storm texture with natural rainfall sounds, creating an atmospheric and immersive environment perfect for ambient soundscapes and atmospheric layers. The sound features organic water elements with a soft, ethereal quality that sits well in background mixes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "ambient",
+        "atmospheric",
+        "ethereal",
+        "foley",
+        "texture",
+        "reverb",
+        "pad",
+        "organic"
+      ],
+      "sync_ms": null,
+      "lufs": -18.4,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -18.4,
+        "basis": "integrated"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 12096084,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZQj-jTaF9MMJMt4B5upRdQ_n.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhy7ul5k7ejyxj2fgtbzeki/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Rain Texture\" on Soundza (https://soundza.com/sound/gentle-rain-texture)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmv5nu50z02ba06l4ya2mgjj5",
+      "url": "https://soundza.com/sound/chasing-the-leviathan-lake-aria",
+      "title": "Chasing the Leviathan: Lake Aria",
+      "description": "A sweeping orchestral adventure track that evokes mystical exploration, blending classical strings with ethereal synth layers and world music elements. Perfect as a cinematic bed for exploration sequences or documentary narration.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 149.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "cinematic",
+        "atmospheric",
+        "lush"
+      ],
+      "sync_ms": null,
+      "lufs": -14.8,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -14.8,
+        "basis": "integrated"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39576698,
+      "category": null,
+      "pack": {
+        "id": "cmv5nu50i02b906l49joprvc1",
+        "name": "Chasing the Leviathan",
+        "slug": "chasing-the-leviathan",
+        "sound_count": 8,
+        "url": "https://soundza.com/packs/chasing-the-leviathan"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/B_15D6lYeHSkDH1jHdKAqa5l.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nu50z02ba06l4ya2mgjj5/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chasing the Leviathan: Lake Aria\" on Soundza (https://soundza.com/sound/chasing-the-leviathan-lake-aria)",
+      "matched_words": [
+        "lake"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "water",
+        "lapping",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowlbkgk7g5dpf783an1heh",
+      "url": "https://soundza.com/sound/dog-splashing-lake",
+      "title": "Dog Splashing Lake",
+      "description": "A dog wading and splashing vigorously in shallow water, creating repeated water impacts and churning sounds. Useful for water ambience, swimming scenes, or layered into machinery sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 3.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "dog",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -23.5,
+      "true_peak_db": -1.7,
+      "loudness": {
+        "value": -19.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 950484,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6OAQWvVZxFLFrY9aCrVpFFwq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowlbkgk7g5dpf783an1heh/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Splashing Lake\" on Soundza (https://soundza.com/sound/dog-splashing-lake)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyk4i4trdgv8t9p0j7v7f6",
+      "url": "https://soundza.com/sound/flowing-water-texture",
+      "title": "Flowing Water Texture",
+      "description": "A lush, flowing field recording of water cascading through a California forest creek, with naturalistic babbling and gurgling textures layered over deep, organic ambient tones. The heavy, liquid soundscape captures the rhythmic flow of a waterfall and downstream current with rich mid-range complexity and atmospheric depth.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 39.43,
+      "bpm": null,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "ambient",
+        "pad",
+        "foley",
+        "texture",
+        "organic",
+        "atmospheric",
+        "ethereal",
+        "lush"
+      ],
+      "sync_ms": null,
+      "lufs": -21.6,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -21.6,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11356502,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/q7CJBTpOc6g3upX06r7J2ZFG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyk4i4trdgv8t9p0j7v7f6/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water Texture\" on Soundza (https://soundza.com/sound/flowing-water-texture)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvow5nxmumuwizqxsoyxlatj",
+      "url": "https://soundza.com/sound/lake-water-splash-short",
+      "title": "Lake Water Splash Short",
+      "description": "A natural water splash recorded in a lake, with layered droplets and splashing sounds. Ideal for wading, swimming, or water impact moments in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "nature",
+        "wet",
+        "impact"
+      ],
+      "sync_ms": 787,
+      "lufs": -29.5,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -25.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1440088,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ocZ1XhR3Wl_e5RHH7Da4Jydy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow5nxmumuwizqxsoyxlatj/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lake Water Splash Short\" on Soundza (https://soundza.com/sound/lake-water-splash-short)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvow5a9v3f3nhkpyw9zj0qla",
+      "url": "https://soundza.com/sound/lake-water-splash-medium",
+      "title": "Lake Water Splash Medium",
+      "description": "A natural water splash recorded in a lake, with the organic splashing and dripping of water against itself and the shoreline. Suitable for wading, swimming, or water movement scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 12.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": 4344,
+      "lufs": -34.4,
+      "true_peak_db": -4.5,
+      "loudness": {
+        "value": -24.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3708090,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aeYIWsr2JEpQeZDzO59bMHqX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow5a9v3f3nhkpyw9zj0qla/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lake Water Splash Medium\" on Soundza (https://soundza.com/sound/lake-water-splash-medium)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0gy0ge49qdm9mnfoxbytmf",
+      "url": "https://soundza.com/sound/gentle-creek-ambience",
+      "title": "Gentle Creek Ambience",
+      "description": "A continuous flow of water moving over rocks and through a natural streambed. Suitable for outdoor scenes, nature documentaries, and relaxing background beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 55.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -38.9,
+      "true_peak_db": -13.6,
+      "loudness": {
+        "value": -38.9,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14686550,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y1mzBCLg4fAhBpnS9owezUDs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gy0ge49qdm9mnfoxbytmf/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Creek Ambience\" on Soundza (https://soundza.com/sound/gentle-creek-ambience)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmtxrb2w2nou5upu4odd4bywr",
+      "url": "https://soundza.com/sound/coast-waves-ambience",
+      "title": "Coast Waves Ambience",
+      "description": "A serene and textured soundscape of gentle waves lapping against a pebbled beach with soft ambient atmospheric qualities; perfect for creating immersive coastal environments with natural, organic water and stone textures.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 58.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "atmospheric",
+        "texture",
+        "organic",
+        "ethereal",
+        "reverb",
+        "airy"
+      ],
+      "sync_ms": null,
+      "lufs": -29.4,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -29.4,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15472166,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GJtwHZVIm3ZExfIx9uiMadGu.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxrb2w2nou5upu4odd4bywr/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Coast Waves Ambience\" on Soundza (https://soundza.com/sound/coast-waves-ambience)",
+      "matched_words": [
+        "water",
+        "lapping",
+        "gentle"
+      ]
+    },
+    {
+      "id": "bp35vrypmpaliklcwnccph0n",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-3",
+      "title": "Gentle Harp and Pads 3",
+      "description": "A serene, sustained bed combining delicate harp arpeggios with warm synthesizer pads. Ideal for calming interludes, meditation scenes, or gentle emotional underscores.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "menu"
+      ],
+      "duration": 174.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "airy"
+      ],
+      "tags": [
+        "pad",
+        "ambient",
+        "ethereal",
+        "strings",
+        "atmospheric",
+        "warm",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46248280,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/X_32oxC4c0wPfqEOiaXgIV8k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/bp35vrypmpaliklcwnccph0n/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 3\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-3)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "e9if07w9khyzryrju587z1ot",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-1",
+      "title": "Gentle Harp and Pads 1",
+      "description": "A serene, atmospheric piece combining delicate harp arpeggios with soft synthesizer pads, creating a calm and meditative soundscape suitable for relaxation, meditation, or emotional underscore.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 75.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "pad",
+        "ambient",
+        "ethereal",
+        "strings",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20003416,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ncc34WtEQIQhXYf0KZZHOr7R.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/e9if07w9khyzryrju587z1ot/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 1\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-1)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvl74radwyju6g5lz8x25311",
+      "url": "https://soundza.com/sound/gentle-rain-on-metal-roof",
+      "title": "Gentle Rain on Metal Roof",
+      "description": "The soft patter of rain falling on a corrugated metal roof in a reverberant indoor space, creating a natural rhythmic texture with metallic resonance. Ideal for calm scenes, meditation, or ambient backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 10.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "metal",
+        "indoor",
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -42.3,
+      "true_peak_db": -28,
+      "loudness": {
+        "value": -42.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1497690,
+      "category": {
+        "id": "RAINMetl",
+        "label": "Rain › Metal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qsK1jw8aRlDwigiazK9OPX5J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl74radwyju6g5lz8x25311/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Rain on Metal Roof\" on Soundza (https://soundza.com/sound/gentle-rain-on-metal-roof)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "ja5l4q4lx95m02rci3ilkp8x",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-2",
+      "title": "Gentle Harp and Pads 2",
+      "description": "A serene blend of delicate harp melodies layered with warm synthesizer pads, creating a calming and ethereal soundscape ideal for meditation or cinematic underscore.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 119.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "cinematic",
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "ethereal",
+        "warm",
+        "texture",
+        "cinematic",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31657048,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6MN_puUtpFrTfpEc5ANO7i9Y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ja5l4q4lx95m02rci3ilkp8x/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 2\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-2)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "tk1rut99zdyj5dyy566wa43q",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-2",
+      "title": "Gentle Music Box Lullaby 2",
+      "description": "A soft, delicate music box melody with synthesized tones creating a calm, soothing lullaby. Perfect for relaxation, sleep, or gentle background accompaniment.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 73.4,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "dreamy",
+        "pad",
+        "lo-fi",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19422812,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7eWhyWJ8eWMQPyk5luA7odj-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/tk1rut99zdyj5dyy566wa43q/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 2\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-2)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "n2m5mmwi9m6u9k5z4yau6ckn",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-3",
+      "title": "Gentle Music Box Lullaby 3",
+      "description": "A soothing music box melody played on delicate synthesizer tones, creating a calming lullaby suitable for relaxation or sleep. The gentle arpeggiated patterns and soft harmonic textures provide a peaceful, meditative soundscape.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 120.84,
+      "bpm": null,
+      "key": "E major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "synth",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31975004,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/PrMY3bbEvqNn5CITA8jw1S3p.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/n2m5mmwi9m6u9k5z4yau6ckn/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 3\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-3)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "hq47g57bhxkciq6epvngjb3y",
+      "url": "https://soundza.com/sound/gentle-solo-piano-2",
+      "title": "Gentle Solo Piano 2",
+      "description": "A warm, unhurried piano composition with sustained notes and gentle dynamics. Suitable as a contemplative background bed or underscore for peaceful scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 88.19,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "piano",
+        "ambient",
+        "warm",
+        "mellow",
+        "soft",
+        "pad",
+        "ethereal",
+        "solo piano",
+        "reflective",
+        "gentle"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23334996,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QciRFbCNTG4YQg5n117NjYZE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/hq47g57bhxkciq6epvngjb3y/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Solo Piano 2\" on Soundza (https://soundza.com/sound/gentle-solo-piano-2)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmuhynvdo8rebk6ve66czpg6d",
+      "url": "https://soundza.com/sound/stream-river-water-up-close",
+      "title": "Stream River Water Up Close",
+      "description": "A soft, flowing stream recorded in close proximity, with gentle burbling and trickling water sounds. Ideal for nature scenes, relaxation content, or ambient background layers.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 68.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -54,
+      "true_peak_db": -25.2,
+      "loudness": {
+        "value": -54,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19840220,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HIZ_196fmIjHiwKLWuNhmDtc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhynvdo8rebk6ve66czpg6d/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream River Water Up Close\" on Soundza (https://soundza.com/sound/stream-river-water-up-close)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmukagm6m2ml05nztzcd7cpcs",
+      "url": "https://soundza.com/sound/summer-field-dusk-ambience",
+      "title": "Summer Field Dusk Ambience",
+      "description": "A peaceful outdoor recording of a summer field near a lake at dusk in July. You'll hear distant bird calls, a quick fly buzz, and a motorboat passing in the distance, capturing the natural sounds of a rural evening.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "birds",
+        "nature",
+        "outdoor",
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -23.6,
+      "loudness": {
+        "value": -40.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17389700,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8za3sW944c5m2Ga-_ebEmJzA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukagm6m2ml05nztzcd7cpcs/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Summer Field Dusk Ambience\" on Soundza (https://soundza.com/sound/summer-field-dusk-ambience)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "stvxvrm7v2rk6s3hpw2qovy1",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-4",
+      "title": "Gentle Music Box Lullaby 4",
+      "description": "A soft, delicate music box melody played on synthesized bells with warm, sustained harmonic pads underneath. Calming and soothing, perfect for lullabies and gentle backgrounds.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 175.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "pad",
+        "melodic",
+        "warm",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46448732,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fmN59eufMIxEFNohfuppk9bt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/stvxvrm7v2rk6s3hpw2qovy1/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 4\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-4)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "yj3wpzwcdjhj1vtqf40alayn",
+      "url": "https://soundza.com/sound/gentle-solo-piano-7",
+      "title": "Gentle Solo Piano 7",
+      "description": "A warm, sustained piano piece with soft, legato notes played at a moderate tempo. Ideal as an emotional bed, underscore, or ambient musical backdrop for intimate scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 90,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "piano",
+        "warm",
+        "ambient",
+        "melodic",
+        "soft",
+        "acoustic",
+        "solo piano",
+        "reflective",
+        "gentle"
+      ],
+      "sync_ms": null,
+      "lufs": -12.8,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.8,
+        "basis": "integrated"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23814084,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bjOz-jFX3xs3aq1NW2B5ufAc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/yj3wpzwcdjhj1vtqf40alayn/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Solo Piano 7\" on Soundza (https://soundza.com/sound/gentle-solo-piano-7)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "r99dpx1tqvki80oy4q4j9b24",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby",
+      "title": "Gentle Music Box Lullaby",
+      "description": "A delicate, tinkling music box melody in a major key, performed with soft, sustained tones and minimal attack. Ideal for calming scenes, sleep, or intimate moments.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 172.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "keys",
+        "pad",
+        "warm",
+        "melodic",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45570906,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TZySkTAKWD8BBP-8fXktkk8e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/r99dpx1tqvki80oy4q4j9b24/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmv0glpdf001506i9akcr73hf",
+      "url": "https://soundza.com/sound/water-loop-3",
+      "title": "Water Loop 3",
+      "description": "A continuous looping ambience of gently flowing water with subtle textural variation. Suitable as an atmospheric bed for scenes with streams, rivers, or water features.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 9.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -25.5,
+      "true_peak_db": -7.7,
+      "loudness": {
+        "value": -25.5,
+        "basis": "integrated"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2795676,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-XGUJ1RhsCL5JnNWwhtASXDV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf001506i9akcr73hf/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 3\" on Soundza (https://soundza.com/sound/water-loop-3)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmtluy62h3t9dnls17rh2buh2",
+      "url": "https://soundza.com/sound/peaceful-rain-texture",
+      "title": "Peaceful Rain Texture",
+      "description": "A gentle, pitched water drip texture with minimal low-end presence and sparse attack, creating a calming, organic soundscape perfect for meditative transitions and ambient underscore. The sound sits in the low-mid frequency range with ethereal spacing between each droplet.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "dry",
+        "ethereal",
+        "ambient",
+        "texture",
+        "atmospheric",
+        "minimal",
+        "delay"
+      ],
+      "sync_ms": null,
+      "lufs": -39.4,
+      "true_peak_db": -20.3,
+      "loudness": {
+        "value": -39.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14288486,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": {
+        "id": "ycmwc087y8eer8howbrt0o69",
+        "name": "CRACKLE — Vinyl Noise, Tape Hiss, Room, Tone, Foley",
+        "slug": "crackle-vinyl-noise-tape-hiss-room-tone-foley",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/crackle-vinyl-noise-tape-hiss-room-tone-foley"
+      },
+      "creator": {
+        "name": "wet paper",
+        "url": "https://soundza.com/creators/wet-paper"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7H3Zl7mNjMle4AtuQJWIUgjf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtluy62h3t9dnls17rh2buh2/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Rain Texture\" by wet paper on Soundza (https://soundza.com/sound/peaceful-rain-texture)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowecp1gdt37hd8k0w1w2pp",
+      "url": "https://soundza.com/sound/water-paddle-soft-1",
+      "title": "Water Paddle Soft 1",
+      "description": "A single soft paddle stroke in water, recorded in a natural lake setting. Suitable for kayaking, canoeing, or rowing foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.65,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "soft",
+        "field-recording"
+      ],
+      "sync_ms": 149,
+      "lufs": -41.1,
+      "true_peak_db": -16,
+      "loudness": {
+        "value": -37.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 474688,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GLLy7n_3Ylp9VcrU2kS6OO3n.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowecp1gdt37hd8k0w1w2pp/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Soft 1\" on Soundza (https://soundza.com/sound/water-paddle-soft-1)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyosk6yznzzk6e58hw4e27",
+      "url": "https://soundza.com/sound/creek-water-trickling",
+      "title": "Creek Water Trickling",
+      "description": "The gentle, continuous sound of water flowing and trickling over rocks in a natural creek bed. A peaceful ambient recording suitable for nature scenes, relaxation content, or environmental soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -33,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -33,
+        "basis": "integrated"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17403656,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Md3vaKnj-kc6LV7dedUqfXra.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyosk6yznzzk6e58hw4e27/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Creek Water Trickling\" on Soundza (https://soundza.com/sound/creek-water-trickling)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvow0yv8xsvi4ps00221v1lq",
+      "url": "https://soundza.com/sound/rock-splash-lake-long",
+      "title": "Rock Splash Lake Long",
+      "description": "A rock plunks into calm water with a sharp initial impact followed by the wet aftermath of water settling. Ideal for foley and water ambience beds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "field-recording",
+        "wet"
+      ],
+      "sync_ms": 200,
+      "lufs": -24.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -19.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1068164,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3Qj58pb1EBYusBqzqojBJbsF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow0yv8xsvi4ps00221v1lq/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Splash Lake Long\" on Soundza (https://soundza.com/sound/rock-splash-lake-long)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvow0mbkslbuy20kxlvsnz3p",
+      "url": "https://soundza.com/sound/rock-splash-lake-short",
+      "title": "Rock Splash Lake Short",
+      "description": "A rock impacts water with a sharp plop and resonant splash. Useful for games, foley, and video edits needing a single water impact moment.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "field-recording"
+      ],
+      "sync_ms": 134,
+      "lufs": -28.1,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -22.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 407338,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/13ERlw_-xO_WfO9c3up6Xdu1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow0mbkslbuy20kxlvsnz3p/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Splash Lake Short\" on Soundza (https://soundza.com/sound/rock-splash-lake-short)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxenwjvjty5myz6syvg9uu",
+      "url": "https://soundza.com/sound/bubbling-water-ambience",
+      "title": "Bubbling Water Ambience",
+      "description": "Continuous bubbles and boiling water sounds with gentle movement. Suitable as a background bed for aquatic, laboratory, or magical scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 9.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -45.1,
+      "true_peak_db": -20.4,
+      "loudness": {
+        "value": -45.1,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1233116,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oS8gs84DN15-InsTT0oD363a.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxenwjvjty5myz6syvg9uu/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bubbling Water Ambience\" on Soundza (https://soundza.com/sound/bubbling-water-ambience)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvoxf4t3e884xkfwzp821fsa",
+      "url": "https://soundza.com/sound/soft-bubbles-popping-water",
+      "title": "Soft Bubbles Popping Water",
+      "description": "Gentle bubbles burble up and pop softly at the water surface, creating a quiet, continuous gurgling effect. Recorded with acoustic authenticity from a live water bath setup, ideal for ambient water environments or subtle foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 22.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "water",
+        "soft",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -50.1,
+      "true_peak_db": -22.1,
+      "loudness": {
+        "value": -38.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 21.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5985146,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QUo1b0Sdk2AKUwgGucwdKp1c.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxf4t3e884xkfwzp821fsa/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Bubbles Popping Water\" on Soundza (https://soundza.com/sound/soft-bubbles-popping-water)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmuhyls2nhvapfq0arwb4lctu",
+      "url": "https://soundza.com/sound/babbling-river-ambience",
+      "title": "Babbling River Ambience",
+      "description": "A gentle, shallow river flows with continuous burbling and trickling sounds. Perfect as a calming natural bed for meditation, nature documentaries, or atmospheric background.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19353208,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0ELUwkwVkTVqlYNPeoZZ2PCS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyls2nhvapfq0arwb4lctu/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Babbling River Ambience\" on Soundza (https://soundza.com/sound/babbling-river-ambience)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowdljhb14yshmxuupatble",
+      "url": "https://soundza.com/sound/water-paddle-soft-2",
+      "title": "Water Paddle Soft 2",
+      "description": "A gentle paddle stroke in water, recorded in a natural lake environment. Useful for kayaking, canoeing, or rowing scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -39.8,
+      "true_peak_db": -18.1,
+      "loudness": {
+        "value": -37.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 17.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 422598,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ND8AEGjCugmVZCI9h-_vEspS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowdljhb14yshmxuupatble/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Soft 2\" on Soundza (https://soundza.com/sound/water-paddle-soft-2)",
+      "matched_words": [
+        "lake",
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "p2y7k4wsr0401aksxqyz5eia",
+      "url": "https://soundza.com/sound/gentle-solo-piano-4",
+      "title": "Gentle Solo Piano 4",
+      "description": "A warm, sustained solo piano performance with soft dynamics and minimal articulation. Ideal as an atmospheric bed or underscore for reflective moments.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 87.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "piano",
+        "warm",
+        "ambient",
+        "minimal",
+        "soft",
+        "melodic",
+        "atmospheric",
+        "solo piano",
+        "reflective",
+        "gentle"
+      ],
+      "sync_ms": null,
+      "lufs": -11.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.5,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23141460,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WjRiX8_yjeQ4r-by5SywNeY2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/p2y7k4wsr0401aksxqyz5eia/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Solo Piano 4\" on Soundza (https://soundza.com/sound/gentle-solo-piano-4)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowdxomofdolloqwj4y43s2",
+      "url": "https://soundza.com/sound/water-paddle-stroke-very-bright",
+      "title": "Water Paddle Stroke Very Bright",
+      "description": "A single paddle stroke in water with a clear splash and drip, recorded in a natural lake environment. Useful for canoe, kayak, or rowing scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 1.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -22.9,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -20.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 364158,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yixR0g7-z-HUjDvtKXdKuhmb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowdxomofdolloqwj4y43s2/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke Very Bright\" on Soundza (https://soundza.com/sound/water-paddle-stroke-very-bright)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvow4u4hgi85y6k9u2tsbptq",
+      "url": "https://soundza.com/sound/lake-water-splash-long",
+      "title": "Lake Water Splash Long",
+      "description": "A natural water splash recorded in a lake, with the sound of water impacting and dispersing. Suitable for wading, swimming, or water-play scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 15.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -28.3,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -21.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4428088,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CjxyJWKbeRPC1ZvIXaV7v4oC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow4u4hgi85y6k9u2tsbptq/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lake Water Splash Long\" on Soundza (https://soundza.com/sound/lake-water-splash-long)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmukg6lw1eyampo0fammu8n08",
+      "url": "https://soundza.com/sound/water-drips-cave-ambience",
+      "title": "Water Drips Cave Ambience",
+      "description": "A prolonged recording of water droplets echoing in a reverberant cave or dungeon space. The processed, heavily reverberated drips create an eerie, atmospheric bed suitable for dark underground scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 89.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "water",
+        "reverb",
+        "dark"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -8.3,
+      "loudness": {
+        "value": -40.6,
+        "basis": "integrated"
+      },
+      "gain_db": 7.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 25868382,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7zs78vuu9yjTkFL6e4rMCGNd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg6lw1eyampo0fammu8n08/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drips Cave Ambience\" on Soundza (https://soundza.com/sound/water-drips-cave-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "temr6inkz7w0gp1r2n9x9ebz",
+      "url": "https://soundza.com/sound/gentle-solo-piano-3",
+      "title": "Gentle Solo Piano 3",
+      "description": "A soft, flowing piano performance with minimal accompaniment. The sparse, wandering melodic phrases create an ambient, introspective mood suitable as a background bed for video or meditation content.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 87.62,
+      "bpm": null,
+      "key": "D minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "ambient",
+        "melodic",
+        "warm",
+        "atmospheric",
+        "solo piano",
+        "reflective",
+        "gentle"
+      ],
+      "sync_ms": null,
+      "lufs": -11,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11,
+        "basis": "integrated"
+      },
+      "gain_db": -5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23182932,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6Y2A838y_9Xy_lYyZeZ8dQBq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/temr6inkz7w0gp1r2n9x9ebz/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Solo Piano 3\" on Soundza (https://soundza.com/sound/gentle-solo-piano-3)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmukgbdhkc05j6d6gk0naldjq",
+      "url": "https://soundza.com/sound/water-cave-ambience",
+      "title": "Water Cave Ambience",
+      "description": "A designed ambient soundscape of a fictional water cave with layered dripping water droplets and echoing liquid sounds. Suitable for dungeon scenes, cave exploration, and immersive game environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -16,
+      "loudness": null,
+      "gain_db": 0,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 6,
+      "size_bytes": 47628084,
+      "category": {
+        "id": "AMBUndr",
+        "label": "Ambience › Underground"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K4mjl5Xe3Lugmrl1AAM9O1GI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgbdhkc05j6d6gk0naldjq/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Cave Ambience\" on Soundza (https://soundza.com/sound/water-cave-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0gl6kolvsyhhhzg7jut6j3",
+      "url": "https://soundza.com/sound/brook-flow-ambience",
+      "title": "Brook Flow Ambience",
+      "description": "A fresh, flowing brook with gentle babbling and trickling water sounds. Clean field recording suitable as a continuous background layer for nature scenes or calm environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 37.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -26.8,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -26.8,
+        "basis": "integrated"
+      },
+      "gain_db": 6.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 5370850,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UTtzs_aiC05j38aVJLDbi7mi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gl6kolvsyhhhzg7jut6j3/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Brook Flow Ambience\" on Soundza (https://soundza.com/sound/brook-flow-ambience)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "vavdui5oosyrb0c3h8juc7e2",
+      "url": "https://soundza.com/sound/gentle-solo-piano-1",
+      "title": "Gentle Solo Piano 1",
+      "description": "A warm, contemplative solo piano piece with a slow, sustained melodic approach. Ideal as an ambient bed or underscore for introspective scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 89.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "warm",
+        "ambient",
+        "melodic",
+        "solo piano",
+        "reflective",
+        "gentle"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23576916,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3SoHe_kddyHbxuI479Mpn0Ya.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/vavdui5oosyrb0c3h8juc7e2/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Solo Piano 1\" on Soundza (https://soundza.com/sound/gentle-solo-piano-1)",
+      "matched_words": [
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowwqo8drk5upgtoz4kbpcu",
+      "url": "https://soundza.com/sound/water-dripping",
+      "title": "Water Dripping",
+      "description": "Steady water drips with a slight echo, as if from a faucet or pipe in a bathroom or confined space. Useful as a background bed for scenes involving water or moisture.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 2.98,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water"
+      ],
+      "sync_ms": null,
+      "lufs": -47.3,
+      "true_peak_db": -24.1,
+      "loudness": {
+        "value": -47.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 857384,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tbNhJVs7t4aCgtJ1abv2s8tk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowwqo8drk5upgtoz4kbpcu/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Dripping\" on Soundza (https://soundza.com/sound/water-dripping)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukg8wmtl9qr2ori7mkquhpt",
+      "url": "https://soundza.com/sound/water-drips-large-echo-ambience",
+      "title": "Water Drips Large Echo Ambience",
+      "description": "Slow, sparse water drips with strong reverb and echo, evoking an underground cavern or dungeon. Ideal as a bed or layering element for spooky, enclosed environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 64.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "reverb",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -49.7,
+      "true_peak_db": -21.5,
+      "loudness": {
+        "value": -49.7,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18464640,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5nZosNP8TX9gV-BlyyMcD_5g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg8wmtl9qr2ori7mkquhpt/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drips Large Echo Ambience\" on Soundza (https://soundza.com/sound/water-drips-large-echo-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0h7lvjqih0naadl90r0eag",
+      "url": "https://soundza.com/sound/wilkies-pools-waterfall",
+      "title": "Wilkies Pools Waterfall",
+      "description": "Gentle cascading waterfall at a natural pool on Mt Taranaki, New Zealand. A peaceful ambient recording suitable for nature scenes, relaxation backgrounds, or outdoor game environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "nature",
+        "water",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -21.6,
+      "true_peak_db": -10,
+      "loudness": {
+        "value": -21.6,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7729204,
+      "category": {
+        "id": "WATRFall",
+        "label": "Water › Waterfall"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Lsgo0W66ksgPI-1WUbhIgzXf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h7lvjqih0naadl90r0eag/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wilkies Pools Waterfall\" on Soundza (https://soundza.com/sound/wilkies-pools-waterfall)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvowytb6cnkq0asisq6jjgn3",
+      "url": "https://soundza.com/sound/kitchen-sink-water-leak",
+      "title": "Kitchen Sink Water Leak",
+      "description": "A continuous water leak from a kitchen sink with steady dripping and splashing sounds. Loops seamlessly for use as ambient background in scenes with plumbing issues or water damage.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 8.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "ambience",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -24.4,
+      "true_peak_db": -5.3,
+      "loudness": {
+        "value": -24.4,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2463136,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tTVMAD7bzvcjGkdNxBFxGzUN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowytb6cnkq0asisq6jjgn3/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Kitchen Sink Water Leak\" on Soundza (https://soundza.com/sound/kitchen-sink-water-leak)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvox16t95byqw9jr2s1l3jym",
+      "url": "https://soundza.com/sound/water-drops-dripping",
+      "title": "Water Drops Dripping",
+      "description": "Water droplets fall rhythmically into a container of water, creating a continuous pattern of splashes and echoes. Ideal for dungeon, cave, or atmospheric tension beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water"
+      ],
+      "sync_ms": null,
+      "lufs": -27.3,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -27.3,
+        "basis": "integrated"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3572186,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CYueER7div_arKXAhqaj8QwL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox16t95byqw9jr2s1l3jym/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drops Dripping\" on Soundza (https://soundza.com/sound/water-drops-dripping)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvovm2iw234ebjub8maeupfy",
+      "url": "https://soundza.com/sound/jump-into-water-02",
+      "title": "Jump Into Water",
+      "description": "A person diving from a height into a lake, captured with natural recording clarity. A sharp impact followed by churning water and splashing, useful for action sequences involving water entry.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 7.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "splash",
+        "water",
+        "jump",
+        "impact",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 750,
+      "lufs": -21.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2046248,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eLd9B6AmRL0oGL6Ld9uJdZCC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovm2iw234ebjub8maeupfy/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Jump Into Water\" on Soundza (https://soundza.com/sound/jump-into-water-02)",
+      "matched_words": [
+        "lake",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvl75sq1bnb0icd5z8yl71pj",
+      "url": "https://soundza.com/sound/raindrops-on-windowsill",
+      "title": "Raindrops on Windowsill",
+      "description": "Light rain pattering against a window with gentle, individual droplets. Suitable as a calm, naturalistic background for indoor or peaceful scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 9.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "water",
+        "nature",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -47.5,
+      "true_peak_db": -28.3,
+      "loudness": {
+        "value": -47.5,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2547304,
+      "category": {
+        "id": "RAINGlas",
+        "label": "Rain › Glass"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v5DBwKB7bRIjjHHJIWRwNGj8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl75sq1bnb0icd5z8yl71pj/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Raindrops on Windowsill\" on Soundza (https://soundza.com/sound/raindrops-on-windowsill)",
+      "matched_words": [
+        "water",
+        "gentle"
+      ]
+    },
+    {
+      "id": "cmvoxfu329t3ukzsuj3xz4it7",
+      "url": "https://soundza.com/sound/glassy-bubbling-water",
+      "title": "Glassy Bubbling Water",
+      "description": "Continuous water bubbling and boiling sounds recorded in a studio with a professional microphone. Suitable as a bed for aquatic scenes or as texture layering.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -26.7,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -26.7,
+        "basis": "integrated"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1052562,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3hr1hrXO4e-K__vy2EFTVke-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxfu329t3ukzsuj3xz4it7/file?search_id=iwwfja473y7b1dx6wybdck9u",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glassy Bubbling Water\" on Soundza (https://soundza.com/sound/glassy-bubbling-water)",
+      "matched_words": [
+        "water"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "lake water lapping gentle",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [
+      "calm"
+    ],
+    "genre": "ambient/experimental",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [
+      "background_bed"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: You are looking for a calm, gentle lake water lapping ambience. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"lake water lapping gentle\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "iwwfja473y7b1dx6wybdck9u"
+}

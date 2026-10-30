@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/water-rush.wav",
+  "sha": "68dd3a3912bb6e3b",
+  "want": "continuous rushing water spray and hiss of a fast boat hull cutting through the sea, close, no engine",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    4,
+    6,
+    3
+  ],
+  "fit": 4,
+  "heard": "A continuous, steady roar of rushing water — a large waterfall or heavy rapids, big and close, full-frequency with lots of low rumble and white-noise rush, holding constant the whole time with no variation and no real tail since it never stops",
+  "sounds_like": "A big waterfall seen from up close",
+  "problems": "Too broad and ambient for a hull cutting through water: it has the low roar of falling water rather than the high hiss and fizzing spray you'd hear close to a boat bow. No sense of speed, no spray flecks or water slapping, no pitch/texture shifts that would suggest a moving hull — it just sits there as a static wash, which would sound like the boat is parked under a waterfall instead of racing over the sea",
+  "veto": false
+}

@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/bump.mp3",
+  "sha": "78a52b3b403c1431",
+  "want": "a hollow plastic or fiberglass hull knocking hard against another hull, a dull thud",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    5,
+    8,
+    2
+  ],
+  "fit": 5,
+  "heard": "A single hard impact — a dull, dry thud with a short, tight decay. Sounds like a solid object (fist, wooden block) striking a moderately hollow surface like a table or box, recorded close up with almost no room tail or ringing.",
+  "sounds_like": "A fist or wooden block hitting a hollow table or cardboard box",
+  "problems": "Too dry and short — lacks the hollow, resonant plastic/fiberglass ring the brief calls for. The tail dies almost instantly instead of ringing out like a hollow hull would. Also only a single hit, so no hull-to-hull knocking motion or variation.",
+  "veto": false
+}

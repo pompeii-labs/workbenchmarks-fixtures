@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/lap.mp3",
+  "sha": "54cc7619ecc3884c",
+  "want": "a short bright positive success jingle for completing a lap",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    8,
+    8,
+    8
+  ],
+  "fit": 8,
+  "heard": "A quick ascending arpeggio of 4-5 bright bell notes (glockenspiel/celesta or a clean synth bell), close and dry, landing on a sustained high note with a short shimmering metallic reverb tail that decays fast. Total length under two seconds.",
+  "sounds_like": "A classic video-game success/level-complete chime — the kind of reward jingle you hear in a platformer or mobile game when you collect a star or finish a stage.",
+  "problems": "Very generic and toy-like; it reads more 'mobile reward popup' than 'racing lap complete', so it may feel small and lightweight against engine noise and crowd ambience. The tail is very short, so it can feel abrupt mid-race. No sense of speed or forward motion in the sound itself.",
+  "veto": false
+}

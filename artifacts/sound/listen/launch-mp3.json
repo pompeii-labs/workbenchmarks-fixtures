@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/launch.mp3",
+  "sha": "cd9afd5040d0ac2f",
+  "want": "a short water spray whoosh as a hull leaves the water surface, wet and airy",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    4,
+    2,
+    7
+  ],
+  "fit": 4,
+  "heard": "A very short, close-up, sharp burst of water — like liquid being flicked or sprayed from a small source. Wet, splashy, with a few tiny drippy droplets in the short tail. No real air movement or low-end weight; very small in scale.",
+  "sounds_like": "Spritzing a water bottle or flicking wet fingers",
+  "problems": "It's wet but not airy — there's no whoosh or air-pushing quality at all. Scale is tiny (hand-sized spray), not a hull, so it'll sound wrong next to a boat. Also too splattery/drippy and clicky at the front, lacking the smooth sweep-out of a vessel leaving the water.",
+  "veto": false
+}

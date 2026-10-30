@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/gate.mp3",
+  "sha": "aa161bb4c498a0bc",
+  "want": "a short clear checkpoint ding, a single bell-like confirmation tone",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    9,
+    7,
+    8
+  ],
+  "fit": 8,
+  "heard": "A single bright, clear bell-like 'ding' — sounds like a small metal bell (service bell, hand bell, or a glockenspiel/celesta-like synth bell). Small-to-medium in size, recorded very close and dry with no room or reverb. The attack is crisp and immediate, then it rings out with a smooth, natural decay lasting roughly a second before fading to silence. Clean and pleasant, no noise or clutter.",
+  "sounds_like": "A small service bell or a UI 'success/confirm' ding",
+  "problems": "The ringing tail is a touch long for a strictly 'short' ding — it may bleed over fast repeated checkpoints or layered actions. Tone is quite bright and thin (little low-mid warmth), and it's a fairly generic/gentle 'cute' bell, which could feel out of place in a darker or grittier game. Otherwise a strong, clean match for a checkpoint/confirmation cue.",
+  "veto": false
+}

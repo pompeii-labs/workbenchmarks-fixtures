@@ -1,0 +1,3350 @@
+{
+  "query": {
+    "q": "open sea waves ambience",
+    "good_for": "background_bed",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 48,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmsf1twks001504l4ks13xzqz",
+      "url": "https://soundza.com/sound/beach-waves-ambience",
+      "title": "Beach Waves Ambience",
+      "description": "A layered beach ambience capturing the rhythmic crash and wash of ocean waves with subtle wind textures, creating a natural, spacious soundscape with organic depth and movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 297.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "wet",
+        "layered"
+      ],
+      "sync_ms": null,
+      "lufs": -25,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85767662,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LKJz00wDtt6VTfquLgkuGSGa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf1twks001504l4ks13xzqz/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Waves Ambience\" by Sean Joad on Soundza (https://soundza.com/sound/beach-waves-ambience)",
+      "matched_words": [
+        "sea",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukg811ecno05cap87fqne2x",
+      "url": "https://soundza.com/sound/sea-cave-ambience",
+      "title": "Sea Cave Ambience",
+      "description": "A coastal cave filled with the sounds of waves crashing and water dripping, capturing the echoing reverb and moisture of a seaside cavern. Ideal for underwater scenes, dungeon atmospheres, or any location needing a damp, cavernous quality.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -32.4,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -32.4,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 38873170,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tv9rYRmfQu_rkYssiynJnoqV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg811ecno05cap87fqne2x/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sea Cave Ambience\" on Soundza (https://soundza.com/sound/sea-cave-ambience)",
+      "matched_words": [
+        "sea",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmtxrb2w2nou5upu4odd4bywr",
+      "url": "https://soundza.com/sound/coast-waves-ambience",
+      "title": "Coast Waves Ambience",
+      "description": "A serene and textured soundscape of gentle waves lapping against a pebbled beach with soft ambient atmospheric qualities; perfect for creating immersive coastal environments with natural, organic water and stone textures.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 58.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "atmospheric",
+        "texture",
+        "organic",
+        "ethereal",
+        "reverb",
+        "airy"
+      ],
+      "sync_ms": null,
+      "lufs": -29.4,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -29.4,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15472166,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GJtwHZVIm3ZExfIx9uiMadGu.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxrb2w2nou5upu4odd4bywr/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Coast Waves Ambience\" on Soundza (https://soundza.com/sound/coast-waves-ambience)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmui04a6so6oijgx4ofubel34",
+      "url": "https://soundza.com/sound/open-plough-field-wind",
+      "title": "Open Plough Field Wind",
+      "description": "A sustained recording of wind moving through an open ploughed field, with the dry rustle of grass and soil creating a natural, unadorned atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 114.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "dry",
+        "nature",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -48.3,
+      "true_peak_db": -21.7,
+      "loudness": {
+        "value": -48.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 30292744,
+      "category": {
+        "id": "AMBGras",
+        "label": "Ambience › Grassland"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HBkDdXmYIwHugTSh2Hqaf1G1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmui04a6so6oijgx4ofubel34/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Open Plough Field Wind\" on Soundza (https://soundza.com/sound/open-plough-field-wind)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t0v1603dz06l6ll5rk3va",
+      "url": "https://soundza.com/sound/room-tone-birds-outside-open-window-risan-montenegro",
+      "title": "Room Tone Birds Outside Open Window Risan Montenegro",
+      "description": "A serene interior room tone with birds chirping and calling from outside through an open window, recorded in Risan, Montenegro. The ambience captures the peaceful blend of indoor silence and outdoor natural activity.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 366.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "birds",
+        "room-tone",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -39.5,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -39.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 97035766,
+      "category": {
+        "id": "AMBBird",
+        "label": "Ambience › Birdsong"
+      },
+      "pack": {
+        "id": "cmv5suqr500cn06jskba7xrlu",
+        "name": "City Field Recordings Vol 1: Streets, Traffic, Calls to Prayer and Room Tones",
+        "slug": "city-streets-traffic-and-construction",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/city-streets-traffic-and-construction"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CBRkA7KTbrX8pZ6bIxHIZXHW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1603dz06l6ll5rk3va/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone Birds Outside Open Window Risan Montenegro\" on Soundza (https://soundza.com/sound/room-tone-birds-outside-open-window-risan-montenegro)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t0v1703ef06l6n1gthlgw",
+      "url": "https://soundza.com/sound/room-tone-open-window-central-tirana-albania",
+      "title": "Room Tone Open Window Central Tirana Albania",
+      "description": "An interior room tone recorded in central Tirana, Albania with a window open to the street. You hear the ambient sound of the space with distant city activity, traffic, and occasional street sounds filtering in through the open window.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 975.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "room-tone",
+        "ambience",
+        "city"
+      ],
+      "sync_ms": null,
+      "lufs": -43.6,
+      "true_peak_db": -22.6,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 172114542,
+      "category": {
+        "id": "AMBRoom",
+        "label": "Ambience › Room Tone"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yX1O1_CotJppcamMG-qMchn7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1703ef06l6n1gthlgw/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone Open Window Central Tirana Albania\" on Soundza (https://soundza.com/sound/room-tone-open-window-central-tirana-albania)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t0v1703ee06l6gfmzufsi",
+      "url": "https://soundza.com/sound/room-tone-quiet-room-window-open",
+      "title": "Room Tone Quiet Room Window Open",
+      "description": "A peaceful interior room tone with natural air circulation from an open window. Ideal as a calm, natural background bed for quiet scenes or as a base layer in ambient mixes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 806.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "room-tone",
+        "ambience",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": null,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": null,
+      "bit_depth": null,
+      "channels": null,
+      "size_bytes": 464476160,
+      "category": {
+        "id": "AMBRoom",
+        "label": "Ambience › Room Tone"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1703ee06l6gfmzufsi/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone Quiet Room Window Open\" on Soundza (https://soundza.com/sound/room-tone-quiet-room-window-open)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t0v1703el06l6aycd9685",
+      "url": "https://soundza.com/sound/room-tone-with-window-open-birds-chirping",
+      "title": "Room Tone with Window Open Birds Chirping",
+      "description": "A quiet interior room tone with the gentle ambience of birds chirping outside through an open window. A calm, naturalistic background suitable for scenes requiring subtle outdoor presence indoors.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": null,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "room-tone",
+        "birds",
+        "ambience",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": null,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": null,
+      "bit_depth": null,
+      "channels": null,
+      "size_bytes": 300222464,
+      "category": {
+        "id": "AMBHome",
+        "label": "Ambience › Residential"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1703el06l6aycd9685/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone with Window Open Birds Chirping\" on Soundza (https://soundza.com/sound/room-tone-with-window-open-birds-chirping)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t0v1703e406l6b0t0jxoy",
+      "url": "https://soundza.com/sound/room-tone-breezy-day-window-open",
+      "title": "Room Tone Breezy Day Window Open",
+      "description": "A light, airy interior room tone with gentle window breezes and subtle ambient movement. Suitable as a background layer for indoor scenes on a pleasant day.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 1011.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "room-tone",
+        "ambience",
+        "indoor",
+        "airy"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": null,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": null,
+      "bit_depth": null,
+      "channels": null,
+      "size_bytes": 582411008,
+      "category": {
+        "id": "AMBRoom",
+        "label": "Ambience › Room Tone"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1703e406l6b0t0jxoy/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone Breezy Day Window Open\" on Soundza (https://soundza.com/sound/room-tone-breezy-day-window-open)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmtxr81vdgf68hquqjr1vt9n5",
+      "url": "https://soundza.com/sound/crashing-wave-recoding",
+      "title": "Crashing Wave Recoding",
+      "description": "Realistic ocean waves breaking on a sandy beach with rich mid-range texture and natural dynamics, capturing the layered sound of surf and water splash in stereo.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 5.02,
+      "bpm": 103,
+      "key": "G# minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "ambient",
+        "organic",
+        "layered",
+        "wet",
+        "airy"
+      ],
+      "sync_ms": null,
+      "lufs": -19.6,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -19.6,
+        "basis": "integrated"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1327192,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/D7ZWYfNCJ-jv2UJImfr82frp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr81vdgf68hquqjr1vt9n5/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crashing Wave Recoding\" on Soundza (https://soundza.com/sound/crashing-wave-recoding)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009k06ju3iqchpsf",
+      "url": "https://soundza.com/sound/waves-hitting-harbour-wall-perast-montenegro",
+      "title": "Waves Hitting Harbour Wall Perast Montenegro",
+      "description": "Waves continuously lap and crash against a stone harbour wall in Perast, Montenegro. The rhythmic sound of water impacts and splashes creates an authentic seaside ambience suitable for coastal scenes or meditative backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 98.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "field-recording",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -31.5,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -31.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 26130926,
+      "category": {
+        "id": "WATRLap",
+        "label": "Water › Lap"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fqT4LvmL7YXiXzxkW9yHfEdw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009k06ju3iqchpsf/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves Hitting Harbour Wall Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-hitting-harbour-wall-perast-montenegro)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t0v1703e106l6xmcfipdz",
+      "url": "https://soundza.com/sound/room-tone-city-centre-open-window",
+      "title": "Room Tone City Centre Open Window",
+      "description": "The interior sound of a room with an open window overlooking a busy urban street. Street noise, distant traffic, and city activity filter through the window, mixed with the acoustic character of the interior space.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 552.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "room-tone",
+        "city",
+        "traffic",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -34.5,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -34.5,
+        "basis": "integrated"
+      },
+      "gain_db": 2.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 146224994,
+      "category": {
+        "id": "AMBOffc",
+        "label": "Ambience › Office"
+      },
+      "pack": {
+        "id": "cmv5suqr500cn06jskba7xrlu",
+        "name": "City Field Recordings Vol 1: Streets, Traffic, Calls to Prayer and Room Tones",
+        "slug": "city-streets-traffic-and-construction",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/city-streets-traffic-and-construction"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/U72Ukf5lAL25-_KUesGdUCW6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t0v1703e106l6xmcfipdz/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone City Centre Open Window\" on Soundza (https://soundza.com/sound/room-tone-city-centre-open-window)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmtxr86hgz2zcusn9i4ignsry",
+      "url": "https://soundza.com/sound/ocean-waves-on-coral-reef-field-recording",
+      "title": "Ocean Waves on Coral Reef Field Recording",
+      "description": "A raw, aggressive ocean soundscape featuring crashing waves and roaring water impacts with reef texture—thick low-mid frequencies and chaotic energy ideal for layering under dramatic scenes or adding organic texture to ambient tracks.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 37.96,
+      "bpm": 136,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "noise",
+        "aggressive",
+        "atmospheric",
+        "organic",
+        "textured",
+        "ambient",
+        "cinematic"
+      ],
+      "sync_ms": null,
+      "lufs": -38.8,
+      "true_peak_db": -15.9,
+      "loudness": {
+        "value": -38.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10932658,
+      "category": {
+        "id": "WATRSurf",
+        "label": "Water › Surf"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dz5oF-5Gis1t8mmKyKMfH7Ma.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr86hgz2zcusn9i4ignsry/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Waves on Coral Reef Field Recording\" on Soundza (https://soundza.com/sound/ocean-waves-on-coral-reef-field-recording)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukgr0mqrhzf0ygnlnx1jjos",
+      "url": "https://soundza.com/sound/filtered-ocean-cave-drone",
+      "title": "Filtered Ocean Cave Drone",
+      "description": "A deep, resonant drone with an eerie ringing tone, created from ocean waves filtered through a high-pass and low-pass EQ. Perfect for looping as an atmospheric bed in horror, fantasy, or game scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "drone",
+        "ambience",
+        "ocean",
+        "horror",
+        "filtered",
+        "dark",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -24.6,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -24.6,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 16712226,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zZOQ2cgzdoBwyos0zt7KO3AE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgr0mqrhzf0ygnlnx1jjos/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Filtered Ocean Cave Drone\" on Soundza (https://soundza.com/sound/filtered-ocean-cave-drone)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukbdbc19i6667cwjk9uanr8",
+      "url": "https://soundza.com/sound/hotel-lobby-ambience-bright",
+      "title": "Hotel Lobby Ambience Bright",
+      "description": "A large, open-plan hotel lobby with subtle ambient activity—the acoustic space of a spacious reception area with light crowd murmur and occasional movement. Suitable as an atmospheric bed for hospitality or commercial scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 64.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "indoor",
+        "room-tone",
+        "crowd"
+      ],
+      "sync_ms": null,
+      "lufs": -44.4,
+      "true_peak_db": -13,
+      "loudness": {
+        "value": -44.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17037098,
+      "category": {
+        "id": "AMBPubl",
+        "label": "Ambience › Public Place"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LAsOEAYcxk15ClhFRl449DhP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbdbc19i6667cwjk9uanr8/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hotel Lobby Ambience Bright\" on Soundza (https://soundza.com/sound/hotel-lobby-ambience-bright)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmuk9qyv8c98818v8dxqwv3p2",
+      "url": "https://soundza.com/sound/street-market-ambience",
+      "title": "Street Market Ambience",
+      "description": "A bustling outdoor market in a public square with the ambient sounds of people talking, haggling, and moving about on gravel surfaces. The natural acoustic of an open marketplace with multiple conversations and activity.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 113,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "crowd",
+        "people",
+        "talking",
+        "outdoor",
+        "ambience",
+        "street"
+      ],
+      "sync_ms": null,
+      "lufs": -31.3,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -31.3,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 32544088,
+      "category": {
+        "id": "AMBMrkt",
+        "label": "Ambience › Market"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/IcQYjilfkS9gXHO6HbEKQNDr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuk9qyv8c98818v8dxqwv3p2/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Street Market Ambience\" on Soundza (https://soundza.com/sound/street-market-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmvl75cu0udpsz2dgkfo9wtjk",
+      "url": "https://soundza.com/sound/heavy-rain-ambience",
+      "title": "Heavy Rain Ambience",
+      "description": "Steady, continuous heavy rainfall recorded next to an open window, capturing the natural texture of rain on multiple surfaces with varying intensity throughout the recording.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 27.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "water",
+        "ambience",
+        "field-recording",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.2,
+      "true_peak_db": -12.9,
+      "loudness": {
+        "value": -30.2,
+        "basis": "integrated"
+      },
+      "gain_db": 10.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7916910,
+      "category": {
+        "id": "RAINGlas",
+        "label": "Rain › Glass"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6-Q4fV1wyBQEVgW110MF-LPO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl75cu0udpsz2dgkfo9wtjk/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heavy Rain Ambience\" on Soundza (https://soundza.com/sound/heavy-rain-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmvl5fkxqfws9k5qyatq1gjto",
+      "url": "https://soundza.com/sound/wood-stove-fire-burning",
+      "title": "Wood Stove Fire Burning",
+      "description": "A sustained fire crackling and roaring inside an open wood stove, with the warmth and activity of active flames consuming logs. Ideal for cozy interior scenes or as an ambient bed for fireplace moments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 20.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "crackle",
+        "ambience",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -38.2,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -38.2,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5397196,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yZUGht3mpFQRmaTuCV8BfkYn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5fkxqfws9k5qyatq1gjto/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wood Stove Fire Burning\" on Soundza (https://soundza.com/sound/wood-stove-fire-burning)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmvl75x3gvjsodlkhgh1w4ezz",
+      "url": "https://soundza.com/sound/bedroom-rain-ambience",
+      "title": "Bedroom Rain Ambience",
+      "description": "The sound of rainfall recorded from inside a bedroom with an open window, capturing the continuous patter of rain on various surfaces with gentle room acoustics. Suitable as a background bed for scenes requiring a calm, indoor rainy atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "ambience",
+        "indoor",
+        "field-recording",
+        "atmospheric",
+        "wet"
+      ],
+      "sync_ms": null,
+      "lufs": -32.4,
+      "true_peak_db": -9.4,
+      "loudness": {
+        "value": -32.4,
+        "basis": "integrated"
+      },
+      "gain_db": 8.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 13249400,
+      "category": {
+        "id": "RAINInt",
+        "label": "Rain › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/PGBP_9Sn8lTrDrdM0GoU6K8T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl75x3gvjsodlkhgh1w4ezz/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bedroom Rain Ambience\" on Soundza (https://soundza.com/sound/bedroom-rain-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmuk7h1e2bo2xoq5vkahajxkl",
+      "url": "https://soundza.com/sound/quiet-office-ambience",
+      "title": "Quiet Office Ambience",
+      "description": "An early morning open-plan office with minimal activity and subtle ambient sounds of a workplace. Soft background presence with occasional distant human movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 293.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "office",
+        "ambience",
+        "room-tone",
+        "people",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -45.6,
+      "true_peak_db": -19.1,
+      "loudness": {
+        "value": -45.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 84524054,
+      "category": {
+        "id": "AMBOffc",
+        "label": "Ambience › Office"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/x-JcuXcF_S1manqwaSV_fouK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuk7h1e2bo2xoq5vkahajxkl/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Quiet Office Ambience\" on Soundza (https://soundza.com/sound/quiet-office-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmukiau8i6egon3n8t7trp3qx",
+      "url": "https://soundza.com/sound/f1-race-track-ambience",
+      "title": "F1 Race Track Ambience",
+      "description": "The intense acoustic environment of a Formula 1 race at full speed, capturing multiple high-performance engines roaring past a trackside position during the opening lap. Engine noise dominates with rich harmonic content and complex layering from the car pack.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 74.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "F1",
+      "mood": [],
+      "tags": [
+        "engine"
+      ],
+      "sync_ms": null,
+      "lufs": -10.6,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -10.6,
+        "basis": "integrated"
+      },
+      "gain_db": -9.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19805104,
+      "category": {
+        "id": "SPRTField",
+        "label": "Sports › Field"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/a_jaLDoAnucA-k2Sm9bG2KoR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukiau8i6egon3n8t7trp3qx/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"F1 Race Track Ambience\" on Soundza (https://soundza.com/sound/f1-race-track-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmvl76scmfsqdru3q2rw5rfmd",
+      "url": "https://soundza.com/sound/heavy-rain-on-window",
+      "title": "Heavy Rain on Window",
+      "description": "Heavy rain pattering against a slightly open window with distant storm sounds. The recording captures both the close-up splatter of rain hitting glass and the ambient weather in the background, suitable as a loopable atmospheric bed.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "ambience",
+        "field-recording",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -32.8,
+      "true_peak_db": -14.3,
+      "loudness": {
+        "value": -32.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3763286,
+      "category": {
+        "id": "RAINGlas",
+        "label": "Rain › Glass"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VAz4rRSmUQUmKDyGOqmWneip.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl76scmfsqdru3q2rw5rfmd/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heavy Rain on Window\" on Soundza (https://soundza.com/sound/heavy-rain-on-window)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t276203g906l6vgko87i9",
+      "url": "https://soundza.com/sound/room-tone-church-bell-outside",
+      "title": "Room Tone Church Bell Outside",
+      "description": "A distant church bell rings periodically in an open outdoor space with subtle ambient noise and natural reverb. The recording captures the calm atmosphere of a church exterior with minimal activity.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 192.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "outdoor",
+        "distant",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -41.8,
+      "true_peak_db": -19.7,
+      "loudness": {
+        "value": -41.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 110826334,
+      "category": {
+        "id": "AMBRlgn",
+        "label": "Ambience › Religious"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/S5mHWLo-R5VTUzQvktD8iKh5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t276203g906l6vgko87i9/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Room Tone Church Bell Outside\" on Soundza (https://soundza.com/sound/room-tone-church-bell-outside)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5t47mo00bg06juve2p2spk",
+      "url": "https://soundza.com/sound/woodies-park-windy-morning-aberdeen-scotland",
+      "title": "Woodies Park Windy Morning Aberdeen Scotland",
+      "description": "A breezy outdoor ambience recorded in a Scottish park, capturing the natural wind moving through vegetation with subtle environmental sounds of an open space at dawn or early morning.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 188.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -38.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -38.2,
+        "basis": "integrated"
+      },
+      "gain_db": -1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 108746606,
+      "category": {
+        "id": "AMBPark",
+        "label": "Ambience › Park"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l8E-MnJH9wzHeY8rj90N6UfM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t47mo00bg06juve2p2spk/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Woodies Park Windy Morning Aberdeen Scotland\" on Soundza (https://soundza.com/sound/woodies-park-windy-morning-aberdeen-scotland)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmuk7ovvcthsxnxsje83jkk45",
+      "url": "https://soundza.com/sound/small-apartment-kitchen-ambience",
+      "title": "Small Apartment Kitchen Ambience",
+      "description": "A field recording of a quiet urban kitchen at night, with a ticking clock, soft appliance sounds, and distant city traffic filtered through an open window. Ideal for establishing a domestic interior atmosphere or layering under dialogue scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 207.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "night",
+        "field-recording",
+        "room-tone"
+      ],
+      "sync_ms": null,
+      "lufs": -46.5,
+      "true_peak_db": -27.2,
+      "loudness": {
+        "value": -46.5,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 59643566,
+      "category": {
+        "id": "AMBHome",
+        "label": "Ambience › Residential"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3SuIGk9-BZQ47OXc5Dv-AZ-V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuk7ovvcthsxnxsje83jkk45/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Apartment Kitchen Ambience\" on Soundza (https://soundza.com/sound/small-apartment-kitchen-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmukgi7t7l3lw6zr73wf9f28d",
+      "url": "https://soundza.com/sound/parking-garage-wind",
+      "title": "Parking Garage Wind",
+      "description": "An eerie, tonal wind flowing through the concrete corridors and openings of a multi-level parking structure. The sound is sustained and atmospheric, ideal for horror, haunted, or unsettling game and film scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 49.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "indoor",
+        "horror",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -21.1,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -21.1,
+        "basis": "integrated"
+      },
+      "gain_db": 1.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 7064724,
+      "category": {
+        "id": "WINDInt",
+        "label": "Wind › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mPTi4n6qSxAD1m0LcaEf8okR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgi7t7l3lw6zr73wf9f28d/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Parking Garage Wind\" on Soundza (https://soundza.com/sound/parking-garage-wind)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmuk9pv1y9mbwx7w6b22c80kl",
+      "url": "https://soundza.com/sound/turkish-bazaar-market-ambience",
+      "title": "Turkish Bazaar Market Ambience",
+      "description": "A lively open-air market in Turkey filled with vendors and customers haggling and calling out wares. The binaural recording captures the bustle and chatter of a busy bazaar from a shopper's perspective.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 240.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "crowd",
+        "ambience",
+        "field-recording",
+        "outdoor",
+        "people"
+      ],
+      "sync_ms": null,
+      "lufs": -17.9,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -17.9,
+        "basis": "integrated"
+      },
+      "gain_db": -2.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 138344544,
+      "category": {
+        "id": "AMBMrkt",
+        "label": "Ambience › Market"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VRqmwX1MRGL542i6QPUFEv96.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuk9pv1y9mbwx7w6b22c80kl/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Turkish Bazaar Market Ambience\" on Soundza (https://soundza.com/sound/turkish-bazaar-market-ambience)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5syutn02r506l64mo6znuf",
+      "url": "https://soundza.com/sound/scottish-highlands-ambience-10",
+      "title": "Scottish Highlands Ambience 10",
+      "description": "An open outdoor environment with natural wind, distant rain, and occasional bird activity across rolling terrain. Suitable as a atmospheric bed for nature scenes or cinematic moments set in wild landscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 207.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "nature",
+        "outdoor",
+        "wind",
+        "rain",
+        "birds",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -38.1,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -38.1,
+        "basis": "integrated"
+      },
+      "gain_db": 1.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 59768994,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XvQvlFFXm7pxdjyQCvEU8M_M.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5syutn02r506l64mo6znuf/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Scottish Highlands Ambience 10\" on Soundza (https://soundza.com/sound/scottish-highlands-ambience-10)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmt2j50k0000004jsig5ij0s2",
+      "url": "https://soundza.com/sound/ocean-ambient-beach-texture",
+      "title": "Ocean Ambient Beach Texture",
+      "description": "A lush, airy ocean wave texture with gentle crashing and rolling water sounds that creates an ethereal, spacious ambient atmosphere. The warm, organic field recording captures the hypnotic rhythm of surf with soft, layered waves ideal for cinematic underscore or meditative soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 70.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "ambient",
+        "ethereal",
+        "atmospheric",
+        "pad",
+        "organic",
+        "dreamy"
+      ],
+      "sync_ms": null,
+      "lufs": -40.4,
+      "true_peak_db": -15.4,
+      "loudness": {
+        "value": -40.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18756188,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8Lw95hZFTujp_wYjdgisUp6w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2j50k0000004jsig5ij0s2/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Ambient Beach Texture\" by Sean Joad on Soundza (https://soundza.com/sound/ocean-ambient-beach-texture)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5syuto02rm06l6co6xse3k",
+      "url": "https://soundza.com/sound/scottish-highlands-ambience-9",
+      "title": "Scottish Highlands Ambience 9",
+      "description": "A natural outdoor recording of the Scottish Highlands featuring rain, wind, and distant bird calls layered over the ambient soundscape of an open landscape. Suitable as a background bed for nature documentaries, outdoor scenes, or atmospheric underscore.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 176.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "wind",
+        "birds",
+        "nature",
+        "outdoor",
+        "ambience",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -34.5,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -34.5,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 50777212,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/alHxIhFmCnk4e7Jm5dY-dUiA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5syuto02rm06l6co6xse3k/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Scottish Highlands Ambience 9\" on Soundza (https://soundza.com/sound/scottish-highlands-ambience-9)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmt2isrz4000004l2s4w5gqtv",
+      "url": "https://soundza.com/sound/warm-beach-ambient",
+      "title": "Warm Beach Ambient",
+      "description": "A lush, atmospheric beach soundscape dominated by gentle wave textures and ambient ocean ambience with a soft, airy quality. The sound sits in the low-mid frequency range, creating an ethereal, immersive pad-like texture perfect for meditative and cinematic contexts.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 79.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "foley",
+        "pad",
+        "atmospheric",
+        "ethereal",
+        "airy",
+        "texture",
+        "wet"
+      ],
+      "sync_ms": null,
+      "lufs": -40.2,
+      "true_peak_db": -11.5,
+      "loudness": {
+        "value": -40.2,
+        "basis": "integrated"
+      },
+      "gain_db": 10.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45899052,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tU30AaLO_uIGgQakyTQa55dg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2isrz4000004l2s4w5gqtv/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Warm Beach Ambient\" by Sean Joad on Soundza (https://soundza.com/sound/warm-beach-ambient)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5syutn02r706l611741px1",
+      "url": "https://soundza.com/sound/scottish-highlands-ambience-12",
+      "title": "Scottish Highlands Ambience 12",
+      "description": "Open moorland recording with wind, distant rain, and subtle bird activity across the landscape. A natural field recording suited as background for outdoor scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 280.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "nature",
+        "wind",
+        "rain",
+        "outdoor",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -37.5,
+      "true_peak_db": -10.3,
+      "loudness": {
+        "value": -37.5,
+        "basis": "integrated"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 80926122,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UfkrTDyZHG_PkqfuYsoY2QGM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5syutn02r706l611741px1/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Scottish Highlands Ambience 12\" on Soundza (https://soundza.com/sound/scottish-highlands-ambience-12)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmtajgvodpbd4lrygs1eu9233",
+      "url": "https://soundza.com/sound/real-ocean-beach-sounds",
+      "title": "Real ocean beach sounds",
+      "description": "Authentic ocean beach ambience with rolling waves, subtle undertones, and natural field recording character—a rich, airy soundscape with moderate spectral activity centered in the mid-frequencies ideal for layering beneath cinematic or ambient productions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 32.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "atmospheric",
+        "organic",
+        "airy",
+        "texture",
+        "pad"
+      ],
+      "sync_ms": null,
+      "lufs": -36.2,
+      "true_peak_db": -20.4,
+      "loudness": {
+        "value": -36.2,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8560600,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nz66zdmDfGRWGoxMLMNFmoeA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtajgvodpbd4lrygs1eu9233/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Real ocean beach sounds\" on Soundza (https://soundza.com/sound/real-ocean-beach-sounds)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009a06juc9k29wut",
+      "url": "https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage",
+      "title": "River Water Flowing from Different Directions The Hermitage Scotland 1",
+      "description": "A continuous recording of river water flowing from multiple directions in a natural Scottish landscape. The sound captures the dynamic movement and layered textures of flowing water in an open environment.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 148.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -32.6,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -32.6,
+        "basis": "integrated"
+      },
+      "gain_db": 5.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85390216,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Jv-9lwLz1oLCHgLCRXV53SLV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009a06juc9k29wut/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Water Flowing from Different Directions The Hermitage Scotland 1\" on Soundza (https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmtxrazmy7tspx8inju29dfx4",
+      "url": "https://soundza.com/sound/relaxing-vibes-beach-texture",
+      "title": "Relaxing Vibes Beach Texture",
+      "description": "A rhythmic, organic soundscape of waves rolling across a pebbly beach with layered textures of crashing water and shifting stones. The sound has a natural, unprocessed character with subtle tonal variation across the frequency spectrum, creating an immersive coastal atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 21.84,
+      "bpm": 161,
+      "key": "E minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "atmospheric",
+        "organic",
+        "texture",
+        "loop",
+        "airy"
+      ],
+      "sync_ms": null,
+      "lufs": -25.8,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -25.8,
+        "basis": "integrated"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6290782,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2XooPRcDlMtgCKoz8q6OnDIV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxrazmy7tspx8inju29dfx4/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Relaxing Vibes Beach Texture\" on Soundza (https://soundza.com/sound/relaxing-vibes-beach-texture)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmt2iswh1000404l21y1nkcm3",
+      "url": "https://soundza.com/sound/bright-beach-rocks",
+      "title": "Bright Beach Rocks",
+      "description": "A natural, organic field recording of beach rocks and ocean waves with a bright, airy mid-range presence and minimal low-end weight. The texture is textured and atmospheric with crispy high-frequency detail from wave action and stone movement, ideal for ambient soundscaping and cinematic underscore.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 66.12,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy",
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "airy",
+        "organic",
+        "atmospheric",
+        "cinematic",
+        "ambient"
+      ],
+      "sync_ms": null,
+      "lufs": -22.4,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -22.4,
+        "basis": "integrated"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 38087376,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WS6dZUR1H2_GiLA644-83-iQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2iswh1000404l21y1nkcm3/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Beach Rocks\" by Sean Joad on Soundza (https://soundza.com/sound/bright-beach-rocks)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmtxr7inwi9w6ol27gsu694qx",
+      "url": "https://soundza.com/sound/soft-hawaiian-ocean-field-recording",
+      "title": "Soft Hawaiian Ocean Field Recording",
+      "description": "A dynamic oceanic soundscape capturing crashing waves, ocean roar, and ambient environmental textures with seabirds and wind—rich with natural depth and movement, perfect for immersive atmospheric backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 32.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "atmospheric",
+        "ambient",
+        "organic",
+        "texture",
+        "reverb",
+        "cinematic"
+      ],
+      "sync_ms": null,
+      "lufs": -34.6,
+      "true_peak_db": 1.7,
+      "loudness": {
+        "value": -34.6,
+        "basis": "integrated"
+      },
+      "gain_db": -2.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 9266890,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MGuZohtT25P0YAbeHpDi6xG3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr7inwi9w6ol27gsu694qx/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Hawaiian Ocean Field Recording\" on Soundza (https://soundza.com/sound/soft-hawaiian-ocean-field-recording)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmtxr7pnlnp29hmo7a6viby4p",
+      "url": "https://soundza.com/sound/soft-hawaiian-ocean-with-wind",
+      "title": "Soft Hawaiian Ocean With Wind",
+      "description": "A dynamic, multi-layered ocean soundscape capturing the raw power of waves crashing onto a tropical beach with coral reefs, featuring deep roaring swells, splashing water textures, and ambient wind sighs that create an immersive, naturalistic coastal atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 37.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "ambient",
+        "organic",
+        "cinematic",
+        "layered",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -40.9,
+      "true_peak_db": -9.2,
+      "loudness": {
+        "value": -40.9,
+        "basis": "integrated"
+      },
+      "gain_db": 8.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10855954,
+      "category": {
+        "id": "WATRSurf",
+        "label": "Water › Surf"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2cJ_tXOsnqOK7vx1grWDI91k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr7pnlnp29hmo7a6viby4p/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Hawaiian Ocean With Wind\" on Soundza (https://soundza.com/sound/soft-hawaiian-ocean-with-wind)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmtxr8lenpwbdsle6jsp98dyh",
+      "url": "https://soundza.com/sound/ocean-field-recording",
+      "title": "Ocean Field Recording",
+      "description": "A dramatic ocean roar with crashing waves and foaming surf, capturing the raw power of water hitting exposed coral reef with layered splashes and deep rumbling undertones. The naturalistic texture combines mid-range wave crashes with subtle low-frequency roar, creating an immersive coastal soundscape ideal for atmosphere and environmental depth.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 5.72,
+      "bpm": 129,
+      "key": "C# minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "pad",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -37.8,
+      "true_peak_db": -15.3,
+      "loudness": {
+        "value": -37.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1648718,
+      "category": {
+        "id": "WATRSurf",
+        "label": "Water › Surf"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tCnmV3jjJcGOg2YmRS5sz17y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr8lenpwbdsle6jsp98dyh/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Field Recording\" on Soundza (https://soundza.com/sound/ocean-field-recording)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukbims03xfbn26xvrlmtzoj",
+      "url": "https://soundza.com/sound/underwater-whale-song-ambience",
+      "title": "Underwater Whale Song Ambience",
+      "description": "A immersive underwater recording of whales vocalizing and moving through the ocean, captured in French Polynesia. The tonal whale calls blend with ambient water movement, creating a calming deep-sea atmosphere suitable for underwater or nature scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ocean",
+        "ambience",
+        "field-recording",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -16.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -16.6,
+        "basis": "integrated"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15901992,
+      "category": {
+        "id": "WATRUndwtr",
+        "label": "Water › Underwater"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Up-MjKMB_WvatSpn6esmHlXM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbims03xfbn26xvrlmtzoj/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Underwater Whale Song Ambience\" on Soundza (https://soundza.com/sound/underwater-whale-song-ambience)",
+      "matched_words": [
+        "sea"
+      ]
+    },
+    {
+      "id": "cmtxreypac9gpf3kzaurym2gj",
+      "url": "https://soundza.com/sound/windy-ambient-texture",
+      "title": "Windy Ambient Texture",
+      "description": "A atmospheric, noisy wind sound with whistling tones cutting through—reminiscent of gale-force gusts around boat rigging and harbour structures. The thin, high-frequency texture has a crispy, metallic quality that evokes storm conditions and open water environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 71.96,
+      "bpm": 92,
+      "key": "D minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark",
+        "airy"
+      ],
+      "tags": [
+        "noise",
+        "foley",
+        "atmospheric",
+        "texture",
+        "crispy",
+        "dark",
+        "airy",
+        "ambient"
+      ],
+      "sync_ms": null,
+      "lufs": -22.6,
+      "true_peak_db": -2.8,
+      "loudness": {
+        "value": -22.6,
+        "basis": "integrated"
+      },
+      "gain_db": 1.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20724566,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5k-PYrt7XotNgi2nGmWP1nQC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxreypac9gpf3kzaurym2gj/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Windy Ambient Texture\" on Soundza (https://soundza.com/sound/windy-ambient-texture)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmtxrbj444obrah10r0ywhdtf",
+      "url": "https://soundza.com/sound/seagull-calling-loop",
+      "title": "Seagull Calling Loop",
+      "description": "Naturalistic seagull calls and ambient bird chatter recorded in an open field, with crispy high-midrange frequencies and organic texture perfect for nature scenes and atmospheric underscore. The sound has minimal bass content and maintains an airy, lightly processed character typical of field recordings.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 14.55,
+      "bpm": 161,
+      "key": "C minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "vocal",
+        "bright",
+        "organic",
+        "airy",
+        "atmospheric",
+        "texture",
+        "ambient"
+      ],
+      "sync_ms": null,
+      "lufs": -20.5,
+      "true_peak_db": -6.3,
+      "loudness": {
+        "value": -20.5,
+        "basis": "integrated"
+      },
+      "gain_db": 0.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4189670,
+      "category": {
+        "id": "BIRDSea",
+        "label": "Birds › Sea"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-IpbIoA-9trRziosgam4fj_f.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxrbj444obrah10r0ywhdtf/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Seagull Calling Loop\" on Soundza (https://soundza.com/sound/seagull-calling-loop)",
+      "matched_words": [
+        "open"
+      ]
+    },
+    {
+      "id": "cmv5skykn000t06l2t8ue1ot2",
+      "url": "https://soundza.com/sound/beach-ambience-2",
+      "title": "Beach Ambience 2",
+      "description": "The continuous sound of waves lapping and ocean surf with natural beach textures. A serene coastal environment suitable as a background layer for seaside scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 79.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beach",
+        "ocean",
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -28.9,
+      "true_peak_db": -8.4,
+      "loudness": {
+        "value": -28.9,
+        "basis": "integrated"
+      },
+      "gain_db": 7.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45899050,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/joAU1N0xII9D6AlWkKLgS4cH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5skykn000t06l2t8ue1ot2/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Ambience 2\" on Soundza (https://soundza.com/sound/beach-ambience-2)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5skykn000u06l2w2k4vp1g",
+      "url": "https://soundza.com/sound/beach-ambience-3",
+      "title": "Beach Ambience 3",
+      "description": "The natural soundscape of a beach with waves, distant surf, and occasional wind. Suitable as a bed for coastal scenes or nature documentaries.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 79.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beach",
+        "ocean",
+        "water",
+        "outdoor",
+        "nature",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -29.5,
+      "true_peak_db": -10.2,
+      "loudness": {
+        "value": -29.5,
+        "basis": "integrated"
+      },
+      "gain_db": 9.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45899050,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JPwx-X0EeLh_usj-KUw1aPOt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5skykn000u06l2w2k4vp1g/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Ambience 3\" on Soundza (https://soundza.com/sound/beach-ambience-3)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5skykn000v06l274oxsk5w",
+      "url": "https://soundza.com/sound/beach-ambience-1",
+      "title": "Beach Ambience 1",
+      "description": "The sound of a beach environment with waves, wind, and natural seaside activity. Suitable as a continuous background bed for coastal scenes or relaxation content.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 104.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beach",
+        "ocean",
+        "nature",
+        "ambience",
+        "outdoor",
+        "water"
+      ],
+      "sync_ms": null,
+      "lufs": -32.2,
+      "true_peak_db": -12.4,
+      "loudness": {
+        "value": -32.2,
+        "basis": "integrated"
+      },
+      "gain_db": 11.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 60441298,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YS2RaJDUlrB7X1ehc5Khrf1w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5skykn000v06l274oxsk5w/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Ambience 1\" on Soundza (https://soundza.com/sound/beach-ambience-1)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5skykn000s06l2adfvehz7",
+      "url": "https://soundza.com/sound/beach-on-a-windy-day-tamraght-morocco",
+      "title": "Beach On A Windy Day Tamraght Morocco",
+      "description": "A coastal environment with wind and ocean waves, capturing the dynamic atmosphere of a beach on a blustery day. Suitable as a background bed for seaside scenes or nature content.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 28.95,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beach",
+        "wind",
+        "ocean",
+        "ambience",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -52.5,
+      "true_peak_db": -25.7,
+      "loudness": {
+        "value": -52.5,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8338278,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ilaj4OvT1Vl826K0WBwP7bHy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5skykn000s06l2adfvehz7/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach On A Windy Day Tamraght Morocco\" on Soundza (https://soundza.com/sound/beach-on-a-windy-day-tamraght-morocco)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5skykn000y06l234dhi6vv",
+      "url": "https://soundza.com/sound/beach-on-a-windy-day-anchor-point-tagahzout-morocco",
+      "title": "Beach On A Windy Day Anchor Point Tagahzout Morocco",
+      "description": "The natural soundscape of a windswept beach with rolling waves, wind gusts, and ocean air. Ideal as a continuous bed for coastal scenes or travel footage.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 528.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "beach",
+        "ocean",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -50.6,
+      "true_peak_db": -14.3,
+      "loudness": {
+        "value": -50.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 152150132,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v0ujfR1Uz922yzAKZjI28-Gu.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5skykn000y06l234dhi6vv/file?search_id=zcwuih3tqpznzv42aqtpcb1y",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach On A Windy Day Anchor Point Tagahzout Morocco\" on Soundza (https://soundza.com/sound/beach-on-a-windy-day-anchor-point-tagahzout-morocco)",
+      "matched_words": [
+        "waves"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "open sea waves",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": "ambient/experimental",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [
+      "background_bed"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for ambience of open sea waves. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"open sea waves ambience\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "zcwuih3tqpznzv42aqtpcb1y"
+}

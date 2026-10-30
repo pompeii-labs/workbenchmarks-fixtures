@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/ocean-bed.wav",
+  "sha": "8b826023e8f021d6",
+  "want": "open sea ambience: gentle waves and light wind out on the water, no boats, no voices",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    8,
+    8,
+    9
+  ],
+  "fit": 8,
+  "heard": "Continuous ocean surf ambience: rolling low-frequency wave rumble with periodic swells that build and fade, layered over a steady mid-to-high wind hiss. The waves sound large and moderately distant — more like surf heard from a shoreline or just offshore than choppy open water. There is no discrete tail; the swells decay naturally into the wind bed over a couple of seconds before the next one builds. No voices, no boats, no birds, no debris impacts.",
+  "sounds_like": "Standing on a windy beach listening to ocean surf rolling in.",
+  "problems": "The wave swells read as breaking shore surf rather than the subtle, undulating slop of true open sea — the low-end boom may feel too heavy for 'gentle waves out on the water' and could imply land nearby. Wind is present but leans toward a steady hiss rather than light, gusty open-air wind. Otherwise clean, loop-friendly, and free of the forbidden elements.",
+  "veto": false
+}

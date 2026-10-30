@@ -7,3 +7,6 @@ artifacts/playtest-ledger.json
 .DS_Store
 .env
 .env.*
+scratch/
+artifacts/sound/raw/
+artifacts/sound/tmp/

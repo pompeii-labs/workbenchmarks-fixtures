@@ -468,3 +468,4 @@ kbd {
   .popup.big { font-size: 1.5rem; }
   #air-readout { bottom: calc(max(18px, env(safe-area-inset-bottom)) + 205px); font-size: 1.25rem; }
 }
+.credit a { color: inherit; }

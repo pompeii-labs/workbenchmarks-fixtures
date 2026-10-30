@@ -1,0 +1,16 @@
+{
+  "file": "scratch/w-cmvovvwfprh1lwgyaa0rblbl7.mp3",
+  "sha": "0eb196a382c5cd2b",
+  "want": "a body and machine crashing hard into the sea: a huge chaotic water crash splash with churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    1,
+    2,
+    1
+  ],
+  "fit": 1,
+  "heard": "Two short, small-scale water splashes in quick succession — the first a light plop like a small object or body dropping into water, the second slightly heavier with a bit more impact and displacement. Both are close-miked and clean, with a very short tail: the water settles almost immediately, no churning, no chaos, no large-scale wave movement. Faint background noise/room tone underneath.",
+  "sounds_like": "Someone tossing a couple of rocks or a small body into a pool or bathtub",
+  "problems": "Completely wrong scale — these are small, tidy, close-up splashes, not a huge chaotic crash. No heavy impact weight, no machine or metal element, no massive water displacement, and the tail dies out in under a second instead of churning. Would need to be layered with a large impact, deep low-end boom, and extended turbulent water to come anywhere near the brief.",
+  "veto": true
+}

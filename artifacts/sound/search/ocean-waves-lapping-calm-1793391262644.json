@@ -1,0 +1,3527 @@
+{
+  "query": {
+    "q": "ocean waves lapping calm",
+    "good_for": "background_bed",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 301,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=ocean+waves+lapping+calm&good_for=background_bed&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmtxr86hgz2zcusn9i4ignsry",
+      "url": "https://soundza.com/sound/ocean-waves-on-coral-reef-field-recording",
+      "title": "Ocean Waves on Coral Reef Field Recording",
+      "description": "A raw, aggressive ocean soundscape featuring crashing waves and roaring water impacts with reef texture—thick low-mid frequencies and chaotic energy ideal for layering under dramatic scenes or adding organic texture to ambient tracks.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 37.96,
+      "bpm": 136,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "noise",
+        "aggressive",
+        "atmospheric",
+        "organic",
+        "textured",
+        "ambient",
+        "cinematic"
+      ],
+      "sync_ms": null,
+      "lufs": -38.8,
+      "true_peak_db": -15.9,
+      "loudness": {
+        "value": -38.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10932658,
+      "category": {
+        "id": "WATRSurf",
+        "label": "Water › Surf"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dz5oF-5Gis1t8mmKyKMfH7Ma.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr86hgz2zcusn9i4ignsry/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Waves on Coral Reef Field Recording\" on Soundza (https://soundza.com/sound/ocean-waves-on-coral-reef-field-recording)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmt2j50k0000004jsig5ij0s2",
+      "url": "https://soundza.com/sound/ocean-ambient-beach-texture",
+      "title": "Ocean Ambient Beach Texture",
+      "description": "A lush, airy ocean wave texture with gentle crashing and rolling water sounds that creates an ethereal, spacious ambient atmosphere. The warm, organic field recording captures the hypnotic rhythm of surf with soft, layered waves ideal for cinematic underscore or meditative soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 70.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "ambient",
+        "ethereal",
+        "atmospheric",
+        "pad",
+        "organic",
+        "dreamy"
+      ],
+      "sync_ms": null,
+      "lufs": -40.4,
+      "true_peak_db": -15.4,
+      "loudness": {
+        "value": -40.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18756188,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8Lw95hZFTujp_wYjdgisUp6w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2j50k0000004jsig5ij0s2/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Ambient Beach Texture\" by Sean Joad on Soundza (https://soundza.com/sound/ocean-ambient-beach-texture)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "ocean",
+        "waves",
+        "lapping"
+      ]
+    },
+    {
+      "id": "cmukgr0mqrhzf0ygnlnx1jjos",
+      "url": "https://soundza.com/sound/filtered-ocean-cave-drone",
+      "title": "Filtered Ocean Cave Drone",
+      "description": "A deep, resonant drone with an eerie ringing tone, created from ocean waves filtered through a high-pass and low-pass EQ. Perfect for looping as an atmospheric bed in horror, fantasy, or game scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "drone",
+        "ambience",
+        "ocean",
+        "horror",
+        "filtered",
+        "dark",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -24.6,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -24.6,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 16712226,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zZOQ2cgzdoBwyos0zt7KO3AE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgr0mqrhzf0ygnlnx1jjos/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Filtered Ocean Cave Drone\" on Soundza (https://soundza.com/sound/filtered-ocean-cave-drone)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmsf1twks001504l4ks13xzqz",
+      "url": "https://soundza.com/sound/beach-waves-ambience",
+      "title": "Beach Waves Ambience",
+      "description": "A layered beach ambience capturing the rhythmic crash and wash of ocean waves with subtle wind textures, creating a natural, spacious soundscape with organic depth and movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 297.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "wet",
+        "layered"
+      ],
+      "sync_ms": null,
+      "lufs": -25,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85767662,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LKJz00wDtt6VTfquLgkuGSGa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf1twks001504l4ks13xzqz/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Waves Ambience\" by Sean Joad on Soundza (https://soundza.com/sound/beach-waves-ambience)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukg811ecno05cap87fqne2x",
+      "url": "https://soundza.com/sound/sea-cave-ambience",
+      "title": "Sea Cave Ambience",
+      "description": "A coastal cave filled with the sounds of waves crashing and water dripping, capturing the echoing reverb and moisture of a seaside cavern. Ideal for underwater scenes, dungeon atmospheres, or any location needing a damp, cavernous quality.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -32.4,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -32.4,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 38873170,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tv9rYRmfQu_rkYssiynJnoqV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg811ecno05cap87fqne2x/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sea Cave Ambience\" on Soundza (https://soundza.com/sound/sea-cave-ambience)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009k06ju3iqchpsf",
+      "url": "https://soundza.com/sound/waves-hitting-harbour-wall-perast-montenegro",
+      "title": "Waves Hitting Harbour Wall Perast Montenegro",
+      "description": "Waves continuously lap and crash against a stone harbour wall in Perast, Montenegro. The rhythmic sound of water impacts and splashes creates an authentic seaside ambience suitable for coastal scenes or meditative backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 98.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "field-recording",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -31.5,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -31.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 26130926,
+      "category": {
+        "id": "WATRLap",
+        "label": "Water › Lap"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fqT4LvmL7YXiXzxkW9yHfEdw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009k06ju3iqchpsf/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves Hitting Harbour Wall Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-hitting-harbour-wall-perast-montenegro)",
+      "matched_words": [
+        "ocean",
+        "waves",
+        "lapping"
+      ]
+    },
+    {
+      "id": "cmv1dqtac005y06l8pgx8x9yw",
+      "url": "https://soundza.com/sound/synth-wave",
+      "title": "Synth Wave",
+      "description": "A moody, sustained synthesizer composition with warm harmonic textures and minimal percussive elements. Rich for ambient sci-fi soundscapes, cinematic underscore, or atmospheric background beds in games and video projects.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 192.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic",
+        "dark"
+      ],
+      "tags": [
+        "synth",
+        "electronic",
+        "atmospheric",
+        "pad",
+        "cinematic",
+        "dark",
+        "drone",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -12.6,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -12.6,
+        "basis": "integrated"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 50817100,
+      "category": null,
+      "pack": {
+        "id": "cmv1docza004x06l882rsmll4",
+        "name": "Sci-Fi & Cyberpunk Music",
+        "slug": "sci-fi-and-cyberpunk-music",
+        "sound_count": 40,
+        "url": "https://soundza.com/packs/sci-fi-and-cyberpunk-music"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/77e_u9K5Qn_eArFoURtK23u2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1dqtac005y06l8pgx8x9yw/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Synth Wave\" on Soundza (https://soundza.com/sound/synth-wave)",
+      "matched_words": [
+        "waves"
+      ]
+    },
+    {
+      "id": "xqzw2bbebv8lmdix4z6yxhiv",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-8",
+      "title": "Calm Felt Piano Bed 8",
+      "description": "A serene, sustained piano pad with soft harmonic movement and minimal attack. Designed as a warm, meditative underscore that works as a complete mix.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 75.1,
+      "bpm": null,
+      "key": "F# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "warm",
+        "mellow",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.5,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.5,
+        "basis": "integrated"
+      },
+      "gain_db": -4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19872086,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EMMd9yfFTa31HLiBxRLzN1Hh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/xqzw2bbebv8lmdix4z6yxhiv/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 8\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-8)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "m5y8pvsj08694tld3f4tkgek",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-10",
+      "title": "Calm Felt Piano Bed 10",
+      "description": "A serene, sustained piano pad with gentle harmonic movement and minimal attack. Designed as a soothing underscore for video, film, or meditation content.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 91.3,
+      "bpm": null,
+      "key": "D# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "pad",
+        "piano",
+        "ambient",
+        "warm",
+        "minimal",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 24157528,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oaogOUBmVeS00xn4rZCYJvMm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/m5y8pvsj08694tld3f4tkgek/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 10\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-10)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "c9gn46ttiu161qiapavynpyp",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-7",
+      "title": "Calm Felt Piano Bed 7",
+      "description": "A sustained, mellow piano bed with soft harmonic motion, designed to sit underneath dialogue or imagery without drawing attention. The warm low-to-mid frequency balance creates an intimate, contemplative mood.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 171.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft",
+        "cinematic"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "warm",
+        "soft",
+        "cinematic",
+        "minimal",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45308246,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v3LVd6ixH4ZGJmlipmInC0Ea.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/c9gn46ttiu161qiapavynpyp/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 7\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-7)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "ns6zxqxgob9ajblmbir6gymh",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-11",
+      "title": "Calm Felt Piano Bed 11",
+      "description": "A gentle, sustained piano pad with warm low-mid tones and minimal attack, creating a mellow underscore for background use. Suitable for calming scenes, meditative content, or as a music bed under dialogue or visuals.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 90.49,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "warm",
+        "mellow",
+        "ambient",
+        "lo-fi",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23943256,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2UyO77XlKVhMLUFQcH65X0sA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ns6zxqxgob9ajblmbir6gymh/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 11\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-11)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "fhwtb1gmn0qsn90blbtl0ss4",
+      "url": "https://soundza.com/sound/calm-piano-bed-1",
+      "title": "Calm Piano Bed",
+      "description": "A serene, sustained piano pad with warm low-mid tones and minimal movement. Ideal as an underscore or background layer for contemplative scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 90,
+      "bpm": null,
+      "key": "D# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "warm",
+        "ambient",
+        "ethereal",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -14.1,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -14.1,
+        "basis": "integrated"
+      },
+      "gain_db": -1.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23814080,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8IeuN4KIMHwdYuozzEng1hqZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/fhwtb1gmn0qsn90blbtl0ss4/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Piano Bed\" on Soundza (https://soundza.com/sound/calm-piano-bed-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "md0qum8u6qypvb0km04f2sl3",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-9",
+      "title": "Calm Felt Piano Bed 9",
+      "description": "A warm, sustained piano pad with gentle harmonic movement. Soft and atmospheric, ideal for underlying calm scenes or meditative backgrounds.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 118.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "warm",
+        "atmospheric",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31435862,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xuWd0cak39bEsSejUYe5YWoC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/md0qum8u6qypvb0km04f2sl3/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 9\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-9)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "k8qr32zfmigojdmb0hm5k1ol",
+      "url": "https://soundza.com/sound/calm-felt-piano-bed-6",
+      "title": "Calm Felt Piano Bed 6",
+      "description": "A warm, tonal piano pad with gentle harmonic motion and minimal attack, suited for underscore and background accompaniment. The sustained, evolving texture provides a stable emotional foundation without demanding attention.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 90.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "warm",
+        "ambient",
+        "keys",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 24026198,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OscxqXBaW2QKorzNlAUaPMV2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/k8qr32zfmigojdmb0hm5k1ol/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Felt Piano Bed 6\" on Soundza (https://soundza.com/sound/calm-felt-piano-bed-6)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "si5tfhx3ot2f6vo6kqoxuq7h",
+      "url": "https://soundza.com/sound/calm-ambient-strings-bed-1",
+      "title": "Calm Ambient Strings Bed 1",
+      "description": "A serene orchestral strings arrangement with sustained tonal character, designed as an ambient underscore or background layer for picture or meditation content. Slow-moving, with minimal percussive events and warm low-mid harmonic presence.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 71.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "strings",
+        "ambient",
+        "pad",
+        "warm",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18980444,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R7ZqXfaJbXfjD5I0kvv1fd0z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/si5tfhx3ot2f6vo6kqoxuq7h/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Ambient Strings Bed 1\" on Soundza (https://soundza.com/sound/calm-ambient-strings-bed-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "ikca4ya36a5jonqb6rw6hu0u",
+      "url": "https://soundza.com/sound/calm-piano-bed",
+      "title": "Calm Piano Bed",
+      "description": "A gentle, sustained piano melody with warm low-to-mid range tones, creating a serene and meditative atmosphere suitable for background accompaniment in video or media projects.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 90,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "ambient",
+        "pad",
+        "warm",
+        "melodic",
+        "atmospheric",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -14,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14,
+        "basis": "integrated"
+      },
+      "gain_db": -1.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23814080,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l8_qVEaZUkfoWwMYJCNKYf4H.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ikca4ya36a5jonqb6rw6hu0u/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Piano Bed\" on Soundza (https://soundza.com/sound/calm-piano-bed)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "nu32w501yevlrl10946wbtps",
+      "url": "https://soundza.com/sound/calm-acoustic-guitar-bed-2",
+      "title": "Calm Acoustic Guitar Bed 2",
+      "description": "A warm, sustained acoustic guitar bed with gentle harmonic movement. Works as an underscore for intimate scenes, interviews, or meditative content.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 120.11,
+      "bpm": null,
+      "key": "D major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "acoustic",
+        "guitar",
+        "warm",
+        "lo-fi",
+        "ambient",
+        "calm",
+        "relaxing",
+        "acoustic guitar",
+        "fingerpicked",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -12,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12,
+        "basis": "integrated"
+      },
+      "gain_db": -4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31781468,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aIheNZlccSJuPwLvRRt29EQj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/nu32w501yevlrl10946wbtps/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Acoustic Guitar Bed 2\" on Soundza (https://soundza.com/sound/calm-acoustic-guitar-bed-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "ejoggc6ooz9fspd0q229g0ee",
+      "url": "https://soundza.com/sound/30-second-ad-bed-calm-piano-1",
+      "title": "30-Second Ad Bed, Calm Piano 1",
+      "description": "A serene, minimalist piano composition designed as background music for a 30-second advertisement. Gentle and unobtrusive, it maintains a consistent calm mood throughout.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 28.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "minimal",
+        "keys",
+        "ad",
+        "30 seconds",
+        "calm",
+        "warm",
+        "commercial"
+      ],
+      "sync_ms": null,
+      "lufs": -10.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -10.7,
+        "basis": "integrated"
+      },
+      "gain_db": -5.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7617120,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v5ZTvFfqTEV2eyDfy53iq8QC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ejoggc6ooz9fspd0q229g0ee/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"30-Second Ad Bed, Calm Piano 1\" on Soundza (https://soundza.com/sound/30-second-ad-bed-calm-piano-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "hqkaswtfp8o10flrz0l30dbz",
+      "url": "https://soundza.com/sound/30-second-ad-bed-calm-piano-3",
+      "title": "30-Second Ad Bed, Calm Piano 3",
+      "description": "A serene, minimalist piano composition designed as background music for advertising. Soft, spacious tones create an understated, peaceful atmosphere suitable for calm product spots and corporate messaging.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 29.05,
+      "bpm": null,
+      "key": "D major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "minimal",
+        "ad",
+        "30 seconds",
+        "calm",
+        "warm",
+        "commercial"
+      ],
+      "sync_ms": null,
+      "lufs": -11.2,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11.2,
+        "basis": "integrated"
+      },
+      "gain_db": -4.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7686240,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ek-QJRKe2xXz3O0DoJgnE9na.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/hqkaswtfp8o10flrz0l30dbz/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"30-Second Ad Bed, Calm Piano 3\" on Soundza (https://soundza.com/sound/30-second-ad-bed-calm-piano-3)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "wilvhtn4ov4e7g0c5alua8p4",
+      "url": "https://soundza.com/sound/calm-ambient-strings-bed-2",
+      "title": "Calm Ambient Strings Bed 2",
+      "description": "A serene, sustained orchestral string arrangement with gentle harmonic evolution. Ideal as an atmospheric foundation for dramatic scenes, emotional moments, or cinematic storytelling.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 175.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "strings",
+        "pad",
+        "ambient",
+        "atmospheric",
+        "cinematic",
+        "lush",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46545500,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_j482-pO6Q1ZnD8z_U-da08J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/wilvhtn4ov4e7g0c5alua8p4/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Ambient Strings Bed 2\" on Soundza (https://soundza.com/sound/calm-ambient-strings-bed-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "w0ch8bhtwh0dzd4t6ajgi2y9",
+      "url": "https://soundza.com/sound/calm-lo-fi-study-2",
+      "title": "Calm Lo-Fi Study 2",
+      "description": "A mellow, lo-fi synthesizer track with warm pads and subtle harmonic movement, designed for focused study sessions and relaxation. The soft, unhurried progression sits comfortably in the background without demanding attention.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 129,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "lo-fi",
+        "study",
+        "chill",
+        "calm",
+        "mellow",
+        "tape",
+        "synth",
+        "pad",
+        "ambient",
+        "warm",
+        "keys"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -12.7,
+        "basis": "integrated"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 34221396,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qLl_2IRDKVIov5qohkjd3a5z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/w0ch8bhtwh0dzd4t6ajgi2y9/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Lo-Fi Study 2\" on Soundza (https://soundza.com/sound/calm-lo-fi-study-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "oke0d4ivznqnl2nx7mxqhp8a",
+      "url": "https://soundza.com/sound/calm-lo-fi-study-1",
+      "title": "Calm Lo-Fi Study 1",
+      "description": "A warm, lo-fi synthesizer track with a relaxed tempo and gentle harmonic progression. Designed to provide ambient background music for studying or concentration.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "lo-fi",
+        "study",
+        "chill",
+        "calm",
+        "mellow",
+        "tape",
+        "pad",
+        "ambient",
+        "keys",
+        "warm",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -12.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.2,
+        "basis": "integrated"
+      },
+      "gain_db": -3.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 25415508,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lbJXPbVgySMnBb7Bj9aSud6W.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/oke0d4ivznqnl2nx7mxqhp8a/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Lo-Fi Study 1\" on Soundza (https://soundza.com/sound/calm-lo-fi-study-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "o7c605cy6iw35vi1l9f89qs0",
+      "url": "https://soundza.com/sound/calm-acoustic-guitar-bed-1",
+      "title": "Calm Acoustic Guitar Bed 1",
+      "description": "A serene, tonal acoustic guitar performance with warm harmonic content, sustaining gentle fingerpicked melodies over a long-form bed suitable for underscore or ambient accompaniment.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 175.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "guitar",
+        "acoustic",
+        "warm",
+        "ambient",
+        "melodic",
+        "calm",
+        "relaxing",
+        "acoustic guitar",
+        "fingerpicked",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46448732,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/x7Hm2qpNp2NmZhQPzRmaYpBC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/o7c605cy6iw35vi1l9f89qs0/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Acoustic Guitar Bed 1\" on Soundza (https://soundza.com/sound/calm-acoustic-guitar-bed-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "hawg1z1zd2q17b134hm29p6i",
+      "url": "https://soundza.com/sound/bright-piano-bed",
+      "title": "Bright Piano Bed",
+      "description": "A warm, sustained piano pad with gentle harmonic movement and minimal rhythmic content, ideal as an underscore bed for video, documentary, or meditative content. The sound sits in a calm, tonal space with rich low-mid frequencies.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 80.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "ambient",
+        "warm",
+        "minimal",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.2,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11.2,
+        "basis": "integrated"
+      },
+      "gain_db": -4.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 21240658,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i2dd-sR-HxDOILhLJm9kLCdn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/hawg1z1zd2q17b134hm29p6i/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Piano Bed\" on Soundza (https://soundza.com/sound/bright-piano-bed)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "aksdpyfa8cuqd6a3nr0cuq7m",
+      "url": "https://soundza.com/sound/30-second-ad-bed-calm-piano-2",
+      "title": "30-Second Ad Bed, Calm Piano 2",
+      "description": "A gentle, sustained piano composition designed as background music for advertisements. Soft and soothing throughout, with minimal variation and a meditative character.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "ambient",
+        "mellow",
+        "keys",
+        "ad",
+        "30 seconds",
+        "calm",
+        "warm",
+        "commercial"
+      ],
+      "sync_ms": null,
+      "lufs": -10.9,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -10.9,
+        "basis": "integrated"
+      },
+      "gain_db": -5.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8142432,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-njWzGtbINUbX5lnYhb79o7o.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/aksdpyfa8cuqd6a3nr0cuq7m/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"30-Second Ad Bed, Calm Piano 2\" on Soundza (https://soundza.com/sound/30-second-ad-bed-calm-piano-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "xheuck97o72lwp18et2xmj2y",
+      "url": "https://soundza.com/sound/30-second-ad-bed-calm-piano-4",
+      "title": "30-Second Ad Bed, Calm Piano 4",
+      "description": "A serene 30-second piano arrangement with warm, sustained tones perfect for background music in advertisements or promotional content. The gentle, meditative character creates a soothing atmosphere suitable for wellness, lifestyle, or corporate messaging.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29,
+      "bpm": null,
+      "key": "D major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "ambient",
+        "warm",
+        "mellow",
+        "ad",
+        "30 seconds",
+        "calm",
+        "commercial"
+      ],
+      "sync_ms": null,
+      "lufs": -10.3,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -10.3,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7672416,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LRkCjuPUH6HbVVVwl5IDJtBS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/xheuck97o72lwp18et2xmj2y/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"30-Second Ad Bed, Calm Piano 4\" on Soundza (https://soundza.com/sound/30-second-ad-bed-calm-piano-4)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "cmv5my3y200o406l4dg8o4meb",
+      "url": "https://soundza.com/sound/helice-awesome-dance-adventure-a-calm-moment-to-remember",
+      "title": "Helice Awesome Dance Adventure: A Calm Moment to Remember Before Taking the Dangerous Road",
+      "description": "A serene synthesizer piece with gentle melodic phrasing and warm harmonic progressions. It serves as a contemplative interlude before an adventure begins, with minimal percussion and a soft, sustained tonal character.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 76.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "synth",
+        "ambient",
+        "melodic",
+        "warm"
+      ],
+      "sync_ms": null,
+      "lufs": -13.7,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -13.7,
+        "basis": "integrated"
+      },
+      "gain_db": -2.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20321436,
+      "category": null,
+      "pack": {
+        "id": "cmv5my3wf00my06l4bc7wfsqf",
+        "name": "Helice Awesome Dance Adventure",
+        "slug": "helice-awesome-dance-adventure",
+        "sound_count": 42,
+        "url": "https://soundza.com/packs/helice-awesome-dance-adventure"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LcRY2vv48MKWoFNcMpgQCJwD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5my3y200o406l4dg8o4meb/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Helice Awesome Dance Adventure: A Calm Moment to Remember Before Taking the Dangerous Road\" on Soundza (https://soundza.com/sound/helice-awesome-dance-adventure-a-calm-moment-to-remember)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "h0qhpiyumzbholq7oos85b5x",
+      "url": "https://soundza.com/sound/calm-lo-fi-study-3",
+      "title": "Calm Lo-Fi Study 3",
+      "description": "A mellow lo-fi track with warm synth pads and soft melodic elements, designed for focused work and relaxation. Perfect as background music for studying or unwinding.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 180,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "lo-fi",
+        "study",
+        "chill",
+        "calm",
+        "mellow",
+        "tape",
+        "synth",
+        "pad",
+        "ambient",
+        "dreamy"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 47741268,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/d_NmgSmRUXgY9_KY__vQjUFT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/h0qhpiyumzbholq7oos85b5x/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Lo-Fi Study 3\" on Soundza (https://soundza.com/sound/calm-lo-fi-study-3)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "de13efwjaxpxzzpheixipdsq",
+      "url": "https://soundza.com/sound/peaceful-ambient-bells",
+      "title": "Peaceful Ambient Bells",
+      "description": "A serene, tonal pad built from synthesized bell-like tones. Sustained and atmospheric, ideal as a calming bed for meditation, healing, or contemplative scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 117.92,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "pad",
+        "ambient",
+        "ethereal",
+        "warm",
+        "lo-fi",
+        "calm",
+        "relaxing",
+        "meditation",
+        "pads",
+        "bells"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -12.1,
+        "basis": "integrated"
+      },
+      "gain_db": -3.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31200856,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/72OJ_Er0t35fkY3CQxNrSJo6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/de13efwjaxpxzzpheixipdsq/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Ambient Bells\" on Soundza (https://soundza.com/sound/peaceful-ambient-bells)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "bp35vrypmpaliklcwnccph0n",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-3",
+      "title": "Gentle Harp and Pads 3",
+      "description": "A serene, sustained bed combining delicate harp arpeggios with warm synthesizer pads. Ideal for calming interludes, meditation scenes, or gentle emotional underscores.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "menu"
+      ],
+      "duration": 174.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "airy"
+      ],
+      "tags": [
+        "pad",
+        "ambient",
+        "ethereal",
+        "strings",
+        "atmospheric",
+        "warm",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46248280,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/X_32oxC4c0wPfqEOiaXgIV8k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/bp35vrypmpaliklcwnccph0n/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 3\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-3)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "cmtajgvodpbd4lrygs1eu9233",
+      "url": "https://soundza.com/sound/real-ocean-beach-sounds",
+      "title": "Real ocean beach sounds",
+      "description": "Authentic ocean beach ambience with rolling waves, subtle undertones, and natural field recording character—a rich, airy soundscape with moderate spectral activity centered in the mid-frequencies ideal for layering beneath cinematic or ambient productions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 32.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "atmospheric",
+        "organic",
+        "airy",
+        "texture",
+        "pad"
+      ],
+      "sync_ms": null,
+      "lufs": -36.2,
+      "true_peak_db": -20.4,
+      "loudness": {
+        "value": -36.2,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8560600,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nz66zdmDfGRWGoxMLMNFmoeA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtajgvodpbd4lrygs1eu9233/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Real ocean beach sounds\" on Soundza (https://soundza.com/sound/real-ocean-beach-sounds)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "c7101k1qone3u8qqv3hawcqa",
+      "url": "https://soundza.com/sound/slow-ambient-strings-texture-2",
+      "title": "Slow Ambient Strings Texture 2",
+      "description": "A sustained, warm orchestral string texture with gentle harmonic movement and minimal rhythmic activity, creating an ethereal atmospheric pad suitable for cinematic backgrounds or meditative soundscapes.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 119.9,
+      "bpm": null,
+      "key": "D# major",
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambient",
+        "atmospheric",
+        "strings",
+        "texture",
+        "slow",
+        "calm",
+        "pad",
+        "ethereal"
+      ],
+      "sync_ms": null,
+      "lufs": -11.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.5,
+        "basis": "integrated"
+      },
+      "gain_db": -4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31719264,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_Bcplt48ADQrGLOcjDAY13zs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/c7101k1qone3u8qqv3hawcqa/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Slow Ambient Strings Texture 2\" on Soundza (https://soundza.com/sound/slow-ambient-strings-texture-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "e9if07w9khyzryrju587z1ot",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-1",
+      "title": "Gentle Harp and Pads 1",
+      "description": "A serene, atmospheric piece combining delicate harp arpeggios with soft synthesizer pads, creating a calm and meditative soundscape suitable for relaxation, meditation, or emotional underscore.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 75.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "pad",
+        "ambient",
+        "ethereal",
+        "strings",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20003416,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ncc34WtEQIQhXYf0KZZHOr7R.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/e9if07w9khyzryrju587z1ot/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 1\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "fj0r49n3qra8tmkxlfjit6ef",
+      "url": "https://soundza.com/sound/peaceful-ambient-bells-3",
+      "title": "Peaceful Ambient Bells 3",
+      "description": "Gentle, sustained bell tones blend into a calming ambient texture. Ideal for meditation, relaxation, or as a soothing background bed in video and game projects.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 118.05,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambient",
+        "pad",
+        "ethereal",
+        "drone",
+        "calm",
+        "relaxing",
+        "meditation",
+        "pads",
+        "bells"
+      ],
+      "sync_ms": null,
+      "lufs": -11.8,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -11.8,
+        "basis": "integrated"
+      },
+      "gain_db": -4.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31235418,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9FIAOtZuhW7yBZGIky1p9Csw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/fj0r49n3qra8tmkxlfjit6ef/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Ambient Bells 3\" on Soundza (https://soundza.com/sound/peaceful-ambient-bells-3)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "xdx30esnd6g4i9hbzlkk4jkk",
+      "url": "https://soundza.com/sound/peaceful-ambient-bells-2",
+      "title": "Peaceful Ambient Bells 2",
+      "description": "Gentle, shimmering bell tones create a serene and meditative soundscape, perfect for calm moments and relaxation scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 69.83,
+      "bpm": null,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambient",
+        "ethereal",
+        "atmospheric",
+        "calm",
+        "relaxing",
+        "meditation",
+        "pads",
+        "bells"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18475866,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DEzJug3sowTvPH-xH-uflpku.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/xdx30esnd6g4i9hbzlkk4jkk/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Ambient Bells 2\" on Soundza (https://soundza.com/sound/peaceful-ambient-bells-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "zqx6yqroqb0gpyfb1ezlhlnq",
+      "url": "https://soundza.com/sound/peaceful-ambient-bells-4",
+      "title": "Peaceful Ambient Bells 4",
+      "description": "A serene, evolving ambient composition featuring sustained bell tones that create a calming, meditative soundscape. Ideal for relaxation, meditation, or as a gentle background texture for peaceful scenes.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 175.73,
+      "bpm": null,
+      "key": "F# major",
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambient",
+        "atmospheric",
+        "pad",
+        "ethereal",
+        "calm",
+        "relaxing",
+        "meditation",
+        "pads",
+        "bells"
+      ],
+      "sync_ms": null,
+      "lufs": -12,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -12,
+        "basis": "integrated"
+      },
+      "gain_db": -4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46497114,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/crPW9oLk2HDAKJo0u6YFNzUA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/zqx6yqroqb0gpyfb1ezlhlnq/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Ambient Bells 4\" on Soundza (https://soundza.com/sound/peaceful-ambient-bells-4)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "c4ffcskmbw4hzspb4r54dvfb",
+      "url": "https://soundza.com/sound/soft-pads-and-electric-piano-1",
+      "title": "Soft Pads and Electric Piano 1",
+      "description": "A gentle, evolving arrangement combining warm electric piano with lush synthesizer pads. Designed as a calm, atmospheric bed for background scoring or meditative listening.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 75.55,
+      "bpm": null,
+      "key": "G# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "pad",
+        "piano",
+        "keys",
+        "synth",
+        "warm",
+        "ambient",
+        "calm",
+        "electric piano",
+        "pads",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19989600,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LNJjsTtnTBT7QfTfCpMVgFw9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/c4ffcskmbw4hzspb4r54dvfb/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Pads and Electric Piano 1\" on Soundza (https://soundza.com/sound/soft-pads-and-electric-piano-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "kc3q4z3g0p7yxj9jo5yqs21j",
+      "url": "https://soundza.com/sound/warm-piano-bed",
+      "title": "Warm Piano Bed",
+      "description": "A soft, sustained piano pad with gentle harmonic movement, ideal as an underscore for calm scenes or meditative moments. The warm, low-mid frequencies create an intimate atmosphere without intrusive texture.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 88.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "piano",
+        "pad",
+        "warm",
+        "ambient",
+        "mellow",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23334992,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/I7KtJjpN8spgGB4LqWKnrocf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/kc3q4z3g0p7yxj9jo5yqs21j/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Warm Piano Bed\" on Soundza (https://soundza.com/sound/warm-piano-bed)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "ja5l4q4lx95m02rci3ilkp8x",
+      "url": "https://soundza.com/sound/gentle-harp-and-pads-2",
+      "title": "Gentle Harp and Pads 2",
+      "description": "A serene blend of delicate harp melodies layered with warm synthesizer pads, creating a calming and ethereal soundscape ideal for meditation or cinematic underscore.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 119.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "cinematic",
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "ethereal",
+        "warm",
+        "texture",
+        "cinematic",
+        "calm",
+        "harp",
+        "pads",
+        "airy",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31657048,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6MN_puUtpFrTfpEc5ANO7i9Y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ja5l4q4lx95m02rci3ilkp8x/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp and Pads 2\" on Soundza (https://soundza.com/sound/gentle-harp-and-pads-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "trcfz0wkp1t6tc60s62nsmuf",
+      "url": "https://soundza.com/sound/slow-ambient-strings-texture-1",
+      "title": "Slow Ambient Strings Texture 1",
+      "description": "A sustained, tonal orchestral string pad with minimal movement and rich harmonic content. Designed to sit beneath dialogue, ambient scenes, or as a meditative background layer.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro"
+      ],
+      "duration": 67.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "ambient",
+        "atmospheric",
+        "strings",
+        "texture",
+        "slow",
+        "calm",
+        "pad",
+        "cinematic",
+        "ethereal"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17916000,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tRuGyeGF6DNXRqN2gLxiQVym.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/trcfz0wkp1t6tc60s62nsmuf/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Slow Ambient Strings Texture 1\" on Soundza (https://soundza.com/sound/slow-ambient-strings-texture-1)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "hlw5aiv5t1koghx9pqh3osf6",
+      "url": "https://soundza.com/sound/soft-pads-and-electric-piano-2",
+      "title": "Soft Pads and Electric Piano 2",
+      "description": "A warm, layered combination of soft synthesizer pads and delicate electric piano tones creating a calm, meditative bed. The sustained pad textures provide harmonic depth while gentle piano phrases float over top.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 117.19,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "pad",
+        "keys",
+        "synth",
+        "ambient",
+        "warm",
+        "mellow",
+        "calm",
+        "electric piano",
+        "pads",
+        "peaceful",
+        "relaxing"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31007328,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O88zqr88lZK-TkwtlD_JoMOX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/hlw5aiv5t1koghx9pqh3osf6/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Pads and Electric Piano 2\" on Soundza (https://soundza.com/sound/soft-pads-and-electric-piano-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "tk1rut99zdyj5dyy566wa43q",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-2",
+      "title": "Gentle Music Box Lullaby 2",
+      "description": "A soft, delicate music box melody with synthesized tones creating a calm, soothing lullaby. Perfect for relaxation, sleep, or gentle background accompaniment.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 73.4,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "dreamy",
+        "pad",
+        "lo-fi",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19422812,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7eWhyWJ8eWMQPyk5luA7odj-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/tk1rut99zdyj5dyy566wa43q/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 2\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-2)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "n2m5mmwi9m6u9k5z4yau6ckn",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-3",
+      "title": "Gentle Music Box Lullaby 3",
+      "description": "A soothing music box melody played on delicate synthesizer tones, creating a calming lullaby suitable for relaxation or sleep. The gentle arpeggiated patterns and soft harmonic textures provide a peaceful, meditative soundscape.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 120.84,
+      "bpm": null,
+      "key": "E major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "synth",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31975004,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/PrMY3bbEvqNn5CITA8jw1S3p.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/n2m5mmwi9m6u9k5z4yau6ckn/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 3\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-3)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "cmtluy62h3t9dnls17rh2buh2",
+      "url": "https://soundza.com/sound/peaceful-rain-texture",
+      "title": "Peaceful Rain Texture",
+      "description": "A gentle, pitched water drip texture with minimal low-end presence and sparse attack, creating a calming, organic soundscape perfect for meditative transitions and ambient underscore. The sound sits in the low-mid frequency range with ethereal spacing between each droplet.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "dry",
+        "ethereal",
+        "ambient",
+        "texture",
+        "atmospheric",
+        "minimal",
+        "delay"
+      ],
+      "sync_ms": null,
+      "lufs": -39.4,
+      "true_peak_db": -20.3,
+      "loudness": {
+        "value": -39.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14288486,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": {
+        "id": "ycmwc087y8eer8howbrt0o69",
+        "name": "CRACKLE — Vinyl Noise, Tape Hiss, Room, Tone, Foley",
+        "slug": "crackle-vinyl-noise-tape-hiss-room-tone-foley",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/crackle-vinyl-noise-tape-hiss-room-tone-foley"
+      },
+      "creator": {
+        "name": "wet paper",
+        "url": "https://soundza.com/creators/wet-paper"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7H3Zl7mNjMle4AtuQJWIUgjf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtluy62h3t9dnls17rh2buh2/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peaceful Rain Texture\" by wet paper on Soundza (https://soundza.com/sound/peaceful-rain-texture)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "krqa7fgyru8yxyv9a46mr9n9",
+      "url": "https://soundza.com/sound/engaging-piano-bed",
+      "title": "Engaging Piano Bed",
+      "description": "A warm, moderately-paced piano composition with gentle movement and evolving textures. Works as background music for scenes requiring subtle energy and emotional support without overwhelming the visual content.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 90.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "piano",
+        "warm",
+        "melodic",
+        "ethereal",
+        "soft",
+        "ambient",
+        "calm",
+        "relaxing",
+        "peaceful"
+      ],
+      "sync_ms": null,
+      "lufs": -11.3,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -11.3,
+        "basis": "integrated"
+      },
+      "gain_db": -4.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23915604,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8R1r1-8nY89SqY4h9ULZcpaX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/krqa7fgyru8yxyv9a46mr9n9/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Engaging Piano Bed\" on Soundza (https://soundza.com/sound/engaging-piano-bed)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "stvxvrm7v2rk6s3hpw2qovy1",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby-4",
+      "title": "Gentle Music Box Lullaby 4",
+      "description": "A soft, delicate music box melody played on synthesized bells with warm, sustained harmonic pads underneath. Calming and soothing, perfect for lullabies and gentle backgrounds.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "menu"
+      ],
+      "duration": 175.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "pad",
+        "melodic",
+        "warm",
+        "ambient",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46448732,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fmN59eufMIxEFNohfuppk9bt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/stvxvrm7v2rk6s3hpw2qovy1/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby 4\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby-4)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "r99dpx1tqvki80oy4q4j9b24",
+      "url": "https://soundza.com/sound/gentle-music-box-lullaby",
+      "title": "Gentle Music Box Lullaby",
+      "description": "A delicate, tinkling music box melody in a major key, performed with soft, sustained tones and minimal attack. Ideal for calming scenes, sleep, or intimate moments.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 172.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "keys",
+        "pad",
+        "warm",
+        "melodic",
+        "calm",
+        "lullaby",
+        "music box",
+        "gentle",
+        "sleep",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.7,
+        "basis": "integrated"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 45570906,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TZySkTAKWD8BBP-8fXktkk8e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/r99dpx1tqvki80oy4q4j9b24/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Music Box Lullaby\" on Soundza (https://soundza.com/sound/gentle-music-box-lullaby)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "fbgqs79hgz80g3q2ufe6qml0",
+      "url": "https://soundza.com/sound/soft-jazz-guitar-background",
+      "title": "Soft Jazz Guitar Background",
+      "description": "A warm, gentle jazz guitar accompaniment with smooth, sustained tones and minimal rhythmic movement. Ideal as an atmospheric background for videos, presentations, or relaxation content.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 77.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm"
+      ],
+      "tags": [
+        "guitar",
+        "warm",
+        "ambient",
+        "mellow",
+        "acoustic",
+        "soft jazz",
+        "jazz",
+        "acoustic guitar",
+        "calm",
+        "background"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20390492,
+      "category": null,
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bUc4CyvppPRCKo6V-iy8Se55.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/fbgqs79hgz80g3q2ufe6qml0/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Jazz Guitar Background\" on Soundza (https://soundza.com/sound/soft-jazz-guitar-background)",
+      "matched_words": [
+        "calm"
+      ]
+    },
+    {
+      "id": "cmukemrvr0xn7seifo52n3g5w",
+      "url": "https://soundza.com/sound/calm-spaceship-roomtone",
+      "title": "Calm Spaceship Roomtone",
+      "description": "A calm, synthetic hum of a spacecraft in flight, creating a neutral, atmospheric backdrop suitable for sci-fi scenes. The steady, low-frequency drone suggests a stable environment with no immediate danger.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 128.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "spaceship",
+        "ambience",
+        "sci-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -37.3,
+      "true_peak_db": -20,
+      "loudness": {
+        "value": -37.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 34103608,
+      "category": {
+        "id": "SCIShip",
+        "label": "Scifi › Spaceship"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/glB-gW0vP_8ixrNOLsA1-4k0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukemrvr0xn7seifo52n3g5w/file?search_id=ccoeghpkg7xp7arv1ec4jxyk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Calm Spaceship Roomtone\" on Soundza (https://soundza.com/sound/calm-spaceship-roomtone)",
+      "matched_words": [
+        "calm"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "ocean waves lapping calm",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [
+      "calm",
+      "ambient"
+    ],
+    "genre": "ambient/experimental",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [
+      "background_bed"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: You are looking for calm ocean waves lapping. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"ocean waves lapping calm\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "ccoeghpkg7xp7arv1ec4jxyk"
+}

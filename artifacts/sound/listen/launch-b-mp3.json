@@ -1,0 +1,16 @@
+{
+  "file": "scratch/launch-b.mp3",
+  "sha": "1d47befd28949bfa",
+  "want": "a short water spray whoosh as a hull leaves the water surface, wet and airy",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    3,
+    4,
+    3
+  ],
+  "fit": 3,
+  "heard": "A very short, sharp wet spritz — like a burst from a spray bottle or a small splash of water, close-miked and tiny, ending almost instantly with a brief scatter of droplets and no real tail",
+  "sounds_like": "A quick squirt from a spray bottle",
+  "problems": "Far too small and light — no whoosh, no air movement, no weight or scale of a hull breaking the surface. The droplets are right up close like a handheld bottle, not a large object leaving the water. Tail dies too fast to give any sense of a big wet body emerging.",
+  "veto": true
+}

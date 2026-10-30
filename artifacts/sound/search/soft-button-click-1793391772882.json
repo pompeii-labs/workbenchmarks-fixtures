@@ -1,0 +1,1210 @@
+{
+  "query": {
+    "q": "soft button click",
+    "good_for": "ui_click",
+    "max_duration": "1",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 17,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmujgu4p31k3l8albb85uljkm",
+      "url": "https://soundza.com/sound/soft-ui-button-click",
+      "title": "Soft UI Button Click",
+      "description": "A brief, gentle digital click with a soft sci-fi character, suitable for button presses or hover feedback in interfaces and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "soft"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -11.7,
+      "loudness": {
+        "value": -31.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 31628,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Glxy--TxDJfICq8yB-Pw32uH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgu4p31k3l8albb85uljkm/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft UI Button Click\" on Soundza (https://soundza.com/sound/soft-ui-button-click)"
+    },
+    {
+      "id": "cmvcmlbircnzts2ktscbyt28v",
+      "url": "https://soundza.com/sound/soft-ui-tap-1",
+      "title": "Soft UI Tap",
+      "description": "A gentle, tonal tap sound designed for user interface feedback. Clean and subtle, perfect for button presses and notifications on mobile devices or applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "notification",
+        "click",
+        "button"
+      ],
+      "sync_ms": 5,
+      "lufs": -32.7,
+      "true_peak_db": -22.9,
+      "loudness": {
+        "value": -32.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 19.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 109924,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y8mhsXhEovLFkNPyGLQJJtX2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmlbircnzts2ktscbyt28v/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft UI Tap\" on Soundza (https://soundza.com/sound/soft-ui-tap-1)"
+    },
+    {
+      "id": "cmukc3zzx6tban09ofb0xe6ds",
+      "url": "https://soundza.com/sound/plastic-button-off",
+      "title": "Plastic Button Off",
+      "description": "A single plastic button press with a soft click and mechanical release sound. Ideal for user interface feedback or physical switch interactions in interactive media.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "button",
+        "click",
+        "plastic",
+        "ui",
+        "mechanical",
+        "switch"
+      ],
+      "sync_ms": 24,
+      "lufs": null,
+      "true_peak_db": -19.6,
+      "loudness": {
+        "value": -39.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85986,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1dBaK5Z1nqaISPNWN3fvBoXs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc3zzx6tban09ofb0xe6ds/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Button Off\" on Soundza (https://soundza.com/sound/plastic-button-off)"
+    },
+    {
+      "id": "cmv0gp82z009x06i9q64zojgy",
+      "url": "https://soundza.com/sound/ui-sound-40",
+      "title": "UI Sound 40",
+      "description": "A quick, gentle interface click with minimal resonance. Suitable for menu navigation, button presses, or subtle UI feedback in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu",
+        "notification"
+      ],
+      "duration": 0.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C1",
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "soft",
+        "notification",
+        "button",
+        "foley"
+      ],
+      "sync_ms": 94,
+      "lufs": -25.8,
+      "true_peak_db": -10.9,
+      "loudness": {
+        "value": -23.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 122886,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TonDjg0n5ro4S2KXAsvsM5N2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009x06i9q64zojgy/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 40\" on Soundza (https://soundza.com/sound/ui-sound-40)"
+    },
+    {
+      "id": "cmv5n0d7m012r06l47xasikhh",
+      "url": "https://soundza.com/sound/open-3",
+      "title": "Open 3",
+      "description": "A gentle, single interface click sound suitable for menu navigation, button presses, or UI interactions in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu",
+        "notification"
+      ],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "menu",
+        "soft",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -13,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 41588,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hrozKU7ZFiW0cyWkhRLrjshA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7m012r06l47xasikhh/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Open 3\" on Soundza (https://soundza.com/sound/open-3)"
+    },
+    {
+      "id": "cmujgtspqwqxwhjy5va760bl0",
+      "url": "https://soundza.com/sound/short-ui-click",
+      "title": "Short UI Click",
+      "description": "A light, quick clicking sound suitable for button presses, menu navigation, and interface interactions in software applications and games. Clean and non-intrusive for user feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "notification",
+        "soft"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -33.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 42608,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/480fI-d3qCKXziC_qnYQs_ns.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgtspqwqxwhjy5va760bl0/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short UI Click\" on Soundza (https://soundza.com/sound/short-ui-click)"
+    },
+    {
+      "id": "cmv5n0d7l012i06l459msl3sv",
+      "url": "https://soundza.com/sound/minimize-3",
+      "title": "Minimize 3",
+      "description": "A soft, quiet interface click sound suitable for button presses or menu navigation. Works well as UI feedback for interactive elements in games or applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.21,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "soft",
+        "notification",
+        "menu"
+      ],
+      "sync_ms": 43,
+      "lufs": null,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -20,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 28106,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1ka3PyrRWOwmH1CLXtcHKRDL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7l012i06l459msl3sv/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Minimize 3\" on Soundza (https://soundza.com/sound/minimize-3)"
+    },
+    {
+      "id": "cmv0gp82z009j06i9yqfmr3tu",
+      "url": "https://soundza.com/sound/ui-sound-26",
+      "title": "UI Sound 26",
+      "description": "A quick, subtle interface click or button press with minimal attack and a soft character. Ideal for menu navigation, selection feedback, or gentle UI interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "soft",
+        "notification"
+      ],
+      "sync_ms": 74,
+      "lufs": -28.4,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 115998,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/L3CRnZN9TN0ZxW3EC9UC3Akj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009j06i9yqfmr3tu/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 26\" on Soundza (https://soundza.com/sound/ui-sound-26)"
+    },
+    {
+      "id": "oq44hrjteh0n5t55fkx5zk0p",
+      "url": "https://soundza.com/sound/switch-38",
+      "title": "Switch 38",
+      "description": "A gentle, quiet switch or toggle activation sound with a subtle click and minimal noise. Well-suited for app interfaces, menu interactions, or light button presses.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "switch",
+        "soft",
+        "notification",
+        "button"
+      ],
+      "sync_ms": 41,
+      "lufs": -35,
+      "true_peak_db": -11.2,
+      "loudness": {
+        "value": -35,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 112214,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bLZH6IhITi1ijGVUdFncM_kr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/oq44hrjteh0n5t55fkx5zk0p/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Switch 38\" on Soundza (https://soundza.com/sound/switch-38)"
+    },
+    {
+      "id": "cmv5n0d7m012n06l4gra6yz33",
+      "url": "https://soundza.com/sound/minimize-8",
+      "title": "Minimize 8",
+      "description": "A gentle, short click sound suitable for button presses and user interface interactions. Ideal for game menus, app navigation, and interactive feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu",
+        "notification"
+      ],
+      "duration": 0.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "notification",
+        "menu",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -16,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 29892,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rtigwpYxfJMy7fuOVjeYIHZF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7m012n06l4gra6yz33/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Minimize 8\" on Soundza (https://soundza.com/sound/minimize-8)"
+    },
+    {
+      "id": "cmv0gp82z009u06i9pdxw99iq",
+      "url": "https://soundza.com/sound/ui-sound-37",
+      "title": "UI Sound 37",
+      "description": "A gentle, crisp single tap or click sound suitable for user interface interactions, button presses, or menu selections in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "soft",
+        "notification",
+        "foley"
+      ],
+      "sync_ms": 76,
+      "lufs": -35.3,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -30.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 114852,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/j3fsZqCrhJysGSb3iHL7BFue.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009u06i9pdxw99iq/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 37\" on Soundza (https://soundza.com/sound/ui-sound-37)"
+    },
+    {
+      "id": "cmv5n0d7m012x06l4b4p9ps08",
+      "url": "https://soundza.com/sound/question-3",
+      "title": "Question 3",
+      "description": "A gentle, quick electronic click suitable for button presses, menu navigation, and interface feedback in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "notification",
+        "soft",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -8.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 44068,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5Mcc5eBuiTn5G4222wmJs0hF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7m012x06l4b4p9ps08/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Question 3\" on Soundza (https://soundza.com/sound/question-3)"
+    },
+    {
+      "id": "wh0deyg10z3rm6mnaxxecfrn",
+      "url": "https://soundza.com/sound/rollover-1",
+      "title": "Rollover 1",
+      "description": "A subtle, quiet interface sound with a soft attack, ideal for hovering over buttons or menu items in an application or game.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 0.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "soft",
+        "notification",
+        "menu"
+      ],
+      "sync_ms": 61,
+      "lufs": null,
+      "true_peak_db": -21.1,
+      "loudness": {
+        "value": -43.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 20.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 60214,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xu_CapWfDmhWLskkATqHRdiJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/wh0deyg10z3rm6mnaxxecfrn/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rollover 1\" on Soundza (https://soundza.com/sound/rollover-1)"
+    },
+    {
+      "id": "cmv0gp82z009g06i92omcoh95",
+      "url": "https://soundza.com/sound/ui-sound-23",
+      "title": "UI Sound 23",
+      "description": "A brief, quiet tap sound suitable for interface feedback, button presses, or menu navigation in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "notification",
+        "soft",
+        "game"
+      ],
+      "sync_ms": 74,
+      "lufs": -28,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -25.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 85012,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XiXYu5ZfxQBfmqaechZWkQIK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009g06i92omcoh95/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 23\" on Soundza (https://soundza.com/sound/ui-sound-23)"
+    },
+    {
+      "id": "cmv0gp82z009i06i9pciayxob",
+      "url": "https://soundza.com/sound/ui-sound-25",
+      "title": "UI Sound 25",
+      "description": "A delicate, non-percussive interface sound with a subtle attack and quick decay. Ideal for menu navigation, button presses, or gentle UI feedback in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu",
+        "notification"
+      ],
+      "duration": 0.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "soft",
+        "notification",
+        "menu"
+      ],
+      "sync_ms": 65,
+      "lufs": -28.9,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -24.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 117152,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y1yqn0EO0SKV1dDDvweHHkFd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009i06i9pciayxob/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 25\" on Soundza (https://soundza.com/sound/ui-sound-25)"
+    },
+    {
+      "id": "cmv5n0d7l011k06l4k4q02njv",
+      "url": "https://soundza.com/sound/confirmation-4",
+      "title": "Confirmation 4",
+      "description": "A soft, clean chime or beep that confirms a user action or selection in a game or application interface. Ideal for button presses and menu confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "beep",
+        "notification",
+        "menu",
+        "game"
+      ],
+      "sync_ms": 166,
+      "lufs": -10.6,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -10.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 64964,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oxSbbcWtQAx4EXEAC7C9JEOM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7l011k06l4k4q02njv/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Confirmation 4\" on Soundza (https://soundza.com/sound/confirmation-4)"
+    },
+    {
+      "id": "cmv0gp82z009r06i9xeszcmh5",
+      "url": "https://soundza.com/sound/ui-sound-34",
+      "title": "UI Sound 34",
+      "description": "A subtle, quick interface feedback sound with a clean attack and minimal sustain. Suitable for menu navigation, button presses, and UI interactions in games or applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "notification",
+        "soft",
+        "game",
+        "foley"
+      ],
+      "sync_ms": 45,
+      "lufs": -35.5,
+      "true_peak_db": -2.2,
+      "loudness": {
+        "value": -30.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 111412,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bnHZMDQ2uL93Pdfk5lo_RB1m.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009r06i9xeszcmh5/file?search_id=dbhz65irvxtwqjy6hkkkqnu2",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 34\" on Soundza (https://soundza.com/sound/ui-sound-34)"
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": null,
+  "notes": [],
+  "search_id": "dbhz65irvxtwqjy6hkkkqnu2"
+}

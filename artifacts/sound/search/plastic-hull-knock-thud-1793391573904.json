@@ -1,0 +1,3449 @@
+{
+  "query": {
+    "q": "plastic hull knock thud",
+    "good_for": "game_hit",
+    "max_duration": "2",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 263,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=plastic+hull+knock+thud&max_duration=2&good_for=game_hit&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv8zxseeyz42m1kvc48ask6x",
+      "url": "https://soundza.com/sound/wood-door-knock",
+      "title": "Wood Door Knock",
+      "description": "A series of sharp knocks on a wooden door with clear percussive attacks. Suitable for scenes of someone arriving or requesting entry.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "door",
+        "wood",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -29.7,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -29.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 186470,
+      "category": {
+        "id": "DOORKnck",
+        "label": "Doors › Knock"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/z7W1YJrDQOjqH4x3XRLqWO18.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zxseeyz42m1kvc48ask6x/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wood Door Knock\" on Soundza (https://soundza.com/sound/wood-door-knock)",
+      "matched_words": [
+        "knock"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901gc06l43mos3a5h",
+      "url": "https://soundza.com/sound/knock",
+      "title": "Knock",
+      "description": "A short, chiptune-style knock sound with that classic NES video game character. Perfect for UI interactions, menu navigation, or retro game feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "ui",
+        "game",
+        "retro",
+        "beep",
+        "notification"
+      ],
+      "sync_ms": 5,
+      "lufs": -22.3,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -22.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 56170,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_TWlSzadBMBUEkkXTYHOMPNj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901gc06l43mos3a5h/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Knock\" on Soundza (https://soundza.com/sound/knock)",
+      "matched_words": [
+        "knock"
+      ]
+    },
+    {
+      "id": "cmvia7p83xtw8o2zvqweoz31k",
+      "url": "https://soundza.com/sound/deep-punch-thud",
+      "title": "Deep Punch Thud",
+      "description": "A weighty, low-end impact sound with a sharp attack, ideal for punch impacts, body hits, or heavy contact moments in video or games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy"
+      ],
+      "tags": [
+        "punch",
+        "impact",
+        "thud",
+        "heavy"
+      ],
+      "sync_ms": 61,
+      "lufs": -16.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -13.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 167090,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_jM83ACy87mFFcP9cdfvvd2e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvia7p83xtw8o2zvqweoz31k/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Deep Punch Thud\" on Soundza (https://soundza.com/sound/deep-punch-thud)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700vh06l4i3747o2m",
+      "url": "https://soundza.com/sound/plastic-bag-drop-1",
+      "title": "Plastic Bag Drop 1",
+      "description": "A plastic bag falls and settles with a soft crinkle. Suitable for foley, magic effects, or small object impacts in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "impact",
+        "foley",
+        "game"
+      ],
+      "sync_ms": 265,
+      "lufs": -19.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 132834,
+      "category": {
+        "id": "PLASImpt",
+        "label": "Plastic › Impact"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lgQHW9DgMSee7adEwIbulhiZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700vh06l4i3747o2m/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Bag Drop 1\" on Soundza (https://soundza.com/sound/plastic-bag-drop-1)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5swogs00s706l62nfsz5r3",
+      "url": "https://soundza.com/sound/crushing-plastic-13",
+      "title": "Crushing Plastic 13",
+      "description": "A sharp, crunchy sound of plastic material being crushed and compressed, suitable for impacts, object destruction, or UI feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "ui_click"
+      ],
+      "duration": 1.13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley",
+        "impact",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -32.5,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -30.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 324414,
+      "category": {
+        "id": "PLASCrsh",
+        "label": "Plastic › Crash & Debris"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jj787fZGKB7e8GGOJZ4HzkBA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swogs00s706l62nfsz5r3/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crushing Plastic 13\" on Soundza (https://soundza.com/sound/crushing-plastic-13)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmvcm6pbjbk5jzb6fmf76pmzu",
+      "url": "https://soundza.com/sound/cartoon-thud-impact",
+      "title": "Cartoon Thud Impact",
+      "description": "A punchy, cartoony impact sound with a brief resonant tail. Ideal for comedic hits, falls, and collision moments in animation or video editing.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "thud",
+        "foley"
+      ],
+      "sync_ms": 396,
+      "lufs": -11.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -8.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 364638,
+      "category": {
+        "id": "TOONImpt",
+        "label": "Cartoon › Impact"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O0SL-WDfWRSGzVRf-aO76gPn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcm6pbjbk5jzb6fmf76pmzu/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cartoon Thud Impact\" on Soundza (https://soundza.com/sound/cartoon-thud-impact)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmtm76lfvdc533tuxiwic5w9j",
+      "url": "https://soundza.com/sound/dull-thud-impact",
+      "title": "Dull Thud Impact",
+      "description": "A punchy, muffled impact with crisp attack and mid-range coloration—sounds like a punch landing on a heavy bag or sandbag with tight, controlled thump and minimal resonance.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "punchy",
+        "one-shot",
+        "tight",
+        "stab",
+        "aggressive",
+        "thin",
+        "metallic"
+      ],
+      "sync_ms": 61,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -22.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 49582,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/B1aO_9xLuojCreLAFuMnfBO6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm76lfvdc533tuxiwic5w9j/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dull Thud Impact\" on Soundza (https://soundza.com/sound/dull-thud-impact)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmtl12h5y55hzytor8cgih7t0",
+      "url": "https://soundza.com/sound/wooden-knock-hit",
+      "title": "Wooden Knock Hit",
+      "description": "A sharp, percussive wooden knock with bright midrange presence and quick attack, ideal for organic percussion layers and rhythmic texture. The crispy, metallic edge cuts through mixes while maintaining the characteristic dry, unpitched character of a wooden block being struck.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "organic",
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "percussion",
+        "one-shot",
+        "crispy",
+        "bright",
+        "organic",
+        "punchy",
+        "dry",
+        "metallic"
+      ],
+      "sync_ms": 672,
+      "lufs": -26.5,
+      "true_peak_db": -4.7,
+      "loudness": {
+        "value": -24.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 330832,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q-We3vFGRGIeFoZKprERx-98.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl12h5y55hzytor8cgih7t0/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wooden Knock Hit\" on Soundza (https://soundza.com/sound/wooden-knock-hit)",
+      "matched_words": [
+        "knock"
+      ]
+    },
+    {
+      "id": "cmvclqhr7mc1ar1s9t25kns5p",
+      "url": "https://soundza.com/sound/plastic-splat",
+      "title": "Plastic Splat",
+      "description": "A sharp, crunchy splat made by crumpling thin plastic. Works well for cartoon impacts, destruction, and comedic foley moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 144,
+      "lufs": -15.6,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 366414,
+      "category": {
+        "id": "TOONSplt",
+        "label": "Cartoon › Splat"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/c3AD832zh5vYJmEizwKrKlia.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclqhr7mc1ar1s9t25kns5p/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Splat\" on Soundza (https://soundza.com/sound/plastic-splat)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmujfe6e0jird4qetwntng95t",
+      "url": "https://soundza.com/sound/plastic-swipe-whoosh",
+      "title": "Plastic Swipe Whoosh",
+      "description": "A quick, bright plastic object swiped through the air with a sharp attack and fast decay. Ideal for quick transitions, cuts, and fast movement effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "swish",
+        "whoosh",
+        "plastic",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": 129,
+      "lufs": -25.3,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 135254,
+      "category": {
+        "id": "CLOTHMvmt",
+        "label": "Cloth › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mL_rGfacUGNZHH4uKUPb6Xea.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfe6e0jird4qetwntng95t/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Swipe Whoosh\" on Soundza (https://soundza.com/sound/plastic-swipe-whoosh)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmujfdv579m8f5xlewe11cd7m",
+      "url": "https://soundza.com/sound/fast-plastic-swish",
+      "title": "Fast Plastic Swish",
+      "description": "A crisp, bright swoosh created by swiping plastic through air. Quick and punchy, ideal for quick transitions, cuts, or comedic impacts in video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G0",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "swish",
+        "whoosh",
+        "transition",
+        "plastic",
+        "foley",
+        "bright"
+      ],
+      "sync_ms": 126,
+      "lufs": -28.7,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -28.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 110676,
+      "category": {
+        "id": "CLOTHMvmt",
+        "label": "Cloth › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i_iGPAHPpURlMAnWfR9ZZEUP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfdv579m8f5xlewe11cd7m/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Plastic Swish\" on Soundza (https://soundza.com/sound/fast-plastic-swish)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmukcu4qi7qa68q5qf5mw1imn",
+      "url": "https://soundza.com/sound/plastic-pen-water-splash",
+      "title": "Plastic Pen Water Splash",
+      "description": "A lightweight object drops into water with a sharp, brief splash. Ideal for small impacts into liquid, everyday foley, or subtle water transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "plastic",
+        "impact"
+      ],
+      "sync_ms": 264,
+      "lufs": -30.7,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -27.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 468090,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9_-drzOzVjGhP6m6ug_YftN8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcu4qi7qa68q5qf5mw1imn/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Pen Water Splash\" on Soundza (https://soundza.com/sound/plastic-pen-water-splash)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmukbro4fhqt56zwch4gk1ydl",
+      "url": "https://soundza.com/sound/plastic-window-handle-unlock",
+      "title": "Plastic Window Handle Unlock",
+      "description": "A crisp, satisfying mechanical click and snap as a plastic window latch is released and unlocked. The bright, percussive sound captures the exact moment of disengagement with clean articulation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "click",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": 573,
+      "lufs": -21.2,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -19.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 176594,
+      "category": {
+        "id": "WNDWHdwr",
+        "label": "Windows › Hardware"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cG3Ppz-XeN-g8xFrtpPmi3HF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbro4fhqt56zwch4gk1ydl/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Window Handle Unlock\" on Soundza (https://soundza.com/sound/plastic-window-handle-unlock)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmukc3zzx6tban09ofb0xe6ds",
+      "url": "https://soundza.com/sound/plastic-button-off",
+      "title": "Plastic Button Off",
+      "description": "A single plastic button press with a soft click and mechanical release sound. Ideal for user interface feedback or physical switch interactions in interactive media.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "button",
+        "click",
+        "plastic",
+        "ui",
+        "mechanical",
+        "switch"
+      ],
+      "sync_ms": 24,
+      "lufs": null,
+      "true_peak_db": -19.6,
+      "loudness": {
+        "value": -39.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85986,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1dBaK5Z1nqaISPNWN3fvBoXs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc3zzx6tban09ofb0xe6ds/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Button Off\" on Soundza (https://soundza.com/sound/plastic-button-off)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmukc5872q3kafe5zsy25ji1o",
+      "url": "https://soundza.com/sound/plastic-bag-crunch",
+      "title": "Plastic Bag Crunch",
+      "description": "A short, crisp crunching sound of a thick plastic bag being squeezed, ideal for close-up foley of packaging or material handling. Recorded cleanly with minimal background noise.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": 241,
+      "lufs": -27.8,
+      "true_peak_db": -7.2,
+      "loudness": {
+        "value": -27.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 165084,
+      "category": {
+        "id": "PLASFric",
+        "label": "Plastic › Friction"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MeiL5STdmamPHCz09O5mOvhK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc5872q3kafe5zsy25ji1o/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Bag Crunch\" on Soundza (https://soundza.com/sound/plastic-bag-crunch)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmujfanrltwdpw1lzn8vrrhbq",
+      "url": "https://soundza.com/sound/plastic-ruler-swoosh",
+      "title": "Plastic Ruler Swoosh",
+      "description": "A bright, airy swoosh made by flexing a plastic ruler through the air. Quick and punchy, ideal for sharp transitions, animations, and game actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 1.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "transition",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 74,
+      "lufs": -19.5,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -16.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 518486,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OGBj2h-XrJySrszmz2A6zYg-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfanrltwdpw1lzn8vrrhbq/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Ruler Swoosh\" on Soundza (https://soundza.com/sound/plastic-ruler-swoosh)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmujfbpgq4b20eonaoqfe44zx",
+      "url": "https://soundza.com/sound/plastic-spatula-whoosh",
+      "title": "Plastic Spatula Whoosh",
+      "description": "A crisp, airy whoosh made by swinging a plastic perforated spatula through the air. The sound has a rushing quality with subtle texture, ideal for cutting between scenes or adding motion to transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 1.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "foley"
+      ],
+      "sync_ms": 343,
+      "lufs": -24.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -24.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 305120,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/kiE2l9YqeuOpsKTmAdXm6EVi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfbpgq4b20eonaoqfe44zx/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Spatula Whoosh\" on Soundza (https://soundza.com/sound/plastic-spatula-whoosh)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmsf4rfp9001h04jufzfsd0s9",
+      "url": "https://soundza.com/sound/thud-fall",
+      "title": "Thud, Fall",
+      "description": "A punchy wooden thud with a sharp attack and crispy mid-range character, landing with impact around 4kHz—ideal for foley hits, environmental falls, and percussion breaks.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "dark"
+      ],
+      "tags": [
+        "impact",
+        "foley",
+        "punchy",
+        "crispy",
+        "one-shot",
+        "textured",
+        "dark",
+        "drop"
+      ],
+      "sync_ms": 181,
+      "lufs": null,
+      "true_peak_db": 2.4,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 104314,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eMsdFSWJrk49Fpg_C3MV8Dzx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rfp9001h04jufzfsd0s9/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Thud, Fall\" on Soundza (https://soundza.com/sound/thud-fall)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv0gp82z007m06i9e88ari62",
+      "url": "https://soundza.com/sound/fruit-impact-1",
+      "title": "Fruit Impact 1",
+      "description": "A short, punchy impact sound with a dull thud character, suitable for game foley, collision effects, or UI feedback. The quick attack and low-frequency focus make it useful for hitting or dropping objects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat",
+        "ui_click"
+      ],
+      "duration": 0.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "game",
+        "thud"
+      ],
+      "sync_ms": 140,
+      "lufs": -37.4,
+      "true_peak_db": -17.9,
+      "loudness": {
+        "value": -37.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 16.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 56904,
+      "category": {
+        "id": "OBJMisc",
+        "label": "Objects › Misc"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/kRxnc57H8RPktiK0voR6ME6J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z007m06i9e88ari62/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fruit Impact 1\" on Soundza (https://soundza.com/sound/fruit-impact-1)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02ni06l4nq184cjs",
+      "url": "https://soundza.com/sound/rock-falling-3",
+      "title": "Rock Falling 3",
+      "description": "A single rock tumbles through air and strikes hard ground with a heavy thud. Suitable for impacts, falls, and destruction moments in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit"
+      ],
+      "duration": 0.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy"
+      ],
+      "tags": [
+        "impact",
+        "heavy",
+        "thud",
+        "game"
+      ],
+      "sync_ms": 290,
+      "lufs": -27.7,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -26,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 245102,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Vn-8_r9IFAh8yCFZa2r37y22.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02ni06l4nq184cjs/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Falling 3\" on Soundza (https://soundza.com/sound/rock-falling-3)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmvi9wd06ghjhhf5u1qzdhrys",
+      "url": "https://soundza.com/sound/towel-dropped-bodyfall",
+      "title": "Towel Dropped Bodyfall",
+      "description": "A cloth object drops with a soft thud, followed by a muffled impact suggesting a body collapse or fainting. Useful for physical comedy, pratfalls, or dramatic collapse moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "background_bed"
+      ],
+      "duration": 1.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "cloth",
+        "foley",
+        "impact",
+        "thud"
+      ],
+      "sync_ms": 622,
+      "lufs": -47.3,
+      "true_peak_db": -27.7,
+      "loudness": {
+        "value": -45.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 191452,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2n_Ud5QVFAJH5rS22JvaKdYV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9wd06ghjhhf5u1qzdhrys/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Towel Dropped Bodyfall\" on Soundza (https://soundza.com/sound/towel-dropped-bodyfall)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv0gs8m0eanioquu4xknnpjz",
+      "url": "https://soundza.com/sound/coconut-falling-impact",
+      "title": "Coconut Falling Impact",
+      "description": "A single coconut dropping and striking the ground with a solid thud. Useful for nature ambiences, jungle scenes, or game foley where an object falls from height.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "thud",
+        "game"
+      ],
+      "sync_ms": 488,
+      "lufs": -27,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -26,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 406834,
+      "category": {
+        "id": "OBJMisc",
+        "label": "Objects › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lHNPW7YZYeQYytDu0Ky0aw2e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gs8m0eanioquu4xknnpjz/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Coconut Falling Impact\" on Soundza (https://soundza.com/sound/coconut-falling-impact)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmtkg0ev5yjg0qxmfyevvjv4a",
+      "url": "https://soundza.com/sound/heavy-thud-kick",
+      "title": "Heavy Thud Kick",
+      "description": "A punchy, hard-hitting kick with focused low-mid energy and minimal decay, sitting around 800 Hz with a sharp attack perfect for cutting through dense mixes.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy"
+      ],
+      "tags": [
+        "kick",
+        "punchy",
+        "hard",
+        "tight",
+        "percussion",
+        "rhythmic"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -6.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 222842,
+      "category": null,
+      "pack": {
+        "id": "marvp94izn32zhivnncm7e61",
+        "name": "Afrobeats Drum and Percussion One-Shots",
+        "slug": "afrobeats-drum-and-percussion-one-shots",
+        "sound_count": 140,
+        "url": "https://soundza.com/packs/afrobeats-drum-and-percussion-one-shots"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tRgfy-e25bzJY6suPabE0gsT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkg0ev5yjg0qxmfyevvjv4a/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heavy Thud Kick\" by LABADI on Soundza (https://soundza.com/sound/heavy-thud-kick)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv5sxfwb01r706l65rbiubsg",
+      "url": "https://soundza.com/sound/toy-brick-perc-20",
+      "title": "Toy Brick Perc 20",
+      "description": "A sharp, bright click from rigid plastic toy bricks colliding or striking together. A single percussive impact useful for game interactions or playful sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "toy",
+        "plastic",
+        "click",
+        "impact",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 15,
+      "lufs": -20.6,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -18.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 188778,
+      "category": {
+        "id": "TOYMech",
+        "label": "Toys › Mechanical"
+      },
+      "pack": {
+        "id": "cmv5syvwu02uu06l6y0gbrc0m",
+        "name": "450+ Found-Sound Percussion Kit: Lighters, Keys, Coins and Glass",
+        "slug": "nightbus-uk-garage-percussion-and-lighter-hits",
+        "sound_count": 475,
+        "url": "https://soundza.com/packs/nightbus-uk-garage-percussion-and-lighter-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TB3jFJNhm2eyI3M7xxucodaJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5sxfwb01r706l65rbiubsg/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Toy Brick Perc 20\" on Soundza (https://soundza.com/sound/toy-brick-perc-20)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmve063razfhpvghgxvdbbtzc",
+      "url": "https://soundza.com/sound/deep-heartbeat-hit",
+      "title": "Deep Heartbeat Hit",
+      "description": "A single synthesized heartbeat with a low-frequency thump and fast attack. Designed for tension, suspense, or horror underscore.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "build_up"
+      ],
+      "duration": 0.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "impact",
+        "tension",
+        "thud",
+        "dark"
+      ],
+      "sync_ms": 117,
+      "lufs": -19.2,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -19.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 145230,
+      "category": {
+        "id": "HMNHart",
+        "label": "Human › Heartbeat"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DNsdosM8lCz3UX8VmH-3v5Gl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve063razfhpvghgxvdbbtzc/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Deep Heartbeat Hit\" on Soundza (https://soundza.com/sound/deep-heartbeat-hit)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv0il4an009n06l5whszi6yb",
+      "url": "https://soundza.com/sound/chips-collide-4",
+      "title": "Chips Collide 4",
+      "description": "A sharp, percussive collision of casino chips. Useful for gameplay feedback, UI interactions, or foley in gaming and video contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.21,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game",
+        "plastic"
+      ],
+      "sync_ms": 51,
+      "lufs": null,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -29,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 57134,
+      "category": {
+        "id": "OBJCoin",
+        "label": "Objects › Coin"
+      },
+      "pack": {
+        "id": "cmv0il49j008s06l53854aycf",
+        "name": "Casino SFX: Cards, Dice and Chips",
+        "slug": "casino-sfx-cards-dice-and-chips",
+        "sound_count": 54,
+        "url": "https://soundza.com/packs/casino-sfx-cards-dice-and-chips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mUDzjFwCsKtzQ4o1B5xZWRir.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0il4an009n06l5whszi6yb/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chips Collide 4\" on Soundza (https://soundza.com/sound/chips-collide-4)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5swsdk00zn06l6itcxefx2",
+      "url": "https://soundza.com/sound/tapping-plastic-17",
+      "title": "Tapping Plastic 17",
+      "description": "A quick, percussive tap on plastic material, sharp and clear. Useful for interface feedback, object interactions, or subtle foley details.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "click",
+        "foley",
+        "dry"
+      ],
+      "sync_ms": 41,
+      "lufs": -30.9,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -28.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 141396,
+      "category": {
+        "id": "PLASImpt",
+        "label": "Plastic › Impact"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/J2qO7VHKlRUF6eftQo0gttwt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swsdk00zn06l6itcxefx2/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tapping Plastic 17\" on Soundza (https://soundza.com/sound/tapping-plastic-17)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmuymqzsh001c06n5g8nj3rmz",
+      "url": "https://soundza.com/sound/giant-sound-4",
+      "title": "Giant Sound 4",
+      "description": "A heavy, low-frequency impact sound with a sharp attack and quick decay, designed for game events or creature actions. Suitable for monster footsteps, power strikes, or impact moments in RPGs.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy"
+      ],
+      "tags": [
+        "game",
+        "impact",
+        "heavy",
+        "thud"
+      ],
+      "sync_ms": null,
+      "lufs": -10.9,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -10.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 156078,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/G7zMyvRHGuLcyBSb6j6DMplU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzsh001c06n5g8nj3rmz/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Giant Sound 4\" on Soundza (https://soundza.com/sound/giant-sound-4)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmvgvfltq8u1q23mgmz8k1fex",
+      "url": "https://soundza.com/sound/heavy-footstep-on-wood-short",
+      "title": "Heavy Footstep on Wood Short",
+      "description": "A single heavy footstep landing on a polished wooden floor with a pronounced thud and quick decay. Suitable for foley work or sound design in film and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "impact",
+        "indoor",
+        "close-up",
+        "foley",
+        "thud"
+      ],
+      "sync_ms": 113,
+      "lufs": -20.3,
+      "true_peak_db": -6.3,
+      "loudness": {
+        "value": -20.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240928,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zbq22lVpRglDqEVsFsFxwrTs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgvfltq8u1q23mgmz8k1fex/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heavy Footstep on Wood Short\" on Soundza (https://soundza.com/sound/heavy-footstep-on-wood-short)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmukdqqx8yueulmyldhcr9h0b",
+      "url": "https://soundza.com/sound/basketball-bounce-indoor",
+      "title": "Basketball Bounce Indoor",
+      "description": "A single basketball bouncing on a hard floor, recorded in a small enclosed space. Useful for sports scenes, game action, or athletic foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "thud"
+      ],
+      "sync_ms": 15,
+      "lufs": -19.5,
+      "true_peak_db": -0.5,
+      "loudness": {
+        "value": -19.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 123096,
+      "category": {
+        "id": "SPRTGym",
+        "label": "Sports › Gym"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eO10kyfYnKgqj33iWlr6_T0b.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdqqx8yueulmyldhcr9h0b/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Basketball Bounce Indoor\" on Soundza (https://soundza.com/sound/basketball-bounce-indoor)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmukbw8xe5u7cyfpd5ljbes18",
+      "url": "https://soundza.com/sound/book-drop",
+      "title": "Book Drop",
+      "description": "A single book hitting a surface with a sharp, percussive thud. Quick and impactful, ideal for scenes involving books, papers, or library actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "paper",
+        "close-up",
+        "foley",
+        "thud"
+      ],
+      "sync_ms": 290,
+      "lufs": -12.2,
+      "true_peak_db": 1,
+      "loudness": {
+        "value": -11.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 218186,
+      "category": {
+        "id": "OBJBook",
+        "label": "Objects › Book"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/kszVRHCYyb5lWua0w00miXrM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbw8xe5u7cyfpd5ljbes18/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Book Drop\" on Soundza (https://soundza.com/sound/book-drop)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "ovkh8jzg1dzwy674qax9wrgk",
+      "url": "https://soundza.com/sound/whoosh-impact-hit-5",
+      "title": "Whoosh Impact Hit 5",
+      "description": "A designed whoosh that moves through frequency space and terminates in a sharp percussive impact, useful for transitions, reveals, or on-beat hits in video and game scenarios.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat"
+      ],
+      "duration": 1.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "impact",
+        "hit",
+        "thud",
+        "transition",
+        "cut",
+        "swish"
+      ],
+      "sync_ms": 541,
+      "lufs": -17.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -15,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 505470,
+      "category": {
+        "id": "DSGNWhsh",
+        "label": "Designed › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jljDmr3yefoyzH7ejCTG1kkA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ovkh8jzg1dzwy674qax9wrgk/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whoosh Impact Hit 5\" on Soundza (https://soundza.com/sound/whoosh-impact-hit-5)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "v4798is76cp31t1nk2gupqd6",
+      "url": "https://soundza.com/sound/whoosh-impact-hit-3",
+      "title": "Whoosh Impact Hit 3",
+      "description": "A designed whoosh that builds into a sharp, punchy impact. Quick attack and decay make it suitable for transitions, reveals, or emphasizing moment beats in picture.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat"
+      ],
+      "duration": 1.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "impact",
+        "hit",
+        "thud",
+        "transition",
+        "cut",
+        "swish"
+      ],
+      "sync_ms": 128,
+      "lufs": -18.1,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -13.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 484302,
+      "category": {
+        "id": "DSGNWhsh",
+        "label": "Designed › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1Ogr8ngPDFsQuvyyQ-cCELlp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/v4798is76cp31t1nk2gupqd6/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whoosh Impact Hit 3\" on Soundza (https://soundza.com/sound/whoosh-impact-hit-3)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmukbwkszppv42e51vc4av6cv",
+      "url": "https://soundza.com/sound/book-slam-shut",
+      "title": "Book Slam Shut",
+      "description": "A book forcefully slammed shut with a sharp, percussive thud. The sound captures the impact of pages and cover colliding—useful for emphasizing decisive actions or dramatic moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "slam",
+        "paper",
+        "impact",
+        "foley",
+        "thud"
+      ],
+      "sync_ms": 8,
+      "lufs": null,
+      "true_peak_db": -0.5,
+      "loudness": {
+        "value": -21.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 102062,
+      "category": {
+        "id": "OBJBook",
+        "label": "Objects › Book"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mfAHeDVbnNFA6PvpN3eWRCUm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbwkszppv42e51vc4av6cv/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Book Slam Shut\" on Soundza (https://soundza.com/sound/book-slam-shut)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv0h8q1kmbv41uvkbxuy39gg",
+      "url": "https://soundza.com/sound/plastic-shovel-digging-sand",
+      "title": "Plastic Shovel Digging Sand",
+      "description": "A quick scraping and scooping sound as a plastic hand shovel digs into wet sand. Useful for foley, gameplay, or environmental texture in outdoor scenes.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps",
+        "background_bed",
+        "ui_click"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley"
+      ],
+      "sync_ms": 104,
+      "lufs": null,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -21.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 97814,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qQcgbRg0sqWta8lljaVz2heH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h8q1kmbv41uvkbxuy39gg/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Shovel Digging Sand\" on Soundza (https://soundza.com/sound/plastic-shovel-digging-sand)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmukddxli4u8ok96c3xi3237j",
+      "url": "https://soundza.com/sound/vacuum-cleaner-button-click",
+      "title": "Vacuum Cleaner Button Click",
+      "description": "A sharp plastic button click from a vacuum cleaner, typical of pressing the power or function button on a household appliance. Clean, percussive UI feedback sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 1.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "button",
+        "click",
+        "plastic",
+        "mechanical"
+      ],
+      "sync_ms": 429,
+      "lufs": -21.9,
+      "true_peak_db": 2,
+      "loudness": {
+        "value": -19,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 511658,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0Ha2ehA4u3eDRfKWjFG0_Hyx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukddxli4u8ok96c3xi3237j/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Vacuum Cleaner Button Click\" on Soundza (https://soundza.com/sound/vacuum-cleaner-button-click)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmtm6y6e4l6wg4pijef5xboug",
+      "url": "https://soundza.com/sound/thud-impact",
+      "title": "Thud Impact",
+      "description": "A crispy, metallic clothes collision with punchy attack and fast decay—like a heavy fabric impact or sandbag smack with bright mid-range energy and minimal sustain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "impact",
+        "one-shot",
+        "bright",
+        "punchy",
+        "crispy",
+        "textured",
+        "percussion",
+        "foley"
+      ],
+      "sync_ms": 78,
+      "lufs": -23.2,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -23.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 63076,
+      "category": {
+        "id": "DESTRCrsh",
+        "label": "Destruction › Crash & Debris"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mhsZ-eseiITuVN4txJdy-o56.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6y6e4l6wg4pijef5xboug/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Thud Impact\" on Soundza (https://soundza.com/sound/thud-impact)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmukc3mfumm8jblu6wdmjji3l",
+      "url": "https://soundza.com/sound/light-switch-click",
+      "title": "Light Switch Click",
+      "description": "A crisp, plastic light switch activation sound with a sharp mechanical click. Ideal for UI feedback in games, apps, or video interfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "switch",
+        "button",
+        "mechanical",
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": 150,
+      "lufs": -34.3,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -34.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 120840,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K0dm4Dr6ageqFlKMpFQNZVmd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc3mfumm8jblu6wdmjji3l/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Switch Click\" on Soundza (https://soundza.com/sound/light-switch-click)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv91n7h7hqenysmcb434gmj8",
+      "url": "https://soundza.com/sound/toy-train-toot",
+      "title": "Toy Train Toot",
+      "description": "A squeeze-activated toy train whistle that produces a bright, plastic toot sound. Useful for children's content, game sound effects, or nostalgic toy moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 1.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "toy",
+        "train",
+        "plastic",
+        "bright",
+        "children"
+      ],
+      "sync_ms": 50,
+      "lufs": -13.9,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -12.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 185598,
+      "category": {
+        "id": "TOYElec",
+        "label": "Toys › Electronic"
+      },
+      "pack": {
+        "id": "dh0fxeecn91l1ey9pn8gtwu7",
+        "name": "Christmas Sound Effects — Sleigh Bells, Santa, Fireplace & More",
+        "slug": "christmas-sound-effects-sleigh-bells-santa-fireplace-and-more",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/christmas-sound-effects-sleigh-bells-santa-fireplace-and-more"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/t0OoHOqs5jMomkwOi2WN011z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv91n7h7hqenysmcb434gmj8/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Toy Train Toot\" on Soundza (https://soundza.com/sound/toy-train-toot)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmvclj9c7vyxa2xo7rs5380e6",
+      "url": "https://soundza.com/sound/plastic-bicycle-horn",
+      "title": "Plastic Bicycle Horn",
+      "description": "A bright, squeaky honk from a child's toy bicycle horn with a plastic body. Quick and punchy, ideal for cartoon sound effects and comedic moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "toy",
+        "plastic",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -13.9,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -13,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 93626,
+      "category": {
+        "id": "TOONHorn",
+        "label": "Cartoon › Horn"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Z63k8QILdtWk0YuWeQmqexSG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclj9c7vyxa2xo7rs5380e6/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Bicycle Horn\" on Soundza (https://soundza.com/sound/plastic-bicycle-horn)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5t1l0t006h06kttvn4fiam",
+      "url": "https://soundza.com/sound/opening-soda-four-pack-packaging-2",
+      "title": "Opening Soda Four-Pack Packaging 2",
+      "description": "The crisp sound of plastic packaging being torn open as someone opens a four-pack of soda cans. A quick, percussive foley sound useful for product interactions and handling moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": 16,
+      "lufs": -22.6,
+      "true_peak_db": -2.3,
+      "loudness": {
+        "value": -22.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 169060,
+      "category": {
+        "id": "OBJPack",
+        "label": "Objects › Packaging"
+      },
+      "pack": {
+        "id": "cmv5t1hxt006806kt8c8wsprm",
+        "name": "300+ Pots, Pans and Soda Can Drum Kit",
+        "slug": "soda-can-drum-kit",
+        "sound_count": 343,
+        "url": "https://soundza.com/packs/soda-can-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AWvHD5Cs8mqfye3mCKl1jGcV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t1l0t006h06kttvn4fiam/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Opening Soda Four-Pack Packaging 2\" on Soundza (https://soundza.com/sound/opening-soda-four-pack-packaging-2)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5ncxv7020z06l4ruacmnk7",
+      "url": "https://soundza.com/sound/plastic-crinkle-9",
+      "title": "Plastic Crinkle 9",
+      "description": "A sharp, brief crinkle of plastic material being compressed or manipulated. Useful for foley, transitions, or sound design moments requiring a quick plastic texture.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley",
+        "texture",
+        "close-up",
+        "dry"
+      ],
+      "sync_ms": 57,
+      "lufs": -31.8,
+      "true_peak_db": -0.6,
+      "loudness": {
+        "value": -31.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 57596,
+      "category": {
+        "id": "PLASMvmt",
+        "label": "Plastic › Movement"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Nm18oC578-HFilpMQ5fyidAM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv7020z06l4ruacmnk7/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Crinkle 9\" on Soundza (https://soundza.com/sound/plastic-crinkle-9)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700vj06l48mv8ldyu",
+      "url": "https://soundza.com/sound/plastic-bag-pick-up-1",
+      "title": "Plastic Bag Pick Up 1",
+      "description": "A quick, crinkly sound of picking up or handling a plastic bag, with distinct rustling and crinkling textures. Useful for fantasy inventory actions, item interactions, or foley work.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -24.3,
+      "true_peak_db": 1.2,
+      "loudness": {
+        "value": -23.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 183134,
+      "category": {
+        "id": "OBJPack",
+        "label": "Objects › Packaging"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fcNhYT0530ueJ8LU3Kj2DGVI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700vj06l48mv8ldyu/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Bag Pick Up 1\" on Soundza (https://soundza.com/sound/plastic-bag-pick-up-1)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmtlwuc1fnkxi52yyiupm93cg",
+      "url": "https://soundza.com/sound/plastic-percussion-hit",
+      "title": "Plastic Percussion Hit",
+      "description": "A crispy, bright plastic shaker with sharp high-frequency attack and minimal sustain, captured with tight mic placement for a direct, punchy character.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "shaker",
+        "crispy",
+        "bright",
+        "punchy",
+        "percussion",
+        "one-shot",
+        "tight",
+        "metallic"
+      ],
+      "sync_ms": 34,
+      "lufs": null,
+      "true_peak_db": -26,
+      "loudness": {
+        "value": -42.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 46360,
+      "category": null,
+      "pack": {
+        "id": "nna4x303lhpnpm857yhexnr4",
+        "name": "The Ultimate Tech House Kit",
+        "slug": "the-ultimate-tech-house-kit",
+        "sound_count": 89,
+        "url": "https://soundza.com/packs/the-ultimate-tech-house-kit"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qzvbFEypyn5BxuLZOEmfNmWK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtlwuc1fnkxi52yyiupm93cg/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Percussion Hit\" by TRAGWERK on Soundza (https://soundza.com/sound/plastic-percussion-hit)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv8vkpyd2lindl69lmbhihzg",
+      "url": "https://soundza.com/sound/ketchup-bottle-fart",
+      "title": "Ketchup Bottle Fart",
+      "description": "A quick, squeaky sound from an almost-empty ketchup bottle being squeezed or stepped on, with the characteristic hollow pop of air escaping plastic.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -18.8,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -18.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 239724,
+      "category": {
+        "id": "FARTDsgn",
+        "label": "Farts › Designed"
+      },
+      "pack": {
+        "id": "pnuef0hmyfj57hhxg7wtjbsz",
+        "name": "FART SOUNDS — Farts, Burps and Gross-Out SFX",
+        "slug": "fart-sounds-farts-burps-and-gross-out-sfx",
+        "sound_count": 112,
+        "url": "https://soundza.com/packs/fart-sounds-farts-burps-and-gross-out-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/E4ipP_49eznHaw-WQ_LaXU0j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8vkpyd2lindl69lmbhihzg/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ketchup Bottle Fart\" on Soundza (https://soundza.com/sound/ketchup-bottle-fart)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmv5p0bmj00lz06l5i0bxolje",
+      "url": "https://soundza.com/sound/something-on-wood-1",
+      "title": "Something on Wood 1",
+      "description": "A short, sharp strike on wood, like a tap or knock. Useful for foley, transitions, or percussion accents in game and film.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "impact",
+        "hit",
+        "foley",
+        "click"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -18.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39738,
+      "category": {
+        "id": "WOODImpt",
+        "label": "Wood › Impact"
+      },
+      "pack": {
+        "id": "m2dz0mal7qlw6fmwrswwr59k",
+        "name": "Everyday Object Sound Effects",
+        "slug": "everyday-object-sound-effects",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/everyday-object-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XUF8Qx9zxGvu_abssyFS9CqH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5p0bmj00lz06l5i0bxolje/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Something on Wood 1\" on Soundza (https://soundza.com/sound/something-on-wood-1)",
+      "matched_words": [
+        "knock"
+      ]
+    },
+    {
+      "id": "cmukd1p6fnz79m1pyyuf7frxo",
+      "url": "https://soundza.com/sound/cordless-phone-put-down",
+      "title": "Cordless Phone Put Down",
+      "description": "A plastic cordless phone being gently set down on a hard table surface. The sound captures the subtle impact and settling of the handset and base as it makes contact.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "plastic",
+        "impact",
+        "close-up"
+      ],
+      "sync_ms": 502,
+      "lufs": -27.3,
+      "true_peak_db": -7.1,
+      "loudness": {
+        "value": -25.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 287026,
+      "category": {
+        "id": "OBJOffc",
+        "label": "Objects › Office"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1MtyzFN397m0Qj238K6aqq8F.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd1p6fnz79m1pyyuf7frxo/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cordless Phone Put Down\" on Soundza (https://soundza.com/sound/cordless-phone-put-down)",
+      "matched_words": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "cmujeyq4x6f45lsiq9wapms0a",
+      "url": "https://soundza.com/sound/door-closing",
+      "title": "Door Closing",
+      "description": "A crisp, wooden door closing with a soft thud and subtle creaking—warm mid-range tone with minimal sustain, perfect for transitions and foley layers in cinematic or game contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.72,
+      "bpm": null,
+      "key": "E major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "warm",
+        "transition",
+        "organic",
+        "dry",
+        "one-shot"
+      ],
+      "sync_ms": 328,
+      "lufs": -14.5,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -13.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 227038,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DT2u8P6ZejnIbf93rlzix4N7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujeyq4x6f45lsiq9wapms0a/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Door Closing\" on Soundza (https://soundza.com/sound/door-closing)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmvib5fisy3o2n6apxbxq0e7h",
+      "url": "https://soundza.com/sound/metallic-trash-lid-thud",
+      "title": "Metallic Trash Lid Thud",
+      "description": "A deep, resonant metallic impact from a trash can cover being struck. The sound has a sharp attack and quick decay, making it suitable for heavy impacts, armor blocks, or percussion design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "metal",
+        "thud",
+        "impact"
+      ],
+      "sync_ms": 35,
+      "lufs": -17.4,
+      "true_peak_db": -0.6,
+      "loudness": {
+        "value": -13.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 198538,
+      "category": {
+        "id": "WEAPArmr",
+        "label": "Weapons › Armor"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sW6zZ--FoKornuQF5fqsolzk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvib5fisy3o2n6apxbxq0e7h/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metallic Trash Lid Thud\" on Soundza (https://soundza.com/sound/metallic-trash-lid-thud)",
+      "matched_words": [
+        "thud"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02lz06l4geuml535",
+      "url": "https://soundza.com/sound/falling-1",
+      "title": "Falling 1",
+      "description": "A single object falls and strikes the ground with a sharp, percussive impact. Useful for foley, game hits, or action sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit"
+      ],
+      "duration": 1.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "hit",
+        "thud",
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -24.3,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -21.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 307856,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NDTfiPPD_1gzlIMjS2y_OnZ8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02lz06l4geuml535/file?search_id=h7mf23tlasfhx279akp8z0su",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Falling 1\" on Soundza (https://soundza.com/sound/falling-1)",
+      "matched_words": [
+        "thud"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "plastic hull knock thud",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 2,
+    "style": null,
+    "good_for": [
+      "game_hit"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for a plastic hull knock or thud sound effect. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"plastic hull knock thud\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "h7mf23tlasfhx279akp8z0su"
+}

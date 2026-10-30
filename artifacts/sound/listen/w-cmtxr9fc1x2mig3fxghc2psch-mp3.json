@@ -1,0 +1,16 @@
+{
+  "file": "scratch/w-cmtxr9fc1x2mig3fxghc2psch.mp3",
+  "sha": "91565f71d8ee199f",
+  "want": "a body and machine crashing hard into the sea: a huge chaotic water crash splash with churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    3,
+    2,
+    3
+  ],
+  "fit": 3,
+  "heard": "A single heavy object — likely a person or a solid mass — hitting water close-miked, with a punchy mid-sized splash, a burst of droplets, and a short tail of water slapping and settling back. No metal, no secondary impacts, no sustained churn. Sounds like a pool or calm lake, not open sea.",
+  "sounds_like": "Someone doing a cannonball into a swimming pool",
+  "problems": "Scale is far too small for a body AND machine crashing into the sea — there's no metallic/machine layer, no secondary debris impact, and no huge chaotic churn. The tail dies out in about a second instead of roiling and settling over several seconds. It reads as a calm-water pool splash, not an ocean crash; you'd need to layer in a heavy low-end impact, metal/glass crunch, and a long churning water tail to make this work.",
+  "veto": true
+}

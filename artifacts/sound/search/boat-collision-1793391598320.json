@@ -1,0 +1,3555 @@
+{
+  "query": {
+    "q": "boat collision",
+    "max_duration": "3",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=boat+collision&max_duration=3&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmsf4rfft001f04julh1nkkns",
+      "url": "https://soundza.com/sound/car-crash-with-glass-smashing",
+      "title": "Car Crash With Glass Smashing",
+      "description": "A destructive car crash impact with sharp, bright glass-smashing textures in the high frequencies. The sound features aggressive initial transients and metallic shattering with minimal sustain, perfect for intense collision and impact design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 2.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "cinematic"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "foley",
+        "aggressive",
+        "sharp",
+        "metallic",
+        "one-shot",
+        "cinematic"
+      ],
+      "sync_ms": 89,
+      "lufs": -18.7,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -13.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 691348,
+      "category": {
+        "id": "VEHMisc",
+        "label": "Vehicles › Misc"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6tRddjvaucRxWQLfdHmbyJNC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rfft001f04julh1nkkns/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Crash With Glass Smashing\" on Soundza (https://soundza.com/sound/car-crash-with-glass-smashing)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvi9w496ujfqsvso2nps2uje",
+      "url": "https://soundza.com/sound/body-hit-and-crash",
+      "title": "Body Hit and Crash",
+      "description": "A percussive impact of a body falling or colliding with a hard surface, followed by a crash. Useful for fight scenes, falls, and collision moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -25.6,
+      "true_peak_db": -9.7,
+      "loudness": {
+        "value": -21.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 244884,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/81x6-i9vipwQFvblxHNFNuHT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9w496ujfqsvso2nps2uje/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Hit and Crash\" on Soundza (https://soundza.com/sound/body-hit-and-crash)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtj98rqam9agcqnb86fg3whr",
+      "url": "https://soundza.com/sound/high-reversed-crash-cymbal",
+      "title": "High Reversed Crash Cymbal",
+      "description": "A bright, shimmering crash cymbal with crispy high-frequency content and a fast, natural decay. The rich spectral presence above 5kHz gives it an open, airy quality ideal for punctuating drops and fills.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 2.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "bright",
+        "crispy",
+        "one-shot",
+        "metallic",
+        "impact",
+        "fill"
+      ],
+      "sync_ms": 2649,
+      "lufs": -17.6,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -12.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 734990,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/G_tjCPPXe0MoHd-mFhWPNlUv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj98rqam9agcqnb86fg3whr/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"High Reversed Crash Cymbal\" on Soundza (https://soundza.com/sound/high-reversed-crash-cymbal)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtkhi51pa9v7n0x9sjb3d7sp",
+      "url": "https://soundza.com/sound/metallic-spring-collision",
+      "title": "Metallic Spring Collision",
+      "description": "A bright, metallic collision sound with sharp percussive attacks and wooden resonance, featuring multiple high-frequency impacts that decay quickly. The crispy, transient-rich texture makes it ideal for adding texture, impact, and organic punch to percussion arrangements.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.75,
+      "bpm": 101.3,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright",
+        "organic"
+      ],
+      "tags": [
+        "percussion",
+        "impact",
+        "metallic",
+        "crispy",
+        "bright",
+        "organic",
+        "foley",
+        "texture"
+      ],
+      "sync_ms": null,
+      "lufs": -32.7,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -24.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 729060,
+      "category": null,
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qS1yyf8KWSL4RKBh4JiFD-bM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkhi51pa9v7n0x9sjb3d7sp/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metallic Spring Collision\" on Soundza (https://soundza.com/sound/metallic-spring-collision)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl88ntheitfaspdk5m1akni",
+      "url": "https://soundza.com/sound/stone-crash-impact",
+      "title": "Stone Crash Impact",
+      "description": "A sharp, destructive impact of stone colliding and crashing, with layered debris and multiple struck surfaces. Suitable for destruction, impacts, and rock-based foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 2.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "hit"
+      ],
+      "sync_ms": 32,
+      "lufs": -21.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 661584,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ucc5FVWLNEXpePmwU4vW-kbx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl88ntheitfaspdk5m1akni/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stone Crash Impact\" on Soundza (https://soundza.com/sound/stone-crash-impact)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4reiz001904ju0sf1w96a",
+      "url": "https://soundza.com/sound/angry-crash-shot",
+      "title": "Angry Crash/Shot",
+      "description": "A sharp, aggressive metallic crash with a punchy impact and bright high-end presence, capturing the character of a collision or vehicle impact. The sound has a tight attack and minimal sustain, making it ideal for emphasizing dramatic moments or adding percussive texture to builds and transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "aggressive",
+        "bright",
+        "foley",
+        "one-shot",
+        "punchy",
+        "transition"
+      ],
+      "sync_ms": 13,
+      "lufs": -11.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -9.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 142906,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rJZmMM3hYWIjeKYEg22aEaG-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4reiz001904ju0sf1w96a/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Angry Crash/Shot\" on Soundza (https://soundza.com/sound/angry-crash-shot)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4rduo001304jutzy0cv4e",
+      "url": "https://soundza.com/sound/box-breaking-crash",
+      "title": "Box Breaking / Crash",
+      "description": "A bright, metallic crash with sharp attack and rapid onset density, capturing the percussive clatter of objects colliding and breaking apart. The energy sits in the mid-range with minimal sustain, creating a crispy, aggressive impact sound ideal for transitions and sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "crispy",
+        "aggressive",
+        "metallic",
+        "textured",
+        "transition",
+        "one-shot"
+      ],
+      "sync_ms": 417,
+      "lufs": -6.8,
+      "true_peak_db": 2.1,
+      "loudness": {
+        "value": -3.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 369860,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ve8iWv6K9hcmCkE1G-aLGt-V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rduo001304jutzy0cv4e/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Box Breaking / Crash\" on Soundza (https://soundza.com/sound/box-breaking-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmuynws8x000p06nvrmmybnz3",
+      "url": "https://soundza.com/sound/space-trash-4",
+      "title": "Space Trash 4",
+      "description": "A series of metallic crashes and debris impacts with a sci-fi character, suggesting collision or destruction in a space environment. Useful for game impacts, collision hits, or destruction events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "sci-fi",
+        "impact",
+        "metallic",
+        "game"
+      ],
+      "sync_ms": 282,
+      "lufs": -29.7,
+      "true_peak_db": -11.1,
+      "loudness": {
+        "value": -26.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 296526,
+      "category": {
+        "id": "SCIImpt",
+        "label": "Scifi › Impact"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9wwVcKkmN_PTAhA5YlGBdbHZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuynws8x000p06nvrmmybnz3/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Space Trash 4\" on Soundza (https://soundza.com/sound/space-trash-4)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl83vjdh2bzt8mo7pfnmto1",
+      "url": "https://soundza.com/sound/bricks-smash",
+      "title": "Bricks Smash",
+      "description": "Two bricks crashing together with a sharp, percussive impact. A dry, realistic sound useful for impacts, collisions, and rock-based destruction.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "dry",
+        "close-up"
+      ],
+      "sync_ms": 70,
+      "lufs": -11.2,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -8.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 169038,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/p9gqbHZaZG82on19p3n6_hB8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl83vjdh2bzt8mo7pfnmto1/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bricks Smash\" on Soundza (https://soundza.com/sound/bricks-smash)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvowcw7jv5d7yd624l8wg8nb",
+      "url": "https://soundza.com/sound/water-paddle-stroke-bright",
+      "title": "Water Paddle Stroke Bright",
+      "description": "A single paddle stroke in water, captured with a clear attack and natural splash. Useful for rowing, canoeing, or boating scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "impact_on_beat"
+      ],
+      "duration": 1.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "field-recording",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 219,
+      "lufs": -25.1,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -22.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 466158,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dD9Dx0n3x7kWQE5C0LkHMBzF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowcw7jv5d7yd624l8wg8nb/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke Bright\" on Soundza (https://soundza.com/sound/water-paddle-stroke-bright)",
+      "matched_words": [
+        "boat",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02m106l4tq0oiqg0",
+      "url": "https://soundza.com/sound/falling-3",
+      "title": "Falling 3",
+      "description": "A heavy wooden object crashes down with a sharp impact and settling debris. Useful for dramatic collision, destruction, or landing moments in games and film.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "impact",
+        "wood",
+        "crackle",
+        "hit",
+        "close-up",
+        "cinematic"
+      ],
+      "sync_ms": 15,
+      "lufs": -28.1,
+      "true_peak_db": -2.5,
+      "loudness": {
+        "value": -23.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 234044,
+      "category": {
+        "id": "WOODImpt",
+        "label": "Wood › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LkCkTl5IChL7CgY3-AH7_vAV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02m106l4tq0oiqg0/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Falling 3\" on Soundza (https://soundza.com/sound/falling-3)",
+      "matched_words": [
+        "collision",
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7w64uecqif3z2pzhqcfli",
+      "url": "https://soundza.com/sound/rocks-falling-and-crashing",
+      "title": "Rocks Falling and Crashing",
+      "description": "A tumble of rocks and stone debris colliding together with impacts and scrapes. Useful for rockfalls, rubble settling, or close-range stone destruction.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact"
+      ],
+      "sync_ms": 79,
+      "lufs": -32.3,
+      "true_peak_db": -3.7,
+      "loudness": {
+        "value": -27,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 345692,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6OgpsRp0qvZlFuapI0ronpg-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7w64uecqif3z2pzhqcfli/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rocks Falling and Crashing\" on Soundza (https://soundza.com/sound/rocks-falling-and-crashing)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvcm6pbjbk5jzb6fmf76pmzu",
+      "url": "https://soundza.com/sound/cartoon-thud-impact",
+      "title": "Cartoon Thud Impact",
+      "description": "A punchy, cartoony impact sound with a brief resonant tail. Ideal for comedic hits, falls, and collision moments in animation or video editing.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "thud",
+        "foley"
+      ],
+      "sync_ms": 396,
+      "lufs": -11.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -8.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 364638,
+      "category": {
+        "id": "TOONImpt",
+        "label": "Cartoon › Impact"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O0SL-WDfWRSGzVRf-aO76gPn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcm6pbjbk5jzb6fmf76pmzu/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cartoon Thud Impact\" on Soundza (https://soundza.com/sound/cartoon-thud-impact)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7xuizwcgdfmn86isk75cm",
+      "url": "https://soundza.com/sound/rock-hit-dirt-impact",
+      "title": "Rock Hit Dirt Impact",
+      "description": "A single rock strikes packed earth with a dull thud, creating a naturalistic impact suitable for bullet hits, foley impacts, or debris collisions in film and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "hit"
+      ],
+      "sync_ms": 339,
+      "lufs": -39.6,
+      "true_peak_db": -19.3,
+      "loudness": {
+        "value": -39.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 436310,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/n7v79MgQouTjy-62A8EuL1EG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7xuizwcgdfmn86isk75cm/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Hit Dirt Impact\" on Soundza (https://soundza.com/sound/rock-hit-dirt-impact)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvdz1hbbo7562ly8ghgrx8wy",
+      "url": "https://soundza.com/sound/bright-bowling-strike-impact",
+      "title": "Bright Bowling Strike Impact",
+      "description": "A sharp, percussive impact of a bowling ball striking pins with multiple rapid collisions and tumbling debris. Clear, punchy sound suitable for sports moments and impact moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact"
+      ],
+      "sync_ms": 182,
+      "lufs": -10,
+      "true_peak_db": 2.2,
+      "loudness": {
+        "value": -7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 362590,
+      "category": {
+        "id": "SPRTField",
+        "label": "Sports › Field"
+      },
+      "pack": {
+        "id": "kv7zwnelzmxyt9c39ruvow9z",
+        "name": "Sports Sound Effects — Crowd Cheers, Referee Whistles, Buzzers & Ball Hits",
+        "slug": "sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CVBblwKIbrEieNV5WiywW80P.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdz1hbbo7562ly8ghgrx8wy/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Bowling Strike Impact\" on Soundza (https://soundza.com/sound/bright-bowling-strike-impact)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm6yi868eavrpoaiympgezi",
+      "url": "https://soundza.com/sound/dull-impact-hit",
+      "title": "Dull Impact Hit",
+      "description": "A sharp, muffled thud with subtle fabric rustling and resonance, perfect for physical collisions, body impacts, or cloth-on-object strikes in percussion-heavy productions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "one-shot",
+        "organic",
+        "punchy",
+        "metallic",
+        "foley",
+        "thin"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -21.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 49580,
+      "category": {
+        "id": "OBJBag",
+        "label": "Objects › Bag"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tDixF13wnql6lTOC9xGHAbVc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6yi868eavrpoaiympgezi/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dull Impact Hit\" on Soundza (https://soundza.com/sound/dull-impact-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvjo6for9gvwygz2dv910y84",
+      "url": "https://soundza.com/sound/magic-projectile-impact",
+      "title": "Magic Projectile Impact",
+      "description": "A bright, designed impact with energy bursts and a sharp attack, as a magical projectile strikes and explodes against a solid target. Suitable for spell hits, energy blasts, and fantasy collision moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 1.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "magic",
+        "impact",
+        "explosion",
+        "sci-fi"
+      ],
+      "sync_ms": 5,
+      "lufs": -0.9,
+      "true_peak_db": 17.2,
+      "loudness": {
+        "value": 6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -19,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 559270,
+      "category": {
+        "id": "MAGSpel",
+        "label": "Magic › Spell"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6NbjK0JcVSFY4e6LXhHG1r24.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjo6for9gvwygz2dv910y84/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Magic Projectile Impact\" on Soundza (https://soundza.com/sound/magic-projectile-impact)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0gp82z007m06i9e88ari62",
+      "url": "https://soundza.com/sound/fruit-impact-1",
+      "title": "Fruit Impact 1",
+      "description": "A short, punchy impact sound with a dull thud character, suitable for game foley, collision effects, or UI feedback. The quick attack and low-frequency focus make it useful for hitting or dropping objects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat",
+        "ui_click"
+      ],
+      "duration": 0.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "game",
+        "thud"
+      ],
+      "sync_ms": 140,
+      "lufs": -37.4,
+      "true_peak_db": -17.9,
+      "loudness": {
+        "value": -37.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 16.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 56904,
+      "category": {
+        "id": "OBJMisc",
+        "label": "Objects › Misc"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/kRxnc57H8RPktiK0voR6ME6J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z007m06i9e88ari62/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fruit Impact 1\" on Soundza (https://soundza.com/sound/fruit-impact-1)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl84yvdy0wxxtcctnq55e7g",
+      "url": "https://soundza.com/sound/rock-on-wood-impact-1",
+      "title": "Rock On Wood Impact",
+      "description": "A sharp, percussive impact of a single stone striking wood. Useful for realistic weapon foley, debris impacts, or object collision effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 95,
+      "lufs": null,
+      "true_peak_db": -7.8,
+      "loudness": {
+        "value": -31.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 76884,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/e6IVhmWvLcJjXZr9FnpYlOU0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl84yvdy0wxxtcctnq55e7g/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock On Wood Impact\" on Soundza (https://soundza.com/sound/rock-on-wood-impact-1)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl86dojyk3hez7rbu53mkqz",
+      "url": "https://soundza.com/sound/high-glass-stone-impact-with-decay",
+      "title": "High Glass Stone Impact with Decay",
+      "description": "A stone strikes rocks with a clear impact followed by a long resonant decay, recorded close-up at a Swiss lakeside with dry acoustics. Ideal for impacts, bouncing debris, and natural rock collisions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "nature",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 67,
+      "lufs": -33.8,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -31.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 329536,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/laTQQ6uWcixrTPj2rYCaCV8B.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl86dojyk3hez7rbu53mkqz/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"High Glass Stone Impact with Decay\" on Soundza (https://soundza.com/sound/high-glass-stone-impact-with-decay)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "a30bg9gtkj0wmaxmagb5t7bt",
+      "url": "https://soundza.com/sound/whoosh-impact-hit-1",
+      "title": "Whoosh Impact Hit 1",
+      "description": "A designed swoosh that builds and lands in a sharp percussive impact. Works well as a transition accent or foley sweetener for on-screen movement and collisions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat"
+      ],
+      "duration": 2.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "whoosh",
+        "impact",
+        "hit",
+        "thud",
+        "transition",
+        "cut",
+        "cinematic",
+        "foley"
+      ],
+      "sync_ms": 886,
+      "lufs": -19.9,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 600726,
+      "category": {
+        "id": "DSGNWhsh",
+        "label": "Designed › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GHaj6--eUSomK-UIO96wo1zF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/a30bg9gtkj0wmaxmagb5t7bt/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whoosh Impact Hit 1\" on Soundza (https://soundza.com/sound/whoosh-impact-hit-1)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5n0uyt017e06l4kfr6xnzo",
+      "url": "https://soundza.com/sound/metal-impact-3",
+      "title": "Metal Impact 3",
+      "description": "A sharp, resonant metallic strike with a sci-fi character. Suitable for designed impacts, robot hits, or futuristic collision sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "sci-fi",
+        "bright"
+      ],
+      "sync_ms": 5,
+      "lufs": -22.3,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -22.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 62408,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "c4qisjxnv311lckh8jp7lna2",
+        "name": "Sci-Fi Game FX",
+        "slug": "sci-fi-game-fx",
+        "sound_count": 73,
+        "url": "https://soundza.com/packs/sci-fi-game-fx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bNIBteegWNjtpTSXqABuMzQi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0uyt017e06l4kfr6xnzo/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal Impact 3\" on Soundza (https://soundza.com/sound/metal-impact-3)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukcj9gw7s8gx1qunbbeb22t",
+      "url": "https://soundza.com/sound/retro-low-impact-hit",
+      "title": "Retro Low Impact Hit",
+      "description": "A short, low-pitched 8-bit style impact sound with a quick attack and decay, typical of retro arcade games. Works well for collision, damage, or item interaction sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "retro",
+        "arcade",
+        "8-bit",
+        "impact"
+      ],
+      "sync_ms": 6,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -17.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 40070,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/br-gQ0GmshM9i4xLbhz2CeB7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcj9gw7s8gx1qunbbeb22t/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Low Impact Hit\" on Soundza (https://soundza.com/sound/retro-low-impact-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtmao0vkketzsv5sccphqyzc",
+      "url": "https://soundza.com/sound/metallic-impact-hit",
+      "title": "Metallic Impact Hit",
+      "description": "A metallic chain collision with a sharp, percussive attack and bright mid-range character—perfect for foley impacts, transitions, and sound design layers. The crispy, thin metallic texture and quick onset make it ideal for punchy drops and cinematic hits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "crispy",
+        "sharp",
+        "one-shot",
+        "transition",
+        "foley",
+        "textured"
+      ],
+      "sync_ms": 127,
+      "lufs": -22.6,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -19.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 318630,
+      "category": {
+        "id": "VEHBike",
+        "label": "Vehicles › Bicycle"
+      },
+      "pack": {
+        "id": "gldngobqs2ncxsbboug4o0bh",
+        "name": "IMPACT — Trailer Braams, Hits and Metal Impacts",
+        "slug": "slasher-braaams-dramatic-impacts-and-horror-hits",
+        "sound_count": 160,
+        "url": "https://soundza.com/packs/slasher-braaams-dramatic-impacts-and-horror-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9W1bYLb7EqYvuIZJAXbr-UQA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtmao0vkketzsv5sccphqyzc/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metallic Impact Hit\" on Soundza (https://soundza.com/sound/metallic-impact-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvclppoz6igsiojqsibxqk9g",
+      "url": "https://soundza.com/sound/crisp-splat-hit",
+      "title": "Crisp Splat Hit",
+      "description": "A quick, punchy splat sound with a squelchy, slightly metallic character. Works well as a comedic impact or collision effect in cartoons and animation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 34,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -23.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 86036,
+      "category": {
+        "id": "TOONSplt",
+        "label": "Cartoon › Splat"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/beEiFHHYWp2D6qcCQSyiQGpT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclppoz6igsiojqsibxqk9g/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Splat Hit\" on Soundza (https://soundza.com/sound/crisp-splat-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0gjx4z001406l81qyq58sf",
+      "url": "https://soundza.com/sound/metal-9",
+      "title": "Metal 9",
+      "description": "A sharp, metallic clanging sound with a bright, ringing quality. Useful for impact moments, transitions, or reinforcing physical collisions in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "metal",
+        "impact",
+        "bright",
+        "hit",
+        "industrial"
+      ],
+      "sync_ms": 60,
+      "lufs": -17.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -15,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 192278,
+      "category": {
+        "id": "METLImpt",
+        "label": "Metal › Impact"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1_CZhYvmu3amhgW4Y_ZRiC4m.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gjx4z001406l81qyq58sf/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal 9\" on Soundza (https://soundza.com/sound/metal-9)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5swkch00jo06l693gybtyk",
+      "url": "https://soundza.com/sound/glass-smash-6",
+      "title": "Glass Smash 6",
+      "description": "A sharp, percussive glass breaking impact with a bright, shattering quality. Useful for collision moments, destruction effects, or cinematic emphasis.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 1.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "glass",
+        "impact",
+        "foley",
+        "cinematic"
+      ],
+      "sync_ms": 161,
+      "lufs": -15.7,
+      "true_peak_db": -2.3,
+      "loudness": {
+        "value": -13.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 432604,
+      "category": {
+        "id": "GLASImpt",
+        "label": "Glass › Impact"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/843_1fLsgQYFV05OKI4n2P7T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00jo06l693gybtyk/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Smash 6\" on Soundza (https://soundza.com/sound/glass-smash-6)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901gm06l4i7v1weot",
+      "url": "https://soundza.com/sound/arrow-bounce",
+      "title": "Arrow Bounce",
+      "description": "A chiptune impact sound with a bouncing, pinging quality typical of 8-bit video games. Useful for collision detection, item pickups, or environmental interactions in retro-styled games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "ui_click",
+        "game_pickup"
+      ],
+      "duration": 0.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "arcade",
+        "retro",
+        "impact",
+        "beep",
+        "ui"
+      ],
+      "sync_ms": 44,
+      "lufs": -26.1,
+      "true_peak_db": -9.1,
+      "loudness": {
+        "value": -24.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 62778,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eacKU6GBZIT2LyIFnT74YyUV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901gm06l4i7v1weot/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Arrow Bounce\" on Soundza (https://soundza.com/sound/arrow-bounce)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm6ffudm7gbj4sx21sd6vad",
+      "url": "https://soundza.com/sound/short-crash-cymbal",
+      "title": "Short Crash Cymbal",
+      "description": "A bright, crispy crash cymbal with sharp attack and airy high-frequency shimmer that cuts through mixes. Fast transient impact with extended metallic decay, ideal for punctuating beats and adding clarity to drum breaks.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "bright",
+        "crispy",
+        "metallic",
+        "sharp",
+        "one-shot",
+        "texture"
+      ],
+      "sync_ms": 82,
+      "lufs": -13.8,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -9.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 383754,
+      "category": null,
+      "pack": {
+        "id": "y45kz46rys9z90bslhc8ynn5",
+        "name": "Urban Trap Essentials",
+        "slug": "urban-trap-essentials",
+        "sound_count": 108,
+        "url": "https://soundza.com/packs/urban-trap-essentials"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lMtNmDTllKGS6kYHCblquK7O.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6ffudm7gbj4sx21sd6vad/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Crash Cymbal\" on Soundza (https://soundza.com/sound/short-crash-cymbal)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0gvc5i013606i9lvu3c97k",
+      "url": "https://soundza.com/sound/explosion-1-1",
+      "title": "Explosion 1",
+      "description": "A short, punchy explosion sound with a bright, synthetic character. Suitable for game impacts, collisions, or sci-fi effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "explosion",
+        "impact",
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -50.7,
+      "true_peak_db": -39.8,
+      "loudness": {
+        "value": -48.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 244010,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NBOtUuXCsMVb4GmqvMRn4nMn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gvc5i013606i9lvu3c97k/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Explosion 1\" on Soundza (https://soundza.com/sound/explosion-1-1)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5stdl4002x06jsy207fx2c",
+      "url": "https://soundza.com/sound/beach-stones-percussion-87",
+      "title": "Beach Stones Percussion 87",
+      "description": "A sharp, percussive impact of stones striking together on a beach, with a brief resonant tail. Useful for adding texture to collision, impact, or environmental transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "beach",
+        "dry",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 270,
+      "lufs": -31.2,
+      "true_peak_db": -8.3,
+      "loudness": {
+        "value": -29,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 235214,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0DvZq373vUwSXVUK4GuhfjPG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5stdl4002x06jsy207fx2c/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Stones Percussion 87\" on Soundza (https://soundza.com/sound/beach-stones-percussion-87)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukcj3t6rg27txbiygi4kozb",
+      "url": "https://soundza.com/sound/retro-hit-chime",
+      "title": "Retro Hit Chime",
+      "description": "A bright, 8-bit video game hit sound with a quick attack and tonal character, ideal for damage or collision feedback in retro games. Clean and punchy arcade impact suitable for mobile games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "arcade",
+        "hit",
+        "game",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -18.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 21480,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GcT71e2R6F7T65mAsJrP7AK1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcj3t6rg27txbiygi4kozb/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Hit Chime\" on Soundza (https://soundza.com/sound/retro-hit-chime)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5mx2p200ap06l489h6wyow",
+      "url": "https://soundza.com/sound/wood-bowl-drop-metal-spoon-4",
+      "title": "Wood Bowl Drop Metal Spoon 4",
+      "description": "A wooden bowl and metal spoon impact together in a quick, percussive collision. Useful for fantasy game inventory, object interactions, or foley scenes involving tableware and kitchenware.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "ui_click",
+        "impact_on_beat"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "wood",
+        "metal",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -22.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -21.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 132238,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": {
+        "id": "cmv5mx2kb007606l48sc2t62x",
+        "name": "Fantasy Props Foley",
+        "slug": "fantasy-props-foley",
+        "sound_count": 160,
+        "url": "https://soundza.com/packs/fantasy-props-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Dxc3fhnbjvj1CGsaNkBLHFDR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mx2p200ap06l489h6wyow/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wood Bowl Drop Metal Spoon 4\" on Soundza (https://soundza.com/sound/wood-bowl-drop-metal-spoon-4)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5mxljd00id06l4w0l3v77e",
+      "url": "https://soundza.com/sound/sword-knife-clash-17",
+      "title": "Sword Knife Clash 17",
+      "description": "A bright, metallic collision of sword and knife blades. The sharp transient and tonal resonance make it suitable for melee combat impacts in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 2.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "metal",
+        "impact",
+        "weapon",
+        "foley"
+      ],
+      "sync_ms": 149,
+      "lufs": -17.5,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -13.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 718220,
+      "category": {
+        "id": "WEAPSwrd",
+        "label": "Weapons › Sword"
+      },
+      "pack": {
+        "id": "cmv5mxlf900fv06l4neugk1wt",
+        "name": "Fantasy Weapons & Apparel Foley",
+        "slug": "fantasy-weapons-and-apparel-foley",
+        "sound_count": 126,
+        "url": "https://soundza.com/packs/fantasy-weapons-and-apparel-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/f_LnXCmXzkUN7Tzm5dZf67l3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mxljd00id06l4w0l3v77e/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sword Knife Clash 17\" on Soundza (https://soundza.com/sound/sword-knife-clash-17)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0fq8s0000006lb5jd0cq8t",
+      "url": "https://soundza.com/sound/sword-attack-4",
+      "title": "Sword Attack 4",
+      "description": "A sharp metallic clash of two blades meeting with bright, cutting edges. Useful for sword impacts, weapon collisions, and shield blocks in games or action scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit"
+      ],
+      "duration": 0.58,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "metal",
+        "impact",
+        "weapon"
+      ],
+      "sync_ms": 204,
+      "lufs": -9.1,
+      "true_peak_db": 3.8,
+      "loudness": {
+        "value": -7.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 153828,
+      "category": {
+        "id": "WEAPSwrd",
+        "label": "Weapons › Sword"
+      },
+      "pack": {
+        "id": "cmv0fptw2000006jth0zqta6o",
+        "name": "Sword & Swish SFX",
+        "slug": "sword-and-swish-sfx",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/sword-and-swish-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Nilt21VWYXJgp6fwSzbIw2t2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0fq8s0000006lb5jd0cq8t/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sword Attack 4\" on Soundza (https://soundza.com/sound/sword-attack-4)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtj993al3toos1t4jszhv4wf",
+      "url": "https://soundza.com/sound/low-reversed-crash-cymbal",
+      "title": "Low Reversed Crash Cymbal",
+      "description": "A bright, shimmering crash cymbal with extended decay and airy presence in the upper-mid frequencies, perfect for punctuating transitions and adding spacious splash to drum breaks.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 2.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "airy",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "one-shot",
+        "bright",
+        "airy",
+        "transition",
+        "metallic",
+        "textured"
+      ],
+      "sync_ms": 2685,
+      "lufs": -13.5,
+      "true_peak_db": -0.6,
+      "loudness": {
+        "value": -8.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 711054,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dq3YCyRsfRkxSdh97F7dmb7b.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj993al3toos1t4jszhv4wf/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Low Reversed Crash Cymbal\" on Soundza (https://soundza.com/sound/low-reversed-crash-cymbal)",
+      "matched_words": [
+        "crash"
+      ]
+    },
+    {
+      "id": "cmvib8hpjmwrrspi3r9v388ii",
+      "url": "https://soundza.com/sound/sword-shield-block",
+      "title": "Sword Shield Block",
+      "description": "A sharp metallic clash of a sword striking a shield or armor plate in an open-air setting. Suitable for medieval combat sequences, armor impacts, and melee collision effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "metal",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -25,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 84612,
+      "category": {
+        "id": "WEAPArmr",
+        "label": "Weapons › Armor"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BE1qlwCxZtKmbmbpAt8N3J3e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvib8hpjmwrrspi3r9v388ii/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sword Shield Block\" on Soundza (https://soundza.com/sound/sword-shield-block)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5myxln00qp06l4rl9xwumn",
+      "url": "https://soundza.com/sound/stone-item-4",
+      "title": "Stone Item 4",
+      "description": "A sharp, percussive stone impact sound suitable for item interactions or environmental impacts in games. Works well for picking up stone objects, crafting materials, or collision effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "game_pickup"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game",
+        "dry"
+      ],
+      "sync_ms": 17,
+      "lufs": null,
+      "true_peak_db": -0.6,
+      "loudness": {
+        "value": -21.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85926,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": {
+        "id": "cmv5myxj700pb06l4wqk9a0dt",
+        "name": "Fantasy RPG SFX",
+        "slug": "fantasy-rpg-sfx",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/fantasy-rpg-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l9spATchvcxAXTvK5KPSi_GP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5myxln00qp06l4rl9xwumn/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stone Item 4\" on Soundza (https://soundza.com/sound/stone-item-4)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0i3luz00oy06l89vl0du3r",
+      "url": "https://soundza.com/sound/16-bit-explosion-19",
+      "title": "16-Bit Explosion 19",
+      "description": "A sharp, punchy retro explosion sound with classic 8-bit character. Perfect for game impacts, collisions, or cartoonish blast effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit"
+      ],
+      "duration": 0.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "explosion",
+        "8-bit",
+        "game",
+        "impact",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": 85,
+      "lufs": -16.7,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -12.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 123774,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-BY7Ka0kLnj-MHucDp45HrV7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i3luz00oy06l89vl0du3r/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"16-Bit Explosion 19\" on Soundza (https://soundza.com/sound/16-bit-explosion-19)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm6so95kd22ka3y9phvr1gk",
+      "url": "https://soundza.com/sound/orchestral-bass-drum-crash",
+      "title": "Orchestral Bass Drum Crash",
+      "description": "A sharp, metallic crash with pronounced high-mid frequencies and a tight attack that cuts through quickly. The bright, glassy character sits in the upper-mid range, making it ideal for percussive hits that need clarity and presence without sustained body.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "one-shot",
+        "metallic",
+        "bright",
+        "sharp",
+        "crispy",
+        "percussion"
+      ],
+      "sync_ms": 30,
+      "lufs": -21.8,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -15.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 541004,
+      "category": null,
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/r4D0aMVMxkLdSkDyJrflkiNa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6so95kd22ka3y9phvr1gk/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Orchestral Bass Drum Crash\" on Soundza (https://soundza.com/sound/orchestral-bass-drum-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5oxf0800hg06l5iyrnlx7u",
+      "url": "https://soundza.com/sound/wall-short",
+      "title": "Wall Short",
+      "description": "A sharp, percussive impact sound suitable for platformer game actions like hitting a wall, collision, or object strike.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -27.4,
+      "true_peak_db": -15.6,
+      "loudness": {
+        "value": -26.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 391712,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmv5oxezc00gx06l55sezisip",
+        "name": "Platformer Action SFX",
+        "slug": "platformer-action-sfx",
+        "sound_count": 19,
+        "url": "https://soundza.com/packs/platformer-action-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gwwAlpCoXCP4FsPdLJro4Oy-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oxf0800hg06l5iyrnlx7u/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wall Short\" on Soundza (https://soundza.com/sound/wall-short)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5oyf2v00iz06l5d2xsucmi",
+      "url": "https://soundza.com/sound/space-explosion-5",
+      "title": "Space Explosion 5",
+      "description": "A bright, punchy 8-bit style explosion with a quick decay, designed for retro arcade and space game impacts. Perfect for enemy destruction or collision events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "explosion",
+        "8-bit",
+        "retro",
+        "arcade",
+        "game",
+        "sci-fi",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -10.1,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -6.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 219280,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/s-Q95S2drbWWkj0iIqCiNYP-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oyf2v00iz06l5d2xsucmi/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Space Explosion 5\" on Soundza (https://soundza.com/sound/space-explosion-5)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0il4an009m06l5qwrn9y2e",
+      "url": "https://soundza.com/sound/chips-collide-3",
+      "title": "Chips Collide 3",
+      "description": "A sharp, percussive collision of casino chips striking together. A single event suitable for game feedback or UI interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game"
+      ],
+      "sync_ms": 129,
+      "lufs": null,
+      "true_peak_db": 0.7,
+      "loudness": {
+        "value": -25.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 68546,
+      "category": {
+        "id": "OBJCoin",
+        "label": "Objects › Coin"
+      },
+      "pack": {
+        "id": "cmv0il49j008s06l53854aycf",
+        "name": "Casino SFX: Cards, Dice and Chips",
+        "slug": "casino-sfx-cards-dice-and-chips",
+        "sound_count": 54,
+        "url": "https://soundza.com/packs/casino-sfx-cards-dice-and-chips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/54EONij529aPU7qmlbWRitts.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0il4an009m06l5qwrn9y2e/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chips Collide 3\" on Soundza (https://soundza.com/sound/chips-collide-3)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukcir6thzv0di5o641kizdz",
+      "url": "https://soundza.com/sound/retro-damage-hit",
+      "title": "Retro Damage Hit",
+      "description": "A sharp, bright electronic hit with a quick attack and metallic character, designed as immediate damage feedback in retro-style games. Classic 8-bit game sound suitable for health loss or collision impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "8-bit",
+        "hit",
+        "impact",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0.9,
+      "loudness": {
+        "value": -6.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 51518,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZXzz2keSDOlH-m_sY0MTqi0U.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcir6thzv0di5o641kizdz/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Damage Hit\" on Soundza (https://soundza.com/sound/retro-damage-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4rgjb001204jlhs01b57d",
+      "url": "https://soundza.com/sound/car-crash-with-glass-smash",
+      "title": "Car Crash With Glass Smash",
+      "description": "A chaotic, metallic crash with sharp glass shattering and metal fragments—bright, aggressive, and full of noisy impact textures that decay quickly, ideal for transitions and dramatic hit moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 2.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "metallic",
+        "aggressive",
+        "bright",
+        "foley",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": -13.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -7.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1476980,
+      "category": {
+        "id": "DESTRMisc",
+        "label": "Destruction › Misc"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wYD--dYGI0JnBlLcua1YUbYg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rgjb001204jlhs01b57d/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Crash With Glass Smash\" on Soundza (https://soundza.com/sound/car-crash-with-glass-smash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukcig7z993z8bceixfe92t2",
+      "url": "https://soundza.com/sound/retro-game-hit",
+      "title": "Retro Game Hit",
+      "description": "A crisp, glitchy 8-bit style impact sound with a sharp attack and high-frequency content. Useful for game damage hits, collision effects, or retro video game impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "hit",
+        "8-bit",
+        "retro",
+        "glitch",
+        "impact",
+        "arcade"
+      ],
+      "sync_ms": 73,
+      "lufs": null,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 45246,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0o_3HabRcaSTrkgHTEyAWo4F.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcig7z993z8bceixfe92t2/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Game Hit\" on Soundza (https://soundza.com/sound/retro-game-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukci7lvmpnc15eg56t67vv8",
+      "url": "https://soundza.com/sound/8-bit-enemy-hit",
+      "title": "8-Bit Enemy Hit",
+      "description": "A sharp, punchy digital impact sound with a brief resonant tail, designed for game damage or collision feedback. Ideal for retro-style enemy hits or small explosions in 8-bit games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "8-bit",
+        "game",
+        "hit",
+        "impact",
+        "arcade"
+      ],
+      "sync_ms": 134,
+      "lufs": -27.8,
+      "true_peak_db": -17.4,
+      "loudness": {
+        "value": -25.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396980,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rXAy-C9UK4JZcVWH9V675oSg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukci7lvmpnc15eg56t67vv8/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Enemy Hit\" on Soundza (https://soundza.com/sound/8-bit-enemy-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukcl1j5v0vb8pasdiu2qgzd",
+      "url": "https://soundza.com/sound/rpg-explosion-hit",
+      "title": "RPG Explosion Hit",
+      "description": "A sharp, designed explosion impact tailored for game audio. Quick percussive burst with synthetic character, ideal for enemy defeats or collision events in RPG gameplay.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "explosion",
+        "impact",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -19.6,
+      "true_peak_db": -12.7,
+      "loudness": {
+        "value": -17.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 159826,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZPGaSW4wmLuffvS5HX44nY9u.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcl1j5v0vb8pasdiu2qgzd/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"RPG Explosion Hit\" on Soundza (https://soundza.com/sound/rpg-explosion-hit)",
+      "matched_words": [
+        "collision",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7wjdq7mz3tz28p492vggf",
+      "url": "https://soundza.com/sound/rocks-falling",
+      "title": "Rocks Falling",
+      "description": "Multiple rocks tumble and impact as they cascade down, creating a natural debris field of impacts and settling stones. Suitable for landslides, collapses, or environmental destruction scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 2.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "crash"
+      ],
+      "sync_ms": null,
+      "lufs": -34.2,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -32,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 772686,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/llitNQw58_FZ4m8H94GL8EHZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7wjdq7mz3tz28p492vggf/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rocks Falling\" on Soundza (https://soundza.com/sound/rocks-falling)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm85xxhim458wk8p124n8e4",
+      "url": "https://soundza.com/sound/analog-crash-hit",
+      "title": "Analog Crash Hit",
+      "description": "A bright, crispy crash-like impact from a vintage drum machine with a sharp attack and metallic shimmer in the high-frequency range. The sound is thin and dry with minimal sustain, characteristic of early 80s analog drum synths.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "cymbal",
+        "bright",
+        "metallic",
+        "crispy",
+        "analog",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": 50,
+      "lufs": -10,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -5.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 294490,
+      "category": null,
+      "pack": {
+        "id": "floerj6inut1z86z1sn2cbhe",
+        "name": "MACHINE ROOM — Vintage Drum Machines and Rhythm Boxes",
+        "slug": "machine-room-vintage-drum-machines-and-rhythm-boxes",
+        "sound_count": 150,
+        "url": "https://soundza.com/packs/machine-room-vintage-drum-machines-and-rhythm-boxes"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dJrpsQS0OuO14wCDIOpeBANe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm85xxhim458wk8p124n8e4/file?search_id=sh07p67z643eokeg7qs0ucye",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Analog Crash Hit\" on Soundza (https://soundza.com/sound/analog-crash-hit)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "boat collision, boat crash, ship impact",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 3,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A sound effect of a boat collision. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"boat collision\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "sh07p67z643eokeg7qs0ucye"
+}

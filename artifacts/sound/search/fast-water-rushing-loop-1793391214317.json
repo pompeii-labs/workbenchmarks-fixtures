@@ -1,0 +1,3283 @@
+{
+  "query": {
+    "q": "fast water rushing loop",
+    "type": "sound_effect",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=fast+water+rushing+loop&type=SOUND_EFFECT&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmvoww0elkfdkmk7x24wyg68w",
+      "url": "https://soundza.com/sound/fast-water-drips",
+      "title": "Fast Water Drips",
+      "description": "Rapid water droplets falling at a steady rate, like a kitchen faucet leak or drain overflow. Useful for establishing an anxious or neglectful atmosphere in a scene.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 11.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 7000,
+      "lufs": -28.9,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3127378,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/21gxV0iSNaixNHg6b5jHdtSh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoww0elkfdkmk7x24wyg68w/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Water Drips\" on Soundza (https://soundza.com/sound/fast-water-drips)",
+      "matched_words": [
+        "fast",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvckzels7rzzllbkhxics4v1",
+      "url": "https://soundza.com/sound/party-popper-pop-with-air-rush",
+      "title": "Party Popper Pop With Air Rush",
+      "description": "A sharp pop followed by a rushing burst of air as a party popper is fired directly at the microphone. The sound is dominated by the initial percussive pop and a strong wind noise from the compressed air release.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "impact_on_beat",
+        "ui_click"
+      ],
+      "duration": 0.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley"
+      ],
+      "sync_ms": 117,
+      "lufs": -18.2,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 161376,
+      "category": {
+        "id": "TOONPop",
+        "label": "Cartoon › Pop"
+      },
+      "pack": {
+        "id": "pbkgmdwmgs7xerqx50exb7os",
+        "name": "New Year's Eve Sound Effects — Fireworks, Countdowns, Party Horns & Toasts",
+        "slug": "new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts",
+        "sound_count": 51,
+        "url": "https://soundza.com/packs/new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lgpQiPNnR17lqiHRrzigOIXo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvckzels7rzzllbkhxics4v1/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Party Popper Pop With Air Rush\" on Soundza (https://soundza.com/sound/party-popper-pop-with-air-rush)",
+      "matched_words": [
+        "rushing"
+      ]
+    },
+    {
+      "id": "cmve03a1d4qx10zlll5azn81b",
+      "url": "https://soundza.com/sound/fast-heartbeat-loop",
+      "title": "Fast Heartbeat Loop",
+      "description": "A rapid, pounding human heartbeat with uneven rhythm, creating tension and urgency. Ideal for layering into dramatic scenes or as a percussive foundation for anxiety-driven sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 15.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "tension"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -20.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4089570,
+      "category": {
+        "id": "HMNHart",
+        "label": "Human › Heartbeat"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VWzx47tNgsWhAcJNx67mFt9x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve03a1d4qx10zlll5azn81b/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Heartbeat Loop\" on Soundza (https://soundza.com/sound/fast-heartbeat-loop)",
+      "matched_words": [
+        "fast",
+        "loop"
+      ]
+    },
+    {
+      "id": "cmv5n999u01tr06l43napjdzi",
+      "url": "https://soundza.com/sound/water-loop-2-1",
+      "title": "Water Loop 2",
+      "description": "A continuous looping water ambience with bubbling and splashing elements, suitable for layering under water scenes or aquatic environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "ambience",
+        "wet"
+      ],
+      "sync_ms": null,
+      "lufs": -25.2,
+      "true_peak_db": -13.8,
+      "loudness": {
+        "value": -24.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2020146,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9qHAoXNGXfJdXCJbJUBuZn0l.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n999u01tr06l43napjdzi/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 2\" on Soundza (https://soundza.com/sound/water-loop-2-1)",
+      "matched_words": [
+        "water",
+        "loop"
+      ]
+    },
+    {
+      "id": "cmv0gjx4z002d06l8lkpegf0u",
+      "url": "https://soundza.com/sound/toilet-flush-1",
+      "title": "Toilet Flush 1",
+      "description": "A realistic recording of a toilet flushing, with the characteristic rush of water and mechanical action. Useful for bathroom scenes or humorous sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "game_hit",
+        "ui_click"
+      ],
+      "duration": 7.02,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 483,
+      "lufs": -20.2,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -15.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2020808,
+      "category": {
+        "id": "WATRPlmb",
+        "label": "Water › Plumbing"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VtK3UTso3ZC1FVKale0CzeiU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gjx4z002d06l8lkpegf0u/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Toilet Flush 1\" on Soundza (https://soundza.com/sound/toilet-flush-1)",
+      "matched_words": [
+        "water",
+        "rushing"
+      ]
+    },
+    {
+      "id": "cmujfcieycprc9quqp291fx15",
+      "url": "https://soundza.com/sound/fast-whoosh-chop",
+      "title": "Fast Whoosh Chop",
+      "description": "A quick, low-frequency whoosh with a sharp attack and minimal decay, ideal for cutting between scenes or emphasizing transitions. The brief duration and clean transient make it perfect for cinematic edits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "whoosh",
+        "transition",
+        "swish",
+        "cinematic"
+      ],
+      "sync_ms": 120,
+      "lufs": -26.8,
+      "true_peak_db": -10,
+      "loudness": {
+        "value": -26,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 132382,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YS8-Aspj80LLpebz0ktnAczm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfcieycprc9quqp291fx15/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Whoosh Chop\" on Soundza (https://soundza.com/sound/fast-whoosh-chop)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmujff96ndr1ku2gb8chez4hq",
+      "url": "https://soundza.com/sound/fast-metal-whoosh",
+      "title": "Fast Metal Whoosh",
+      "description": "A sharp, metallic whoosh that passes through in under a second, ideal for cutting between shots or emphasizing quick movements. The bright, noise-heavy character works well as a transition or swipe sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "whoosh",
+        "transition",
+        "metallic",
+        "foley"
+      ],
+      "sync_ms": 133,
+      "lufs": null,
+      "true_peak_db": -7,
+      "loudness": {
+        "value": -23.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 86314,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Hirnbr-IGFlR_jskwMNbQ9Lw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujff96ndr1ku2gb8chez4hq/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Metal Whoosh\" on Soundza (https://soundza.com/sound/fast-metal-whoosh)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmukcuilsnxk1nek0bpe7u05c",
+      "url": "https://soundza.com/sound/hand-splash-water",
+      "title": "Hand Splash Water",
+      "description": "A shallow hand splash into water, recorded with clarity and minimal processing. Useful for pool scenes, water interactions, or light water impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 186,
+      "lufs": -21.4,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -17,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 352342,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/p_UU1h_mTcx2bMMYpZWCAa6o.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcuilsnxk1nek0bpe7u05c/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hand Splash Water\" on Soundza (https://soundza.com/sound/hand-splash-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5ov3f200d206l5n2bzlhg5",
+      "url": "https://soundza.com/sound/water-pump-loop-2",
+      "title": "Water Pump Loop 2",
+      "description": "A mechanical water pump cycles with a rhythmic, steady pattern. Useful as a looping bed for machinery ambiences or industrial settings.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "loop",
+        "machine",
+        "mechanical",
+        "water",
+        "rhythmic",
+        "industrial"
+      ],
+      "sync_ms": null,
+      "lufs": -23,
+      "true_peak_db": -12.8,
+      "loudness": {
+        "value": -22.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 609010,
+      "category": {
+        "id": "MACHPump",
+        "label": "Machines › Pump"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QXLZY0fhrL8zYMPNy5Y93WUh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ov3f200d206l5n2bzlhg5/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Pump Loop 2\" on Soundza (https://soundza.com/sound/water-pump-loop-2)",
+      "matched_words": [
+        "water",
+        "loop"
+      ]
+    },
+    {
+      "id": "cmujfg9h69zyi4gohraadlsae",
+      "url": "https://soundza.com/sound/fast-cloth-swish",
+      "title": "Fast Cloth Swish",
+      "description": "A quick, bright swipe sound made from kitchen utensils (whisk and spatula) moving through air. Useful for transitions, cuts, or action cues in video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "swish",
+        "whoosh",
+        "cloth",
+        "transition",
+        "foley"
+      ],
+      "sync_ms": 68,
+      "lufs": -26.1,
+      "true_peak_db": -7.4,
+      "loudness": {
+        "value": -23.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 79540,
+      "category": {
+        "id": "CLOTHMvmt",
+        "label": "Cloth › Movement"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oedXu4p_rulTh1Jk1t1etwqY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfg9h69zyi4gohraadlsae/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Cloth Swish\" on Soundza (https://soundza.com/sound/fast-cloth-swish)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmukdx6avceim8959f8sxxrf1",
+      "url": "https://soundza.com/sound/water-splash-close-up",
+      "title": "Water Splash Close-Up",
+      "description": "A brief, sharp water splash with crisp high-frequency impact, recorded in close proximity. Suitable for realistic foley in scenes involving water interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "close-up",
+        "wet",
+        "impact"
+      ],
+      "sync_ms": 9,
+      "lufs": -26,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -21.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 222086,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ly4iHyibrZ8XvADMhTPpU6I7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdx6avceim8959f8sxxrf1/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Splash Close-Up\" on Soundza (https://soundza.com/sound/water-splash-close-up)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvgwfl1f79apo156n4sn90fj",
+      "url": "https://soundza.com/sound/fast-carpet-footsteps",
+      "title": "Fast Carpet Footsteps",
+      "description": "A series of footsteps on carpet recorded at natural walking pace. Useful for chopping into individual steps or layering under dialogue and movement in scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 26.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "indoor",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -34.5,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -24.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3766482,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/iThnlXAshnqxus-TaRFyJvDu.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwfl1f79apo156n4sn90fj/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Carpet Footsteps\" on Soundza (https://soundza.com/sound/fast-carpet-footsteps)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmv8zwlykii58x3gdaweetwk6",
+      "url": "https://soundza.com/sound/fast-keyboard-typing",
+      "title": "Fast Keyboard Typing",
+      "description": "Rapid typing sounds on a desktop computer keyboard with crisp mechanical key strikes. Ideal for scenes showing fast work, coding, writing, or computer use.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "computer",
+        "office",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -31.6,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5027486,
+      "category": {
+        "id": "COMTelm",
+        "label": "Communications › Telemetry"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KfeWEIsLobDDcBv1QUprinMO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zwlykii58x3gdaweetwk6/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Keyboard Typing\" on Soundza (https://soundza.com/sound/fast-keyboard-typing)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmukdvm20wgey7how7kzjc5ct",
+      "url": "https://soundza.com/sound/bathroom-water-splash",
+      "title": "Bathroom Water Splash",
+      "description": "A single water splash sound recorded in a bathroom environment. Useful for adding impact and realism to scenes involving water, splashing, or bathroom activities.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "indoor"
+      ],
+      "sync_ms": 503,
+      "lufs": -20,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -17.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 599282,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l-yy3rz0Neiya4p1jD32O7O-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdvm20wgey7how7kzjc5ct/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bathroom Water Splash\" on Soundza (https://soundza.com/sound/bathroom-water-splash)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvjodtl8w9dtoxqe6fgddjsg",
+      "url": "https://soundza.com/sound/fast-magic-spell-cast",
+      "title": "Fast Magic Spell Cast",
+      "description": "A shimmering, high-pitched spell cast with sparkly texture and quick attack. Designed for game magic effects and fantasy moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "magic",
+        "game",
+        "bright"
+      ],
+      "sync_ms": 81,
+      "lufs": -10.1,
+      "true_peak_db": 0.8,
+      "loudness": {
+        "value": -7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 429224,
+      "category": {
+        "id": "MAGSpel",
+        "label": "Magic › Spell"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UM0vD7w0NTC8cADnSdF66mOz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjodtl8w9dtoxqe6fgddjsg/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Magic Spell Cast\" on Soundza (https://soundza.com/sound/fast-magic-spell-cast)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmukcteckeq2slqy5tjsgii2c",
+      "url": "https://soundza.com/sound/small-water-spill",
+      "title": "Small Water Spill",
+      "description": "A brief recording of water splashing and trickling as it spills, captured with clear detail. Ideal for foley in scenes involving liquid accidents or small water events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -41.8,
+      "true_peak_db": -24.6,
+      "loudness": {
+        "value": -40.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 23.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 255058,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hqfWDJzoKC97UMzQuDhyVTtT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcteckeq2slqy5tjsgii2c/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Water Spill\" on Soundza (https://soundza.com/sound/small-water-spill)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukdv8y0qjyd1kvptwas4ljt",
+      "url": "https://soundza.com/sound/water-splash-1",
+      "title": "Water Splash",
+      "description": "A single water splash with a bright, airy quality and quick decay. Ideal for foley work in scenes involving water impact, splashing, or liquid contact.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -43.2,
+      "true_peak_db": -14.7,
+      "loudness": {
+        "value": -38.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 480090,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/r30cLqfnQ5s8jBCFkUhtipWF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdv8y0qjyd1kvptwas4ljt/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Splash\" on Soundza (https://soundza.com/sound/water-splash-1)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700w906l4sqr4kx21",
+      "url": "https://soundza.com/sound/water-pour",
+      "title": "Water Pour",
+      "description": "The organic sound of water being poured, with a clear, natural splash and flow. Ideal for fantasy games, potion bottles, or any scene requiring authentic liquid effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 1.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "game"
+      ],
+      "sync_ms": 169,
+      "lufs": -20.8,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -16.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 426138,
+      "category": {
+        "id": "WATRPour",
+        "label": "Water › Pour"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tuH-9s-O990RIQUrQ9QSntxB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700w906l4sqr4kx21/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Pour\" on Soundza (https://soundza.com/sound/water-pour)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmujffw8b2an6jwenoz4r1gxb",
+      "url": "https://soundza.com/sound/fast-cable-whoosh",
+      "title": "Fast Cable Whoosh",
+      "description": "A sharp, bright swoosh created by swinging a cable past a microphone. Works well as a transition sound, fight effect, or quick movement swipe in video or games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "impact"
+      ],
+      "sync_ms": 293,
+      "lufs": -17.3,
+      "true_peak_db": -0.5,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 242878,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/93tLXuTqFtkL2tbBM-BVyk0T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujffw8b2an6jwenoz4r1gxb/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Cable Whoosh\" on Soundza (https://soundza.com/sound/fast-cable-whoosh)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmvos9b2rrh1oqa2ue9al8f8i",
+      "url": "https://soundza.com/sound/water-dynamite-firecracker",
+      "title": "Water Dynamite Firecracker",
+      "description": "A sharp, percussive pop from a small underwater explosive device, with a quick attack and minimal decay. Suitable for close-range impact and firecracker moments in video or games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "explosion",
+        "impact",
+        "water"
+      ],
+      "sync_ms": 131,
+      "lufs": -19.7,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 267182,
+      "category": {
+        "id": "EXPLReal",
+        "label": "Explosions › Real"
+      },
+      "pack": {
+        "id": "wn8vaqs5s8tszss8shncazpo",
+        "name": "Explosion Sound Effects — Small, Medium, Large, Distant & Debris",
+        "slug": "explosion-sound-effects-small-medium-large-distant-and-debris",
+        "sound_count": 166,
+        "url": "https://soundza.com/packs/explosion-sound-effects-small-medium-large-distant-and-debris"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zwkkmUWkmeQEVVKITAUTGPJ7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvos9b2rrh1oqa2ue9al8f8i/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Dynamite Firecracker\" on Soundza (https://soundza.com/sound/water-dynamite-firecracker)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmtxr9fc1x2mig3fxghc2psch",
+      "url": "https://soundza.com/sound/huge-layered-water-splash",
+      "title": "Huge layered water splash",
+      "description": "A massive water splash or impact with a sharp, crispy attack and natural decay—think a huge wave hitting or objects plunging into water. The bright, airy high-frequency content gives it an explosive, splashy character perfect for transitions and impact moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.17,
+      "bpm": null,
+      "key": "D major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "foley",
+        "transition",
+        "bright",
+        "crispy",
+        "drop",
+        "atmospheric",
+        "texture"
+      ],
+      "sync_ms": 117,
+      "lufs": -14.5,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 625698,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yJY3rLVoVu6NbGQnEYuRJukx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr9fc1x2mig3fxghc2psch/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Huge layered water splash\" on Soundza (https://soundza.com/sound/huge-layered-water-splash)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowy3bv02h1v9n13egawt3c",
+      "url": "https://soundza.com/sound/faucet-dripping-into-water",
+      "title": "Faucet Dripping Into Water",
+      "description": "Individual water drops falling from a faucet into a bowl or container of water, creating soft impacts and light splashing sounds. Useful for domestic ambiences, bathroom scenes, or subtle water effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "impact"
+      ],
+      "sync_ms": 1133,
+      "lufs": -31.3,
+      "true_peak_db": -6.4,
+      "loudness": {
+        "value": -26.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3440732,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1XgXhNOXObTbc9OePID9k14j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowy3bv02h1v9n13egawt3c/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Faucet Dripping Into Water\" on Soundza (https://soundza.com/sound/faucet-dripping-into-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvovm2iw234ebjub8maeupfy",
+      "url": "https://soundza.com/sound/jump-into-water-02",
+      "title": "Jump Into Water",
+      "description": "A person diving from a height into a lake, captured with natural recording clarity. A sharp impact followed by churning water and splashing, useful for action sequences involving water entry.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 7.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "splash",
+        "water",
+        "jump",
+        "impact",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 750,
+      "lufs": -21.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2046248,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eLd9B6AmRL0oGL6Ld9uJdZCC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovm2iw234ebjub8maeupfy/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Jump Into Water\" on Soundza (https://soundza.com/sound/jump-into-water-02)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvgvmhwmsy0auqd9xqc6sxvt",
+      "url": "https://soundza.com/sound/fast-footsteps-on-wood",
+      "title": "Fast Footsteps on Wood",
+      "description": "Two quick barefoot steps on a wooden floor with a solid, percussive impact. Useful for interior scenes or any action requiring footfall foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": 141,
+      "lufs": -33.9,
+      "true_peak_db": -10.8,
+      "loudness": {
+        "value": -30.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 419386,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jQ_u_W9I3CYL8aaV9vb5P3LB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgvmhwmsy0auqd9xqc6sxvt/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Footsteps on Wood\" on Soundza (https://soundza.com/sound/fast-footsteps-on-wood)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmv0gp83000a006i9u6j9hhfe",
+      "url": "https://soundza.com/sound/tap-water-1",
+      "title": "Tap Water 1",
+      "description": "Water running from a tap with gentle splashing and dripping sounds. Useful for domestic scenes, kitchens, or bathroom ambiences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps",
+        "background_bed",
+        "ui_click"
+      ],
+      "duration": 11.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -18,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3098980,
+      "category": {
+        "id": "WATRPour",
+        "label": "Water › Pour"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xop1PcBiUEGxH76qshCNlWhb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp83000a006i9u6j9hhfe/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tap Water 1\" on Soundza (https://soundza.com/sound/tap-water-1)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvjou1ylz2jmq6osuo91gznj",
+      "url": "https://soundza.com/sound/wind-water-aura",
+      "title": "Wind Water Aura",
+      "description": "A shimmering, otherworldly spell effect combining processed wind and water textures with ethereal delay. Created from pitched plastic clicks and paulstretch processing, it evokes elemental magic being summoned.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "reveal",
+        "build_up"
+      ],
+      "duration": 20,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "magic",
+        "wind",
+        "water",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -9.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5292080,
+      "category": {
+        "id": "MAGElem",
+        "label": "Magic › Elemental"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/trKnMIRZPi8V6LkHUTOnlWjF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjou1ylz2jmq6osuo91gznj/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Water Aura\" on Soundza (https://soundza.com/sound/wind-water-aura)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukctuevqsly9xvn9wj81gwa",
+      "url": "https://soundza.com/sound/water-drop",
+      "title": "Water Drop",
+      "description": "A single water droplet falling and striking a surface with a soft splash. Useful for ambient environments, plumbing scenes, or nature ambience layers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley"
+      ],
+      "sync_ms": 117,
+      "lufs": -18.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -18.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 483916,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KB8VoxyAlQPUlf_Tku5Q72UQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukctuevqsly9xvn9wj81gwa/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drop\" on Soundza (https://soundza.com/sound/water-drop)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukcu4qi7qa68q5qf5mw1imn",
+      "url": "https://soundza.com/sound/plastic-pen-water-splash",
+      "title": "Plastic Pen Water Splash",
+      "description": "A lightweight object drops into water with a sharp, brief splash. Ideal for small impacts into liquid, everyday foley, or subtle water transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "plastic",
+        "impact"
+      ],
+      "sync_ms": 264,
+      "lufs": -30.7,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -27.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 468090,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9_-drzOzVjGhP6m6ug_YftN8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcu4qi7qa68q5qf5mw1imn/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Plastic Pen Water Splash\" on Soundza (https://soundza.com/sound/plastic-pen-water-splash)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvovypmtdnwt6pv3kmgnvurq",
+      "url": "https://soundza.com/sound/rock-in-water-splash",
+      "title": "Rock In Water Splash",
+      "description": "A rock plops into calm river water with a distinct splash and resonant impact. Ideal for foley, nature scenes, and water interaction effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": 655,
+      "lufs": -26.4,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -23,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 736142,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UmkwnYg2YqKM6B_BpmbwjJEk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovypmtdnwt6pv3kmgnvurq/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock In Water Splash\" on Soundza (https://soundza.com/sound/rock-in-water-splash)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5swkch00kr06l69s76d41r",
+      "url": "https://soundza.com/sound/boiling-water-in-open-pot",
+      "title": "Boiling Water in Open Pot",
+      "description": "Water actively boiling and bubbling in an open pot, with continuous rolling sounds and occasional splashes. Useful for kitchen scenes, cooking sequences, or any situation requiring active water heating ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 69.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -42.5,
+      "true_peak_db": -19,
+      "loudness": {
+        "value": -36,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18309210,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Fsukgn4LoEBIVfKqx5m0J4gp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00kr06l69s76d41r/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Boiling Water in Open Pot\" on Soundza (https://soundza.com/sound/boiling-water-in-open-pot)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxd6dma02a5w0n45zi90ry",
+      "url": "https://soundza.com/sound/long-bubbles-through-straw",
+      "title": "Long Bubbles Through Straw",
+      "description": "Fast, continuous bubbling sounds as air is blown through a straw submerged in liquid. A wet, organic texture useful for liquid interaction scenes or comedic moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 11.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "wet"
+      ],
+      "sync_ms": null,
+      "lufs": -29.8,
+      "true_peak_db": -12.4,
+      "loudness": {
+        "value": -26.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2940038,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dw7jVx2JSMbTen75unw8WGay.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxd6dma02a5w0n45zi90ry/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Long Bubbles Through Straw\" on Soundza (https://soundza.com/sound/long-bubbles-through-straw)",
+      "matched_words": [
+        "fast",
+        "water"
+      ]
+    },
+    {
+      "id": "cmvow6cn6ia9r6e55j6zcyw9d",
+      "url": "https://soundza.com/sound/body-splash-into-water-1",
+      "title": "Body Splash Into Water",
+      "description": "A person falling backwards into a pool with a substantial splash and water impact. Useful for scenes depicting someone being thrown or diving into water.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "background_bed"
+      ],
+      "duration": 5.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 156,
+      "lufs": -19.5,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1432582,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hfl_zesE3ZlCi1p-kyqiHR8q.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow6cn6ia9r6e55j6zcyw9d/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Splash Into Water\" on Soundza (https://soundza.com/sound/body-splash-into-water-1)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5oktt6008b06l5lefsxhaa",
+      "url": "https://soundza.com/sound/background-water-pipes",
+      "title": "Background Water Pipes",
+      "description": "A designed sci-fi background ambience with synthesized water pipe tones and filtered textures. Useful as a sustained bed beneath spaceship interiors or futuristic mechanical environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 1.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "ambience",
+        "water",
+        "texture",
+        "atmospheric"
+      ],
+      "sync_ms": 798,
+      "lufs": -12.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -9.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 192000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1780048,
+      "category": {
+        "id": "SCIMach",
+        "label": "Scifi › Machine"
+      },
+      "pack": {
+        "id": "r7d2ybctlcilh6pxkclv5j5m",
+        "name": "Hi-Res Sci-Fi SFX",
+        "slug": "hi-res-sci-fi-sfx",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/hi-res-sci-fi-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MfhMiFQL6a7kLmMjqt6AbUzg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oktt6008b06l5lefsxhaa/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Background Water Pipes\" on Soundza (https://soundza.com/sound/background-water-pipes)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvovonbtwmtx2k7oudhi71mp",
+      "url": "https://soundza.com/sound/body-dive-into-water",
+      "title": "Body Dive Into Water",
+      "description": "A person diving and entering water with a clear splash and submersion. Realistic field recording suitable for swimming, diving, or water entry scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 5.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 1990,
+      "lufs": -29.6,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -23.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1474502,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_tnTyFW_52avRNDvAcu3m_pm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovonbtwmtx2k7oudhi71mp/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Dive Into Water\" on Soundza (https://soundza.com/sound/body-dive-into-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowyewtsgv370m81cacb8s9",
+      "url": "https://soundza.com/sound/water-drops-with-reverb",
+      "title": "Water Drops with Reverb",
+      "description": "Individual water droplets falling and hitting a hard surface, with subtle reverb creating a sense of space. Ideal for kitchen scenes, rainfall ambience, or as a foley layer.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 8.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "reverb",
+        "impact",
+        "wet"
+      ],
+      "sync_ms": 5911,
+      "lufs": -29.9,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -24.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1076350,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xvCtBxdkZYDkKUyXhuevmPyA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowyewtsgv370m81cacb8s9/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drops with Reverb\" on Soundza (https://soundza.com/sound/water-drops-with-reverb)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv91egsmw5160t0bqsbavyjd",
+      "url": "https://soundza.com/sound/water-gulp",
+      "title": "Water Gulp",
+      "description": "A quick human swallowing sound of water being gulped down. Useful for foley and character reactions in dialogue or eating scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "reaction"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -10.3,
+      "loudness": {
+        "value": -27.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 43828,
+      "category": {
+        "id": "HMNSkin",
+        "label": "Human › Skin"
+      },
+      "pack": {
+        "id": "uplcoimhsmkxa43y2pr7tqwd",
+        "name": "Body Noise Sound Effects — Sneezes, Coughs, Snores, Hiccups & Kisses",
+        "slug": "body-noise-sound-effects-sneezes-coughs-snores-hiccups-and-kisses",
+        "sound_count": 56,
+        "url": "https://soundza.com/packs/body-noise-sound-effects-sneezes-coughs-snores-hiccups-and-kisses"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GCuVR2Qx2O6qCyE4dysvyT0N.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv91egsmw5160t0bqsbavyjd/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Gulp\" on Soundza (https://soundza.com/sound/water-gulp)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv9081hzjh7n9bbhtr8p95u5",
+      "url": "https://soundza.com/sound/fast-police-siren",
+      "title": "Fast Police Siren",
+      "description": "A wailing electronic emergency siren with rapid modulation, typical of police vehicles. Designed for video and film scenarios requiring urgent alert or emergency response audio.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "impact_on_beat"
+      ],
+      "duration": 27.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "electronic"
+      ],
+      "sync_ms": null,
+      "lufs": -9.5,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7181062,
+      "category": {
+        "id": "VEHSirn",
+        "label": "Vehicles › Siren"
+      },
+      "pack": {
+        "id": "qsr575hd4an1i8sdxvug8vgl",
+        "name": "Siren Sound Effects — Police, Ambulance, Fire Truck & Air Raid",
+        "slug": "siren-sound-effects-police-ambulance-fire-truck-and-air-raid",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/siren-sound-effects-police-ambulance-fire-truck-and-air-raid"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MZfUylFtyySnQu1ja73BGRku.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv9081hzjh7n9bbhtr8p95u5/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Police Siren\" on Soundza (https://soundza.com/sound/fast-police-siren)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmvowwdvaig460uq97o08ia9r",
+      "url": "https://soundza.com/sound/water-drips-ambience",
+      "title": "Water Drips Ambience",
+      "description": "Continuous water dripping and light bubbling sounds, layered to create an ongoing liquid ambience. Suitable for pools, fountains, leaks, or naturalistic water beds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 3.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "wet"
+      ],
+      "sync_ms": 3002,
+      "lufs": -39.7,
+      "true_peak_db": -14.7,
+      "loudness": {
+        "value": -35,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1121234,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XveMRqc_enx-XRlsjt5X6Crp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowwdvaig460uq97o08ia9r/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drips Ambience\" on Soundza (https://soundza.com/sound/water-drips-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvi9z55vdazeqpj0m9c3tjvy",
+      "url": "https://soundza.com/sound/body-splash-into-water",
+      "title": "Body Splash Into Water",
+      "description": "A person falling backwards into a pool with a loud splash and water impact. Useful for scenes requiring a body entering water or theatrical effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 2.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "splash",
+        "water",
+        "impact",
+        "foley",
+        "wet"
+      ],
+      "sync_ms": 1044,
+      "lufs": -10.6,
+      "true_peak_db": 4.2,
+      "loudness": {
+        "value": -6.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 749572,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/s5M7AjWNDZbHDj7VgfOFnPQH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9z55vdazeqpj0m9c3tjvy/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Splash Into Water\" on Soundza (https://soundza.com/sound/body-splash-into-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxdln2kvlssihempjmgcla",
+      "url": "https://soundza.com/sound/blowing-bubbles-in-water",
+      "title": "Blowing Bubbles in Water",
+      "description": "The sound of blowing through a straw into water, creating continuous bubbles and ripples in a plastic container. Useful for scenes involving water play, laboratory setups, or everyday domestic sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 14.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 1494,
+      "lufs": -31.5,
+      "true_peak_db": -12.3,
+      "loudness": {
+        "value": -25.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3937512,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hCwvPKgSlibZweyQgZtRzYms.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxdln2kvlssihempjmgcla/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Blowing Bubbles in Water\" on Soundza (https://soundza.com/sound/blowing-bubbles-in-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukdws23fdu98iq6hoqtp5ek",
+      "url": "https://soundza.com/sound/crisp-water-bubbles",
+      "title": "Crisp Water Bubbles",
+      "description": "A series of natural water bubbles rising and popping, recorded without processing. Suitable for underwater scenes, water effects, or general aquatic ambience layering.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 3.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "water",
+        "foley",
+        "field-recording",
+        "organic"
+      ],
+      "sync_ms": 2856,
+      "lufs": -43.6,
+      "true_peak_db": -19,
+      "loudness": {
+        "value": -36.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 981312,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AYCKiqgCtxreiQXVDi_Norak.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdws23fdu98iq6hoqtp5ek/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Water Bubbles\" on Soundza (https://soundza.com/sound/crisp-water-bubbles)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmujfdv579m8f5xlewe11cd7m",
+      "url": "https://soundza.com/sound/fast-plastic-swish",
+      "title": "Fast Plastic Swish",
+      "description": "A crisp, bright swoosh created by swiping plastic through air. Quick and punchy, ideal for quick transitions, cuts, or comedic impacts in video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G0",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "swish",
+        "whoosh",
+        "transition",
+        "plastic",
+        "foley",
+        "bright"
+      ],
+      "sync_ms": 126,
+      "lufs": -28.7,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -28.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 110676,
+      "category": {
+        "id": "CLOTHMvmt",
+        "label": "Cloth › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i_iGPAHPpURlMAnWfR9ZZEUP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfdv579m8f5xlewe11cd7m/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Plastic Swish\" on Soundza (https://soundza.com/sound/fast-plastic-swish)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmve04dbsghosphsm73erpqjh",
+      "url": "https://soundza.com/sound/heartbeat-fast-slowdown",
+      "title": "Heartbeat Fast Slowdown",
+      "description": "A heavily compressed human heartbeat recording starting at a rapid 180 BPM after exertion, then quickly decelerating to silence. Ideal for building tension or depicting physical strain and recovery.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "tension"
+      ],
+      "sync_ms": null,
+      "lufs": -13.4,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -10.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4608088,
+      "category": {
+        "id": "HMNHart",
+        "label": "Human › Heartbeat"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/B7cs4bXXUVxj1lR8Di30ymkO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve04dbsghosphsm73erpqjh/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heartbeat Fast Slowdown\" on Soundza (https://soundza.com/sound/heartbeat-fast-slowdown)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmujfekraohu3qi2km2avxy6s",
+      "url": "https://soundza.com/sound/fast-swipe-whoosh",
+      "title": "Fast Swipe Whoosh",
+      "description": "A quick, bright ascending swipe that transitions smoothly between shots. The sound rises rapidly with a clean, tonal character, ideal for cutting between scenes or emphasizing quick movements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "whoosh",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": 119,
+      "lufs": -34.3,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -32.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 208978,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jMiyqCi1kEb0FZlkJEPASP6I.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfekraohu3qi2km2avxy6s/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Swipe Whoosh\" on Soundza (https://soundza.com/sound/fast-swipe-whoosh)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmvox09pkvl7pd9eapcpk98gd",
+      "url": "https://soundza.com/sound/water-drop-6",
+      "title": "Water Drop",
+      "description": "A single water droplet hitting a surface with a sharp, brief splash. Useful for dripping faucets, leaks, and environmental water sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "impact",
+        "foley",
+        "wet"
+      ],
+      "sync_ms": 50,
+      "lufs": null,
+      "true_peak_db": -19.7,
+      "loudness": {
+        "value": -39.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 83368,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oY9FzcgMiS6HeIovufkc8nGO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox09pkvl7pd9eapcpk98gd/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drop\" on Soundza (https://soundza.com/sound/water-drop-6)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowx4spk7avloda015wxxti",
+      "url": "https://soundza.com/sound/small-water-leak",
+      "title": "Small Water Leak",
+      "description": "A steady trickle of water dripping from a tap into a bowl, with audible bubbles forming as the water accumulates. A naturalistic field recording of a slow, continuous leak.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 20.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "close-up",
+        "wet"
+      ],
+      "sync_ms": null,
+      "lufs": -31.8,
+      "true_peak_db": -7.2,
+      "loudness": {
+        "value": -28.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5508082,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q5XE_u59hF3yKdzHYR2NUUZa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowx4spk7avloda015wxxti/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Water Leak\" on Soundza (https://soundza.com/sound/small-water-leak)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxbecft4klmzdrldfldtut",
+      "url": "https://soundza.com/sound/water-bubbles-through-straw",
+      "title": "Water Bubbles Through Straw",
+      "description": "The sound of air bubbling through water via a plastic straw, with continuous gurgling and effervescent tones. Useful for underwater scenes, drinking moments, or aquatic ambiences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 24.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -44.3,
+      "true_peak_db": -14.1,
+      "loudness": {
+        "value": -35.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6586460,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6oBHOSVvNEaos_enr1n7xBC-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxbecft4klmzdrldfldtut/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Bubbles Through Straw\" on Soundza (https://soundza.com/sound/water-bubbles-through-straw)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxh49h27yyj6nbcr826q87",
+      "url": "https://soundza.com/sound/straw-bubbling-water-bright",
+      "title": "Straw Bubbling Water Bright",
+      "description": "The sound of air bubbles rising and popping as someone blows through a straw into water. A wet, continuous foley effect suitable for close-up liquid interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 9.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "breath",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -29.5,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -26.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2487968,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q-VXl7LlRku0UkrAv9mW5Anl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxh49h27yyj6nbcr826q87/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Straw Bubbling Water Bright\" on Soundza (https://soundza.com/sound/straw-bubbling-water-bright)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "zv3iuui4yiw6b6imkoh3gbuk",
+      "url": "https://soundza.com/sound/fast-swish-whoosh-1",
+      "title": "Fast Swish Whoosh 1",
+      "description": "A quick, bright swooshing sound that cuts through space with a clean, directional sweep. Useful for transitions, reveals, or quick movement effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 1.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "whoosh",
+        "swish",
+        "fast",
+        "sharp",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": 134,
+      "lufs": -18.2,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 275268,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WI6e0zTHPvEP2reNDKJDDOD-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/zv3iuui4yiw6b6imkoh3gbuk/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Swish Whoosh 1\" on Soundza (https://soundza.com/sound/fast-swish-whoosh-1)",
+      "matched_words": [
+        "fast"
+      ]
+    },
+    {
+      "id": "cmvow43544jyr6ctm1yn1eg43",
+      "url": "https://soundza.com/sound/small-water-splash-field-recording",
+      "title": "Small Water Splash Field Recording",
+      "description": "A brief, natural splash of water with subtle gurgling tones, recorded outdoors during a casual walk. Suitable for foley, wading scenes, or ambient water ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "field-recording",
+        "outdoor",
+        "wet"
+      ],
+      "sync_ms": 607,
+      "lufs": -28.4,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -25.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 684100,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Wbp3ZWFqhbg5wCnQelzxuQY1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow43544jyr6ctm1yn1eg43/file?search_id=fggjfxv2m93xgsyazgr0voxm",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Water Splash Field Recording\" on Soundza (https://soundza.com/sound/small-water-splash-field-recording)",
+      "matched_words": [
+        "water"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "fast water rushing loop",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A fast water rushing loop. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"fast water rushing loop\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "fggjfxv2m93xgsyazgr0voxm"
+}

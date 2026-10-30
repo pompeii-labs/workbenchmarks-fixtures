@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/countdown.mp3",
+  "sha": "f3e08bcfe9580741",
+  "want": "a single short race countdown beep, electronic start-light tone",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    9,
+    9,
+    9
+  ],
+  "fit": 9,
+  "heard": "A single short electronic beep — a clean, near-pure tone (roughly 1 kHz) with a fast attack and a quick, dry decay. It sounds synthesized, small and close, with no reverb or tail to speak of; it just stops.",
+  "sounds_like": "A race countdown / start-light beep, or a generic digital UI confirmation tone.",
+  "problems": "Very plain and dry — no tail or spatial character, so it may feel thin or generic on its own. If the game wants a punchier 'light' feel, it could use a touch more body or a subtle short decay tail.",
+  "veto": false
+}

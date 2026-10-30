@@ -1,0 +1,16 @@
+{
+  "file": "scratch/engine-scooter.wav",
+  "sha": "a2d27cbdebe3a049",
+  "want": "a real small motorboat or jet ski engine running steadily on the water, close, continuous mechanical drone with no start or stop",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    2,
+    3,
+    4
+  ],
+  "fit": 3,
+  "heard": "A small engine — like a dirt bike, moped, or lawnmower — fires up close-miked, revs a couple times, then settles into a puttering, popping idle; the tail is a rough, rhythmic low-RPM putter with no water anywhere in the background.",
+  "sounds_like": "A small 2-stroke dirt bike or lawnmower starting and idling on land",
+  "problems": "Has a clear start-up and revs, not the steady continuous drone the game needs; no water splashing or hull noise at all; engine character reads as land-based small engine rather than a boat or jet ski under load. Could only be used if heavily edited to strip the start and looped idle, but it still lacks the water layer.",
+  "veto": true
+}

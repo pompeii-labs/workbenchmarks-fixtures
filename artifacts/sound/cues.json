@@ -1,0 +1,316 @@
+{
+  "game": "Swell Rider: an arcade three.js jet ski racer on open ocean; bright, fast, splashy, sunny, six skis over three laps with ramps and big air",
+  "cues": [
+    {
+      "id": "engine",
+      "kind": "loop",
+      "trigger": "src/systems/AudioSystem.ts engine(), every frame while riding; playbackRate and gain follow speed, throttle, boost and air",
+      "want": "a real small motorboat or jet ski engine running steadily on the water, close, continuous mechanical drone with no start or stop",
+      "feel": true,
+      "file": "public/sounds/engine.wav",
+      "gain_db": -8,
+      "must_fire": true,
+      "alternates": [
+        "cmukhgshot289gpn30cz2s4du",
+        "cmvdzigqmmhntzx78bu9d4037"
+      ]
+    },
+    {
+      "id": "water-rush",
+      "kind": "loop",
+      "trigger": "src/systems/AudioSystem.ts engine(), hull on the water; gain follows speed, silent in the air",
+      "want": "continuous rushing water spray and hiss of a fast boat hull cutting through the sea, close, no engine",
+      "file": "public/sounds/water-rush.wav",
+      "gain_db": -4,
+      "must_fire": true
+    },
+    {
+      "id": "ocean-ambience",
+      "kind": "ambience",
+      "trigger": "src/systems/AudioSystem.ts unlock(), always on under the game",
+      "want": "open sea ambience: gentle waves and light wind out on the water, no boats, no voices",
+      "file": "public/sounds/ocean-bed.wav",
+      "gain_db": -2,
+      "must_fire": true
+    },
+    {
+      "id": "land-splash",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'land' with impact > 2, and player 'bump' (round robin with land-splash-2)",
+      "want": "a heavy hull slapping down flat onto the sea after a jump: a big wet water impact splash, close, outdoor",
+      "feel": true,
+      "file": "public/sounds/land-splash.mp3",
+      "gain_db": -4,
+      "must_fire": true,
+      "alternates": [
+        "cmtxr9fc1x2mig3fxghc2psch",
+        "cmvow72r36fbo2ednpb9oh179"
+      ]
+    },
+    {
+      "id": "land-splash-2",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'land' with impact > 2 (second variant, round robin)",
+      "want": "a heavy hull slapping down flat onto the sea after a jump: a big wet water impact splash, close, outdoor",
+      "file": "public/sounds/splash2.mp3",
+      "gain_db": -6,
+      "must_fire": true
+    },
+    {
+      "id": "wipeout",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'wipeout'",
+      "want": "a rider thrown off a jet ski and crashing into the sea at speed: a big heavy violent body splash with spray and churning water after",
+      "file": "public/sounds/wipeout.mp3",
+      "gain_db": -8,
+      "must_fire": true
+    },
+    {
+      "id": "launch",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'launch' (ramp, swell crest or Space pop)",
+      "want": "a short water spray whoosh as a hull leaves the water surface, wet and airy",
+      "file": "public/sounds/launch.mp3",
+      "gain_db": -10,
+      "must_fire": true
+    },
+    {
+      "id": "bump",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleRaceEvent 'bump' involving the player",
+      "want": "a hollow plastic or fiberglass hull knocking hard against another hull, a dull thud",
+      "file": "public/sounds/bump.mp3",
+      "gain_db": -6,
+      "must_fire": false
+    },
+    {
+      "id": "ring",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'ring' (pitched up for air rings)",
+      "want": "a bright rewarding pickup chime, clean and sparkly, short",
+      "file": "public/sounds/ring.mp3",
+      "gain_db": -9,
+      "must_fire": false
+    },
+    {
+      "id": "gate",
+      "kind": "oneshot",
+      "trigger": "src/game/Game.ts handleEvent 'gate' and 'race-start' (checkpoint passed)",
+      "want": "a short clear checkpoint ding, a single bell-like confirmation tone",
+      "file": "public/sounds/gate.mp3",
+      "gain_db": -3,
+      "must_fire": true
+    },
+    {
+      "id": "countdown",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleRaceEvent 'countdown' (3, 2, 1)",
+      "want": "a single short race countdown beep, electronic start-light tone",
+      "file": "public/sounds/countdown.mp3",
+      "gain_db": 0,
+      "must_fire": true
+    },
+    {
+      "id": "go",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleRaceEvent 'go'",
+      "want": "a loud air horn blast starting a race, short",
+      "file": "public/sounds/go.mp3",
+      "gain_db": -8,
+      "must_fire": true
+    },
+    {
+      "id": "lap",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleEvent 'lap' (not a new best)",
+      "want": "a short bright positive success jingle for completing a lap",
+      "file": "public/sounds/lap.mp3",
+      "gain_db": -7,
+      "must_fire": false
+    },
+    {
+      "id": "lap-best",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleEvent 'lap' with label 'best'",
+      "want": "a triumphant bright achievement fanfare for a new record, short",
+      "file": "public/sounds/lap-best.mp3",
+      "gain_db": -6,
+      "must_fire": false
+    },
+    {
+      "id": "finish-win",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleRaceEvent 'finish' for the player in 1st",
+      "want": "a victory fanfare jingle for winning a race, triumphant and upbeat",
+      "file": "public/sounds/finish-win.mp3",
+      "gain_db": -6,
+      "must_fire": false
+    },
+    {
+      "id": "finish",
+      "kind": "stinger",
+      "trigger": "src/game/Game.ts handleRaceEvent 'finish' for the player not in 1st",
+      "want": "a short race finished jingle, neutral to positive, not a fail sound",
+      "file": "public/sounds/finish.mp3",
+      "gain_db": -7,
+      "must_fire": false
+    },
+    {
+      "id": "ui-click",
+      "kind": "ui",
+      "trigger": "src/game/Game.ts onAction and start/resume/again buttons, pause toggle",
+      "want": "a soft clean short user interface button click, dry",
+      "file": "public/sounds/ui-click.mp3",
+      "gain_db": -12,
+      "must_fire": true
+    }
+  ],
+  "proof": {
+    "steps": [
+      {
+        "mouse": [
+          640,
+          120
+        ]
+      },
+      {
+        "wait": 1500
+      },
+      {
+        "click": "#start-btn"
+      },
+      {
+        "wait": 16000
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 25000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 6000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 6000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "wait": 200
+      },
+      {
+        "hold": [
+          "KeyD"
+        ],
+        "ms": 5000
+      },
+      {
+        "wait": 3000
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 4000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "wait": 200
+      },
+      {
+        "hold": [
+          "KeyD"
+        ],
+        "ms": 5000
+      },
+      {
+        "wait": 3000
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 4000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "wait": 200
+      },
+      {
+        "hold": [
+          "KeyD"
+        ],
+        "ms": 5000
+      },
+      {
+        "wait": 3000
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 4000
+      },
+      {
+        "press": "Space",
+        "ms": 80
+      },
+      {
+        "wait": 200
+      },
+      {
+        "hold": [
+          "KeyD"
+        ],
+        "ms": 5000
+      },
+      {
+        "wait": 3000
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 4000
+      },
+      {
+        "press": "Escape"
+      },
+      {
+        "wait": 1000
+      },
+      {
+        "click": "#resume-btn"
+      },
+      {
+        "hold": [
+          "KeyW"
+        ],
+        "ms": 3000
+      }
+    ]
+  }
+}

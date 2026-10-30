@@ -1,0 +1,16 @@
+{
+  "file": "scratch/w-cmvovrsdej3m56j7wdxqfdvyh.mp3",
+  "sha": "82bb12635ce490cf",
+  "want": "a body and machine crashing hard into the sea: a huge chaotic water crash splash with churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    2,
+    2,
+    2
+  ],
+  "fit": 2,
+  "heard": "A single moderate-sized object hitting calm water — a clean, punchy splash with a distinct impact, then short, gentle sloshing and lapping as the water settles. Close-miked, dry-ish, no large-scale displacement. The tail is brief and peaceful, just small ripples and sloshing for a couple of seconds before silence.",
+  "sounds_like": "A person jumping into a swimming pool",
+  "problems": "Way too small and too clean for the brief. No machine element at all — no metal crunch, no mechanical debris. No chaos: the splash is a single tidy impact, not a huge violent crash. The tail is short and gentle sloshing, not churning water. No sense of the sea — no wave interaction, no large-scale water displacement, no secondary debris settling. Would need heavy layering with a much bigger impact, metal/glass destruction, and a long turbulent water tail to serve this need.",
+  "veto": true
+}

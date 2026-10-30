@@ -1,0 +1,3565 @@
+{
+  "query": {
+    "q": "wave crash impact",
+    "max_duration": "6",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=wave+crash+impact&max_duration=6&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmtxr8f6sotg208lmsqyylrk6",
+      "url": "https://soundza.com/sound/ocean-splash-field-recording",
+      "title": "Ocean Splash Field Recording",
+      "description": "A powerful, roiling ocean roar with deep, booming low-frequency energy and prominent mid-range texture—authentic field recording with natural dynamics and crashing wave impact.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4.34,
+      "bpm": 129,
+      "key": "C# minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "boomy",
+        "deep",
+        "atmospheric",
+        "organic",
+        "texture",
+        "ambient"
+      ],
+      "sync_ms": 2660,
+      "lufs": -34.1,
+      "true_peak_db": -9.4,
+      "loudness": {
+        "value": -30.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1251166,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/N-DyTZJq13ryVULCL1wcSbsX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr8f6sotg208lmsqyylrk6/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Splash Field Recording\" on Soundza (https://soundza.com/sound/ocean-splash-field-recording)"
+    },
+    {
+      "id": "cmvl88ntheitfaspdk5m1akni",
+      "url": "https://soundza.com/sound/stone-crash-impact",
+      "title": "Stone Crash Impact",
+      "description": "A sharp, destructive impact of stone colliding and crashing, with layered debris and multiple struck surfaces. Suitable for destruction, impacts, and rock-based foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 2.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "hit"
+      ],
+      "sync_ms": 32,
+      "lufs": -21.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 661584,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ucc5FVWLNEXpePmwU4vW-kbx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl88ntheitfaspdk5m1akni/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stone Crash Impact\" on Soundza (https://soundza.com/sound/stone-crash-impact)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtj98rqam9agcqnb86fg3whr",
+      "url": "https://soundza.com/sound/high-reversed-crash-cymbal",
+      "title": "High Reversed Crash Cymbal",
+      "description": "A bright, shimmering crash cymbal with crispy high-frequency content and a fast, natural decay. The rich spectral presence above 5kHz gives it an open, airy quality ideal for punctuating drops and fills.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 2.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "bright",
+        "crispy",
+        "one-shot",
+        "metallic",
+        "impact",
+        "fill"
+      ],
+      "sync_ms": 2649,
+      "lufs": -17.6,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -12.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 734990,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/G_tjCPPXe0MoHd-mFhWPNlUv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj98rqam9agcqnb86fg3whr/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"High Reversed Crash Cymbal\" on Soundza (https://soundza.com/sound/high-reversed-crash-cymbal)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4rfa0001d04ju678xd4sz",
+      "url": "https://soundza.com/sound/cinematic-car-crash-fx",
+      "title": "Cinematic Car Crash FX",
+      "description": "A dramatic car crash impact with crunching metal, shattering glass, and explosive energy concentrated in the mid-frequency range—ideal for action sequences and cinematic collision moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 4.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "cinematic",
+        "aggressive",
+        "metallic",
+        "gritty",
+        "foley",
+        "transition",
+        "texture"
+      ],
+      "sync_ms": 438,
+      "lufs": -20.2,
+      "true_peak_db": -2.1,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1257838,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6d_4P1Zr_Sgk4EkIAVmxQVZc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rfa0001d04ju678xd4sz/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cinematic Car Crash FX\" on Soundza (https://soundza.com/sound/cinematic-car-crash-fx)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4rfft001f04julh1nkkns",
+      "url": "https://soundza.com/sound/car-crash-with-glass-smashing",
+      "title": "Car Crash With Glass Smashing",
+      "description": "A destructive car crash impact with sharp, bright glass-smashing textures in the high frequencies. The sound features aggressive initial transients and metallic shattering with minimal sustain, perfect for intense collision and impact design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 2.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "cinematic"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "foley",
+        "aggressive",
+        "sharp",
+        "metallic",
+        "one-shot",
+        "cinematic"
+      ],
+      "sync_ms": 89,
+      "lufs": -18.7,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -13.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 691348,
+      "category": {
+        "id": "VEHMisc",
+        "label": "Vehicles › Misc"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6tRddjvaucRxWQLfdHmbyJNC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rfft001f04julh1nkkns/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Crash With Glass Smashing\" on Soundza (https://soundza.com/sound/car-crash-with-glass-smashing)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvoudy23n1xlm7bipvwtdg8t",
+      "url": "https://soundza.com/sound/tile-stone-metal-crash",
+      "title": "Tile Stone Metal Crash",
+      "description": "A heavy destruction crash of tiles, stone, and metal objects collapsing onto a hard floor. The chaotic clatter and impact suggests debris from a construction site or demolition.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy"
+      ],
+      "tags": [
+        "impact",
+        "metal",
+        "heavy",
+        "industrial"
+      ],
+      "sync_ms": 109,
+      "lufs": -23.6,
+      "true_peak_db": -8.8,
+      "loudness": {
+        "value": -18.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1130692,
+      "category": {
+        "id": "EXPLMisc",
+        "label": "Explosions › Misc"
+      },
+      "pack": {
+        "id": "wn8vaqs5s8tszss8shncazpo",
+        "name": "Explosion Sound Effects — Small, Medium, Large, Distant & Debris",
+        "slug": "explosion-sound-effects-small-medium-large-distant-and-debris",
+        "sound_count": 166,
+        "url": "https://soundza.com/packs/explosion-sound-effects-small-medium-large-distant-and-debris"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TnoLcER_w-CxM48rhtW_ZkFi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoudy23n1xlm7bipvwtdg8t/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tile Stone Metal Crash\" on Soundza (https://soundza.com/sound/tile-stone-metal-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvclobrcde1zzj85xt3240uo",
+      "url": "https://soundza.com/sound/running-footsteps-bottle-crash",
+      "title": "Running Footsteps Bottle Crash",
+      "description": "Cartoon-style foley of someone running, slipping, and crashing into glass bottles with exaggerated comedic timing. Perfect for slapstick scenes or humorous video moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "glass",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 116,
+      "lufs": -13.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -9.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 640282,
+      "category": {
+        "id": "FOLYFeet",
+        "label": "Foley › Feet"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/W8lQlvQKkKZDccgs-4A8hGpW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclobrcde1zzj85xt3240uo/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps Bottle Crash\" on Soundza (https://soundza.com/sound/running-footsteps-bottle-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7w64uecqif3z2pzhqcfli",
+      "url": "https://soundza.com/sound/rocks-falling-and-crashing",
+      "title": "Rocks Falling and Crashing",
+      "description": "A tumble of rocks and stone debris colliding together with impacts and scrapes. Useful for rockfalls, rubble settling, or close-range stone destruction.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact"
+      ],
+      "sync_ms": 79,
+      "lufs": -32.3,
+      "true_peak_db": -3.7,
+      "loudness": {
+        "value": -27,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 345692,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6OgpsRp0qvZlFuapI0ronpg-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7w64uecqif3z2pzhqcfli/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rocks Falling and Crashing\" on Soundza (https://soundza.com/sound/rocks-falling-and-crashing)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7y7c5uabemw3y5nid14jx",
+      "url": "https://soundza.com/sound/tile-and-stone-debris-crash",
+      "title": "Tile and Stone Debris Crash",
+      "description": "A chaotic collision of concrete, tiles, and metal debris tumbling onto a hard floor. Heavy, destructive impact with multiple reverberant clatters typical of a construction site collapse or demolition.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "metal"
+      ],
+      "sync_ms": 130,
+      "lufs": -17.7,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -12.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1345028,
+      "category": {
+        "id": "DESTRCrsh",
+        "label": "Destruction › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2P9FtwRpkbXvyUqiFfY1kQ5q.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7y7c5uabemw3y5nid14jx/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tile and Stone Debris Crash\" on Soundza (https://soundza.com/sound/tile-and-stone-debris-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm7f4cuclgu4kkw9wf9m0jp",
+      "url": "https://soundza.com/sound/reverse-cymbal-crash-1",
+      "title": "Reverse Cymbal Crash",
+      "description": "A bright, sharp crash cymbal impact with aggressive transient attack and metallic shimmer across the high frequency spectrum, cutting through with crystalline clarity ideal for dramatic moments and transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 3.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "bright",
+        "sharp",
+        "metallic",
+        "transition",
+        "one-shot",
+        "aggressive"
+      ],
+      "sync_ms": 1836,
+      "lufs": -11.3,
+      "true_peak_db": 0.7,
+      "loudness": {
+        "value": -6.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1041950,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/r6uGWr-yyixkdgMaNU2uukWs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm7f4cuclgu4kkw9wf9m0jp/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Reverse Cymbal Crash\" on Soundza (https://soundza.com/sound/reverse-cymbal-crash-1)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4rduo001304jutzy0cv4e",
+      "url": "https://soundza.com/sound/box-breaking-crash",
+      "title": "Box Breaking / Crash",
+      "description": "A bright, metallic crash with sharp attack and rapid onset density, capturing the percussive clatter of objects colliding and breaking apart. The energy sits in the mid-range with minimal sustain, creating a crispy, aggressive impact sound ideal for transitions and sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "crispy",
+        "aggressive",
+        "metallic",
+        "textured",
+        "transition",
+        "one-shot"
+      ],
+      "sync_ms": 417,
+      "lufs": -6.8,
+      "true_peak_db": 2.1,
+      "loudness": {
+        "value": -3.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 369860,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ve8iWv6K9hcmCkE1G-aLGt-V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rduo001304jutzy0cv4e/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Box Breaking / Crash\" on Soundza (https://soundza.com/sound/box-breaking-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl528evc9drrsjx7fgx26wv",
+      "url": "https://soundza.com/sound/waving-torch-whoosh",
+      "title": "Waving Torch Whoosh",
+      "description": "A torch being swung through the air with fire and flames crackling. Works as a weapon strike, magical spell cast, or environmental fire effect.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition"
+      ],
+      "duration": 4.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "whoosh",
+        "swish",
+        "magic",
+        "foley"
+      ],
+      "sync_ms": 2171,
+      "lufs": -28,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -22.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1136724,
+      "category": {
+        "id": "FIRETrch",
+        "label": "Fire › Torch"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bR_JgEE8xBriPDSO_02syUct.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl528evc9drrsjx7fgx26wv/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waving Torch Whoosh\" on Soundza (https://soundza.com/sound/waving-torch-whoosh)",
+      "matched_words": [
+        "wave"
+      ]
+    },
+    {
+      "id": "cmtl5j5khd6wm9kgawc24b9u9",
+      "url": "https://soundza.com/sound/reverse-crash-riser-1",
+      "title": "Reverse Crash Riser",
+      "description": "A processed crash cymbal with reversed, swelling attack and high-frequency shimmer that builds tension—perfect for transitions, impact moments, and cinematic breaks. The sound has a bright, textured quality with sci-fi character from heavy processing and pitch manipulation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 3.61,
+      "bpm": 132.9,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "cinematic"
+      ],
+      "tags": [
+        "cymbal",
+        "buildup",
+        "reverse",
+        "bright",
+        "textured",
+        "transition",
+        "cinematic",
+        "impact"
+      ],
+      "sync_ms": 1334,
+      "lufs": -22.6,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1040052,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "qmcjf6hwajka8wvhc5kosejj",
+        "name": "NOCTURNE — Analog Techno Stabs, Sequences and Atmospheres",
+        "slug": "nocturne-analog-techno-stabs-sequences-and-atmospheres",
+        "sound_count": 88,
+        "url": "https://soundza.com/packs/nocturne-analog-techno-stabs-sequences-and-atmospheres"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sF9eSN_kGP6-6NjIQmJgDpGZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl5j5khd6wm9kgawc24b9u9/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Reverse Crash Riser\" by TRAGWERK on Soundza (https://soundza.com/sound/reverse-crash-riser-1)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvi9w496ujfqsvso2nps2uje",
+      "url": "https://soundza.com/sound/body-hit-and-crash",
+      "title": "Body Hit and Crash",
+      "description": "A percussive impact of a body falling or colliding with a hard surface, followed by a crash. Useful for fight scenes, falls, and collision moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -25.6,
+      "true_peak_db": -9.7,
+      "loudness": {
+        "value": -21.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 244884,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/81x6-i9vipwQFvblxHNFNuHT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9w496ujfqsvso2nps2uje/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Hit and Crash\" on Soundza (https://soundza.com/sound/body-hit-and-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmt2ixkpw000204ievxnm7d9a",
+      "url": "https://soundza.com/sound/short-wave-hit",
+      "title": "Short Wave Hit",
+      "description": "A bright, airy wave crash or water foley with crispy high-mid frequency content and minimal low-end punch. This textured, atmospheric percussion sound sits in the 2–6 kHz range, perfect for adding organic ambient texture or transition effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.36,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "airy",
+        "crispy",
+        "atmospheric",
+        "transition",
+        "one-shot"
+      ],
+      "sync_ms": 14,
+      "lufs": null,
+      "true_peak_db": -20.2,
+      "loudness": {
+        "value": -34.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 19.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 94970,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9ba78HFVMAvBWCXV4cyD9Knx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2ixkpw000204ievxnm7d9a/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Wave Hit\" by Sean Joad on Soundza (https://soundza.com/sound/short-wave-hit)",
+      "matched_words": [
+        "wave",
+        "crash"
+      ]
+    },
+    {
+      "id": "cmsf4rgjb001204jlhs01b57d",
+      "url": "https://soundza.com/sound/car-crash-with-glass-smash",
+      "title": "Car Crash With Glass Smash",
+      "description": "A chaotic, metallic crash with sharp glass shattering and metal fragments—bright, aggressive, and full of noisy impact textures that decay quickly, ideal for transitions and dramatic hit moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 2.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "metallic",
+        "aggressive",
+        "bright",
+        "foley",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": -13.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -7.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1476980,
+      "category": {
+        "id": "DESTRMisc",
+        "label": "Destruction › Misc"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wYD--dYGI0JnBlLcua1YUbYg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rgjb001204jlhs01b57d/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Crash With Glass Smash\" on Soundza (https://soundza.com/sound/car-crash-with-glass-smash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvjog84mldpnj7lzozln3njp",
+      "url": "https://soundza.com/sound/healing-wave-shimmer",
+      "title": "Healing Wave Shimmer",
+      "description": "A sustained, tonal shimmer with a bright, ethereal quality that rises and falls gently. Ideal for magical healing, buffs, or positive status effects in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 3.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "magic",
+        "sci-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -28.6,
+      "true_peak_db": -5.3,
+      "loudness": {
+        "value": -25.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 935660,
+      "category": {
+        "id": "MAGAngl",
+        "label": "Magic › Angelic"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T8gFIu3Gtze_BAR1RQ9505Xe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjog84mldpnj7lzozln3njp/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Healing Wave Shimmer\" on Soundza (https://soundza.com/sound/healing-wave-shimmer)",
+      "matched_words": [
+        "wave"
+      ]
+    },
+    {
+      "id": "cmvl7wjdq7mz3tz28p492vggf",
+      "url": "https://soundza.com/sound/rocks-falling",
+      "title": "Rocks Falling",
+      "description": "Multiple rocks tumble and impact as they cascade down, creating a natural debris field of impacts and settling stones. Suitable for landslides, collapses, or environmental destruction scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 2.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "crash"
+      ],
+      "sync_ms": null,
+      "lufs": -34.2,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -32,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 772686,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/llitNQw58_FZ4m8H94GL8EHZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7wjdq7mz3tz28p492vggf/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rocks Falling\" on Soundza (https://soundza.com/sound/rocks-falling)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm6ffudm7gbj4sx21sd6vad",
+      "url": "https://soundza.com/sound/short-crash-cymbal",
+      "title": "Short Crash Cymbal",
+      "description": "A bright, crispy crash cymbal with sharp attack and airy high-frequency shimmer that cuts through mixes. Fast transient impact with extended metallic decay, ideal for punctuating beats and adding clarity to drum breaks.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "bright",
+        "crispy",
+        "metallic",
+        "sharp",
+        "one-shot",
+        "texture"
+      ],
+      "sync_ms": 82,
+      "lufs": -13.8,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -9.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 383754,
+      "category": null,
+      "pack": {
+        "id": "y45kz46rys9z90bslhc8ynn5",
+        "name": "Urban Trap Essentials",
+        "slug": "urban-trap-essentials",
+        "sound_count": 108,
+        "url": "https://soundza.com/packs/urban-trap-essentials"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lMtNmDTllKGS6kYHCblquK7O.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6ffudm7gbj4sx21sd6vad/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Crash Cymbal\" on Soundza (https://soundza.com/sound/short-crash-cymbal)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvovy030gnw4pt64wlgz3a7s",
+      "url": "https://soundza.com/sound/rock-splash-impact",
+      "title": "Rock Splash Impact",
+      "description": "A large rock plunges into a shallow creek with a sharp initial impact, followed by spattering drops and waves sloshing across the water surface. Realistic field recording suitable for nature scenes, outdoor sequences, or water foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "nature",
+        "foley"
+      ],
+      "sync_ms": 5,
+      "lufs": -19,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1878294,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9yYY2LabUuwIOY3RO19-qgm6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovy030gnw4pt64wlgz3a7s/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Splash Impact\" on Soundza (https://soundza.com/sound/rock-splash-impact)",
+      "matched_words": [
+        "wave",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl7sc4lodkvh23vfniz5cqd",
+      "url": "https://soundza.com/sound/concrete-smash-impact-2",
+      "title": "Concrete Smash Impact 2",
+      "description": "A sharp, impactful crash of concrete debris and rubble from a demolished building, with edited layers and EQ to emphasize the violent percussive strike. Useful for destruction, collapse, and heavy impact moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact"
+      ],
+      "sync_ms": 90,
+      "lufs": -17,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 735088,
+      "category": {
+        "id": "ROCKCrsh",
+        "label": "Rocks › Crash & Debris"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/M1g7FpsMjyl51awfCFtPrWKw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7sc4lodkvh23vfniz5cqd/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Concrete Smash Impact 2\" on Soundza (https://soundza.com/sound/concrete-smash-impact-2)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtkkl2y9u6kvnx461in12wr3",
+      "url": "https://soundza.com/sound/ride-cymbal-crash",
+      "title": "Ride Cymbal Crash",
+      "description": "A bright, metallic cymbal crash with shimmering bells layered on top, creating a rich, cutting percussive texture with substantial high-frequency content and a sharp, punchy attack.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.95,
+      "bpm": 162.8,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic",
+        "punchy"
+      ],
+      "tags": [
+        "cymbal",
+        "bell",
+        "bright",
+        "metallic",
+        "punchy",
+        "one-shot",
+        "percussion",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -34.8,
+      "true_peak_db": -10.3,
+      "loudness": {
+        "value": -26.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 780322,
+      "category": null,
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HezEkhAaVQfKtQm0P1_v5UfC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkkl2y9u6kvnx461in12wr3/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ride Cymbal Crash\" on Soundza (https://soundza.com/sound/ride-cymbal-crash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvdz69mtpoa7fau9y4ffjkk0",
+      "url": "https://soundza.com/sound/bowling-strike-impact",
+      "title": "Bowling Strike Impact",
+      "description": "A bowling ball crashes into pins with a loud impact, followed by the scatter and tumble of pins across the lane. Multiple variations capture different strike intensities and pin reactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "background_bed"
+      ],
+      "duration": 5.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 3501,
+      "lufs": -22.7,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -16.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1547102,
+      "category": {
+        "id": "SPRTIndor",
+        "label": "Sports › Indoor"
+      },
+      "pack": {
+        "id": "kv7zwnelzmxyt9c39ruvow9z",
+        "name": "Sports Sound Effects — Crowd Cheers, Referee Whistles, Buzzers & Ball Hits",
+        "slug": "sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nVAHSu1qx4Ra8qnpJgTrKeZY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdz69mtpoa7fau9y4ffjkk0/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bowling Strike Impact\" on Soundza (https://soundza.com/sound/bowling-strike-impact)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtj993al3toos1t4jszhv4wf",
+      "url": "https://soundza.com/sound/low-reversed-crash-cymbal",
+      "title": "Low Reversed Crash Cymbal",
+      "description": "A bright, shimmering crash cymbal with extended decay and airy presence in the upper-mid frequencies, perfect for punctuating transitions and adding spacious splash to drum breaks.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 2.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "airy",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "one-shot",
+        "bright",
+        "airy",
+        "transition",
+        "metallic",
+        "textured"
+      ],
+      "sync_ms": 2685,
+      "lufs": -13.5,
+      "true_peak_db": -0.6,
+      "loudness": {
+        "value": -8.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 711054,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dq3YCyRsfRkxSdh97F7dmb7b.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj993al3toos1t4jszhv4wf/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Low Reversed Crash Cymbal\" on Soundza (https://soundza.com/sound/low-reversed-crash-cymbal)",
+      "matched_words": [
+        "crash"
+      ]
+    },
+    {
+      "id": "cmthx0blhb0tpahn18uu0xtr3",
+      "url": "https://soundza.com/sound/bright-china-crashing",
+      "title": "Bright China Crashing",
+      "description": "A bright, shimmering crash cymbal with a sharp attack and sustained wash of metallic shimmer that decays across the midrange and treble frequencies. Classic orchestral/live drum cymbal texture ideal for punctuating fills, crashes, and dramatic hits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 3.21,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic",
+        "organic"
+      ],
+      "tags": [
+        "cymbal",
+        "bright",
+        "metallic",
+        "sharp",
+        "one-shot",
+        "atmospheric",
+        "organic"
+      ],
+      "sync_ms": 100,
+      "lufs": -20.7,
+      "true_peak_db": -7.8,
+      "loudness": {
+        "value": -15.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 848198,
+      "category": {
+        "id": "MUSCPerc",
+        "label": "Musical › Percussion"
+      },
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UcZzhDEA98fCggpyZbKgulOM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmthx0blhb0tpahn18uu0xtr3/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright China Crashing\" on Soundza (https://soundza.com/sound/bright-china-crashing)",
+      "matched_words": [
+        "crash"
+      ]
+    },
+    {
+      "id": "cmtm85xxhim458wk8p124n8e4",
+      "url": "https://soundza.com/sound/analog-crash-hit",
+      "title": "Analog Crash Hit",
+      "description": "A bright, crispy crash-like impact from a vintage drum machine with a sharp attack and metallic shimmer in the high-frequency range. The sound is thin and dry with minimal sustain, characteristic of early 80s analog drum synths.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "cymbal",
+        "bright",
+        "metallic",
+        "crispy",
+        "analog",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": 50,
+      "lufs": -10,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -5.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 294490,
+      "category": null,
+      "pack": {
+        "id": "floerj6inut1z86z1sn2cbhe",
+        "name": "MACHINE ROOM — Vintage Drum Machines and Rhythm Boxes",
+        "slug": "machine-room-vintage-drum-machines-and-rhythm-boxes",
+        "sound_count": 150,
+        "url": "https://soundza.com/packs/machine-room-vintage-drum-machines-and-rhythm-boxes"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dJrpsQS0OuO14wCDIOpeBANe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm85xxhim458wk8p124n8e4/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Analog Crash Hit\" on Soundza (https://soundza.com/sound/analog-crash-hit)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4reiz001904ju0sf1w96a",
+      "url": "https://soundza.com/sound/angry-crash-shot",
+      "title": "Angry Crash/Shot",
+      "description": "A sharp, aggressive metallic crash with a punchy impact and bright high-end presence, capturing the character of a collision or vehicle impact. The sound has a tight attack and minimal sustain, making it ideal for emphasizing dramatic moments or adding percussive texture to builds and transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "aggressive",
+        "bright",
+        "foley",
+        "one-shot",
+        "punchy",
+        "transition"
+      ],
+      "sync_ms": 13,
+      "lufs": -11.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -9.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 142906,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rJZmMM3hYWIjeKYEg22aEaG-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4reiz001904ju0sf1w96a/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Angry Crash/Shot\" on Soundza (https://soundza.com/sound/angry-crash-shot)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5oktt6008i06l5pxergcxn",
+      "url": "https://soundza.com/sound/energy-field-4",
+      "title": "Energy Field 4",
+      "description": "A sharp, designed sci-fi energy burst with a brief metallic resonance, created from synthesized waves and processing. Suitable for energy weapon impacts, shield effects, or futuristic technology interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.02,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "impact"
+      ],
+      "sync_ms": 431,
+      "lufs": -16.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 192000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1169712,
+      "category": {
+        "id": "SCIEnrg",
+        "label": "Scifi › Energy"
+      },
+      "pack": {
+        "id": "r7d2ybctlcilh6pxkclv5j5m",
+        "name": "Hi-Res Sci-Fi SFX",
+        "slug": "hi-res-sci-fi-sfx",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/hi-res-sci-fi-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BL2sDc8esQygq2M5cIDvH-0_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oktt6008i06l5pxergcxn/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Energy Field 4\" on Soundza (https://soundza.com/sound/energy-field-4)",
+      "matched_words": [
+        "wave",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukby3jjfp5eko9i6jidtyti",
+      "url": "https://soundza.com/sound/large-cardboard-box-impact",
+      "title": "Large Cardboard Box Impact",
+      "description": "A heavy cardboard box falls and crashes onto a hard surface with a complex rustling and thumping impact. Useful as a foley element for dropping, stacking, or collapsing cardboard in video or game scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 3.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley",
+        "paper"
+      ],
+      "sync_ms": 828,
+      "lufs": -17.6,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -14.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 877490,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jPR07cat3flu-qZcct5ajD98.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukby3jjfp5eko9i6jidtyti/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Large Cardboard Box Impact\" on Soundza (https://soundza.com/sound/large-cardboard-box-impact)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvl83vjdh2bzt8mo7pfnmto1",
+      "url": "https://soundza.com/sound/bricks-smash",
+      "title": "Bricks Smash",
+      "description": "Two bricks crashing together with a sharp, percussive impact. A dry, realistic sound useful for impacts, collisions, and rock-based destruction.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "dry",
+        "close-up"
+      ],
+      "sync_ms": 70,
+      "lufs": -11.2,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -8.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 169038,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/p9gqbHZaZG82on19p3n6_hB8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl83vjdh2bzt8mo7pfnmto1/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bricks Smash\" on Soundza (https://soundza.com/sound/bricks-smash)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5swkch00j306l6c9vpc36o",
+      "url": "https://soundza.com/sound/glass-smash-slowed-down-13",
+      "title": "Glass Smash Slowed Down 13",
+      "description": "A single pane of glass shatters with a bright, crystalline crash. Slowed down for dramatic emphasis, ideal for impact moments in video and game design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "cinematic"
+      ],
+      "tags": [
+        "glass",
+        "impact",
+        "foley",
+        "bright",
+        "cinematic"
+      ],
+      "sync_ms": 281,
+      "lufs": -18.3,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -12.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1787378,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8GWOUa5yDDp1tVPnKAr-lKno.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00j306l6c9vpc36o/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Smash Slowed Down 13\" on Soundza (https://soundza.com/sound/glass-smash-slowed-down-13)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv0fsgzb002606lb9h1kimi8",
+      "url": "https://soundza.com/sound/bamboo-swoosh-43",
+      "title": "Bamboo Swoosh 43",
+      "description": "A quick swish of a bamboo stick or staff being waved through the air. Sharp and percussive, suitable for weapon impacts, martial arts movements, or fantasy combat sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition"
+      ],
+      "duration": 0.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "swish",
+        "weapon",
+        "impact"
+      ],
+      "sync_ms": 148,
+      "lufs": -14.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 115666,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": {
+        "id": "cmv0fptw2000006jth0zqta6o",
+        "name": "Sword & Swish SFX",
+        "slug": "sword-and-swish-sfx",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/sword-and-swish-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1XXqL1u-yRqQExNOMB2f1_7a.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0fsgzb002606lb9h1kimi8/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bamboo Swoosh 43\" on Soundza (https://soundza.com/sound/bamboo-swoosh-43)",
+      "matched_words": [
+        "wave",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtl16zaut9dywcol7fic05xk",
+      "url": "https://soundza.com/sound/trashy-crash-cymbal-1",
+      "title": "Trashy Crash Cymbal",
+      "description": "A bright, trashy jazz ride cymbal with crispy stick articulation and fast, shimmering decay—characteristic of live jazz cymbal work with plenty of metallic shimmer and defined attack.",
+      "type": "music",
+      "form": "excerpt",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 4.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic",
+        "organic"
+      ],
+      "tags": [
+        "cymbal",
+        "bright",
+        "metallic",
+        "organic",
+        "crispy",
+        "percussion",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -17.8,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -11.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1163220,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ga-tau_VxNdzkpU4f74OWK6l.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl16zaut9dywcol7fic05xk/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Trashy Crash Cymbal\" on Soundza (https://soundza.com/sound/trashy-crash-cymbal-1)",
+      "matched_words": [
+        "crash"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02m106l4tq0oiqg0",
+      "url": "https://soundza.com/sound/falling-3",
+      "title": "Falling 3",
+      "description": "A heavy wooden object crashes down with a sharp impact and settling debris. Useful for dramatic collision, destruction, or landing moments in games and film.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 0.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "impact",
+        "wood",
+        "crackle",
+        "hit",
+        "close-up",
+        "cinematic"
+      ],
+      "sync_ms": 15,
+      "lufs": -28.1,
+      "true_peak_db": -2.5,
+      "loudness": {
+        "value": -23.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 234044,
+      "category": {
+        "id": "WOODImpt",
+        "label": "Wood › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LkCkTl5IChL7CgY3-AH7_vAV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02m106l4tq0oiqg0/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Falling 3\" on Soundza (https://soundza.com/sound/falling-3)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5sxc0101kh06l62kh0bphf",
+      "url": "https://soundza.com/sound/broken-lightbulb-perc-36",
+      "title": "Broken Lightbulb Perc 36",
+      "description": "A sharp, high-pitched glass crash from a breaking lightbulb. Quick and bright, perfect for UI feedback, foley, or cinematic punctuation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "impact_on_beat"
+      ],
+      "duration": 0.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "glass",
+        "impact",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 18,
+      "lufs": null,
+      "true_peak_db": -11.5,
+      "loudness": {
+        "value": -33,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 76906,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": {
+        "id": "cmv5syvwu02uu06l6y0gbrc0m",
+        "name": "450+ Found-Sound Percussion Kit: Lighters, Keys, Coins and Glass",
+        "slug": "nightbus-uk-garage-percussion-and-lighter-hits",
+        "sound_count": 475,
+        "url": "https://soundza.com/packs/nightbus-uk-garage-percussion-and-lighter-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8ZHE1ssicm39hznw0DfCSdBZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5sxc0101kh06l62kh0bphf/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Broken Lightbulb Perc 36\" on Soundza (https://soundza.com/sound/broken-lightbulb-perc-36)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv91m5x706u37nes4jggkgxw",
+      "url": "https://soundza.com/sound/christmas-ornament-box-slam",
+      "title": "Christmas Ornament Box Slam",
+      "description": "A box full of Christmas ornaments crashes to the ground, creating a complex cascade of breaking glass and ceramic impacts. The sound captures multiple layers of destruction as ornaments shatter inside and spill across a hard surface.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "glass",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 397,
+      "lufs": -17.5,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -14.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1179740,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": {
+        "id": "dh0fxeecn91l1ey9pn8gtwu7",
+        "name": "Christmas Sound Effects — Sleigh Bells, Santa, Fireplace & More",
+        "slug": "christmas-sound-effects-sleigh-bells-santa-fireplace-and-more",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/christmas-sound-effects-sleigh-bells-santa-fireplace-and-more"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hEb4u3y9va5RFujHb7n6FbLt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv91m5x706u37nes4jggkgxw/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Christmas Ornament Box Slam\" on Soundza (https://soundza.com/sound/christmas-ornament-box-slam)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4reqo001b04juhzolh5t6",
+      "url": "https://soundza.com/sound/glass-breaking",
+      "title": "Glass Breaking",
+      "description": "A bright, high-frequency glass shattering impact with crispy, metallic character and sharp transient attack—perfect for destructive sound design, foley moments, and cinematic transitions where you need an immediate, percussive break or crash moment.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "metallic",
+        "crispy",
+        "bright",
+        "foley",
+        "one-shot"
+      ],
+      "sync_ms": 343,
+      "lufs": -16.9,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -15.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 504170,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v1LfEtbbek3lBauJ9r7bH9mn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4reqo001b04juhzolh5t6/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Breaking\" on Soundza (https://soundza.com/sound/glass-breaking)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmt2ixkf4000a04i9bxoc063f",
+      "url": "https://soundza.com/sound/bright-wave-hit",
+      "title": "Bright Wave Hit",
+      "description": "A crispy, textured percussion impact with beach-like foley character, featuring bright mid-range frequencies and a sharp attack that decays quickly into atmospheric noise.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "percussion",
+        "impact",
+        "foley",
+        "crispy",
+        "textured",
+        "bright",
+        "one-shot",
+        "atmospheric"
+      ],
+      "sync_ms": 5,
+      "lufs": -34.6,
+      "true_peak_db": -19.2,
+      "loudness": {
+        "value": -31.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 184400,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WTHTgeemWM85JS3zryDl2cpy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2ixkf4000a04i9bxoc063f/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Wave Hit\" by Sean Joad on Soundza (https://soundza.com/sound/bright-wave-hit)",
+      "matched_words": [
+        "wave",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmsf4redc001704jugyk9w3fa",
+      "url": "https://soundza.com/sound/glass-shattering-loudly",
+      "title": "Glass Shattering Loudly",
+      "description": "A delicate, crystalline glass breaking sound with bright, airy high-frequency content and minimal low-end weight; crispy and metallic with fast attack and sparse decay, perfect for impact moments that need subtlety rather than aggression.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "foley",
+        "crispy",
+        "bright",
+        "metallic",
+        "texture",
+        "one-shot",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22.1,
+      "true_peak_db": -8.4,
+      "loudness": {
+        "value": -20,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 537356,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ar_P5WPqSXg9ltq2DBBJQTsK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4redc001704jugyk9w3fa/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Shattering Loudly\" on Soundza (https://soundza.com/sound/glass-shattering-loudly)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv8znv58vvcdq3tvzb40kt1s",
+      "url": "https://soundza.com/sound/drumroll-with-cymbal-clash",
+      "title": "Drumroll with Cymbal Clash",
+      "description": "A synthetic drum roll with building intensity, ending in a bright cymbal crash. Created from MIDI sequencing on a Yamaha S-30 synthesizer, it works as a stinger or transition accent.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "title_or_logo",
+        "transition"
+      ],
+      "duration": 5.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "cymbal",
+        "crash",
+        "percussion",
+        "synth",
+        "one-shot"
+      ],
+      "sync_ms": 4414,
+      "lufs": -13.3,
+      "true_peak_db": 2,
+      "loudness": {
+        "value": -6.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 19886,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 356324,
+      "category": null,
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/w0BGRr1EVD6A7V5vNTDLwOta.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8znv58vvcdq3tvzb40kt1s/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Drumroll with Cymbal Clash\" on Soundza (https://soundza.com/sound/drumroll-with-cymbal-clash)",
+      "matched_words": [
+        "crash"
+      ]
+    },
+    {
+      "id": "cmuynws8x000p06nvrmmybnz3",
+      "url": "https://soundza.com/sound/space-trash-4",
+      "title": "Space Trash 4",
+      "description": "A series of metallic crashes and debris impacts with a sci-fi character, suggesting collision or destruction in a space environment. Useful for game impacts, collision hits, or destruction events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "sci-fi",
+        "impact",
+        "metallic",
+        "game"
+      ],
+      "sync_ms": 282,
+      "lufs": -29.7,
+      "true_peak_db": -11.1,
+      "loudness": {
+        "value": -26.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 296526,
+      "category": {
+        "id": "SCIImpt",
+        "label": "Scifi › Impact"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9wwVcKkmN_PTAhA5YlGBdbHZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuynws8x000p06nvrmmybnz3/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Space Trash 4\" on Soundza (https://soundza.com/sound/space-trash-4)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukdui4xdvkyh5gt7s73tyay",
+      "url": "https://soundza.com/sound/small-fluorescent-light-shattering",
+      "title": "Small Fluorescent Light Shattering",
+      "description": "A small fluorescent light tube breaks against a hard surface with a sharp, brittle crash followed by tinkling glass debris and room reverb. The recording captures the full impact and acoustic character of the space.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "glass",
+        "impact",
+        "field-recording",
+        "foley"
+      ],
+      "sync_ms": 20,
+      "lufs": -16.9,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1405930,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sv7x22JP5n0BhX-TW6hYmk1Z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdui4xdvkyh5gt7s73tyay/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Fluorescent Light Shattering\" on Soundza (https://soundza.com/sound/small-fluorescent-light-shattering)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm6fw37tknqhi6voh9wg48m",
+      "url": "https://soundza.com/sound/trashy-crash-cymbal",
+      "title": "Trashy Crash Cymbal",
+      "description": "A bright, shimmering crash cymbal with fast attack and extended shimmer that cuts through mixes with crispy high-frequency detail and metallic ring—perfect for creating impact accents and dynamic transitions in rhythm sections.",
+      "type": "music",
+      "form": "excerpt",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 4.98,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "bright",
+        "metallic",
+        "crispy",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": null,
+      "lufs": -13.7,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -7.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1317498,
+      "category": null,
+      "pack": {
+        "id": "y45kz46rys9z90bslhc8ynn5",
+        "name": "Urban Trap Essentials",
+        "slug": "urban-trap-essentials",
+        "sound_count": 108,
+        "url": "https://soundza.com/packs/urban-trap-essentials"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BVJglQDU03gRvpQ_GTwRcJQD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6fw37tknqhi6voh9wg48m/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Trashy Crash Cymbal\" on Soundza (https://soundza.com/sound/trashy-crash-cymbal)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmukc08tn4qg4hmtfb43h3kqf",
+      "url": "https://soundza.com/sound/ceramic-plate-drop",
+      "title": "Ceramic Plate Drop",
+      "description": "A ceramic plate or dish striking a hard surface with a sharp, brittle impact. A clean foley recording suitable for any scene requiring the sound of dropped dishware breaking or crashing.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 37,
+      "lufs": -21.1,
+      "true_peak_db": -2.3,
+      "loudness": {
+        "value": -18.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 150660,
+      "category": {
+        "id": "CERMImpt",
+        "label": "Ceramics › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O3eCM7dwuGsQ2kvxrwHJ0kGx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc08tn4qg4hmtfb43h3kqf/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ceramic Plate Drop\" on Soundza (https://soundza.com/sound/ceramic-plate-drop)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtj9eb58gogg4uj9y8jpgpeb",
+      "url": "https://soundza.com/sound/cinematic-crash-riser",
+      "title": "Cinematic Crash Riser",
+      "description": "A bright, crispy crash cymbal strike with a fast, natural attack and extended shimmer that rises and decays smoothly—ideal for punctuation, transitions, and fills across rhythmic genres.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 4.29,
+      "bpm": 127.4,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "crispy",
+        "bright",
+        "transition",
+        "one-shot",
+        "metallic",
+        "riser"
+      ],
+      "sync_ms": 3959,
+      "lufs": -14,
+      "true_peak_db": 1.1,
+      "loudness": {
+        "value": -8.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1135514,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rDX-pIq44bktk9xUdHli5Qjo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj9eb58gogg4uj9y8jpgpeb/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cinematic Crash Riser\" on Soundza (https://soundza.com/sound/cinematic-crash-riser)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvi9rm8qs1ta79wzzebk7uvz",
+      "url": "https://soundza.com/sound/body-fall-into-debris",
+      "title": "Body Fall Into Debris",
+      "description": "A heavy body impacts and slides across scattered debris, crashing and crunching with rattling objects as it settles. Suitable for action scenes, falls, and destruction moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact"
+      ],
+      "sync_ms": 398,
+      "lufs": -26.1,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -18.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1292630,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dDWCyBtemL87FUcyXnKecUlv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9rm8qs1ta79wzzebk7uvz/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Fall Into Debris\" on Soundza (https://soundza.com/sound/body-fall-into-debris)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtm767h7wbkh9uin1atp5j4h",
+      "url": "https://soundza.com/sound/metallic-grate-hit",
+      "title": "Metallic Grate Hit",
+      "description": "A sharp, metallic clang and crash with bright, gritty texture that cuts through quickly with aggressive transient energy—ideal for dramatic impacts, transitions, and trailer-style hits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 3.25,
+      "bpm": 147.9,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright",
+        "cinematic"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "sharp",
+        "gritty",
+        "bright",
+        "one-shot",
+        "cinematic"
+      ],
+      "sync_ms": 5,
+      "lufs": -26.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -20.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1870032,
+      "category": {
+        "id": "METLImpt",
+        "label": "Metal › Impact"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BZhI9b61tosE5KNlMc7oS7bf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm767h7wbkh9uin1atp5j4h/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metallic Grate Hit\" on Soundza (https://soundza.com/sound/metallic-grate-hit)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmv5swkcg00iy06l6zmpf3he0",
+      "url": "https://soundza.com/sound/glass-smash-slowed-down-11",
+      "title": "Glass Smash Slowed Down 11",
+      "description": "A single pane of glass breaking and shattering with a crisp, resonant crash. Slowed down for added impact and detail.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.95,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "glass",
+        "impact",
+        "foley",
+        "cinematic"
+      ],
+      "sync_ms": 161,
+      "lufs": -15.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -11.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2274782,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DFJv36OsJxziu59x0_Wy6R-D.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkcg00iy06l6zmpf3he0/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Smash Slowed Down 11\" on Soundza (https://soundza.com/sound/glass-smash-slowed-down-11)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmvou54p1d40xk73ma8v5wb08",
+      "url": "https://soundza.com/sound/shed-collapse-and-debris",
+      "title": "Shed Collapse and Debris",
+      "description": "A wooden shed structure crashes to the ground with a series of heavy impacts, creaks, and splintering wood, followed by settling debris and residual noise from the demolition.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 5.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -11.3,
+      "true_peak_db": 1.2,
+      "loudness": {
+        "value": -6.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1391706,
+      "category": {
+        "id": "EXPLMisc",
+        "label": "Explosions › Misc"
+      },
+      "pack": {
+        "id": "wn8vaqs5s8tszss8shncazpo",
+        "name": "Explosion Sound Effects — Small, Medium, Large, Distant & Debris",
+        "slug": "explosion-sound-effects-small-medium-large-distant-and-debris",
+        "sound_count": 166,
+        "url": "https://soundza.com/packs/explosion-sound-effects-small-medium-large-distant-and-debris"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R-tIxKYgSBKvrT3KASuTkXA7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvou54p1d40xk73ma8v5wb08/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Shed Collapse and Debris\" on Soundza (https://soundza.com/sound/shed-collapse-and-debris)",
+      "matched_words": [
+        "crash",
+        "impact"
+      ]
+    },
+    {
+      "id": "cmtl16ru0p2curgl048up2lf3",
+      "url": "https://soundza.com/sound/bright-bell-crash",
+      "title": "Bright Bell Crash",
+      "description": "A bright, shimmering bell and cymbal crash with a sharp attack and airy metallic character, featuring multiple ringing tones that decay naturally. The crispy, high-frequency texture makes it ideal for punctuation, transitions, or adding shimmer to drum kits.",
+      "type": "music",
+      "form": "excerpt",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 3.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic",
+        "airy"
+      ],
+      "tags": [
+        "cymbal",
+        "bell",
+        "bright",
+        "metallic",
+        "airy",
+        "sharp",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -36.1,
+      "true_peak_db": -13.1,
+      "loudness": {
+        "value": -26.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 807106,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UDXsWquyVF45mSDYEQifcTjq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl16ru0p2curgl048up2lf3/file?search_id=wrrcugbj6oope2ldzrrr4mrx",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Bell Crash\" on Soundza (https://soundza.com/sound/bright-bell-crash)",
+      "matched_words": [
+        "crash"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "wave crash impact",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 6,
+    "style": null,
+    "good_for": [
+      "impact_on_beat"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A sound effect of a wave crashing. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "wrrcugbj6oope2ldzrrr4mrx"
+}

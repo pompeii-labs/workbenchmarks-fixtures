@@ -1,19 +1,95 @@
-/** Procedural audio: engine drone, water hiss, splash bursts, ring chime. */
+/**
+ * Sample-based audio. Every sound is a Soundza recording (soundza.com), listed in
+ * artifacts/sound/cues.json with its trigger and gain.
+ *
+ * - One AudioContext, created on the first user gesture (unlock()).
+ * - Every file is fetched and decoded once at unlock, into a map by cue id.
+ * - Buses: sfx / ui / bed -> master -> destination. Mute ramps master.
+ * - Loops (engine, water rush, ocean bed) start once and follow game state.
+ */
+
+type CueId =
+  | 'engine'
+  | 'water-rush'
+  | 'ocean-ambience'
+  | 'land-splash'
+  | 'land-splash-2'
+  | 'wipeout'
+  | 'launch'
+  | 'bump'
+  | 'ring'
+  | 'gate'
+  | 'countdown'
+  | 'go'
+  | 'lap'
+  | 'lap-best'
+  | 'finish-win'
+  | 'finish'
+  | 'ui-click';
+
+type Bus = 'sfx' | 'ui' | 'bed';
+
+interface CueDef {
+  file: string;
+  /** gain into its bus, in dB (mirrors gain_db in cues.json) */
+  gainDb: number;
+  bus: Bus;
+}
+
+const CUES: Record<CueId, CueDef> = {
+  engine: { file: 'engine.wav', gainDb: -8, bus: 'sfx' },
+  'water-rush': { file: 'water-rush.wav', gainDb: -4, bus: 'sfx' },
+  'ocean-ambience': { file: 'ocean-bed.wav', gainDb: -2, bus: 'bed' },
+  'land-splash': { file: 'land-splash.mp3', gainDb: -4, bus: 'sfx' },
+  'land-splash-2': { file: 'splash2.mp3', gainDb: -6, bus: 'sfx' },
+  wipeout: { file: 'wipeout.mp3', gainDb: -8, bus: 'sfx' },
+  launch: { file: 'launch.mp3', gainDb: -10, bus: 'sfx' },
+  bump: { file: 'bump.mp3', gainDb: -6, bus: 'sfx' },
+  ring: { file: 'ring.mp3', gainDb: -9, bus: 'sfx' },
+  gate: { file: 'gate.mp3', gainDb: -3, bus: 'sfx' },
+  countdown: { file: 'countdown.mp3', gainDb: 0, bus: 'sfx' },
+  go: { file: 'go.mp3', gainDb: -8, bus: 'sfx' },
+  lap: { file: 'lap.mp3', gainDb: -7, bus: 'sfx' },
+  'lap-best': { file: 'lap-best.mp3', gainDb: -6, bus: 'sfx' },
+  'finish-win': { file: 'finish-win.mp3', gainDb: -6, bus: 'sfx' },
+  finish: { file: 'finish.mp3', gainDb: -7, bus: 'sfx' },
+  'ui-click': { file: 'ui-click.mp3', gainDb: -12, bus: 'ui' },
+};
+
+const MAX_VOICES = 4;
+const COOLDOWN_S = 0.06;
+const MASTER = 1;
+
+const db = (d: number): number => 10 ** (d / 20);
+
+interface Voice {
+  src: AudioBufferSourceNode;
+  gain: GainNode;
+}
+
+interface LoopVoice {
+  src: AudioBufferSourceNode;
+  gain: GainNode;
+  /** linear gain of the cue at full presence */
+  full: number;
+}
+
 export class AudioSystem {
   private ctx: AudioContext | null = null;
   private master: GainNode | null = null;
-  private engineOsc: OscillatorNode | null = null;
-  private engineOsc2: OscillatorNode | null = null;
-  private engineGain: GainNode | null = null;
-  private engineFilter: BiquadFilterNode | null = null;
-  private hissGain: GainNode | null = null;
-  private noiseBuffer: AudioBuffer | null = null;
+  private buses: Partial<Record<Bus, GainNode>> = {};
+  private readonly buffers = new Map<CueId, AudioBuffer>();
+  private readonly voices = new Map<CueId, Voice[]>();
+  private readonly lastPlay = new Map<CueId, number>();
+  private readonly loops = new Map<CueId, LoopVoice>();
+  private waterFilter: BiquadFilterNode | null = null;
+  private splashTurn = 0;
+  private paused = false;
   muted = false;
-  private splashN = 0;
 
   unlock(): void {
     if (this.ctx) {
-      void this.ctx.resume();
+      if (this.ctx.state === 'suspended') void this.ctx.resume();
       return;
     }
     const AC = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
@@ -21,128 +97,235 @@ export class AudioSystem {
     const ctx = new AC();
     this.ctx = ctx;
     this.master = ctx.createGain();
-    this.master.gain.value = this.muted ? 0 : 0.5;
+    this.master.gain.value = this.muted ? 0 : MASTER;
     this.master.connect(ctx.destination);
-
-    const len = ctx.sampleRate * 1.5;
-    this.noiseBuffer = ctx.createBuffer(1, len, ctx.sampleRate);
-    const data = this.noiseBuffer.getChannelData(0);
-    let seed = 1234567;
-    for (let i = 0; i < len; i += 1) {
-      seed = (seed * 1103515245 + 12345) >>> 0;
-      data[i] = (seed / 4294967296) * 2 - 1;
+    for (const b of ['sfx', 'ui', 'bed'] as Bus[]) {
+      const g = ctx.createGain();
+      g.connect(this.master);
+      this.buses[b] = g;
     }
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && this.ctx && this.ctx.state === 'suspended') void this.ctx.resume();
+    });
+    void this.loadAll();
+  }
 
-    this.engineFilter = ctx.createBiquadFilter();
-    this.engineFilter.type = 'lowpass';
-    this.engineFilter.frequency.value = 600;
-    this.engineGain = ctx.createGain();
-    this.engineGain.gain.value = 0;
-    this.engineOsc = ctx.createOscillator();
-    this.engineOsc.type = 'sawtooth';
-    this.engineOsc.frequency.value = 50;
-    this.engineOsc2 = ctx.createOscillator();
-    this.engineOsc2.type = 'square';
-    this.engineOsc2.frequency.value = 25;
-    const o2g = ctx.createGain();
-    o2g.gain.value = 0.4;
-    this.engineOsc.connect(this.engineFilter);
-    this.engineOsc2.connect(o2g).connect(this.engineFilter);
-    this.engineFilter.connect(this.engineGain).connect(this.master);
-    this.engineOsc.start();
-    this.engineOsc2.start();
+  private async loadAll(): Promise<void> {
+    const ctx = this.ctx;
+    if (!ctx) return;
+    const base = import.meta.env.BASE_URL;
+    await Promise.all(
+      (Object.keys(CUES) as CueId[]).map(async (id) => {
+        try {
+          const res = await fetch(`${base}sounds/${CUES[id].file}`);
+          if (!res.ok) return;
+          const buf = await ctx.decodeAudioData(await res.arrayBuffer());
+          if (this.ctx !== ctx) return;
+          this.buffers.set(id, buf);
+          if (id === 'engine' || id === 'water-rush' || id === 'ocean-ambience') this.startLoop(id);
+        } catch {
+          // a sound that fails to load stays silent; the game keeps running
+        }
+      }),
+    );
+  }
 
-    const hiss = ctx.createBufferSource();
-    hiss.buffer = this.noiseBuffer;
-    hiss.loop = true;
-    const hf = ctx.createBiquadFilter();
-    hf.type = 'bandpass';
-    hf.frequency.value = 1400;
-    hf.Q.value = 0.6;
-    this.hissGain = ctx.createGain();
-    this.hissGain.gain.value = 0;
-    hiss.connect(hf).connect(this.hissGain).connect(this.master);
-    hiss.start();
+  private startLoop(id: CueId): void {
+    const ctx = this.ctx;
+    const buf = this.buffers.get(id);
+    if (!ctx || !buf || this.loops.has(id)) return;
+    const def = CUES[id];
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    src.loop = true;
+    const gain = ctx.createGain();
+    const full = db(def.gainDb);
+    // The ocean bed is always on (low); engine and water wait for engine().
+    gain.gain.value = id === 'ocean-ambience' ? full : 0;
+    if (id === 'water-rush') {
+      // Tilt the waterfall roar toward spray hiss; opened up by speed in engine().
+      const hp = ctx.createBiquadFilter();
+      hp.type = 'highpass';
+      hp.frequency.value = 500;
+      hp.Q.value = 0.5;
+      src.connect(hp);
+      hp.connect(gain);
+      this.waterFilter = hp;
+    } else {
+      src.connect(gain);
+    }
+    gain.connect(this.buses[def.bus]!);
+    // Random start offset so loops never line up the same way twice.
+    src.start(ctx.currentTime, Math.random() * buf.duration);
+    this.loops.set(id, { src, gain, full });
+  }
+
+  /** One-shot: new source per play, ±4% rate, ±1.5 dB, voice cap and cooldown. */
+  private play(id: CueId, opts: { gainDb?: number; rate?: number; vary?: boolean } = {}): void {
+    const ctx = this.ctx;
+    const buf = this.buffers.get(id);
+    if (!ctx || !buf) return;
+    const now = ctx.currentTime;
+    const last = this.lastPlay.get(id) ?? -1;
+    if (now - last < COOLDOWN_S) return;
+    this.lastPlay.set(id, now);
+    const def = CUES[id];
+    const vary = opts.vary ?? true;
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    src.playbackRate.value = (opts.rate ?? 1) * (vary ? 1 + (Math.random() * 2 - 1) * 0.04 : 1);
+    const gain = ctx.createGain();
+    gain.gain.value = db(def.gainDb + (opts.gainDb ?? 0) + (vary ? (Math.random() * 2 - 1) * 1.5 : 0));
+    src.connect(gain).connect(this.buses[def.bus]!);
+    const list = this.voices.get(id) ?? [];
+    while (list.length >= MAX_VOICES) {
+      const old = list.shift()!;
+      try {
+        old.gain.gain.setTargetAtTime(0, now, 0.01);
+        old.src.stop(now + 0.05);
+      } catch {
+        // already stopped
+      }
+    }
+    const v = { src, gain };
+    list.push(v);
+    this.voices.set(id, list);
+    src.onended = () => {
+      const l = this.voices.get(id);
+      if (l) {
+        const i = l.indexOf(v);
+        if (i >= 0) l.splice(i, 1);
+      }
+    };
+    src.start(now);
   }
 
   setMuted(m: boolean): void {
     this.muted = m;
-    if (this.master && this.ctx) this.master.gain.setTargetAtTime(m ? 0 : 0.5, this.ctx.currentTime, 0.05);
+    if (this.master && this.ctx) this.master.gain.setTargetAtTime(m ? 0 : MASTER, this.ctx.currentTime, 0.05);
   }
 
-  /** speed 0..1, airborne silences hiss and revs the engine. */
+  /** Pause menu: duck the bed; engine and water fall silent through engine(active=false). */
+  setPaused(p: boolean): void {
+    this.paused = p;
+    const bed = this.buses.bed;
+    if (bed && this.ctx) bed.gain.setTargetAtTime(p ? 0.5 : 1, this.ctx.currentTime, 0.15);
+  }
+
+  /** speed 0..1, airborne silences the hull water and revs the engine. */
   engine(speed01: number, throttle: number, airborne: boolean, boosting: boolean, active: boolean): void {
-    if (!this.ctx || !this.engineOsc || !this.engineOsc2 || !this.engineGain || !this.engineFilter || !this.hissGain) return;
-    const now = this.ctx.currentTime;
-    const rev = airborne ? 0.9 + Math.max(0, throttle) * 0.3 : speed01 * 0.8 + Math.max(0, throttle) * 0.25;
-    const f = 42 + rev * 90 + (boosting ? 25 : 0);
-    this.engineOsc.frequency.setTargetAtTime(f, now, 0.08);
-    this.engineOsc2.frequency.setTargetAtTime(f * 0.5, now, 0.08);
-    this.engineFilter.frequency.setTargetAtTime(380 + rev * 1400, now, 0.1);
-    this.engineGain.gain.setTargetAtTime(active ? 0.11 + rev * 0.08 : 0, now, 0.1);
-    this.hissGain.gain.setTargetAtTime(active && !airborne ? speed01 * 0.16 : 0, now, 0.06);
+    const ctx = this.ctx;
+    if (!ctx) return;
+    const now = ctx.currentTime;
+    const on = active && !this.paused;
+    const thr = Math.max(0, throttle);
+    const rev = airborne ? 0.85 + thr * 0.3 : speed01 * 0.75 + thr * 0.25;
+    const eng = this.loops.get('engine');
+    if (eng) {
+      // Recorded at a steady mid rpm: idle ~0.75x, flat out ~1.6x, boost a touch more.
+      const rate = 0.75 + rev * 0.85 + (boosting ? 0.12 : 0);
+      eng.src.playbackRate.setTargetAtTime(rate, now, airborne ? 0.06 : 0.1);
+      const level = on ? 0.45 + Math.min(1, rev) * 0.55 : 0;
+      eng.gain.gain.setTargetAtTime(eng.full * level, now, 0.1);
+    }
+    const water = this.loops.get('water-rush');
+    if (water) {
+      const level = on && !airborne ? Math.min(1, speed01 * 1.1) : 0;
+      water.gain.gain.setTargetAtTime(water.full * level, now, airborne ? 0.04 : 0.08);
+      water.src.playbackRate.setTargetAtTime(0.9 + speed01 * 0.25, now, 0.1);
+      if (this.waterFilter) this.waterFilter.frequency.setTargetAtTime(900 - speed01 * 500, now, 0.1);
+    }
   }
 
+  /** Hull slaps the water. power ~2 (small hop) .. 14 (big air). Alternates two takes. */
   splash(power: number): void {
-    if (!this.ctx || !this.master || !this.noiseBuffer) return;
-    const now = this.ctx.currentTime;
-    const src = this.ctx.createBufferSource();
-    src.buffer = this.noiseBuffer;
-    const f = this.ctx.createBiquadFilter();
-    f.type = 'lowpass';
-    f.frequency.setValueAtTime(2400, now);
-    f.frequency.exponentialRampToValueAtTime(300, now + 0.5);
-    const g = this.ctx.createGain();
-    const v = Math.min(0.5, 0.08 + power * 0.03);
-    g.gain.setValueAtTime(v, now);
-    g.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
-    src.connect(f).connect(g).connect(this.master);
-    this.splashN = (this.splashN + 1) % 5;
-    src.start(now, this.splashN * 0.1);
-    src.stop(now + 0.65);
+    const p = Math.min(1, Math.max(0, (power - 2) / 10));
+    const id: CueId = this.splashTurn++ % 2 === 0 ? 'land-splash' : 'land-splash-2';
+    this.play(id, { gainDb: -9 + p * 9, rate: 1.06 - p * 0.12 });
   }
 
-  /** Lap complete: rising arpeggio, longer for a new best. */
+  /** Rider thrown into the sea: the crash plus a heavy, pitched-down slap under it. */
+  wipeout(): void {
+    this.play('wipeout');
+    this.play('land-splash-2', { gainDb: -3, rate: 0.82 });
+  }
+
+  /** Hull leaves the water (ramp lip, swell crest or pop). */
+  launch(power: number): void {
+    const p = Math.min(1, Math.max(0, power / 8));
+    this.play('launch', { gainDb: -6 + p * 6, rate: 1.05 - p * 0.1 });
+  }
+
+  /** Ski-to-ski contact involving the player. */
+  bump(strength: number): void {
+    const p = Math.min(1, Math.max(0, strength / 5));
+    this.play('bump', { gainDb: -6 + p * 6 });
+    this.splash(3 + strength * 1.2);
+  }
+
+  ring(air: boolean): void {
+    this.play('ring', { rate: air ? 1.26 : 1, vary: false });
+  }
+
+  gate(): void {
+    this.play('gate');
+  }
+
+  countdown(): void {
+    this.play('countdown', { vary: false });
+  }
+
+  go(): void {
+    this.play('go', { vary: false });
+  }
+
+  /** Lap complete; a longer fanfare for a new best. */
   fanfare(best: boolean): void {
-    if (!this.ctx || !this.master) return;
-    const now = this.ctx.currentTime;
-    const notes = best ? [523, 659, 784, 1047, 1319] : [523, 659, 784];
-    notes.forEach((n, i) => {
-      const o = this.ctx!.createOscillator();
-      const g = this.ctx!.createGain();
-      o.type = 'square';
-      o.frequency.value = n;
-      const t = now + i * 0.09;
-      g.gain.setValueAtTime(0.0001, t);
-      g.gain.exponentialRampToValueAtTime(0.07, t + 0.02);
-      g.gain.exponentialRampToValueAtTime(0.0001, t + 0.4);
-      o.connect(g);
-      g.connect(this.master!);
-      o.start(t);
-      o.stop(t + 0.45);
-    });
+    this.play(best ? 'lap-best' : 'lap', { vary: false });
   }
 
+  finish(won: boolean): void {
+    // The last lap's jingle fires on the same frame; the finish fanfare replaces it.
+    this.stopAll(['lap', 'lap-best']);
+    this.play(won ? 'finish-win' : 'finish', { vary: false });
+  }
+
+  click(): void {
+    this.play('ui-click');
+  }
+
+  /** Ring and gate feedback (kept for older call sites). */
   chime(high: boolean): void {
-    if (!this.ctx || !this.master) return;
-    const now = this.ctx.currentTime;
-    const notes = high ? [880, 1175, 1568] : [660, 880];
-    notes.forEach((n, i) => {
-      const o = this.ctx!.createOscillator();
-      const g = this.ctx!.createGain();
-      o.type = 'triangle';
-      o.frequency.value = n;
-      const t = now + i * 0.06;
-      g.gain.setValueAtTime(0.0001, t);
-      g.gain.exponentialRampToValueAtTime(0.12, t + 0.015);
-      g.gain.exponentialRampToValueAtTime(0.0001, t + 0.3);
-      o.connect(g).connect(this.master!);
-      o.start(t);
-      o.stop(t + 0.32);
-    });
+    if (high) this.ring(true);
+    else this.gate();
+  }
+
+  /** Restart: cut every one-shot still ringing. Loops keep running and follow engine(). */
+  stopAll(only?: CueId[]): void {
+    const ctx = this.ctx;
+    if (!ctx) return;
+    for (const [id, list] of this.voices) {
+      if (only && !only.includes(id)) continue;
+      for (const v of list) {
+        try {
+          v.src.stop();
+        } catch {
+          // already stopped
+        }
+      }
+      list.length = 0;
+    }
   }
 
   dispose(): void {
+    for (const l of this.loops.values()) {
+      try {
+        l.src.stop();
+      } catch {
+        // already stopped
+      }
+    }
+    this.loops.clear();
     void this.ctx?.close();
     this.ctx = null;
   }

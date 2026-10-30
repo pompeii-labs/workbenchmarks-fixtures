@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/ring.mp3",
+  "sha": "7ff057dd9119b987",
+  "want": "a bright rewarding pickup chime, clean and sparkly, short",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    8,
+    8,
+    9
+  ],
+  "fit": 8,
+  "heard": "A short, bright, bell-like ascending chime (3-4 quick rising notes) played on a sparkly synth glockenspiel/celesta tone; small in size, recorded very close and dry-ish, with a quick shimmering tail that rings out and fades within a second.",
+  "sounds_like": "A classic gem/coin collect chime from a platformer — a magic sparkle pickup.",
+  "problems": "Slightly generic 'sparkle arpeggio' and a touch busy with multiple rising notes where one clean ding might read cleaner; the ringing tail could linger over rapid-fire pickups and blur together if the player collects several in a row.",
+  "veto": false
+}

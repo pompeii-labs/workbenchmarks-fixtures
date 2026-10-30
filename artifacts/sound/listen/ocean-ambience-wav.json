@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/ocean-ambience.wav",
+  "sha": "8b826023e8f021d6",
+  "want": "open sea ambience: gentle waves and light wind out on the water, no boats, no voices",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    5,
+    9,
+    5
+  ],
+  "fit": 5,
+  "heard": "A single large ocean swell rolling and breaking — the water rises in a broad whoosh, peaks, then a long, smooth decay that fades to silence over several seconds. It sounds distant and wide, like a big wave seen from the shore or from above, not a close splash; the tail is a soft, low rumble that dissolves into quiet air.",
+  "sounds_like": "One big cinematic ocean wave rolling in and fading out",
+  "problems": "It is a single one-shot event, not a continuous loopable ambience bed, so it cannot carry an open-sea background on its own. It is also a large, dramatic swell rather than the gentle lapping the brief asks for, and there is no light wind layer present. The long tail means it cannot be stacked densely without mush. Usable as an occasional wave accent on top of a proper ambience, but a bad pick as the base track.",
+  "veto": false
+}

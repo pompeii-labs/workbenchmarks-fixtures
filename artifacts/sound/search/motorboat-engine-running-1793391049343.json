@@ -1,0 +1,3306 @@
+{
+  "query": {
+    "q": "motorboat engine running",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 341,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=motorboat+engine+running&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmvdzf2ci7b9a5ha27z9h0fvi",
+      "url": "https://soundza.com/sound/motorboat-river-ambience",
+      "title": "Motorboat River Ambience",
+      "description": "A motorboat engine running steadily on a river, recorded in the field with natural water and engine sounds layering together. Useful for outdoor scenes, boating sequences, and riverside environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "engine",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -24.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8067510,
+      "category": {
+        "id": "BOATMotr",
+        "label": "Boats › Motorboat"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cfSmKGM2TwWafAeL4cKC5_mL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzf2ci7b9a5ha27z9h0fvi/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Motorboat River Ambience\" on Soundza (https://soundza.com/sound/motorboat-river-ambience)"
+    },
+    {
+      "id": "cmukhm6lon88dzbg44n5ck7do",
+      "url": "https://soundza.com/sound/dyno-engine-acceleration-run",
+      "title": "Dyno Engine Acceleration Run",
+      "description": "A Scion FR-S engine running on a dynamometer with mixed recordings from the rear exhaust and engine bay, capturing the mechanical roar and RPM sweep of acceleration and deceleration cycles.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 35.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car",
+        "mechanical",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -7.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10138222,
+      "category": {
+        "id": "VEHRace",
+        "label": "Vehicles › Racing"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NteHqUKcq4WhMGOACU1eU4H3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhm6lon88dzbg44n5ck7do/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dyno Engine Acceleration Run\" on Soundza (https://soundza.com/sound/dyno-engine-acceleration-run)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmukhv84s8z4ucwsgy69av2it",
+      "url": "https://soundza.com/sound/lawn-tractor-engine-loop",
+      "title": "Lawn Tractor Engine Loop",
+      "description": "A small gasoline engine idling and running steadily, looped for continuous background texture. Ideal for garden scenes, outdoor work, or mechanical ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 5.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "outdoor",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -12.8,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -12,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1661814,
+      "category": {
+        "id": "VEHUtil",
+        "label": "Vehicles › Utility"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vewwyfZJ4VsIO6NJaKmNluh_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhv84s8z4ucwsgy69av2it/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lawn Tractor Engine Loop\" on Soundza (https://soundza.com/sound/lawn-tractor-engine-loop)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgwjas8vm30f7s68ufyebyc",
+      "url": "https://soundza.com/sound/running-footsteps-on-concrete",
+      "title": "Running Footsteps on Concrete",
+      "description": "Multiple footsteps of varying intensity on hard concrete surface, suitable for chopping into individual steps or using as a continuous running passage. Dry, percussive impacts with minimal resonance.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 19.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -45.2,
+      "true_peak_db": -17.1,
+      "loudness": {
+        "value": -38.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 16.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5253214,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/b0DKdyUwhhe6h3K66YImZ4sl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwjas8vm30f7s68ufyebyc/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Concrete\" on Soundza (https://soundza.com/sound/running-footsteps-on-concrete)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmukbng1tgdicqil05uv2r9ia",
+      "url": "https://soundza.com/sound/running-footsteps-on-wooden-stairs",
+      "title": "Running Footsteps on Wooden Stairs",
+      "description": "A person running up wooden stairs at a steady pace, with clear impacts of feet striking each wooden step. Recorded with professional field equipment, it captures the natural creak and resonance of wooden architecture.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 2.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -20.3,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -17,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 361460,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/J3QmYJRxVNs0jkvWL0hLX7EP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbng1tgdicqil05uv2r9ia/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Wooden Stairs\" on Soundza (https://soundza.com/sound/running-footsteps-on-wooden-stairs)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv8ybmstnhj09yarbdqj4vuf",
+      "url": "https://soundza.com/sound/halloween-running-staircase-door-slam-scream",
+      "title": "Halloween Running Staircase Door Slam Scream",
+      "description": "A person rushes up stone steps with increasing urgency, slams a heavy wooden door, and lets out a startled scream. Perfect for horror scenes, jump-scares, and suspenseful moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "title_or_logo"
+      ],
+      "duration": 14.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "door",
+        "scream",
+        "horror",
+        "impact"
+      ],
+      "sync_ms": 6374,
+      "lufs": -16.7,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -8.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1894334,
+      "category": {
+        "id": "CRWDPanic",
+        "label": "Crowds › Panic"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/pLS1TjoNpgGg5iAaNdDqTErm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8ybmstnhj09yarbdqj4vuf/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Halloween Running Staircase Door Slam Scream\" on Soundza (https://soundza.com/sound/halloween-running-staircase-door-slam-scream)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfg2aqkekhcjcfh9pi07zi9",
+      "url": "https://soundza.com/sound/running-footsteps-on-gravel-3",
+      "title": "Running Footsteps On Gravel",
+      "description": "Sustained footsteps of someone running on crunchy ground with a steady rhythm. Suitable for running scenes, action sequences, or athletic movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 19.13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -42.6,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -36.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5062748,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/L6ZXbBUJ2nDfRyvtCxjEQN29.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfg2aqkekhcjcfh9pi07zi9/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps On Gravel\" on Soundza (https://soundza.com/sound/running-footsteps-on-gravel-3)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmukbqicl2sequo7zjxk00mej",
+      "url": "https://soundza.com/sound/running-footsteps-on-wet-grass",
+      "title": "Running Footsteps on Wet Grass",
+      "description": "Quick footsteps of someone running across wet grass, with splashing and squelching sounds. Useful for outdoor chase scenes or character movement in natural environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 2.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wet",
+        "foley",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -34.8,
+      "true_peak_db": -13.2,
+      "loudness": {
+        "value": -32.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 601272,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4ohZX1pr4O8PwZUjVkIrSlPc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbqicl2sequo7zjxk00mej/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Wet Grass\" on Soundza (https://soundza.com/sound/running-footsteps-on-wet-grass)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgwyremj8b7is1qudqikiel",
+      "url": "https://soundza.com/sound/running-footsteps-on-wooden-floor",
+      "title": "Running Footsteps on Wooden Floor",
+      "description": "Close-miked recording of multiple footstep variations on laminate flooring at varying speeds and intensities. Suitable for chopping into individual steps or using as a continuous foley bed.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 48.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "wood",
+        "indoor",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -38.2,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -26.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 12746066,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/k6jJzfA8EKNYCE3-RtRxWVSV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwyremj8b7is1qudqikiel/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Wooden Floor\" on Soundza (https://soundza.com/sound/running-footsteps-on-wooden-floor)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvffken03awcr8ppzgcm22ud",
+      "url": "https://soundza.com/sound/running-footsteps-on-gravel-2",
+      "title": "Running Footsteps on Gravel",
+      "description": "A continuous series of footsteps from a runner moving across loose gravel, capturing the crunching, scraping sounds of each stride on rocky ground.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 38.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -23.4,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -18.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11036252,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/k-QqFrivFyMPAqFKW4uX4ibV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffken03awcr8ppzgcm22ud/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Gravel\" on Soundza (https://soundza.com/sound/running-footsteps-on-gravel-2)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvffl6xewcu9yma66xp5ql8r",
+      "url": "https://soundza.com/sound/running-footsteps-on-grass-1",
+      "title": "Running Footsteps on Grass",
+      "description": "The sound of a person running through dry grass and fallen leaves, with rapid footfalls and rustling vegetation underfoot. Suitable for outdoor chase scenes, athletic activity, or nature-based movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 38.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -39.8,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -27.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10174556,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dnX9jdW2W6hxwHjErF31NT4x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffl6xewcu9yma66xp5ql8r/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grass\" on Soundza (https://soundza.com/sound/running-footsteps-on-grass-1)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvclobrcde1zzj85xt3240uo",
+      "url": "https://soundza.com/sound/running-footsteps-bottle-crash",
+      "title": "Running Footsteps Bottle Crash",
+      "description": "Cartoon-style foley of someone running, slipping, and crashing into glass bottles with exaggerated comedic timing. Perfect for slapstick scenes or humorous video moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "glass",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 116,
+      "lufs": -13.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -9.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 640282,
+      "category": {
+        "id": "FOLYFeet",
+        "label": "Foley › Feet"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/W8lQlvQKkKZDccgs-4A8hGpW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclobrcde1zzj85xt3240uo/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps Bottle Crash\" on Soundza (https://soundza.com/sound/running-footsteps-bottle-crash)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfg1g3a1pezfga1z40jkue9",
+      "url": "https://soundza.com/sound/running-footsteps-on-dirt-1",
+      "title": "Running Footsteps on Dirt",
+      "description": "Quick rhythmic footsteps of someone running in tennis shoes across loose dirt or soil. A natural foley recording suitable for chopping into individual steps.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 18.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -44.8,
+      "true_peak_db": -16.2,
+      "loudness": {
+        "value": -32.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5431386,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LkAWNhvppF2ISNkuWuHVrDyO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfg1g3a1pezfga1z40jkue9/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Dirt\" on Soundza (https://soundza.com/sound/running-footsteps-on-dirt-1)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmukdio68g6xzo0uulnmiv7e8",
+      "url": "https://soundza.com/sound/power-drill-running",
+      "title": "Power Drill Running",
+      "description": "A power drill motor running steadily for several seconds, producing the characteristic whir and mechanical pitch of an electric drilling tool. Useful for workshop, construction, or DIY scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 6.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -17.5,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 906324,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rvvgHG7kN64C9OjyuYOJ0Tao.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdio68g6xzo0uulnmiv7e8/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power Drill Running\" on Soundza (https://soundza.com/sound/power-drill-running)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfgbftp5e7sgb0o74n65kpk",
+      "url": "https://soundza.com/sound/panicked-running-footsteps-grass",
+      "title": "Panicked Running Footsteps Grass",
+      "description": "Rapid footsteps of someone running in a panicked state across grass and leaves. Useful for chase scenes, horror sequences, and moments of urgent movement through natural terrain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 78.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "horror"
+      ],
+      "sync_ms": null,
+      "lufs": -23.8,
+      "true_peak_db": -3.1,
+      "loudness": {
+        "value": -12.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 22620668,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/li8YpmJcD4Z6I7Oub05dwXur.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfgbftp5e7sgb0o74n65kpk/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Panicked Running Footsteps Grass\" on Soundza (https://soundza.com/sound/panicked-running-footsteps-grass)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgwhd0i3voecakz4jhmysi3",
+      "url": "https://soundza.com/sound/running-footsteps-on-carpet-1",
+      "title": "Running Footsteps on Carpet",
+      "description": "A series of footsteps from someone running in sneakers across carpet indoors. Soft, muffled impacts suitable for chop into individual steps or used as a continuous foley bed.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 26.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "footsteps",
+        "foley",
+        "soft"
+      ],
+      "sync_ms": null,
+      "lufs": -34.5,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -28.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7102556,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TFlc_eGCwog0rBCJwUmxmoZA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwhd0i3voecakz4jhmysi3/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Carpet\" on Soundza (https://soundza.com/sound/running-footsteps-on-carpet-1)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfgc10d3jwi9rfuzis4im84",
+      "url": "https://soundza.com/sound/running-footsteps-on-grit",
+      "title": "Running Footsteps on Grit",
+      "description": "A person walking and running across loose dirt, sand, and grit, with clear footstep impacts and the crunch of each stride. Useful for outdoor scenes with movement across arid or sandy terrain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 52.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -34.1,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -25.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15088410,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WJ1Rc8QpsJc9QarXnszCKaps.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfgc10d3jwi9rfuzis4im84/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grit\" on Soundza (https://soundza.com/sound/running-footsteps-on-grit)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv0gp82y006806i9d6ua9vlm",
+      "url": "https://soundza.com/sound/running-shoes-2",
+      "title": "Running Shoes 2",
+      "description": "Quick footstep impacts of someone running in athletic shoes on a hard surface. Useful for game foley, video editing, or as a transition sound for movement-based actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 8.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "impact",
+        "close-up"
+      ],
+      "sync_ms": 926,
+      "lufs": -37.6,
+      "true_peak_db": -11.9,
+      "loudness": {
+        "value": -30.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2286614,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ERTP03LZDeKzLKH5wuHveeZO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82y006806i9d6ua9vlm/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Shoes 2\" on Soundza (https://soundza.com/sound/running-shoes-2)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfg1vjo81361962ojyj673h",
+      "url": "https://soundza.com/sound/running-footsteps-on-dirt-2",
+      "title": "Running Footsteps On Dirt",
+      "description": "Continuous footsteps of someone running in place on dirt wearing tennis shoes, suitable for chopping into shorter foley takes for video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 11.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 9106,
+      "lufs": -46.4,
+      "true_peak_db": -23.7,
+      "loudness": {
+        "value": -42.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 22.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3219546,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_yosJ23h4Ek0xyhtAsjU9iY-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfg1vjo81361962ojyj673h/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps On Dirt\" on Soundza (https://soundza.com/sound/running-footsteps-on-dirt-2)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgwqnqpgjaa1sjpgelhe6yi",
+      "url": "https://soundza.com/sound/running-footsteps-on-rock",
+      "title": "Running Footsteps on Rock",
+      "description": "A person running quickly across rocky mountain terrain in sturdy boots, with clear, distinct footfall impacts on stone. Useful for action sequences, chase scenes, or outdoor adventure moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 18.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -35.3,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 2655400,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TORZ1iUFqyDmFwbYg-dX83t5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwqnqpgjaa1sjpgelhe6yi/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Rock\" on Soundza (https://soundza.com/sound/running-footsteps-on-rock)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgwqdpxlsopux7unbqjto4r",
+      "url": "https://soundza.com/sound/running-footsteps-on-stone",
+      "title": "Running Footsteps on Stone",
+      "description": "A person running continuously on a stone or hard paved surface, with crisp impacts and rhythmic footfalls suitable for chase scenes or outdoor movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 10.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": 7763,
+      "lufs": -28.1,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -18.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2801756,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZB_UXBqsKt7LiqNdNpxY95oP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwqdpxlsopux7unbqjto4r/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Stone\" on Soundza (https://soundza.com/sound/running-footsteps-on-stone)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv0g4dtfpfty9a5losp9le60",
+      "url": "https://soundza.com/sound/dog-growling-and-running",
+      "title": "Dog Growling and Running",
+      "description": "A dog barks, growls and runs with agitated energy, creating a series of vocal and movement sounds typical of a defensive or alert dog. Suitable for game sound effects, wildlife ambience, or foley for scenes involving dog behavior.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 8.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "dog",
+        "animal",
+        "aggressive"
+      ],
+      "sync_ms": 1452,
+      "lufs": -37.8,
+      "true_peak_db": -12.1,
+      "loudness": {
+        "value": -28.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2191584,
+      "category": {
+        "id": "ANMLDog",
+        "label": "Animals › Dog"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ESlnlpbF2uD-IqKm2iruiDSD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0g4dtfpfty9a5losp9le60/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Growling and Running\" on Soundza (https://soundza.com/sound/dog-growling-and-running)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv5oxf0700he06l535ajrbie",
+      "url": "https://soundza.com/sound/run",
+      "title": "Run",
+      "description": "Fast, energetic footstep sounds suitable for platformer game movement and character running actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "footsteps",
+        "game",
+        "retro"
+      ],
+      "sync_ms": 124,
+      "lufs": -62.9,
+      "true_peak_db": -45.4,
+      "loudness": {
+        "value": -62.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 391700,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "cmv5oxezc00gx06l55sezisip",
+        "name": "Platformer Action SFX",
+        "slug": "platformer-action-sfx",
+        "sound_count": 19,
+        "url": "https://soundza.com/packs/platformer-action-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qiqWAomXPdzNYKAcKcYfr1GQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oxf0700he06l535ajrbie/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Run\" on Soundza (https://soundza.com/sound/run)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfffewmoljh8ghi7yqla2eu",
+      "url": "https://soundza.com/sound/dog-running-on-stone-tiles-1",
+      "title": "Dog Running on Stone Tiles",
+      "description": "A dog's paws striking and skittering across hard stone flooring at a fast pace. The sharp, rhythmic clicking and scraping sounds are ideal for depicting quick canine movement on tile or concrete surfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.9,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "dog",
+        "footsteps",
+        "foley",
+        "outdoor",
+        "animal"
+      ],
+      "sync_ms": null,
+      "lufs": -26.4,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -22.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 503900,
+      "category": {
+        "id": "FEETAnml",
+        "label": "Footsteps › Animal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/o-Zy-zyQg68DQAqGIMomA5zI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfffewmoljh8ghi7yqla2eu/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Running on Stone Tiles\" on Soundza (https://soundza.com/sound/dog-running-on-stone-tiles-1)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvffxows0j5bch4vr3qdjgi7",
+      "url": "https://soundza.com/sound/muddy-footsteps-running",
+      "title": "Muddy Footsteps Running",
+      "description": "A person running through wet mud and puddles on a peat bog, with squelching and splashing sounds underfoot. Ideal for footstep foley, nature scenes, or outdoor action sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 48.02,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wet",
+        "nature",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -58.7,
+      "true_peak_db": -28.1,
+      "loudness": {
+        "value": -44.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 12706648,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XOAC1cwsRcSoRbN-XyFR-JmH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffxows0j5bch4vr3qdjgi7/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Muddy Footsteps Running\" on Soundza (https://soundza.com/sound/muddy-footsteps-running)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02hk06l4l5ilwfv5",
+      "url": "https://soundza.com/sound/car-engine-loop-7",
+      "title": "Car Engine Loop 7",
+      "description": "A slightly cartoonish synthesized engine sound with pitch-bendable characteristics suitable for representing different engine RPMs. Works well as a versatile sound effect for vehicle engines and mechanical lever actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "car"
+      ],
+      "sync_ms": null,
+      "lufs": -15.4,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "VEHJalop",
+        "label": "Vehicles › Jalopy"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T7Nhkpynpmx_hvrI2YMz-Dea.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02hk06l4l5ilwfv5/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 7\" on Soundza (https://soundza.com/sound/car-engine-loop-7)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmvff1xvjv993j0hbbvrwlxw6",
+      "url": "https://soundza.com/sound/running-hooves-on-muddy-ground",
+      "title": "Running Hooves on Muddy Ground",
+      "description": "A group of hooves striking a hard muddy surface in rapid succession, capturing the earthy impact and texture of animals moving across wet terrain. Ideal for outdoor chase scenes, herd movement, or realistic foley for livestock in motion.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 12.12,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "animal",
+        "foley"
+      ],
+      "sync_ms": 7736,
+      "lufs": -46.8,
+      "true_peak_db": -16.8,
+      "loudness": {
+        "value": -40.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3490656,
+      "category": {
+        "id": "FEETHors",
+        "label": "Footsteps › Horse"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oHwy8Oycta1_FHZ2WcvuwINe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvff1xvjv993j0hbbvrwlxw6/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Hooves on Muddy Ground\" on Soundza (https://soundza.com/sound/running-hooves-on-muddy-ground)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfi44x3dfgnaxrjn3cdfvsj",
+      "url": "https://soundza.com/sound/dog-running-on-wood-floor-2",
+      "title": "Dog Running on Wood Floor",
+      "description": "A dog's paws rapidly pattering across a wooden floor surface. Useful for depicting animal movement indoors or adding life to domestic scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 2.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "dog",
+        "footsteps",
+        "wood",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": 1323,
+      "lufs": -31.4,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -28.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 608346,
+      "category": {
+        "id": "FEETAnml",
+        "label": "Footsteps › Animal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0bVkUwt7jx-_WYpa57tliQSK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfi44x3dfgnaxrjn3cdfvsj/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Running on Wood Floor\" on Soundza (https://soundza.com/sound/dog-running-on-wood-floor-2)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvfi44ylpv4rk0dbq90rltxn",
+      "url": "https://soundza.com/sound/dog-running-on-stone-tiles-2",
+      "title": "Dog Running on Stone Tiles",
+      "description": "A dog's rapid paw strikes on hard stone or tile flooring, with clear percussive impacts of each footfall. Useful for close-up foley of a dog moving quickly across smooth, hard surfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 2.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "dog",
+        "footsteps",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 1608,
+      "lufs": -30.9,
+      "true_peak_db": -7.9,
+      "loudness": {
+        "value": -26.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 611420,
+      "category": {
+        "id": "FEETAnml",
+        "label": "Footsteps › Animal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O0IUoitv9P_L4VULsG5uDXtY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfi44ylpv4rk0dbq90rltxn/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Running on Stone Tiles\" on Soundza (https://soundza.com/sound/dog-running-on-stone-tiles-2)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgue7ygi0fzocg3p4wxer7d",
+      "url": "https://soundza.com/sound/fast-running-footsteps",
+      "title": "Fast Running Footsteps",
+      "description": "Quick footsteps on a hard surface, suitable for depicting rapid movement or hurried walking in indoor or outdoor environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 4.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "close-up"
+      ],
+      "sync_ms": 1835,
+      "lufs": -33.7,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -29.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1078360,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6HjAJhwZXRVt31kzMHIxET5t.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgue7ygi0fzocg3p4wxer7d/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Running Footsteps\" on Soundza (https://soundza.com/sound/fast-running-footsteps)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901fn06l4j0l82wfm",
+      "url": "https://soundza.com/sound/engine-stop",
+      "title": "Engine Stop",
+      "description": "A short, chiptune-style engine power-down effect with synthetic tones characteristic of NES-era sound design. Suitable for retro video games and 8-bit game projects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "notification"
+      ],
+      "duration": 1.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "engine",
+        "game",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -24.7,
+      "true_peak_db": -10.2,
+      "loudness": {
+        "value": -22.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 171414,
+      "category": {
+        "id": "SCIRetro",
+        "label": "Scifi › Retro"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mEppSV9D_OzozN1N9CZK2kKv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901fn06l4j0l82wfm/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Engine Stop\" on Soundza (https://soundza.com/sound/engine-stop)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmtnwwnd7bgves5ikn6ma5uz5",
+      "url": "https://soundza.com/sound/diesel-engine-loop",
+      "title": "Diesel Engine Loop",
+      "description": "A low-mid frequency diesel engine idle loop with thick, rhythmic mechanical rumble and industrial texture at 152 BPM. The sound features gritty engine vibration and pulsing motor character ideal for adding industrial groove and organic mechanical rhythm to production.",
+      "type": "sound_effect",
+      "form": "loop",
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 9.58,
+      "bpm": 152,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark",
+        "organic"
+      ],
+      "tags": [
+        "loop",
+        "rhythmic",
+        "gritty",
+        "dark",
+        "texture",
+        "organic",
+        "foley",
+        "groove"
+      ],
+      "sync_ms": null,
+      "lufs": -28.9,
+      "true_peak_db": -9,
+      "loudness": {
+        "value": -28.9,
+        "basis": "integrated"
+      },
+      "gain_db": 8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2533914,
+      "category": {
+        "id": "MOTRComb",
+        "label": "Motors › Combustion"
+      },
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ryF7uJ2CiD3jSAii-j5RQGyv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtnwwnd7bgves5ikn6ma5uz5/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Diesel Engine Loop\" on Soundza (https://soundza.com/sound/diesel-engine-loop)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmv5svk2600ei06jsap3hbjma",
+      "url": "https://soundza.com/sound/chainsaw-in-the-den-fife-scotland",
+      "title": "Chainsaw in the Den Fife Scotland",
+      "description": "A chainsaw running continuously indoors, with mechanical whirring and engine noise filling an enclosed space. Useful for construction, workshop, or horror atmosphere layers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 271.9,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "industrial",
+        "engine",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -22.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 156614084,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YcFp6-YrObml0QS7tuq74yGU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5svk2600ei06jsap3hbjma/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chainsaw in the Den Fife Scotland\" on Soundza (https://soundza.com/sound/chainsaw-in-the-den-fife-scotland)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmv90g3kdsfbj6mgpq2nxl8nt",
+      "url": "https://soundza.com/sound/german-fire-engine-siren",
+      "title": "German Fire Engine Siren",
+      "description": "A German emergency vehicle siren wailing as the fire engine passes by. The distinctive Martinshorn (two-tone horn) characteristic of German fire trucks creates an urgent, piercing alert suitable for emergency scenes or dramatic transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition"
+      ],
+      "duration": 3.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "siren",
+        "fire truck",
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -11.1,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 938490,
+      "category": {
+        "id": "VEHSirn",
+        "label": "Vehicles › Siren"
+      },
+      "pack": {
+        "id": "qsr575hd4an1i8sdxvug8vgl",
+        "name": "Siren Sound Effects — Police, Ambulance, Fire Truck & Air Raid",
+        "slug": "siren-sound-effects-police-ambulance-fire-truck-and-air-raid",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/siren-sound-effects-police-ambulance-fire-truck-and-air-raid"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/x9yhu728iGoJjQsNi4iy6nIt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv90g3kdsfbj6mgpq2nxl8nt/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"German Fire Engine Siren\" on Soundza (https://soundza.com/sound/german-fire-engine-siren)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmv5oaxx5000v06l5uc1r3pnw",
+      "url": "https://soundza.com/sound/engine",
+      "title": "Engine",
+      "description": "A mechanical engine starting with initial cranking and ignition sounds, suitable for vehicle or machine startup moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "industrial"
+      ],
+      "sync_ms": null,
+      "lufs": -14.9,
+      "true_peak_db": -0.4,
+      "loudness": {
+        "value": -13.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 264958,
+      "category": {
+        "id": "MOTRComb",
+        "label": "Motors › Combustion"
+      },
+      "pack": {
+        "id": "cmv5oaxtg000006l5zf0ogbxj",
+        "name": "Beeps & Background Sounds",
+        "slug": "beeps-and-background-sounds",
+        "sound_count": 22,
+        "url": "https://soundza.com/packs/beeps-and-background-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_HTvBYfPIyjZTJ95w7caMnV-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oaxx5000v06l5uc1r3pnw/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Engine\" on Soundza (https://soundza.com/sound/engine)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmv5n0uyt018a06l4f29yrxp9",
+      "url": "https://soundza.com/sound/small-space-engine-1",
+      "title": "Small Space Engine 1",
+      "description": "A compact sci-fi engine hum with a steady, futuristic drone. Suitable for small spacecraft, drones, or auxiliary power systems in game and video projects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "F#1",
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "engine",
+        "spaceship",
+        "drone",
+        "mechanical",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -12,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -11.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 661586,
+      "category": {
+        "id": "SCIShip",
+        "label": "Scifi › Spaceship"
+      },
+      "pack": {
+        "id": "c4qisjxnv311lckh8jp7lna2",
+        "name": "Sci-Fi Game FX",
+        "slug": "sci-fi-game-fx",
+        "sound_count": 73,
+        "url": "https://soundza.com/packs/sci-fi-game-fx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8CtxxgHfe23q4t0xSouCmtk9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0uyt018a06l4f29yrxp9/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Space Engine 1\" on Soundza (https://soundza.com/sound/small-space-engine-1)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmukhimxunr6awu5kn55xh82t",
+      "url": "https://soundza.com/sound/bmw-engine-medium-rpm",
+      "title": "BMW Engine Medium RPM",
+      "description": "A steady, medium-revving car engine recorded from outside the vehicle. The BMW diesel produces a constant, loopable engine sound suitable for driving scenes and vehicle ambiences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car"
+      ],
+      "sync_ms": null,
+      "lufs": -19.8,
+      "true_peak_db": -11.2,
+      "loudness": {
+        "value": -19.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 807746,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uug3LUpbn6YQVoMaLif1Klj8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhimxunr6awu5kn55xh82t/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"BMW Engine Medium RPM\" on Soundza (https://soundza.com/sound/bmw-engine-medium-rpm)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmukd71qpyjtafaivvrwf327c",
+      "url": "https://soundza.com/sound/car-engine-start",
+      "title": "Car Engine Start",
+      "description": "A car engine starting and briefly running, with the characteristic cranking and ignition sounds of an internal combustion motor. Useful for vehicle interactions and mechanical ambience in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -34.4,
+      "true_peak_db": -21.3,
+      "loudness": {
+        "value": -31.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 740962,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ACJGTjngLx2WZqpw4WZMFsjU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd71qpyjtafaivvrwf327c/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Start\" on Soundza (https://soundza.com/sound/car-engine-start)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmvdzhpd12l8nxe6pnawez888",
+      "url": "https://soundza.com/sound/tractor-engine-working",
+      "title": "Tractor Engine Working",
+      "description": "A diesel tractor engine running steadily with a characteristic low rumble and mechanical rhythm. Ideal for farm scenes, construction work, or vehicle-focused content in games and videos.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "industrial"
+      ],
+      "sync_ms": null,
+      "lufs": -34.9,
+      "true_peak_db": -11.2,
+      "loudness": {
+        "value": -29.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7897432,
+      "category": {
+        "id": "VEHFarm",
+        "label": "Vehicles › Farm"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y6HuHFDqEdfQbAN2ZrGFY-f5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzhpd12l8nxe6pnawez888/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tractor Engine Working\" on Soundza (https://soundza.com/sound/tractor-engine-working)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmukhhl7x2tkciyq3kgj97tl9",
+      "url": "https://soundza.com/sound/mercedes-engine-idle-at-distance",
+      "title": "Mercedes Engine Idle at Distance",
+      "description": "A Mercedes-Benz 190E-16V engine idling at 6500 RPM in neutral, recorded from 30 feet away. The steady, tonal engine drone is suitable as a continuous bed for vehicle scenes or layered with other automotive ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car",
+        "distant",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -20.8,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -20.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 552098,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uIy4tusYzBa_AS3wRU2kQlHJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhhl7x2tkciyq3kgj97tl9/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Mercedes Engine Idle at Distance\" on Soundza (https://soundza.com/sound/mercedes-engine-idle-at-distance)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmtl2ebjw83dw51enqc9qv7b2",
+      "url": "https://soundza.com/sound/reverberant-vibraphone-run",
+      "title": "Reverberant Vibraphone Run",
+      "description": "A bright, shimmering melodic bell arpeggio with a crystalline, ethereal quality that cascades through B major. The sparkling high-mid frequencies and quick articulation create a magical, whimsical texture perfect for delicate melodic sequences or atmospheric flourishes.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 4.74,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "bell",
+        "arp",
+        "bright",
+        "melodic",
+        "ethereal",
+        "atmospheric",
+        "pad",
+        "texture"
+      ],
+      "sync_ms": null,
+      "lufs": -25.8,
+      "true_peak_db": -13.5,
+      "loudness": {
+        "value": -25.8,
+        "basis": "integrated"
+      },
+      "gain_db": 9.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1366190,
+      "category": null,
+      "pack": {
+        "id": "klr7evh0tlh13qh4yrzjge8w",
+        "name": "sunroom. lo-fi keys, guitar and chords",
+        "slug": "sunroom-lo-fi-keys-guitar-and-chords",
+        "sound_count": 92,
+        "url": "https://soundza.com/packs/sunroom-lo-fi-keys-guitar-and-chords"
+      },
+      "creator": {
+        "name": "wet paper",
+        "url": "https://soundza.com/creators/wet-paper"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vDoy6UY2yXhVJoy1BuveOVMM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl2ebjw83dw51enqc9qv7b2/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Reverberant Vibraphone Run\" by wet paper on Soundza (https://soundza.com/sound/reverberant-vibraphone-run)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv90uzt9yn3xp2j79a6xbryf",
+      "url": "https://soundza.com/sound/herd-of-horses-running",
+      "title": "Herd of Horses Running",
+      "description": "A dozen horses gallop and whinny together, hooves pounding and snorting as they run past the microphone. Ideal for nature scenes, ranch footage, or wildlife ambience.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "animal",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5112712,
+      "category": {
+        "id": "ANMLHors",
+        "label": "Animals › Horse"
+      },
+      "pack": {
+        "id": "gkvwpt6ak29aa3lmqfybn1t5",
+        "name": "Animal Sound Effects for Kids — Farm, Pets, Jungle & Dinosaurs",
+        "slug": "animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs",
+        "sound_count": 74,
+        "url": "https://soundza.com/packs/animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dMVQb68ir9SoyTqvO4YP2cGk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv90uzt9yn3xp2j79a6xbryf/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Herd of Horses Running\" on Soundza (https://soundza.com/sound/herd-of-horses-running)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmtjpu0bm3scqrijjf3a4wx2j",
+      "url": "https://soundza.com/sound/indian-swarmandal-run",
+      "title": "Indian Swarmandal Run",
+      "description": "A bright, articulate Indian harp with a shimmering melodic character, producing crisp plucked tones that cascade downward with ethnic flair and organic resonance.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "bright"
+      ],
+      "tags": [
+        "strings",
+        "hard",
+        "crispy",
+        "melodic",
+        "organic",
+        "ethereal",
+        "pluck",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -29,
+      "true_peak_db": -15.7,
+      "loudness": {
+        "value": -25.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 793058,
+      "category": null,
+      "pack": {
+        "id": "e79a4ntvgb4bwpcnqfc0zy3x",
+        "name": "PARANOIA — Dark Trap Melody Loops",
+        "slug": "paranoia-dark-trap-melody-loops",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/paranoia-dark-trap-melody-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rJVk_EeKZ4o3Juos9LPLi4NW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtjpu0bm3scqrijjf3a4wx2j/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Indian Swarmandal Run\" on Soundza (https://soundza.com/sound/indian-swarmandal-run)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv0gztungfmvzdzmljs8svaq",
+      "url": "https://soundza.com/sound/stream-running-into-pond",
+      "title": "Stream Running Into Pond",
+      "description": "A small stream flows and gurgles as it enters a quiet pond, with natural splashing and trickling water sounds creating a peaceful, continuous background. Ideal for nature scenes or calming ambience beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 58,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -23.2,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 33408090,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6uKNijUj12cgtWmnKcXX5z89.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gztungfmvzdzmljs8svaq/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream Running Into Pond\" on Soundza (https://soundza.com/sound/stream-running-into-pond)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvgvt77qdlsjzb7olwba94n1",
+      "url": "https://soundza.com/sound/running-footsteps-on-wood-1",
+      "title": "Running Footsteps on Wood 1",
+      "description": "Quick footsteps running across a hard wooden floor, with distinct impacts for each step. Useful for action scenes, chase sequences, or any moment requiring energetic movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 6.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "indoor",
+        "impact"
+      ],
+      "sync_ms": 5747,
+      "lufs": -37.4,
+      "true_peak_db": -15.4,
+      "loudness": {
+        "value": -32.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1787930,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/j9Lii7DCq5d7oGVuCF6y8RCn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgvt77qdlsjzb7olwba94n1/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Wood 1\" on Soundza (https://soundza.com/sound/running-footsteps-on-wood-1)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmv5mluqr001s06l4xdwro9z6",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-run-against-the-universe",
+      "title": "Poupi's Incredible Adventures: Run Against the Universe",
+      "description": "An energetic orchestral-synth track with bright, driving melodies and dynamic rhythms that evoke adventure and motion. Perfect for game scenes involving chase sequences, exploration, or triumphant moments in a whimsical adventure.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "build_up",
+        "background_bed",
+        "intro"
+      ],
+      "duration": 64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "synth"
+      ],
+      "sync_ms": null,
+      "lufs": -14.2,
+      "true_peak_db": -1.8,
+      "loudness": {
+        "value": -14.2,
+        "basis": "integrated"
+      },
+      "gain_db": -1.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 16934520,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_LK3ncZHSEO_IwY1gXN-AVmi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr001s06l4xdwro9z6/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: Run Against the Universe\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-run-against-the-universe)",
+      "matched_words": [
+        "running"
+      ]
+    },
+    {
+      "id": "cmvovvgbcic6l7m4aikxi9k0e",
+      "url": "https://soundza.com/sound/diver-jumping-splash",
+      "title": "Diver Jumping Splash",
+      "description": "A person diving into water from a boat with an engine running in the background. The splash is prominent with water impact and movement sounds layered together.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat"
+      ],
+      "duration": 11.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -19.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3219350,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7Loe9CYwxN2-ZI5w7wZ8b9ce.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovvgbcic6l7m4aikxi9k0e/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Diver Jumping Splash\" on Soundza (https://soundza.com/sound/diver-jumping-splash)",
+      "matched_words": [
+        "engine",
+        "running"
+      ]
+    },
+    {
+      "id": "cmukejdxsd5zn80s97gq8k5bq",
+      "url": "https://soundza.com/sound/spaceship-engine-room-ambience",
+      "title": "Spaceship Engine Room Ambience",
+      "description": "A tonal, electronically-designed ambience with sustained harmonic drones and subtle modulation, evoking the hum of machinery in a sci-fi engine room or technical space. Suitable as a bed for spaceship interiors or industrial environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 73.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "drone",
+        "spaceship",
+        "atmospheric",
+        "sci-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -13.9,
+      "true_peak_db": -1.5,
+      "loudness": {
+        "value": -13.9,
+        "basis": "integrated"
+      },
+      "gain_db": -6.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19338096,
+      "category": {
+        "id": "SCIShip",
+        "label": "Scifi › Spaceship"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gBpFV0pyfah0PTJ6OxuWUY1P.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukejdxsd5zn80s97gq8k5bq/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Spaceship Engine Room Ambience\" on Soundza (https://soundza.com/sound/spaceship-engine-room-ambience)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmukequx9zlx8y0nt7lb7tyfk",
+      "url": "https://soundza.com/sound/sci-fi-engine-room-drone",
+      "title": "Sci-Fi Engine Room Drone",
+      "description": "A sustained, tonal drone suggesting the hum of turbines and engines in a spaceship engine room. Processed and layered for use as an atmospheric bed in sci-fi scenes or games.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 52.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "drone",
+        "spaceship",
+        "engine",
+        "sci-fi",
+        "atmospheric",
+        "room-tone",
+        "industrial"
+      ],
+      "sync_ms": null,
+      "lufs": -13.9,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -13.9,
+        "basis": "integrated"
+      },
+      "gain_db": -6.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 13927752,
+      "category": {
+        "id": "SCIMach",
+        "label": "Scifi › Machine"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YrDMUTRJjabcxmk97nCgvsIy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukequx9zlx8y0nt7lb7tyfk/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sci-Fi Engine Room Drone\" on Soundza (https://soundza.com/sound/sci-fi-engine-room-drone)",
+      "matched_words": [
+        "engine"
+      ]
+    },
+    {
+      "id": "cmv0gp82y006706i9glkldw0r",
+      "url": "https://soundza.com/sound/running-shoes-1",
+      "title": "Running Shoes 1",
+      "description": "Rhythmic footsteps on a hard surface, likely shoes on pavement or indoor flooring. Useful for game movement, character actions, or video sequences requiring realistic foot impact sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 10.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 6301,
+      "lufs": -48.1,
+      "true_peak_db": -14.4,
+      "loudness": {
+        "value": -39.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2903444,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/I-mzIKnxRPc3T7amGPKLDfOZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82y006706i9glkldw0r/file?search_id=cs8gs1p2ggue3iym1e45abqy",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Shoes 1\" on Soundza (https://soundza.com/sound/running-shoes-1)",
+      "matched_words": [
+        "running"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "motorboat engine running",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A motorboat engine running. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "cs8gs1p2ggue3iym1e45abqy"
+}

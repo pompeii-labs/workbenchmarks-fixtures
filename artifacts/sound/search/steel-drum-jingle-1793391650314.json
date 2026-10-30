@@ -1,0 +1,1198 @@
+{
+  "query": {
+    "q": "steel drum jingle",
+    "max_duration": "6",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 17,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmv5n88du01ne06l4qvsr6b4a",
+      "url": "https://soundza.com/sound/steel-drum-jingle-3",
+      "title": "Steel Drum Jingle 3",
+      "description": "A bright, metallic synthetic jingle lasting just over a second, designed for game events like wins, losses, or level transitions. Perfect for arcade-style or casual game feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 1.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 367148,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NzyH1vmtYJF2l5z0vHlavRHR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ne06l4qvsr6b4a/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 3\" on Soundza (https://soundza.com/sound/steel-drum-jingle-3)"
+    },
+    {
+      "id": "cmv5n88du01nn06l43h4vac5d",
+      "url": "https://soundza.com/sound/steel-drum-jingle-12",
+      "title": "Steel Drum Jingle 12",
+      "description": "A quick, cheerful synthetic jingle with a rising melodic flourish, designed to reward player success in games. Perfect for victory or level-complete moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "stab",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 218420,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UAM1uldQaJkChW7Ee7C_LuDO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nn06l43h4vac5d/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 12\" on Soundza (https://soundza.com/sound/steel-drum-jingle-12)"
+    },
+    {
+      "id": "cmv5n88du01nf06l45oat48g4",
+      "url": "https://soundza.com/sound/steel-drum-jingle-4",
+      "title": "Steel Drum Jingle 4",
+      "description": "A bright, metallic synthesized stinger with a rising melodic phrase, designed as a short winning fanfare for game events. Works well as a success or level-complete cue.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "impact_on_beat"
+      ],
+      "duration": 1.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -11,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -11,
+        "basis": "integrated"
+      },
+      "gain_db": -5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 367148,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ebyNZqUcqWNpcb3JXVSRxYXO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nf06l45oat48g4/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 4\" on Soundza (https://soundza.com/sound/steel-drum-jingle-4)"
+    },
+    {
+      "id": "cmv5n88du01ng06l4xyy7b0ql",
+      "url": "https://soundza.com/sound/steel-drum-jingle-5",
+      "title": "Steel Drum Jingle 5",
+      "description": "A bright, metallic chime sequence that signals victory or success in a game. Short and punchy, perfect for level completion or win screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "melodic",
+        "bright",
+        "metal"
+      ],
+      "sync_ms": 138,
+      "lufs": -15.5,
+      "true_peak_db": -1.5,
+      "loudness": {
+        "value": -15.5,
+        "basis": "integrated"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240572,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/a7mEzYXOxTwvcLvLbsfNEMIa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ng06l4xyy7b0ql/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 5\" on Soundza (https://soundza.com/sound/steel-drum-jingle-5)"
+    },
+    {
+      "id": "cmv5n88du01nk06l4bca2y9dm",
+      "url": "https://soundza.com/sound/steel-drum-jingle-9",
+      "title": "Steel Drum Jingle 9",
+      "description": "A bright, metallic melodic phrase lasting under a second, ideal for game events like wins, losses, or level transitions. Perfect for stings and quick audio cues.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "metallic",
+        "bright",
+        "game",
+        "one-shot",
+        "chime"
+      ],
+      "sync_ms": 34,
+      "lufs": -14.7,
+      "true_peak_db": -1.8,
+      "loudness": {
+        "value": -11.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 212100,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SEPLr4qyj3R7ly4CVoust1KP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nk06l4bca2y9dm/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 9\" on Soundza (https://soundza.com/sound/steel-drum-jingle-9)"
+    },
+    {
+      "id": "cmv5n88du01ni06l4writtd5z",
+      "url": "https://soundza.com/sound/steel-drum-jingle-7",
+      "title": "Steel Drum Jingle 7",
+      "description": "A bright, metallic single-note jingle with a sharp attack and quick decay, perfect for game notifications, victories, or level completions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "title_or_logo"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": "A# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "melodic",
+        "bright",
+        "stab",
+        "one-shot",
+        "notification"
+      ],
+      "sync_ms": 246,
+      "lufs": -13.3,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -9.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 363984,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TPq7vthZgp82qWjgqiUGahU4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ni06l4writtd5z/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 7\" on Soundza (https://soundza.com/sound/steel-drum-jingle-7)"
+    },
+    {
+      "id": "cmv5n88du01nj06l411xc8fug",
+      "url": "https://soundza.com/sound/steel-drum-jingle-8",
+      "title": "Steel Drum Jingle 8",
+      "description": "A bright, metallic single-note sting played on steel percussion. Perfect for game notifications, level completion, or menu interactions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "title_or_logo"
+      ],
+      "duration": 1.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "notification",
+        "bright",
+        "melodic",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -13.7,
+      "true_peak_db": -2.5,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 411456,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R9XWR-VvdOg9xXBfT9GPVQcO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nj06l411xc8fug/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 8\" on Soundza (https://soundza.com/sound/steel-drum-jingle-8)"
+    },
+    {
+      "id": "cmv5n88du01nl06l4j1oeq2pn",
+      "url": "https://soundza.com/sound/steel-drum-jingle-10",
+      "title": "Steel Drum Jingle 10",
+      "description": "A bright, metallic melodic jingle lasting under a second, designed as a quick alert or transition sound for game screens and UI moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "title_or_logo"
+      ],
+      "duration": 0.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "metallic",
+        "bright",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -13.5,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 155144,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/PvZHplDZcNgDnCwrL-shD_eZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nl06l4j1oeq2pn/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 10\" on Soundza (https://soundza.com/sound/steel-drum-jingle-10)"
+    },
+    {
+      "id": "cmv5n88du01no06l4uc5c43ua",
+      "url": "https://soundza.com/sound/steel-drum-jingle-13",
+      "title": "Steel Drum Jingle 13",
+      "description": "A bright, metallic one-shot jingle perfect for game notifications, level complete moments, or UI feedback. Quick and punchy with a clear melodic strike.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 1.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "metallic",
+        "bright",
+        "one-shot",
+        "notification",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": -11.7,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -9.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 332348,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y1Hg-MlIroQLiwZgjsbzah0T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01no06l4uc5c43ua/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 13\" on Soundza (https://soundza.com/sound/steel-drum-jingle-13)"
+    },
+    {
+      "id": "cmv5n88du01np06l4lrkaexwo",
+      "url": "https://soundza.com/sound/steel-drum-jingle-14",
+      "title": "Steel Drum Jingle 14",
+      "description": "A bright, resonant steel percussion hit that lands with a clear metallic tone, ideal for game notifications, level completions, or menu interactions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 1.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -14,
+      "true_peak_db": -2.4,
+      "loudness": {
+        "value": -12.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 278552,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gtKrILlSlF_DMWp7XZCI_LjM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01np06l4lrkaexwo/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 14\" on Soundza (https://soundza.com/sound/steel-drum-jingle-14)"
+    },
+    {
+      "id": "cmv5n88du01nr06l49bww40ue",
+      "url": "https://soundza.com/sound/steel-drum-jingle-16",
+      "title": "Steel Drum Jingle 16",
+      "description": "A bright, metallic synthesizer jingle lasting under a second, designed as a game alert or notification sound. Perfect for level-complete stings, menu selections, or victory moments in casual games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 0.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "synth",
+        "game",
+        "notification",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -12,
+      "true_peak_db": -1.5,
+      "loudness": {
+        "value": -9.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 250070,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ibAtT61E2MoPaC3HcvWtfoPm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nr06l49bww40ue/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 16\" on Soundza (https://soundza.com/sound/steel-drum-jingle-16)"
+    },
+    {
+      "id": "cmv5n88du01nc06l4err0phtq",
+      "url": "https://soundza.com/sound/steel-drum-jingle-1",
+      "title": "Steel Drum Jingle 1",
+      "description": "A short, punchy ascending synthesizer stab that lands decisively. Perfect for game notifications, level completion, or UI confirmations.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "synth",
+        "bright",
+        "game",
+        "notification",
+        "one-shot",
+        "8-bit"
+      ],
+      "sync_ms": 145,
+      "lufs": -15.5,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 246906,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qxapwuzTG2LghGUyaZUuI6cb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nc06l4err0phtq/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 1\" on Soundza (https://soundza.com/sound/steel-drum-jingle-1)"
+    },
+    {
+      "id": "cmv5n88du01nd06l4r52fsrpe",
+      "url": "https://soundza.com/sound/steel-drum-jingle-2",
+      "title": "Steel Drum Jingle 2",
+      "description": "A short, bright metallic stinger perfect for game notifications, level transitions, or user interface feedback. Its crisp, resonant tone cuts through clearly in gameplay contexts.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "title_or_logo"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "notification",
+        "metallic",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -9.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 363990,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jDNUXjG26DarmPjA1m6R_PcL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nd06l4r52fsrpe/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 2\" on Soundza (https://soundza.com/sound/steel-drum-jingle-2)"
+    },
+    {
+      "id": "cmv5n88du01nh06l4uaz1lo0j",
+      "url": "https://soundza.com/sound/steel-drum-jingle-6",
+      "title": "Steel Drum Jingle 6",
+      "description": "A bright, percussive stinger for game UI moments, with metallic bell tones that land decisively on the beat. Works for wins, level-ups, or menu interactions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "8-bit",
+        "notification"
+      ],
+      "sync_ms": 155,
+      "lufs": -15.1,
+      "true_peak_db": -2.2,
+      "loudness": {
+        "value": -11.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 250074,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TYy3YHgs5-iIc5LEB5JagTsF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nh06l4uaz1lo0j/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 6\" on Soundza (https://soundza.com/sound/steel-drum-jingle-6)"
+    },
+    {
+      "id": "cmv5n88du01nq06l4obeckuaa",
+      "url": "https://soundza.com/sound/steel-drum-jingle-15",
+      "title": "Steel Drum Jingle 15",
+      "description": "A bright, metallic chime that rings with a clear, bell-like tone. Perfect for game notifications, item pickups, or quick victory confirmations.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification",
+        "title_or_logo"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "chime",
+        "game",
+        "notification",
+        "bright",
+        "metallic",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -9.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 363992,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hytTRrz3Ud0cDdvxgrXxz6l2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nq06l4obeckuaa/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 15\" on Soundza (https://soundza.com/sound/steel-drum-jingle-15)"
+    },
+    {
+      "id": "cmv5n88du01nm06l4w3dydey5",
+      "url": "https://soundza.com/sound/steel-drum-jingle-11",
+      "title": "Steel Drum Jingle 11",
+      "description": "A bright, metallic melodic jingle lasting under a second, perfect for game events like wins, losses, or UI feedback. Played on tuned percussion with a sharp, clear tone.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "melodic",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -12.4,
+      "true_peak_db": -1.3,
+      "loudness": {
+        "value": -9.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240578,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LGB8XtlXFONiPU5xKr1BlUjM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nm06l4w3dydey5/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 11\" on Soundza (https://soundza.com/sound/steel-drum-jingle-11)"
+    },
+    {
+      "id": "cmv5n88du01ns06l449aotg99",
+      "url": "https://soundza.com/sound/steel-drum-jingle-17",
+      "title": "Steel Drum Jingle 17",
+      "description": "A bright, metallic synthesizer jingle lasting under a second. Perfect for game win, lose, or UI feedback moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "stab",
+        "bright",
+        "metallic",
+        "8-bit",
+        "ui"
+      ],
+      "sync_ms": 16,
+      "lufs": -15.9,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -12.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240584,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/PmhqjEYoBxkReStFj6nf_zc6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ns06l449aotg99/file?search_id=h8rqmkc5ta1qp5u2loeukd2v",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 17\" on Soundza (https://soundza.com/sound/steel-drum-jingle-17)"
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "music",
+    "query": "steel drum jingle",
+    "form": "one_shot",
+    "parts": "full_mix",
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 6,
+    "style": null,
+    "good_for": [
+      "title_or_logo"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A steel drum jingle, likely for a title or logo. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "h8rqmkc5ta1qp5u2loeukd2v"
+}

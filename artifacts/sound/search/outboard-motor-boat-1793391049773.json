@@ -1,0 +1,2685 @@
+{
+  "query": {
+    "q": "outboard motor boat",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 40,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmvdzgx8shpx17pvpcyxdhcwc",
+      "url": "https://soundza.com/sound/big-boat-horn",
+      "title": "Big Boat Horn",
+      "description": "A deep, resonant horn blast from a large vessel, with a sustained tonal quality characteristic of maritime fog horns or ship announcement systems. Suitable for maritime scenes, vehicle ambiences, or dramatic warning moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "boat",
+        "ferry",
+        "horn",
+        "ship"
+      ],
+      "sync_ms": null,
+      "lufs": -7.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -5.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6350478,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dNRMmaJQn-O5pZTFOn-BEqRi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgx8shpx17pvpcyxdhcwc/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Big Boat Horn\" on Soundza (https://soundza.com/sound/big-boat-horn)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvitl6c7j8zia86phkgkp6ji",
+      "url": "https://soundza.com/sound/car-window-motor-opening",
+      "title": "Car Window Motor Opening",
+      "description": "The mechanical whir and hum of an electric car window motor as the glass rises or lowers, with button clicks and smooth motor operation. Clean foley suitable for automotive interfaces and vehicle interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 1.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "mechanical",
+        "button",
+        "switch",
+        "foley"
+      ],
+      "sync_ms": 93,
+      "lufs": -21.1,
+      "true_peak_db": -0.4,
+      "loudness": {
+        "value": -14.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 242728,
+      "category": {
+        "id": "VEHMech",
+        "label": "Vehicles › Mechanism"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LwMenUZmemqoTH1DiLp4_-xd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvitl6c7j8zia86phkgkp6ji/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Window Motor Opening\" on Soundza (https://soundza.com/sound/car-window-motor-opening)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukdhmja27ziyotna6xy79c1",
+      "url": "https://soundza.com/sound/dewalt-drill-motor",
+      "title": "DeWalt Drill Motor",
+      "description": "A handheld power drill running at steady speed. Useful for construction, repair, DIY, and workshop scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 5.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -18.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2936820,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RjgeW_Yjw2bkyAJ9Fk2Rcxju.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdhmja27ziyotna6xy79c1/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"DeWalt Drill Motor\" on Soundza (https://soundza.com/sound/dewalt-drill-motor)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukhw12zchlnfrswmrsxo5cr",
+      "url": "https://soundza.com/sound/toy-electric-motor-spin",
+      "title": "Toy Electric Motor Spin",
+      "description": "A short, whirring spin-up sound of a small electric motor from a toy car, bright and energetic with a clear mechanical whine. Perfect for remote control vehicles, toy machines, or handheld electronic devices.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 5.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "toy",
+        "game",
+        "mechanical"
+      ],
+      "sync_ms": 1594,
+      "lufs": -21.9,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1372702,
+      "category": {
+        "id": "TOYElec",
+        "label": "Toys › Electronic"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rN7qdqZQHXQc0YPsg2-S1uam.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhw12zchlnfrswmrsxo5cr/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Toy Electric Motor Spin\" on Soundza (https://soundza.com/sound/toy-electric-motor-spin)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmv5mluqr000y06l4xgswzrrf",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat",
+      "title": "Poupi's Incredible Adventures: I'm on a Boat",
+      "description": "A whimsical, melodic musical phrase with bright synth and playful orchestral elements that captures the joy of an unexpected voyage. Perfect as a game scene transition or victory moment.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 108,
+      "bpm": 120.2,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "melodic"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -20.7,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 28576910,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zBjmUF8xL_ZCMB3BmHiINcqY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr000y06l4xgswzrrf/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: I'm on a Boat\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvdzgg3vzqljjv5yrn4l15wp",
+      "url": "https://soundza.com/sound/boat-horn",
+      "title": "Boat Horn",
+      "description": "A deep, tonal horn blast from a cruiser ship, recorded in Istanbul. The sound has a rich, resonant quality with clear harmonic content, typical of maritime vessel warning signals.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 31.03,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -10.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8937644,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6UHUiQsl51DVxHXbE4olIFp-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgg3vzqljjv5yrn4l15wp/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Boat Horn\" on Soundza (https://soundza.com/sound/boat-horn)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmukhmvxa6iwnorx6ysv3e4je",
+      "url": "https://soundza.com/sound/chevrolet-caprice-motor-revving-away",
+      "title": "Chevrolet Caprice Motor Revving Away",
+      "description": "A Chevrolet Caprice muscle car engine revs at increasing speeds, accelerates, then drives away into distance. Rich V8 engine sound recorded from a few meters away, capturing multiple acceleration runs and tonal shifts as the vehicle moves.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 82.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine"
+      ],
+      "sync_ms": null,
+      "lufs": -23,
+      "true_peak_db": -3.3,
+      "loudness": {
+        "value": -15.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 23715174,
+      "category": {
+        "id": "VEHRace",
+        "label": "Vehicles › Racing"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0Ry2jZWkVcrKEugbbcTKTHeF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhmvxa6iwnorx6ysv3e4je/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chevrolet Caprice Motor Revving Away\" on Soundza (https://soundza.com/sound/chevrolet-caprice-motor-revving-away)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5mluqr000x06l4iu8wqlw7",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-paddle-boat",
+      "title": "Poupi's Incredible Adventures: Paddle Boat",
+      "description": "A charming, gently pulsing synth melody evokes a peaceful boat journey through a fantastical world. Perfectly suited for exploration or calm gameplay moments in a story-driven adventure game.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "menu"
+      ],
+      "duration": 54.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "synth",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -19.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -19.2,
+        "basis": "integrated"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14515308,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aD8LnsIin4CL4V7VdpJT4jv0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr000x06l4iu8wqlw7/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: Paddle Boat\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-paddle-boat)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvowcw7jv5d7yd624l8wg8nb",
+      "url": "https://soundza.com/sound/water-paddle-stroke-bright",
+      "title": "Water Paddle Stroke Bright",
+      "description": "A single paddle stroke in water, captured with a clear attack and natural splash. Useful for rowing, canoeing, or boating scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "impact_on_beat"
+      ],
+      "duration": 1.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "field-recording",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 219,
+      "lufs": -25.1,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -22.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 466158,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dD9Dx0n3x7kWQE5C0LkHMBzF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowcw7jv5d7yd624l8wg8nb/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke Bright\" on Soundza (https://soundza.com/sound/water-paddle-stroke-bright)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvovvgbcic6l7m4aikxi9k0e",
+      "url": "https://soundza.com/sound/diver-jumping-splash",
+      "title": "Diver Jumping Splash",
+      "description": "A person diving into water from a boat with an engine running in the background. The splash is prominent with water impact and movement sounds layered together.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat"
+      ],
+      "duration": 11.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -19.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3219350,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7Loe9CYwxN2-ZI5w7wZ8b9ce.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovvgbcic6l7m4aikxi9k0e/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Diver Jumping Splash\" on Soundza (https://soundza.com/sound/diver-jumping-splash)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmv8zpyud6deps7txr3e6eg1n",
+      "url": "https://soundza.com/sound/nikon-f4-shutter",
+      "title": "Nikon F4 Shutter",
+      "description": "A mechanical SLR camera shutter fires with a crisp snap, followed by the whir of motorized film advance and the resonant hum of the aluminum chassis. A field recording of a fully automatic camera in action.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 26.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -25.9,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -21,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7043170,
+      "category": {
+        "id": "COMCam",
+        "label": "Communications › Camera"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-VixyPoGLDU1egeqV_AbxDN6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zpyud6deps7txr3e6eg1n/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Nikon F4 Shutter\" on Soundza (https://soundza.com/sound/nikon-f4-shutter)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmtm7ido1qte8w4c7ty1w51oe",
+      "url": "https://soundza.com/sound/analog-descending-sweep",
+      "title": "Analog Descending Sweep",
+      "description": "A descending electric motor or engine sound with a mechanical, tonal quality and subtle sci-fi character—rich in midrange frequencies with a slow attack and quick decay, perfect for transitional moments or sound design accents.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 1.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "dark"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "digital",
+        "dark",
+        "transition",
+        "textured",
+        "one-shot",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -15.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 492394,
+      "category": {
+        "id": "DSGNRise",
+        "label": "Designed › Riser"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WpyYbhq-z2ELT9LuxSpG5XC3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm7ido1qte8w4c7ty1w51oe/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Analog Descending Sweep\" on Soundza (https://soundza.com/sound/analog-descending-sweep)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02hb06l4ki97618s",
+      "url": "https://soundza.com/sound/car-engine-loop-2",
+      "title": "Car Engine Loop 2",
+      "description": "A cartoonish synthesized motor engine sound with synthetic character, suitable for vehicle sound design or as a general mechanical effect. Works well layered or processed with pitch modulation to simulate engine RPM changes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -16.2,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -15.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "VEHInt",
+        "label": "Vehicles › Interior"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BSMLWvufrDEnZyYkvcigX-hz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02hb06l4ki97618s/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 2\" on Soundza (https://soundza.com/sound/car-engine-loop-2)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvcm24y8tg5jv007w2dwv6q9",
+      "url": "https://soundza.com/sound/vcr-rewind-and-door-open",
+      "title": "VCR Rewind and Door Open",
+      "description": "A mechanical VCR rewinding a VHS tape with characteristic high-pitched whining and motor sounds, followed by the click of the VCR door opening. The aging machinery produces complex mechanical tones and grinding textures throughout.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 235.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "machine",
+        "door"
+      ],
+      "sync_ms": null,
+      "lufs": -33.1,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -18.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 62196534,
+      "category": {
+        "id": "COMPhono",
+        "label": "Communications › Phonograph"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nVZ0nViKJtH7FxQDkuFliSq3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcm24y8tg5jv007w2dwv6q9/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"VCR Rewind and Door Open\" on Soundza (https://soundza.com/sound/vcr-rewind-and-door-open)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmtnwwnd7bgves5ikn6ma5uz5",
+      "url": "https://soundza.com/sound/diesel-engine-loop",
+      "title": "Diesel Engine Loop",
+      "description": "A low-mid frequency diesel engine idle loop with thick, rhythmic mechanical rumble and industrial texture at 152 BPM. The sound features gritty engine vibration and pulsing motor character ideal for adding industrial groove and organic mechanical rhythm to production.",
+      "type": "sound_effect",
+      "form": "loop",
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 9.58,
+      "bpm": 152,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark",
+        "organic"
+      ],
+      "tags": [
+        "loop",
+        "rhythmic",
+        "gritty",
+        "dark",
+        "texture",
+        "organic",
+        "foley",
+        "groove"
+      ],
+      "sync_ms": null,
+      "lufs": -28.9,
+      "true_peak_db": -9,
+      "loudness": {
+        "value": -28.9,
+        "basis": "integrated"
+      },
+      "gain_db": 8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2533914,
+      "category": {
+        "id": "MOTRComb",
+        "label": "Motors › Combustion"
+      },
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ryF7uJ2CiD3jSAii-j5RQGyv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtnwwnd7bgves5ikn6ma5uz5/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Diesel Engine Loop\" on Soundza (https://soundza.com/sound/diesel-engine-loop)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukdio68g6xzo0uulnmiv7e8",
+      "url": "https://soundza.com/sound/power-drill-running",
+      "title": "Power Drill Running",
+      "description": "A power drill motor running steadily for several seconds, producing the characteristic whir and mechanical pitch of an electric drilling tool. Useful for workshop, construction, or DIY scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 6.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -17.5,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 906324,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rvvgHG7kN64C9OjyuYOJ0Tao.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdio68g6xzo0uulnmiv7e8/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power Drill Running\" on Soundza (https://soundza.com/sound/power-drill-running)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukhx3mwkv5c09vcv9a55wkw",
+      "url": "https://soundza.com/sound/rc-car-driving",
+      "title": "RC Car Driving",
+      "description": "A small remote-controlled toy car driving around with characteristic high-pitched motor whines and tire sounds. Useful as a close-up foley element for vehicle scenes or as ambient texture for miniature or toy-related footage.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 45.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "toy",
+        "engine",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -18.8,
+      "loudness": {
+        "value": -32,
+        "basis": "momentary_max"
+      },
+      "gain_db": 17.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11917442,
+      "category": {
+        "id": "TOYElec",
+        "label": "Toys › Electronic"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DXL13AoGns-YljjDaqyDa-9y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhx3mwkv5c09vcv9a55wkw/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"RC Car Driving\" on Soundza (https://soundza.com/sound/rc-car-driving)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvl7i68mzwwnqryplu5fum3j",
+      "url": "https://soundza.com/sound/thunder-strike-with-distant-tractors",
+      "title": "Thunder Strike with Distant Tractors",
+      "description": "A close lightning strike with a sharp transient followed by rumbling thunder, recorded outdoors during a bicycle trip. Background tractor motors add texture without overwhelming the clean strike sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 16.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "thunder",
+        "field-recording",
+        "close-up",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -14.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4362786,
+      "category": {
+        "id": "THUN",
+        "label": "Weather › Thunder"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/q2pmfczbRQIyYQXCnqn6e02J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7i68mzwwnqryplu5fum3j/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Thunder Strike with Distant Tractors\" on Soundza (https://soundza.com/sound/thunder-strike-with-distant-tractors)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukdihosqh0xeij6lbivtjmr",
+      "url": "https://soundza.com/sound/power-drill-usage",
+      "title": "Power Drill Usage",
+      "description": "A cordless power drill operating for a brief moment, capturing the characteristic high-pitched whine and mechanical sound of the motor under load. Useful for construction, workshop, and DIY scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -9.8,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -9.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 282748,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vGhBLKA8SFCpc9g8s-gGgaSa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdihosqh0xeij6lbivtjmr/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power Drill Usage\" on Soundza (https://soundza.com/sound/power-drill-usage)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5oa43q000t06kzf33idpvf",
+      "url": "https://soundza.com/sound/vacuum-cleaner",
+      "title": "Vacuum Cleaner",
+      "description": "The steady mechanical hum and motor whir of a household vacuum cleaner in operation. Useful for domestic interior ambiences, home scenes, or everyday activity backgrounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 123.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "machine",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -6.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -5.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 32734196,
+      "category": {
+        "id": "MACHAppl",
+        "label": "Machines › Appliance"
+      },
+      "pack": {
+        "id": "cmv5oa3zn000006kzgvghhz0f",
+        "name": "Drones & Ambient Beds",
+        "slug": "drones-and-ambient-beds",
+        "sound_count": 81,
+        "url": "https://soundza.com/packs/drones-and-ambient-beds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mt-8XAaO1DcJsOGiLQQm3sf6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oa43q000t06kzf33idpvf/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Vacuum Cleaner\" on Soundza (https://soundza.com/sound/vacuum-cleaner)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5swkch00lp06l6cvs0s43y",
+      "url": "https://soundza.com/sound/machine-whirring",
+      "title": "Machine Whirring",
+      "description": "A steady mechanical whirring sound with a clear rotational character, suitable for machines, fans, or motors in motion.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 694.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "machine",
+        "mechanical",
+        "industrial",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": null,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": null,
+      "bit_depth": null,
+      "channels": null,
+      "size_bytes": 399888896,
+      "category": {
+        "id": "MACHMisc",
+        "label": "Machines › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00lp06l6cvs0s43y/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Machine Whirring\" on Soundza (https://soundza.com/sound/machine-whirring)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukdg2ju4no0gy5pfd6k4vyc",
+      "url": "https://soundza.com/sound/nail-gun-shoot-and-wind-down",
+      "title": "Nail Gun Shoot and Wind Down",
+      "description": "A nail gun fires a single nail into a surface with a sharp mechanical crack, followed by the motor quickly decelerating to a stop. Ideal for construction, carpentry, and tool-based scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.9,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "impact"
+      ],
+      "sync_ms": 57,
+      "lufs": -27,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -17,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 835678,
+      "category": {
+        "id": "TOOLPowr",
+        "label": "Tools › Power"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T9aQ3BFdSSrvQXzmiwf6CmCM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdg2ju4no0gy5pfd6k4vyc/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Nail Gun Shoot and Wind Down\" on Soundza (https://soundza.com/sound/nail-gun-shoot-and-wind-down)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmtxreypac9gpf3kzaurym2gj",
+      "url": "https://soundza.com/sound/windy-ambient-texture",
+      "title": "Windy Ambient Texture",
+      "description": "A atmospheric, noisy wind sound with whistling tones cutting through—reminiscent of gale-force gusts around boat rigging and harbour structures. The thin, high-frequency texture has a crispy, metallic quality that evokes storm conditions and open water environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 71.96,
+      "bpm": 92,
+      "key": "D minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark",
+        "airy"
+      ],
+      "tags": [
+        "noise",
+        "foley",
+        "atmospheric",
+        "texture",
+        "crispy",
+        "dark",
+        "airy",
+        "ambient"
+      ],
+      "sync_ms": null,
+      "lufs": -22.6,
+      "true_peak_db": -2.8,
+      "loudness": {
+        "value": -22.6,
+        "basis": "integrated"
+      },
+      "gain_db": 1.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 20724566,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5k-PYrt7XotNgi2nGmWP1nQC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxreypac9gpf3kzaurym2gj/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Windy Ambient Texture\" on Soundza (https://soundza.com/sound/windy-ambient-texture)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmv8zr9prylsbwxsc38qrz1x0",
+      "url": "https://soundza.com/sound/polaroid-camera-shutter",
+      "title": "Polaroid Camera Shutter",
+      "description": "A vintage instant camera fires its shutter and ejects a photo with mechanical whirring and a characteristic motor sound. Authentic recording of a Sun 600 model captured with a studio condenser microphone.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 7.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": 986,
+      "lufs": -21.3,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -18.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2030308,
+      "category": {
+        "id": "COMCam",
+        "label": "Communications › Camera"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ESFBdWnm7LbrD7_9hksle8JD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zr9prylsbwxsc38qrz1x0/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Polaroid Camera Shutter\" on Soundza (https://soundza.com/sound/polaroid-camera-shutter)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02hf06l43gpd5kzd",
+      "url": "https://soundza.com/sound/car-engine-loop-3",
+      "title": "Car Engine Loop 3",
+      "description": "A synthesized car engine sound with a slightly cartoonish quality, useful as a motor bed or atmospheric hum for sound design work. Works well layered under vehicle scenes or as a base texture for engineered effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "hum",
+        "texture",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -16.5,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "VEHMoto",
+        "label": "Vehicles › Motorcycle"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mJCzPiSwA_1JGgWKLhARC8pf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02hf06l43gpd5kzd/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 3\" on Soundza (https://soundza.com/sound/car-engine-loop-3)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5oa43q001106kz3e04lzba",
+      "url": "https://soundza.com/sound/air-fryer-1",
+      "title": "Air Fryer 1",
+      "description": "A kitchen appliance running with steady mechanical whirring and motor sounds typical of an air fryer in operation. Useful as a kitchen ambience layer or realistic household background.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 122.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "machine"
+      ],
+      "sync_ms": null,
+      "lufs": -15.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 32543482,
+      "category": {
+        "id": "MACHAppl",
+        "label": "Machines › Appliance"
+      },
+      "pack": {
+        "id": "cmv5oa3zn000006kzgvghhz0f",
+        "name": "Drones & Ambient Beds",
+        "slug": "drones-and-ambient-beds",
+        "sound_count": 81,
+        "url": "https://soundza.com/packs/drones-and-ambient-beds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-v70Uj1fnE1wFftmoyAHfIs-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oa43q001106kz3e04lzba/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Air Fryer 1\" on Soundza (https://soundza.com/sound/air-fryer-1)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmsf4xc0q000c04l2hkfa90oy",
+      "url": "https://soundza.com/sound/car-starting",
+      "title": "Car Starting",
+      "description": "A realistic car engine starting sound with mechanical clicks, cranking, and ignition firing—rich with low-mid frequency motor noise and characteristic metallic rattles. The attack is gradual and textured, capturing the organic chaos of an automotive engine coming to life.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 10.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "metallic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "atmospheric",
+        "gritty",
+        "organic",
+        "metallic",
+        "textured",
+        "one-shot"
+      ],
+      "sync_ms": 2337,
+      "lufs": -21.8,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -17.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2774070,
+      "category": {
+        "id": "VEHMech",
+        "label": "Vehicles › Mechanism"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nTXGTzkhxIZsJYYkDVgPGdV1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4xc0q000c04l2hkfa90oy/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Starting\" on Soundza (https://soundza.com/sound/car-starting)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02gz06l4osopvltz",
+      "url": "https://soundza.com/sound/car-engine-loop-1",
+      "title": "Car Engine Loop 1",
+      "description": "A cartoonish synthesized motor sound with pitch variations mimicking engine acceleration and gear shifts. Useful as a sound effect for vehicles, mechanical devices, or layered with convolution for spatial effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "sci-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "VEHMisc",
+        "label": "Vehicles › Misc"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JW5HVoUUcZuOknBSGUhVIfca.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02gz06l4osopvltz/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 1\" on Soundza (https://soundza.com/sound/car-engine-loop-1)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvdzf2ci7b9a5ha27z9h0fvi",
+      "url": "https://soundza.com/sound/motorboat-river-ambience",
+      "title": "Motorboat River Ambience",
+      "description": "A motorboat engine running steadily on a river, recorded in the field with natural water and engine sounds layering together. Useful for outdoor scenes, boating sequences, and riverside environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "engine",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -24.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8067510,
+      "category": {
+        "id": "BOATMotr",
+        "label": "Boats › Motorboat"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cfSmKGM2TwWafAeL4cKC5_mL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzf2ci7b9a5ha27z9h0fvi/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Motorboat River Ambience\" on Soundza (https://soundza.com/sound/motorboat-river-ambience)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmukd71qpyjtafaivvrwf327c",
+      "url": "https://soundza.com/sound/car-engine-start",
+      "title": "Car Engine Start",
+      "description": "A car engine starting and briefly running, with the characteristic cranking and ignition sounds of an internal combustion motor. Useful for vehicle interactions and mechanical ambience in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -34.4,
+      "true_peak_db": -21.3,
+      "loudness": {
+        "value": -31.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 740962,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ACJGTjngLx2WZqpw4WZMFsjU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd71qpyjtafaivvrwf327c/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Start\" on Soundza (https://soundza.com/sound/car-engine-start)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02h406l4b9udyku3",
+      "url": "https://soundza.com/sound/car-engine-loop-5",
+      "title": "Car Engine Loop 5",
+      "description": "A smooth, slightly cartoonish synthesized car engine sound with pitch variations suggesting rpm changes. Useful as a designed motor sound effect or for layering with other mechanical elements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "transition",
+        "ui_click"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -16,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -15.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "MOTRElec",
+        "label": "Motors › Electric"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nZDQ1YiBBXyzPAyXp_jZ2nlT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02h406l4b9udyku3/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 5\" on Soundza (https://soundza.com/sound/car-engine-loop-5)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02hg06l4usgg1ydu",
+      "url": "https://soundza.com/sound/car-engine-loop-6",
+      "title": "Car Engine Loop 6",
+      "description": "A slightly cartoonish synthesized car engine sound with a smooth, looping motor hum suitable for vehicle sound design or as a general mechanical ambience layer. Works well for vehicle effects or atmospheric texture.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -15.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "MOTRElec",
+        "label": "Motors › Electric"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5ywEY0u-pXdNXyfhc8muCu3H.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02hg06l4usgg1ydu/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 6\" on Soundza (https://soundza.com/sound/car-engine-loop-6)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvithh2cbp121mv9l26rpbxd",
+      "url": "https://soundza.com/sound/truck-garage-sequence",
+      "title": "Truck Garage Sequence",
+      "description": "A complete vehicle foley sequence: truck engine starts, pulls out of a garage, re-enters, brakes hard, backs up with warning beeps, idles, honks, circles the building and returns. Includes motor engagement, air brake hisses, backing alarm beeps, and horn.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "transition"
+      ],
+      "duration": 191.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -19.3,
+      "true_peak_db": 1.6,
+      "loudness": {
+        "value": -1.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -11.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 50747000,
+      "category": {
+        "id": "VEHFrght",
+        "label": "Vehicles › Freight"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RtU0txHVlbSzqu6ruhedC2el.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvithh2cbp121mv9l26rpbxd/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Truck Garage Sequence\" on Soundza (https://soundza.com/sound/truck-garage-sequence)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmv5o1bxk02h106l4tkdqto6e",
+      "url": "https://soundza.com/sound/car-engine-loop-8",
+      "title": "Car Engine Loop 8",
+      "description": "A slightly cartoonish synthesized car engine sound with a continuous motor tone suitable for vehicle sound design or sci-fi machinery effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical",
+        "sci-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -15.8,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -15.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1058480,
+      "category": {
+        "id": "VEHMoto",
+        "label": "Vehicles › Motorcycle"
+      },
+      "pack": {
+        "id": "cmv5o1bwe02gp06l4w7z3pl5z",
+        "name": "Car Engine, Gear Shift & Hum Loops",
+        "slug": "car-engine-gear-shift-and-hum-loops",
+        "sound_count": 36,
+        "url": "https://soundza.com/packs/car-engine-gear-shift-and-hum-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jz2RPnRaxfjK0SfFQj8kIlBq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o1bxk02h106l4tkdqto6e/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Loop 8\" on Soundza (https://soundza.com/sound/car-engine-loop-8)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvittj3saw6q2uliqcgy7pd9",
+      "url": "https://soundza.com/sound/tesla-electric-acceleration",
+      "title": "Tesla Electric Acceleration",
+      "description": "The distinctive high-pitched whine of a Tesla Model S Plaid accelerating at full throttle, capturing the electric motor's rising tone as it builds power from a standstill.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 5.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -14.3,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -10.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1364918,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/27R1zQTYkHxbSb-YSiNpTAOg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvittj3saw6q2uliqcgy7pd9/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tesla Electric Acceleration\" on Soundza (https://soundza.com/sound/tesla-electric-acceleration)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukhj5wevoudn8lmiaqwwdv3",
+      "url": "https://soundza.com/sound/peugeot-308-engine-idle-loop",
+      "title": "Peugeot 308 Engine Idle Loop",
+      "description": "A steady exterior recording of a Peugeot 308 car engine at idle, captured in mono with a clear, present motor tone suitable for vehicle ambience or background layers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 27.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine"
+      ],
+      "sync_ms": null,
+      "lufs": -28.4,
+      "true_peak_db": -14.5,
+      "loudness": {
+        "value": -27.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3983704,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OIhCrPlOmI79a4mCyAZsun5P.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhj5wevoudn8lmiaqwwdv3/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Peugeot 308 Engine Idle Loop\" on Soundza (https://soundza.com/sound/peugeot-308-engine-idle-loop)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmvitsjnqhlexv3mj4ndq3xxn",
+      "url": "https://soundza.com/sound/fiat-punto-pass-by",
+      "title": "Fiat Punto Pass By",
+      "description": "A single compact car engine passing by on a road, with characteristic motor and tire sounds as it approaches and recedes into the distance.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 11.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine",
+        "street",
+        "traffic"
+      ],
+      "sync_ms": 4408,
+      "lufs": -30.6,
+      "true_peak_db": -10.5,
+      "loudness": {
+        "value": -22.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3439572,
+      "category": {
+        "id": "VEHBy",
+        "label": "Vehicles › Generic By"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jqggcFZffj89h-9VTbryqsbM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvitsjnqhlexv3mj4ndq3xxn/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fiat Punto Pass By\" on Soundza (https://soundza.com/sound/fiat-punto-pass-by)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmuki5bbgdooszjfuijdni6a8",
+      "url": "https://soundza.com/sound/air-impact-wrench-tightening",
+      "title": "Air Impact Wrench Tightening",
+      "description": "The mechanical whir and impact of an air-powered impact wrench tightening lug nuts on a vehicle tire. A practical pit-stop or garage sound with distinct motor noise and rhythmic fastening action.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "industrial"
+      ],
+      "sync_ms": 1121,
+      "lufs": -14.8,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -12.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 694408,
+      "category": {
+        "id": "TOOLPneu",
+        "label": "Tools › Pneumatic"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Cqs4PxiirpWcmlTAWaQl_Nhv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuki5bbgdooszjfuijdni6a8/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Air Impact Wrench Tightening\" on Soundza (https://soundza.com/sound/air-impact-wrench-tightening)",
+      "matched_words": [
+        "motor"
+      ]
+    },
+    {
+      "id": "cmukhhy5habjskvzccb0frtkx",
+      "url": "https://soundza.com/sound/mercedes-engine-idle-2500-rpm",
+      "title": "Mercedes Engine Idle 2500 RPM",
+      "description": "A distant Mercedes-Benz engine idling steadily at 2500 RPM in neutral, recorded from 30 feet away with a warm, resonant tone characteristic of a high-revving four-cylinder motor.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car",
+        "distant",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -39.7,
+      "true_peak_db": -27.8,
+      "loudness": {
+        "value": -39.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1152094,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/85J102-8hMj46VVSJANex3o0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhhy5habjskvzccb0frtkx/file?search_id=fpltxvfqy8t2b2uaoqb1dadl",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Mercedes Engine Idle 2500 RPM\" on Soundza (https://soundza.com/sound/mercedes-engine-idle-2500-rpm)",
+      "matched_words": [
+        "motor"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "outboard motor boat",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for the sound of an outboard motor on a boat. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"outboard motor boat\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "fpltxvfqy8t2b2uaoqb1dadl"
+}

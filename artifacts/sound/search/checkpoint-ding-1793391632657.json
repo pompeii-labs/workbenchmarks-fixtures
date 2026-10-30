@@ -1,0 +1,477 @@
+{
+  "query": {
+    "q": "checkpoint ding",
+    "max_duration": "2",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 6,
+  "next_page": null,
+  "sounds": [
+    {
+      "id": "cmv8zj76hjqbl2cjiwm7sg5xn",
+      "url": "https://soundza.com/sound/correct-answer-ding",
+      "title": "Correct Answer Ding",
+      "description": "A bright, cheerful digital ding that signals a correct answer in a game show or quiz setting. Perfect for trivia games, quizzes, and educational apps.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "notification",
+        "chime",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": 214,
+      "lufs": -18.2,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -15.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 229950,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Zz7ZjxClQ5GUZ0ePU-8PE8JY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zj76hjqbl2cjiwm7sg5xn/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Correct Answer Ding\" on Soundza (https://soundza.com/sound/correct-answer-ding)",
+      "matched_words": [
+        "ding"
+      ]
+    },
+    {
+      "id": "cmv8zvgur20cjdca5d5j4mc7j",
+      "url": "https://soundza.com/sound/typewriter-ding",
+      "title": "Typewriter Ding",
+      "description": "A sharp, bright metallic ding that marks the end of a typewriter line. A classic mechanical percussion sound with clear pitch and quick decay.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 1.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "retro"
+      ],
+      "tags": [
+        "mechanical",
+        "metallic",
+        "office",
+        "retro"
+      ],
+      "sync_ms": 50,
+      "lufs": -27.3,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -23.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 152144,
+      "category": null,
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/368Sg1vnQEN0rODJj0ePCKkU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zvgur20cjdca5d5j4mc7j/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Typewriter Ding\" on Soundza (https://soundza.com/sound/typewriter-ding)",
+      "matched_words": [
+        "ding"
+      ]
+    },
+    {
+      "id": "cmv8zk7wngj1y4xm9gpt9fusv",
+      "url": "https://soundza.com/sound/glass-ding",
+      "title": "Glass Ding",
+      "description": "A bright, crisp bell-like tone produced by tapping a sherry glass with a knife. Quick attack and resonant decay make it ideal for game notifications, correct answer chimes, or UI feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "ui_click"
+      ],
+      "duration": 0.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "bell",
+        "chime",
+        "glass",
+        "bright",
+        "game",
+        "notification"
+      ],
+      "sync_ms": 12,
+      "lufs": -25.5,
+      "true_peak_db": -2.4,
+      "loudness": {
+        "value": -23,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 72836,
+      "category": null,
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_3wpzbrqSezvWwXUHE3e53Nc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zk7wngj1y4xm9gpt9fusv/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Ding\" on Soundza (https://soundza.com/sound/glass-ding)",
+      "matched_words": [
+        "ding"
+      ]
+    },
+    {
+      "id": "cmtl11o9gqpfb2f3x7zg8wnja",
+      "url": "https://soundza.com/sound/brass-ding-hit",
+      "title": "Brass Ding Hit",
+      "description": "A bright, metallic brass ding with lo-fi character and noisy texture—sharp attack and quick decay that sits in the mid-high frequencies with a crispy, percussive shimmer.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "brass",
+        "bell",
+        "one-shot",
+        "crispy",
+        "metallic",
+        "lo-fi",
+        "bright",
+        "texture"
+      ],
+      "sync_ms": 63,
+      "lufs": -16,
+      "true_peak_db": -2.2,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 139856,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NH8Sh2VQT95f3_qYRSPVyqxH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl11o9gqpfb2f3x7zg8wnja/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Brass Ding Hit\" on Soundza (https://soundza.com/sound/brass-ding-hit)",
+      "matched_words": [
+        "ding"
+      ]
+    },
+    {
+      "id": "cmtm7540wgf51fy5p81i1liuq",
+      "url": "https://soundza.com/sound/dull-metallic-hit",
+      "title": "Dull Metallic Hit",
+      "description": "A short, punchy metallic impact with a bright mid-range attack and quick decay, delivering a crisp ding or clang sound ideal for transitions and fills.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 1.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "impact",
+        "metallic",
+        "bright",
+        "crispy",
+        "one-shot",
+        "percussion",
+        "transition"
+      ],
+      "sync_ms": 73,
+      "lufs": -20,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -17.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 355312,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K1LjfcEPHlA3Egoyiiu0KJoj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm7540wgf51fy5p81i1liuq/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dull Metallic Hit\" on Soundza (https://soundza.com/sound/dull-metallic-hit)",
+      "matched_words": [
+        "ding"
+      ]
+    },
+    {
+      "id": "cmtdhv0fd7pu2kc7a9xc726e9",
+      "url": "https://soundza.com/sound/dark-cowbell-hit",
+      "title": "Dark Cowbell Hit",
+      "description": "A bright, metallic cowbell ring with cartoon character and quick decay—punchy and tinny with a distinctive ding-dong quality perfect for comedic timing and whimsical sound design.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "F#4",
+      "mood": [
+        "bright",
+        "metallic",
+        "punchy"
+      ],
+      "tags": [
+        "cowbell",
+        "bell",
+        "bright",
+        "metallic",
+        "punchy",
+        "one-shot",
+        "foley"
+      ],
+      "sync_ms": 21,
+      "lufs": -20.2,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -20.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 110332,
+      "category": null,
+      "pack": {
+        "id": "cmtdhfkhq00000ahz4z4hwhn6",
+        "name": "CENCERRO — Afro & Latin Percussion Bells",
+        "slug": "cencerro-afro-and-latin-percussion-bells",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/cencerro-afro-and-latin-percussion-bells"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0dlugqpgFU_eudIF6Q_FNAIe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtdhv0fd7pu2kc7a9xc726e9/file?search_id=y4i0cst5xko7x6rvikkgre8h",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dark Cowbell Hit\" by LABADI on Soundza (https://soundza.com/sound/dark-cowbell-hit)",
+      "matched_words": [
+        "ding"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "checkpoint ding",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": "video-game-sound-effects",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 2,
+    "style": null,
+    "good_for": [
+      "notification",
+      "ui_click",
+      "game_pickup"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A sound effect for a checkpoint ding. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"checkpoint ding\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "y4i0cst5xko7x6rvikkgre8h"
+}

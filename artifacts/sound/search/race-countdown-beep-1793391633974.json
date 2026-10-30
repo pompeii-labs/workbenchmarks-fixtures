@@ -1,0 +1,3586 @@
+{
+  "query": {
+    "q": "race countdown beep",
+    "max_duration": "2",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 297,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=race+countdown+beep&max_duration=2&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv5n4j5901fj06l4btr7djo3",
+      "url": "https://soundza.com/sound/time",
+      "title": "Time",
+      "description": "A short, bright electronic beep typical of NES-era video game timer or countdown sounds. Ideal for game UI notifications and retro time-based events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_hit"
+      ],
+      "duration": 0.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C5",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "beep",
+        "retro",
+        "game",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": 28,
+      "lufs": -25.1,
+      "true_peak_db": -10.5,
+      "loudness": {
+        "value": -25.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 53664,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NVEK85vi_LUpTrZ4PUDomO9C.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901fj06l4btr7djo3/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Time\" on Soundza (https://soundza.com/sound/time)",
+      "matched_words": [
+        "countdown",
+        "beep"
+      ]
+    },
+    {
+      "id": "cmujgpldqzlhc2mvxt816d8ny",
+      "url": "https://soundza.com/sound/error-beep",
+      "title": "Error Beep",
+      "description": "A short, low-pitched electronic beep with a negative character, ideal for error alerts and failure notifications in UI or game contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#2",
+      "mood": [],
+      "tags": [
+        "beep",
+        "error",
+        "notification",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": -3.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -3.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -9.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 55660,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_Osj9rGrG-1m6H-YFJYhAWer.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgpldqzlhc2mvxt816d8ny/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error Beep\" on Soundza (https://soundza.com/sound/error-beep)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmukd599vzo5lbragxfkb4fm1",
+      "url": "https://soundza.com/sound/car-lock-beep",
+      "title": "Car Lock Beep",
+      "description": "A bright, high-pitched electronic beep from a car's remote locking system. Useful as a confirmation tone for vehicle security interactions in games, film, or UI contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "car",
+        "notification",
+        "close-up",
+        "field-recording"
+      ],
+      "sync_ms": 89,
+      "lufs": -17.3,
+      "true_peak_db": -2.7,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 86478,
+      "category": {
+        "id": "VEHAlrm",
+        "label": "Vehicles › Alarm"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_z_db3G6g7EEXN3eTtQa0Q-b.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd599vzo5lbragxfkb4fm1/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Lock Beep\" on Soundza (https://soundza.com/sound/car-lock-beep)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmtlwtfle5mvvuw3gr1fgr8y3",
+      "url": "https://soundza.com/sound/beep-click",
+      "title": "Beep Click",
+      "description": "A bright, mid-range beep with a snappy attack and minimal decay—punchy and percussive with a clean, artificial quality that sits in the frequency range of a grocery store checkout or alert tone. The dry, one-shot character and crispy mid-range presence make it useful for adding quirky rhythmic texture or glitchy percussion layers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy",
+        "glitchy"
+      ],
+      "tags": [
+        "snare",
+        "percussion",
+        "bright",
+        "crispy",
+        "punchy",
+        "one-shot",
+        "glitchy",
+        "stab"
+      ],
+      "sync_ms": 26,
+      "lufs": -11.4,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -11.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 141826,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "nna4x303lhpnpm857yhexnr4",
+        "name": "The Ultimate Tech House Kit",
+        "slug": "the-ultimate-tech-house-kit",
+        "sound_count": 89,
+        "url": "https://soundza.com/packs/the-ultimate-tech-house-kit"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NoIRDnx6019MrnCx-CeBpal-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtlwtfle5mvvuw3gr1fgr8y3/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep Click\" by TRAGWERK on Soundza (https://soundza.com/sound/beep-click)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5o6wth02v406l4ct7gi5wt",
+      "url": "https://soundza.com/sound/robot-dialog-beep-4",
+      "title": "Robot Dialog Beep 4",
+      "description": "A synthetic robotic beeping sound designed to play as each character appears in a game dialog box, creating a personality-driven text reveal effect. Ideal for RPG games and retro sci-fi interfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "robot",
+        "beep",
+        "game",
+        "ui",
+        "notification",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -11.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 10720,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5o6wsb02uc06l4zcef8bjp",
+        "name": "Dialogue Text Blips",
+        "slug": "dialogue-text-blips",
+        "sound_count": 32,
+        "url": "https://soundza.com/packs/dialogue-text-blips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zkbVI6kI4ujKpGX4ConwbMHo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o6wth02v406l4ct7gi5wt/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Robot Dialog Beep 4\" on Soundza (https://soundza.com/sound/robot-dialog-beep-4)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oaxx5000u06l53tasapxe",
+      "url": "https://soundza.com/sound/beep-8",
+      "title": "Beep 8",
+      "description": "A sharp, synthetic beep with metallic overtones, characteristic of robotic or electronic systems. Useful for UI feedback, alerts, or sci-fi interface sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.74,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "beep",
+        "robot",
+        "ui",
+        "sci-fi",
+        "metallic",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -15,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 98370,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5oaxtg000006l5zf0ogbxj",
+        "name": "Beeps & Background Sounds",
+        "slug": "beeps-and-background-sounds",
+        "sound_count": 22,
+        "url": "https://soundza.com/packs/beeps-and-background-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/pDQWvsq-84FpSiN4J-NwTf_j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oaxx5000u06l53tasapxe/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep 8\" on Soundza (https://soundza.com/sound/beep-8)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5o5pot02s706l4a8l6pdee",
+      "url": "https://soundza.com/sound/retro-beep-2",
+      "title": "Retro Beep 2",
+      "description": "A crisp, short beep with vintage synthesizer character, reminiscent of early computer and arcade systems. Useful as a UI response, notification, or sci-fi interface element.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_pickup"
+      ],
+      "duration": 0.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "retro",
+        "sci-fi",
+        "ui",
+        "notification",
+        "8-bit",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -20.3,
+      "true_peak_db": -8.8,
+      "loudness": {
+        "value": -20.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 108048,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5n8wb901q606l418na1vim",
+        "name": "Sci-Fi Beeps & Terminals",
+        "slug": "sci-fi-beeps-and-terminals",
+        "sound_count": 33,
+        "url": "https://soundza.com/packs/sci-fi-beeps-and-terminals"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WdoCHyNlumP6_Aw_yF9_CG0w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o5pot02s706l4a8l6pdee/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Beep 2\" on Soundza (https://soundza.com/sound/retro-beep-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5nr9z5027u06l4j1o9o64j",
+      "url": "https://soundza.com/sound/fat-beep-2",
+      "title": "Fat Beep 2",
+      "description": "A thick, harsh electronic beep with a punchy attack, characteristic of 1-bit sound chip synthesis. Ideal for retro game interfaces, 8-bit UI feedback, or vintage computer sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "8-bit",
+        "retro",
+        "ui",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -15.1,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -14.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 75186,
+      "category": {
+        "id": "BEEP",
+        "label": "Beeps › General"
+      },
+      "pack": {
+        "id": "cmv5nr9xg027j06l4bmwbnoef",
+        "name": "8-bit FX for Games",
+        "slug": "8-bit-fx-for-games",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/8-bit-fx-for-games"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O2nlo-snYtlseyjluiEiLsba.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nr9z5027u06l4j1o9o64j/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fat Beep 2\" on Soundza (https://soundza.com/sound/fat-beep-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0i1rh400au06l8abehh73o",
+      "url": "https://soundza.com/sound/8-bit-teleport-1",
+      "title": "8-Bit Teleport 1",
+      "description": "A short, bright electronic teleport effect with classic retro 8-bit character. Perfect for sci-fi transitions, game teleportation events, or menu navigation sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "transition",
+        "ui_click"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "sci-fi",
+        "game",
+        "transition",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -15.8,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 54668,
+      "category": {
+        "id": "SCIVeh",
+        "label": "Scifi › Vehicle"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T-EypxLmkQ_eYViBufpLYdXi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i1rh400au06l8abehh73o/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Teleport 1\" on Soundza (https://soundza.com/sound/8-bit-teleport-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmtm6sabtf5nzdd9tjqmhe49s",
+      "url": "https://soundza.com/sound/synthetic-beep-stab",
+      "title": "Synthetic Beep Stab",
+      "description": "A punchy, bass-heavy loop with bright digital beeps and plucky synth elements cutting through a sub-focused foundation, sitting around 172 Hz with crisp attack and minimal sustain. The distorted, glitchy character and high crest factor create snappy, percussive hits ideal for stripped-down electronic productions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "glitchy"
+      ],
+      "tags": [
+        "bass",
+        "sub-bass",
+        "synth",
+        "pluck",
+        "punchy",
+        "crispy",
+        "glitchy",
+        "digital"
+      ],
+      "sync_ms": 14,
+      "lufs": -12.8,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -9.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 192000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1152084,
+      "category": null,
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZC0etx6Gn1WdUpDs8P2ImAAa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6sabtf5nzdd9tjqmhe49s/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Synthetic Beep Stab\" on Soundza (https://soundza.com/sound/synthetic-beep-stab)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv8zkxdn5g2y664hvtttlvql",
+      "url": "https://soundza.com/sound/wrong-answer-buzzer-short",
+      "title": "Wrong Answer Buzzer Short",
+      "description": "A sharp, buzzing tone that sounds like a game show buzzer indicating an incorrect answer. Perfect for quizzes, game shows, or comedic wrong-answer moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "ui",
+        "notification",
+        "beep",
+        "error"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 73872,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/crsSl1d2NU76EOkbIXhV3eh8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zkxdn5g2y664hvtttlvql/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wrong Answer Buzzer Short\" on Soundza (https://soundza.com/sound/wrong-answer-buzzer-short)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmujgq0fju7i4d5gwfuv401fv",
+      "url": "https://soundza.com/sound/computer-error-beep",
+      "title": "Computer Error Beep",
+      "description": "A sharp, high-pitched electronic beep with a processed, synthetic quality. Ideal for UI alerts, error notifications, and system feedback sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "error",
+        "beep",
+        "computer",
+        "notification",
+        "ui"
+      ],
+      "sync_ms": 29,
+      "lufs": null,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -11.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 82140,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/M4F8QUTPsXUQ2jC_6uVtDpcb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgq0fju7i4d5gwfuv401fv/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Computer Error Beep\" on Soundza (https://soundza.com/sound/computer-error-beep)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0gp82z009006i9hczhfq17",
+      "url": "https://soundza.com/sound/ui-sound-7",
+      "title": "UI Sound 7",
+      "description": "A clean, high-pitched electronic beep with a sharp attack and quick decay. Typical UI notification or button press feedback sound used in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 1.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "beep",
+        "notification",
+        "click",
+        "game"
+      ],
+      "sync_ms": 412,
+      "lufs": -24.5,
+      "true_peak_db": -12.1,
+      "loudness": {
+        "value": -22.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 212412,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9ld_YcI8icnh1L-8qkIIrtSN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009006i9hczhfq17/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 7\" on Soundza (https://soundza.com/sound/ui-sound-7)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5t3i5c003t06ju8ebf1mv7",
+      "url": "https://soundza.com/sound/air-traffic-control-19",
+      "title": "Air Traffic Control 19",
+      "description": "Crisp radio chatter and beeping tones typical of airport ATC communications, layered with electronic interface sounds. Ideal for aviation scenes or technology-focused sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "radio",
+        "beep",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -16.1,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -16,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 58450,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UUUZ54orkkqRqRDGqtNRYQgH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3i5c003t06ju8ebf1mv7/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Air Traffic Control 19\" on Soundza (https://soundza.com/sound/air-traffic-control-19)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5ncxv7020o06l4kzb5q8x1",
+      "url": "https://soundza.com/sound/phone-1",
+      "title": "Phone 1",
+      "description": "A classic telephonic tone or beep characteristic of dialing or ringing. Useful for period pieces, comedies, or scenes involving communication technology.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 1.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "retro",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -36.9,
+      "true_peak_db": -11.4,
+      "loudness": {
+        "value": -35.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 157878,
+      "category": {
+        "id": "COMCell",
+        "label": "Communications › Cellphone"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/S9LKyFXThiu-jEv2SEZ6WeWN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv7020o06l4kzb5q8x1/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Phone 1\" on Soundza (https://soundza.com/sound/phone-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmuynws8x000v06nv3oqt77oe",
+      "url": "https://soundza.com/sound/two-tone-2",
+      "title": "Two Tone 2",
+      "description": "A quick, high-pitched two-note electronic beep with crisp attacks. Ideal for UI notifications, game alerts, or sci-fi interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "ui",
+        "notification",
+        "sci-fi",
+        "game"
+      ],
+      "sync_ms": 130,
+      "lufs": -32.5,
+      "true_peak_db": -19.6,
+      "loudness": {
+        "value": -31.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 198220,
+      "category": {
+        "id": "SCIAlrm",
+        "label": "Scifi › Alarm"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BmshJcyui7ySHxYHttNrgSDc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuynws8x000v06nv3oqt77oe/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two Tone 2\" on Soundza (https://soundza.com/sound/two-tone-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0gvc5i013806i9oe3pdlhu",
+      "url": "https://soundza.com/sound/cancel",
+      "title": "Cancel",
+      "description": "A short, crisp electronic beep or chime that signals a cancelled action or rejected input in a game or application interface.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "notification",
+        "beep",
+        "game",
+        "error"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -35,
+      "loudness": {
+        "value": -50.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 78408,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_B_n5zjnBXPyuZHQVx7Rjf0B.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gvc5i013806i9oe3pdlhu/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cancel\" on Soundza (https://soundza.com/sound/cancel)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oktt6008406l5pahvlr4q",
+      "url": "https://soundza.com/sound/robot-4",
+      "title": "Robot 4",
+      "description": "A short, bright synthetic pulse with sci-fi character, built from filtered sine waves and processing. Works as a tech alert, robotic response, or energy beam accent.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.52,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "robot",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -8.5,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -8.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 192000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 601266,
+      "category": {
+        "id": "SCIWeap",
+        "label": "Scifi › Weapon"
+      },
+      "pack": {
+        "id": "r7d2ybctlcilh6pxkclv5j5m",
+        "name": "Hi-Res Sci-Fi SFX",
+        "slug": "hi-res-sci-fi-sfx",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/hi-res-sci-fi-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0D8QRxA4wihZPdQOAfUaPGoq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oktt6008406l5pahvlr4q/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Robot 4\" on Soundza (https://soundza.com/sound/robot-4)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oyf2v00j706l56zcdf709",
+      "url": "https://soundza.com/sound/message-notification",
+      "title": "Message Notification",
+      "description": "A bright, quick beeping tone designed for game notifications and UI alerts. Perfect for message popups or menu interactions in retro-style games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "notification",
+        "ui",
+        "beep",
+        "retro",
+        "game",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -6.2,
+      "true_peak_db": 1.2,
+      "loudness": {
+        "value": -5.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 106956,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vJYfl-jkQ16Yq9yrz8_dCVvn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oyf2v00j706l56zcdf709/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Message Notification\" on Soundza (https://soundza.com/sound/message-notification)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "d6oqninr4nl5c343rgypplr9",
+      "url": "https://soundza.com/sound/two-tone-chime-notification-3",
+      "title": "Two-Tone Chime Notification 3",
+      "description": "A bright, clear two-tone chime with distinct rising and falling pitches, designed as a user interface alert. Works well for notifications, confirmations, and UI feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "two-tone",
+        "bell",
+        "clean",
+        "ui",
+        "beep",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -14,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -12.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396994,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/L7ZHu5Pal0TbDFQHn9p70V3y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/d6oqninr4nl5c343rgypplr9/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two-Tone Chime Notification 3\" on Soundza (https://soundza.com/sound/two-tone-chime-notification-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5n0d7l011k06l4k4q02njv",
+      "url": "https://soundza.com/sound/confirmation-4",
+      "title": "Confirmation 4",
+      "description": "A soft, clean chime or beep that confirms a user action or selection in a game or application interface. Ideal for button presses and menu confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "beep",
+        "notification",
+        "menu",
+        "game"
+      ],
+      "sync_ms": 166,
+      "lufs": -10.6,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -10.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 64964,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oxSbbcWtQAx4EXEAC7C9JEOM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7l011k06l4k4q02njv/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Confirmation 4\" on Soundza (https://soundza.com/sound/confirmation-4)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "f64m2h5crlr9jw4yat6q4lbb",
+      "url": "https://soundza.com/sound/digital-blip-notification-1",
+      "title": "Digital Blip Notification 1",
+      "description": "A brief, high-pitched electronic blip with a clean, synthetic character. Ideal for user interface alerts, app notifications, and game feedback sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "blip",
+        "digital",
+        "beep",
+        "electronic",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -10.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 68888,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YEWRHWjt3Xt2QE5nQEfOCuEd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/f64m2h5crlr9jw4yat6q4lbb/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Digital Blip Notification 1\" on Soundza (https://soundza.com/sound/digital-blip-notification-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "b4lbdks59zy5s44mxi7ql7vh",
+      "url": "https://soundza.com/sound/error-buzz-notification-2",
+      "title": "Error Buzz Notification 2",
+      "description": "A sharp, buzzing electronic notification tone with a quick attack and fast decay. Suitable for UI alerts, error messages, and user interface feedback in applications and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.58,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#1",
+      "mood": [],
+      "tags": [
+        "notification",
+        "error",
+        "buzz",
+        "negative",
+        "electronic",
+        "ui",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -8.7,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 153558,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gBLHTmSxcAWpvJZrJE8v9rLS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/b4lbdks59zy5s44mxi7ql7vh/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error Buzz Notification 2\" on Soundza (https://soundza.com/sound/error-buzz-notification-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "szc7ui82f6pu3spj7x6ltp1y",
+      "url": "https://soundza.com/sound/error-buzz-notification-1",
+      "title": "Error Buzz Notification 1",
+      "description": "A bright, high-pitched buzz notification alert with a sharp attack and quick decay. Ideal for UI feedback, error messages, and interface notifications in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "error",
+        "buzz",
+        "negative",
+        "electronic",
+        "ui",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -9.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 164142,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eeBoazefyg9Z_Cn_ojfidqpK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/szc7ui82f6pu3spj7x6ltp1y/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error Buzz Notification 1\" on Soundza (https://soundza.com/sound/error-buzz-notification-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "iipyr9onjim7q7zwl81qsyqa",
+      "url": "https://soundza.com/sound/two-tone-chime-notification-2",
+      "title": "Two-Tone Chime Notification 2",
+      "description": "A bright, clear two-tone chime that rises and falls in pitch. Ideal for drawing attention to alerts, notifications, and interface confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "two-tone",
+        "bell",
+        "clean",
+        "ui",
+        "beep",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -11,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396994,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-V-HknhESKTVuyFnUMJsL4hY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/iipyr9onjim7q7zwl81qsyqa/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two-Tone Chime Notification 2\" on Soundza (https://soundza.com/sound/two-tone-chime-notification-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5t3dbz001p06jul8nl6snh",
+      "url": "https://soundza.com/sound/ui-button-4",
+      "title": "UI Button 4",
+      "description": "A short, bright tonal beep with immediate attack and quick decay, designed for interface feedback on button presses in games or applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "beep",
+        "notification",
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -15.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 98972,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AsCw8VikXUS7AnkVeOYSFAE7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3dbz001p06jul8nl6snh/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Button 4\" on Soundza (https://soundza.com/sound/ui-button-4)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5ov3f200ci06l5ray1urz8",
+      "url": "https://soundza.com/sound/alarm-loop-2",
+      "title": "Alarm Loop 2",
+      "description": "A sharp, repeating alert tone suitable for notifications, alarms, or interface alerts. Works as a loop for continuous background alerts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -19,
+      "true_peak_db": -13.2,
+      "loudness": {
+        "value": -18.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 196730,
+      "category": {
+        "id": "ALRMElec",
+        "label": "Alarms › Electronic"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5nwDCUi29JBEF8hGFK8xVn6J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ov3f200ci06l5ray1urz8/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Alarm Loop 2\" on Soundza (https://soundza.com/sound/alarm-loop-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5o33sx02ji06l4gdgeee91",
+      "url": "https://soundza.com/sound/ui-blip-1",
+      "title": "UI Blip 1",
+      "description": "A bright, synthetic beep or notification tone with a retro arcade character. Ideal for game menus, UI feedback, and interface interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "ui",
+        "beep",
+        "retro",
+        "arcade",
+        "notification",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 4770,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "cmv5o33rm02jh06l4l1ai3dxj",
+        "name": "Synthesized Retro Game SFX",
+        "slug": "synthesized-retro-game-sfx",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/synthesized-retro-game-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/j2S235KsSqiURlI4fP4PIU64.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o33sx02ji06l4gdgeee91/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Blip 1\" on Soundza (https://soundza.com/sound/ui-blip-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5t3dbz001q06juyla4l1vr",
+      "url": "https://soundza.com/sound/ui-button-5",
+      "title": "UI Button 5",
+      "description": "A sharp, tonal interface click with minimal decay. Suitable for menu navigation, button presses, and game UI feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "button",
+        "game",
+        "notification",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.5,
+      "loudness": {
+        "value": -16.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 98972,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3ShdSqaWpPFSg_0--oWFMJSs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3dbz001q06juyla4l1vr/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Button 5\" on Soundza (https://soundza.com/sound/ui-button-5)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvitnlabjcfz0icu99sjmg47",
+      "url": "https://soundza.com/sound/car-horn-beep",
+      "title": "Car Horn Beep",
+      "description": "A single car horn beep, typically used by a driver to get someone's attention or signal waiting in traffic. Useful for vehicle interactions and urban scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "beep",
+        "traffic",
+        "notification"
+      ],
+      "sync_ms": 407,
+      "lufs": -26.9,
+      "true_peak_db": -6.9,
+      "loudness": {
+        "value": -25.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 159432,
+      "category": {
+        "id": "VEHHorn",
+        "label": "Vehicles › Horn"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vd8qIdIys5-Mbb6aFuTUZF-V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvitnlabjcfz0icu99sjmg47/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Horn Beep\" on Soundza (https://soundza.com/sound/car-horn-beep)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5t3dbz001l06juawzv59r0",
+      "url": "https://soundza.com/sound/ui-button-3",
+      "title": "UI Button 3",
+      "description": "A crisp, tonal beep with a quick attack and decay. Perfect for interface feedback and game button presses.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "notification",
+        "beep",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -16.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 98972,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CrihpWKBAsOEUCJ6QUQZzPgh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3dbz001l06juawzv59r0/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Button 3\" on Soundza (https://soundza.com/sound/ui-button-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oaxx5000w06l5yo2nf2i5",
+      "url": "https://soundza.com/sound/beep-14",
+      "title": "Beep 14",
+      "description": "A short, clean electronic beep suitable for user interface notifications, alerts, or menu selection feedback in games and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "beep",
+        "notification",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -21.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 17386,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5oaxtg000006l5zf0ogbxj",
+        "name": "Beeps & Background Sounds",
+        "slug": "beeps-and-background-sounds",
+        "sound_count": 22,
+        "url": "https://soundza.com/packs/beeps-and-background-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ieC9C_eRW9hmYSzXAzHfxxlN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oaxx5000w06l5yo2nf2i5/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep 14\" on Soundza (https://soundza.com/sound/beep-14)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5o6wth02v106l4s18rkiyf",
+      "url": "https://soundza.com/sound/robot-dialog-beep-1",
+      "title": "Robot Dialog Beep 1",
+      "description": "A short, synthetic beeping sound designed to accompany text display in games. Works as a character voice indicator for robotic or electronic dialogue.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "robot",
+        "beep",
+        "ui",
+        "notification",
+        "game",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1.8,
+      "loudness": {
+        "value": -10.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 18186,
+      "category": {
+        "id": "ROBTVox",
+        "label": "Robots › Vocal"
+      },
+      "pack": {
+        "id": "cmv5o6wsb02uc06l4zcef8bjp",
+        "name": "Dialogue Text Blips",
+        "slug": "dialogue-text-blips",
+        "sound_count": 32,
+        "url": "https://soundza.com/packs/dialogue-text-blips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oPuI1Ax7wIk9eLi5RCijYcze.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o6wth02v106l4s18rkiyf/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Robot Dialog Beep 1\" on Soundza (https://soundza.com/sound/robot-dialog-beep-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "a11flu75hfha6x36nl5nc89b",
+      "url": "https://soundza.com/sound/error-buzz-notification-3",
+      "title": "Error Buzz Notification 3",
+      "description": "A short, tonal electronic buzz with a sharp attack, designed as a user interface error alert. Suitable for app notifications, system warnings, or game error states.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#1",
+      "mood": [],
+      "tags": [
+        "ui",
+        "notification",
+        "error",
+        "buzz",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -9.8,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 140328,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hHh8lIMvSUVrl2S7WLbxaLej.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/a11flu75hfha6x36nl5nc89b/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error Buzz Notification 3\" on Soundza (https://soundza.com/sound/error-buzz-notification-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "mb4dt89qregufi5cw6xvr6ka",
+      "url": "https://soundza.com/sound/digital-blip-notification-3",
+      "title": "Digital Blip Notification 3",
+      "description": "A bright, quick digital beep that cuts in and out sharply. Works as a UI alert or notification sound for apps, games, or interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "blip",
+        "digital",
+        "beep",
+        "electronic",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -7.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 79472,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XRGkuP8LBCjk9I7boN8Q-0lD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/mb4dt89qregufi5cw6xvr6ka/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Digital Blip Notification 3\" on Soundza (https://soundza.com/sound/digital-blip-notification-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "qble7sk0bihmzxj7h7u6n0y8",
+      "url": "https://soundza.com/sound/digital-blip-notification-2",
+      "title": "Digital Blip Notification 2",
+      "description": "A quick, high-pitched electronic beep with a sharp attack and minimal sustain. Suitable for UI alerts, menu navigation, or confirmation feedback in apps and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "blip",
+        "digital",
+        "beep",
+        "electronic",
+        "ui",
+        "click"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -7.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 74180,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xmOai0zpul2v1zmNJFBA_F2q.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/qble7sk0bihmzxj7h7u6n0y8/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Digital Blip Notification 2\" on Soundza (https://soundza.com/sound/digital-blip-notification-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5n0uyt017706l4fu94oa9x",
+      "url": "https://soundza.com/sound/force-field-1",
+      "title": "Force Field 1",
+      "description": "A shimmering, high-pitched energy pulse with a distinctive sci-fi character. Ideal for energy barriers, shield activations, or futuristic interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.95,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "beep",
+        "ui"
+      ],
+      "sync_ms": 132,
+      "lufs": -11.3,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -8.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 126294,
+      "category": {
+        "id": "SCIEnrg",
+        "label": "Scifi › Energy"
+      },
+      "pack": {
+        "id": "c4qisjxnv311lckh8jp7lna2",
+        "name": "Sci-Fi Game FX",
+        "slug": "sci-fi-game-fx",
+        "sound_count": 73,
+        "url": "https://soundza.com/packs/sci-fi-game-fx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NSvvEaWeItFV3u0TruIgDbwi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0uyt017706l4fu94oa9x/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Force Field 1\" on Soundza (https://soundza.com/sound/force-field-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oxf0700h806l5u4g6go2d",
+      "url": "https://soundza.com/sound/enemy",
+      "title": "Enemy",
+      "description": "A sharp, high-pitched electronic alert sound designed for game UI or enemy detection. Ideal for platformer or action game notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_hit"
+      ],
+      "duration": 1.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "ui",
+        "beep",
+        "8-bit",
+        "retro"
+      ],
+      "sync_ms": 379,
+      "lufs": -66,
+      "true_peak_db": -42.4,
+      "loudness": {
+        "value": -64.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 391702,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5oxezc00gx06l55sezisip",
+        "name": "Platformer Action SFX",
+        "slug": "platformer-action-sfx",
+        "sound_count": 19,
+        "url": "https://soundza.com/packs/platformer-action-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qA4WD-VCpGioR7nx0D0p3zTq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oxf0700h806l5u4g6go2d/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Enemy\" on Soundza (https://soundza.com/sound/enemy)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "u8fe6a85cyruh8eoymuk7z4t",
+      "url": "https://soundza.com/sound/warm-pluck-notification-3",
+      "title": "Warm Pluck Notification 3",
+      "description": "A short, resonant plucked string sound with warm midrange character. Ideal for UI feedback, app notifications, or gentle interface alerts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G2",
+      "mood": [
+        "warm",
+        "soft"
+      ],
+      "tags": [
+        "notification",
+        "pluck",
+        "synth",
+        "warm",
+        "soft",
+        "ui",
+        "beep"
+      ],
+      "sync_ms": 27,
+      "lufs": -18.3,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 381114,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zOjftPpMAOYDC8qRncBld_e2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/u8fe6a85cyruh8eoymuk7z4t/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Warm Pluck Notification 3\" on Soundza (https://soundza.com/sound/warm-pluck-notification-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "yke59p3c0o3a2x4auk3uu9hj",
+      "url": "https://soundza.com/sound/glass-ping-notification-3",
+      "title": "Glass Ping Notification 3",
+      "description": "A bright, high-pitched glass chime with a quick attack and decay, ideal for UI alerts and notification sounds in apps and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "glass",
+        "ping",
+        "clear",
+        "ui",
+        "alert",
+        "chime",
+        "bright",
+        "click",
+        "beep"
+      ],
+      "sync_ms": 5,
+      "lufs": -22.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 338778,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eeTgs7A2hlKK6lHp1mEL79r4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/yke59p3c0o3a2x4auk3uu9hj/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Ping Notification 3\" on Soundza (https://soundza.com/sound/glass-ping-notification-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5nr9z5027w06l4fha9qldb",
+      "url": "https://soundza.com/sound/harsh-beep-1",
+      "title": "Harsh Beep 1",
+      "description": "A primitive, harsh electronic beep characteristic of 1980s home computer sound hardware. Useful as a UI alert, error tone, or retro game SFX.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "retro",
+        "8-bit",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -16,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 44828,
+      "category": {
+        "id": "BEEP",
+        "label": "Beeps › General"
+      },
+      "pack": {
+        "id": "cmv5nr9xg027j06l4bmwbnoef",
+        "name": "8-bit FX for Games",
+        "slug": "8-bit-fx-for-games",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/8-bit-fx-for-games"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vfh-eeOXqiImJ5e3RY2VS7LS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nr9z5027w06l4fha9qldb/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Harsh Beep 1\" on Soundza (https://soundza.com/sound/harsh-beep-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5o5pos02rk06l424l2r5t0",
+      "url": "https://soundza.com/sound/beep-1",
+      "title": "Beep 1",
+      "description": "A bright, high-pitched electronic beep typical of futuristic technology or sci-fi interfaces. Perfect for alerts, notifications, or retro computer systems.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "sci-fi",
+        "beep",
+        "notification",
+        "retro",
+        "ui"
+      ],
+      "sync_ms": 69,
+      "lufs": null,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -16.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 93408,
+      "category": {
+        "id": "SCIAlrm",
+        "label": "Scifi › Alarm"
+      },
+      "pack": {
+        "id": "cmv5n8wb901q606l418na1vim",
+        "name": "Sci-Fi Beeps & Terminals",
+        "slug": "sci-fi-beeps-and-terminals",
+        "sound_count": 33,
+        "url": "https://soundza.com/packs/sci-fi-beeps-and-terminals"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/58EXKZX_Ej2HlQy_aCuhMnDr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o5pos02rk06l424l2r5t0/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep 1\" on Soundza (https://soundza.com/sound/beep-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901gf06l4c6d052l3",
+      "url": "https://soundza.com/sound/teleport",
+      "title": "Teleport",
+      "description": "A crisp, high-pitched electronic sound effect mimicking a teleportation or beam-out event, typical of NES-era video games. Ideal for sci-fi transitions, video game power-ups, or UI feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up",
+        "notification",
+        "transition"
+      ],
+      "duration": 0.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "sci-fi",
+        "retro",
+        "game",
+        "beep"
+      ],
+      "sync_ms": 178,
+      "lufs": -24.6,
+      "true_peak_db": -11.3,
+      "loudness": {
+        "value": -22.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 87592,
+      "category": {
+        "id": "SCIEnrg",
+        "label": "Scifi › Energy"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q369tN7KXjdxIr0ihbExPWMS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901gf06l4c6d052l3/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Teleport\" on Soundza (https://soundza.com/sound/teleport)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0i1rh400b106l8tkauwfyg",
+      "url": "https://soundza.com/sound/8-bit-teleport-8",
+      "title": "8-Bit Teleport 8",
+      "description": "A bright, digital teleportation effect with ascending tones and a classic retro video game character. Perfect for sci-fi transitions or game teleport events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "game_power_up"
+      ],
+      "duration": 0.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "sci-fi",
+        "game",
+        "retro",
+        "transition",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -13.5,
+      "true_peak_db": -1.7,
+      "loudness": {
+        "value": -11.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 44134,
+      "category": {
+        "id": "SCIVeh",
+        "label": "Scifi › Vehicle"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2rdE69e8trsuAynJ6brrQ36u.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i1rh400b106l8tkauwfyg/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Teleport 8\" on Soundza (https://soundza.com/sound/8-bit-teleport-8)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmuk5d2vudr8odzmwd5ao2yk3",
+      "url": "https://soundza.com/sound/beep-warning",
+      "title": "Beep Warning",
+      "description": "A crisp, high-pitched beep tone designed as a warning or alert notification. Suitable for system alerts, error messages, or attention-grabbing notifications in UI and game contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.72,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "notification",
+        "ui",
+        "error"
+      ],
+      "sync_ms": 415,
+      "lufs": -15.9,
+      "true_peak_db": -4.8,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 227218,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xkSbLZWBI2sYpzPUmpugo6V3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuk5d2vudr8odzmwd5ao2yk3/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep Warning\" on Soundza (https://soundza.com/sound/beep-warning)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0gp82z009306i9a39cbaqn",
+      "url": "https://soundza.com/sound/ui-sound-10",
+      "title": "UI Sound 10",
+      "description": "A bright, high-pitched electronic chime that confirms a user action. Perfect for interface feedback, menu selections, or game notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 1.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G4",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "ui",
+        "beep",
+        "chime",
+        "notification",
+        "bright"
+      ],
+      "sync_ms": 100,
+      "lufs": -23.5,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -19.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 246846,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qoVZKA-7xEdRlOQdzc6h-jag.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009306i9a39cbaqn/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 10\" on Soundza (https://soundza.com/sound/ui-sound-10)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmuynws8x000x06nvtisn6sar",
+      "url": "https://soundza.com/sound/zap-2",
+      "title": "Zap 2",
+      "description": "A sharp, tonal electrical zap with a clean attack and quick decay. Ideal for sci-fi interfaces, energy impacts, or game feedback sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "B2",
+      "mood": [],
+      "tags": [
+        "electricity",
+        "sci-fi",
+        "ui",
+        "game",
+        "impact",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -29.8,
+      "true_peak_db": -20.4,
+      "loudness": {
+        "value": -27.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 155206,
+      "category": {
+        "id": "LASRGun",
+        "label": "Lasers › Gun"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-XKwB9ifqX1tVEObEuu04JmP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuynws8x000x06nvtisn6sar/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Zap 2\" on Soundza (https://soundza.com/sound/zap-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5ncxv7020p06l4fzoj1prw",
+      "url": "https://soundza.com/sound/phone-2",
+      "title": "Phone 2",
+      "description": "A short, bright electronic tone characteristic of a smartphone notification or alert. Suitable for UI feedback or interface sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "B5",
+      "mood": [],
+      "tags": [
+        "ui",
+        "notification",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -10.5,
+      "loudness": {
+        "value": -21,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 22488,
+      "category": {
+        "id": "COMCell",
+        "label": "Communications › Cellphone"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/o1Plv2NNbARKoO_XaT1He9Qx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv7020p06l4fzoj1prw/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Phone 2\" on Soundza (https://soundza.com/sound/phone-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmuymqzsh001206n5swf64wta",
+      "url": "https://soundza.com/sound/misc-sound-3",
+      "title": "Misc Sound 3",
+      "description": "A brief, percussive designed sound with minimal tonality and bright character. Suitable for game events or interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "beep",
+        "click",
+        "bright"
+      ],
+      "sync_ms": 22,
+      "lufs": null,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 114078,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RJ43nlHggDoyk6lQL0sY9fKz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzsh001206n5swf64wta/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Misc Sound 3\" on Soundza (https://soundza.com/sound/misc-sound-3)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5n0d7l011q06l45nguzwcp",
+      "url": "https://soundza.com/sound/error-2",
+      "title": "Error 2",
+      "description": "A sharp, high-pitched electronic beep or error tone, typical of a user interface error notification or system alert. Ideal for game feedback, error messages, or UI confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "beep",
+        "error",
+        "notification",
+        "game"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -16,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 43616,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmv5n0d4w011206l4rnu0a5zy",
+        "name": "Interface Sounds",
+        "slug": "interface-sounds",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/interface-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9f3GOBniAXmI4mIOytjsmpDG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n0d7l011q06l45nguzwcp/file?search_id=wdjfkbb9mnd4820q1h1ydbe0",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error 2\" on Soundza (https://soundza.com/sound/error-2)",
+      "matched_words": [
+        "beep"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "race countdown beep",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 2,
+    "style": null,
+    "good_for": [
+      "transition"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A race countdown beep sound effect. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"race countdown beep\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "wdjfkbb9mnd4820q1h1ydbe0"
+}

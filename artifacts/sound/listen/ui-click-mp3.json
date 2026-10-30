@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/ui-click.mp3",
+  "sha": "fda11c8b6e0f2eb6",
+  "want": "a soft clean short user interface button click, dry",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    8,
+    8,
+    9
+  ],
+  "fit": 8,
+  "heard": "A very short, soft, clean click — like a small plastic switch or mouse button being pressed. Very close-miked, tiny, with no reverb or tail at all; it just stops dead.",
+  "sounds_like": "A soft mouse click or small tactile switch press",
+  "problems": "Slightly thin and generic — it reads more like a raw mechanical switch than a designed UI sound, and it may be too quiet/low-impact to cut through a busy mix. Otherwise dry and clean as requested.",
+  "veto": false
+}

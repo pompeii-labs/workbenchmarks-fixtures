@@ -1,0 +1,3486 @@
+{
+  "query": {
+    "q": "start beep countdown race light",
+    "max_duration": "6",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 472,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=start+beep+countdown+race+light&max_duration=6&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmukid4wdelmmxzis88dti5m0",
+      "url": "https://soundza.com/sound/rally-countdown-beeps",
+      "title": "Rally Countdown Beeps",
+      "description": "Three descending electronic beeps that signal the start of a race or rally event. A sharp, tonal countdown from three to one with quick attacks and minimal decay.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "notification"
+      ],
+      "sync_ms": 3263,
+      "lufs": -11.1,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -4.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1152086,
+      "category": {
+        "id": "BEEPAppl",
+        "label": "Beeps › Appliance"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/H3lpxJTWo_QSLbTuxp_m0k7v.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukid4wdelmmxzis88dti5m0/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rally Countdown Beeps\" on Soundza (https://soundza.com/sound/rally-countdown-beeps)",
+      "matched_words": [
+        "start",
+        "beep",
+        "countdown",
+        "race"
+      ]
+    },
+    {
+      "id": "cmukidheznatywz9v9kt98rzs",
+      "url": "https://soundza.com/sound/countdown-beeper",
+      "title": "Countdown Beeper",
+      "description": "A synthetic beep sequence that counts down to zero, designed for game start signals and race countdowns. Each beep is crisp and tonal, ideal for racing games or any application needing a clear, audible timer.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 5.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "notification",
+        "game",
+        "ui"
+      ],
+      "sync_ms": 260,
+      "lufs": -10.9,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -6.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1425214,
+      "category": {
+        "id": "BEEPTimer",
+        "label": "Beeps › Timer"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RhhMSjDbyTbkcQmqjczluCJF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukidheznatywz9v9kt98rzs/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Countdown Beeper\" on Soundza (https://soundza.com/sound/countdown-beeper)",
+      "matched_words": [
+        "start",
+        "beep",
+        "countdown",
+        "race"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901ej06l4540afi72",
+      "url": "https://soundza.com/sound/start-3",
+      "title": "Start 3",
+      "description": "A bright, ascending chime sequence typical of early video game startup or level select screens, created with classic NES sound synthesis. Suitable for game UI, menu navigation, or retro transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "chime",
+        "game",
+        "ui",
+        "notification",
+        "retro",
+        "arcade",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.5,
+      "loudness": {
+        "value": -17.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 51290,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LcHg4vIAGRDO_o84p2QiL0yj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901ej06l4540afi72/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Start 3\" on Soundza (https://soundza.com/sound/start-3)",
+      "matched_words": [
+        "start",
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvl5sol8uwxwk44pzc4006l9",
+      "url": "https://soundza.com/sound/match-lighting-strike",
+      "title": "Match Lighting Strike",
+      "description": "The sharp, crisp sound of a match being struck against a matchbox, with the quick ignition and initial flame development. Ideal for foley, period scenes, and intimate fire-starting moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition"
+      ],
+      "duration": 3.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 341,
+      "lufs": -37.9,
+      "true_peak_db": -12.6,
+      "loudness": {
+        "value": -31.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1047698,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rtbEnUSf3oiAw94-hFvAk5WS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5sol8uwxwk44pzc4006l9/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Match Lighting Strike\" on Soundza (https://soundza.com/sound/match-lighting-strike)",
+      "matched_words": [
+        "start",
+        "light"
+      ]
+    },
+    {
+      "id": "cmv8ziobez9ltuf2izitijngi",
+      "url": "https://soundza.com/sound/hour-beep-sequence",
+      "title": "Hour Beep Sequence",
+      "description": "A precise countdown sequence of five short beeps followed by one longer beep, designed to mark the top of the hour for broadcasts, newscasts, and timed video content.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click"
+      ],
+      "duration": 6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "beep",
+        "notification"
+      ],
+      "sync_ms": 5296,
+      "lufs": -12,
+      "true_peak_db": -7.4,
+      "loudness": {
+        "value": -7.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1587684,
+      "category": {
+        "id": "BEEPTimer",
+        "label": "Beeps › Timer"
+      },
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/FyNlKilNPX4vy2Z2XrRqZNmL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8ziobez9ltuf2izitijngi/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hour Beep Sequence\" on Soundza (https://soundza.com/sound/hour-beep-sequence)",
+      "matched_words": [
+        "beep",
+        "countdown"
+      ]
+    },
+    {
+      "id": "cmukdzegcchgsgciswlxm7lcr",
+      "url": "https://soundza.com/sound/fluorescent-lamp-start",
+      "title": "Fluorescent Lamp Start",
+      "description": "A fluorescent tube light powering up with an initial electrical hum and flicker before settling into a steady glow. Typical office environment startup sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 3.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "office",
+        "switch",
+        "machine"
+      ],
+      "sync_ms": 973,
+      "lufs": -21.2,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 949444,
+      "category": {
+        "id": "ELECBuzz",
+        "label": "Electricity › Buzz & Hum"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SfOgKkL_ujwWyhvL7w7TVag2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdzegcchgsgciswlxm7lcr/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fluorescent Lamp Start\" on Soundza (https://soundza.com/sound/fluorescent-lamp-start)",
+      "matched_words": [
+        "start",
+        "light"
+      ]
+    },
+    {
+      "id": "cmukd71qpyjtafaivvrwf327c",
+      "url": "https://soundza.com/sound/car-engine-start",
+      "title": "Car Engine Start",
+      "description": "A car engine starting and briefly running, with the characteristic cranking and ignition sounds of an internal combustion motor. Useful for vehicle interactions and mechanical ambience in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine",
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -34.4,
+      "true_peak_db": -21.3,
+      "loudness": {
+        "value": -31.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 740962,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ACJGTjngLx2WZqpw4WZMFsjU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd71qpyjtafaivvrwf327c/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Car Engine Start\" on Soundza (https://soundza.com/sound/car-engine-start)",
+      "matched_words": [
+        "start"
+      ]
+    },
+    {
+      "id": "cmvdz8yujmvexqu2y4gwyrqr7",
+      "url": "https://soundza.com/sound/motorcycle-starting",
+      "title": "Motorcycle Starting",
+      "description": "A motorcycle engine cranking and turning over with typical mechanical engine sounds. Useful for vehicle scenes, transition moments, or automotive action sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 5.13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -13.8,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1357044,
+      "category": {
+        "id": "VEHMoto",
+        "label": "Vehicles › Motorcycle"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/djXxFYrFgx8GxrYBJTtSyg9c.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdz8yujmvexqu2y4gwyrqr7/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Motorcycle Starting\" on Soundza (https://soundza.com/sound/motorcycle-starting)",
+      "matched_words": [
+        "start"
+      ]
+    },
+    {
+      "id": "cmvl525ety1leeh95mfaq8r9z",
+      "url": "https://soundza.com/sound/torch-light-and-throw",
+      "title": "Torch Light and Throw",
+      "description": "A torch being ignited and then thrown through the air, with layered textures of fabric and plastic creating complex rustling and whooshing tones. Suitable for fire ignition sequences or dynamic throwing actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition"
+      ],
+      "duration": 4.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "whoosh",
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": 1005,
+      "lufs": -19.1,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -13.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1102976,
+      "category": {
+        "id": "FIRETrch",
+        "label": "Fire › Torch"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xt_kLQP_ehNor46k6jyOr-j5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl525ety1leeh95mfaq8r9z/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Torch Light and Throw\" on Soundza (https://soundza.com/sound/torch-light-and-throw)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmv0in0xd00d006l56v55f0vt",
+      "url": "https://soundza.com/sound/menu-start",
+      "title": "Menu Start",
+      "description": "A bright, ascending chime-like tone typical of 8-bit video game interface sounds. Perfect for signaling the start of a menu or selection confirmation in retro games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "menu"
+      ],
+      "duration": 0.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "menu",
+        "ui",
+        "chime",
+        "game",
+        "notification",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -20.3,
+      "true_peak_db": -8.8,
+      "loudness": {
+        "value": -17.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 124778,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Mm_lqVDQKMyxLoucYcxa5uDR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0in0xd00d006l56v55f0vt/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Menu Start\" on Soundza (https://soundza.com/sound/menu-start)",
+      "matched_words": [
+        "start"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901ek06l48e93ll7w",
+      "url": "https://soundza.com/sound/start-4",
+      "title": "Start 4",
+      "description": "A bright, ascending chime typical of NES-era games, perfect for level starts, menu transitions, or game state changes. The classic 8-bit synthesis gives it authentic retro character.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "title_or_logo"
+      ],
+      "duration": 1.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "chime",
+        "game",
+        "notification",
+        "retro",
+        "ui",
+        "beep"
+      ],
+      "sync_ms": 6,
+      "lufs": -20.3,
+      "true_peak_db": -7.9,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 139994,
+      "category": {
+        "id": "BEEPLofi",
+        "label": "Beeps › Lofi"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GqCsT-xwzb5iVEeM9rRkPJi6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901ek06l48e93ll7w/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Start 4\" on Soundza (https://soundza.com/sound/start-4)",
+      "matched_words": [
+        "start",
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5oaxx4000p06l56ipvnht6",
+      "url": "https://soundza.com/sound/beep-3-1",
+      "title": "Beep 3",
+      "description": "A bright, shimmering magical chime with a resonant ring, suitable for spell casting, UI feedback, or magical reveals in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "reveal"
+      ],
+      "duration": 1.52,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "magic",
+        "chime",
+        "ui",
+        "notification",
+        "bright"
+      ],
+      "sync_ms": 434,
+      "lufs": -16.3,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -13.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 201670,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5oaxtg000006l5zf0ogbxj",
+        "name": "Beeps & Background Sounds",
+        "slug": "beeps-and-background-sounds",
+        "sound_count": 22,
+        "url": "https://soundza.com/packs/beeps-and-background-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3ZlMzWVVqN1_GWEsh929qVk3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oaxx4000p06l56ipvnht6/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep 3\" on Soundza (https://soundza.com/sound/beep-3-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvgv17yg1g83t1qcm692rzgv",
+      "url": "https://soundza.com/sound/light-footsteps-on-carpet",
+      "title": "Light Footsteps on Carpet",
+      "description": "Multiple deliberate footsteps crossing a carpeted indoor surface, captured as clean foley. Useful for any scene requiring casual indoor movement without hard impact.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 4.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "indoor",
+        "close-up",
+        "dry"
+      ],
+      "sync_ms": 532,
+      "lufs": -45.5,
+      "true_peak_db": -21.5,
+      "loudness": {
+        "value": -39.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 20.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1278090,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7mbzov2bRf7UMAmNa187TcV9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgv17yg1g83t1qcm692rzgv/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Footsteps on Carpet\" on Soundza (https://soundza.com/sound/light-footsteps-on-carpet)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmukc1p2g2ecxi5vsb95frn5m",
+      "url": "https://soundza.com/sound/light-switch-click-off",
+      "title": "Light Switch Click Off",
+      "description": "A crisp mechanical click as a wall light switch is toggled off. Clean and immediate, perfect for user interface feedback or any scene requiring a realistic electrical switch sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.36,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "click",
+        "switch",
+        "mechanical",
+        "ui",
+        "button",
+        "foley"
+      ],
+      "sync_ms": 139,
+      "lufs": null,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -26,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 47848,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EE_oJb0KMs9x2z7wjawwHTIc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc1p2g2ecxi5vsb95frn5m/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Switch Click Off\" on Soundza (https://soundza.com/sound/light-switch-click-off)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvjohjkwlch8l1mx0v6wsphi",
+      "url": "https://soundza.com/sound/magical-light-hit",
+      "title": "Magical Light Hit",
+      "description": "A bright, shimmering impact with glass and metallic tones that evokes positive energy and sudden illumination. Perfect for correct answers, achievements, power-ups, or moments of insight in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 2.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "magic",
+        "glass",
+        "metallic",
+        "bright",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -18.4,
+      "true_peak_db": -4.8,
+      "loudness": {
+        "value": -15.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 663634,
+      "category": {
+        "id": "MAGAngl",
+        "label": "Magic › Angelic"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SpDJ_UK3gaTl767xWlXHfgJ5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjohjkwlch8l1mx0v6wsphi/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Magical Light Hit\" on Soundza (https://soundza.com/sound/magical-light-hit)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvl55mjdjysygmdoorojfa3v",
+      "url": "https://soundza.com/sound/lighting-a-fire",
+      "title": "Lighting A Fire",
+      "description": "A composite sound design of fire igniting with whooshes, sizzles, and crackling flames. Perfect for game events, visual effects, or any moment when an object catches fire.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 5.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "whoosh",
+        "crackle",
+        "game"
+      ],
+      "sync_ms": 102,
+      "lufs": -20.3,
+      "true_peak_db": 5.9,
+      "loudness": {
+        "value": -7.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1489646,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/D5_kM1X2AJxqGUbLOXBlSFPe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl55mjdjysygmdoorojfa3v/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lighting A Fire\" on Soundza (https://soundza.com/sound/lighting-a-fire)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvl58kq7pgxrrrftznj3djy1",
+      "url": "https://soundza.com/sound/match-lighting-candle",
+      "title": "Match Lighting Candle",
+      "description": "A match strike followed by the flame igniting a candle. Useful for intimate scenes, fire sequences, or detailed foley work.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "foley"
+      ],
+      "sync_ms": 43,
+      "lufs": -33.2,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -27.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 357206,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hK8A1H2EgtJ056fqJYDn-ghk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl58kq7pgxrrrftznj3djy1/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Match Lighting Candle\" on Soundza (https://soundza.com/sound/match-lighting-candle)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvib3hv855a40vsmkd84q29w",
+      "url": "https://soundza.com/sound/light-armor-punch-impact",
+      "title": "Light Armor Punch Impact",
+      "description": "A sharp, percussive impact of a fist striking light armor plating. Quick attack and decay make it ideal for combat sequences where armor absorbs a punch.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "punch",
+        "metallic",
+        "close-up",
+        "foley"
+      ],
+      "sync_ms": 75,
+      "lufs": -24.8,
+      "true_peak_db": -7.4,
+      "loudness": {
+        "value": -24.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 91782,
+      "category": {
+        "id": "WEAPArmr",
+        "label": "Weapons › Armor"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_XuvYyVSieAENzrnJpcPe9lW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvib3hv855a40vsmkd84q29w/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Armor Punch Impact\" on Soundza (https://soundza.com/sound/light-armor-punch-impact)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700v106l4lol2r4pp",
+      "url": "https://soundza.com/sound/lighter-light",
+      "title": "Lighter Light",
+      "description": "A quick, bright metallic flick as a lighter ignites. Sharp transient with minimal sustain, suitable for quick UI feedback or game interaction moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "click",
+        "metal",
+        "bright",
+        "ui",
+        "game",
+        "foley"
+      ],
+      "sync_ms": 40,
+      "lufs": null,
+      "true_peak_db": 1.6,
+      "loudness": {
+        "value": -23.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 86064,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ma1zBrk0CQ1qi5FG-zhBTr0D.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700v106l4lol2r4pp/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lighter Light\" on Soundza (https://soundza.com/sound/lighter-light)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmukc3mfumm8jblu6wdmjji3l",
+      "url": "https://soundza.com/sound/light-switch-click",
+      "title": "Light Switch Click",
+      "description": "A crisp, plastic light switch activation sound with a sharp mechanical click. Ideal for UI feedback in games, apps, or video interfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "switch",
+        "button",
+        "mechanical",
+        "plastic",
+        "foley"
+      ],
+      "sync_ms": 150,
+      "lufs": -34.3,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -34.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 120840,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K0dm4Dr6ageqFlKMpFQNZVmd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc3mfumm8jblu6wdmjji3l/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Switch Click\" on Soundza (https://soundza.com/sound/light-switch-click)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmv5o6wth02uj06l4qlugfbqa",
+      "url": "https://soundza.com/sound/female-light-dialog-voice-3",
+      "title": "Female Light Dialog Voice 3",
+      "description": "A short, bright synthetic vocal sample designed for RPG dialogue boxes. Each blip plays as text appears on screen to simulate character speech.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "A3",
+      "mood": [],
+      "tags": [
+        "vocal",
+        "ui",
+        "game",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.7,
+      "loudness": {
+        "value": -15.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 16128,
+      "category": {
+        "id": "VOXFem",
+        "label": "Voices › Female"
+      },
+      "pack": {
+        "id": "cmv5o6wsb02uc06l4zcef8bjp",
+        "name": "Dialogue Text Blips",
+        "slug": "dialogue-text-blips",
+        "sound_count": 32,
+        "url": "https://soundza.com/packs/dialogue-text-blips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nXZ3dgyjhVXFYrq4fck1lm0j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o6wth02uj06l4qlugfbqa/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Female Light Dialog Voice 3\" on Soundza (https://soundza.com/sound/female-light-dialog-voice-3)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmuymqzse000h06n5uykvmpnd",
+      "url": "https://soundza.com/sound/light-armor",
+      "title": "Light Armor",
+      "description": "A bright, metallic clink sound with a quick attack and minimal sustain. Ideal for light armor impacts, equipment interactions, or inventory management in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "metallic",
+        "game",
+        "impact"
+      ],
+      "sync_ms": 107,
+      "lufs": -15.6,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -14.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 132376,
+      "category": {
+        "id": "WEAPArmr",
+        "label": "Weapons › Armor"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v54iUSf-d0QLdzBw1e7fDZJd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzse000h06n5uykvmpnd/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Armor\" on Soundza (https://soundza.com/sound/light-armor)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmukdui4xdvkyh5gt7s73tyay",
+      "url": "https://soundza.com/sound/small-fluorescent-light-shattering",
+      "title": "Small Fluorescent Light Shattering",
+      "description": "A small fluorescent light tube breaks against a hard surface with a sharp, brittle crash followed by tinkling glass debris and room reverb. The recording captures the full impact and acoustic character of the space.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "glass",
+        "impact",
+        "field-recording",
+        "foley"
+      ],
+      "sync_ms": 20,
+      "lufs": -16.9,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1405930,
+      "category": {
+        "id": "GLASBrk",
+        "label": "Glass › Break"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sv7x22JP5n0BhX-TW6hYmk1Z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdui4xdvkyh5gt7s73tyay/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Fluorescent Light Shattering\" on Soundza (https://soundza.com/sound/small-fluorescent-light-shattering)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmujgpldqzlhc2mvxt816d8ny",
+      "url": "https://soundza.com/sound/error-beep",
+      "title": "Error Beep",
+      "description": "A short, low-pitched electronic beep with a negative character, ideal for error alerts and failure notifications in UI or game contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#2",
+      "mood": [],
+      "tags": [
+        "beep",
+        "error",
+        "notification",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": -3.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -3.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -9.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 55660,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_Osj9rGrG-1m6H-YFJYhAWer.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgpldqzlhc2mvxt816d8ny/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Error Beep\" on Soundza (https://soundza.com/sound/error-beep)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmukc24c3yiz3rdb6rqqyygva",
+      "url": "https://soundza.com/sound/light-switch-off-click",
+      "title": "Light Switch Off Click",
+      "description": "A crisp mechanical click of a light switch being turned off. Clean, percussive, and immediate—ideal for UI feedback or interactive elements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "click",
+        "switch",
+        "ui",
+        "button",
+        "mechanical"
+      ],
+      "sync_ms": 14,
+      "lufs": -21.6,
+      "true_peak_db": 1.3,
+      "loudness": {
+        "value": -21.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 230488,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NtcBAxC1F7wk8m5ffyoIL5-T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc24c3yiz3rdb6rqqyygva/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Switch Off Click\" on Soundza (https://soundza.com/sound/light-switch-off-click)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmtlwtfle5mvvuw3gr1fgr8y3",
+      "url": "https://soundza.com/sound/beep-click",
+      "title": "Beep Click",
+      "description": "A bright, mid-range beep with a snappy attack and minimal decay—punchy and percussive with a clean, artificial quality that sits in the frequency range of a grocery store checkout or alert tone. The dry, one-shot character and crispy mid-range presence make it useful for adding quirky rhythmic texture or glitchy percussion layers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 0.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy",
+        "glitchy"
+      ],
+      "tags": [
+        "snare",
+        "percussion",
+        "bright",
+        "crispy",
+        "punchy",
+        "one-shot",
+        "glitchy",
+        "stab"
+      ],
+      "sync_ms": 26,
+      "lufs": -11.4,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -11.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 141826,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "nna4x303lhpnpm857yhexnr4",
+        "name": "The Ultimate Tech House Kit",
+        "slug": "the-ultimate-tech-house-kit",
+        "sound_count": 89,
+        "url": "https://soundza.com/packs/the-ultimate-tech-house-kit"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NoIRDnx6019MrnCx-CeBpal-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtlwtfle5mvvuw3gr1fgr8y3/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep Click\" by TRAGWERK on Soundza (https://soundza.com/sound/beep-click)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvguz7iwonmsbaflwf5nshcg",
+      "url": "https://soundza.com/sound/light-metal-footstep-2",
+      "title": "Light Metal Footstep 2",
+      "description": "Quick, crisp footsteps on metallic flooring with a distinctive hollow resonance, typical of an elevator or industrial metal grating. Ideal for foley work in tight indoor spaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "footsteps",
+        "metal",
+        "foley",
+        "indoor",
+        "metallic"
+      ],
+      "sync_ms": 5,
+      "lufs": -36.1,
+      "true_peak_db": -15.1,
+      "loudness": {
+        "value": -34.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 76030,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gZ0hhOe_TUVRbkNWSyMsX6hK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvguz7iwonmsbaflwf5nshcg/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Metal Footstep 2\" on Soundza (https://soundza.com/sound/light-metal-footstep-2)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvib4q8i2j9cl2hmrso7mg50",
+      "url": "https://soundza.com/sound/light-metal-block",
+      "title": "Light Metal Block",
+      "description": "A sharp, bright metallic clang designed for blocking impacts in combat. Ideal for shield blocks, parries, or weapon deflections in games and fight scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "metal",
+        "impact",
+        "game",
+        "metallic"
+      ],
+      "sync_ms": 100,
+      "lufs": -24.8,
+      "true_peak_db": 1.5,
+      "loudness": {
+        "value": -23.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 122962,
+      "category": {
+        "id": "WEAPArmr",
+        "label": "Weapons › Armor"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LVeYRF52tincN0YpFwIdVd8T.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvib4q8i2j9cl2hmrso7mg50/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Metal Block\" on Soundza (https://soundza.com/sound/light-metal-block)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvgwc5chueh4ewovbw0ld7tg",
+      "url": "https://soundza.com/sound/light-footstep-on-ceramic",
+      "title": "Light Footstep on Ceramic",
+      "description": "A single soft footstep on a hard ceramic or tile floor, recorded with minimal processing. Suitable for indoor foley or movement sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": 71,
+      "lufs": null,
+      "true_peak_db": -23.4,
+      "loudness": {
+        "value": -40.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 22.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 83220,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ou6DS3OT6YhYKyxzFpKeXg9W.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwc5chueh4ewovbw0ld7tg/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Footstep on Ceramic\" on Soundza (https://soundza.com/sound/light-footstep-on-ceramic)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmv5o5pot02s706l4a8l6pdee",
+      "url": "https://soundza.com/sound/retro-beep-2",
+      "title": "Retro Beep 2",
+      "description": "A crisp, short beep with vintage synthesizer character, reminiscent of early computer and arcade systems. Useful as a UI response, notification, or sci-fi interface element.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_pickup"
+      ],
+      "duration": 0.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "retro",
+        "sci-fi",
+        "ui",
+        "notification",
+        "8-bit",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -20.3,
+      "true_peak_db": -8.8,
+      "loudness": {
+        "value": -20.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 108048,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5n8wb901q606l418na1vim",
+        "name": "Sci-Fi Beeps & Terminals",
+        "slug": "sci-fi-beeps-and-terminals",
+        "sound_count": 33,
+        "url": "https://soundza.com/packs/sci-fi-beeps-and-terminals"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WdoCHyNlumP6_Aw_yF9_CG0w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o5pot02s706l4a8l6pdee/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Beep 2\" on Soundza (https://soundza.com/sound/retro-beep-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5nr9z5027u06l4j1o9o64j",
+      "url": "https://soundza.com/sound/fat-beep-2",
+      "title": "Fat Beep 2",
+      "description": "A thick, harsh electronic beep with a punchy attack, characteristic of 1-bit sound chip synthesis. Ideal for retro game interfaces, 8-bit UI feedback, or vintage computer sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "beep",
+        "8-bit",
+        "retro",
+        "ui",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -15.1,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -14.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 75186,
+      "category": {
+        "id": "BEEP",
+        "label": "Beeps › General"
+      },
+      "pack": {
+        "id": "cmv5nr9xg027j06l4bmwbnoef",
+        "name": "8-bit FX for Games",
+        "slug": "8-bit-fx-for-games",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/8-bit-fx-for-games"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O2nlo-snYtlseyjluiEiLsba.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nr9z5027u06l4j1o9o64j/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fat Beep 2\" on Soundza (https://soundza.com/sound/fat-beep-2)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvguzi99ju90f4djdkunxf1f",
+      "url": "https://soundza.com/sound/light-metal-footstep-3",
+      "title": "Light Metal Footstep 3",
+      "description": "Footsteps on metallic surfaces recorded in an elevator shaft, with sharp metallic resonance. Suitable for indoor walking scenes, mechanical environments, or ventilation spaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "foley",
+        "indoor"
+      ],
+      "sync_ms": 9,
+      "lufs": -38.6,
+      "true_peak_db": -15.2,
+      "loudness": {
+        "value": -34.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 80938,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/h9hSOb6VNJJNycXES46-dJ8B.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvguzi99ju90f4djdkunxf1f/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Metal Footstep 3\" on Soundza (https://soundza.com/sound/light-metal-footstep-3)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvguzuf57e835xn6rn3gw1s7",
+      "url": "https://soundza.com/sound/light-metal-footstep-1",
+      "title": "Light Metal Footstep 1",
+      "description": "Footsteps of boots walking across a thin metal surface with a resonant, echoing quality, recorded in an elevator. Works well for metal corridors, ventilation shafts, or industrial spaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "foley",
+        "indoor",
+        "mechanical"
+      ],
+      "sync_ms": 5,
+      "lufs": -36.8,
+      "true_peak_db": -14.1,
+      "loudness": {
+        "value": -33,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 89630,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZINQHpCmZ0LsS_B4Q0Hby8q5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvguzuf57e835xn6rn3gw1s7/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Metal Footstep 1\" on Soundza (https://soundza.com/sound/light-metal-footstep-1)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvguzww89ad8hxq308314b24",
+      "url": "https://soundza.com/sound/crisp-light-metal-footstep",
+      "title": "Crisp Light Metal Footstep",
+      "description": "Light footsteps of boots treading on hollow metal surfaces with a crisp, metallic ring. Ideal for indoor industrial scenes, elevators, catwalks, or ventilation shafts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "footsteps",
+        "metal",
+        "foley",
+        "metallic",
+        "indoor"
+      ],
+      "sync_ms": 12,
+      "lufs": -37.5,
+      "true_peak_db": -16.8,
+      "loudness": {
+        "value": -33,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 94434,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1lpjvRf59ida-fu9sI5-uTuK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvguzww89ad8hxq308314b24/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Light Metal Footstep\" on Soundza (https://soundza.com/sound/crisp-light-metal-footstep)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmuke0tn6mi0l0lphc9ozpd9b",
+      "url": "https://soundza.com/sound/match-strike",
+      "title": "Match Strike",
+      "description": "A bright, sharp strike of a match igniting, with crisp transient noise characteristic of friction and combustion. Useful for scenes involving fire starting or intimate close-up fire lighting.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "fire",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 199,
+      "lufs": -31.3,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -27,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 163110,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ADJUNpzUh1x3tUDUkPs4pErK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuke0tn6mi0l0lphc9ozpd9b/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Match Strike\" on Soundza (https://soundza.com/sound/match-strike)",
+      "matched_words": [
+        "start",
+        "light"
+      ]
+    },
+    {
+      "id": "vz9vzls94b5pqnznmpnz789k",
+      "url": "https://soundza.com/sound/paper-flick-whoosh-5",
+      "title": "Paper Flick Whoosh 5",
+      "description": "A crisp, high-frequency paper swish with a quick transient attack, suitable for transitions between shots or editorial cuts. The sound has minimal sustain and a clean, designed character typical of foley or UI elements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "ui_click"
+      ],
+      "duration": 0.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "paper",
+        "flick",
+        "light",
+        "foley",
+        "swipe",
+        "swish",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": -12.5,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -10.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 262040,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Zwc8jYusf50BAeCUjeNcVMS3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/vz9vzls94b5pqnznmpnz789k/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Paper Flick Whoosh 5\" on Soundza (https://soundza.com/sound/paper-flick-whoosh-5)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "b78sqn69y3nt9gnza7r0k39a",
+      "url": "https://soundza.com/sound/paper-flick-whoosh-1",
+      "title": "Paper Flick Whoosh 1",
+      "description": "A crisp, bright whoosh of paper moving quickly through air, with a sharp attack and high-frequency character. Useful for transitions, quick gestures, or paper-based UI interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "ui_click"
+      ],
+      "duration": 1.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "whoosh",
+        "paper",
+        "flick",
+        "light",
+        "foley",
+        "swipe",
+        "swish",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -13.5,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -11.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 277916,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/85gNs7Efny1tI1bxGDz8benj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/b78sqn69y3nt9gnza7r0k39a/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Paper Flick Whoosh 1\" on Soundza (https://soundza.com/sound/paper-flick-whoosh-1)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "j95ibusxxlgxx8h8whtieo0u",
+      "url": "https://soundza.com/sound/paper-flick-whoosh-4",
+      "title": "Paper Flick Whoosh 4",
+      "description": "A quick, bright paper-like swoosh or swish sound with a sharp attack and minimal sustain. Useful for transitions, quick movements, or paper-based foley effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "ui_click"
+      ],
+      "duration": 0.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "whoosh",
+        "paper",
+        "flick",
+        "light",
+        "foley",
+        "swipe",
+        "swish",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -15.4,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -13.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 224996,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BD0olc_KAM0YcteO0VCj2jTx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/j95ibusxxlgxx8h8whtieo0u/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Paper Flick Whoosh 4\" on Soundza (https://soundza.com/sound/paper-flick-whoosh-4)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "ni9m4ereq793w1wz6tsyp55t",
+      "url": "https://soundza.com/sound/paper-flick-whoosh-3",
+      "title": "Paper Flick Whoosh 3",
+      "description": "A bright, crisp paper-flick sound with a quick whoosh that moves through the air. Useful for transitions, quick reveals, or comedic timing in video edits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "ui_click"
+      ],
+      "duration": 1.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "paper",
+        "flick",
+        "light",
+        "foley",
+        "swipe",
+        "swish",
+        "transition",
+        "dry"
+      ],
+      "sync_ms": null,
+      "lufs": -15.1,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -14,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 285854,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CiU38uBrR5-ftcl6_X4B09sf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/ni9m4ereq793w1wz6tsyp55t/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Paper Flick Whoosh 3\" on Soundza (https://soundza.com/sound/paper-flick-whoosh-3)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "op8a0vuurko3gzdcqhir14xr",
+      "url": "https://soundza.com/sound/paper-flick-whoosh-2",
+      "title": "Paper Flick Whoosh 2",
+      "description": "A crisp, high-frequency whoosh with a paper-like texture, created by a flicking motion. Ideal for transitions, quick cuts, or emphasizing fast movement in video and game projects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "ui_click"
+      ],
+      "duration": 1.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "whoosh",
+        "paper",
+        "flick",
+        "light",
+        "foley",
+        "swipe",
+        "swish",
+        "transition",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -17.6,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 309668,
+      "category": {
+        "id": "WHSH",
+        "label": "Swooshes › Whoosh"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/a8uGz48ClFncL6oDsYmFwflw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/op8a0vuurko3gzdcqhir14xr/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Paper Flick Whoosh 2\" on Soundza (https://soundza.com/sound/paper-flick-whoosh-2)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmukd75iy9y4i6emy4mp4um4n",
+      "url": "https://soundza.com/sound/bmw-engine-start-outside",
+      "title": "BMW Engine Start Outside",
+      "description": "A BMW 120d diesel engine starting from an external perspective. The recording captures the initial cranking and ignition sequence with clear mechanical detail, suitable for vehicle scenes requiring authentic engine startup sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.52,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "car",
+        "engine",
+        "mechanical"
+      ],
+      "sync_ms": 713,
+      "lufs": -20.3,
+      "true_peak_db": -1.3,
+      "loudness": {
+        "value": -14.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 724698,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3UxnyUGrJ7_EvqRQ9MWYVytj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd75iy9y4i6emy4mp4um4n/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"BMW Engine Start Outside\" on Soundza (https://soundza.com/sound/bmw-engine-start-outside)",
+      "matched_words": [
+        "start"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901el06l4ewu20gwo",
+      "url": "https://soundza.com/sound/start-5",
+      "title": "Start 5",
+      "description": "A short, bright chime characteristic of early NES game startups and level transitions. Useful as a notification, menu confirmation, or game state change indicator.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo",
+        "ui_click"
+      ],
+      "duration": 0.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "notification",
+        "game",
+        "retro",
+        "beep",
+        "arcade"
+      ],
+      "sync_ms": 5,
+      "lufs": -19.7,
+      "true_peak_db": -8.2,
+      "loudness": {
+        "value": -16.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 126662,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cAW3NiMX6QV9cU9CCrcoxGjL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901el06l4ewu20gwo/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Start 5\" on Soundza (https://soundza.com/sound/start-5)",
+      "matched_words": [
+        "start",
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv0i1rh400au06l8abehh73o",
+      "url": "https://soundza.com/sound/8-bit-teleport-1",
+      "title": "8-Bit Teleport 1",
+      "description": "A short, bright electronic teleport effect with classic retro 8-bit character. Perfect for sci-fi transitions, game teleportation events, or menu navigation sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "transition",
+        "ui_click"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "sci-fi",
+        "game",
+        "transition",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": -15.8,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 54668,
+      "category": {
+        "id": "SCIVeh",
+        "label": "Scifi › Vehicle"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T-EypxLmkQ_eYViBufpLYdXi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i1rh400au06l8abehh73o/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Teleport 1\" on Soundza (https://soundza.com/sound/8-bit-teleport-1)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5sxz2w02d806l6o22xlrnb",
+      "url": "https://soundza.com/sound/reversed-whistle-8",
+      "title": "Reversed Whistle 8",
+      "description": "A whistle sound played in reverse, creating an eerie descending tone that starts with a whistle attack and fades. Useful for transitions, reveals, or sci-fi effects in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "reveal",
+        "ui_click"
+      ],
+      "duration": 2.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "reverse",
+        "foley",
+        "transition",
+        "sci-fi",
+        "vocal"
+      ],
+      "sync_ms": null,
+      "lufs": -28.9,
+      "true_peak_db": -25.2,
+      "loudness": {
+        "value": -27.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 663636,
+      "category": {
+        "id": "WHSTHmn",
+        "label": "Whistles › Human"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fIYeAsw4jp2BQrhTYCc95mmM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5sxz2w02d806l6o22xlrnb/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Reversed Whistle 8\" on Soundza (https://soundza.com/sound/reversed-whistle-8)",
+      "matched_words": [
+        "start"
+      ]
+    },
+    {
+      "id": "cmv8zqntpygjxhfpezjkdxudu",
+      "url": "https://soundza.com/sound/dslr-camera-click",
+      "title": "DSLR Camera Click",
+      "description": "A series of camera shutter clicks and autofocus beeps from a Canon DSLR, captured during rapid shooting. Perfect for documenting photography moments or adding authenticity to scenes with picture-taking.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "click",
+        "beep",
+        "mechanical"
+      ],
+      "sync_ms": 948,
+      "lufs": -20.9,
+      "true_peak_db": 2,
+      "loudness": {
+        "value": -18.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 562196,
+      "category": {
+        "id": "COMCam",
+        "label": "Communications › Camera"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RgLbnb3OG61GY9awum8GTowq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zqntpygjxhfpezjkdxudu/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"DSLR Camera Click\" on Soundza (https://soundza.com/sound/dslr-camera-click)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmukde89n4ff394ne3nkghit4",
+      "url": "https://soundza.com/sound/microwave-ding",
+      "title": "Microwave Ding",
+      "description": "A bright, single electronic chime that signals the end of a microwave cycle. Perfect for UI feedback or kitchen scene ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 2.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "chime",
+        "beep",
+        "ui"
+      ],
+      "sync_ms": 1548,
+      "lufs": -22.1,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 775028,
+      "category": {
+        "id": "BEEPAppl",
+        "label": "Beeps › Appliance"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uAAppNfvvoIZdAfMFpLMTeJf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukde89n4ff394ne3nkghit4/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Microwave Ding\" on Soundza (https://soundza.com/sound/microwave-ding)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmvff9pk9lq6hjgzz5onhgdk5",
+      "url": "https://soundza.com/sound/light-jogging-footsteps-on-grass",
+      "title": "Light Jogging Footsteps on Grass",
+      "description": "A person jogging lightly across grass with clear, crisp footfalls. Each step is distinct and natural, capturing the soft impact of shoes on an outdoor grassy surface.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 3.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 2512,
+      "lufs": -33.1,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -29.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 534582,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tVgbk7V2wtyU_2JcjhLsvQAD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvff9pk9lq6hjgzz5onhgdk5/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Jogging Footsteps on Grass\" on Soundza (https://soundza.com/sound/light-jogging-footsteps-on-grass)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "q3mx82494no2k547e0mul8s3",
+      "url": "https://soundza.com/sound/rapid-beep-loop",
+      "title": "Rapid Beep Loop",
+      "description": "A playful, high-pitched electronic beeping loop with rapid repetitive tones that sound like arcade or video game alerts; crispy and minimal with a hypnotic, rhythmic quality perfect for quirky production textures.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 5.93,
+      "bpm": 123,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "percussion",
+        "bell",
+        "bright",
+        "crispy",
+        "hypnotic",
+        "rhythmic",
+        "digital",
+        "minimal"
+      ],
+      "sync_ms": null,
+      "lufs": -21.9,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -21.9,
+        "basis": "integrated"
+      },
+      "gain_db": 2.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1569104,
+      "category": null,
+      "pack": {
+        "id": "kewswbeszjhbv5ulgh05u8p4",
+        "name": "LOOP MANIA — Drum and Percussion Loops",
+        "slug": "loop-mania-bauchamp-drum-and-percussion-loops",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/loop-mania-bauchamp-drum-and-percussion-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7Lp-WADY3bqZ1WIvhz_kMHY7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/q3mx82494no2k547e0mul8s3/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rapid Beep Loop\" on Soundza (https://soundza.com/sound/rapid-beep-loop)",
+      "matched_words": [
+        "beep"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700v206l4m0054der",
+      "url": "https://soundza.com/sound/match-light",
+      "title": "Match Light",
+      "description": "A quick, crisp strike of a match igniting with a bright spark and immediate flame. Ideal for fantasy scenes, UI interactions, or any moment requiring a small, percussive ignition sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "impact_on_beat"
+      ],
+      "duration": 0.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "fire",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 59,
+      "lufs": -23.3,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -23.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 200876,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QoaVV9gFeMRfFzZLnSi537u0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700v206l4m0054der/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Match Light\" on Soundza (https://soundza.com/sound/match-light)",
+      "matched_words": [
+        "light"
+      ]
+    },
+    {
+      "id": "cmvcmgeymt7gyhuiwi53nf0i1",
+      "url": "https://soundza.com/sound/doorbell-notification",
+      "title": "Doorbell Notification",
+      "description": "A bright, alert-style chime designed for notification popups and UI feedback. Quick and attention-grabbing with a clear tonal character suitable for streaming alerts and interface responses.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "menu"
+      ],
+      "duration": 2.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "notification",
+        "ui",
+        "chime",
+        "beep"
+      ],
+      "sync_ms": 180,
+      "lufs": -18.4,
+      "true_peak_db": -1.5,
+      "loudness": {
+        "value": -15.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 706646,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_fdHYMEAbrg43TOrb6rCo2Az.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmgeymt7gyhuiwi53nf0i1/file?search_id=bnh0f8q1sfb0vvneve6g1e3m",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Doorbell Notification\" on Soundza (https://soundza.com/sound/doorbell-notification)",
+      "matched_words": [
+        "beep"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "start beep countdown race light",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 6,
+    "style": null,
+    "good_for": [
+      "transition",
+      "reveal"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for a start beep, countdown, race, and light sound effect. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"start beep countdown race light\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "bnh0f8q1sfb0vvneve6g1e3m"
+}

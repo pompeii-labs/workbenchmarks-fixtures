@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/finish.mp3",
+  "sha": "ea9a0a1bcfe9ac1c",
+  "want": "a short race finished jingle, neutral to positive, not a fail sound",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    9,
+    9,
+    8
+  ],
+  "fit": 9,
+  "heard": "A quick ascending arpeggio of bright, bell-like synth tones (marimba/xylophone-ish), small and close-miked, ending on a held higher note with a short, clean reverb tail that fades within a second.",
+  "sounds_like": "A classic 'level complete / race finished' jingle from an arcade or kart racer.",
+  "problems": "Very short tail — if the game has a results screen with music underneath, it may feel abrupt; also fairly generic stock-jingle flavor, so it won't give the game a distinctive identity.",
+  "veto": false
+}

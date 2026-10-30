@@ -39,5 +39,10 @@ npm run build
 ```
 Upload the contents of `dist/` (`index.html` plus `assets/`) to any static host or subfolder. Asset paths are relative, so you don't need any server config.
 
+## Sound
+Every sound is a recording from [Soundza](https://soundza.com): the jet ski engine and hull water loops (pitch and level follow speed, throttle, boost and air), an open-sea bed, landing and wipeout splashes, ramp launches, ski-to-ski bumps, ring and gate chimes, the 3-2-1 countdown and air horn, lap, best-lap and finish jingles, and menu clicks. The cue sheet with each sound's trigger, source id and gain is `artifacts/sound/cues.json`; `review/sounds.html` plays every pick. The audio code is `src/systems/AudioSystem.ts`.
+
+Sound effects: soundza.com
+
 ## Testing
 `npm run build:test` builds with deterministic test hooks (`window.__THREE_GAME_TEST_HOOKS__`). The production `build` has no hooks. The playtest sections are in `scripts/playtest/`.

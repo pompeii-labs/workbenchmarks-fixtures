@@ -1,0 +1,3159 @@
+{
+  "query": {
+    "q": "personal watercraft",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 237,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=personal+watercraft&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmvi9zibmdjuelzne5w51w00t",
+      "url": "https://soundza.com/sound/person-falling-on-carpet",
+      "title": "Person Falling on Carpet",
+      "description": "A person lands on a carpeted surface with a soft thud and slight rustling. Useful for foley and body fall effects in video and film.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 6.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "indoor",
+        "soft"
+      ],
+      "sync_ms": 4985,
+      "lufs": -17.8,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -13.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1708890,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yuPVZgYKhAMAFIA_m7-EoAUU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9zibmdjuelzne5w51w00t/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Person Falling on Carpet\" on Soundza (https://soundza.com/sound/person-falling-on-carpet)"
+    },
+    {
+      "id": "cmvovivib59wz8datmb3lbk10",
+      "url": "https://soundza.com/sound/person-jumping-into-pool",
+      "title": "Person Jumping Into Pool",
+      "description": "A human body impacts water with a loud splash, followed by the turbulent sound of water settling. Suitable for video scenes of swimming, diving, or water play.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "footsteps",
+        "background_bed"
+      ],
+      "duration": 12.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 6585,
+      "lufs": -15.9,
+      "true_peak_db": -3.1,
+      "loudness": {
+        "value": -13.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3379290,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/A_6TaRBSPrG-0lAdWA3_9nrK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovivib59wz8datmb3lbk10/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Person Jumping Into Pool\" on Soundza (https://soundza.com/sound/person-jumping-into-pool)"
+    },
+    {
+      "id": "cmvovlpzrrbal8nfeb9zwgml7",
+      "url": "https://soundza.com/sound/person-jumping-into-lake",
+      "title": "Person Jumping Into Lake",
+      "description": "A person leaps from several meters above and plunges into a lake, captured with a clear field recording. The impact and water displacement create a single, dynamic splash event.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "jump",
+        "impact",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 367,
+      "lufs": -25.5,
+      "true_peak_db": 1.1,
+      "loudness": {
+        "value": -21.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1240128,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3sRu1ByG9k1-z_NiSlUzHFYQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovlpzrrbal8nfeb9zwgml7/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Person Jumping Into Lake\" on Soundza (https://soundza.com/sound/person-jumping-into-lake)"
+    },
+    {
+      "id": "cmv0i8j9i01gg06l88ltzb2ba",
+      "url": "https://soundza.com/sound/eat-4",
+      "title": "Eat 4",
+      "description": "A quick, wet eating or chewing sound from a creature or monster. Useful for adding personality to creature actions, feeding moments, or comedic eating effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wet",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -18.8,
+      "true_peak_db": 1,
+      "loudness": {
+        "value": -17.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 129708,
+      "category": {
+        "id": "CREASrce",
+        "label": "Creatures › Source"
+      },
+      "pack": {
+        "id": "cmv0i8j6o01fi06l8jj8avrko",
+        "name": "Creature SFX",
+        "slug": "creature-sfx",
+        "sound_count": 129,
+        "url": "https://soundza.com/packs/creature-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/IbI0ucOLoskt3p87MTvcMCzi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i8j9i01gg06l88ltzb2ba/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Eat 4\" on Soundza (https://soundza.com/sound/eat-4)"
+    },
+    {
+      "id": "cmv0gp82y006u06i9xlmfp25e",
+      "url": "https://soundza.com/sound/laugh-1",
+      "title": "Laugh 1",
+      "description": "A person laughing in a light, brief moment. Useful for character reactions, comedic moments, or game responses.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_hit",
+        "ui_click"
+      ],
+      "duration": 1.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "reaction",
+        "vocal",
+        "voice",
+        "foley"
+      ],
+      "sync_ms": 250,
+      "lufs": -16.5,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -13.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 308808,
+      "category": {
+        "id": "VOXLaff",
+        "label": "Voices › Laugh"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JI3EYu3cFHd8zICbz3998Dlm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82y006u06i9xlmfp25e/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Laugh 1\" on Soundza (https://soundza.com/sound/laugh-1)"
+    },
+    {
+      "id": "cmv5o6wth02uq06l4x8jckvvz",
+      "url": "https://soundza.com/sound/male-deep-dialog-voice-2",
+      "title": "Male Deep Voice Blip",
+      "description": "A synthetic male vocal tone designed for RPG dialog boxes, played as each letter appears on screen. Percussive and distinct for character personality.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.21,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "vocal",
+        "game",
+        "ui",
+        "notification",
+        "8-bit",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": null,
+      "loudness": null,
+      "gain_db": null,
+      "loop_seamless": null,
+      "file_type": "audio/ogg",
+      "file_extension": "ogg",
+      "sample_rate": null,
+      "bit_depth": null,
+      "channels": null,
+      "size_bytes": 7123,
+      "category": {
+        "id": "VOXMale",
+        "label": "Voices › Male"
+      },
+      "pack": {
+        "id": "cmv5o6wsb02uc06l4zcef8bjp",
+        "name": "Dialogue Text Blips",
+        "slug": "dialogue-text-blips",
+        "sound_count": 32,
+        "url": "https://soundza.com/packs/dialogue-text-blips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SGCpLYctp5xsgqwicNXjszLp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o6wth02uq06l4x8jckvvz/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Male Deep Voice Blip\" on Soundza (https://soundza.com/sound/male-deep-dialog-voice-2)"
+    },
+    {
+      "id": "cmv0im9dq00bw06l5ta9484xf",
+      "url": "https://soundza.com/sound/hurt-6",
+      "title": "Hurt",
+      "description": "A sharp, percussive retro impact sound with digital character, typical of classic arcade and early first-person shooter games. Suitable for hit feedback, damage indicators, or player impact events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "notification"
+      ],
+      "duration": 1.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "arcade",
+        "retro",
+        "hit",
+        "impact",
+        "game"
+      ],
+      "sync_ms": 5,
+      "lufs": -15.8,
+      "true_peak_db": 0.7,
+      "loudness": {
+        "value": -13.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 453190,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oDdJKbvRxL6-PbQY1SLC2M7g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0im9dq00bw06l5ta9484xf/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hurt\" on Soundza (https://soundza.com/sound/hurt-6)"
+    },
+    {
+      "id": "cmvox7vz6w2hydonhn5mhvdxe",
+      "url": "https://soundza.com/sound/person-gargling-underwater",
+      "title": "Person Gargling Underwater",
+      "description": "A person gargling and producing bubbling, water-filled vocal sounds while submerged. Useful for underwater scenes, comedic moments, or as a vocal effect layer.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "ui_click"
+      ],
+      "duration": 6.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "vocal",
+        "wet",
+        "foley"
+      ],
+      "sync_ms": 4869,
+      "lufs": -45.8,
+      "true_peak_db": -31,
+      "loudness": {
+        "value": -39.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1818830,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/saBw4KFzANzA66s9vMaC953e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox7vz6w2hydonhn5mhvdxe/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Person Gargling Underwater\" on Soundza (https://soundza.com/sound/person-gargling-underwater)"
+    },
+    {
+      "id": "cmvfeg1hz7u12fhdgrpsjppcp",
+      "url": "https://soundza.com/sound/walking-footsteps-on-sand-crisp",
+      "title": "Walking Footsteps on Sand - Crisp",
+      "description": "A person walking steadily across sand, with each step producing a crunching, granular sound. Ideal for outdoor scenes, desert or beach environments, or any foley work requiring natural footstep texture.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 6.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "nature",
+        "foley"
+      ],
+      "sync_ms": 497,
+      "lufs": -41.2,
+      "true_peak_db": -15.9,
+      "loudness": {
+        "value": -36.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1629074,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XrHPKFdN9sC6NH_50tsccSBL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfeg1hz7u12fhdgrpsjppcp/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Footsteps on Sand - Crisp\" on Soundza (https://soundza.com/sound/walking-footsteps-on-sand-crisp)"
+    },
+    {
+      "id": "cmvgwjkojx3izny6gh0etamud",
+      "url": "https://soundza.com/sound/walking-on-pavement",
+      "title": "Walking on Pavement",
+      "description": "A person walks across a parking lot in casual sneakers, capturing distinct footsteps on wet and dry concrete with occasional background bird calls and wind. Recorded up-close with a field recorder, it's ideal for chopping into individual footstep elements or using as a continuous foley bed.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 53.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wet",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -27.4,
+      "true_peak_db": -0.4,
+      "loudness": {
+        "value": -19.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15265824,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/IfocHQJWa5U1W_ZhkzYE50sO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwjkojx3izny6gh0etamud/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking on Pavement\" on Soundza (https://soundza.com/sound/walking-on-pavement)"
+    },
+    {
+      "id": "cmukcxw63ob859qkw3446kqas",
+      "url": "https://soundza.com/sound/body-fall-over",
+      "title": "Body Fall Over",
+      "description": "A person falling and hitting the floor with impact, captured as a single performance. Useful for physical collapse, stumble, or trip moments in video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 32000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 67556,
+      "category": {
+        "id": "FGHTBf",
+        "label": "Fight › Bodyfall"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/P0AOYtAyFM5XK8KJzK8cKdC7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcxw63ob859qkw3446kqas/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Fall Over\" on Soundza (https://soundza.com/sound/body-fall-over)"
+    },
+    {
+      "id": "cmv8yden2um8ktdcdfh6bvvyh",
+      "url": "https://soundza.com/sound/shrieking-laughter",
+      "title": "Shrieking Laughter",
+      "description": "A single person laughing hysterically at high pitch, sped up to create a manic, unsettling effect. Useful for horror, dark comedy, or unhinged character moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "laughter",
+        "reaction",
+        "voice",
+        "scream",
+        "horror"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -10.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 318036,
+      "category": {
+        "id": "VOXLaff",
+        "label": "Voices › Laugh"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7JhhouT6xBC2vesGp5n1ciHe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8yden2um8ktdcdfh6bvvyh/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Shrieking Laughter\" on Soundza (https://soundza.com/sound/shrieking-laughter)"
+    },
+    {
+      "id": "cmv5o6wth02v406l4ct7gi5wt",
+      "url": "https://soundza.com/sound/robot-dialog-beep-4",
+      "title": "Robot Dialog Beep 4",
+      "description": "A synthetic robotic beeping sound designed to play as each character appears in a game dialog box, creating a personality-driven text reveal effect. Ideal for RPG games and retro sci-fi interfaces.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "robot",
+        "beep",
+        "game",
+        "ui",
+        "notification",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -11.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 10720,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5o6wsb02uc06l4zcef8bjp",
+        "name": "Dialogue Text Blips",
+        "slug": "dialogue-text-blips",
+        "sound_count": 32,
+        "url": "https://soundza.com/packs/dialogue-text-blips"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zkbVI6kI4ujKpGX4ConwbMHo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o6wth02v406l4ct7gi5wt/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Robot Dialog Beep 4\" on Soundza (https://soundza.com/sound/robot-dialog-beep-4)"
+    },
+    {
+      "id": "cmv0i8j9i01g206l880ixy1bf",
+      "url": "https://soundza.com/sound/cough-3-1",
+      "title": "Cough 3",
+      "description": "A short, guttural cough sound typical of a fantasy creature or monster. Useful for adding character reactions and personality to game creatures and RPG characters.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "vocal",
+        "reaction",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -14.5,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -13.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240578,
+      "category": {
+        "id": "CREAMisc",
+        "label": "Creatures › Misc"
+      },
+      "pack": {
+        "id": "cmv0i8j6o01fi06l8jj8avrko",
+        "name": "Creature SFX",
+        "slug": "creature-sfx",
+        "sound_count": 129,
+        "url": "https://soundza.com/packs/creature-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wFpKtzGm87oCQ4MrIH2NnDtv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i8j9i01g206l880ixy1bf/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cough 3\" on Soundza (https://soundza.com/sound/cough-3-1)"
+    },
+    {
+      "id": "cmvffi1z30crk26mkjh7izm8t",
+      "url": "https://soundza.com/sound/walking-footsteps-on-gravel",
+      "title": "Walking Footsteps on Gravel",
+      "description": "A person walks steadily across a gravel surface, then comes to a stop. Recorded with field equipment for clear, usable footstep definition.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 103.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "field-recording",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -33.7,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -22.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 14847656,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-9jF8qPne7mhlicnWV7WART6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffi1z30crk26mkjh7izm8t/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Footsteps on Gravel\" on Soundza (https://soundza.com/sound/walking-footsteps-on-gravel)"
+    },
+    {
+      "id": "cmv0gp82y006r06i9qeo6ynv0",
+      "url": "https://soundza.com/sound/drink-sip-and-swallow",
+      "title": "Drink Sip and Swallow",
+      "description": "A person drinks from a glass or cup with distinct sipping and swallowing sounds. Useful for game foley, UI feedback, or any scene involving drinking.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley"
+      ],
+      "sync_ms": 1678,
+      "lufs": -26.9,
+      "true_peak_db": -10.5,
+      "loudness": {
+        "value": -23,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 672854,
+      "category": {
+        "id": "FOODDrnk",
+        "label": "Food & Drink › Drinking"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BUVqD0OEoaCsme76TsHnrTq3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82y006r06i9qeo6ynv0/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Drink Sip and Swallow\" on Soundza (https://soundza.com/sound/drink-sip-and-swallow)"
+    },
+    {
+      "id": "cmvgwlh07uo84lg6a0ulix5lw",
+      "url": "https://soundza.com/sound/concrete-corridor-footsteps",
+      "title": "Concrete Corridor Footsteps",
+      "description": "A person walking at a steady pace through a hard-surfaced corridor, with each footfall clearly audible against concrete. Useful as a source for chopping into individual steps or layering under dialogue and action scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 52.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "indoor",
+        "dry",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -36.2,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -27.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 13990676,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DYhr70WKGRucH-MSo1AjiSRz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwlh07uo84lg6a0ulix5lw/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Concrete Corridor Footsteps\" on Soundza (https://soundza.com/sound/concrete-corridor-footsteps)"
+    },
+    {
+      "id": "cmvgwjs7chrs0b9yl61z839eu",
+      "url": "https://soundza.com/sound/hallway-footsteps",
+      "title": "Hallway Footsteps",
+      "description": "A person walking through a hallway with clicking heel strikes on a hard floor, with natural reverb from the enclosed space. Useful for building authentic footstep sequences in scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 31.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "reverb",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -33.1,
+      "true_peak_db": -2.3,
+      "loudness": {
+        "value": -27.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8381572,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/kBBdhzTS-4wDqlSZr0EQYj1k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwjs7chrs0b9yl61z839eu/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hallway Footsteps\" on Soundza (https://soundza.com/sound/hallway-footsteps)"
+    },
+    {
+      "id": "cmvgwk0v4hsl2blnwa668zhw4",
+      "url": "https://soundza.com/sound/footsteps-on-concrete-2",
+      "title": "Footsteps on Concrete",
+      "description": "A person walking steadily across hard ground with consistent footfalls. Useful for looping or chopping into individual steps for dialogue or action scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 14.95,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 10171,
+      "lufs": -29.5,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -22.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3955400,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bNeei63_wma5lfmb6AkRA3fb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwk0v4hsl2blnwa668zhw4/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Footsteps on Concrete\" on Soundza (https://soundza.com/sound/footsteps-on-concrete-2)"
+    },
+    {
+      "id": "cmvgwyjvxuvph2joj2gno1qyt",
+      "url": "https://soundza.com/sound/squeaky-wood-footsteps",
+      "title": "Squeaky Wood Footsteps",
+      "description": "A person walking across wooden flooring with audible creaking and squeaking with each step. Useful for adding realistic foley to interior scenes or period settings.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 16.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -47,
+      "true_peak_db": -23.1,
+      "loudness": {
+        "value": -39.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 22.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4307776,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DRhzO07Si4oz1siytMQriwTQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwyjvxuvph2joj2gno1qyt/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Squeaky Wood Footsteps\" on Soundza (https://soundza.com/sound/squeaky-wood-footsteps)"
+    },
+    {
+      "id": "cmvfflaqciva76xijianoli5e",
+      "url": "https://soundza.com/sound/human-footsteps-on-grass",
+      "title": "Human Footsteps on Grass",
+      "description": "Multiple footsteps of a person walking through grass, with natural rustling and organic texture. Suitable for foley work or as a chopped source for custom footstep sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 19.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "footsteps",
+        "foley",
+        "organic",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -43.7,
+      "true_peak_db": -17.2,
+      "loudness": {
+        "value": -40,
+        "basis": "momentary_max"
+      },
+      "gain_db": 16.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 2794464,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/88hkmc9soXuq06re1Lhk3Xb4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfflaqciva76xijianoli5e/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Human Footsteps on Grass\" on Soundza (https://soundza.com/sound/human-footsteps-on-grass)"
+    },
+    {
+      "id": "cmvgwz04tty9gbm5crwqljjku",
+      "url": "https://soundza.com/sound/soft-slippers-footsteps-on-wood",
+      "title": "Soft Slippers Footsteps on Wood",
+      "description": "A person walking slowly across a wooden floor in soft slippers, with quiet, deliberate steps. Suitable for footstep foley, interior scenes, or bedroom ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 39.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "footsteps",
+        "wood",
+        "soft",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -42.7,
+      "true_peak_db": -9.6,
+      "loudness": {
+        "value": -31.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 5728600,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/jKHfhqLwBpgrG5inNoJMusGt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwz04tty9gbm5crwqljjku/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Slippers Footsteps on Wood\" on Soundza (https://soundza.com/sound/soft-slippers-footsteps-on-wood)"
+    },
+    {
+      "id": "cmvgwlzosn2fy4z5ig1qkxt54",
+      "url": "https://soundza.com/sound/metal-plate-footsteps",
+      "title": "Metal Plate Footsteps",
+      "description": "A person stepping repeatedly on a metal plate, producing distinct metallic impacts. Useful for footstep foley in industrial or mechanical settings.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 18.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "impact",
+        "foley",
+        "industrial",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -31.8,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -25.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4773524,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/304K8ID_mHixsyXCsXmkK90S.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwlzosn2fy4z5ig1qkxt54/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal Plate Footsteps\" on Soundza (https://soundza.com/sound/metal-plate-footsteps)"
+    },
+    {
+      "id": "cmvffl6xewcu9yma66xp5ql8r",
+      "url": "https://soundza.com/sound/running-footsteps-on-grass-1",
+      "title": "Running Footsteps on Grass",
+      "description": "The sound of a person running through dry grass and fallen leaves, with rapid footfalls and rustling vegetation underfoot. Suitable for outdoor chase scenes, athletic activity, or nature-based movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 38.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -39.8,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -27.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10174556,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dnX9jdW2W6hxwHjErF31NT4x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffl6xewcu9yma66xp5ql8r/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grass\" on Soundza (https://soundza.com/sound/running-footsteps-on-grass-1)"
+    },
+    {
+      "id": "cmve09nyocwac3bgiu3n6alc8",
+      "url": "https://soundza.com/sound/man-blowing-candle-out",
+      "title": "Man Blowing Candle Out",
+      "description": "A person blowing out a lit candle with breath. Multiple takes of the action, useful for birthday scenes or intimate moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 11.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "breath",
+        "wind"
+      ],
+      "sync_ms": 10327,
+      "lufs": -40.1,
+      "true_peak_db": -18.7,
+      "loudness": {
+        "value": -33.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 17.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1559218,
+      "category": {
+        "id": "HMNBlow",
+        "label": "Human › Blow"
+      },
+      "pack": {
+        "id": "cp33utxkhonrl6tlnf86syxs",
+        "name": "Birthday Party Sound Effects — Party Horns, Balloons, Kids Cheering & Happy Birthday",
+        "slug": "birthday-party-sound-effects-party-horns-balloons-kids-cheering-and-happy-birthd",
+        "sound_count": 42,
+        "url": "https://soundza.com/packs/birthday-party-sound-effects-party-horns-balloons-kids-cheering-and-happy-birthd"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sa7dFt-5NxQyFQR1KwVd-hFb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve09nyocwac3bgiu3n6alc8/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Man Blowing Candle Out\" on Soundza (https://soundza.com/sound/man-blowing-candle-out)"
+    },
+    {
+      "id": "cmvfg25ycm5e3ors3zxr6sxsp",
+      "url": "https://soundza.com/sound/woodland-footsteps-walking",
+      "title": "Woodland Footsteps Walking",
+      "description": "A person walking at a steady pace through a wooded forest floor, with the sound of twigs snapping, leaves rustling, and underbrush crunching underfoot. Natural field recording suitable for hiking scenes, nature exploration, or outdoor movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 90.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -21.2,
+      "true_peak_db": 1.6,
+      "loudness": {
+        "value": -6.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 26101724,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AJMbA4u6Ob8yvwWDjpKy5_Wp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfg25ycm5e3ors3zxr6sxsp/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Woodland Footsteps Walking\" on Soundza (https://soundza.com/sound/woodland-footsteps-walking)"
+    },
+    {
+      "id": "cmv91buj5lzdydkfi97s09qqf",
+      "url": "https://soundza.com/sound/short-yawn",
+      "title": "Short Yawn",
+      "description": "A person yawning with a natural, open-mouthed release. Useful for portraying fatigue, boredom, or sleepiness in video and game scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "voice",
+        "breath",
+        "reaction"
+      ],
+      "sync_ms": 646,
+      "lufs": -36,
+      "true_peak_db": -26.2,
+      "loudness": {
+        "value": -33.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 20.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 518068,
+      "category": {
+        "id": "VOXMisc",
+        "label": "Voices › Misc"
+      },
+      "pack": {
+        "id": "uplcoimhsmkxa43y2pr7tqwd",
+        "name": "Body Noise Sound Effects — Sneezes, Coughs, Snores, Hiccups & Kisses",
+        "slug": "body-noise-sound-effects-sneezes-coughs-snores-hiccups-and-kisses",
+        "sound_count": 56,
+        "url": "https://soundza.com/packs/body-noise-sound-effects-sneezes-coughs-snores-hiccups-and-kisses"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mNHiDJvjT2UmjrJxDjqW6tcv.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv91buj5lzdydkfi97s09qqf/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Yawn\" on Soundza (https://soundza.com/sound/short-yawn)"
+    },
+    {
+      "id": "cmvgwzsphcfraxh4niea2q7s3",
+      "url": "https://soundza.com/sound/walking-wooden-stairs",
+      "title": "Walking Wooden Stairs",
+      "description": "A person walks up or down wooden stairs with audible creaks and structural flexing from the treads and risers. Recorded with professional field equipment, suitable for foley or direct footstep replacement in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 32.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wood",
+        "indoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -21.8,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 4273832,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VByOhcQ90YfIBTdnZ31v1tHV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwzsphcfraxh4niea2q7s3/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Wooden Stairs\" on Soundza (https://soundza.com/sound/walking-wooden-stairs)"
+    },
+    {
+      "id": "cmukcznaq0h4nqcylu4fibf2d",
+      "url": "https://soundza.com/sound/sitting-down-in-faux-leather-chair",
+      "title": "Sitting Down in Faux-Leather Chair",
+      "description": "A person settling into a faux-leather chair with a distinctive squeak and rustle of the material as weight is applied. Useful for scenes of someone taking a seat in an office, waiting room, or casual interior setting.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 3.12,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "indoor"
+      ],
+      "sync_ms": 1914,
+      "lufs": -61.8,
+      "true_peak_db": -38.6,
+      "loudness": {
+        "value": -58.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 825754,
+      "category": {
+        "id": "OBJFurn",
+        "label": "Objects › Furniture"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OwOiP67O3TdWNpJEUJsvQRID.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcznaq0h4nqcylu4fibf2d/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sitting Down in Faux-Leather Chair\" on Soundza (https://soundza.com/sound/sitting-down-in-faux-leather-chair)"
+    },
+    {
+      "id": "cmvovm2iw234ebjub8maeupfy",
+      "url": "https://soundza.com/sound/jump-into-water-02",
+      "title": "Jump Into Water",
+      "description": "A person diving from a height into a lake, captured with natural recording clarity. A sharp impact followed by churning water and splashing, useful for action sequences involving water entry.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 7.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "splash",
+        "water",
+        "jump",
+        "impact",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 750,
+      "lufs": -21.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2046248,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eLd9B6AmRL0oGL6Ld9uJdZCC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovm2iw234ebjub8maeupfy/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Jump Into Water\" on Soundza (https://soundza.com/sound/jump-into-water-02)"
+    },
+    {
+      "id": "cmvgwghfooqsfdh70vqn6pg67",
+      "url": "https://soundza.com/sound/walking-footsteps-on-carpet",
+      "title": "Walking Footsteps on Carpet",
+      "description": "A person walks steadily across a carpeted surface with clear, audible footfalls. Useful for realistic foley in indoor scenes or as source material to chop into individual steps.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "indoor",
+        "foley",
+        "close-up",
+        "dry"
+      ],
+      "sync_ms": null,
+      "lufs": -22.2,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -15.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10054892,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/s4A_TzJTHTlD4JPpjyNFVYnO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwghfooqsfdh70vqn6pg67/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Footsteps on Carpet\" on Soundza (https://soundza.com/sound/walking-footsteps-on-carpet)"
+    },
+    {
+      "id": "cmvgx0kml27ss9azw2e9j8eyw",
+      "url": "https://soundza.com/sound/metal-grate-footsteps",
+      "title": "Metal Grate Footsteps",
+      "description": "A person walking across a metal grate floor in hard-soled shoes, producing metallic clanks, creaks and squeaks with each step. Useful for industrial or utilitarian environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 91.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "foley",
+        "industrial",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -32,
+      "true_peak_db": -2.7,
+      "loudness": {
+        "value": -20.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 24105404,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/139UaDsVQZBpGmiOaehuZvRj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgx0kml27ss9azw2e9j8eyw/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal Grate Footsteps\" on Soundza (https://soundza.com/sound/metal-grate-footsteps)"
+    },
+    {
+      "id": "cmv5ncxv501w706l4agnxmdh2",
+      "url": "https://soundza.com/sound/drinking-water-6",
+      "title": "Drinking Water 6",
+      "description": "A person taking a single swallow of water or liquid. A quick, natural drinking sound suitable for foley, UI feedback, or reaction moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.9,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 347,
+      "lufs": -32.8,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -31.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 118796,
+      "category": {
+        "id": "FOODDrnk",
+        "label": "Food & Drink › Drinking"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JppPoWrvOJlrgVPDbTVorovB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv501w706l4agnxmdh2/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Drinking Water 6\" on Soundza (https://soundza.com/sound/drinking-water-6)"
+    },
+    {
+      "id": "cmvffkwagsz15z5779baxdyis",
+      "url": "https://soundza.com/sound/gravel-walking-footsteps",
+      "title": "Gravel Walking Footsteps",
+      "description": "A person walking steadily on crunchy gravel and sand over concrete. Each footfall produces a distinctive grinding crunch, ideal for foley layering or as a base for footstep sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 36.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -50.9,
+      "true_peak_db": -19.7,
+      "loudness": {
+        "value": -43.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 18.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10589274,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MOKLqFh389gkG6NdSXs9hzeI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffkwagsz15z5779baxdyis/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gravel Walking Footsteps\" on Soundza (https://soundza.com/sound/gravel-walking-footsteps)"
+    },
+    {
+      "id": "cmvffwqd24aftj467yp4g1avx",
+      "url": "https://soundza.com/sound/muddy-footsteps-walking-1",
+      "title": "Muddy Footsteps Walking",
+      "description": "A person walks through mud with deliberate steps, each foot sinking and pulling free from soft ground. Useful for forest scenes, swamp environments, or any slow movement through wet terrain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 9.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "wet",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": 926,
+      "lufs": -35.1,
+      "true_peak_db": -12.7,
+      "loudness": {
+        "value": -30.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2584936,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/j2QVF33uhtjE0WWIu8DRWWJ0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffwqd24aftj467yp4g1avx/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Muddy Footsteps Walking\" on Soundza (https://soundza.com/sound/muddy-footsteps-walking-1)"
+    },
+    {
+      "id": "cmvgwo4xwjhgwmc9a5x9vxtig",
+      "url": "https://soundza.com/sound/walking-on-metal-floor",
+      "title": "Walking on Metal Floor",
+      "description": "Footsteps of a person walking across a metal floor or elevator, with clear metallic resonance from each step. Useful as a raw foley element to layer or chop into individual footstep hits.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 19.36,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "industrial",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -32.2,
+      "true_peak_db": -12.3,
+      "loudness": {
+        "value": -25,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5122978,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YKHYc8fxn_fBly1PtGXcbIp1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwo4xwjhgwmc9a5x9vxtig/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking on Metal Floor\" on Soundza (https://soundza.com/sound/walking-on-metal-floor)"
+    },
+    {
+      "id": "cmvl6sv9q45vln8tkdoldccxb",
+      "url": "https://soundza.com/sound/human-whistling-wind",
+      "title": "Human Whistling Wind",
+      "description": "A person whistling into a microphone to simulate wind, creating a sustained tonal texture with occasional peaks and modulation. Suitable for stylized or comedic wind effects in video or games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "breath",
+        "foley",
+        "vocal"
+      ],
+      "sync_ms": null,
+      "lufs": -21.2,
+      "true_peak_db": -8.5,
+      "loudness": {
+        "value": -17.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1978484,
+      "category": {
+        "id": "WINDDsgn",
+        "label": "Wind › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HB552JeRaMLdYSVOvRcrReOr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6sv9q45vln8tkdoldccxb/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Human Whistling Wind\" on Soundza (https://soundza.com/sound/human-whistling-wind)"
+    },
+    {
+      "id": "cmv5swkch00lc06l6dkl6m05r",
+      "url": "https://soundza.com/sound/footsteps-on-stairwell",
+      "title": "Footsteps on Stairwell",
+      "description": "A person walking up and down a stairwell with heavy, deliberate steps echoing off hard concrete surfaces. Useful for building tension or establishing a character's movement through an industrial or institutional space.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 47.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy"
+      ],
+      "tags": [
+        "footsteps",
+        "foley",
+        "indoor",
+        "heavy"
+      ],
+      "sync_ms": null,
+      "lufs": -32.3,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -25.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 27093844,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4CPLuuntWPgToZ_9mRM5NFob.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00lc06l6dkl6m05r/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Footsteps on Stairwell\" on Soundza (https://soundza.com/sound/footsteps-on-stairwell)"
+    },
+    {
+      "id": "cmv8ytr4uzkla2fyi605bf5ry",
+      "url": "https://soundza.com/sound/walking-through-snow",
+      "title": "Walking Through Snow",
+      "description": "A person walks steadily through crunchy snow in an open field, with the rhythmic crunching of snow underfoot and occasional squeaks from leather boots. A natural, unprocessed field recording captured with a portable recorder.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 50.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -38.5,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -28.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 13301546,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "dh0fxeecn91l1ey9pn8gtwu7",
+        "name": "Christmas Sound Effects — Sleigh Bells, Santa, Fireplace & More",
+        "slug": "christmas-sound-effects-sleigh-bells-santa-fireplace-and-more",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/christmas-sound-effects-sleigh-bells-santa-fireplace-and-more"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uf8OznHhxh4r4R_VGX6fBxCT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8ytr4uzkla2fyi605bf5ry/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Through Snow\" on Soundza (https://soundza.com/sound/walking-through-snow)"
+    },
+    {
+      "id": "cmvgwgxdj4v66fykdwmf7mide",
+      "url": "https://soundza.com/sound/slow-footsteps-on-rug",
+      "title": "Slow Footsteps on Rug",
+      "description": "A person in leather shoes walks slowly across a rug laid over a wooden floor, with deliberate, measured steps. Each footfall is clear and distinct, suitable for foley work or video pacing.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 75.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -38.5,
+      "true_peak_db": -11.7,
+      "loudness": {
+        "value": -30.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 21644582,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/m0hB3K1fhdt-BjROoh0OQ_dn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwgxdj4v66fykdwmf7mide/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Slow Footsteps on Rug\" on Soundza (https://soundza.com/sound/slow-footsteps-on-rug)"
+    },
+    {
+      "id": "cmvl8b87y5n0yljz7w4qmn144",
+      "url": "https://soundza.com/sound/soil-shoveling-and-impact",
+      "title": "Soil Shoveling and Impact",
+      "description": "A person uses a spade to dig through soil and shovel it, with the sound of earth being picked up and falling into a hole. Useful for foley and earth-moving sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 27.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -28.8,
+      "true_peak_db": -1.7,
+      "loudness": {
+        "value": -22.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7864410,
+      "category": {
+        "id": "DIRTImpt",
+        "label": "Dirt & Sand › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ThvwPEjOdNjRPWTHnOONF5Tg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl8b87y5n0yljz7w4qmn144/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soil Shoveling and Impact\" on Soundza (https://soundza.com/sound/soil-shoveling-and-impact)"
+    },
+    {
+      "id": "cmvfg03btf6bktidk19c7hra4",
+      "url": "https://soundza.com/sound/footsteps-on-dry-leaves-2",
+      "title": "Footsteps on Dry Leaves",
+      "description": "A person walking across crispy, dry leaves outdoors. Each step produces a distinct crunch and rustle, suitable for outdoor scenes and foley work.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 39.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "nature",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -13.3,
+      "loudness": {
+        "value": -31.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11501656,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9SJH5F3ANj2WepfAnZRKdCIH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfg03btf6bktidk19c7hra4/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Footsteps on Dry Leaves\" on Soundza (https://soundza.com/sound/footsteps-on-dry-leaves-2)"
+    },
+    {
+      "id": "cmv0gwjo5c81ydbd7mmqigiyi",
+      "url": "https://soundza.com/sound/coffee-sip",
+      "title": "Coffee Sip",
+      "description": "A person drinking coffee with audible sips and swallows. Useful for office scenes, character moments, or intimate sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G0",
+      "mood": [],
+      "tags": [
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -48.4,
+      "true_peak_db": -29.9,
+      "loudness": {
+        "value": -46,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1315336,
+      "category": {
+        "id": "FOODDrnk",
+        "label": "Food & Drink › Drinking"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZSsTvmNqnB4W6EWrF-kCoYEe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gwjo5c81ydbd7mmqigiyi/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Coffee Sip\" on Soundza (https://soundza.com/sound/coffee-sip)"
+    },
+    {
+      "id": "cmvffyml25b7wvb17k634svdx",
+      "url": "https://soundza.com/sound/boots-walking-in-puddle",
+      "title": "Boots Walking in Puddle",
+      "description": "A person walking slowly through a shallow puddle with creaky, wet footsteps on mixed dirt and gravel. Each step produces a distinct squelching and crunching sound, ideal for foley work in outdoor scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 10,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "water",
+        "foley",
+        "wet"
+      ],
+      "sync_ms": 4596,
+      "lufs": -30.8,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -25.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2646088,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cKFq5cQCZsybpfEL5DqqNqKs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffyml25b7wvb17k634svdx/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Boots Walking in Puddle\" on Soundza (https://soundza.com/sound/boots-walking-in-puddle)"
+    },
+    {
+      "id": "cmvffmjn3iw4qsgfnf76d1uda",
+      "url": "https://soundza.com/sound/walking-footsteps-on-damp-grass",
+      "title": "Walking Footsteps on Damp Grass",
+      "description": "Deliberate footsteps of a person walking across wet grass in hard-soled boots, recorded with professional audio gear as clean foley for picture. Each step is distinct and ready to be edited into sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 55.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -57,
+      "true_peak_db": -16,
+      "loudness": {
+        "value": -41.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 7975578,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DUk85O5qwaW77DWNXseyLj74.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffmjn3iw4qsgfnf76d1uda/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walking Footsteps on Damp Grass\" on Soundza (https://soundza.com/sound/walking-footsteps-on-damp-grass)"
+    },
+    {
+      "id": "cmvow6cn6ia9r6e55j6zcyw9d",
+      "url": "https://soundza.com/sound/body-splash-into-water-1",
+      "title": "Body Splash Into Water",
+      "description": "A person falling backwards into a pool with a substantial splash and water impact. Useful for scenes depicting someone being thrown or diving into water.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "background_bed"
+      ],
+      "duration": 5.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 156,
+      "lufs": -19.5,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1432582,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hfl_zesE3ZlCi1p-kyqiHR8q.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvow6cn6ia9r6e55j6zcyw9d/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Splash Into Water\" on Soundza (https://soundza.com/sound/body-splash-into-water-1)"
+    },
+    {
+      "id": "cmvovonbtwmtx2k7oudhi71mp",
+      "url": "https://soundza.com/sound/body-dive-into-water",
+      "title": "Body Dive Into Water",
+      "description": "A person diving and entering water with a clear splash and submersion. Realistic field recording suitable for swimming, diving, or water entry scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 5.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 1990,
+      "lufs": -29.6,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -23.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1474502,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_tnTyFW_52avRNDvAcu3m_pm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovonbtwmtx2k7oudhi71mp/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Body Dive Into Water\" on Soundza (https://soundza.com/sound/body-dive-into-water)"
+    },
+    {
+      "id": "cmvgwnmw74tcker7isju45mwg",
+      "url": "https://soundza.com/sound/metal-footsteps-walking",
+      "title": "Metal Footsteps Walking",
+      "description": "A person walking across a metal surface, producing clear metallic impacts with each step. Useful for foley work or adding presence to scenes with industrial or metallic environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 12.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "metal",
+        "close-up",
+        "foley",
+        "dry"
+      ],
+      "sync_ms": 2302,
+      "lufs": -25.3,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -21,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3694094,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GG3e836Od_2pln4oAu8zoS7R.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwnmw74tcker7isju45mwg/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal Footsteps Walking\" on Soundza (https://soundza.com/sound/metal-footsteps-walking)"
+    },
+    {
+      "id": "cmvfgc10d3jwi9rfuzis4im84",
+      "url": "https://soundza.com/sound/running-footsteps-on-grit",
+      "title": "Running Footsteps on Grit",
+      "description": "A person walking and running across loose dirt, sand, and grit, with clear footstep impacts and the crunch of each stride. Useful for outdoor scenes with movement across arid or sandy terrain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 52.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -34.1,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -25.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15088410,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WJ1Rc8QpsJc9QarXnszCKaps.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfgc10d3jwi9rfuzis4im84/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grit\" on Soundza (https://soundza.com/sound/running-footsteps-on-grit)"
+    },
+    {
+      "id": "cmv5mxljc00gj06l4ijaxeemm",
+      "url": "https://soundza.com/sound/leather-boots-jump-2",
+      "title": "Leather Boots Jump 2",
+      "description": "A person in leather boots jumping and landing with a heavy thud. The impact is organic and unprocessed, capturing the weight and material of the footwear as it strikes the ground.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps",
+        "background_bed",
+        "impact_on_beat"
+      ],
+      "duration": 0.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "jump",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 187,
+      "lufs": -20.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -19,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 226952,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "cmv5mxlf900fv06l4neugk1wt",
+        "name": "Fantasy Weapons & Apparel Foley",
+        "slug": "fantasy-weapons-and-apparel-foley",
+        "sound_count": 126,
+        "url": "https://soundza.com/packs/fantasy-weapons-and-apparel-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-0KJDYIdmIxM2FbPTgIfJxDK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mxljc00gj06l4ijaxeemm/file?search_id=aoyy65wz9nbkstzvjsbi7f01",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Leather Boots Jump 2\" on Soundza (https://soundza.com/sound/leather-boots-jump-2)"
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "personal watercraft, jet ski, waverunner",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": "video-game-sound-effects",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for the sound of a personal watercraft, also known as a jet ski or waverunner. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "aoyy65wz9nbkstzvjsbi7f01"
+}

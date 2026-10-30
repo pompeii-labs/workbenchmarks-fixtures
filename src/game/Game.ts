@@ -131,6 +131,12 @@ export class Game {
     el('#again-btn').addEventListener('click', () => this.restartRace());
     el('#pause-btn').addEventListener('click', () => this.setPaused(this.ui !== 'paused'));
     el('#mute-btn').addEventListener('click', () => this.toggleMute());
+    // Browsers only allow audio after a gesture: unlock (and load every sound) on the first one.
+    window.addEventListener('pointerdown', () => this.audio.unlock(), { capture: true });
+    // Menu buttons click.
+    for (const sel of ['#start-btn', '#resume-btn', '#restart-btn', '#again-btn', '#pause-btn', '#mute-btn']) {
+      el(sel).addEventListener('click', () => this.audio.click());
+    }
     document.addEventListener('visibilitychange', () => {
       if (document.hidden && this.ui === 'play') this.setPaused(true);
     });
@@ -205,6 +211,7 @@ export class Game {
   private setPaused(p: boolean): void {
     if (this.ui === 'title' || this.ui === 'finished') return;
     this.ui = p ? 'paused' : 'play';
+    this.audio.setPaused(p);
     el('#pause').classList.toggle('hidden', !p);
     if (p) {
       const r = this.sim.race;
@@ -232,6 +239,8 @@ export class Game {
   }
 
   private resetRun(phase: RacePhase): void {
+    this.audio.stopAll();
+    this.audio.setPaused(false);
     this.race = createRace(this.seed, { phase, laps: this.raceLaps, rivals: this.rivalCount, playerBest: this.bestLap });
     this.finishAt = 0;
     this.lastRaceEventId = 0;
@@ -332,6 +341,7 @@ export class Game {
     switch (ev.type) {
       case 'launch':
         this.splash.burst(ev.x, ev.y, ev.z, 26, 3 + Math.min(4, ev.value * 0.3), this.carry);
+        if (loud) this.audio.launch(ev.value);
         break;
       case 'land': {
         const impact = Math.max(0, ev.value);
@@ -345,18 +355,18 @@ export class Game {
       case 'wipeout':
         this.splash.burst(ev.x, ev.y, ev.z, 260, 8, this.carry);
         this.trauma = Math.min(1, this.trauma + 0.7);
-        if (loud) this.audio.splash(14);
+        if (loud) this.audio.wipeout();
         break;
       case 'ring':
         this.world.popRing(ev.value);
         this.splash.burst(ev.x, ev.y - 1, ev.z, 40, 4, this.carry);
-        if (loud) this.audio.chime(ev.label === 'air');
+        if (loud) this.audio.ring(ev.label === 'air');
         break;
       case 'race-start':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.gate();
         break;
       case 'gate':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.gate();
         break;
       case 'lap': {
         const best = ev.label === 'best';
@@ -392,10 +402,10 @@ export class Game {
     const loud = this.ui === 'play' || this.ui === 'finished';
     switch (ev.type) {
       case 'countdown':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.countdown();
         break;
       case 'go':
-        if (loud) this.audio.chime(true);
+        if (loud) this.audio.go();
         break;
       case 'bump': {
         const a = this.race.racers[ev.a].s;
@@ -404,14 +414,14 @@ export class Game {
         this.splash.burst(ev.x, ev.y, ev.z, Math.min(90, 20 + ev.value * 10), 2.5 + ev.value * 0.5, this.carry);
         if (ev.a === 0) {
           this.trauma = Math.min(1, this.trauma + 0.15 + ev.value * 0.05);
-          if (loud) this.audio.splash(4 + ev.value * 1.5);
+          if (loud) this.audio.bump(ev.value);
         }
         break;
       }
       case 'finish':
         if (ev.a === 0 && this.ui !== 'title') {
           this.finishAt = this.sim.t + 1.1;
-          if (loud) this.audio.fanfare(ev.b === 1);
+          if (loud) this.audio.finish(ev.b === 1);
         }
         break;
       default:

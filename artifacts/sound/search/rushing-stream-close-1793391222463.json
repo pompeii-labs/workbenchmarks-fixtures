@@ -1,0 +1,3378 @@
+{
+  "query": {
+    "q": "rushing stream close",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=rushing+stream+close&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmuhynvdo8rebk6ve66czpg6d",
+      "url": "https://soundza.com/sound/stream-river-water-up-close",
+      "title": "Stream River Water Up Close",
+      "description": "A soft, flowing stream recorded in close proximity, with gentle burbling and trickling water sounds. Ideal for nature scenes, relaxation content, or ambient background layers.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 68.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -54,
+      "true_peak_db": -25.2,
+      "loudness": {
+        "value": -54,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19840220,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HIZ_196fmIjHiwKLWuNhmDtc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhynvdo8rebk6ve66czpg6d/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream River Water Up Close\" on Soundza (https://soundza.com/sound/stream-river-water-up-close)",
+      "matched_words": [
+        "stream",
+        "close"
+      ]
+    },
+    {
+      "id": "cmv0gztungfmvzdzmljs8svaq",
+      "url": "https://soundza.com/sound/stream-running-into-pond",
+      "title": "Stream Running Into Pond",
+      "description": "A small stream flows and gurgles as it enters a quiet pond, with natural splashing and trickling water sounds creating a peaceful, continuous background. Ideal for nature scenes or calming ambience beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 58,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -23.2,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 33408090,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6uKNijUj12cgtWmnKcXX5z89.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gztungfmvzdzmljs8svaq/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream Running Into Pond\" on Soundza (https://soundza.com/sound/stream-running-into-pond)",
+      "matched_words": [
+        "stream"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009l06ju0zhlygf7",
+      "url": "https://soundza.com/sound/waterfall-up-close-risan-montenegro",
+      "title": "Waterfall Up Close Risan Montenegro",
+      "description": "A close-up recording of a rushing waterfall with dynamic flow and water impact. Suitable as an ambient bed for nature scenes, outdoor environments, or to add naturalistic energy to video or game backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 55.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -21.2,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -21.2,
+        "basis": "integrated"
+      },
+      "gain_db": 1.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 31822948,
+      "category": {
+        "id": "WATRFall",
+        "label": "Water › Waterfall"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qbJJaDhp-UWulgfspWSxANlD.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009l06ju0zhlygf7/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waterfall Up Close Risan Montenegro\" on Soundza (https://soundza.com/sound/waterfall-up-close-risan-montenegro)",
+      "matched_words": [
+        "rushing",
+        "close"
+      ]
+    },
+    {
+      "id": "cmvgwvg8oy7i5oqjatpwxlxyt",
+      "url": "https://soundza.com/sound/wading-through-stream",
+      "title": "Wading Through Stream",
+      "description": "The sound of footsteps and water movement as someone walks through a flowing creek, with splashing and sloshing water sounds layered with the cadence of steps on a wet surface.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 8.06,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "water",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 3956,
+      "lufs": -33.1,
+      "true_peak_db": -11.2,
+      "loudness": {
+        "value": -28.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2132054,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6CCFN-fhXhrk_QPCECLujf36.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgwvg8oy7i5oqjatpwxlxyt/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wading Through Stream\" on Soundza (https://soundza.com/sound/wading-through-stream)",
+      "matched_words": [
+        "stream",
+        "creek"
+      ]
+    },
+    {
+      "id": "cmuhym9rfrqln2i8sfm5s01j0",
+      "url": "https://soundza.com/sound/small-creek-burbling",
+      "title": "Small Creek Burbling",
+      "description": "Water in a shallow creek bubbles and gurgles steadily over rocks, with occasional bird calls in the background. Ideal as a natural water bed for nature scenes or outdoor ambience.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.1,
+      "true_peak_db": -3.5,
+      "loudness": {
+        "value": -30.1,
+        "basis": "integrated"
+      },
+      "gain_db": 2.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8138000,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cpCT4uhjBgHFID5JP7lTq-7F.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhym9rfrqln2i8sfm5s01j0/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Creek Burbling\" on Soundza (https://soundza.com/sound/small-creek-burbling)",
+      "matched_words": [
+        "creek"
+      ]
+    },
+    {
+      "id": "cmv0gl6kolvsyhhhzg7jut6j3",
+      "url": "https://soundza.com/sound/brook-flow-ambience",
+      "title": "Brook Flow Ambience",
+      "description": "A fresh, flowing brook with gentle babbling and trickling water sounds. Clean field recording suitable as a continuous background layer for nature scenes or calm environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 37.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -26.8,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -26.8,
+        "basis": "integrated"
+      },
+      "gain_db": 6.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 5370850,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UTtzs_aiC05j38aVJLDbi7mi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gl6kolvsyhhhzg7jut6j3/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Brook Flow Ambience\" on Soundza (https://soundza.com/sound/brook-flow-ambience)",
+      "matched_words": [
+        "brook"
+      ]
+    },
+    {
+      "id": "cmvckzels7rzzllbkhxics4v1",
+      "url": "https://soundza.com/sound/party-popper-pop-with-air-rush",
+      "title": "Party Popper Pop With Air Rush",
+      "description": "A sharp pop followed by a rushing burst of air as a party popper is fired directly at the microphone. The sound is dominated by the initial percussive pop and a strong wind noise from the compressed air release.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "impact_on_beat",
+        "ui_click"
+      ],
+      "duration": 0.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley"
+      ],
+      "sync_ms": 117,
+      "lufs": -18.2,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 161376,
+      "category": {
+        "id": "TOONPop",
+        "label": "Cartoon › Pop"
+      },
+      "pack": {
+        "id": "pbkgmdwmgs7xerqx50exb7os",
+        "name": "New Year's Eve Sound Effects — Fireworks, Countdowns, Party Horns & Toasts",
+        "slug": "new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts",
+        "sound_count": 51,
+        "url": "https://soundza.com/packs/new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lgpQiPNnR17lqiHRrzigOIXo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvckzels7rzzllbkhxics4v1/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Party Popper Pop With Air Rush\" on Soundza (https://soundza.com/sound/party-popper-pop-with-air-rush)",
+      "matched_words": [
+        "rushing"
+      ]
+    },
+    {
+      "id": "cmvl6q9j1ub4torhcsf7sdkzp",
+      "url": "https://soundza.com/sound/crystalline-electricity-stream",
+      "title": "Crystalline Electricity Stream",
+      "description": "A sharp, synthetic electrical discharge with a percussive attack and bright high-frequency content. Designed for sci-fi impacts, power-up effects, or electronic feedback moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 7.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "electricity",
+        "sci-fi",
+        "bright",
+        "impact"
+      ],
+      "sync_ms": 2113,
+      "lufs": -20.2,
+      "true_peak_db": -0.4,
+      "loudness": {
+        "value": -17.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4324416,
+      "category": {
+        "id": "ELECZap",
+        "label": "Electricity › Zap"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6wiOc1YXwtZegPv_5nCgNQaz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6q9j1ub4torhcsf7sdkzp/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crystalline Electricity Stream\" on Soundza (https://soundza.com/sound/crystalline-electricity-stream)",
+      "matched_words": [
+        "stream"
+      ]
+    },
+    {
+      "id": "cmv1doczx005506l89fv6v4wd",
+      "url": "https://soundza.com/sound/electric-stream",
+      "title": "Electric Stream",
+      "description": "A shimmering, high-pitched electronic synthesizer loop with a bright, crystalline texture. Designed for cinematic sci-fi atmospheres, chase sequences, or futuristic UI elements in games and film.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 80.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "synth",
+        "industrial",
+        "electronic",
+        "bright",
+        "atmospheric",
+        "game"
+      ],
+      "sync_ms": null,
+      "lufs": -7.4,
+      "true_peak_db": 1.8,
+      "loudness": {
+        "value": -7.4,
+        "basis": "integrated"
+      },
+      "gain_db": -8.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 21270070,
+      "category": null,
+      "pack": {
+        "id": "cmv1docza004x06l882rsmll4",
+        "name": "Sci-Fi & Cyberpunk Music",
+        "slug": "sci-fi-and-cyberpunk-music",
+        "sound_count": 40,
+        "url": "https://soundza.com/packs/sci-fi-and-cyberpunk-music"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/P8sjnpSFtB9BHaClhFLImbzM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1doczx005506l89fv6v4wd/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Electric Stream\" on Soundza (https://soundza.com/sound/electric-stream)",
+      "matched_words": [
+        "stream"
+      ]
+    },
+    {
+      "id": "cmv0gy0ge49qdm9mnfoxbytmf",
+      "url": "https://soundza.com/sound/gentle-creek-ambience",
+      "title": "Gentle Creek Ambience",
+      "description": "A continuous flow of water moving over rocks and through a natural streambed. Suitable for outdoor scenes, nature documentaries, and relaxing background beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 55.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -38.9,
+      "true_peak_db": -13.6,
+      "loudness": {
+        "value": -38.9,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14686550,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y1mzBCLg4fAhBpnS9owezUDs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gy0ge49qdm9mnfoxbytmf/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Creek Ambience\" on Soundza (https://soundza.com/sound/gentle-creek-ambience)",
+      "matched_words": [
+        "creek"
+      ]
+    },
+    {
+      "id": "cmuhyosk6yznzzk6e58hw4e27",
+      "url": "https://soundza.com/sound/creek-water-trickling",
+      "title": "Creek Water Trickling",
+      "description": "The gentle, continuous sound of water flowing and trickling over rocks in a natural creek bed. A peaceful ambient recording suitable for nature scenes, relaxation content, or environmental soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -33,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -33,
+        "basis": "integrated"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17403656,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Md3vaKnj-kc6LV7dedUqfXra.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyosk6yznzzk6e58hw4e27/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Creek Water Trickling\" on Soundza (https://soundza.com/sound/creek-water-trickling)",
+      "matched_words": [
+        "creek"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009b06juirlbehom",
+      "url": "https://soundza.com/sound/short-waterfall-ambience-the-hermitage-scotland",
+      "title": "Short Waterfall Ambience The Hermitage Scotland",
+      "description": "A natural waterfall recorded at The Hermitage in Scotland, capturing the continuous rushing and flowing water sounds of a cascading stream in a natural outdoor setting.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 7.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -26.6,
+      "true_peak_db": -14.9,
+      "loudness": {
+        "value": -26.6,
+        "basis": "integrated"
+      },
+      "gain_db": 6.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4129648,
+      "category": {
+        "id": "WATRFall",
+        "label": "Water › Waterfall"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2jDyMNjHhXtyWujM_D834xgN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009b06juirlbehom/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Waterfall Ambience The Hermitage Scotland\" on Soundza (https://soundza.com/sound/short-waterfall-ambience-the-hermitage-scotland)",
+      "matched_words": [
+        "rushing",
+        "stream"
+      ]
+    },
+    {
+      "id": "cmvox2yy8hdpgkov2gjf6qikp",
+      "url": "https://soundza.com/sound/straw-bubbling-water",
+      "title": "Straw Bubbling Water",
+      "description": "A continuous stream of bubbles rising through water, created by blowing air through a straw. Useful as a bed for underwater scenes or as a natural water ambience layer.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -32.9,
+      "true_peak_db": -12.9,
+      "loudness": {
+        "value": -27.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2058326,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HFZ9tW0ge3cSdjj2Xpjw7dVB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox2yy8hdpgkov2gjf6qikp/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Straw Bubbling Water\" on Soundza (https://soundza.com/sound/straw-bubbling-water)",
+      "matched_words": [
+        "stream",
+        "close"
+      ]
+    },
+    {
+      "id": "cmukhcwxqkm2l93l180d6zwjm",
+      "url": "https://soundza.com/sound/fireplace-fire-close-up",
+      "title": "Fireplace Fire Close-Up",
+      "description": "A close-up recording of crackling fire in a fireplace, captured in a reverberant room with warm, organic detail. Suitable for cozy interior scenes or immersive ambient backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 94.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "crackle",
+        "ambience",
+        "indoor",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -37.2,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -37.2,
+        "basis": "integrated"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 25002676,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JTDL-Fjm1i8BnBhtS5_gR-__.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhcwxqkm2l93l180d6zwjm/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fireplace Fire Close-Up\" on Soundza (https://soundza.com/sound/fireplace-fire-close-up)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmukba3npmvpwdc5az7s5guwl",
+      "url": "https://soundza.com/sound/hospital-corridor-ambience-close",
+      "title": "Hospital Corridor Ambience Close",
+      "description": "The ambient soundscape of a busy hospital or clinic corridor in Barcelona, capturing the subtle hum of equipment, distant conversations, and the acoustic character of the indoor medical environment.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 108.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "indoor",
+        "room-tone",
+        "hum"
+      ],
+      "sync_ms": null,
+      "lufs": -28.2,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -28.2,
+        "basis": "integrated"
+      },
+      "gain_db": 0,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 28605410,
+      "category": {
+        "id": "AMBHosp",
+        "label": "Ambience › Hospital"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i9DRozLAW8Qd0tjwdfkYYG3K.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukba3npmvpwdc5az7s5guwl/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hospital Corridor Ambience Close\" on Soundza (https://soundza.com/sound/hospital-corridor-ambience-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvoxgp5vatkpgwbkul87efr2",
+      "url": "https://soundza.com/sound/water-straw-bubbling",
+      "title": "Water Straw Bubbling",
+      "description": "The sound of blowing through a straw submerged in water, creating a continuous stream of bubbles with a wet, organic fizzing character. Useful for foley work, water ambiences, or as a texture layer.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 7878,
+      "lufs": -29.5,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -24,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3648980,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/pr_lv8IbfPdWAI08pYo41VVf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxgp5vatkpgwbkul87efr2/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Straw Bubbling\" on Soundza (https://soundza.com/sound/water-straw-bubbling)",
+      "matched_words": [
+        "stream",
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl5i2r94mxn2t7748vlce28",
+      "url": "https://soundza.com/sound/bonfire-close-up-ambience",
+      "title": "Bonfire Close-Up Ambience",
+      "description": "A close-up field recording of a live bonfire with predominantly crackling and hissing embers from burning holly and pine. The sound captures the organic texture of fire in a woodland setting.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "ambience",
+        "crackle",
+        "hiss",
+        "field-recording",
+        "close-up",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -54,
+      "true_peak_db": -21.3,
+      "loudness": {
+        "value": -54,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6139254,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/t3iAH-eWBU0RPEj2PN13RhGp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5i2r94mxn2t7748vlce28/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bonfire Close-Up Ambience\" on Soundza (https://soundza.com/sound/bonfire-close-up-ambience)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl76dsf2c8l17ax3114gnwc",
+      "url": "https://soundza.com/sound/rain-closed-window",
+      "title": "Rain Closed Window",
+      "description": "The continuous sound of rainfall heard from inside a room with a closed window, creating a muffled, soothing atmosphere as drops patter against the glass and the exterior weather creates a natural backdrop.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "water",
+        "ambience",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -48.8,
+      "true_peak_db": -28.9,
+      "loudness": {
+        "value": -48.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6189552,
+      "category": {
+        "id": "RAINInt",
+        "label": "Rain › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BS7yJRnlW4_3kcoZZE1SGzju.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl76dsf2c8l17ax3114gnwc/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain Closed Window\" on Soundza (https://soundza.com/sound/rain-closed-window)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv90gsrhh6a2xeifdhn5y99h",
+      "url": "https://soundza.com/sound/distant-sirens-with-traffic",
+      "title": "Distant Sirens with Traffic",
+      "description": "A continuous background of sirens wailing in the distance layered with the ambient sound of rushing traffic. Creates an urban emergency scene atmosphere suitable for underlaying tense or action-driven scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "build_up"
+      ],
+      "duration": 55.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "traffic",
+        "distant"
+      ],
+      "sync_ms": null,
+      "lufs": -23.5,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -23.5,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14737082,
+      "category": {
+        "id": "AMBEmrg",
+        "label": "Ambience › Emergency"
+      },
+      "pack": {
+        "id": "qsr575hd4an1i8sdxvug8vgl",
+        "name": "Siren Sound Effects — Police, Ambulance, Fire Truck & Air Raid",
+        "slug": "siren-sound-effects-police-ambulance-fire-truck-and-air-raid",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/siren-sound-effects-police-ambulance-fire-truck-and-air-raid"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-Ijijn7N-IIxN4xgFjh61JLx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv90gsrhh6a2xeifdhn5y99h/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Distant Sirens with Traffic\" on Soundza (https://soundza.com/sound/distant-sirens-with-traffic)",
+      "matched_words": [
+        "rushing"
+      ]
+    },
+    {
+      "id": "cmujeyq4x6f45lsiq9wapms0a",
+      "url": "https://soundza.com/sound/door-closing",
+      "title": "Door Closing",
+      "description": "A crisp, wooden door closing with a soft thud and subtle creaking—warm mid-range tone with minimal sustain, perfect for transitions and foley layers in cinematic or game contexts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.72,
+      "bpm": null,
+      "key": "E major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "warm",
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "warm",
+        "transition",
+        "organic",
+        "dry",
+        "one-shot"
+      ],
+      "sync_ms": 328,
+      "lufs": -14.5,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -13.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 227038,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DT2u8P6ZejnIbf93rlzix4N7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujeyq4x6f45lsiq9wapms0a/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Door Closing\" on Soundza (https://soundza.com/sound/door-closing)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtlx1whlnkwkbgnfswawvdoo",
+      "url": "https://soundza.com/sound/crisp-closed-hi-hat-1",
+      "title": "Crisp Closed Hi-Hat",
+      "description": "A crispy, bright closed hi-hat with a sharp metallic attack and minimal sustain, sitting high in the frequency spectrum with punchy transient energy—ideal for tight, syncopated rhythmic patterns in electronic and house production.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "hi-hat",
+        "crispy",
+        "bright",
+        "punchy",
+        "metallic",
+        "tight",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -0.5,
+      "loudness": {
+        "value": -20.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 72252,
+      "category": null,
+      "pack": {
+        "id": "nna4x303lhpnpm857yhexnr4",
+        "name": "The Ultimate Tech House Kit",
+        "slug": "the-ultimate-tech-house-kit",
+        "sound_count": 89,
+        "url": "https://soundza.com/packs/the-ultimate-tech-house-kit"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9b9jDhJBxEkorKbsSiDWu1Wc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtlx1whlnkwkbgnfswawvdoo/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Closed Hi-Hat\" by TRAGWERK on Soundza (https://soundza.com/sound/crisp-closed-hi-hat-1)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmujez2umw794rbuapp9t6gz7",
+      "url": "https://soundza.com/sound/cabinet-door-close",
+      "title": "Cabinet Door Close",
+      "description": "A crisp, percussive cabinet door close with bright mid-range attack and quick decay, featuring the wooden thunk and subtle rattle of hardware—ideal for foley layers, transition effects, and rhythmic percussion elements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.71,
+      "bpm": null,
+      "key": "C# minor",
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "impact",
+        "percussion"
+      ],
+      "sync_ms": 817,
+      "lufs": -21.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -20.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 493800,
+      "category": {
+        "id": "DOORCab",
+        "label": "Doors › Cabinet"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4U5xlnUXevV4xtm3j4J7MH3h.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujez2umw794rbuapp9t6gz7/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cabinet Door Close\" on Soundza (https://soundza.com/sound/cabinet-door-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmujezrr7zskmm5yoo7rdk2db",
+      "url": "https://soundza.com/sound/wooden-door-closing-1",
+      "title": "Wooden Door Closing",
+      "description": "A crisp, percussive door closing sound with a sharp wooden attack and quick decay, centered around mid-range frequencies with minimal low-end rumble. The tight transient and high crest factor create a punchy, articulate foley texture perfect for adding realistic environmental impact and movement to productions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.75,
+      "bpm": null,
+      "key": "D minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy"
+      ],
+      "tags": [
+        "foley",
+        "percussion",
+        "punchy",
+        "crispy",
+        "sharp",
+        "dry",
+        "one-shot",
+        "impact"
+      ],
+      "sync_ms": 519,
+      "lufs": -25.4,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -24.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 502686,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GJFqlCBQEFJM0y_GKhDkTWf3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujezrr7zskmm5yoo7rdk2db/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wooden Door Closing\" on Soundza (https://soundza.com/sound/wooden-door-closing-1)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv0glpdf001506i9akcr73hf",
+      "url": "https://soundza.com/sound/water-loop-3",
+      "title": "Water Loop 3",
+      "description": "A continuous looping ambience of gently flowing water with subtle textural variation. Suitable as an atmospheric bed for scenes with streams, rivers, or water features.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 9.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -25.5,
+      "true_peak_db": -7.7,
+      "loudness": {
+        "value": -25.5,
+        "basis": "integrated"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2795676,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-XGUJ1RhsCL5JnNWwhtASXDV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf001506i9akcr73hf/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 3\" on Soundza (https://soundza.com/sound/water-loop-3)",
+      "matched_words": [
+        "stream"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009o06juaaov0eeb",
+      "url": "https://soundza.com/sound/waterfall-above-risan-montenegro-1",
+      "title": "Waterfall Above Risan Montenegro",
+      "description": "A continuous waterfall recorded in a natural outdoor setting. The sound captures the rushing water dynamics typical of a cascade in a mountainous region, suitable as a bed for nature scenes or cinematic outdoor environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 215.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -21.8,
+      "true_peak_db": -9.2,
+      "loudness": {
+        "value": -21.8,
+        "basis": "integrated"
+      },
+      "gain_db": 1.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 124274018,
+      "category": {
+        "id": "WATRFall",
+        "label": "Water › Waterfall"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rFqFwQ0pAR-_H_gU7pE6Iio5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009o06juaaov0eeb/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waterfall Above Risan Montenegro\" on Soundza (https://soundza.com/sound/waterfall-above-risan-montenegro-1)",
+      "matched_words": [
+        "rushing"
+      ]
+    },
+    {
+      "id": "cmv0gh7zp05rco5ueuzikhqyr",
+      "url": "https://soundza.com/sound/steam-pressure-release",
+      "title": "Steam Pressure Release",
+      "description": "A continuous stream of pressurized steam or air being forced through a hose or tube, with varying intensity and texture. Useful for mechanical, industrial, or natural steam effects in games and videos.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 25.02,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -8,
+      "true_peak_db": 0.9,
+      "loudness": {
+        "value": -8,
+        "basis": "integrated"
+      },
+      "gain_db": -12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7207000,
+      "category": {
+        "id": "AIRHiss",
+        "label": "Air › Hiss"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0D2VQ5MZc1BQw2Tj_ND7Lj2V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gh7zp05rco5ueuzikhqyr/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steam Pressure Release\" on Soundza (https://soundza.com/sound/steam-pressure-release)",
+      "matched_words": [
+        "stream"
+      ]
+    },
+    {
+      "id": "cmtkdvtnodr0hmp17k734mf5z",
+      "url": "https://soundza.com/sound/tight-closed-hi-hat",
+      "title": "Tight Closed Hi-Hat",
+      "description": "A crispy, bright closed cymbal hit with sharp metallic attack and airy decay, characteristic of a tight closed hi-hat strike with minimal sustain and high-frequency shimmer.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "hi-hat",
+        "crispy",
+        "bright",
+        "sharp",
+        "metallic",
+        "tight",
+        "one-shot"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -22.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 35956,
+      "category": null,
+      "pack": {
+        "id": "marvp94izn32zhivnncm7e61",
+        "name": "Afrobeats Drum and Percussion One-Shots",
+        "slug": "afrobeats-drum-and-percussion-one-shots",
+        "sound_count": 140,
+        "url": "https://soundza.com/packs/afrobeats-drum-and-percussion-one-shots"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/P6udluP1zzMj48c01M0WnDwF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkdvtnodr0hmp17k734mf5z/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tight Closed Hi-Hat\" by LABADI on Soundza (https://soundza.com/sound/tight-closed-hi-hat)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv8ylxtl72e5j4ikg0ob0t2g",
+      "url": "https://soundza.com/sound/creaky-door-open-close",
+      "title": "Creaky Door Open Close",
+      "description": "A wooden door creaks open and closed with audible handle and latch mechanisms. The dry, crisp recording captures the classic horror movie quality of an aged door in a workshop setting.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 15.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "door",
+        "wood",
+        "horror",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -11.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4022362,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/quVL0j9i5639x_VstSr4-Gy_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8ylxtl72e5j4ikg0ob0t2g/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Creaky Door Open Close\" on Soundza (https://soundza.com/sound/creaky-door-open-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmti9fiz7t88vduycarasvbla",
+      "url": "https://soundza.com/sound/closed-hi-hat-accent",
+      "title": "Closed Hi-Hat Accent",
+      "description": "A tight, crispy closed hi-hat with a sharp metallic attack and minimal sustain, characteristic of classic drum machine aesthetics. The high-frequency emphasis and fast transient delivery make it perfect for adding rhythmic definition and snap to any beat.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "hi-hat",
+        "crispy",
+        "bright",
+        "tight",
+        "one-shot",
+        "metallic",
+        "sharp",
+        "percussion"
+      ],
+      "sync_ms": 7,
+      "lufs": null,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -21.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 63638,
+      "category": null,
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/T5-umkc7PKQ-TmJ7_C769RnQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmti9fiz7t88vduycarasvbla/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Closed Hi-Hat Accent\" on Soundza (https://soundza.com/sound/closed-hi-hat-accent)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv90l3zvfs84s3lnsw3yreyc",
+      "url": "https://soundza.com/sound/dog-barking-close",
+      "title": "Dog Barking Close",
+      "description": "A dog barking with clear, close-miked vocal detail. Useful for pet scenes, dog reactions, and animal dialogue.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 20.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "dog",
+        "animal",
+        "close-up",
+        "vocal",
+        "reaction"
+      ],
+      "sync_ms": null,
+      "lufs": -17.6,
+      "true_peak_db": -1.3,
+      "loudness": {
+        "value": -12.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11926492,
+      "category": {
+        "id": "ANMLDog",
+        "label": "Animals › Dog"
+      },
+      "pack": {
+        "id": "gkvwpt6ak29aa3lmqfybn1t5",
+        "name": "Animal Sound Effects for Kids — Farm, Pets, Jungle & Dinosaurs",
+        "slug": "animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs",
+        "sound_count": 74,
+        "url": "https://soundza.com/packs/animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tJKiX0KPybQ-772r-ezZGEqB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv90l3zvfs84s3lnsw3yreyc/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Dog Barking Close\" on Soundza (https://soundza.com/sound/dog-barking-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmukd5nxttaic73iq9volu5q2",
+      "url": "https://soundza.com/sound/deep-car-door-closing",
+      "title": "Deep Car Door Closing",
+      "description": "A single car door closing with a solid thud and subtle metallic resonance. Useful for vehicle scenes, transitions, or as a percussive element in sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "door",
+        "car",
+        "foley",
+        "impact",
+        "mechanical"
+      ],
+      "sync_ms": 29,
+      "lufs": -22.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 147566,
+      "category": {
+        "id": "VEHDoor",
+        "label": "Vehicles › Door"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0aY3ntUgd0VWZUG--QPOnCNg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukd5nxttaic73iq9volu5q2/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Deep Car Door Closing\" on Soundza (https://soundza.com/sound/deep-car-door-closing)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl6xy97b2m4jy51kjcep0jn",
+      "url": "https://soundza.com/sound/close-thunder-strike",
+      "title": "Close Thunder Strike",
+      "description": "A sharp, crackling thunderclap from a nearby lightning strike with a quick attack and natural decay. Ideal for adding immediate impact to storm scenes or weather transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "thunder",
+        "impact",
+        "close-up"
+      ],
+      "sync_ms": 336,
+      "lufs": -18.7,
+      "true_peak_db": 1.6,
+      "loudness": {
+        "value": -11.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1015850,
+      "category": {
+        "id": "THUN",
+        "label": "Weather › Thunder"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-Zfqve9Sm5fnjmFTioOMiwyn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6xy97b2m4jy51kjcep0jn/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Close Thunder Strike\" on Soundza (https://soundza.com/sound/close-thunder-strike)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtkmj40lk6zwc5o3bbie4rbf",
+      "url": "https://soundza.com/sound/bright-closed-hi-hat-2",
+      "title": "Bright Closed Hi-Hat",
+      "description": "A bright, crispy closed hi-hat with high spectral content and sharp metallic shimmer, delivering a tight, percussive attack ideal for tight drum programming in electronic and dance music.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "hi-hat",
+        "bright",
+        "crispy",
+        "clean",
+        "metallic",
+        "tight",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 48044,
+      "category": null,
+      "pack": {
+        "id": "y45kz46rys9z90bslhc8ynn5",
+        "name": "Urban Trap Essentials",
+        "slug": "urban-trap-essentials",
+        "sound_count": 108,
+        "url": "https://soundza.com/packs/urban-trap-essentials"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SUqECN-BEcHYKBy39nFszAJz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkmj40lk6zwc5o3bbie4rbf/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Closed Hi-Hat\" on Soundza (https://soundza.com/sound/bright-closed-hi-hat-2)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvia0dqpzjqwgq0im76mulmq",
+      "url": "https://soundza.com/sound/cloth-grab-close",
+      "title": "Cloth Grab Close",
+      "description": "A close-up recording of fabric being grabbed and handled, with rustling and movement. Suitable for foley work in fight scenes, character interactions, or clothing manipulation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "cloth",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 2865,
+      "lufs": -50.2,
+      "true_peak_db": -22.5,
+      "loudness": {
+        "value": -47,
+        "basis": "momentary_max"
+      },
+      "gain_db": 21.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1152082,
+      "category": {
+        "id": "FGHTGrab",
+        "label": "Fight › Grab"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RCmoz3Wu1p_nt3TelF53taaA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvia0dqpzjqwgq0im76mulmq/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cloth Grab Close\" on Soundza (https://soundza.com/sound/cloth-grab-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtkiz1tx8z858n828fuumo51",
+      "url": "https://soundza.com/sound/synthetic-closed-hat",
+      "title": "Synthetic Closed Hat",
+      "description": "A tight, crispy closed hi-hat with bright metallic shimmer and rapid onset—characteristic of classic drum machine snappiness with minimal sustain. The high spectral content and fast attack deliver punchy articulation ideal for locked-in rhythmic grooves.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy",
+        "metallic"
+      ],
+      "tags": [
+        "hi-hat",
+        "crispy",
+        "bright",
+        "punchy",
+        "metallic",
+        "tight",
+        "one-shot",
+        "percussion"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -13.7,
+      "loudness": {
+        "value": -31.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 93446,
+      "category": null,
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HPmN_23iJ2AIUEUpkVsoc_sN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkiz1tx8z858n828fuumo51/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Synthetic Closed Hat\" on Soundza (https://soundza.com/sound/synthetic-closed-hat)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv9011xvvslzy3yhuic658xy",
+      "url": "https://soundza.com/sound/clock-ticks-close-up",
+      "title": "Clock Ticks Close-Up",
+      "description": "A mechanical clock ticking loudly with room ambience in the background, recorded very close to the microphone for intimate detail. Ideal for emphasizing the passage of time or creating tension in a scene.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "reveal"
+      ],
+      "duration": 60,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "close-up",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -32.5,
+      "true_peak_db": -7.7,
+      "loudness": {
+        "value": -26.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17280086,
+      "category": {
+        "id": "CLOCKTick",
+        "label": "Clocks › Tick"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZOrce4qnWsE8qBn31mGiCf0S.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv9011xvvslzy3yhuic658xy/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Clock Ticks Close-Up\" on Soundza (https://soundza.com/sound/clock-ticks-close-up)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl6ydai1coavdbm3afw10b7",
+      "url": "https://soundza.com/sound/close-lightning-strike",
+      "title": "Close Lightning Strike",
+      "description": "A sharp, intense lightning bolt recorded at close range with a loud initial crack followed by resonant rumble. Ideal for dramatic storm moments and weather effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 19.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "thunder",
+        "close-up",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -20.1,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -12.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5213416,
+      "category": {
+        "id": "THUN",
+        "label": "Weather › Thunder"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hfKDSXygQZT64DWfCVV8vxxE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6ydai1coavdbm3afw10b7/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Close Lightning Strike\" on Soundza (https://soundza.com/sound/close-lightning-strike)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl6xl4h8vgjptof892fpb7v",
+      "url": "https://soundza.com/sound/lightning-strike-close",
+      "title": "Lightning Strike Close",
+      "description": "A real field recording of a lightning strike with thunder, capturing the sharp electrical discharge and rumbling aftermath of the storm event.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 15.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "thunder",
+        "nature",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -16.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -4.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3980380,
+      "category": {
+        "id": "THUN",
+        "label": "Weather › Thunder"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1GOdMpJ8ofr3PD9ui_3ByEkC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6xl4h8vgjptof892fpb7v/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lightning Strike Close\" on Soundza (https://soundza.com/sound/lightning-strike-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtdxue17q859bo5vecws3hy4",
+      "url": "https://soundza.com/sound/closed-egg-shaker-loop",
+      "title": "Closed Egg Shaker Loop",
+      "description": "A crispy, tight closed shaker with a groove-oriented rhythmic pattern that sits in the mid-to-high frequency range with minimal sustain. Punchy onset and clean articulation make it ideal for adding percussive pocket and movement to production at 96 BPM.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 13.1,
+      "bpm": 95.8,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy"
+      ],
+      "tags": [
+        "shaker",
+        "punchy",
+        "crispy",
+        "tight",
+        "rhythmic",
+        "groove",
+        "percussion",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -30.9,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -30.9,
+        "basis": "integrated"
+      },
+      "gain_db": 4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3467410,
+      "category": null,
+      "pack": {
+        "id": "dfx7fsgfe30dg4hcpcjyupfl",
+        "name": "KASSA — West African and Latin Hand Percussion Loops",
+        "slug": "kassa-west-african-and-latin-hand-percussion-loops",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/kassa-west-african-and-latin-hand-percussion-loops"
+      },
+      "creator": {
+        "name": "Kola RAIN",
+        "url": "https://soundza.com/creators/kola-rain"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Tgj_KK_YQSZjUW1VgxHVNrZa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtdxue17q859bo5vecws3hy4/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Closed Egg Shaker Loop\" by Kola RAIN on Soundza (https://soundza.com/sound/closed-egg-shaker-loop)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmujexcfmekgd3sqiihngdkp5",
+      "url": "https://soundza.com/sound/loud-door-closing",
+      "title": "Loud Door Closing",
+      "description": "A heavy, solid door closing with a firm mechanical clamp—deep resonant thump followed by a sharp latch click, captured in close proximity with minimal room ambience. Perfect for cinematic transitions, game foley, or adding weight to production elements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 4.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "heavy",
+        "dark",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "heavy",
+        "deep",
+        "one-shot",
+        "dark",
+        "cinematic",
+        "transition"
+      ],
+      "sync_ms": 2621,
+      "lufs": -15.3,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -12.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 635794,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q4GTSF1nmt17wImCq3oCmzym.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujexcfmekgd3sqiihngdkp5/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Loud Door Closing\" on Soundza (https://soundza.com/sound/loud-door-closing)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmukdx6avceim8959f8sxxrf1",
+      "url": "https://soundza.com/sound/water-splash-close-up",
+      "title": "Water Splash Close-Up",
+      "description": "A brief, sharp water splash with crisp high-frequency impact, recorded in close proximity. Suitable for realistic foley in scenes involving water interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "close-up",
+        "wet",
+        "impact"
+      ],
+      "sync_ms": 9,
+      "lufs": -26,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -21.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 222086,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ly4iHyibrZ8XvADMhTPpU6I7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdx6avceim8959f8sxxrf1/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Splash Close-Up\" on Soundza (https://soundza.com/sound/water-splash-close-up)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmujew7bocv70drit8sf8ik4c",
+      "url": "https://soundza.com/sound/wooden-door-closing",
+      "title": "Wooden Door Closing",
+      "description": "A realistic door closing sound with a solid thud and subtle mechanical hardware settling; the sound captures the full acoustic resonance of a wooden door pulling shut followed by a natural decay.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "impact",
+        "organic",
+        "one-shot",
+        "atmospheric",
+        "transition"
+      ],
+      "sync_ms": 297,
+      "lufs": -16.4,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -15.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 326340,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/k4vifOQBxspfcBdEWqaZ5eRN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujew7bocv70drit8sf8ik4c/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wooden Door Closing\" on Soundza (https://soundza.com/sound/wooden-door-closing)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvdzlh70hgpk7iplr00jjelo",
+      "url": "https://soundza.com/sound/steam-locomotive-whistle-close",
+      "title": "Steam Locomotive Whistle Close",
+      "description": "A loud, piercing steam whistle recorded up close at a preservation park in Kyoto. The intense, high-pitched roar fills the entire recording with rich harmonic content.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 11.7,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "train",
+        "close-up"
+      ],
+      "sync_ms": 9845,
+      "lufs": -21.8,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -18.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3096558,
+      "category": {
+        "id": "TRNSteam",
+        "label": "Trains › Steam"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/whFffPpkzaoFTiWkaiSWhQSU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzlh70hgpk7iplr00jjelo/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steam Locomotive Whistle Close\" on Soundza (https://soundza.com/sound/steam-locomotive-whistle-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvl5q3q1r3ehas2o7uqy44ql",
+      "url": "https://soundza.com/sound/fuse-burning-close-up",
+      "title": "Fuse Burning Close-up",
+      "description": "A low, irregular hissing sound of a fireworks fuse igniting and burning. Close-up recording with emphasized low-end presence, capturing the crackling and sizzling details of the burning fuse.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 8.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "hiss",
+        "crackle",
+        "close-up",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -17.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -15.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1166634,
+      "category": {
+        "id": "FIREIgn",
+        "label": "Fire › Ignite"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TjItfEvA_JGmpcE9eYRMmsgi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5q3q1r3ehas2o7uqy44ql/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fuse Burning Close-up\" on Soundza (https://soundza.com/sound/fuse-burning-close-up)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv0h5mqr2mvl5krik41d5ynn",
+      "url": "https://soundza.com/sound/violent-wind-blasting-close-mic",
+      "title": "Violent Wind Blasting Close Mic",
+      "description": "A close, turbulent wind sound recorded from a moving car window, with intense buffeting and whooshing character resembling strong storm or hurricane-force winds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "transition",
+        "build_up"
+      ],
+      "duration": 27.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "whoosh",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -11.2,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -7.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7324224,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wqOVJNw2BP479uWOzbhXDrGZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h5mqr2mvl5krik41d5ynn/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Violent Wind Blasting Close Mic\" on Soundza (https://soundza.com/sound/violent-wind-blasting-close-mic)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmuke2c6k1lb3kxql9h3ok654",
+      "url": "https://soundza.com/sound/close-mic-zipper-up-and-down",
+      "title": "Close Mic Zipper Up and Down",
+      "description": "The close-up sound of a zipper being pulled up and down on fabric, with prominent metallic scraping and mechanical clicks. Useful for clothing interactions and luggage handling.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 7.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "cloth",
+        "mechanical",
+        "close-up",
+        "foley"
+      ],
+      "sync_ms": 6004,
+      "lufs": -25.2,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -17.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1966174,
+      "category": {
+        "id": "OBJZipr",
+        "label": "Objects › Zipper"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xp2VlrLMx9OzaO6-npRn8HGg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuke2c6k1lb3kxql9h3ok654/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Close Mic Zipper Up and Down\" on Soundza (https://soundza.com/sound/close-mic-zipper-up-and-down)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtl15orbbgpxc2i680hdljaq",
+      "url": "https://soundza.com/sound/crystalline-closed-hi-hat",
+      "title": "Crystalline Closed Hi-Hat",
+      "description": "A tight, crispy closed hi-hat with aggressive metallic shimmer and a sharp attack—characteristic of a high-end cymbal kit with punchy presence in the upper midrange and bright transient snap.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.72,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "hi-hat",
+        "one-shot",
+        "punchy",
+        "crispy",
+        "metallic",
+        "bright",
+        "tight",
+        "aggressive"
+      ],
+      "sync_ms": 13,
+      "lufs": -20.2,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -20.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 189930,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GQsbWr_vR141jMdWOO4X2yC7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl15orbbgpxc2i680hdljaq/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crystalline Closed Hi-Hat\" on Soundza (https://soundza.com/sound/crystalline-closed-hi-hat)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmtxrcg1mf6cl3col27teoep3",
+      "url": "https://soundza.com/sound/close-seagulls-caw-loop",
+      "title": "Close Seagulls Caw Loop",
+      "description": "A natural seagull screech and ocean ambience captured at a coastal location, featuring bright mid-range bird calls layered over subtle wave and environmental textures. The sound has an airy, organic quality with minimal low-end presence and rapid, percussive onset characteristics typical of field recordings.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 14.9,
+      "bpm": 103,
+      "key": "D minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy",
+        "bright",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "organic",
+        "atmospheric",
+        "airy",
+        "bright",
+        "cinematic",
+        "texture",
+        "ambient"
+      ],
+      "sync_ms": 5501,
+      "lufs": -10,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -4.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3942322,
+      "category": {
+        "id": "BIRDSea",
+        "label": "Birds › Sea"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tEOYSB93XCabRMAeyAy5AIDF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxrcg1mf6cl3col27teoep3/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Close Seagulls Caw Loop\" on Soundza (https://soundza.com/sound/close-seagulls-caw-loop)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmvcmjc80j96x02v6zx18gtwb",
+      "url": "https://soundza.com/sound/air-horn-close",
+      "title": "Air Horn Close",
+      "description": "A loud, punchy air horn blast recorded at close range, ideal for sudden attention-grabbing moments or alert notifications. The sound has a clear tonal quality with sharp attack.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "impact_on_beat"
+      ],
+      "duration": 6.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "close-up",
+        "notification",
+        "impact"
+      ],
+      "sync_ms": 2765,
+      "lufs": -3.9,
+      "true_peak_db": 0.7,
+      "loudness": {
+        "value": -0.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -12.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1606352,
+      "category": {
+        "id": "HORNAir",
+        "label": "Horns › Air Powered"
+      },
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YQkV-8gf389v9sxkGywqb8z4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmjc80j96x02v6zx18gtwb/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Air Horn Close\" on Soundza (https://soundza.com/sound/air-horn-close)",
+      "matched_words": [
+        "close"
+      ]
+    },
+    {
+      "id": "cmv5swkch00kt06l6w9e3cey1",
+      "url": "https://soundza.com/sound/heavy-door-open-close-and-lock",
+      "title": "Heavy Door Open, Close and Lock",
+      "description": "A substantial wooden door opens, closes, and locks with audible mechanical sounds. Useful for dramatic interior scenes, building tension, or establishing a residential or institutional setting.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 15.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "door",
+        "wood",
+        "foley",
+        "close-up",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -21.6,
+      "true_peak_db": -3.1,
+      "loudness": {
+        "value": -14.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8961116,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aUEukIkU3b8NSEvAI3ob94CM.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00kt06l6w9e3cey1/file?search_id=u565j86pk78kikyh9wqofjq3",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heavy Door Open, Close and Lock\" on Soundza (https://soundza.com/sound/heavy-door-open-close-and-lock)",
+      "matched_words": [
+        "close"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "rushing stream, brook, creek",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: You are looking for the sound of a rushing stream. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"rushing stream close\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "u565j86pk78kikyh9wqofjq3"
+}

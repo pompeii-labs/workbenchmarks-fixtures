@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/lap-best.mp3",
+  "sha": "2efd3845e93d7e7c",
+  "want": "a triumphant bright achievement fanfare for a new record, short",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    6,
+    6,
+    5
+  ],
+  "fit": 6,
+  "heard": "A quick, bright ascending arpeggio played on a plucky synth-bell or glockenspiel-like tone, 4-5 notes climbing to a sustained top note. Small and close-miked, dry with only a short, quick-decaying reverb tail that fades almost immediately.",
+  "sounds_like": "A classic 'achievement unlocked' / level-up chime from a mobile or casual game",
+  "problems": "Too small and thin to feel truly triumphant — it's a chime, not a fanfare. No brass, strings, or ensemble weight behind it, so it won't sell a big 'new record' moment. The tail is very short, giving it no grandeur or lingering celebration.",
+  "veto": false
+}

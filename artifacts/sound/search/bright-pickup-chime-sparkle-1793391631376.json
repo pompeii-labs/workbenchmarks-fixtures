@@ -1,0 +1,3638 @@
+{
+  "query": {
+    "q": "bright pickup chime sparkle",
+    "max_duration": "2",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=bright+pickup+chime+sparkle&max_duration=2&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv5myxln00qe06l47955he4h",
+      "url": "https://soundza.com/sound/gem-3",
+      "title": "Gem 3",
+      "description": "A bright, high-pitched chime or crystalline sparkle, like collecting a gem or magical item in a fantasy RPG. Perfect for inventory pickups or treasure acquisition moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "chime",
+        "game"
+      ],
+      "sync_ms": 27,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -23.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 83002,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5myxj700pb06l4wqk9a0dt",
+        "name": "Fantasy RPG SFX",
+        "slug": "fantasy-rpg-sfx",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/fantasy-rpg-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wWcTXnPrqE1bImC5AAf25p48.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5myxln00qe06l47955he4h/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gem 3\" on Soundza (https://soundza.com/sound/gem-3)"
+    },
+    {
+      "id": "cmv0i3lv100ts06l8bgvvtt2e",
+      "url": "https://soundza.com/sound/16-bit-pickup-3",
+      "title": "16-Bit Pickup 3",
+      "description": "A bright, chiming 8-bit style coin or item pickup sound effect typical of retro video games. Perfect for game interfaces and reward feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "ui",
+        "notification",
+        "chime",
+        "bright",
+        "coin"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -8,
+      "loudness": {
+        "value": -24.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 13046,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aCEak4r_U8cN0Jx5Umu1dgk3.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i3lv100ts06l8bgvvtt2e/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"16-Bit Pickup 3\" on Soundza (https://soundza.com/sound/16-bit-pickup-3)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjpc12q64rx31hti3d4fazm",
+      "url": "https://soundza.com/sound/retro-power-up-pickup-short",
+      "title": "Retro Power-Up Pickup Short",
+      "description": "A bright, ascending chime-like tone with a quick attack that signals gaining a power-up or collecting a reward in a game. Classic arcade-style feedback perfect for pickup moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "retro",
+        "chime",
+        "bright",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 1.6,
+      "loudness": {
+        "value": -4.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 52652,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/I0N8ZI7Q9z8bX2uuadUOF9sC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjpc12q64rx31hti3d4fazm/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Power-Up Pickup Short\" on Soundza (https://soundza.com/sound/retro-power-up-pickup-short)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjojy6jx0szm70csa1llfej",
+      "url": "https://soundza.com/sound/sparkle-shimmer-hit",
+      "title": "Sparkle Shimmer Hit",
+      "description": "A bright, glassy shimmer with a quick sparkly attack and decay, like a magical item appearing or being activated. Perfect for fantasy game pickups, UI reveals, or magical transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "reveal"
+      ],
+      "duration": 0.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "magic",
+        "game",
+        "bright",
+        "retro",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -16.9,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -16.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 58584,
+      "category": {
+        "id": "MAGShim",
+        "label": "Magic › Shimmer"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l3cfvMliBbzZxpPo5AlsRE4N.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjojy6jx0szm70csa1llfej/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sparkle Shimmer Hit\" on Soundza (https://soundza.com/sound/sparkle-shimmer-hit)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "sparkle"
+      ]
+    },
+    {
+      "id": "cmukc8kdxfng4cdvohnilvz9l",
+      "url": "https://soundza.com/sound/bright-coin-pickup",
+      "title": "Bright Coin Pickup",
+      "description": "A bright, metallic chime that rings out instantly—classic arcade-style coin collection sound. Perfect for game pickups and reward feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "D6",
+      "mood": [
+        "retro",
+        "metallic"
+      ],
+      "tags": [
+        "coin",
+        "game",
+        "arcade",
+        "8-bit",
+        "retro",
+        "metallic"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -17.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 19116,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EF0BCRI1SFBFbULMoGYd-Mzn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc8kdxfng4cdvohnilvz9l/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Coin Pickup\" on Soundza (https://soundza.com/sound/bright-coin-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc7vrax28h36eoagwd7h8j",
+      "url": "https://soundza.com/sound/bright-melodic-coin-pickup",
+      "title": "Bright Melodic Coin Pickup",
+      "description": "A bright, chiming coin pickup sound with a quick attack and tonal character. Ideal for game rewards, collectibles, and success feedback in retro or arcade-style games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "coin",
+        "game",
+        "arcade",
+        "chime",
+        "8-bit",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -22.9,
+      "true_peak_db": -14.6,
+      "loudness": {
+        "value": -22.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 68136,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/L6fuXWj9JIoq7Gbla0KP8uON.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc7vrax28h36eoagwd7h8j/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Melodic Coin Pickup\" on Soundza (https://soundza.com/sound/bright-melodic-coin-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc84b62l1z4wpzwyzqa9o1",
+      "url": "https://soundza.com/sound/shiny-coin-pickup",
+      "title": "Shiny Coin Pickup",
+      "description": "A bright, high-pitched chime designed for a retro arcade game, perfect for coin pickups or point rewards. The crisp attack and tonal quality instantly evoke 8-bit gaming aesthetics.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 1.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G5",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "coin",
+        "arcade",
+        "retro",
+        "chime",
+        "8-bit",
+        "ui"
+      ],
+      "sync_ms": 35,
+      "lufs": -20.2,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -15.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 306748,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8jKjg7EkbavBEFsohyJwdoQN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc84b62l1z4wpzwyzqa9o1/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Shiny Coin Pickup\" on Soundza (https://soundza.com/sound/shiny-coin-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc9jhkqdhaur0w5mvdpe37",
+      "url": "https://soundza.com/sound/8-bit-coin-pickup",
+      "title": "8-Bit Coin Pickup",
+      "description": "A bright, chiming 8-bit coin sound with a quick attack and decay. Perfect for game pickups, level-ups, or scoring events in retro-style games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "coin",
+        "game",
+        "retro",
+        "chime",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -7.9,
+      "true_peak_db": -2.5,
+      "loudness": {
+        "value": -7.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 55024,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/pnlkm41ySRsHdv2RlMdTct5I.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc9jhkqdhaur0w5mvdpe37/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Coin Pickup\" on Soundza (https://soundza.com/sound/8-bit-coin-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc9i4x1uhkocrb70718h5g",
+      "url": "https://soundza.com/sound/retro-coin-pickup-1",
+      "title": "Retro Coin Pickup 1",
+      "description": "A bright, punchy single chime that rings when collected, characteristic of classic arcade and 8-bit game rewards. Ideal for coin pickups, power-ups, or level-complete notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "coin",
+        "game",
+        "retro",
+        "8-bit",
+        "chime",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -10,
+      "true_peak_db": -3.3,
+      "loudness": {
+        "value": -7.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 82504,
+      "category": {
+        "id": "GAMEArcd",
+        "label": "Games › Arcade"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NZhAHDTic7-fVhSsHDGdOOt9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc9i4x1uhkocrb70718h5g/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Coin Pickup 1\" on Soundza (https://soundza.com/sound/retro-coin-pickup-1)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmuymqzsh000s06n5v8iwpr8p",
+      "url": "https://soundza.com/sound/coin-toss-2",
+      "title": "Coin Toss 2",
+      "description": "A bright, metallic chime with a clear tonal character, like a coin being collected in a retro game. Quick attack and minimal decay make it perfect for immediate feedback on item pickups or score events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "coin",
+        "game",
+        "retro",
+        "chime",
+        "bright",
+        "metallic",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -12.6,
+      "true_peak_db": 0.8,
+      "loudness": {
+        "value": -11.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 288076,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GJJivzMyq0Sbfq8NPiXWg5PE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzsh000s06n5v8iwpr8p/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Coin Toss 2\" on Soundza (https://soundza.com/sound/coin-toss-2)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv0in0xd00cq06l5seoq0ggf",
+      "url": "https://soundza.com/sound/player-pickup-heart",
+      "title": "Player Pickup Heart",
+      "description": "A bright, cheerful chime indicating the player has collected a heart or health item in a retro video game. Perfect for game pickups and power-ups.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "power-up",
+        "chime",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -18.7,
+      "true_peak_db": -12,
+      "loudness": {
+        "value": -17.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 69898,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/y9qYurRwqTiyhEhq_wdWDvdx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0in0xd00cq06l5seoq0ggf/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Player Pickup Heart\" on Soundza (https://soundza.com/sound/player-pickup-heart)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc7j3yclrbxwpfbdtlqecn",
+      "url": "https://soundza.com/sound/retro-coin-pickup-2",
+      "title": "Retro Coin Pickup 2",
+      "description": "A bright, metallic chime with a quick attack and sustaining tone, characteristic of classic arcade or 8-bit game coin collection sounds. Perfect for level pickups, item collection, or reward feedback in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "coin",
+        "game",
+        "arcade",
+        "8-bit",
+        "retro",
+        "chime",
+        "ui"
+      ],
+      "sync_ms": 171,
+      "lufs": -21.3,
+      "true_peak_db": -5.1,
+      "loudness": {
+        "value": -17.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396054,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lXzkZMBffGa7wbyXC3ouz8x0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc7j3yclrbxwpfbdtlqecn/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Coin Pickup 2\" on Soundza (https://soundza.com/sound/retro-coin-pickup-2)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmujgkdir0d6az57rbe7iwhsh",
+      "url": "https://soundza.com/sound/bright-notification-chime",
+      "title": "Bright Notification Chime",
+      "description": "A clean, punchy synthesizer chime with a quick attack and tonal character, designed for chat or app notifications. Bright and attention-grabbing without being harsh.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": 107,
+      "lufs": -20.1,
+      "true_peak_db": -7.4,
+      "loudness": {
+        "value": -18.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 182520,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qDyRlmW7iG2Fm58n9tUVw-Jx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgkdir0d6az57rbe7iwhsh/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Notification Chime\" on Soundza (https://soundza.com/sound/bright-notification-chime)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc86kv447y50xmv0uxg6pi",
+      "url": "https://soundza.com/sound/retro-coin-pickup-3",
+      "title": "Retro Coin Pickup 3",
+      "description": "A bright, tonal chime with a quick attack and decay, designed for collecting coins in a video game. Works as a reward or success feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "game_power_up"
+      ],
+      "duration": 0.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "B4",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "coin",
+        "power-up",
+        "game",
+        "8-bit",
+        "retro",
+        "chime",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -16.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 49734,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4HaTNdsrs4FRvJjCye89A0Al.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc86kv447y50xmv0uxg6pi/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Coin Pickup 3\" on Soundza (https://soundza.com/sound/retro-coin-pickup-3)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv0i1rh2006h06l83yevupd9",
+      "url": "https://soundza.com/sound/8-bit-pickup-4",
+      "title": "8-Bit Pickup 4",
+      "description": "A bright, electronic chime-like sound with a short, punchy attack. Perfect for collecting items or completing objectives in retro video games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "chime",
+        "bright",
+        "notification",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1.6,
+      "loudness": {
+        "value": -15.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 22050,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 26006,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/odg08IuCdVTWu9VaUzXKtJSl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i1rh2006h06l83yevupd9/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Pickup 4\" on Soundza (https://soundza.com/sound/8-bit-pickup-4)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjp5lqux59ryejbbsjbs88k",
+      "url": "https://soundza.com/sound/energy-pickup",
+      "title": "Energy Pickup",
+      "description": "A bright, ascending electronic chirp with a quick attack. Perfect for game pickups, power-ups, and teleportation effects in interactive media.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "ui",
+        "notification",
+        "bright"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -21.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 33490,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/spwYXfkzqGGUghn4QArWx2Gi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjp5lqux59ryejbbsjbs88k/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Energy Pickup\" on Soundza (https://soundza.com/sound/energy-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup"
+      ]
+    },
+    {
+      "id": "cmukcc4x7mjatxuo6nny8f9pc",
+      "url": "https://soundza.com/sound/8-bit-coin-pickup-1",
+      "title": "8-Bit Coin Pickup",
+      "description": "A bright, uplifting chiptune tone that rises and lands with a single ping—the classic sound of collecting a power-up or bonus item in an 8-bit video game.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "power-up",
+        "retro",
+        "chime",
+        "game",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -8.7,
+      "true_peak_db": -2.8,
+      "loudness": {
+        "value": -7.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 66470,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VguLHpNOl0YwTUvz-G6-oNvc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcc4x7mjatxuo6nny8f9pc/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Coin Pickup\" on Soundza (https://soundza.com/sound/8-bit-coin-pickup-1)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmuynws8x000l06nv34tel2ty",
+      "url": "https://soundza.com/sound/power-up-12",
+      "title": "Power Up 12",
+      "description": "A bright, tonal electronic pulse that rises with energy, ideal for game pickups, level completions, or UI confirmations in sci-fi settings.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "power-up",
+        "game",
+        "notification",
+        "bright",
+        "sci-fi",
+        "ui",
+        "chime"
+      ],
+      "sync_ms": null,
+      "lufs": -34.1,
+      "true_peak_db": -23.6,
+      "loudness": {
+        "value": -33.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 20.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 102988,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LsGkN7xEQxECPBKogt_3MEYb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuynws8x000l06nv34tel2ty/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power Up 12\" on Soundza (https://soundza.com/sound/power-up-12)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmtm6qy7uyoh37q1z1z1vb2qs",
+      "url": "https://soundza.com/sound/bell-chime-synth",
+      "title": "Bell Chime Synth",
+      "description": "A bright, crispy synthesized bell chime with a sharp attack and quick decay, perfect for UI alerts and interface sounds. The high-mid frequency emphasis (centered around 1.3 kHz) creates a clear, cutting tone ideal for attention-grabbing notifications and transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 0.67,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "bell",
+        "synth",
+        "bright",
+        "crispy",
+        "sharp",
+        "one-shot",
+        "impact",
+        "transition"
+      ],
+      "sync_ms": 145,
+      "lufs": -24.2,
+      "true_peak_db": -12.3,
+      "loudness": {
+        "value": -20.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 176476,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i8XFWMPPmGjZm9BbCBHZB9YX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6qy7uyoh37q1z1z1vb2qs/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bell Chime Synth\" on Soundza (https://soundza.com/sound/bell-chime-synth)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv5o33sx02kh06l4ees4e641",
+      "url": "https://soundza.com/sound/power-up-5-2",
+      "title": "Power Up 5",
+      "description": "A bright, ascending synthesized chime that signals a power-up or item pickup in a retro arcade game. Perfect for game UI feedback and level-complete moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up",
+        "notification"
+      ],
+      "duration": 0.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "power-up",
+        "retro",
+        "arcade",
+        "chime",
+        "game",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 35042,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5o33rm02jh06l4l1ai3dxj",
+        "name": "Synthesized Retro Game SFX",
+        "slug": "synthesized-retro-game-sfx",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/synthesized-retro-game-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DxdSgtdEbAnd7UcUqaEQoTyy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o33sx02kh06l4ees4e641/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power Up 5\" on Soundza (https://soundza.com/sound/power-up-5-2)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjp93zqj6svb9fack4vkqds",
+      "url": "https://soundza.com/sound/level-up-chime",
+      "title": "Level Up Chime",
+      "description": "A bright, ascending chime effect with a quick attack and minimal decay, commonly used to signal player progression or achievement in games. The tonal character and rapid onset make it ideal for immediate feedback on successful actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "notification",
+        "chime",
+        "bright",
+        "retro",
+        "ui"
+      ],
+      "sync_ms": 102,
+      "lufs": -21.1,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -17.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 116486,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/A5GKb7tEODbcnyC9KoleG9eZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjp93zqj6svb9fack4vkqds/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Level Up Chime\" on Soundza (https://soundza.com/sound/level-up-chime)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "guu8tpej0djxeon3xgwnj3jd",
+      "url": "https://soundza.com/sound/success-chime-notification-1",
+      "title": "Success Chime Notification 1",
+      "description": "A bright, tonal chime that signals task completion or positive feedback. Clean and quick, ideal for UI interactions and game notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_power_up"
+      ],
+      "duration": 1.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "success",
+        "chime",
+        "bright",
+        "positive",
+        "ui",
+        "game"
+      ],
+      "sync_ms": 237,
+      "lufs": -14,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -11.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 301738,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MgHbI1vjBOFzG0TlbRdxeGhc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/guu8tpej0djxeon3xgwnj3jd/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Success Chime Notification 1\" on Soundza (https://soundza.com/sound/success-chime-notification-1)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjohvnll18iua359edznip7",
+      "url": "https://soundza.com/sound/magical-heal-chime",
+      "title": "Magical Heal Chime",
+      "description": "A bright, shimmering chime that ascends quickly with a magical quality, perfect for healing spells or power-up moments in games. The sound has a clear tonal center with minimal noise, creating an ethereal, positive effect.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "magic",
+        "chime",
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -15.4,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 72660,
+      "category": {
+        "id": "MAGAngl",
+        "label": "Magic › Angelic"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rfu6HNno2JsbCDC9mHGRT2yi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjohvnll18iua359edznip7/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Magical Heal Chime\" on Soundza (https://soundza.com/sound/magical-heal-chime)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "d6oqninr4nl5c343rgypplr9",
+      "url": "https://soundza.com/sound/two-tone-chime-notification-3",
+      "title": "Two-Tone Chime Notification 3",
+      "description": "A bright, clear two-tone chime with distinct rising and falling pitches, designed as a user interface alert. Works well for notifications, confirmations, and UI feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "two-tone",
+        "bell",
+        "clean",
+        "ui",
+        "beep",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -14,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -12.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396994,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/L7ZHu5Pal0TbDFQHn9p70V3y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/d6oqninr4nl5c343rgypplr9/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two-Tone Chime Notification 3\" on Soundza (https://soundza.com/sound/two-tone-chime-notification-3)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "i7f3rsy9z4ribe2tdgqw2g2w",
+      "url": "https://soundza.com/sound/success-chime-notification-3",
+      "title": "Success Chime Notification 3",
+      "description": "A bright, melodic chime that rings with a clear ascending tone, perfect for confirming successful actions or completed tasks in user interfaces and applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_power_up"
+      ],
+      "duration": 1.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "success",
+        "chime",
+        "bright",
+        "positive",
+        "ui",
+        "game"
+      ],
+      "sync_ms": 348,
+      "lufs": -12.6,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -10,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 341428,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/x-TsZGbCQ8GGnZHY6U4o0Nhn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/i7f3rsy9z4ribe2tdgqw2g2w/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Success Chime Notification 3\" on Soundza (https://soundza.com/sound/success-chime-notification-3)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "var7sx55tqbnv62pr8nzi6j6",
+      "url": "https://soundza.com/sound/success-chime-notification-2",
+      "title": "Success Chime Notification 2",
+      "description": "A bright, tonal chime that rings out clearly in the upper-mid frequencies. Perfect for confirming successful actions in user interfaces, games, or applications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_power_up"
+      ],
+      "duration": 1.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "success",
+        "chime",
+        "bright",
+        "positive",
+        "ui"
+      ],
+      "sync_ms": 332,
+      "lufs": -11.1,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -8.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 423454,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uwJY-am4FRDkw3CzpU0KQ3E1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/var7sx55tqbnv62pr8nzi6j6/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Success Chime Notification 2\" on Soundza (https://soundza.com/sound/success-chime-notification-2)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "iipyr9onjim7q7zwl81qsyqa",
+      "url": "https://soundza.com/sound/two-tone-chime-notification-2",
+      "title": "Two-Tone Chime Notification 2",
+      "description": "A bright, clear two-tone chime that rises and falls in pitch. Ideal for drawing attention to alerts, notifications, and interface confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "two-tone",
+        "bell",
+        "clean",
+        "ui",
+        "beep",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -11,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396994,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-V-HknhESKTVuyFnUMJsL4hY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/iipyr9onjim7q7zwl81qsyqa/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two-Tone Chime Notification 2\" on Soundza (https://soundza.com/sound/two-tone-chime-notification-2)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjpbrwbqdotzlwq2xd0h7q6",
+      "url": "https://soundza.com/sound/bright-melodic-powerup-chime",
+      "title": "Bright Melodic Powerup Chime",
+      "description": "A bright, ascending synth chime that rises in pitch, perfect for game pickups and powerup rewards. The short, punchy attack and clear tonal quality make it ideal for immediate player feedback in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.74,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "chime",
+        "retro",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -6.2,
+      "true_peak_db": 2,
+      "loudness": {
+        "value": -4.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 97996,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/b1VIBqY8evp5-gBtfqrJS1ge.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjpbrwbqdotzlwq2xd0h7q6/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Melodic Powerup Chime\" on Soundza (https://soundza.com/sound/bright-melodic-powerup-chime)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "tylivxaoxvrmhdzixvbph1ks",
+      "url": "https://soundza.com/sound/two-tone-chime-notification-1",
+      "title": "Two-Tone Chime Notification 1",
+      "description": "A bright, crisp two-tone chime that rises slightly in pitch, designed to alert users to an event. Ideal for UI notifications and interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "two-tone",
+        "bell",
+        "clean",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -10.4,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -7.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396994,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/f67libxYbWZcWndINmT3TjlT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/tylivxaoxvrmhdzixvbph1ks/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Two-Tone Chime Notification 1\" on Soundza (https://soundza.com/sound/two-tone-chime-notification-1)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmtl7tpidh96g3h3jgfevnd6i",
+      "url": "https://soundza.com/sound/glockenspiel-chime",
+      "title": "Glockenspiel Chime",
+      "description": "A bright, crystalline glockenspiel chime with a sharp attack and rapid decay, sitting in the upper-mid frequency range with a clean, metallic character. Perfect for adding sparkle, transitions, or melodic accents without muddiness.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "bell",
+        "metallic",
+        "bright",
+        "clean",
+        "one-shot",
+        "transition",
+        "melodic"
+      ],
+      "sync_ms": 213,
+      "lufs": -32.4,
+      "true_peak_db": -20.6,
+      "loudness": {
+        "value": -29.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 16.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 187476,
+      "category": null,
+      "pack": {
+        "id": "z6pv0m1k8zsww5odz0rsxrih",
+        "name": "AFROGLOW — Afrobeats Guitars, Kalimba and Melody Loops",
+        "slug": "afroglow-afrobeats-guitars-kalimba-and-melody-loops",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/afroglow-afrobeats-guitars-kalimba-and-melody-loops"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/v9_9k3CayOMZsF79b0O2T9J1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl7tpidh96g3h3jgfevnd6i/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glockenspiel Chime\" by LABADI on Soundza (https://soundza.com/sound/glockenspiel-chime)",
+      "matched_words": [
+        "bright",
+        "chime",
+        "sparkle"
+      ]
+    },
+    {
+      "id": "cmv8zj1qsl27wrnnzkyxoxijp",
+      "url": "https://soundza.com/sound/happy-correct-chime",
+      "title": "Happy Correct Chime",
+      "description": "A bright, cheerful chime sound played on a keyboard synthesizer. Perfect for signaling correct answers in game shows, quizzes, or educational software.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "ui_click"
+      ],
+      "duration": 0.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "chime",
+        "game",
+        "bright",
+        "stab"
+      ],
+      "sync_ms": 75,
+      "lufs": null,
+      "true_peak_db": -5.3,
+      "loudness": {
+        "value": -17.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 84372,
+      "category": null,
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nyg-G4mA97TWp8BscD4x0ax9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zj1qsl27wrnnzkyxoxijp/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Happy Correct Chime\" on Soundza (https://soundza.com/sound/happy-correct-chime)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv8yukmlivmxqyjfv7mje8g8",
+      "url": "https://soundza.com/sound/fantasy-crystal-chime",
+      "title": "Fantasy Crystal Chime",
+      "description": "A bright, ethereal chime with a magical sparkle, like a fairy bell or crystal resonating. Perfect for UI interactions, magical reveals, or fantasy interface feedback.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 1.27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "chime",
+        "magic"
+      ],
+      "sync_ms": null,
+      "lufs": -17.2,
+      "true_peak_db": -5.3,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 334868,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "dh0fxeecn91l1ey9pn8gtwu7",
+        "name": "Christmas Sound Effects — Sleigh Bells, Santa, Fireplace & More",
+        "slug": "christmas-sound-effects-sleigh-bells-santa-fireplace-and-more",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/christmas-sound-effects-sleigh-bells-santa-fireplace-and-more"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/iEyp6n6GrnMW2jap7uEsG-1o.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8yukmlivmxqyjfv7mje8g8/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fantasy Crystal Chime\" on Soundza (https://soundza.com/sound/fantasy-crystal-chime)",
+      "matched_words": [
+        "bright",
+        "chime",
+        "sparkle"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901fb06l42j8ibfg0",
+      "url": "https://soundza.com/sound/triangle",
+      "title": "Triangle",
+      "description": "A bright, high-pitched chime-like tone characteristic of 8-bit video game aesthetics. Ideal for retro game UI feedback, notification alerts, or level-complete stingers.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_pickup"
+      ],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "chime",
+        "notification",
+        "ui",
+        "game",
+        "retro",
+        "beep",
+        "bright"
+      ],
+      "sync_ms": 68,
+      "lufs": null,
+      "true_peak_db": -8.4,
+      "loudness": {
+        "value": -20.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 41656,
+      "category": {
+        "id": "BEEP",
+        "label": "Beeps › General"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/FIDVDdXsNMq6U0NqHkrJz6Ba.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901fb06l42j8ibfg0/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Triangle\" on Soundza (https://soundza.com/sound/triangle)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvcmjoyfaqyjv38mchu0w5fi",
+      "url": "https://soundza.com/sound/spacey-power-up",
+      "title": "Spacey Power-Up",
+      "description": "A bright, ascending sci-fi tone that climbs in pitch with a quick attack, evoking a classic video game power-up moment. Perfect for notifications, level completions, or collectible pickups in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "power-up",
+        "game",
+        "sci-fi",
+        "notification",
+        "bright",
+        "8-bit",
+        "chime"
+      ],
+      "sync_ms": 158,
+      "lufs": -20.8,
+      "true_peak_db": -9,
+      "loudness": {
+        "value": -18.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 265364,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rA91nmdsA-vk4eMoM-I1t6SY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmjoyfaqyjv38mchu0w5fi/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Spacey Power-Up\" on Soundza (https://soundza.com/sound/spacey-power-up)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv5n88du01nq06l4obeckuaa",
+      "url": "https://soundza.com/sound/steel-drum-jingle-15",
+      "title": "Steel Drum Jingle 15",
+      "description": "A bright, metallic chime that rings with a clear, bell-like tone. Perfect for game notifications, item pickups, or quick victory confirmations.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification",
+        "title_or_logo"
+      ],
+      "duration": 1.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "chime",
+        "game",
+        "notification",
+        "bright",
+        "metallic",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -9.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 363992,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hytTRrz3Ud0cDdvxgrXxz6l2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nq06l4obeckuaa/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 15\" on Soundza (https://soundza.com/sound/steel-drum-jingle-15)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjojndbtrytenjwifst69oo",
+      "url": "https://soundza.com/sound/power-up-apply-chime",
+      "title": "Power-Up Apply Chime",
+      "description": "A bright, ascending chime with a magical shimmer that sparkles and fades. Ideal for status enhancements, buffs, or healing items in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 1.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "magic",
+        "chime",
+        "bright"
+      ],
+      "sync_ms": 152,
+      "lufs": -12.3,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -7.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 319292,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/S-rLMRoRugcxpD-qWWnhLmNf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjojndbtrytenjwifst69oo/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Power-Up Apply Chime\" on Soundza (https://soundza.com/sound/power-up-apply-chime)",
+      "matched_words": [
+        "bright",
+        "chime",
+        "sparkle"
+      ]
+    },
+    {
+      "id": "gvbi8ruir6aa8zihq0e0rea7",
+      "url": "https://soundza.com/sound/gentle-harp-notification-3",
+      "title": "Gentle Harp Notification 3",
+      "description": "A soft, tonal harp pluck with a warm, sustained decay. Ideal for interface alerts, confirmations, or positive feedback in applications and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 1.84,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft",
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "harp",
+        "gentle",
+        "flourish",
+        "soft",
+        "ui",
+        "chime",
+        "melodic",
+        "bright"
+      ],
+      "sync_ms": 219,
+      "lufs": -13.2,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -9.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 486956,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R_cXVDi8OiG7JWX6vRtdBx7g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/gvbi8ruir6aa8zihq0e0rea7/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gentle Harp Notification 3\" on Soundza (https://soundza.com/sound/gentle-harp-notification-3)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukc72kd4584czxoot56vdnf",
+      "url": "https://soundza.com/sound/chiptune-coin-pickup",
+      "title": "Chiptune Coin Pickup",
+      "description": "A bright, high-pitched chiptune coin sound with a quick attack and decay, typical of 8-bit video game pickups. Perfect for game UI feedback when collecting coins or items.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "A#5",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "coin",
+        "8-bit",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -24.9,
+      "true_peak_db": -12.9,
+      "loudness": {
+        "value": -24,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 66332,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3v-nTrB5ANxkTBgyWMSndwM2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukc72kd4584czxoot56vdnf/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Chiptune Coin Pickup\" on Soundza (https://soundza.com/sound/chiptune-coin-pickup)",
+      "matched_words": [
+        "bright",
+        "pickup"
+      ]
+    },
+    {
+      "id": "cmvjpbfhtkdvvpp262ayk6u1z",
+      "url": "https://soundza.com/sound/crisp-retro-powerup-chime",
+      "title": "Crisp Retro Powerup Chime",
+      "description": "A bright, ascending chime with a crunchy texture that evokes classic arcade and game rewards. Ideal for item pickups, level completions, or power-up moments in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "chime",
+        "retro",
+        "arcade",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -7.7,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396990,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/d5hRXdx-s-0lLhbf7NXUW7a8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjpbfhtkdvvpp262ayk6u1z/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Retro Powerup Chime\" on Soundza (https://soundza.com/sound/crisp-retro-powerup-chime)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukcd4ojxru34n56dym3ohq0",
+      "url": "https://soundza.com/sound/retro-power-up-chime",
+      "title": "Retro Power-Up Chime",
+      "description": "A bright, high-pitched ascending chime with a classic 8-bit character. Perfect for level-ups, item pickups, or game state changes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "power-up",
+        "8-bit",
+        "game",
+        "chime",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -9.5,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -8.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 74768,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xqLp2bIZavRQRbJUXqrrrDNO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcd4ojxru34n56dym3ohq0/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Power-Up Chime\" on Soundza (https://soundza.com/sound/retro-power-up-chime)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmvjp4ekt0ri2gk84bviqkgnx",
+      "url": "https://soundza.com/sound/bright-retro-power-up",
+      "title": "Bright Retro Power-Up",
+      "description": "A bright, ascending chime-like sound with a classic 8-bit character, perfect for game pickups and power-ups. The sound rises quickly with a clean, tonal quality typical of retro video game rewards.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "8-bit",
+        "retro",
+        "chime",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -6.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -5.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 220118,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K_LV9BkHraOHVcgpY0W5IE7v.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjp4ekt0ri2gk84bviqkgnx/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Retro Power-Up\" on Soundza (https://soundza.com/sound/bright-retro-power-up)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmuymqzse000i06n5szpgocrt",
+      "url": "https://soundza.com/sound/beads",
+      "title": "Beads",
+      "description": "A bright, percussive chime-like sound with multiple quick strikes, resembling the classic video game reward or item pickup effect. Works well for game pickups, collectibles, or UI confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "coin",
+        "retro",
+        "chime",
+        "8-bit",
+        "bright"
+      ],
+      "sync_ms": 183,
+      "lufs": -25.3,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -24.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 132370,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dfhFMhV8sPbU26n1l-rmoAvN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzse000i06n5szpgocrt/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beads\" on Soundza (https://soundza.com/sound/beads)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv0in0xd00cp06l5k7b3vcyo",
+      "url": "https://soundza.com/sound/player-pickup-egg",
+      "title": "Player Pickup Egg",
+      "description": "A bright, cheerful 8-bit chime that plays when collecting an egg in a game. Simple and nostalgic, ideal for game pickups and collectibles.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 0.07,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "coin",
+        "retro",
+        "chime",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -23,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 9714,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZRS0Egvx9T-V4NqgNx3YiXeC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0in0xd00cp06l5k7b3vcyo/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Player Pickup Egg\" on Soundza (https://soundza.com/sound/player-pickup-egg)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv5myxln00qf06l4ghusgyu4",
+      "url": "https://soundza.com/sound/gem-4",
+      "title": "Gem 4",
+      "description": "A bright, crystalline chime as a gem or treasure item is collected in a game. Perfect for inventory pickups and item acquisition moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "chime",
+        "bright",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": -20,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 170626,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5myxj700pb06l4wqk9a0dt",
+        "name": "Fantasy RPG SFX",
+        "slug": "fantasy-rpg-sfx",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/fantasy-rpg-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y8cluATbl9wPPtAZPAHibmh0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5myxln00qf06l4ghusgyu4/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Gem 4\" on Soundza (https://soundza.com/sound/gem-4)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmukce8yelprq78c26yevrn8z",
+      "url": "https://soundza.com/sound/bouncing-power-up",
+      "title": "Bouncing Power-Up",
+      "description": "A bright, ascending synth chime with a bouncy character, typical of video game power-up or reward pickups. Made from vintage keyboard synthesis and designed for immediate impact in game moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 1.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "power-up",
+        "game",
+        "bright"
+      ],
+      "sync_ms": 45,
+      "lufs": -20.7,
+      "true_peak_db": -7.2,
+      "loudness": {
+        "value": -17.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 688582,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Y8YxdR6kOVd0hndDbZ0-XIqU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukce8yelprq78c26yevrn8z/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bouncing Power-Up\" on Soundza (https://soundza.com/sound/bouncing-power-up)",
+      "matched_words": [
+        "bright",
+        "pickup",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv0gp82z009306i9a39cbaqn",
+      "url": "https://soundza.com/sound/ui-sound-10",
+      "title": "UI Sound 10",
+      "description": "A bright, high-pitched electronic chime that confirms a user action. Perfect for interface feedback, menu selections, or game notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 1.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "G4",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "ui",
+        "beep",
+        "chime",
+        "notification",
+        "bright"
+      ],
+      "sync_ms": 100,
+      "lufs": -23.5,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -19.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 6.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 246846,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qoVZKA-7xEdRlOQdzc6h-jag.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z009306i9a39cbaqn/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"UI Sound 10\" on Soundza (https://soundza.com/sound/ui-sound-10)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmv5oaxx4000s06l5m0h6108f",
+      "url": "https://soundza.com/sound/beep-6",
+      "title": "Beep 6",
+      "description": "A bright, twinkling shimmer with magical resonance, perfect for spell effects, UI rewards, or magical transitions in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_power_up"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "magic",
+        "ui",
+        "bright",
+        "chime",
+        "notification"
+      ],
+      "sync_ms": 22,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -24.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 36930,
+      "category": {
+        "id": "UIBeep",
+        "label": "User Interface › Beep"
+      },
+      "pack": {
+        "id": "cmv5oaxtg000006l5zf0ogbxj",
+        "name": "Beeps & Background Sounds",
+        "slug": "beeps-and-background-sounds",
+        "sound_count": 22,
+        "url": "https://soundza.com/packs/beeps-and-background-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yfWUAukoB2IHigXFijGWQ1ci.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oaxx4000s06l5m0h6108f/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beep 6\" on Soundza (https://soundza.com/sound/beep-6)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "oi5lwk75qz4156u1vqf6ji4d",
+      "url": "https://soundza.com/sound/glass-ping-notification-1",
+      "title": "Glass Ping Notification 1",
+      "description": "A bright, resonant glass chime that rings out sharply with a clean decay. Perfect for UI alerts and interface notifications.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "A5",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "glass",
+        "notification",
+        "chime",
+        "bright"
+      ],
+      "sync_ms": 20,
+      "lufs": -15.5,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -10.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 307026,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vf5-oELMC7ilAexobZNY64ME.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/oi5lwk75qz4156u1vqf6ji4d/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Ping Notification 1\" on Soundza (https://soundza.com/sound/glass-ping-notification-1)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "yke59p3c0o3a2x4auk3uu9hj",
+      "url": "https://soundza.com/sound/glass-ping-notification-3",
+      "title": "Glass Ping Notification 3",
+      "description": "A bright, high-pitched glass chime with a quick attack and decay, ideal for UI alerts and notification sounds in apps and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "glass",
+        "ping",
+        "clear",
+        "ui",
+        "alert",
+        "chime",
+        "bright",
+        "click",
+        "beep"
+      ],
+      "sync_ms": 5,
+      "lufs": -22.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -16.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 338778,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": null,
+      "ai_content": "ai",
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eeTgs7A2hlKK6lHp1mEL79r4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/yke59p3c0o3a2x4auk3uu9hj/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glass Ping Notification 3\" on Soundza (https://soundza.com/sound/glass-ping-notification-3)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    },
+    {
+      "id": "cmujgj5ozqm1gmsonr37in2bh",
+      "url": "https://soundza.com/sound/computer-chime-notification",
+      "title": "Computer Chime Notification",
+      "description": "A bright, melodic chime tone designed as a system notification alert. Clear and musical, ideal for software alerts, message notifications, or UI feedback in applications and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "A5",
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "notification",
+        "chime",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": 208,
+      "lufs": -23.6,
+      "true_peak_db": -15,
+      "loudness": {
+        "value": -22,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396992,
+      "category": {
+        "id": "UIAlert",
+        "label": "User Interface › Alert"
+      },
+      "pack": {
+        "id": "t8ma7wv3ma6h7z75cc7t2bea",
+        "name": "UI Sound Effects",
+        "slug": "ui-sound-effects",
+        "sound_count": 204,
+        "url": "https://soundza.com/packs/ui-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xgco3Q7g9vIljIdUg8jIB-JX.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujgj5ozqm1gmsonr37in2bh/file?search_id=pbjq5glrktscagcz0hvvkhrz",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Computer Chime Notification\" on Soundza (https://soundza.com/sound/computer-chime-notification)",
+      "matched_words": [
+        "bright",
+        "chime"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "all_words",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "bright pickup chime sparkle",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [
+      "upbeat"
+    ],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 2,
+    "style": null,
+    "good_for": [
+      "game_pickup"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A bright, sparkling chime sound effect for picking up an item in a game. interpreted_as lists the filters it set; send any of them as parameters to change them."
+  ],
+  "search_id": "pbjq5glrktscagcz0hvvkhrz"
+}

@@ -1,0 +1,3489 @@
+{
+  "query": {
+    "q": "river rapids whitewater",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 394,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=river+rapids+whitewater&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmuhyls2nhvapfq0arwb4lctu",
+      "url": "https://soundza.com/sound/babbling-river-ambience",
+      "title": "Babbling River Ambience",
+      "description": "A gentle, shallow river flows with continuous burbling and trickling sounds. Perfect as a calming natural bed for meditation, nature documentaries, or atmospheric background.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19353208,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0ELUwkwVkTVqlYNPeoZZ2PCS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyls2nhvapfq0arwb4lctu/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Babbling River Ambience\" on Soundza (https://soundza.com/sound/babbling-river-ambience)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmuhynvdo8rebk6ve66czpg6d",
+      "url": "https://soundza.com/sound/stream-river-water-up-close",
+      "title": "Stream River Water Up Close",
+      "description": "A soft, flowing stream recorded in close proximity, with gentle burbling and trickling water sounds. Ideal for nature scenes, relaxation content, or ambient background layers.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 68.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -54,
+      "true_peak_db": -25.2,
+      "loudness": {
+        "value": -54,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19840220,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HIZ_196fmIjHiwKLWuNhmDtc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhynvdo8rebk6ve66czpg6d/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream River Water Up Close\" on Soundza (https://soundza.com/sound/stream-river-water-up-close)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009d06juw9c44jih",
+      "url": "https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage-1",
+      "title": "River Water Flowing from Different Directions The Hermitage Scotland 2",
+      "description": "A natural recording of flowing river water captured from multiple perspectives, with water moving and splashing across various surfaces. Suitable as a continuous bed for nature scenes, outdoor environments, or calming backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 141.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -28.3,
+      "true_peak_db": -1.3,
+      "loudness": {
+        "value": -28.3,
+        "basis": "integrated"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 81312904,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-eytCLVCVpCbFv6V7MUFF7CW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009d06juw9c44jih/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Water Flowing from Different Directions The Hermitage Scotland 2\" on Soundza (https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage-1)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvdzf2ci7b9a5ha27z9h0fvi",
+      "url": "https://soundza.com/sound/motorboat-river-ambience",
+      "title": "Motorboat River Ambience",
+      "description": "A motorboat engine running steadily on a river, recorded in the field with natural water and engine sounds layering together. Useful for outdoor scenes, boating sequences, and riverside environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "engine",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -24.5,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8067510,
+      "category": {
+        "id": "BOATMotr",
+        "label": "Boats › Motorboat"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cfSmKGM2TwWafAeL4cKC5_mL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzf2ci7b9a5ha27z9h0fvi/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Motorboat River Ambience\" on Soundza (https://soundza.com/sound/motorboat-river-ambience)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv5t3sci009q06ju8snc0jus",
+      "url": "https://soundza.com/sound/seagulls-and-wood-pigeons-by-the-river-tay-dundee",
+      "title": "Seagulls and Wood Pigeons by the River Tay Dundee",
+      "description": "A field recording of seagulls and wood pigeons calling by the River Tay in Dundee. Natural bird vocalizations create a dynamic, outdoor riverside soundscape suitable for nature scenes or environmental backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 261.22,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "birds",
+        "ambience",
+        "outdoor",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -45.8,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -45.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 150462066,
+      "category": {
+        "id": "AMBBird",
+        "label": "Ambience › Birdsong"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CiyMvlBg5JP50s8A2KBjMJOb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sci009q06ju8snc0jus/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Seagulls and Wood Pigeons by the River Tay Dundee\" on Soundza (https://soundza.com/sound/seagulls-and-wood-pigeons-by-the-river-tay-dundee)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmuhykyrrvd0mbi5gcex5rlqq",
+      "url": "https://soundza.com/sound/flowing-water-river-recording",
+      "title": "Flowing Water, River Recording",
+      "description": "A serene river field recording with gentle water flows and natural ambience, rich in mid-range frequencies that create an organic, airy texture perfect for atmospheric layering.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.77,
+      "bpm": null,
+      "key": "G# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "texture",
+        "pad",
+        "organic",
+        "airy",
+        "ethereal",
+        "atmospheric",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -35.6,
+      "true_peak_db": -21.4,
+      "loudness": {
+        "value": -35.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2237856,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tvk9bSslj0JjpxR0gzl9XXAO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhykyrrvd0mbi5gcex5rlqq/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water, River Recording\" on Soundza (https://soundza.com/sound/flowing-water-river-recording)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvgww3zsj2sxjm627h3cvh16",
+      "url": "https://soundza.com/sound/shallow-river-wading",
+      "title": "Shallow River Wading",
+      "description": "The continuous sound of water movement and footsteps as someone wades through a shallow river. Suitable as an ambient bed for outdoor water scenes or nature documentaries.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 20.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "footsteps",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -16,
+      "true_peak_db": 1.4,
+      "loudness": {
+        "value": -16,
+        "basis": "integrated"
+      },
+      "gain_db": -4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5343062,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZZeCUGKskjvoRU51whOfSGpK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvgww3zsj2sxjm627h3cvh16/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Shallow River Wading\" on Soundza (https://soundza.com/sound/shallow-river-wading)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009906juh1bdz84x",
+      "url": "https://soundza.com/sound/river-ambience-the-hermitage-scotland-2",
+      "title": "River Ambience The Hermitage Scotland 2",
+      "description": "The flowing sound of a river in Scotland's The Hermitage, with water rushing over rocks and stones. A natural, continuous outdoor recording ideal for landscape scenes or nature documentaries.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 45.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -31.2,
+      "true_peak_db": -18.7,
+      "loudness": {
+        "value": -31.2,
+        "basis": "integrated"
+      },
+      "gain_db": 11.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 26204888,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3cwqi9IC-_j7vMmpIeFcaVhZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009906juh1bdz84x/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Ambience The Hermitage Scotland 2\" on Soundza (https://soundza.com/sound/river-ambience-the-hermitage-scotland-2)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvowl07lywsaolxa32d2ymyx",
+      "url": "https://soundza.com/sound/wading-through-small-river",
+      "title": "Wading Through Small River",
+      "description": "The wet, splashy sounds of a person walking through knee-deep water in a small river, with distant traffic hum in the background. A field recording capturing the direct experience of moving through shallow water.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps",
+        "background_bed"
+      ],
+      "duration": 24.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "footsteps",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -34.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -27.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3489630,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AFo4c5szJAFzYStT0KWAi3eh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowl07lywsaolxa32d2ymyx/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wading Through Small River\" on Soundza (https://soundza.com/sound/wading-through-small-river)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "q3mx82494no2k547e0mul8s3",
+      "url": "https://soundza.com/sound/rapid-beep-loop",
+      "title": "Rapid Beep Loop",
+      "description": "A playful, high-pitched electronic beeping loop with rapid repetitive tones that sound like arcade or video game alerts; crispy and minimal with a hypnotic, rhythmic quality perfect for quirky production textures.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 5.93,
+      "bpm": 123,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "percussion",
+        "bell",
+        "bright",
+        "crispy",
+        "hypnotic",
+        "rhythmic",
+        "digital",
+        "minimal"
+      ],
+      "sync_ms": null,
+      "lufs": -21.9,
+      "true_peak_db": -3.4,
+      "loudness": {
+        "value": -21.9,
+        "basis": "integrated"
+      },
+      "gain_db": 2.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1569104,
+      "category": null,
+      "pack": {
+        "id": "kewswbeszjhbv5ulgh05u8p4",
+        "name": "LOOP MANIA — Drum and Percussion Loops",
+        "slug": "loop-mania-bauchamp-drum-and-percussion-loops",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/loop-mania-bauchamp-drum-and-percussion-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7Lp-WADY3bqZ1WIvhz_kMHY7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/q3mx82494no2k547e0mul8s3/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rapid Beep Loop\" on Soundza (https://soundza.com/sound/rapid-beep-loop)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009i06ju70sv9wqb",
+      "url": "https://soundza.com/sound/river-ambience-midstream-the-hermitage-scotland-2",
+      "title": "River Ambience Midstream The Hermitage Scotland 2",
+      "description": "A continuous recording of flowing water captured from the middle of a river in Scotland. Rich with the natural sounds of water movement and subtle environmental textures.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 137.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "field-recording",
+        "outdoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -29.1,
+      "true_peak_db": -14.3,
+      "loudness": {
+        "value": -29.1,
+        "basis": "integrated"
+      },
+      "gain_db": 9.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 79258338,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cH3Bb5IBUevFvWwyF0OenzCz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009i06ju70sv9wqb/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Ambience Midstream The Hermitage Scotland 2\" on Soundza (https://soundza.com/sound/river-ambience-midstream-the-hermitage-scotland-2)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "p5ffx47qwveq51uqzuejv4q7",
+      "url": "https://soundza.com/sound/rapid-braaam-hit",
+      "title": "Rapid Braaam Hit",
+      "description": "A short, punchy cinematic braaam stab with aggressive attack and metallic resonance, designed for trailer drops and horror impacts. Heavy, distorted, and compressed with a tight decay—perfect for building tension and punctuating dramatic moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "reveal"
+      ],
+      "duration": 2.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic",
+        "heavy"
+      ],
+      "tags": [
+        "impact",
+        "stab",
+        "cinematic",
+        "brass",
+        "aggressive",
+        "distorted",
+        "heavy",
+        "tight"
+      ],
+      "sync_ms": 2052,
+      "lufs": -11.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -8.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 604798,
+      "category": {
+        "id": "DSGNBram",
+        "label": "Designed › Braam"
+      },
+      "pack": {
+        "id": "gldngobqs2ncxsbboug4o0bh",
+        "name": "IMPACT — Trailer Braams, Hits and Metal Impacts",
+        "slug": "slasher-braaams-dramatic-impacts-and-horror-hits",
+        "sound_count": 160,
+        "url": "https://soundza.com/packs/slasher-braaams-dramatic-impacts-and-horror-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UsmvVrMCsQ5RJpjTChb7ydHr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/p5ffx47qwveq51uqzuejv4q7/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rapid Braaam Hit\" on Soundza (https://soundza.com/sound/rapid-braaam-hit)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmukah7t291aa6vy3agcclu46",
+      "url": "https://soundza.com/sound/prairie-summer-ambience",
+      "title": "Prairie Summer Ambience",
+      "description": "A warm outdoor recording of a Canadian prairie landscape during summer, capturing the natural soundscape of birds chirping, insects buzzing, rustling grass, and wind moving through trees near the South Saskatchewan River. Ideal for establishing natural outdoor environments or underscore in documentary and landscape work.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 58.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "nature",
+        "field-recording",
+        "birds",
+        "insects",
+        "wind",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -49.8,
+      "true_peak_db": -14.4,
+      "loudness": {
+        "value": -49.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 33590488,
+      "category": {
+        "id": "AMBGras",
+        "label": "Ambience › Grassland"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/adwAiapCNHUpMyylPYVDa69e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukah7t291aa6vy3agcclu46/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Prairie Summer Ambience\" on Soundza (https://soundza.com/sound/prairie-summer-ambience)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv0glpdf001506i9akcr73hf",
+      "url": "https://soundza.com/sound/water-loop-3",
+      "title": "Water Loop 3",
+      "description": "A continuous looping ambience of gently flowing water with subtle textural variation. Suitable as an atmospheric bed for scenes with streams, rivers, or water features.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 9.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -25.5,
+      "true_peak_db": -7.7,
+      "loudness": {
+        "value": -25.5,
+        "basis": "integrated"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2795676,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-XGUJ1RhsCL5JnNWwhtASXDV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf001506i9akcr73hf/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 3\" on Soundza (https://soundza.com/sound/water-loop-3)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvovycg6ysqa2fngnsg9zweu",
+      "url": "https://soundza.com/sound/rock-splash-plop",
+      "title": "Rock Splash Plop",
+      "description": "A rock lands in calm river water with a clear splash and plop. Useful for foley, water scenes, and impact moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 4.72,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 2414,
+      "lufs": -32.8,
+      "true_peak_db": -2.1,
+      "loudness": {
+        "value": -28.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1249486,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SSfY1MNvfJ_QLxMZOW73BcAh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovycg6ysqa2fngnsg9zweu/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Splash Plop\" on Soundza (https://soundza.com/sound/rock-splash-plop)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvovypmtdnwt6pv3kmgnvurq",
+      "url": "https://soundza.com/sound/rock-in-water-splash",
+      "title": "Rock In Water Splash",
+      "description": "A rock plops into calm river water with a distinct splash and resonant impact. Ideal for foley, nature scenes, and water interaction effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 2.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": 655,
+      "lufs": -26.4,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -23,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 736142,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UmkwnYg2YqKM6B_BpmbwjJEk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovypmtdnwt6pv3kmgnvurq/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock In Water Splash\" on Soundza (https://soundza.com/sound/rock-in-water-splash)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009806jul5bg9b75",
+      "url": "https://soundza.com/sound/river-water-flowing-through-rocks-the-hermitage-scotland-1",
+      "title": "River Water Flowing Through Rocks The Hermitage Scotland 1",
+      "description": "A continuous field recording of water flowing and rushing over rocks in a Scottish river. Natural and immersive ambient sound suitable as a bed for nature scenes or calming backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 73.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -32.1,
+      "true_peak_db": -16.4,
+      "loudness": {
+        "value": -32.1,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 42336118,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KztBIIT8F41-2n_7NoEocn1I.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009806jul5bg9b75/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Water Flowing Through Rocks The Hermitage Scotland 1\" on Soundza (https://soundza.com/sound/river-water-flowing-through-rocks-the-hermitage-scotland-1)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmv0glpdf001406i9bps52jyd",
+      "url": "https://soundza.com/sound/water-loop-2",
+      "title": "Water Loop 2",
+      "description": "Continuous water flowing and splashing with gentle movement, suitable as an ambient bed for scenes with streams, rivers, or water features.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 8.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -28,
+      "true_peak_db": -15.1,
+      "loudness": {
+        "value": -28,
+        "basis": "integrated"
+      },
+      "gain_db": 8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2515372,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TujPnn4i49kTwFXlMbvA0RC6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf001406i9bps52jyd/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 2\" on Soundza (https://soundza.com/sound/water-loop-2)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmss1tkdn000004jxvjk5vtg8",
+      "url": "https://soundza.com/sound/real-african-village-drums",
+      "title": "Real African Village Drums",
+      "description": "A raw, organic drum ensemble with deep mid-range resonance and rapid percussive attacks that evokes traditional African village drumming—warm log drums and hand-struck percussion with loose, grove-driven rhythms and minimal pitch definition.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 34.21,
+      "bpm": 112.3,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "warm",
+        "dark"
+      ],
+      "tags": [
+        "percussion",
+        "organic",
+        "warm",
+        "rhythmic",
+        "groove",
+        "dark",
+        "textured",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -7.2,
+      "true_peak_db": 1.9,
+      "loudness": {
+        "value": -7.2,
+        "basis": "integrated"
+      },
+      "gain_db": -8.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 9851276,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bSxVmhdzFq7bzPSXIs7h9WdH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmss1tkdn000004jxvjk5vtg8/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Real African Village Drums\" on Soundza (https://soundza.com/sound/real-african-village-drums)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtkivfiaa34a30r73my2v712",
+      "url": "https://soundza.com/sound/deep-distorted-kick",
+      "title": "Deep Distorted Kick",
+      "description": "A heavy, crunchy kick hit with distorted low-end aggression and a punchy attack that sits deep in the sub-bass range. The boom has a gritty, compressed character with rapid decay, making it ideal for hard-hitting beats that need presence without sustain.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 1.09,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "heavy"
+      ],
+      "tags": [
+        "kick",
+        "sub-bass",
+        "punchy",
+        "distorted",
+        "compressed",
+        "heavy",
+        "boomy",
+        "808"
+      ],
+      "sync_ms": null,
+      "lufs": -13.9,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -10.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 289416,
+      "category": null,
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dpHk8L6WeoqN_UZemUMGfdmi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkivfiaa34a30r73my2v712/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Deep Distorted Kick\" on Soundza (https://soundza.com/sound/deep-distorted-kick)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtj9ky4zn7gt41n1zmr1o0mf",
+      "url": "https://soundza.com/sound/snare-drumroll",
+      "title": "Snare Drumroll",
+      "description": "A crispy, tight snare roll with punchy articulation and a clean mid-range focus, characteristic of ceremonial or orchestral percussion contexts. The rapid onset density and short decay create a sharp, articulate attack that cuts through a mix without muddiness.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 6.24,
+      "bpm": 153.8,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy"
+      ],
+      "tags": [
+        "snare",
+        "percussion",
+        "crispy",
+        "punchy",
+        "tight",
+        "clean",
+        "rhythmic",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -21.8,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -18,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1651628,
+      "category": {
+        "id": "MUSCPerc",
+        "label": "Musical › Percussion"
+      },
+      "pack": {
+        "id": "cmtj8gzsr000004l7u0vmlzpc",
+        "name": "Risers, Uplifters and Transitions",
+        "slug": "risers-uplifters-and-transitions",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/risers-uplifters-and-transitions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LNzjgWARc7uIakD7kiW3E7Ai.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtj9ky4zn7gt41n1zmr1o0mf/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Snare Drumroll\" on Soundza (https://soundza.com/sound/snare-drumroll)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmsf0sfj1000204jimk339su5",
+      "url": "https://soundza.com/sound/keyboard-mechanical-clicking",
+      "title": "Keyboard Mechanical Clicking",
+      "description": "A bright, percussive mechanical clicking texture with crisp key-strike sounds, resembling rapid typing or keyboard actuation with sharp attacks and minimal sustain. The mid-to-bright frequency content delivers a glitchy, rhythmic texture perfect for adding texture and movement to sparse arrangements.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "menu"
+      ],
+      "duration": 15.53,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "glitchy",
+        "metallic"
+      ],
+      "tags": [
+        "keys",
+        "crispy",
+        "glitchy",
+        "texture",
+        "metallic",
+        "rhythmic",
+        "minimal",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -31,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -27,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4110430,
+      "category": {
+        "id": "CMPTKey",
+        "label": "Computers › Keyboard & Mouse"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Kw55i32MdpQh1Ne3k-7K7bnp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf0sfj1000204jimk339su5/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Keyboard Mechanical Clicking\" on Soundza (https://soundza.com/sound/keyboard-mechanical-clicking)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmujf7pu9quz9w3a7xfrhofyt",
+      "url": "https://soundza.com/sound/fast-air-whoosh",
+      "title": "Fast Air Whoosh",
+      "description": "A quick, airy swoosh with a subtle tonal quality, ideal for cutting between shots or emphasizing rapid movement. Works well as a transition effect or motion accent in video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 1.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "transition",
+        "sweep",
+        "swish"
+      ],
+      "sync_ms": null,
+      "lufs": -23.9,
+      "true_peak_db": -10.3,
+      "loudness": {
+        "value": -21,
+        "basis": "momentary_max"
+      },
+      "gain_db": 8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 497744,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": {
+        "id": "imseh67p6cfnag8dqg19trsd",
+        "name": "Video Editing Sound Effects — Whooshes, Pops, Clicks, Glitches & Camera Shutters",
+        "slug": "video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/video-editing-sound-effects-whooshes-pops-clicks-glitches-and-camera-shutters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VxG0zjgIf50tns8zMtLuhKwL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujf7pu9quz9w3a7xfrhofyt/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Air Whoosh\" on Soundza (https://soundza.com/sound/fast-air-whoosh)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmv8zkjq6mloje931g3gfc9bj",
+      "url": "https://soundza.com/sound/buzzer",
+      "title": "Buzzer",
+      "description": "A synthesized buzzer with rapid alternating tones, commonly used for wrong answers or emergency alerts in game shows and quiz programs.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "notification",
+        "ui_click",
+        "game_hit"
+      ],
+      "duration": 1.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "ui",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -9,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -7.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 254080,
+      "category": {
+        "id": "ALRMBuzr",
+        "label": "Alarms › Buzzer"
+      },
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6ilalxD-CgxqzetXd6qZ5d9J.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zkjq6mloje931g3gfc9bj/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Buzzer\" on Soundza (https://soundza.com/sound/buzzer)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtnxtmczuel66dkqdcqc3d2g",
+      "url": "https://soundza.com/sound/tambourine-loop-120-bpm",
+      "title": "Tambourine Loop 120 BPM",
+      "description": "A bright, crispy tambourine loop with shimmering high-frequency jingles and tight, rapid articulation that cuts through a mix. The quick attack and minimal decay create a metallic, percussive texture ideal for adding rhythmic shimmer and groove.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 8,
+      "bpm": 120,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "percussion",
+        "shaker",
+        "cymbal",
+        "bright",
+        "crispy",
+        "metallic",
+        "rhythmic",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -25,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -25,
+        "basis": "integrated"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1058488,
+      "category": null,
+      "pack": {
+        "id": "marvp94izn32zhivnncm7e61",
+        "name": "Afrobeats Drum and Percussion One-Shots",
+        "slug": "afrobeats-drum-and-percussion-one-shots",
+        "sound_count": 140,
+        "url": "https://soundza.com/packs/afrobeats-drum-and-percussion-one-shots"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Z3vi77yiGbrUYiUAAToqq_D-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtnxtmczuel66dkqdcqc3d2g/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tambourine Loop 120 BPM\" on Soundza (https://soundza.com/sound/tambourine-loop-120-bpm)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtdxtginh81iyogp3l8y85um",
+      "url": "https://soundza.com/sound/simple-bongos",
+      "title": "Simple Bongos",
+      "description": "Crispy, tight bongo roll with organic presence and mid-range focus—rapid fire percussion that cuts through with natural warmth and minimal sustain, perfect for adding rhythmic texture and ethnic percussion flavor to a track.",
+      "type": "music",
+      "form": "excerpt",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 3.43,
+      "bpm": 129,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "bongo",
+        "percussion",
+        "organic",
+        "crispy",
+        "rhythmic",
+        "tight",
+        "groove",
+        "texture"
+      ],
+      "sync_ms": null,
+      "lufs": -16.2,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -12.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 908460,
+      "category": null,
+      "pack": {
+        "id": "dfx7fsgfe30dg4hcpcjyupfl",
+        "name": "KASSA — West African and Latin Hand Percussion Loops",
+        "slug": "kassa-west-african-and-latin-hand-percussion-loops",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/kassa-west-african-and-latin-hand-percussion-loops"
+      },
+      "creator": {
+        "name": "Kola RAIN",
+        "url": "https://soundza.com/creators/kola-rain"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/WwUP_xFmZsECBM3zUxh0q0K6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtdxtginh81iyogp3l8y85um/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Simple Bongos\" by Kola RAIN on Soundza (https://soundza.com/sound/simple-bongos)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmujexxvncdx4gusj0xxy7g07",
+      "url": "https://soundza.com/sound/wooden-door-creak",
+      "title": "Wooden Door Creak",
+      "description": "A quick, squeaky wooden door opening with a creaky, high-pitched metallic hinge sound that builds rapidly. The texture is thin and organic with natural wood tones, perfect for adding character to transitions or atmospheric moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.71,
+      "bpm": 96,
+      "key": "F minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic",
+        "metallic"
+      ],
+      "tags": [
+        "foley",
+        "organic",
+        "transition",
+        "cinematic",
+        "thin",
+        "metallic",
+        "textured"
+      ],
+      "sync_ms": 466,
+      "lufs": -30.6,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -25.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1559356,
+      "category": {
+        "id": "DOORWood",
+        "label": "Doors › Wood"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/vhRZenRynKcTw3_9z6XbQqHj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujexxvncdx4gusj0xxy7g07/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wooden Door Creak\" on Soundza (https://soundza.com/sound/wooden-door-creak)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmujf8tt2itctke27xm1rrf5m",
+      "url": "https://soundza.com/sound/stick-whoosh-swung",
+      "title": "Stick Whoosh Swung",
+      "description": "A thin stick swung rapidly through the air with a crisp, bright whoosh. A quick, percussive transition sound suitable for cuts and movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "foley"
+      ],
+      "sync_ms": 149,
+      "lufs": -25.7,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -25.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 161610,
+      "category": {
+        "id": "SWSH",
+        "label": "Swooshes › Swish"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5FrQGeunwZiTG-ewbX537dSP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujf8tt2itctke27xm1rrf5m/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stick Whoosh Swung\" on Soundza (https://soundza.com/sound/stick-whoosh-swung)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmsf4rduo001304jutzy0cv4e",
+      "url": "https://soundza.com/sound/box-breaking-crash",
+      "title": "Box Breaking / Crash",
+      "description": "A bright, metallic crash with sharp attack and rapid onset density, capturing the percussive clatter of objects colliding and breaking apart. The energy sits in the mid-range with minimal sustain, creating a crispy, aggressive impact sound ideal for transitions and sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "impact",
+        "noise",
+        "crispy",
+        "aggressive",
+        "metallic",
+        "textured",
+        "transition",
+        "one-shot"
+      ],
+      "sync_ms": 417,
+      "lufs": -6.8,
+      "true_peak_db": 2.1,
+      "loudness": {
+        "value": -3.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 369860,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ve8iWv6K9hcmCkE1G-aLGt-V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf4rduo001304jutzy0cv4e/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Box Breaking / Crash\" on Soundza (https://soundza.com/sound/box-breaking-crash)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvoszffsnatvcb5ixyk16h4o",
+      "url": "https://soundza.com/sound/musket-blast",
+      "title": "Musket Blast",
+      "description": "A sharp, punchy explosion with a crisp transient attack and rapid decay, suitable for gunshot and small-to-medium blast effects. The mid-range focus and low-end punch make it useful for period-weapon fire or grenade impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "explosion",
+        "impact"
+      ],
+      "sync_ms": 281,
+      "lufs": -11.9,
+      "true_peak_db": -3.3,
+      "loudness": {
+        "value": -8.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 504630,
+      "category": {
+        "id": "EXPLReal",
+        "label": "Explosions › Real"
+      },
+      "pack": {
+        "id": "wn8vaqs5s8tszss8shncazpo",
+        "name": "Explosion Sound Effects — Small, Medium, Large, Distant & Debris",
+        "slug": "explosion-sound-effects-small-medium-large-distant-and-debris",
+        "sound_count": 166,
+        "url": "https://soundza.com/packs/explosion-sound-effects-small-medium-large-distant-and-debris"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_KkiebzKKMCGT32Ao3-0sW8M.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoszffsnatvcb5ixyk16h4o/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Musket Blast\" on Soundza (https://soundza.com/sound/musket-blast)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvclgcwd4och7ened61tbutu",
+      "url": "https://soundza.com/sound/cartoon-spin-whistle",
+      "title": "Cartoon Spin Whistle",
+      "description": "A whimsical whistling sound designed to evoke the sensation of rapid spinning, perfect for cartoon motion effects and comedic transitions. The pitch sweeps create a playful, dizzying quality.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "transition"
+      ],
+      "duration": 2.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -25.4,
+      "true_peak_db": -14.6,
+      "loudness": {
+        "value": -22.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 281174,
+      "category": {
+        "id": "TOONSwsh",
+        "label": "Cartoon › Swish"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Q2zSsTnLRqrsjKgQ1RcAFdX0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclgcwd4och7ened61tbutu/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cartoon Spin Whistle\" on Soundza (https://soundza.com/sound/cartoon-spin-whistle)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmujfm3rhvux3p8c8fgt3ct0w",
+      "url": "https://soundza.com/sound/designed-explosion-hit",
+      "title": "Designed Explosion Hit",
+      "description": "A sharp, punchy explosion sound with firecracker-like character, designed for cinematic impact on cuts and transitions. Bright, percussive boom with rapid attack and minimal tail.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "reveal"
+      ],
+      "duration": 0.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic",
+        "bright"
+      ],
+      "tags": [
+        "explosion",
+        "impact",
+        "cinematic",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -7.9,
+      "true_peak_db": 0.9,
+      "loudness": {
+        "value": -7.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -5.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 128374,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KxzjHT_1NBRVmTe0gxP4RTug.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmujfm3rhvux3p8c8fgt3ct0w/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Designed Explosion Hit\" on Soundza (https://soundza.com/sound/designed-explosion-hit)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvfdwf71xwhdsygl039fdnu2",
+      "url": "https://soundza.com/sound/running-footsteps-on-grass",
+      "title": "Running Footsteps on Grass",
+      "description": "The rapid, whispering rustle of footsteps moving through tall grass. A dry, organic texture created by shaking a bean bag to simulate the sound of feet pushing through vegetation.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 2.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "foley",
+        "outdoor",
+        "dry"
+      ],
+      "sync_ms": null,
+      "lufs": -42.6,
+      "true_peak_db": -25,
+      "loudness": {
+        "value": -40.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 580700,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": {
+        "id": "kmyg3amv8fdp0t6xvy8n7nga",
+        "name": "Footsteps Sound Effects — Wood, Stone, Metal, Grass, Gravel & Snow",
+        "slug": "footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow",
+        "sound_count": 406,
+        "url": "https://soundza.com/packs/footsteps-sound-effects-wood-stone-metal-grass-gravel-and-snow"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xWEAH18uIHi5tubTH_ITCn6O.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvfdwf71xwhdsygl039fdnu2/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grass\" on Soundza (https://soundza.com/sound/running-footsteps-on-grass)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtm6rjlo8ug1dv4rkma7a3x5",
+      "url": "https://soundza.com/sound/synthetic-8-bit-hit",
+      "title": "Synthetic 8-Bit Hit",
+      "description": "A crispy, glitchy 8-bit arcade beep with sharp digital texture and rapid robotic articulation, characteristic of vintage computer and synthesizer tones with minimal sustain.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "glitchy"
+      ],
+      "tags": [
+        "synth",
+        "bell",
+        "glitchy",
+        "lo-fi",
+        "digital",
+        "sharp",
+        "crispy",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -10.4,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -9.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 470100,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmtjnwcnu000004l6pdm5gowe",
+        "name": "MOSH — Rage and Plugg Drum Kit",
+        "slug": "mosh-rage-and-plugg-drum-kit",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/mosh-rage-and-plugg-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/o2qVwG9wk_QHmQDohfNCZ2V-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6rjlo8ug1dv4rkma7a3x5/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Synthetic 8-Bit Hit\" on Soundza (https://soundza.com/sound/synthetic-8-bit-hit)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtdmy18rb2oc88xrrarkzks9",
+      "url": "https://soundza.com/sound/acoustic-bongo-loop",
+      "title": "Acoustic Bongo Loop",
+      "description": "A rhythmic bongo loop with tight, punchy hits centered in the mid-frequency range, featuring rapid percussive strikes at 99 BPM with organic attack and crisp articulation ideal for Latin and world music production.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 4.82,
+      "bpm": 99,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "organic"
+      ],
+      "tags": [
+        "bongo",
+        "percussion",
+        "punchy",
+        "crispy",
+        "organic",
+        "rhythmic",
+        "loop",
+        "groove"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -20.7,
+        "basis": "integrated"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 637342,
+      "category": null,
+      "pack": {
+        "id": "cmtdhfkhq00000ahz4z4hwhn6",
+        "name": "CENCERRO — Afro & Latin Percussion Bells",
+        "slug": "cencerro-afro-and-latin-percussion-bells",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/cencerro-afro-and-latin-percussion-bells"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qb6A50a-WO1G2DgmXzVq-D2z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtdmy18rb2oc88xrrarkzks9/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Acoustic Bongo Loop\" by LABADI on Soundza (https://soundza.com/sound/acoustic-bongo-loop)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtl4esu4vmipabjrdsyioq6y",
+      "url": "https://soundza.com/sound/bright-tambourine-loop-1",
+      "title": "Bright Tambourine Loop",
+      "description": "A bright, crispy tambourine loop with sharp metallic jingles and tight rhythmic hits centered in the high frequencies—perfect for adding shimmer and percussive texture without muddying the mix. The high spectral centroid and rapid onset density create an airy, articulate shake that sits beautifully on top of other elements.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 8.35,
+      "bpm": 115,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "percussion",
+        "shaker",
+        "bright",
+        "crispy",
+        "metallic",
+        "rhythmic",
+        "loop",
+        "tight"
+      ],
+      "sync_ms": null,
+      "lufs": -28.8,
+      "true_peak_db": -4.6,
+      "loudness": {
+        "value": -28.8,
+        "basis": "integrated"
+      },
+      "gain_db": 3.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1104508,
+      "category": null,
+      "pack": {
+        "id": "wgv8zonkpxylr0elbyj9libb",
+        "name": "YANOS — Soft Keys, Slit Drums and Hand Percussion",
+        "slug": "yanos-soft-keys-slit-drums-and-hand-percussion",
+        "sound_count": 74,
+        "url": "https://soundza.com/packs/yanos-soft-keys-slit-drums-and-hand-percussion"
+      },
+      "creator": {
+        "name": "LABADI",
+        "url": "https://soundza.com/creators/labadi"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SMSx1GISyedUxhfpx3e3rcp7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl4esu4vmipabjrdsyioq6y/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Tambourine Loop\" by LABADI on Soundza (https://soundza.com/sound/bright-tambourine-loop-1)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtm6hdrf5nl8szlza4ijb87f",
+      "url": "https://soundza.com/sound/warm-crash-cymbal",
+      "title": "Warm Crash Cymbal",
+      "description": "A bright, metallic crash cymbal hit with crispy mid-range attack and rapid decay, ideal for punchy percussion layers and dynamic kit sounds.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "cymbal",
+        "impact",
+        "metallic",
+        "crispy",
+        "bright",
+        "percussion",
+        "sharp",
+        "one-shot"
+      ],
+      "sync_ms": 45,
+      "lufs": -15.8,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -11,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 751084,
+      "category": null,
+      "pack": {
+        "id": "y45kz46rys9z90bslhc8ynn5",
+        "name": "Urban Trap Essentials",
+        "slug": "urban-trap-essentials",
+        "sound_count": 108,
+        "url": "https://soundza.com/packs/urban-trap-essentials"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-8GsgEuZwAfW-zs3cIvKDBur.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm6hdrf5nl8szlza4ijb87f/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Warm Crash Cymbal\" on Soundza (https://soundza.com/sound/warm-crash-cymbal)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtl5vvnuj29osglwsbm2m937",
+      "url": "https://soundza.com/sound/distorted-synth-stab-in-c",
+      "title": "Distorted Synth Stab in C",
+      "description": "A sharp, piercing synth stab with aggressive high-frequency energy and rapid onset density, perfect for cutting through dense mixes in hardstyle and hardcore. The tight attack and sustained brightness create a screech-like character that punctuates rhythm and builds intensity.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "synth",
+        "stab",
+        "sharp",
+        "bright",
+        "aggressive",
+        "hard",
+        "metallic",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -2.7,
+      "true_peak_db": 1.3,
+      "loudness": {
+        "value": -1.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -11.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 120090,
+      "category": null,
+      "pack": {
+        "id": "qmcjf6hwajka8wvhc5kosejj",
+        "name": "NOCTURNE — Analog Techno Stabs, Sequences and Atmospheres",
+        "slug": "nocturne-analog-techno-stabs-sequences-and-atmospheres",
+        "sound_count": 88,
+        "url": "https://soundza.com/packs/nocturne-analog-techno-stabs-sequences-and-atmospheres"
+      },
+      "creator": {
+        "name": "TRAGWERK",
+        "url": "https://soundza.com/creators/tragwerk"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HR_P6ghTdPOW1K0VkBwY-aKb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl5vvnuj29osglwsbm2m937/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Distorted Synth Stab in C\" by TRAGWERK on Soundza (https://soundza.com/sound/distorted-synth-stab-in-c)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvovzhw7okzo864slxgoxhu8",
+      "url": "https://soundza.com/sound/rock-splash-water-impact",
+      "title": "Rock Splash Water Impact",
+      "description": "A large rock plunges into a river with a deep splash and resonant water impact, creating a rich low-frequency surge followed by settling ripples and secondary splashes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 3.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "foley"
+      ],
+      "sync_ms": 1179,
+      "lufs": -32.6,
+      "true_peak_db": -8.2,
+      "loudness": {
+        "value": -26.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 950490,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3NYNJsJBpLnWhxYN0vbWCpR5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovzhw7okzo864slxgoxhu8/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rock Splash Water Impact\" on Soundza (https://soundza.com/sound/rock-splash-water-impact)",
+      "matched_words": [
+        "river"
+      ]
+    },
+    {
+      "id": "cmvjp93zqj6svb9fack4vkqds",
+      "url": "https://soundza.com/sound/level-up-chime",
+      "title": "Level Up Chime",
+      "description": "A bright, ascending chime effect with a quick attack and minimal decay, commonly used to signal player progression or achievement in games. The tonal character and rapid onset make it ideal for immediate feedback on successful actions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_power_up"
+      ],
+      "duration": 0.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "power-up",
+        "notification",
+        "chime",
+        "bright",
+        "retro",
+        "ui"
+      ],
+      "sync_ms": 102,
+      "lufs": -21.1,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -17.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 116486,
+      "category": {
+        "id": "MAGMisc",
+        "label": "Magic › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/A5GKb7tEODbcnyC9KoleG9eZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjp93zqj6svb9fack4vkqds/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Level Up Chime\" on Soundza (https://soundza.com/sound/level-up-chime)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvl55053t6t0o6l64t7otmjw",
+      "url": "https://soundza.com/sound/bright-fire-whoosh",
+      "title": "Bright Fire Whoosh",
+      "description": "A deep, rapid fire sound with a whooshing arc, created by igniting diesel fuel and pitch-shifting for intensity. Useful for dramatic fire events, impacts, and transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "impact_on_beat",
+        "build_up"
+      ],
+      "duration": 3.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -10.9,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -8.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -4.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1110936,
+      "category": {
+        "id": "FIREWhsh",
+        "label": "Fire › Whoosh"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GXjCmqwWyN2k0lLbwkE-3opq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl55053t6t0o6l64t7otmjw/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Fire Whoosh\" on Soundza (https://soundza.com/sound/bright-fire-whoosh)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtmfzzua4nze1wdevrgfxmxz",
+      "url": "https://soundza.com/sound/reverse-vinyl-scratch-loop",
+      "title": "Reverse Vinyl Scratch Loop",
+      "description": "A crispy, high-energy DJ scratch and turntable performance looped at 152 BPM with bright, glitchy textures from vinyl manipulation, reverse effects, and rapid scratching patterns. The sound features aggressive onset density and metallic high-end frequencies characteristic of turntablism techniques like backspins and record warping.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 53.67,
+      "bpm": 143.1,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "glitchy",
+        "metallic"
+      ],
+      "tags": [
+        "percussion",
+        "bright",
+        "crispy",
+        "glitchy",
+        "metallic",
+        "rhythmic",
+        "reverse",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -15.7,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -11.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15456476,
+      "category": {
+        "id": "COMPhono",
+        "label": "Communications › Phonograph"
+      },
+      "pack": {
+        "id": "cmt23cc7p000004lghgxqzala",
+        "name": "Ultimate Risers Vol. 2",
+        "slug": "ultimate-risers-vol-2",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/ultimate-risers-vol-2"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmKjjvdeQRtOEPSe65T0MsKi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtmfzzua4nze1wdevrgfxmxz/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Reverse Vinyl Scratch Loop\" on Soundza (https://soundza.com/sound/reverse-vinyl-scratch-loop)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtdgxbpxw6tmjhq9774heg6w",
+      "url": "https://soundza.com/sound/bright-egg-shaker",
+      "title": "Bright Egg Shaker",
+      "description": "A bright, crispy plastic egg shaker with a rapid rattling shake and roll texture, producing sharp metallic clicks and rustling sounds ideal for adding shimmering rhythmic texture and organic percussion layers.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 17.22,
+      "bpm": 117,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "organic"
+      ],
+      "tags": [
+        "shaker",
+        "percussion",
+        "crispy",
+        "bright",
+        "rhythmic",
+        "organic",
+        "texture",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -24.9,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -24.9,
+        "basis": "integrated"
+      },
+      "gain_db": 1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 2278862,
+      "category": null,
+      "pack": {
+        "id": "lgzn5jjt2vpf1h658pk5agz4",
+        "name": "CALLE — Latin Percussion: Timbales, Congas, Bells and Güiro",
+        "slug": "calle-latin-percussion-timbales-congas-bells-and-guiro",
+        "sound_count": 48,
+        "url": "https://soundza.com/packs/calle-latin-percussion-timbales-congas-bells-and-guiro"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TAoZETfkuvXY43Nf3XEE42Ik.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtdgxbpxw6tmjhq9774heg6w/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Egg Shaker\" on Soundza (https://soundza.com/sound/bright-egg-shaker)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvffl6xewcu9yma66xp5ql8r",
+      "url": "https://soundza.com/sound/running-footsteps-on-grass-1",
+      "title": "Running Footsteps on Grass",
+      "description": "The sound of a person running through dry grass and fallen leaves, with rapid footfalls and rustling vegetation underfoot. Suitable for outdoor chase scenes, athletic activity, or nature-based movement.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 38.45,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "footsteps",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -39.8,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -27.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10174556,
+      "category": {
+        "id": "FEETHmn",
+        "label": "Footsteps › Human"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dnX9jdW2W6hxwHjErF31NT4x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvffl6xewcu9yma66xp5ql8r/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Running Footsteps on Grass\" on Soundza (https://soundza.com/sound/running-footsteps-on-grass-1)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmtm8i91pjkusi2f43a8beefm",
+      "url": "https://soundza.com/sound/rattling-metallic-loop",
+      "title": "Rattling Metallic Loop",
+      "description": "A bright, metallic percussion rattle with crispy, gritty texture and rapid articulations that create a shimmering, almost industrial quality. The high onset density and sharp spectral profile give it aggressive bite, making it feel more like a struck metal object or chain rattle than traditional drums.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 10,
+      "bpm": 96,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic"
+      ],
+      "tags": [
+        "percussion",
+        "metallic",
+        "crispy",
+        "gritty",
+        "shaker",
+        "aggressive",
+        "textured",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -26.7,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -26.7,
+        "basis": "integrated"
+      },
+      "gain_db": 0.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2646088,
+      "category": null,
+      "pack": {
+        "id": "cmss1daz6000204jzogte9b8i",
+        "name": "Hand Percussion — Shakers, Scrapers and Ticks",
+        "slug": "hand-percussion-shakers-scrapers-and-ticks",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/hand-percussion-shakers-scrapers-and-ticks"
+      },
+      "creator": {
+        "name": "Kola RAIN",
+        "url": "https://soundza.com/creators/kola-rain"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/pcaQwijf0l-deIGjz-1XpjDb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm8i91pjkusi2f43a8beefm/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rattling Metallic Loop\" by Kola RAIN on Soundza (https://soundza.com/sound/rattling-metallic-loop)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvjoxewkyxq3njtbxps2bwz5",
+      "url": "https://soundza.com/sound/glassy-freezing-fx",
+      "title": "Glassy Freezing FX",
+      "description": "A designed whooshing sound of ice crystallizing and freezing rapidly, with a shimmering tonal quality that suggests magical transformation. Perfect for spell effects, elemental magic moments, or fantasy freeze transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "reveal",
+        "impact_on_beat"
+      ],
+      "duration": 3.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "magic",
+        "whoosh"
+      ],
+      "sync_ms": null,
+      "lufs": -36.6,
+      "true_peak_db": -16.5,
+      "loudness": {
+        "value": -32.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 489256,
+      "category": {
+        "id": "MAGElem",
+        "label": "Magic › Elemental"
+      },
+      "pack": {
+        "id": "nlj5q8a22o1erzs4ezd19tt1",
+        "name": "Magic Sound Effects for Games — Spells, Sparkles, Heals & Teleports",
+        "slug": "magic-sound-effects-spells-sparkles-heals-and-teleports",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/magic-sound-effects-spells-sparkles-heals-and-teleports"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4ocDDLOewkaeiRXEB0XjN3zm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvjoxewkyxq3njtbxps2bwz5/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glassy Freezing FX\" on Soundza (https://soundza.com/sound/glassy-freezing-fx)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmu1npc5l00190agmnvvj80ip",
+      "url": "https://soundza.com/sound/11-138-d",
+      "title": "11 138 D#",
+      "description": "A dark, hypnotic synth loop with tight rhythmic onsets and a concentrated mid-range presence, sitting deep in the low-to-mid frequencies with minimal high-end brightness. The loop has a compressed, punchy character with fast attack and rapid onset density that locks into trap tempos perfectly.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 13.91,
+      "bpm": 138,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark",
+        "punchy"
+      ],
+      "tags": [
+        "synth",
+        "loop",
+        "dark",
+        "hypnotic",
+        "rhythmic",
+        "compressed",
+        "punchy",
+        "tight"
+      ],
+      "sync_ms": null,
+      "lufs": -18.3,
+      "true_peak_db": -2.5,
+      "loudness": {
+        "value": -18.3,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3681464,
+      "category": null,
+      "pack": {
+        "id": "cmu1npbx400000agmnpeijenh",
+        "name": "50 Melodic Synth Pad Loops for Trap, Lo-fi",
+        "slug": "50-melodic-synth-pad-loops-for-trap-low-fi",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/50-melodic-synth-pad-loops-for-trap-low-fi"
+      },
+      "creator": {
+        "name": "groebeats",
+        "url": "https://soundza.com/creators/groebeats"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bioZjGED1RuXZLUzGUqwt_-H.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmu1npc5l00190agmnvvj80ip/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"11 138 D#\" by groebeats on Soundza (https://soundza.com/sound/11-138-d)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmvoww0elkfdkmk7x24wyg68w",
+      "url": "https://soundza.com/sound/fast-water-drips",
+      "title": "Fast Water Drips",
+      "description": "Rapid water droplets falling at a steady rate, like a kitchen faucet leak or drain overflow. Useful for establishing an anxious or neglectful atmosphere in a scene.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 11.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 7000,
+      "lufs": -28.9,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3127378,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/21gxV0iSNaixNHg6b5jHdtSh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoww0elkfdkmk7x24wyg68w/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Water Drips\" on Soundza (https://soundza.com/sound/fast-water-drips)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "cmve03a1d4qx10zlll5azn81b",
+      "url": "https://soundza.com/sound/fast-heartbeat-loop",
+      "title": "Fast Heartbeat Loop",
+      "description": "A rapid, pounding human heartbeat with uneven rhythm, creating tension and urgency. Ideal for layering into dramatic scenes or as a percussive foundation for anxiety-driven sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "build_up"
+      ],
+      "duration": 15.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "tension"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -20.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4089570,
+      "category": {
+        "id": "HMNHart",
+        "label": "Human › Heartbeat"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VWzx47tNgsWhAcJNx67mFt9x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve03a1d4qx10zlll5azn81b/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Heartbeat Loop\" on Soundza (https://soundza.com/sound/fast-heartbeat-loop)",
+      "matched_words": [
+        "rapids"
+      ]
+    },
+    {
+      "id": "p4ykcfavqmat502yxze54kmh",
+      "url": "https://soundza.com/sound/artillery-destroyed",
+      "title": "Artillery Destroyed",
+      "description": "A sharp, destructive explosion with a rapid percussive attack and quick decay. Ideal for sci-fi game impacts, unit destruction, or weapon impacts in real-time strategy games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "explosion",
+        "impact",
+        "sci-fi",
+        "game",
+        "weapon"
+      ],
+      "sync_ms": null,
+      "lufs": -13.4,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -10,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 247986,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/o1-Etrln-gDqecf40-cHJlUp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/p4ykcfavqmat502yxze54kmh/file?search_id=ajje8byqlkzze7ie7xl6n481",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Artillery Destroyed\" on Soundza (https://soundza.com/sound/artillery-destroyed)",
+      "matched_words": [
+        "rapids"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "river rapids whitewater",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for the sound of river rapids and whitewater. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"river rapids whitewater\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "ajje8byqlkzze7ie7xl6n481"
+}

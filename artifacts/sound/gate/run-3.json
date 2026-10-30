@@ -1,0 +1,284 @@
+{
+  "run": 3,
+  "at": "2026-10-30T20:37:50.216Z",
+  "pass": true,
+  "checks": [
+    {
+      "name": "cue sheet",
+      "ok": true,
+      "detail": "17 cues"
+    },
+    {
+      "name": "measure engine",
+      "ok": true,
+      "detail": "5.71s, -17 LUFS"
+    },
+    {
+      "name": "measure water-rush",
+      "ok": true,
+      "detail": "5.94s, -23.9 LUFS"
+    },
+    {
+      "name": "measure ocean-ambience",
+      "ok": true,
+      "detail": "11.94s, -38.4 LUFS"
+    },
+    {
+      "name": "measure land-splash",
+      "ok": true,
+      "detail": "1.72s, -20.1 LUFS"
+    },
+    {
+      "name": "measure land-splash-2",
+      "ok": true,
+      "detail": "2.833s, -18.4 LUFS"
+    },
+    {
+      "name": "measure wipeout",
+      "ok": true,
+      "detail": "1.711s, -15.4 LUFS"
+    },
+    {
+      "name": "measure launch",
+      "ok": true,
+      "detail": "0.647s, -18.9 LUFS"
+    },
+    {
+      "name": "measure bump",
+      "ok": true,
+      "detail": "0.382s, -15.6 LUFS"
+    },
+    {
+      "name": "measure ring",
+      "ok": true,
+      "detail": "1.375s, -16.3 LUFS"
+    },
+    {
+      "name": "measure gate",
+      "ok": true,
+      "detail": "0.55s, -25.5 LUFS"
+    },
+    {
+      "name": "measure countdown",
+      "ok": true,
+      "detail": "0.897s, -27.1 LUFS"
+    },
+    {
+      "name": "measure go",
+      "ok": true,
+      "detail": "1.611s, -16 LUFS"
+    },
+    {
+      "name": "measure lap",
+      "ok": true,
+      "detail": "0.825s, -17.4 LUFS"
+    },
+    {
+      "name": "measure lap-best",
+      "ok": true,
+      "detail": "1.374s, -17 LUFS"
+    },
+    {
+      "name": "measure finish-win",
+      "ok": true,
+      "detail": "4.437s, -17.4 LUFS"
+    },
+    {
+      "name": "measure finish",
+      "ok": true,
+      "detail": "1.387s, -17.4 LUFS"
+    },
+    {
+      "name": "measure ui-click",
+      "ok": true,
+      "detail": "0.161s, -19 LUFS"
+    },
+    {
+      "name": "listen engine",
+      "ok": true,
+      "detail": "fit 7/7/7, \"A small generator or outboard boat motor running at constant RPM\""
+    },
+    {
+      "name": "listen water-rush",
+      "ok": true,
+      "detail": "fit 4/6/3, \"A big waterfall seen from up close\""
+    },
+    {
+      "name": "listen ocean-ambience",
+      "ok": true,
+      "detail": "fit 8/8/9, \"Standing on a windy beach listening to ocean surf rolling in.\""
+    },
+    {
+      "name": "listen land-splash",
+      "ok": true,
+      "detail": "fit 8/8/6, \"A person or heavy object belly-flopping into a pool/lake, seen from right at the waterline\""
+    },
+    {
+      "name": "listen land-splash-2",
+      "ok": true,
+      "detail": "fit 7/7/8, \"A person or heavy object belly-flopping into a pool or lake\""
+    },
+    {
+      "name": "listen wipeout",
+      "ok": true,
+      "detail": "fit 5/5/5, \"A heavy man jumping into a swimming pool from a couple of metres up.\""
+    },
+    {
+      "name": "listen launch",
+      "ok": true,
+      "detail": "fit 4/2/7, \"Spritzing a water bottle or flicking wet fingers\""
+    },
+    {
+      "name": "listen bump",
+      "ok": true,
+      "detail": "fit 5/8/2, \"A fist or wooden block hitting a hollow table or cardboard box\""
+    },
+    {
+      "name": "listen ring",
+      "ok": true,
+      "detail": "fit 8/8/9, \"A classic gem/coin collect chime from a platformer — a magic sparkle pickup.\""
+    },
+    {
+      "name": "listen gate",
+      "ok": true,
+      "detail": "fit 9/7/8, \"A small service bell or a UI 'success/confirm' ding\""
+    },
+    {
+      "name": "listen countdown",
+      "ok": true,
+      "detail": "fit 9/9/9, \"A race countdown / start-light beep, or a generic digital UI confirmation tone.\""
+    },
+    {
+      "name": "listen go",
+      "ok": true,
+      "detail": "fit 9/9/9, \"A stadium air horn blast\""
+    },
+    {
+      "name": "listen lap",
+      "ok": true,
+      "detail": "fit 8/8/8, \"A classic video-game success/level-complete chime — the kind of reward jingle you hear in a platformer or mobile game when you collect a star or finish a stage.\""
+    },
+    {
+      "name": "listen lap-best",
+      "ok": true,
+      "detail": "fit 6/6/5, \"A classic 'achievement unlocked' / level-up chime from a mobile or casual game\""
+    },
+    {
+      "name": "listen finish-win",
+      "ok": true,
+      "detail": "fit 9/9/9, \"A classic brass herald fanfare — the kind used as a sports or racing victory jingle\""
+    },
+    {
+      "name": "listen finish",
+      "ok": true,
+      "detail": "fit 9/9/8, \"A classic 'level complete / race finished' jingle from an arcade or kart racer.\""
+    },
+    {
+      "name": "listen ui-click",
+      "ok": true,
+      "detail": "fit 8/8/9, \"A soft mouse click or small tactile switch press\""
+    },
+    {
+      "name": "synth",
+      "ok": true,
+      "detail": "none"
+    },
+    {
+      "name": "credit",
+      "ok": true,
+      "detail": "soundza.com credited"
+    },
+    {
+      "name": "build",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "playtest",
+      "ok": true,
+      "info": true,
+      "detail": {
+        "played": [
+          "water-rush.wav",
+          "engine.wav",
+          "ocean-bed.wav",
+          "ui-click.mp3",
+          "countdown.mp3",
+          "go.mp3",
+          "launch.mp3",
+          "land-splash.mp3",
+          "splash2.mp3",
+          "gate.mp3",
+          "bump.mp3",
+          "wipeout.mp3"
+        ],
+        "oscillators": 0
+      }
+    },
+    {
+      "name": "fires engine",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires water-rush",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires ocean-ambience",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires land-splash",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires land-splash-2",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires wipeout",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires launch",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires gate",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires countdown",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires go",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "fires ui-click",
+      "ok": true,
+      "detail": "played"
+    },
+    {
+      "name": "decode",
+      "ok": true,
+      "detail": "every sound decoded"
+    },
+    {
+      "name": "errors",
+      "ok": true,
+      "detail": "none"
+    }
+  ]
+}

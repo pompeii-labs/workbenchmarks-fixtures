@@ -1,0 +1,3247 @@
+{
+  "query": {
+    "q": "sea spray wind boat",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 224,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=sea+spray+wind+boat&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmukg811ecno05cap87fqne2x",
+      "url": "https://soundza.com/sound/sea-cave-ambience",
+      "title": "Sea Cave Ambience",
+      "description": "A coastal cave filled with the sounds of waves crashing and water dripping, capturing the echoing reverb and moisture of a seaside cavern. Ideal for underwater scenes, dungeon atmospheres, or any location needing a damp, cavernous quality.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -32.4,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -32.4,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 38873170,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tv9rYRmfQu_rkYssiynJnoqV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg811ecno05cap87fqne2x/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sea Cave Ambience\" on Soundza (https://soundza.com/sound/sea-cave-ambience)",
+      "matched_words": [
+        "sea"
+      ]
+    },
+    {
+      "id": "cmukg4dqj22jh09if3dzxs8jn",
+      "url": "https://soundza.com/sound/spray-fire-constant-burn",
+      "title": "Spray Fire Constant Burn",
+      "description": "A sustained spray can fire with a continuous hissing roar, recorded in a reverberant natural space. The sound captures the raw intensity of flame with echoing depth, suitable for dungeon or cave fire ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 34.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "reverb",
+        "hiss",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -18.1,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -18.1,
+        "basis": "integrated"
+      },
+      "gain_db": -1.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 9910422,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ho-LlLwf_D918oqY3SS7_6Wd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg4dqj22jh09if3dzxs8jn/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Spray Fire Constant Burn\" on Soundza (https://soundza.com/sound/spray-fire-constant-burn)",
+      "matched_words": [
+        "spray"
+      ]
+    },
+    {
+      "id": "cmvdzgx8shpx17pvpcyxdhcwc",
+      "url": "https://soundza.com/sound/big-boat-horn",
+      "title": "Big Boat Horn",
+      "description": "A deep, resonant horn blast from a large vessel, with a sustained tonal quality characteristic of maritime fog horns or ship announcement systems. Suitable for maritime scenes, vehicle ambiences, or dramatic warning moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "boat",
+        "ferry",
+        "horn",
+        "ship"
+      ],
+      "sync_ms": null,
+      "lufs": -7.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -5.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6350478,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dNRMmaJQn-O5pZTFOn-BEqRi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgx8shpx17pvpcyxdhcwc/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Big Boat Horn\" on Soundza (https://soundza.com/sound/big-boat-horn)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmuhywjvzr6townql9dhi0wsc",
+      "url": "https://soundza.com/sound/soft-wind",
+      "title": "Soft Wind",
+      "description": "A gentle, sustained wind sound with natural air movement and subtle texture. Ideal as a background layer for outdoor scenes or meditative atmospheres.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 35.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "wind",
+        "nature",
+        "soft",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -34,
+      "true_peak_db": -21.8,
+      "loudness": {
+        "value": -34,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 9441866,
+      "category": {
+        "id": "WIND",
+        "label": "Wind › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K-U3efFO3ye1DpSdGfrOWFAU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhywjvzr6townql9dhi0wsc/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Wind\" on Soundza (https://soundza.com/sound/soft-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmsf1twks001504l4ks13xzqz",
+      "url": "https://soundza.com/sound/beach-waves-ambience",
+      "title": "Beach Waves Ambience",
+      "description": "A layered beach ambience capturing the rhythmic crash and wash of ocean waves with subtle wind textures, creating a natural, spacious soundscape with organic depth and movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 297.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "wet",
+        "layered"
+      ],
+      "sync_ms": null,
+      "lufs": -25,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85767662,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LKJz00wDtt6VTfquLgkuGSGa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf1twks001504l4ks13xzqz/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Waves Ambience\" by Sean Joad on Soundza (https://soundza.com/sound/beach-waves-ambience)",
+      "matched_words": [
+        "sea",
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv8yokx1ddw6fa1osa3nsrr2",
+      "url": "https://soundza.com/sound/graveyard-night-wind",
+      "title": "Graveyard Night Wind",
+      "description": "Eerie howling wind moving through a dark graveyard at night, with a continuous, unsettling atmosphere. Ideal for Halloween scenes and spooky environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 49.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "night",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -20.5,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -20.5,
+        "basis": "integrated"
+      },
+      "gain_db": 0.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11895638,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VkD1n9q27PlIq0sQxM_wYMbq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8yokx1ddw6fa1osa3nsrr2/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Graveyard Night Wind\" on Soundza (https://soundza.com/sound/graveyard-night-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0gw5cgrik2y8fcidp196hb",
+      "url": "https://soundza.com/sound/autumn-wind-leaves",
+      "title": "Autumn Wind Leaves",
+      "description": "Wind moving through dry leaves on an autumn sidewalk, with subtle background noise including possible light rain. A natural outdoor ambience suitable for game scenes or video transitions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 42.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor",
+        "dry",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -37.7,
+      "true_peak_db": -11.4,
+      "loudness": {
+        "value": -37.7,
+        "basis": "integrated"
+      },
+      "gain_db": 10.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 12359166,
+      "category": {
+        "id": "VEGELeaf",
+        "label": "Vegetation › Leaves"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RGhruJQbdUvUYx8awO6CX6nd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gw5cgrik2y8fcidp196hb/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Autumn Wind Leaves\" on Soundza (https://soundza.com/sound/autumn-wind-leaves)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0h64lxq9x95ndww2vma4iw",
+      "url": "https://soundza.com/sound/arctic-cold-wind",
+      "title": "Arctic Cold Wind",
+      "description": "A harsh, howling wind with synthetic qualities created through white noise filtering. Suitable as an atmospheric bed for arctic or winter environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -18.6,
+      "true_peak_db": -3.3,
+      "loudness": {
+        "value": -18.6,
+        "basis": "integrated"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15611482,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wFIIGCPPLYi_SAqxdv1gZc77.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h64lxq9x95ndww2vma4iw/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Arctic Cold Wind\" on Soundza (https://soundza.com/sound/arctic-cold-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5mluqr000y06l4xgswzrrf",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat",
+      "title": "Poupi's Incredible Adventures: I'm on a Boat",
+      "description": "A whimsical, melodic musical phrase with bright synth and playful orchestral elements that captures the joy of an unexpected voyage. Perfect as a game scene transition or victory moment.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 108,
+      "bpm": 120.2,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "melodic"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -20.7,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 28576910,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zBjmUF8xL_ZCMB3BmHiINcqY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr000y06l4xgswzrrf/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: I'm on a Boat\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvl7iigwj80fmrugj3017o2b",
+      "url": "https://soundza.com/sound/wind-low-gust",
+      "title": "Wind Low Gust",
+      "description": "A deep, rumbling wind gust with a tonal, low-frequency character. Suitable as a background layer for outdoor scenes or storm ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "build_up",
+        "transition"
+      ],
+      "duration": 2.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -19.3,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -19.3,
+        "basis": "integrated"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 661578,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BBHq6zXvGEJqfiDgfkGDRrMp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7iigwj80fmrugj3017o2b/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Low Gust\" on Soundza (https://soundza.com/sound/wind-low-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmukh3myypdako01hlgocu2ua",
+      "url": "https://soundza.com/sound/desert-wind-ambience",
+      "title": "Desert Wind Ambience",
+      "description": "A sustained, howling desert wind with a slightly tonal quality, created from an emergency whistle technique. Ideal for outdoor post-apocalyptic scenes or desolate wasteland atmospheres.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -20.5,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -20.5,
+        "basis": "integrated"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 2642642,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hqhmJjPu-IMMMXUr6Ey5VlVr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukh3myypdako01hlgocu2ua/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Desert Wind Ambience\" on Soundza (https://soundza.com/sound/desert-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6uiouuxa6t1yfp428itr6",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-short",
+      "title": "Whistling Wind Gusts Short",
+      "description": "A continuous wind with a tonal, whistling quality as it moves around a building exterior. Useful as a weather bed or layered under stormy scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "atmospheric",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -27.8,
+      "true_peak_db": -9.5,
+      "loudness": {
+        "value": -27.8,
+        "basis": "integrated"
+      },
+      "gain_db": 7.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1905642,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AJMKlFPzSeiKA1ayVO855bS1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6uiouuxa6t1yfp428itr6/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Short\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-short)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6u2wdv1fgv12skxj7tv2q",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-long",
+      "title": "Whistling Wind Gusts Long",
+      "description": "Wind sweeps around a building with a distinctly tonal, whistling quality. Suitable as an atmospheric layer for stormy or windy exterior scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 26.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -23,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -23,
+        "basis": "integrated"
+      },
+      "gain_db": 3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3871356,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0O0sfofLcjJVyC03S8g--Wgn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6u2wdv1fgv12skxj7tv2q/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Long\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-long)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7iq0ln04kova7ojut785c",
+      "url": "https://soundza.com/sound/rain-with-wind-ambience",
+      "title": "Rain with Wind Ambience",
+      "description": "Steady rain falling with gentle wind moving through trees, creating a natural outdoor weather soundscape. Ideal for layering under scenes or establishing a rainy atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "wind",
+        "ambience",
+        "outdoor",
+        "nature",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -40,
+      "true_peak_db": -16.3,
+      "loudness": {
+        "value": -40,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8454166,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i8u-bKiZWvM5bp1uNkwpU6Xq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7iq0ln04kova7ojut785c/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain with Wind Ambience\" on Soundza (https://soundza.com/sound/rain-with-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6uy6jocknyi72skcbusnn",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-extended",
+      "title": "Whistling Wind Gusts Extended",
+      "description": "Sharp, tonal wind gusts whistling around a building with varying intensity. A outdoor ambience suitable for stormy scenes or exposed locations.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 24.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3545776,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3rZ5VNVOSnHeDJRy47cJk9cf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6uy6jocknyi72skcbusnn/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Extended\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-extended)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7a8qje7csnthu5lm74euy",
+      "url": "https://soundza.com/sound/wind-gust-left-right",
+      "title": "Wind Gust Left-Right",
+      "description": "A smooth, directional wind gust that moves from left to right across the stereo field. Subtle and natural, ideal for transitions between outdoor scenes or as a layering element in weather ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition"
+      ],
+      "duration": 10.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -13.3,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -13.3,
+        "basis": "integrated"
+      },
+      "gain_db": -6.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2907626,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/W46voc7kV0VS0BcfUfIb34_c.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7a8qje7csnthu5lm74euy/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Gust Left-Right\" on Soundza (https://soundza.com/sound/wind-gust-left-right)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7a2natyzdpenngncr2uea",
+      "url": "https://soundza.com/sound/strong-desert-wind",
+      "title": "Strong Desert Wind",
+      "description": "A continuous, howling wind recorded in a desert environment with a characteristic tonal quality resembling a snowy, arctic setting. Suitable as an atmospheric bed for outdoor scenes or weather sequences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -14.6,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -14.6,
+        "basis": "integrated"
+      },
+      "gain_db": -5.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5225556,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/g78Bguo_LF3C71XaJlEh6t7L.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7a2natyzdpenngncr2uea/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Strong Desert Wind\" on Soundza (https://soundza.com/sound/strong-desert-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0h88j251qjffvb4s2zq710",
+      "url": "https://soundza.com/sound/desert-wind-ambience-1",
+      "title": "Desert Wind Ambience",
+      "description": "A subtle, airy wind sound created by vocal breath passed through reverb and stereo delay, evoking the loneliness of an empty desert plain. Suitable as a sparse, atmospheric bed for wilderness or isolation scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 41.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "wind",
+        "ambience",
+        "airy",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -38,
+      "true_peak_db": -19.3,
+      "loudness": {
+        "value": -38,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11849228,
+      "category": {
+        "id": "AMBDsrt",
+        "label": "Ambience › Desert"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7E3EIt-IcROpw7VXkyGq09Sj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h88j251qjffvb4s2zq710/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Desert Wind Ambience\" on Soundza (https://soundza.com/sound/desert-wind-ambience-1)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl5ezidge6niz3mcrcpd97y",
+      "url": "https://soundza.com/sound/burning-candle-wind-ambience",
+      "title": "Burning Candle Wind Ambience",
+      "description": "A flickering candle flame with wind gusts passing through. Suitable as a background layer for tense or quiet scenes, or as a transition element between environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 12,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "wind",
+        "ambience",
+        "atmospheric",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -49.5,
+      "true_peak_db": -20.8,
+      "loudness": {
+        "value": -49.5,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3456094,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dcZg5JzjRsQYTYB4uZJc0Klo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5ezidge6niz3mcrcpd97y/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Burning Candle Wind Ambience\" on Soundza (https://soundza.com/sound/burning-candle-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl5bi8r3j9lmufpwb80hvb7",
+      "url": "https://soundza.com/sound/loud-flame-spray",
+      "title": "Loud Flame Spray",
+      "description": "A continuous, crackling flame effect with consistent intensity and roar. Suitable for fire ambience, torch flames, or intense fire scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 6.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire"
+      ],
+      "sync_ms": null,
+      "lufs": -8.8,
+      "true_peak_db": 0.8,
+      "loudness": {
+        "value": -6.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1655890,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/upfCQQJfL7ITCWQ-CVg3OPjS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5bi8r3j9lmufpwb80hvb7/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Loud Flame Spray\" on Soundza (https://soundza.com/sound/loud-flame-spray)",
+      "matched_words": [
+        "spray"
+      ]
+    },
+    {
+      "id": "cmvl7ailqar290cp7yj7y4f4l",
+      "url": "https://soundza.com/sound/winter-winds",
+      "title": "Winter Winds",
+      "description": "A continuous, tonal wind sound whistling through a mountainside. This mouth-created effect works well as atmospheric background for cold outdoor scenes, caves, or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 10.72,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": -11.1,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2835702,
+      "category": {
+        "id": "WIND",
+        "label": "Wind › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sfAAYLqsd-kyJ5yXS4FhPYq5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7ailqar290cp7yj7y4f4l/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Winter Winds\" on Soundza (https://soundza.com/sound/winter-winds)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmukh388sjiz65rqfmaf71pgc",
+      "url": "https://soundza.com/sound/indoor-wind-howl",
+      "title": "Indoor Wind Howl",
+      "description": "A sustained, eerie wind howl recorded inside an abandoned office building. The hollow, tonal quality creates an atmospheric backdrop suitable for post-apocalyptic or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 32.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -25.9,
+      "true_peak_db": -13.3,
+      "loudness": {
+        "value": -25.9,
+        "basis": "integrated"
+      },
+      "gain_db": 5.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8617948,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3JY-TNxwRFNDuplxOeT5krBy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukh388sjiz65rqfmaf71pgc/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Indoor Wind Howl\" on Soundza (https://soundza.com/sound/indoor-wind-howl)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7avsubhnpl076lltu3pcs",
+      "url": "https://soundza.com/sound/rolling-wind-ambience",
+      "title": "Rolling Wind Ambience",
+      "description": "A sustained, howling wind with a rolling quality that loops seamlessly. Suitable as a background bed for winter scenes, storms, or atmospheric underscore.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 30,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -26,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -26,
+        "basis": "integrated"
+      },
+      "gain_db": 6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3969086,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/e8oMJhM7RtgFmpBmUSDowOOp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7avsubhnpl076lltu3pcs/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rolling Wind Ambience\" on Soundza (https://soundza.com/sound/rolling-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6tooczdn07qf2wpb31fex",
+      "url": "https://soundza.com/sound/very-bright-wind-gust",
+      "title": "Very Bright Wind Gust",
+      "description": "A sustained, turbulent wind gust recorded indoors during a storm, with a continuous whooshing and whistling quality as air moves through a corridor.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 18.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -29.2,
+      "true_peak_db": -9.8,
+      "loudness": {
+        "value": -29.2,
+        "basis": "integrated"
+      },
+      "gain_db": 8.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4814444,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EIGv4nxQLWUPBeuZe7G22K0n.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6tooczdn07qf2wpb31fex/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Very Bright Wind Gust\" on Soundza (https://soundza.com/sound/very-bright-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7ppimojpwp68hhuyi5nvz",
+      "url": "https://soundza.com/sound/whipping-wind-storm-heavy",
+      "title": "Whipping Wind Storm Heavy",
+      "description": "A synthetic simulation of a heavy windstorm with turbulent gusts and variable intensity wind movement. Suitable as an atmospheric bed for storm scenes or weather ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -14.4,
+        "basis": "integrated"
+      },
+      "gain_db": -5.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6348840,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oRKmwSq8Q1D_5QJTZdxgk3Bi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7ppimojpwp68hhuyi5nvz/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whipping Wind Storm Heavy\" on Soundza (https://soundza.com/sound/whipping-wind-storm-heavy)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmviajyo5imyaqhrdxdrncli4",
+      "url": "https://soundza.com/sound/spray-bottle-gore-hit",
+      "title": "Spray Bottle Gore Hit",
+      "description": "A sharp, misty spray impact with granular texture and wispy particulates, designed to evoke a violent instantaneous moment. Ideal for discretion shots and horror film impacts where the visual is left to imagination.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "horror",
+        "foley"
+      ],
+      "sync_ms": 113,
+      "lufs": -22.3,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -19,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 445532,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/A7ORLb6m_3TApQitKoCJ9kJR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmviajyo5imyaqhrdxdrncli4/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Spray Bottle Gore Hit\" on Soundza (https://soundza.com/sound/spray-bottle-gore-hit)",
+      "matched_words": [
+        "spray"
+      ]
+    },
+    {
+      "id": "cmvl7apl7g5v5n1jzxknu3jwy",
+      "url": "https://soundza.com/sound/howling-wind-ambience-1",
+      "title": "Howling Wind Ambience",
+      "description": "A sustained, atmospheric wind sound with howling tones, created to evoke the experience of being indoors during a cold, windy night. Suitable as an ambient bed for winter scenes or tense outdoor sequences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 25.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric",
+        "indoor",
+        "night"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.1,
+        "basis": "integrated"
+      },
+      "gain_db": -7.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6740366,
+      "category": {
+        "id": "WINDInt",
+        "label": "Wind › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Zucnsr7-P9LDykgSHbVVtYV2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7apl7g5v5n1jzxknu3jwy/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Howling Wind Ambience\" on Soundza (https://soundza.com/sound/howling-wind-ambience-1)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6t8t6t6hc4p2a0g8nnxpf",
+      "url": "https://soundza.com/sound/whistling-wind-gust",
+      "title": "Whistling Wind Gust",
+      "description": "A sustained wind passing through a narrow tunnel space, creating a tonal whistling quality. Useful as a weather bed or transition element for outdoor scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "transition",
+        "reveal"
+      ],
+      "duration": 2.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -26,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -26,
+        "basis": "integrated"
+      },
+      "gain_db": 6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 532314,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QgVduKbmFqtUU2pOivevm8JK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6t8t6t6hc4p2a0g8nnxpf/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gust\" on Soundza (https://soundza.com/sound/whistling-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmui04a6so6oijgx4ofubel34",
+      "url": "https://soundza.com/sound/open-plough-field-wind",
+      "title": "Open Plough Field Wind",
+      "description": "A sustained recording of wind moving through an open ploughed field, with the dry rustle of grass and soil creating a natural, unadorned atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 114.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "dry",
+        "nature",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -48.3,
+      "true_peak_db": -21.7,
+      "loudness": {
+        "value": -48.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 30292744,
+      "category": {
+        "id": "AMBGras",
+        "label": "Ambience › Grassland"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HBkDdXmYIwHugTSh2Hqaf1G1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmui04a6so6oijgx4ofubel34/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Open Plough Field Wind\" on Soundza (https://soundza.com/sound/open-plough-field-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5ncxv601yd06l4h42r7ai1",
+      "url": "https://soundza.com/sound/nasal-spray",
+      "title": "Nasal Spray",
+      "description": "A quick, sharp pump action of a nasal spray dispenser. Useful for medical, household, or comedic moments requiring a distinct spray mechanism sound.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click"
+      ],
+      "duration": 0.36,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "mechanical",
+        "plastic",
+        "close-up",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -22.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 47324,
+      "category": {
+        "id": "FOODDrnk",
+        "label": "Food & Drink › Drinking"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AOAekOFSQUN1G7WuDqq6hpBf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv601yd06l4h42r7ai1/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Nasal Spray\" on Soundza (https://soundza.com/sound/nasal-spray)",
+      "matched_words": [
+        "spray"
+      ]
+    },
+    {
+      "id": "cmvl7b2afzmil7g7jizgjw4g5",
+      "url": "https://soundza.com/sound/indoor-wind-howl-short",
+      "title": "Indoor Wind Howl Short",
+      "description": "A sustained wind howl recorded inside an abandoned office building, with a tonal, almost whistling quality as air moves through the interior space. Useful as an atmospheric bed for desolate or eerie scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -25.6,
+      "true_peak_db": -14.6,
+      "loudness": {
+        "value": -25.6,
+        "basis": "integrated"
+      },
+      "gain_db": 5.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2020090,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3hcMu8y_j9c3nIcGniSiygbI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7b2afzmil7g7jizgjw4g5/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Indoor Wind Howl Short\" on Soundza (https://soundza.com/sound/indoor-wind-howl-short)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmuhyqpkm5yjwucv3r5pie4xk",
+      "url": "https://soundza.com/sound/bright-wind-ambience",
+      "title": "Bright Wind Ambience",
+      "description": "A gentle, naturalistic recording of wind moving through wooded surroundings. Ideal as a calm atmospheric bed for outdoor scenes or nature-focused media.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 65.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "wind",
+        "ambience",
+        "field-recording",
+        "nature",
+        "soft",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -40.8,
+      "true_peak_db": -26.1,
+      "loudness": {
+        "value": -40.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 37900886,
+      "category": {
+        "id": "WINDVege",
+        "label": "Wind › Vegetation"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NYipAb5OXhCs3mBhrcnBXmSq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyqpkm5yjwucv3r5pie4xk/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Wind Ambience\" on Soundza (https://soundza.com/sound/bright-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7p75u3ud9qs7rwxq06n9w",
+      "url": "https://soundza.com/sound/whipping-wind-storm",
+      "title": "Whipping Wind Storm",
+      "description": "A sustained, synthetic wind storm with dynamic gusts and whooshing movement. Ideal for weather-driven scenes, disaster sequences, or atmospheric tension layers.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "build_up"
+      ],
+      "duration": 23.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -12.3,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -12.3,
+        "basis": "integrated"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6348834,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hYctqQZ46yPZGyR4LaL1DuYn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7p75u3ud9qs7rwxq06n9w/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whipping Wind Storm\" on Soundza (https://soundza.com/sound/whipping-wind-storm)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7by64isnxvqzynt3b3v07",
+      "url": "https://soundza.com/sound/cold-howling-wind",
+      "title": "Cold Howling Wind",
+      "description": "A synthesized, continuously looping wind ambience with a cold, howling character and subtle tonal qualities. Suitable as atmospheric background for winter scenes or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 20.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": -11,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5443282,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lu1M59jXs_dr55UHbdB1DEvB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7by64isnxvqzynt3b3v07/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cold Howling Wind\" on Soundza (https://soundza.com/sound/cold-howling-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7bgtecqvh7s4sds8wy1lf",
+      "url": "https://soundza.com/sound/indoor-wind-howl-long",
+      "title": "Indoor Wind Howl Long",
+      "description": "A continuous wind howl recorded inside an abandoned office building, with sustained tonal qualities and moderate frequency content. Suitable as an ambient bed for desolate interior scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 11.22,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -25.2,
+      "true_peak_db": -14,
+      "loudness": {
+        "value": -25.2,
+        "basis": "integrated"
+      },
+      "gain_db": 5.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2968478,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QC25wHFKlHleXv0kTvwu739d.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7bgtecqvh7s4sds8wy1lf/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Indoor Wind Howl Long\" on Soundza (https://soundza.com/sound/indoor-wind-howl-long)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0h5jfb178zjrzjx05b0z7p",
+      "url": "https://soundza.com/sound/wind-whistling-through-window-crack",
+      "title": "Wind Whistling Through Window Crack",
+      "description": "A sustained howling wind recorded indoors as it whistles and gusts through a poorly-sealed sliding window. Heavy, turbulent wind with occasional sharp peaks creates a realistic, unsettling atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 40.54,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind"
+      ],
+      "sync_ms": null,
+      "lufs": -31.2,
+      "true_peak_db": -11.1,
+      "loudness": {
+        "value": -31.2,
+        "basis": "integrated"
+      },
+      "gain_db": 10.1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 5363812,
+      "category": {
+        "id": "WINDInt",
+        "label": "Wind › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/FkfEAhP431Q-57goGEO1cv0d.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h5jfb178zjrzjx05b0z7p/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Whistling Through Window Crack\" on Soundza (https://soundza.com/sound/wind-whistling-through-window-crack)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700uj06l4wom3e4lv",
+      "url": "https://soundza.com/sound/compressed-air-spray-1",
+      "title": "Compressed Air Spray 1",
+      "description": "A brief, sharp burst of compressed air with a hissing quality. Useful for magical effects, sci-fi transitions, or small mechanical releases in games and video.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "transition",
+        "reveal"
+      ],
+      "duration": 0.58,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "hiss",
+        "mechanical",
+        "magic",
+        "sci-fi",
+        "transition",
+        "foley"
+      ],
+      "sync_ms": 319,
+      "lufs": -10.2,
+      "true_peak_db": 1,
+      "loudness": {
+        "value": -10,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 152968,
+      "category": {
+        "id": "AIRBrst",
+        "label": "Air › Burst"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eLzVpe0-fznU3Is0nr9EyFFg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700uj06l4wom3e4lv/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Compressed Air Spray 1\" on Soundza (https://soundza.com/sound/compressed-air-spray-1)",
+      "matched_words": [
+        "spray"
+      ]
+    },
+    {
+      "id": "cmvl7baia7sbvgkba4ifuzvvc",
+      "url": "https://soundza.com/sound/abandoned-office-wind-howl",
+      "title": "Abandoned Office Wind Howl",
+      "description": "A sustained, tonal wind howl recorded inside an abandoned office building, with a clear pitch and whistling quality that rises and falls in intensity. Ideal for creating atmospheric tension in interior spaces or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "build_up",
+        "transition"
+      ],
+      "duration": 7.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -24.7,
+      "true_peak_db": -13.6,
+      "loudness": {
+        "value": -24.7,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2084426,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K1uHIAyaeQ8uYUlc6g8pGg6P.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7baia7sbvgkba4ifuzvvc/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Abandoned Office Wind Howl\" on Soundza (https://soundza.com/sound/abandoned-office-wind-howl)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmui05l96nd0d0z45sef2t211",
+      "url": "https://soundza.com/sound/rustling-leaves-in-wind",
+      "title": "Rustling Leaves In Wind",
+      "description": "A soft, airy field recording of wind rustling through tree leaves in a natural outdoor setting, captured with organic texture and gentle atmospheric presence. The sound features delicate, crispy high-frequency detail with minimal low-end energy, creating an ethereal, naturalistic ambience perfect for underscoring and environmental texture.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 146.75,
+      "bpm": 123,
+      "key": "G# minor",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "foley",
+        "organic",
+        "ambient",
+        "atmospheric",
+        "airy",
+        "crispy",
+        "ethereal",
+        "texture"
+      ],
+      "sync_ms": null,
+      "lufs": -36.9,
+      "true_peak_db": -6.7,
+      "loudness": {
+        "value": -36.9,
+        "basis": "integrated"
+      },
+      "gain_db": 5.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 42264088,
+      "category": {
+        "id": "VEGELeaf",
+        "label": "Vegetation › Leaves"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lvg3BmGYYX01zhyJ-BjaF8ub.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmui05l96nd0d0z45sef2t211/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rustling Leaves In Wind\" on Soundza (https://soundza.com/sound/rustling-leaves-in-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5t47mo00be06juozd8t44d",
+      "url": "https://soundza.com/sound/light-wind-in-trees-inverness-highlands-scotland",
+      "title": "Light Wind in Trees Inverness Highlands Scotland",
+      "description": "Gentle wind moving through tree foliage in a highland outdoor setting, creating a soft, rustling natural atmosphere ideal for peaceful or contemplative scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 482.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -39.2,
+      "true_peak_db": -9.4,
+      "loudness": {
+        "value": -39.2,
+        "basis": "integrated"
+      },
+      "gain_db": 8.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 278068422,
+      "category": {
+        "id": "WINDVege",
+        "label": "Wind › Vegetation"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UbE6x8RNMhd_1KSKdSlvn5yH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t47mo00be06juozd8t44d/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Light Wind in Trees Inverness Highlands Scotland\" on Soundza (https://soundza.com/sound/light-wind-in-trees-inverness-highlands-scotland)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7qpwko4r4twd2zcj9emeu",
+      "url": "https://soundza.com/sound/strong-wind-gusts",
+      "title": "Strong Wind Gusts",
+      "description": "Powerful, sustained wind with rustling foliage and turbulent air movement, recorded outdoors in Manchester. Suitable for establishing stormy or windy weather environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -34.3,
+      "true_peak_db": -19.7,
+      "loudness": {
+        "value": -34.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5699254,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qaxZDbw2_8ItHBARTwIhfFOu.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7qpwko4r4twd2zcj9emeu/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Strong Wind Gusts\" on Soundza (https://soundza.com/sound/strong-wind-gusts)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5t1h8c005i06kte7eu55e1",
+      "url": "https://soundza.com/sound/lunar-wind-sci-fi-5",
+      "title": "Lunar Wind Sci Fi 5",
+      "description": "A deep, tonal sci-fi wind drone with a low, resonant hum characteristic of an alien atmosphere or spacecraft environment. Sustained and ethereal, suitable as a continuous background bed for sci-fi scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 163.84,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "sci-fi",
+        "wind",
+        "drone",
+        "ambience",
+        "spaceship",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -16.8,
+      "true_peak_db": -2.4,
+      "loudness": {
+        "value": -16.8,
+        "basis": "integrated"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 43352148,
+      "category": {
+        "id": "SCIShip",
+        "label": "Scifi › Spaceship"
+      },
+      "pack": {
+        "id": "qu4y726k1pj2eerbcve7pl69",
+        "name": "Spaceship and Sci-fi FX",
+        "slug": "derelict-spaceship-sfx-tension-beds-and-sci-fi-whistles",
+        "sound_count": 76,
+        "url": "https://soundza.com/packs/derelict-spaceship-sfx-tension-beds-and-sci-fi-whistles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5yKOvwApvPHOWlISGEBrlBZt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t1h8c005i06kte7eu55e1/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Lunar Wind Sci Fi 5\" on Soundza (https://soundza.com/sound/lunar-wind-sci-fi-5)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7r63uwjnigkhmcqvwsgyn",
+      "url": "https://soundza.com/sound/cold-wind",
+      "title": "Cold Wind",
+      "description": "A layered wind ambience with a chilly, sustained quality, built from white noise recordings. Works as a continuous background bed for cold or desolate scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 8.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "noise",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -20.2,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -20.2,
+        "basis": "integrated"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4837268,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UCXRGAUUO5XiQIFehc6yWGty.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7r63uwjnigkhmcqvwsgyn/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cold Wind\" on Soundza (https://soundza.com/sound/cold-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6wgyr4h3ez5p6ltx2qjjw",
+      "url": "https://soundza.com/sound/short-wind-gust",
+      "title": "Short Wind Gust",
+      "description": "A gentle, textured wind gust recorded by blowing across a microphone windscreen. Natural and organic, with subtle variation ideal for layering into outdoor scenes or weather ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -27.3,
+      "true_peak_db": -10.1,
+      "loudness": {
+        "value": -27.3,
+        "basis": "integrated"
+      },
+      "gain_db": 7.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2071268,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/323GybgJXO5W5SyDgIHwc-IG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6wgyr4h3ez5p6ltx2qjjw/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Short Wind Gust\" on Soundza (https://soundza.com/sound/short-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7bzy7gl7xvmxermaz2fhi",
+      "url": "https://soundza.com/sound/wind-howling-and-shutters",
+      "title": "Wind Howling and Shutters",
+      "description": "Indoor recording of fierce wind howling and whistling with periodic banging from a window shutter. A dynamic, turbulent wind ambience captured up close.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 16.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor"
+      ],
+      "sync_ms": null,
+      "lufs": -35.4,
+      "true_peak_db": -13.2,
+      "loudness": {
+        "value": -35.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4338168,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-eorv0uEkQ5uRu9u8Tr_5Qld.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7bzy7gl7xvmxermaz2fhi/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Howling and Shutters\" on Soundza (https://soundza.com/sound/wind-howling-and-shutters)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6wgisagwrmn01bz9ffg4u",
+      "url": "https://soundza.com/sound/long-wind-gust",
+      "title": "Long Wind Gust",
+      "description": "A gentle, textured wind gust recorded by blowing across a microphone windscreen. Suited for subtle outdoor ambience, transitions, or layering under scenes with light wind movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 15.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -33.8,
+      "true_peak_db": -14.8,
+      "loudness": {
+        "value": -33.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4150214,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-OJIFbAtKcVK0AV0Q6VwKEQU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6wgisagwrmn01bz9ffg4u/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Long Wind Gust\" on Soundza (https://soundza.com/sound/long-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6v9gedzvpso92tut18b5v",
+      "url": "https://soundza.com/sound/arctic-wind-gust",
+      "title": "Arctic Wind Gust",
+      "description": "A cold, sustained wind with a tonal, whistling quality that evolves throughout the recording. Suitable as a background layer for winter scenes or as a bed for blizzard ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 10.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind"
+      ],
+      "sync_ms": null,
+      "lufs": -20.8,
+      "true_peak_db": -7,
+      "loudness": {
+        "value": -20.8,
+        "basis": "integrated"
+      },
+      "gain_db": 0.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1427170,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rSQsPZy7NPo6dKfnMtN-tF8s.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6v9gedzvpso92tut18b5v/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Arctic Wind Gust\" on Soundza (https://soundza.com/sound/arctic-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7cfbik5k9hikihoq67enh",
+      "url": "https://soundza.com/sound/long-wind-blowing",
+      "title": "Long Wind Blowing",
+      "description": "A sustained, tonal wind sound with a howling character, suitable as an atmospheric bed for outdoor or turbulent weather scenes. The sound has a consistent presence with minimal percussive events.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 18.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "atmospheric",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -68.6,
+      "true_peak_db": -46.8,
+      "loudness": {
+        "value": -68.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5447122,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OxPDmH2ZBOt8urB_t5NV3C5e.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7cfbik5k9hikihoq67enh/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Long Wind Blowing\" on Soundza (https://soundza.com/sound/long-wind-blowing)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7q94ngc6y0dc6ok10vecl",
+      "url": "https://soundza.com/sound/whipping-wind-storm-thin",
+      "title": "Whipping Wind Storm Thin",
+      "description": "High-pitched wind gusts from a virtual synthesizer, designed to capture the thin, piercing quality of a windstorm. Suitable as a weather layer or atmospheric tension bed.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -12.2,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.2,
+        "basis": "integrated"
+      },
+      "gain_db": -7.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6348840,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/As2bUPkVtHcYhigRn8cFexAY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7q94ngc6y0dc6ok10vecl/file?search_id=di58t7zme51tzzsfj7f45a0e",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whipping Wind Storm Thin\" on Soundza (https://soundza.com/sound/whipping-wind-storm-thin)",
+      "matched_words": [
+        "wind"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "sea spray wind boat",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I am looking for the sound of sea spray, wind, and a boat. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"sea spray wind boat\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "di58t7zme51tzzsfj7f45a0e"
+}

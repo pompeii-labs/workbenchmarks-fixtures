@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/finish-win.mp3",
+  "sha": "1757dee31490f0e4",
+  "want": "a victory fanfare jingle for winning a race, triumphant and upbeat",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    9,
+    9,
+    9
+  ],
+  "fit": 9,
+  "heard": "A short, bright brass fanfare (trumpets and horns, possibly layered with trombones) playing a triumphant rising phrase of a few notes, resolving onto a held, full chord. The ensemble sounds small-to-medium and fairly close-miked — punchy, bright, and present, not a huge hall orchestra. The tail is short: a brief reverb decay that fades out within a second or so, keeping it tight and jingle-like rather than blooming into a large space. Total length around 3-4 seconds.",
+  "sounds_like": "A classic brass herald fanfare — the kind used as a sports or racing victory jingle",
+  "problems": "It's quite short and resolves with a fairly dry, abrupt decay, so it may end abruptly against the natural energy of a race finish — a slightly longer reverb tail or added percussion impact underneath could make it land harder. Also a bit generic/stock-sounding; it delivers the triumphant brief well but won't stand out as a signature melody.",
+  "veto": false
+}

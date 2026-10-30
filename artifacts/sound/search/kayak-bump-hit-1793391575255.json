@@ -1,0 +1,3495 @@
+{
+  "query": {
+    "q": "kayak bump hit",
+    "good_for": "game_hit",
+    "max_duration": "2",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 500,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=kayak+bump+hit&max_duration=2&good_for=game_hit&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv0in0xc00cg06l5amzfh89z",
+      "url": "https://soundza.com/sound/player-bump",
+      "title": "Player Bump",
+      "description": "A short, bright 8-bit collision sound typical of indie games. Suitable for character interactions or minor impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "impact",
+        "retro",
+        "arcade",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -6.6,
+      "loudness": {
+        "value": -26.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 6840,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_1GVqChOE8_ctJeqYAyc-I8O.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0in0xc00cg06l5amzfh89z/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Player Bump\" on Soundza (https://soundza.com/sound/player-bump)",
+      "matched_words": [
+        "bump"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02nw06l48e1chyni",
+      "url": "https://soundza.com/sound/wood-hit-1-1",
+      "title": "Wood Hit 1",
+      "description": "A sharp, percussive wood impact sound suitable for game hits, melee combat, and destruction effects in video games and animations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.25,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "hit",
+        "impact",
+        "game"
+      ],
+      "sync_ms": 28,
+      "lufs": null,
+      "true_peak_db": -1.6,
+      "loudness": {
+        "value": -21.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 71398,
+      "category": {
+        "id": "WOODImpt",
+        "label": "Wood › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yR0YLYl-J6Qnp9A1cRVhACo0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02nw06l48e1chyni/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wood Hit 1\" on Soundza (https://soundza.com/sound/wood-hit-1-1)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0i6i8f01ew06l8tyf26wtn",
+      "url": "https://soundza.com/sound/electric-ground-hit",
+      "title": "Electric Ground Hit",
+      "description": "A sharp, percussive electrical impact with a crisp zap quality, designed for game hit events or collision feedback in sci-fi environments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "impact",
+        "sci-fi",
+        "hit"
+      ],
+      "sync_ms": 8,
+      "lufs": null,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -20.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 75464,
+      "category": {
+        "id": "SCIImpt",
+        "label": "Scifi › Impact"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wRJzeD2Pmibj3Qb2ZoAbbzC6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i6i8f01ew06l8tyf26wtn/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Electric Ground Hit\" on Soundza (https://soundza.com/sound/electric-ground-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901gn06l4jb8axjqp",
+      "url": "https://soundza.com/sound/arrow-hit",
+      "title": "Arrow Hit",
+      "description": "A short, crisp chiptune arrow impact sound with the characteristic bleeps and bloops of classic NES-era video games. Perfect for retro game effects or pixel art projects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.52,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "arcade",
+        "impact",
+        "retro",
+        "game",
+        "hit"
+      ],
+      "sync_ms": 5,
+      "lufs": -19.1,
+      "true_peak_db": -8.1,
+      "loudness": {
+        "value": -17.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 68714,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XWpPxfsCZYEz5JKYp2H8CVtl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901gn06l4jb8axjqp/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Arrow Hit\" on Soundza (https://soundza.com/sound/arrow-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700v606l463im5h8d",
+      "url": "https://soundza.com/sound/metal-hammer-hit-2",
+      "title": "Metal Hammer Hit 2",
+      "description": "A sharp, resonant metallic strike with a clear transient attack and decaying ring. Suitable for weapon impacts, tool strikes, or fantasy game events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "metal",
+        "impact",
+        "hit",
+        "weapon",
+        "game",
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 25,
+      "lufs": -21.9,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -15.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 423816,
+      "category": {
+        "id": "WEAPMisc",
+        "label": "Weapons › Misc"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zbup-kCwHEbLFJICXmdcLm5f.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700v606l463im5h8d/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Metal Hammer Hit 2\" on Soundza (https://soundza.com/sound/metal-hammer-hit-2)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5nr9z5027z06l4dbkc1d2d",
+      "url": "https://soundza.com/sound/hit-1-3",
+      "title": "Hit 1",
+      "description": "A sharp, lo-fi percussive hit with the characteristic harsh 1-bit electronic tone of classic ZX Spectrum sound synthesis. Ideal for retro video games and chiptune designs.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "impact"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -20.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 22514,
+      "category": {
+        "id": "BEEPLofi",
+        "label": "Beeps › Lofi"
+      },
+      "pack": {
+        "id": "cmv5nr9xg027j06l4bmwbnoef",
+        "name": "8-bit FX for Games",
+        "slug": "8-bit-fx-for-games",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/8-bit-fx-for-games"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K3PXqTYiyCefmblkFEtJdbfL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nr9z5027z06l4dbkc1d2d/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 1\" on Soundza (https://soundza.com/sound/hit-1-3)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0gr2di00jt06i9diubqzwe",
+      "url": "https://soundza.com/sound/hit-1-2",
+      "title": "Hit 1",
+      "description": "A short, punchy impact sound with a classic 8-bit character, suitable for game hits, collisions, or UI feedback in retro-style games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.21,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "impact",
+        "hit",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -11.2,
+      "loudness": {
+        "value": -22.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 27990,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zFc7jlfX3y-ichlrJZtpNnis.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gr2di00jt06i9diubqzwe/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 1\" on Soundza (https://soundza.com/sound/hit-1-2)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0gp82z007r06i9ajhke66e",
+      "url": "https://soundza.com/sound/impact-hit",
+      "title": "Impact Hit",
+      "description": "A sharp, percussive impact sound with a quick attack and short decay, ideal for button presses, menu selections, or game feedback. The bright midrange character and clean transient make it suitable for interface confirmations and UI interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "notification"
+      ],
+      "duration": 0.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ui",
+        "click",
+        "impact",
+        "foley",
+        "game",
+        "notification"
+      ],
+      "sync_ms": 99,
+      "lufs": null,
+      "true_peak_db": -3.6,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 91960,
+      "category": {
+        "id": "UIClick",
+        "label": "User Interface › Click"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8FSsSCdqG2lESy8UdCVjXymi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp82z007r06i9ajhke66e/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Impact Hit\" on Soundza (https://soundza.com/sound/impact-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvi9uiwy2rnxzu5d87on560r",
+      "url": "https://soundza.com/sound/skin-contact-grab",
+      "title": "Skin Contact Grab",
+      "description": "Short foley recording of skin contact, bumping, and grabbing sounds with a subtle mechanical noise at the end. Useful for fight scenes, scuffles, or physical interaction moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 1.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 873,
+      "lufs": -34.4,
+      "true_peak_db": -13,
+      "loudness": {
+        "value": -30.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 552100,
+      "category": {
+        "id": "FGHTGrab",
+        "label": "Fight › Grab"
+      },
+      "pack": {
+        "id": "wcoaxn268epp6t6inhskfe0i",
+        "name": "Fight Sound Effects — Punches, Body Falls, Sword Clashes & Shield Blocks",
+        "slug": "fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks",
+        "sound_count": 271,
+        "url": "https://soundza.com/packs/fight-sound-effects-punches-body-falls-sword-clashes-and-shield-blocks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/p8_URBikYDd5dOj0DOZxvU2z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvi9uiwy2rnxzu5d87on560r/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Skin Contact Grab\" on Soundza (https://soundza.com/sound/skin-contact-grab)",
+      "matched_words": [
+        "bump"
+      ]
+    },
+    {
+      "id": "cmuymqzsh000y06n52zhk9g93",
+      "url": "https://soundza.com/sound/small-wood",
+      "title": "Small Wood",
+      "description": "A sharp, percussive wooden impact or hit. The quick attack and brief decay make it suitable for physical interactions, strikes, or impacts in game or video scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "impact",
+        "hit",
+        "foley",
+        "dry"
+      ],
+      "sync_ms": 53,
+      "lufs": null,
+      "true_peak_db": 0.5,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 82768,
+      "category": {
+        "id": "WOODImpt",
+        "label": "Wood › Impact"
+      },
+      "pack": {
+        "id": "cmuymqzl2000006n5p9tohaxt",
+        "name": "RPG Sound Pack",
+        "slug": "rpg-sound-pack",
+        "sound_count": 182,
+        "url": "https://soundza.com/packs/rpg-sound-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/M0C469cz9i3Sk2A9u7KuSEwj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuymqzsh000y06n52zhk9g93/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Wood\" on Soundza (https://soundza.com/sound/small-wood)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvowcl6uos4i55dqthoxx4i9",
+      "url": "https://soundza.com/sound/water-paddle-impact-000",
+      "title": "Water Paddle Impact",
+      "description": "A sharp, percussive splash as a paddle strikes the water surface with moderate force. Useful for canoe, kayak, or rowing scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 0.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "field-recording",
+        "foley"
+      ],
+      "sync_ms": 48,
+      "lufs": null,
+      "true_peak_db": -6.4,
+      "loudness": {
+        "value": -35.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 39570,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/gBgb_4PuBre8aqdqfh5p7Qy5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowcl6uos4i55dqthoxx4i9/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Impact\" on Soundza (https://soundza.com/sound/water-paddle-impact-000)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmv0iciib001t06l5hyylm2g0",
+      "url": "https://soundza.com/sound/goblin-13",
+      "title": "Goblin 13",
+      "description": "A high-pitched goblin cry or vocal reaction, likely a hit or impact sound for fantasy RPG combat. Works as an enemy hurt or reaction effect in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "hit",
+        "game",
+        "reaction"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 53546,
+      "category": {
+        "id": "CREAHmn",
+        "label": "Creatures › Humanoid"
+      },
+      "pack": {
+        "id": "cmv0ibk3h000006l5unwd6exp",
+        "name": "Zombies & Goblins",
+        "slug": "zombies-and-goblins",
+        "sound_count": 45,
+        "url": "https://soundza.com/packs/zombies-and-goblins"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/380j1FEiWebHbqUSEE3qnr_t.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0iciib001t06l5hyylm2g0/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Goblin 13\" on Soundza (https://soundza.com/sound/goblin-13)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvoweppul42k3xqs71vmbfa9",
+      "url": "https://soundza.com/sound/water-paddle-stroke",
+      "title": "Water Paddle Stroke",
+      "description": "A single paddle stroke in water with a clear attack and splash. Useful for rowing, kayaking, or canoeing foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.74,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -24.5,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -22.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 500860,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6HjJfnwbNftS0GEuGSMcUYo_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoweppul42k3xqs71vmbfa9/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke\" on Soundza (https://soundza.com/sound/water-paddle-stroke)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmv0i98uw01km06l8dmnp3pv9",
+      "url": "https://soundza.com/sound/die-3",
+      "title": "Die 3",
+      "description": "A sharp, percussive creature death or impact sound effect. Useful for game design, RPGs, and fantasy media when a creature takes fatal damage or falls.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "hit",
+        "impact",
+        "game"
+      ],
+      "sync_ms": 69,
+      "lufs": -12.9,
+      "true_peak_db": -0.5,
+      "loudness": {
+        "value": -11,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 189060,
+      "category": {
+        "id": "CREAMnstr",
+        "label": "Creatures › Monster"
+      },
+      "pack": {
+        "id": "cmv0i8j6o01fi06l8jj8avrko",
+        "name": "Creature SFX",
+        "slug": "creature-sfx",
+        "sound_count": 129,
+        "url": "https://soundza.com/packs/creature-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hVUDmDAL4wiod8Q_3_5SXR7H.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i98uw01km06l8dmnp3pv9/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Die 3\" on Soundza (https://soundza.com/sound/die-3)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvowdljhb14yshmxuupatble",
+      "url": "https://soundza.com/sound/water-paddle-soft-2",
+      "title": "Water Paddle Soft 2",
+      "description": "A gentle paddle stroke in water, recorded in a natural lake environment. Useful for kayaking, canoeing, or rowing scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -39.8,
+      "true_peak_db": -18.1,
+      "loudness": {
+        "value": -37.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 17.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 422598,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ND8AEGjCugmVZCI9h-_vEspS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowdljhb14yshmxuupatble/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Soft 2\" on Soundza (https://soundza.com/sound/water-paddle-soft-2)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmvowecp1gdt37hd8k0w1w2pp",
+      "url": "https://soundza.com/sound/water-paddle-soft-1",
+      "title": "Water Paddle Soft 1",
+      "description": "A single soft paddle stroke in water, recorded in a natural lake setting. Suitable for kayaking, canoeing, or rowing foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.65,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "soft",
+        "field-recording"
+      ],
+      "sync_ms": 149,
+      "lufs": -41.1,
+      "true_peak_db": -16,
+      "loudness": {
+        "value": -37.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 15.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 474688,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GLLy7n_3Ylp9VcrU2kS6OO3n.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowecp1gdt37hd8k0w1w2pp/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Soft 1\" on Soundza (https://soundza.com/sound/water-paddle-soft-1)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmv5myxln00qn06l4v3e9eise",
+      "url": "https://soundza.com/sound/stone-item-2",
+      "title": "Stone Item 2",
+      "description": "A short, sharp percussive impact sound of stone striking stone or a hard surface. Useful for weapon hits, object interactions, or environmental impacts in games and fantasy scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game",
+        "hit"
+      ],
+      "sync_ms": 39,
+      "lufs": null,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -25.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85932,
+      "category": {
+        "id": "ROCKImpt",
+        "label": "Rocks › Impact"
+      },
+      "pack": {
+        "id": "cmv5myxj700pb06l4wqk9a0dt",
+        "name": "Fantasy RPG SFX",
+        "slug": "fantasy-rpg-sfx",
+        "sound_count": 77,
+        "url": "https://soundza.com/packs/fantasy-rpg-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R5EBanSJV28aAs4VGGmzWcYJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5myxln00qn06l4v3e9eise/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stone Item 2\" on Soundza (https://soundza.com/sound/stone-item-2)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvowdxomofdolloqwj4y43s2",
+      "url": "https://soundza.com/sound/water-paddle-stroke-very-bright",
+      "title": "Water Paddle Stroke Very Bright",
+      "description": "A single paddle stroke in water with a clear splash and drip, recorded in a natural lake environment. Useful for canoe, kayak, or rowing scenes.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 1.26,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -22.9,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -20.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 364158,
+      "category": {
+        "id": "WATRMvmt",
+        "label": "Water › Movement"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yixR0g7-z-HUjDvtKXdKuhmb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowdxomofdolloqwj4y43s2/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke Very Bright\" on Soundza (https://soundza.com/sound/water-paddle-stroke-very-bright)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmvowd99u98t96xfhoed1823r",
+      "url": "https://soundza.com/sound/water-paddle-stroke-glassy",
+      "title": "Water Paddle Stroke Glassy",
+      "description": "A single paddle stroke in water, capturing the entry, pull, and exit with natural splash and drip sounds. Ideal for rowing, canoeing, or kayaking sequences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps"
+      ],
+      "duration": 1.4,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -21.6,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 403376,
+      "category": {
+        "id": "WATRImpt",
+        "label": "Water › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/s0JRr6iwUoQC2iABvgtjorkY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowd99u98t96xfhoed1823r/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Paddle Stroke Glassy\" on Soundza (https://soundza.com/sound/water-paddle-stroke-glassy)",
+      "matched_words": [
+        "kayak"
+      ]
+    },
+    {
+      "id": "cmv5oa80c002s06kzm0xu8no8",
+      "url": "https://soundza.com/sound/yucky-beast-1",
+      "title": "Yucky Beast 1",
+      "description": "A short, aggressive beast vocalization with a guttural growl and snarling quality. Useful for creature attacks, monster encounters, and fantasy game impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "vocal",
+        "aggressive",
+        "hit"
+      ],
+      "sync_ms": 535,
+      "lufs": -17.9,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 147036,
+      "category": {
+        "id": "CREAMnstr",
+        "label": "Creatures › Monster"
+      },
+      "pack": {
+        "id": "cmv0iaabg01of06l8i8zeamad",
+        "name": "Monster Sound Effects",
+        "slug": "monster-sound-effects",
+        "sound_count": 66,
+        "url": "https://soundza.com/packs/monster-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/qG1nyahANcziUnXNG-hAXRtS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oa80c002s06kzm0xu8no8/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Yucky Beast 1\" on Soundza (https://soundza.com/sound/yucky-beast-1)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5n4j5901ew06l4spag0df1",
+      "url": "https://soundza.com/sound/hit-14",
+      "title": "Hit",
+      "description": "A sharp, synthetic hit sound in the style of classic NES video game effects. Designed for use as impact feedback or collision sound in 8-bit games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat",
+        "notification"
+      ],
+      "duration": 0.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "impact",
+        "retro",
+        "arcade",
+        "ui"
+      ],
+      "sync_ms": 36,
+      "lufs": -20.4,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -16.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 122436,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5n4j2x01eg06l4f45fgf0p",
+        "name": "NES Sound Effects",
+        "slug": "nes-sound-effects",
+        "sound_count": 79,
+        "url": "https://soundza.com/packs/nes-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rC3uIyMFDWBzdZ1boSbzOrKs.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n4j5901ew06l4spag0df1/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit\" on Soundza (https://soundza.com/sound/hit-14)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0i6i8f01eq06l8vz5mlver",
+      "url": "https://soundza.com/sound/electric-shield-hit",
+      "title": "Electric Shield Hit",
+      "description": "A sharp, high-energy electrical impact with bright crackle and zap elements, designed for game feedback when a shield is struck or damaged.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "game",
+        "sci-fi",
+        "crackle"
+      ],
+      "sync_ms": 161,
+      "lufs": -13.6,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -10.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 206796,
+      "category": {
+        "id": "SCIImpt",
+        "label": "Scifi › Impact"
+      },
+      "pack": {
+        "id": "cmuynws1t000006nvq7ztzw2p",
+        "name": "Sci-Fi Game FX Pack",
+        "slug": "sci-fi-game-fx-pack",
+        "sound_count": 262,
+        "url": "https://soundza.com/packs/sci-fi-game-fx-pack"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/9chT4sms_HgeuB_HsHV3mtpT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0i6i8f01eq06l8vz5mlver/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Electric Shield Hit\" on Soundza (https://soundza.com/sound/electric-shield-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5oy2pk00i806l5eg3kgixz",
+      "url": "https://soundza.com/sound/player-hurt-1",
+      "title": "Player Hurt",
+      "description": "A sharp, descending 8-bit chiptune tone that signals damage or collision in a retro platformer game. Perfect for indicating player hit or health loss moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "hit",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -25.6,
+      "true_peak_db": -13.2,
+      "loudness": {
+        "value": -25.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 66296,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv5oy2ow00i006l5dz0dfn09",
+        "name": "8-bit Platformer SFX",
+        "slug": "8-bit-platformer-sfx",
+        "sound_count": 15,
+        "url": "https://soundza.com/packs/8-bit-platformer-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l1cXMUfcTfTyag6gRdhlLxbt.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5oy2pk00i806l5eg3kgixz/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Player Hurt\" on Soundza (https://soundza.com/sound/player-hurt-1)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvclzenrkzlrchl35zfprr4r",
+      "url": "https://soundza.com/sound/boink-jump-hit",
+      "title": "Boink Jump Hit",
+      "description": "A bright, punchy cartoon sound effect for a jump or landing action in a game or animation. Perfect for platformer or arcade-style interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": "cartoon",
+      "good_for": [
+        "game_hit",
+        "ui_click",
+        "game_pickup"
+      ],
+      "duration": 0.74,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "jump",
+        "impact",
+        "8-bit",
+        "arcade",
+        "ui"
+      ],
+      "sync_ms": 13,
+      "lufs": -22.1,
+      "true_peak_db": 0.8,
+      "loudness": {
+        "value": -18.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 98322,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "pqzg9l0qyurzrefgmx38p061",
+        "name": "Cartoon Sound Effects — Boings, Bonks, Slide Whistles, Splats & Squeaks",
+        "slug": "cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks",
+        "sound_count": 115,
+        "url": "https://soundza.com/packs/cartoon-sound-effects-boings-bonks-slide-whistles-splats-and-squeaks"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cMzvooiCjjxzpp-hUcokegxR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvclzenrkzlrchl35zfprr4r/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Boink Jump Hit\" on Soundza (https://soundza.com/sound/boink-jump-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5o3mqs02mr06l42myh6t5u",
+      "url": "https://soundza.com/sound/hit-10-1",
+      "title": "Hit 10",
+      "description": "A sharp, percussive impact sound with a solid attack, suitable for game hits, strikes, or collision moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "ui_click"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "hit",
+        "game"
+      ],
+      "sync_ms": 5,
+      "lufs": null,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -18.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 87300,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmv5nxmgr02c706l4tiopc3bu",
+        "name": "Breaks, Hits & Bangs",
+        "slug": "breaks-hits-and-bangs",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/breaks-hits-and-bangs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/E100eAaWX1gTPiQduMlYjRc2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5o3mqs02mr06l42myh6t5u/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 10\" on Soundza (https://soundza.com/sound/hit-10-1)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvibog7fwyj1x9cbkzzzrh4z",
+      "url": "https://soundza.com/sound/small-sword-swing-hit-1",
+      "title": "Small Sword Swing Hit 1",
+      "description": "A quick metallic sword swing with a sharp impact, suitable for light weapon strikes in games or video projects. The sound has a crisp attack and metallic ring.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.63,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "hit",
+        "impact",
+        "metal",
+        "game",
+        "whoosh"
+      ],
+      "sync_ms": 76,
+      "lufs": -32.3,
+      "true_peak_db": -15.2,
+      "loudness": {
+        "value": -29.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 14.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 430576,
+      "category": {
+        "id": "WEAPSwrd",
+        "label": "Weapons › Sword"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/MbJqTc0A9wjvgPBPdrejG1-A.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvibog7fwyj1x9cbkzzzrh4z/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Sword Swing Hit 1\" on Soundza (https://soundza.com/sound/small-sword-swing-hit-1)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0gr2di00ju06i9qms9ghru",
+      "url": "https://soundza.com/sound/hit-10",
+      "title": "Hit 10",
+      "description": "A short, punchy impact sound with a classic 8-bit video game character. Perfect for collision detection, enemy hits, or melee impacts in retro games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "hit",
+        "impact",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -12.3,
+      "loudness": {
+        "value": -27.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 14856,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0gp7vx005k06i9cthcoqyc",
+        "name": "Retro Game Sounds",
+        "slug": "retro-game-sounds",
+        "sound_count": 520,
+        "url": "https://soundza.com/packs/retro-game-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NldaoYR_J--v47NA6WAXeRwQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gr2di00ju06i9qms9ghru/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 10\" on Soundza (https://soundza.com/sound/hit-10)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0ijpbp007o06l50sia7lmz",
+      "url": "https://soundza.com/sound/hit",
+      "title": "Hit",
+      "description": "A sharp, punchy retro arcade hit sound with a classic 8-bit character. Designed for NES-style games and RPGs to mark impacts or select confirmations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "ui_click",
+        "game_hit"
+      ],
+      "duration": 0.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "arcade",
+        "impact",
+        "retro",
+        "game",
+        "ui",
+        "beep"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -14.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 36938,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmv0ihsyp002j06l5gpdgtaox",
+        "name": "Retro Arcade SFX",
+        "slug": "retro-arcade-sfx",
+        "sound_count": 147,
+        "url": "https://soundza.com/packs/retro-arcade-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AsMhEKGn1i4mrdLkWlnkDQVO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0ijpbp007o06l50sia7lmz/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit\" on Soundza (https://soundza.com/sound/hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5nr9z5028006l4mcg9gy7g",
+      "url": "https://soundza.com/sound/hit-2-3",
+      "title": "Hit 2",
+      "description": "A sharp, synthetic beep typical of 1980s computer sound chips. Perfect for retro games, UI feedback, or lo-fi game design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "ui_click",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "beep",
+        "retro",
+        "game",
+        "ui",
+        "click"
+      ],
+      "sync_ms": 21,
+      "lufs": null,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 26210,
+      "category": {
+        "id": "BEEP",
+        "label": "Beeps › General"
+      },
+      "pack": {
+        "id": "cmv5nr9xg027j06l4bmwbnoef",
+        "name": "8-bit FX for Games",
+        "slug": "8-bit-fx-for-games",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/8-bit-fx-for-games"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VH-MTQD0JnZqXCiimxXPGMjH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5nr9z5028006l4mcg9gy7g/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 2\" on Soundza (https://soundza.com/sound/hit-2-3)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmtm76u0sgo1o6dtoh0wdvdm9",
+      "url": "https://soundza.com/sound/bag-bang-hit",
+      "title": "Bag Bang Hit",
+      "description": "A deep, punchy thud from a heavy collision or impact—think of a sandbag getting struck with serious force. The sound sits in the low-mid frequencies with a quick transient and organic resonance, delivering serious thump without excessive brightness.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.31,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy",
+        "organic"
+      ],
+      "tags": [
+        "impact",
+        "punchy",
+        "deep",
+        "thin",
+        "organic",
+        "one-shot",
+        "kick",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -24.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 45078,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": {
+        "id": "cmtjmfw1p000004l9ty2tvng1",
+        "name": "BLACKOUT - Impacts, Downlifters and Drops",
+        "slug": "blackout-impacts-downlifters-and-drops",
+        "sound_count": 78,
+        "url": "https://soundza.com/packs/blackout-impacts-downlifters-and-drops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_M0SB-bym2mNgDYQhhahbe-x.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm76u0sgo1o6dtoh0wdvdm9/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bag Bang Hit\" on Soundza (https://soundza.com/sound/bag-bang-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv0glpdf000p06i9uf8ekfib",
+      "url": "https://soundza.com/sound/hit-7",
+      "title": "Hit 7",
+      "description": "A sharp, bright metallic strike with a quick attack and minimal sustain. Works as a percussive impact for game hits, tool strikes, or cinematic moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit"
+      ],
+      "duration": 0.22,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "metal",
+        "hit",
+        "impact",
+        "bright",
+        "foley"
+      ],
+      "sync_ms": 9,
+      "lufs": null,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -23.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 64508,
+      "category": {
+        "id": "DSGNImpt",
+        "label": "Designed › Impact"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KeAnfDuTjyGRxZPii0I1py1g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf000p06i9uf8ekfib/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit 7\" on Soundza (https://soundza.com/sound/hit-7)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcj3t6rg27txbiygi4kozb",
+      "url": "https://soundza.com/sound/retro-hit-chime",
+      "title": "Retro Hit Chime",
+      "description": "A bright, 8-bit video game hit sound with a quick attack and tonal character, ideal for damage or collision feedback in retro games. Clean and punchy arcade impact suitable for mobile games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "arcade",
+        "hit",
+        "game",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -18.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 21480,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GcT71e2R6F7T65mAsJrP7AK1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcj3t6rg27txbiygi4kozb/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Hit Chime\" on Soundza (https://soundza.com/sound/retro-hit-chime)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmv5mx2p200b506l4ws6yph9y",
+      "url": "https://soundza.com/sound/wood-bowl-hit-wood-spoon",
+      "title": "Wood Bowl Hit Wood Spoon",
+      "description": "A bright, percussive strike of wood on wood, like a wooden spoon tapping into a wooden bowl. Ideal for foley and game props.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "ui_click",
+        "game_hit"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wood",
+        "foley",
+        "impact",
+        "hit"
+      ],
+      "sync_ms": 26,
+      "lufs": null,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -22.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 79148,
+      "category": {
+        "id": "OBJCont",
+        "label": "Objects › Container"
+      },
+      "pack": {
+        "id": "cmv5mx2kb007606l48sc2t62x",
+        "name": "Fantasy Props Foley",
+        "slug": "fantasy-props-foley",
+        "sound_count": 160,
+        "url": "https://soundza.com/packs/fantasy-props-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EjX4aVYphqbZm13V5651DK9g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mx2p200b506l4ws6yph9y/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wood Bowl Hit Wood Spoon\" on Soundza (https://soundza.com/sound/wood-bowl-hit-wood-spoon)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "jti7ol1ais7fn34top6rd28n",
+      "url": "https://soundza.com/sound/bone-crunch-hit-8",
+      "title": "Bone Crunch Hit 8",
+      "description": "A sharp, percussive bone-breaking impact with a crispy, cracking texture and subtle reverb tail—ideal for horror, action, and visceral sound design moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "impact",
+        "foley",
+        "crispy",
+        "sharp",
+        "dark",
+        "aggressive",
+        "percussion",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -5.1,
+      "loudness": {
+        "value": -30,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 170782,
+      "category": {
+        "id": "GOREBone",
+        "label": "Gore › Bone"
+      },
+      "pack": {
+        "id": "s6nc4grq2h18u5aklxh9h9zm",
+        "name": "ROTTEN — Zombies, Creatures, Screams and Bone Breaks",
+        "slug": "rotten-zombie-sfx-screams-and-creature-vocals",
+        "sound_count": 100,
+        "url": "https://soundza.com/packs/rotten-zombie-sfx-screams-and-creature-vocals"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tHWRTZMTm1_3ARxQ6d863n41.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/jti7ol1ais7fn34top6rd28n/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bone Crunch Hit 8\" on Soundza (https://soundza.com/sound/bone-crunch-hit-8)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmu6mn8j4upxbd7oa739d67u7",
+      "url": "https://soundza.com/sound/8bit-chiptune-hit",
+      "title": "8bit Chiptune Hit",
+      "description": "A crispy, bright 8-bit synth stab with punchy attack and minimal sustain, characterized by digital harmonic complexity and rapid pitch movement—ideal for retro game power-ups, speed boosts, or arcade-style transitions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.58,
+      "bpm": null,
+      "key": "G# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "synth",
+        "one-shot",
+        "crispy",
+        "bright",
+        "punchy",
+        "digital",
+        "stab",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": -6.2,
+      "true_peak_db": 1.8,
+      "loudness": {
+        "value": -4.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -8.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 76382,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": {
+        "id": "cmt23cc7p000004lghgxqzala",
+        "name": "Ultimate Risers Vol. 2",
+        "slug": "ultimate-risers-vol-2",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/ultimate-risers-vol-2"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uZopwGPSJ_HPYFGDGo2ebRvr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmu6mn8j4upxbd7oa739d67u7/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8bit Chiptune Hit\" on Soundza (https://soundza.com/sound/8bit-chiptune-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmviaph2t2p6on3yssb6bcr8v",
+      "url": "https://soundza.com/sound/punch-or-block-hit",
+      "title": "Punch or Block Hit",
+      "description": "A sharp, percussive hand strike with a quick attack and minimal sustain. Suitable for fight choreography, martial arts impacts, and melee combat sound design.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.93,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "punch",
+        "impact"
+      ],
+      "sync_ms": 167,
+      "lufs": -20.8,
+      "true_peak_db": -1.6,
+      "loudness": {
+        "value": -19.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 133626,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Il8cGy7_tBsEHPNd6r0w7Cbg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmviaph2t2p6on3yssb6bcr8v/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Punch or Block Hit\" on Soundza (https://soundza.com/sound/punch-or-block-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvianl44nvhulplnu32v5il6",
+      "url": "https://soundza.com/sound/wooden-stick-lettuce-hit",
+      "title": "Wooden Stick Lettuce Hit",
+      "description": "A sharp, woody impact of a large wooden stick striking fresh lettuce, producing a crisp cracking sound suitable for punch and impact foley.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "punch",
+        "impact",
+        "hit",
+        "foley",
+        "organic"
+      ],
+      "sync_ms": 541,
+      "lufs": -22.9,
+      "true_peak_db": 0.3,
+      "loudness": {
+        "value": -22.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 187482,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nqank6rNK8CFcCbl6wECLoBm.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvianl44nvhulplnu32v5il6/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wooden Stick Lettuce Hit\" on Soundza (https://soundza.com/sound/wooden-stick-lettuce-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvl5ug5z0eq7gimf1k10sgc0",
+      "url": "https://soundza.com/sound/crisp-electric-charge-hit",
+      "title": "Crisp Electric Charge Hit",
+      "description": "A sharp, percussive electrical zap with a bright, high-frequency character. Ideal for sci-fi impacts, game feedback, or contact effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "electricity",
+        "impact",
+        "sci-fi",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -18.3,
+      "true_peak_db": -1.2,
+      "loudness": {
+        "value": -17,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240858,
+      "category": {
+        "id": "ELECZap",
+        "label": "Electricity › Zap"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6koxMo15eZJx2O4nmWfrBlg_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5ug5z0eq7gimf1k10sgc0/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crisp Electric Charge Hit\" on Soundza (https://soundza.com/sound/crisp-electric-charge-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmvdz5r78f3mwjfdu90rjgas3",
+      "url": "https://soundza.com/sound/baseball-bat-hit",
+      "title": "Baseball Bat Hit",
+      "description": "A close-up baseball bat making sharp contact with a ball. The crisp, bright impact is ideal for sports scenes and game moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "game_hit",
+        "notification"
+      ],
+      "duration": 0.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "hit",
+        "impact",
+        "close-up"
+      ],
+      "sync_ms": 61,
+      "lufs": -30.5,
+      "true_peak_db": -2.7,
+      "loudness": {
+        "value": -30.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 211972,
+      "category": {
+        "id": "SPRTField",
+        "label": "Sports › Field"
+      },
+      "pack": {
+        "id": "kv7zwnelzmxyt9c39ruvow9z",
+        "name": "Sports Sound Effects — Crowd Cheers, Referee Whistles, Buzzers & Ball Hits",
+        "slug": "sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits",
+        "sound_count": 59,
+        "url": "https://soundza.com/packs/sports-sound-effects-crowd-cheers-referee-whistles-buzzers-and-ball-hits"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4nGz0qk5ctXR1yyEUc4BIGyj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdz5r78f3mwjfdu90rjgas3/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Baseball Bat Hit\" on Soundza (https://soundza.com/sound/baseball-bat-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcls9nnzp9tvqd12xmmtaa",
+      "url": "https://soundza.com/sound/retro-boom-hit",
+      "title": "Retro Boom Hit",
+      "description": "A punchy 8-bit explosion sound with a clear attack and short decay, ideal for retro video game impacts and weapon fire. Made with ChipTone.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "explosion",
+        "impact",
+        "retro",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -38.4,
+      "true_peak_db": -14.6,
+      "loudness": {
+        "value": -35,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 91458,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xf_6LwsOm1Y67Ll_hoRLbZRi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcls9nnzp9tvqd12xmmtaa/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Boom Hit\" on Soundza (https://soundza.com/sound/retro-boom-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcir6thzv0di5o641kizdz",
+      "url": "https://soundza.com/sound/retro-damage-hit",
+      "title": "Retro Damage Hit",
+      "description": "A sharp, bright electronic hit with a quick attack and metallic character, designed as immediate damage feedback in retro-style games. Classic 8-bit game sound suitable for health loss or collision impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "8-bit",
+        "hit",
+        "impact",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": 0.9,
+      "loudness": {
+        "value": -6.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": -6.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 51518,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZXzz2keSDOlH-m_sY0MTqi0U.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcir6thzv0di5o641kizdz/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Damage Hit\" on Soundza (https://soundza.com/sound/retro-damage-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmviaam2v67n1qbpeelvo7i10",
+      "url": "https://soundza.com/sound/block-hit",
+      "title": "Block Hit",
+      "description": "A sharp, percussive impact sound with a mid-frequency character, suitable for punch blocks, defensive strikes, or martial arts contact moments in video and games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "impact",
+        "punch",
+        "hit",
+        "foley"
+      ],
+      "sync_ms": 739,
+      "lufs": -25.8,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -25.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 411722,
+      "category": {
+        "id": "FGHTImpt",
+        "label": "Fight › Impact"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ynxj53K8x52nVIi8gpeQGy59.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmviaam2v67n1qbpeelvo7i10/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Block Hit\" on Soundza (https://soundza.com/sound/block-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcsazza9i6hsntwso50wxw",
+      "url": "https://soundza.com/sound/retro-bonk-hit",
+      "title": "Retro Bonk Hit",
+      "description": "A crisp, punchy impact sound with a bright metallic character, designed for RPG combat or cartoon action. Created with chiptune synthesis, it's perfect for melee hits, bonks, and playful impact moments in games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "impact",
+        "hit",
+        "retro",
+        "8-bit"
+      ],
+      "sync_ms": 98,
+      "lufs": -17,
+      "true_peak_db": -2,
+      "loudness": {
+        "value": -13.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 288386,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BGwNPF7ughNlZn0FALo88Pb1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcsazza9i6hsntwso50wxw/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Bonk Hit\" on Soundza (https://soundza.com/sound/retro-bonk-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcig7z993z8bceixfe92t2",
+      "url": "https://soundza.com/sound/retro-game-hit",
+      "title": "Retro Game Hit",
+      "description": "A crisp, glitchy 8-bit style impact sound with a sharp attack and high-frequency content. Useful for game damage hits, collision effects, or retro video game impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.34,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "hit",
+        "8-bit",
+        "retro",
+        "glitch",
+        "impact",
+        "arcade"
+      ],
+      "sync_ms": 73,
+      "lufs": null,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -15.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 45246,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0o_3HabRcaSTrkgHTEyAWo4F.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcig7z993z8bceixfe92t2/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Game Hit\" on Soundza (https://soundza.com/sound/retro-game-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcj9gw7s8gx1qunbbeb22t",
+      "url": "https://soundza.com/sound/retro-low-impact-hit",
+      "title": "Retro Low Impact Hit",
+      "description": "A short, low-pitched 8-bit style impact sound with a quick attack and decay, typical of retro arcade games. Works well for collision, damage, or item interaction sounds.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "retro",
+        "arcade",
+        "8-bit",
+        "impact"
+      ],
+      "sync_ms": 6,
+      "lufs": null,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -17.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 40070,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/br-gQ0GmshM9i4xLbhz2CeB7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcj9gw7s8gx1qunbbeb22t/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Low Impact Hit\" on Soundza (https://soundza.com/sound/retro-low-impact-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukci7lvmpnc15eg56t67vv8",
+      "url": "https://soundza.com/sound/8-bit-enemy-hit",
+      "title": "8-Bit Enemy Hit",
+      "description": "A sharp, punchy digital impact sound with a brief resonant tail, designed for game damage or collision feedback. Ideal for retro-style enemy hits or small explosions in 8-bit games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "8-bit",
+        "game",
+        "hit",
+        "impact",
+        "arcade"
+      ],
+      "sync_ms": 134,
+      "lufs": -27.8,
+      "true_peak_db": -17.4,
+      "loudness": {
+        "value": -25.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 12.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 396980,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rXAy-C9UK4JZcVWH9V675oSg.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukci7lvmpnc15eg56t67vv8/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-Bit Enemy Hit\" on Soundza (https://soundza.com/sound/8-bit-enemy-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcknuz38p3e8nh1etqda3m",
+      "url": "https://soundza.com/sound/retro-explosion-hit",
+      "title": "Retro Explosion Hit",
+      "description": "A bright, punchy explosion sound with a sharp attack and quick decay, designed for retro arcade and 8-bit game contexts. Ideal for enemy defeats or impact moments in classic-style games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "arcade",
+        "retro",
+        "explosion",
+        "game",
+        "impact",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -16.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 74196,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RTWtQYBljja1G_yPirJxTQMq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcknuz38p3e8nh1etqda3m/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Explosion Hit\" on Soundza (https://soundza.com/sound/retro-explosion-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcijgnkgz8ocrjnmv4z03a",
+      "url": "https://soundza.com/sound/retro-enemy-defeat-hit",
+      "title": "Retro Enemy Defeat Hit",
+      "description": "A sharp, bright chiptune-style impact sound with an echoing tail, designed for game events like defeating an enemy or taking damage. The retro 8-bit character makes it ideal for classic-style RPGs and arcade games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 0.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "impact",
+        "arcade"
+      ],
+      "sync_ms": 12,
+      "lufs": -27.4,
+      "true_peak_db": -13.7,
+      "loudness": {
+        "value": -23.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 10.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 104804,
+      "category": {
+        "id": "GAMEVideo",
+        "label": "Games › Video"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UmZ6uPaeXMlgVTG1xEk5UI9Q.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcijgnkgz8ocrjnmv4z03a/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro Enemy Defeat Hit\" on Soundza (https://soundza.com/sound/retro-enemy-defeat-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmukcl1j5v0vb8pasdiu2qgzd",
+      "url": "https://soundza.com/sound/rpg-explosion-hit",
+      "title": "RPG Explosion Hit",
+      "description": "A sharp, designed explosion impact tailored for game audio. Quick percussive burst with synthetic character, ideal for enemy defeats or collision events in RPG gameplay.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "explosion",
+        "impact",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -19.6,
+      "true_peak_db": -12.7,
+      "loudness": {
+        "value": -17.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 159826,
+      "category": {
+        "id": "EXPLDsgn",
+        "label": "Explosions › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ZPGaSW4wmLuffvS5HX44nY9u.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcl1j5v0vb8pasdiu2qgzd/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"RPG Explosion Hit\" on Soundza (https://soundza.com/sound/rpg-explosion-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    },
+    {
+      "id": "cmve063razfhpvghgxvdbbtzc",
+      "url": "https://soundza.com/sound/deep-heartbeat-hit",
+      "title": "Deep Heartbeat Hit",
+      "description": "A single synthesized heartbeat with a low-frequency thump and fast attack. Designed for tension, suspense, or horror underscore.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "build_up"
+      ],
+      "duration": 0.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "impact",
+        "tension",
+        "thud",
+        "dark"
+      ],
+      "sync_ms": 117,
+      "lufs": -19.2,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -19.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 145230,
+      "category": {
+        "id": "HMNHart",
+        "label": "Human › Heartbeat"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DNsdosM8lCz3UX8VmH-3v5Gl.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmve063razfhpvghgxvdbbtzc/file?search_id=z1xzxddkslhr5ha8lfja54iv",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Deep Heartbeat Hit\" on Soundza (https://soundza.com/sound/deep-heartbeat-hit)",
+      "matched_words": [
+        "hit"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "sound_effect",
+    "query": "kayak bump hit",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": "video-game-sound-effects",
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 2,
+    "style": null,
+    "good_for": [
+      "game_hit"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A kayak bump hit sound effect. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"kayak bump hit\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "z1xzxddkslhr5ha8lfja54iv"
+}

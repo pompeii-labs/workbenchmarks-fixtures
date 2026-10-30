@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/wipeout.mp3",
+  "sha": "d40bf13e8cdbf8dd",
+  "want": "a rider thrown off a jet ski and crashing into the sea at speed: a big heavy violent body splash with spray and churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    5,
+    5,
+    5
+  ],
+  "fit": 5,
+  "heard": "A single large body splash: a dull heavy impact as something substantial hits water, followed by a wide curtain of displaced water collapsing back down and a few seconds of churning, sloshing tail as the surface settles. It sounds close-miked and fairly big, but calm — the water seems still and forgiving, like a lake or pool rather than open sea. The tail does wash and bubble but never really gets violent or prolonged.",
+  "sounds_like": "A heavy man jumping into a swimming pool from a couple of metres up.",
+  "problems": "It's a decent heavy splash but it's too soft and too clean for a high-speed jet ski ejection. There's no velocity to the impact — no hard slap/punch at the moment of contact, no high-frequency spray or whip of water thrown sideways at speed, and no sense of momentum carrying through the splash. The tail is gentle sloshing rather than violent churning, white water and foam. Also lacks the low-end thump you'd want for a heavy body hitting at speed, and there's no secondary element (skid of the jet ski continuing, wake, water draining off gear). On its own it would read as 'something fell in water' rather than 'rider wiped out at speed'.",
+  "veto": false
+}

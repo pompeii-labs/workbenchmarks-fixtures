@@ -1,0 +1,16 @@
+{
+  "file": "scratch/land-splash-c.mp3",
+  "sha": "91565f71d8ee199f",
+  "want": "a heavy hull slapping down flat onto the sea after a jump: a big wet water impact splash, close, outdoor",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    6,
+    7,
+    7
+  ],
+  "fit": 7,
+  "heard": "A big close-up water impact: a solid low thud as something heavy hits the surface, immediately followed by a wide wet splash and a tail of spray, droplets and sloshing water that decays over about a second. Sounds like a large object dropped flat onto water, recorded close and outdoors.",
+  "sounds_like": "A person or heavy object belly-flopping into a lake/pool, close mic",
+  "problems": "The water splash and spray tail are right, but the impact lacks the deep, resonant hull thud (wood/fiberglass slap) the brief wants — the low end is a generic water thump rather than a heavy hull hitting flat. Also may read slightly small/pool-like rather than open sea; no wave wash or sea ambience in the tail to sell the ocean setting. Could work layered under a hull-slap transient.",
+  "veto": false
+}

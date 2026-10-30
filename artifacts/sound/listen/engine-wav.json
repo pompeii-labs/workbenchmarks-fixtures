@@ -1,0 +1,16 @@
+{
+  "file": "public/sounds/engine.wav",
+  "sha": "80d87d708ab3c11b",
+  "want": "a real small motorboat or jet ski engine running steadily on the water, close, continuous mechanical drone with no start or stop",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    7,
+    7,
+    7
+  ],
+  "fit": 7,
+  "heard": "A small combustion engine running at a steady, continuous putter — rhythmic mechanical drone, close mic'd, no startup or shutdown, no idle fluctuation. It cuts off abruptly at the end of the clip. No water or splash audible, so the source is ambiguous — reads like a small generator, outboard motor, or lawnmower engine rather than something definitively on water.",
+  "sounds_like": "A small generator or outboard boat motor running at constant RPM",
+  "problems": "No water movement or splash to sell the 'on the water' context — as-is it could easily be a lawn mower or generator. The drone is slightly too 'puttery'/raw for a jet ski (jet skis have a smoother, higher-pitched whine). The clip ends with a hard cut rather than a natural tail, so you'd need to loop or trim it carefully.",
+  "veto": false
+}

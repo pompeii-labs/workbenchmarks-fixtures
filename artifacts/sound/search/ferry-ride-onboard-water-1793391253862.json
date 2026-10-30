@@ -1,0 +1,3314 @@
+{
+  "query": {
+    "q": "ferry ride onboard water",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 484,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=ferry+ride+onboard+water&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv5t39z500tb06kt6d8l71ps",
+      "url": "https://soundza.com/sound/train-ambience-onboard-dundee-scotland-2",
+      "title": "Train Ambience Onboard Dundee Scotland 2",
+      "description": "Interior ambient recording of a moving train with mechanical sounds, subtle vibrations, and distant passengers. Suitable as a bed for transportation scenes or period-specific settings.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 182.22,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "train",
+        "ambience",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -37.3,
+      "true_peak_db": -12.3,
+      "loudness": {
+        "value": -37.3,
+        "basis": "integrated"
+      },
+      "gain_db": 11.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 104960692,
+      "category": {
+        "id": "TRNInt",
+        "label": "Trains › Interior"
+      },
+      "pack": {
+        "id": "onhaz8jmr95vcv6vf02p5tai",
+        "name": "City Field Recordings Vol 2: Trains, Planes, Cafés and Crowds",
+        "slug": "city-field-recordings-vol-2-trains-planes-and-stations",
+        "sound_count": 58,
+        "url": "https://soundza.com/packs/city-field-recordings-vol-2-trains-planes-and-stations"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cqHXE88urgiYr1gfu0Ig0MhU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t39z500tb06kt6d8l71ps/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Train Ambience Onboard Dundee Scotland 2\" on Soundza (https://soundza.com/sound/train-ambience-onboard-dundee-scotland-2)",
+      "matched_words": [
+        "onboard"
+      ]
+    },
+    {
+      "id": "cmv5t39z600ty06ktln8mkbt3",
+      "url": "https://soundza.com/sound/walla-onboard-airplane",
+      "title": "Walla Onboard Airplane",
+      "description": "The continuous murmur of passengers talking indistinctly in the background of an aircraft cabin. Ideal for establishing the interior atmosphere of a commercial flight without needing specific dialogue.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 584.78,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "people",
+        "talking",
+        "crowd"
+      ],
+      "sync_ms": null,
+      "lufs": -27.2,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -27.2,
+        "basis": "integrated"
+      },
+      "gain_db": 4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 154731736,
+      "category": {
+        "id": "AEROInt",
+        "label": "Aircraft › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/d3v9VatIjoyGwZrWlV8FSy4H.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t39z600ty06ktln8mkbt3/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walla Onboard Airplane\" on Soundza (https://soundza.com/sound/walla-onboard-airplane)",
+      "matched_words": [
+        "onboard"
+      ]
+    },
+    {
+      "id": "cmukhuv5i1sk0c9l90z3j0n00",
+      "url": "https://soundza.com/sound/honda-hornet-600-onboard-engine",
+      "title": "Honda Hornet 600 Onboard Engine",
+      "description": "A Honda Hornet 600 sports motorcycle engine recorded from inside the rider's helmet using binaural microphones. The engine runs through approximately half its RPM range, producing a characteristic inline-four growl suitable for racing scenes or high-performance vehicle ambiences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 141.66,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine"
+      ],
+      "sync_ms": null,
+      "lufs": -19.9,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -9.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 20398912,
+      "category": {
+        "id": "VEHMoto",
+        "label": "Vehicles › Motorcycle"
+      },
+      "pack": {
+        "id": "q0kd5164js98h4of4iqw3lt5",
+        "name": "Vehicle Sound Effects — Cars, Trucks, Sirens & Race Engines",
+        "slug": "tarmac-cars-trucks-sirens-and-race-engines",
+        "sound_count": 144,
+        "url": "https://soundza.com/packs/tarmac-cars-trucks-sirens-and-race-engines"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/B9SjmLAHMnGpag_AslypR9wI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhuv5i1sk0c9l90z3j0n00/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Honda Hornet 600 Onboard Engine\" on Soundza (https://soundza.com/sound/honda-hornet-600-onboard-engine)",
+      "matched_words": [
+        "onboard"
+      ]
+    },
+    {
+      "id": "cmv5t39z600tw06ktlhw21xrl",
+      "url": "https://soundza.com/sound/walla-onboard-airplane-2",
+      "title": "Walla Onboard Airplane 2",
+      "description": "The ambient murmur of passengers conversing and moving about inside a commercial aircraft cabin. A continuous background of human activity with no distinct events, suitable for establishing interior plane environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 564.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "crowd",
+        "people"
+      ],
+      "sync_ms": null,
+      "lufs": -26.3,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -26.3,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 149453658,
+      "category": {
+        "id": "AEROInt",
+        "label": "Aircraft › Interior"
+      },
+      "pack": {
+        "id": "onhaz8jmr95vcv6vf02p5tai",
+        "name": "City Field Recordings Vol 2: Trains, Planes, Cafés and Crowds",
+        "slug": "city-field-recordings-vol-2-trains-planes-and-stations",
+        "sound_count": 58,
+        "url": "https://soundza.com/packs/city-field-recordings-vol-2-trains-planes-and-stations"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tKBIMo_pzbFL_CUHXw6YCMqf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t39z600tw06ktlhw21xrl/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Walla Onboard Airplane 2\" on Soundza (https://soundza.com/sound/walla-onboard-airplane-2)",
+      "matched_words": [
+        "onboard"
+      ]
+    },
+    {
+      "id": "cmvdz9b47qoyg0hgq3h2ul12j",
+      "url": "https://soundza.com/sound/harley-motorcycle-ride",
+      "title": "Harley Motorcycle Ride",
+      "description": "The immersive engine and wind sounds of riding a Harley Davidson motorcycle on open road. Useful for vehicle action sequences, transportation ambience, or game driving mechanics.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "footsteps",
+        "transition"
+      ],
+      "duration": 211.19,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "outdoor",
+        "wind"
+      ],
+      "sync_ms": null,
+      "lufs": -20.9,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -16.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 27941080,
+      "category": {
+        "id": "VEHMoto",
+        "label": "Vehicles › Motorcycle"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/TaWyA-1qR-OqGgwWu5qLzRmR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdz9b47qoyg0hgq3h2ul12j/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Harley Motorcycle Ride\" on Soundza (https://soundza.com/sound/harley-motorcycle-ride)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmtkkl2y9u6kvnx461in12wr3",
+      "url": "https://soundza.com/sound/ride-cymbal-crash",
+      "title": "Ride Cymbal Crash",
+      "description": "A bright, metallic cymbal crash with shimmering bells layered on top, creating a rich, cutting percussive texture with substantial high-frequency content and a sharp, punchy attack.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.95,
+      "bpm": 162.8,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic",
+        "punchy"
+      ],
+      "tags": [
+        "cymbal",
+        "bell",
+        "bright",
+        "metallic",
+        "punchy",
+        "one-shot",
+        "percussion",
+        "impact"
+      ],
+      "sync_ms": null,
+      "lufs": -34.8,
+      "true_peak_db": -10.3,
+      "loudness": {
+        "value": -26.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 780322,
+      "category": null,
+      "pack": {
+        "id": "kwe37bfoj00fpkkz3qc440v9",
+        "name": "KONKRET — Industrial Techno Drum Kit",
+        "slug": "konkret-industrial-techno-drum-kit",
+        "sound_count": 170,
+        "url": "https://soundza.com/packs/konkret-industrial-techno-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HezEkhAaVQfKtQm0P1_v5UfC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtkkl2y9u6kvnx461in12wr3/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ride Cymbal Crash\" on Soundza (https://soundza.com/sound/ride-cymbal-crash)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmtltb4ub0xlvmyivxorq8iaj",
+      "url": "https://soundza.com/sound/ride-cymbal-loop",
+      "title": "Ride Cymbal Loop",
+      "description": "A crispy, bright bell-cymbal loop with sharp metallic attack and quick decay, riding at 136 BPM with rhythmic hi-hat and cymbal shimmer that cuts through high frequencies. The aggressive edge and fast transients make it ideal for punchy, syncopated drum patterns.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 7.43,
+      "bpm": 135,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "bell",
+        "hi-hat",
+        "bright",
+        "crispy",
+        "metallic",
+        "rhythmic",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -20.2,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -20.2,
+        "basis": "integrated"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1966210,
+      "category": null,
+      "pack": {
+        "id": "dd9q0kpnobstjy2hxba0uyml",
+        "name": "HARDGROOVE — Percussion, Hat and Top Loops for Techno",
+        "slug": "hardgroove-percussion-hat-and-top-loops-for-techno",
+        "sound_count": 55,
+        "url": "https://soundza.com/packs/hardgroove-percussion-hat-and-top-loops-for-techno"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HYZ8SmXF2fX1ksaYlURMwN6t.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtltb4ub0xlvmyivxorq8iaj/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ride Cymbal Loop\" on Soundza (https://soundza.com/sound/ride-cymbal-loop)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmtl16noq4z4tfsf0cf6azpb9",
+      "url": "https://soundza.com/sound/sizzle-ride-cymbal",
+      "title": "Sizzle Ride Cymbal",
+      "description": "A bright, sizzling cymbal crash with crispy high-frequency shimmer and metallic shimmer that decays quickly, ideal for punctuation and transitions in live and produced music.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 3.63,
+      "bpm": 132.1,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "metallic"
+      ],
+      "tags": [
+        "cymbal",
+        "crispy",
+        "bright",
+        "metallic",
+        "one-shot",
+        "transition",
+        "percussion",
+        "sharp"
+      ],
+      "sync_ms": null,
+      "lufs": -28.3,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -28.3,
+        "basis": "integrated"
+      },
+      "gain_db": -1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 480810,
+      "category": null,
+      "pack": {
+        "id": "syffq6crgdtvab09w8x6ejh0",
+        "name": "DUST JACKET — Lo-Fi Acoustic Drum Kit",
+        "slug": "dust-jacket-lo-fi-acoustic-drum-kit",
+        "sound_count": 93,
+        "url": "https://soundza.com/packs/dust-jacket-lo-fi-acoustic-drum-kit"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cVeU8bxIt3GN_cJSNOZzi8SJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtl16noq4z4tfsf0cf6azpb9/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sizzle Ride Cymbal\" on Soundza (https://soundza.com/sound/sizzle-ride-cymbal)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmv5svrty00i806jsh5cvqip7",
+      "url": "https://soundza.com/sound/porcelain-ride-loop-9-128-bpm",
+      "title": "Porcelain Ride Loop 9 (128 BPM)",
+      "description": "A rhythmic porcelain ride cymbal loop with a bright, shimmering metallic quality, built on a steady grid at 128 BPM. The repetitive strikes create a hypnotic, industrial texture suitable for electronic and experimental music production.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 7.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "bright"
+      ],
+      "tags": [
+        "ride",
+        "cymbal",
+        "loop",
+        "metallic",
+        "bright",
+        "rhythmic",
+        "industrial",
+        "hypnotic"
+      ],
+      "sync_ms": null,
+      "lufs": -24,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -24,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2000226,
+      "category": null,
+      "pack": {
+        "id": "cmv5svnnu00h006js23tjnf5h",
+        "name": "FERRUM — Industrial Percussion, Metal Hits and Porcelain Ride Loops",
+        "slug": "ferrum-industrial-percussion-metal-hits-and-porcelain-ride-loops",
+        "sound_count": 148,
+        "url": "https://soundza.com/packs/ferrum-industrial-percussion-metal-hits-and-porcelain-ride-loops"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/U_9M2Q7Z4Nor9imyBAuS6ggz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5svrty00i806jsh5cvqip7/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Porcelain Ride Loop 9 (128 BPM)\" on Soundza (https://soundza.com/sound/porcelain-ride-loop-9-128-bpm)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmukg6lw1eyampo0fammu8n08",
+      "url": "https://soundza.com/sound/water-drips-cave-ambience",
+      "title": "Water Drips Cave Ambience",
+      "description": "A prolonged recording of water droplets echoing in a reverberant cave or dungeon space. The processed, heavily reverberated drips create an eerie, atmospheric bed suitable for dark underground scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 89.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "water",
+        "reverb",
+        "dark"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -8.3,
+      "loudness": {
+        "value": -40.6,
+        "basis": "integrated"
+      },
+      "gain_db": 7.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 25868382,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7zs78vuu9yjTkFL6e4rMCGNd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg6lw1eyampo0fammu8n08/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drips Cave Ambience\" on Soundza (https://soundza.com/sound/water-drips-cave-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvox25iybpkgb4k54kzzfsm0",
+      "url": "https://soundza.com/sound/continuous-water-bubbles",
+      "title": "Continuous Water Bubbles",
+      "description": "Continuous stream of small bubbles rising through water, creating a soft, persistent fizzing and popping texture. Ideal for underwater or aquatic environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 18.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -28.5,
+      "true_peak_db": -7.3,
+      "loudness": {
+        "value": -28.5,
+        "basis": "integrated"
+      },
+      "gain_db": 6.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4998288,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": {
+        "id": "cmv5n998i01tj06l45ceeebyr",
+        "name": "Water, Slime & Mud SFX",
+        "slug": "water-slime-and-mud-sfx",
+        "sound_count": 193,
+        "url": "https://soundza.com/packs/water-slime-and-mud-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/iO368IQ0RyOGWg-IKOzUvUws.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox25iybpkgb4k54kzzfsm0/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Continuous Water Bubbles\" on Soundza (https://soundza.com/sound/continuous-water-bubbles)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmtltejt0clqw7rnvqz3azvih",
+      "url": "https://soundza.com/sound/ride-groove",
+      "title": "Ride Groove",
+      "description": "A shuffled drum fill centered on a bright Gretsch ride cymbal with crispy, articulate attacks and minimal low-end presence—tight and energetic at 96 BPM with tight hi-hat definition.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 14.97,
+      "bpm": 96,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "cymbal",
+        "fill",
+        "bright",
+        "crispy",
+        "tight",
+        "groove",
+        "percussion",
+        "rhythmic"
+      ],
+      "sync_ms": null,
+      "lufs": -18.3,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -18.3,
+        "basis": "integrated"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3960652,
+      "category": null,
+      "pack": {
+        "id": "yp90vny6rsmhxl0zkko4smd4",
+        "name": "Acoustic Drum Kits for Low-fi and Hip-hop",
+        "slug": "acoustic-drum-kits-for-low-fi-and-hip-hop",
+        "sound_count": 43,
+        "url": "https://soundza.com/packs/acoustic-drum-kits-for-low-fi-and-hip-hop"
+      },
+      "creator": {
+        "name": "wet paper",
+        "url": "https://soundza.com/creators/wet-paper"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YLC_uJJefZl6Maa3FSQdh-7g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtltejt0clqw7rnvqz3azvih/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ride Groove\" by wet paper on Soundza (https://soundza.com/sound/ride-groove)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmuhynvdo8rebk6ve66czpg6d",
+      "url": "https://soundza.com/sound/stream-river-water-up-close",
+      "title": "Stream River Water Up Close",
+      "description": "A soft, flowing stream recorded in close proximity, with gentle burbling and trickling water sounds. Ideal for nature scenes, relaxation content, or ambient background layers.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 68.89,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -54,
+      "true_peak_db": -25.2,
+      "loudness": {
+        "value": -54,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19840220,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HIZ_196fmIjHiwKLWuNhmDtc.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhynvdo8rebk6ve66czpg6d/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Stream River Water Up Close\" on Soundza (https://soundza.com/sound/stream-river-water-up-close)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5t3sch009d06juw9c44jih",
+      "url": "https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage-1",
+      "title": "River Water Flowing from Different Directions The Hermitage Scotland 2",
+      "description": "A natural recording of flowing river water captured from multiple perspectives, with water moving and splashing across various surfaces. Suitable as a continuous bed for nature scenes, outdoor environments, or calming backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 141.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -28.3,
+      "true_peak_db": -1.3,
+      "loudness": {
+        "value": -28.3,
+        "basis": "integrated"
+      },
+      "gain_db": 0.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 81312904,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-eytCLVCVpCbFv6V7MUFF7CW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009d06juw9c44jih/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"River Water Flowing from Different Directions The Hermitage Scotland 2\" on Soundza (https://soundza.com/sound/river-water-flowing-from-different-directions-the-hermitage-1)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukgbdhkc05j6d6gk0naldjq",
+      "url": "https://soundza.com/sound/water-cave-ambience",
+      "title": "Water Cave Ambience",
+      "description": "A designed ambient soundscape of a fictional water cave with layered dripping water droplets and echoing liquid sounds. Suitable for dungeon scenes, cave exploration, and immersive game environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -16,
+      "loudness": null,
+      "gain_db": 0,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 6,
+      "size_bytes": 47628084,
+      "category": {
+        "id": "AMBUndr",
+        "label": "Ambience › Underground"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K4mjl5Xe3Lugmrl1AAM9O1GI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgbdhkc05j6d6gk0naldjq/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Cave Ambience\" on Soundza (https://soundza.com/sound/water-cave-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0glpdf001506i9akcr73hf",
+      "url": "https://soundza.com/sound/water-loop-3",
+      "title": "Water Loop 3",
+      "description": "A continuous looping ambience of gently flowing water with subtle textural variation. Suitable as an atmospheric bed for scenes with streams, rivers, or water features.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 9.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -25.5,
+      "true_peak_db": -7.7,
+      "loudness": {
+        "value": -25.5,
+        "basis": "integrated"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2795676,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": {
+        "id": "cmv0gjwv5000006l8habrov9b",
+        "name": "Everyday Foley & Ambiences",
+        "slug": "everyday-foley-and-ambiences",
+        "sound_count": 146,
+        "url": "https://soundza.com/packs/everyday-foley-and-ambiences"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-XGUJ1RhsCL5JnNWwhtASXDV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0glpdf001506i9akcr73hf/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Loop 3\" on Soundza (https://soundza.com/sound/water-loop-3)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowwqo8drk5upgtoz4kbpcu",
+      "url": "https://soundza.com/sound/water-dripping",
+      "title": "Water Dripping",
+      "description": "Steady water drips with a slight echo, as if from a faucet or pipe in a bathroom or confined space. Useful as a background bed for scenes involving water or moisture.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 2.98,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water"
+      ],
+      "sync_ms": null,
+      "lufs": -47.3,
+      "true_peak_db": -24.1,
+      "loudness": {
+        "value": -47.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 857384,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tbNhJVs7t4aCgtJ1abv2s8tk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowwqo8drk5upgtoz4kbpcu/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Dripping\" on Soundza (https://soundza.com/sound/water-dripping)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukg8wmtl9qr2ori7mkquhpt",
+      "url": "https://soundza.com/sound/water-drips-large-echo-ambience",
+      "title": "Water Drips Large Echo Ambience",
+      "description": "Slow, sparse water drips with strong reverb and echo, evoking an underground cavern or dungeon. Ideal as a bed or layering element for spooky, enclosed environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 64.11,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "reverb",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -49.7,
+      "true_peak_db": -21.5,
+      "loudness": {
+        "value": -49.7,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18464640,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/5nZosNP8TX9gV-BlyyMcD_5g.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg8wmtl9qr2ori7mkquhpt/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drips Large Echo Ambience\" on Soundza (https://soundza.com/sound/water-drips-large-echo-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowytb6cnkq0asisq6jjgn3",
+      "url": "https://soundza.com/sound/kitchen-sink-water-leak",
+      "title": "Kitchen Sink Water Leak",
+      "description": "A continuous water leak from a kitchen sink with steady dripping and splashing sounds. Loops seamlessly for use as ambient background in scenes with plumbing issues or water damage.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 8.55,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "ambience",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -24.4,
+      "true_peak_db": -5.3,
+      "loudness": {
+        "value": -24.4,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2463136,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tTVMAD7bzvcjGkdNxBFxGzUN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowytb6cnkq0asisq6jjgn3/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Kitchen Sink Water Leak\" on Soundza (https://soundza.com/sound/kitchen-sink-water-leak)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyosk6yznzzk6e58hw4e27",
+      "url": "https://soundza.com/sound/creek-water-trickling",
+      "title": "Creek Water Trickling",
+      "description": "The gentle, continuous sound of water flowing and trickling over rocks in a natural creek bed. A peaceful ambient recording suitable for nature scenes, relaxation content, or environmental soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -33,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -33,
+        "basis": "integrated"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17403656,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Md3vaKnj-kc6LV7dedUqfXra.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyosk6yznzzk6e58hw4e27/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Creek Water Trickling\" on Soundza (https://soundza.com/sound/creek-water-trickling)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvox16t95byqw9jr2s1l3jym",
+      "url": "https://soundza.com/sound/water-drops-dripping",
+      "title": "Water Drops Dripping",
+      "description": "Water droplets fall rhythmically into a container of water, creating a continuous pattern of splashes and echoes. Ideal for dungeon, cave, or atmospheric tension beds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water"
+      ],
+      "sync_ms": null,
+      "lufs": -27.3,
+      "true_peak_db": 0.4,
+      "loudness": {
+        "value": -27.3,
+        "basis": "integrated"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3572186,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CYueER7div_arKXAhqaj8QwL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox16t95byqw9jr2s1l3jym/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Drops Dripping\" on Soundza (https://soundza.com/sound/water-drops-dripping)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmtm8283vqjlvvlfsl3zcp8hl",
+      "url": "https://soundza.com/sound/warm-ride-cymbal",
+      "title": "Warm Ride Cymbal",
+      "description": "A crispy, bright ride cymbal with the characteristic metallic shimmer and articulate attack of the classic Linn LM-1 drum machine—punchy and clean with minimal sustain, perfect for adding definition to programmed drum patterns.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 2.17,
+      "bpm": 80.9,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "metallic",
+        "punchy"
+      ],
+      "tags": [
+        "cymbal",
+        "analog",
+        "crispy",
+        "metallic",
+        "punchy",
+        "percussion",
+        "tight",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -16.9,
+      "true_peak_db": -1.6,
+      "loudness": {
+        "value": -10.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 286552,
+      "category": null,
+      "pack": {
+        "id": "floerj6inut1z86z1sn2cbhe",
+        "name": "MACHINE ROOM — Vintage Drum Machines and Rhythm Boxes",
+        "slug": "machine-room-vintage-drum-machines-and-rhythm-boxes",
+        "sound_count": 150,
+        "url": "https://soundza.com/packs/machine-room-vintage-drum-machines-and-rhythm-boxes"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EX9De-6jDPL1_gbw8Kfi8rNJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtm8283vqjlvvlfsl3zcp8hl/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Warm Ride Cymbal\" on Soundza (https://soundza.com/sound/warm-ride-cymbal)",
+      "matched_words": [
+        "ride"
+      ]
+    },
+    {
+      "id": "cmvoxfu329t3ukzsuj3xz4it7",
+      "url": "https://soundza.com/sound/glassy-bubbling-water",
+      "title": "Glassy Bubbling Water",
+      "description": "Continuous water bubbling and boiling sounds recorded in a studio with a professional microphone. Suitable as a bed for aquatic scenes or as texture layering.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -26.7,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -26.7,
+        "basis": "integrated"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1052562,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3hr1hrXO4e-K__vy2EFTVke-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxfu329t3ukzsuj3xz4it7/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Glassy Bubbling Water\" on Soundza (https://soundza.com/sound/glassy-bubbling-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxdy6mbsfrx3cfyv363tf0",
+      "url": "https://soundza.com/sound/water-bubbles",
+      "title": "Water Bubbles",
+      "description": "Continuous bubbling and popping sounds created by air passing through water, suitable as a layered background texture for aquatic or underwater scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 2.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -23.4,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -23.4,
+        "basis": "integrated"
+      },
+      "gain_db": 3.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 393138,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/CcAMKLtUDHyfJN_LOFCoPKdi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxdy6mbsfrx3cfyv363tf0/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Bubbles\" on Soundza (https://soundza.com/sound/water-bubbles)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvox0r83ulxs1h9j0lr3exa8",
+      "url": "https://soundza.com/sound/cave-water-drips",
+      "title": "Cave Water Drips",
+      "description": "Persistent water droplets echoing in a cavernous space with natural reverb. Ideal for creating atmosphere in underground scenes or as a tension bed.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "reverb",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -13.3,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -13.3,
+        "basis": "integrated"
+      },
+      "gain_db": -6.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6088000,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/egnswAZceV51GNeMkeNyG4-N.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvox0r83ulxs1h9j0lr3exa8/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cave Water Drips\" on Soundza (https://soundza.com/sound/cave-water-drips)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoxenwjvjty5myz6syvg9uu",
+      "url": "https://soundza.com/sound/bubbling-water-ambience",
+      "title": "Bubbling Water Ambience",
+      "description": "Continuous bubbles and boiling water sounds with gentle movement. Suitable as a background bed for aquatic, laboratory, or magical scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 9.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -45.1,
+      "true_peak_db": -20.4,
+      "loudness": {
+        "value": -45.1,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1233116,
+      "category": {
+        "id": "WATRBubl",
+        "label": "Water › Bubbles"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oS8gs84DN15-InsTT0oD363a.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoxenwjvjty5myz6syvg9uu/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bubbling Water Ambience\" on Soundza (https://soundza.com/sound/bubbling-water-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukgzd3246mqmr3izr9ybe30",
+      "url": "https://soundza.com/sound/abandoned-radar-station-dripping-water",
+      "title": "Abandoned Radar Station Dripping Water",
+      "description": "Binaural field recording of water droplets and rainfall sounds echoing through the abandoned Teufelsberg radar station ruins in Berlin. A desolate, haunting soundscape with various drips reverberating through decaying concrete spaces.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 148.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "field-recording",
+        "industrial"
+      ],
+      "sync_ms": null,
+      "lufs": -28.9,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -28.9,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39394574,
+      "category": {
+        "id": "AMBUndr",
+        "label": "Ambience › Underground"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mzzRq5KWiel663YXpL9G_87z.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgzd3246mqmr3izr9ybe30/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Abandoned Radar Station Dripping Water\" on Soundza (https://soundza.com/sound/abandoned-radar-station-dripping-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhykyrrvd0mbi5gcex5rlqq",
+      "url": "https://soundza.com/sound/flowing-water-river-recording",
+      "title": "Flowing Water, River Recording",
+      "description": "A serene river field recording with gentle water flows and natural ambience, rich in mid-range frequencies that create an organic, airy texture perfect for atmospheric layering.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 7.77,
+      "bpm": null,
+      "key": "G# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "airy"
+      ],
+      "tags": [
+        "ambient",
+        "texture",
+        "pad",
+        "organic",
+        "airy",
+        "ethereal",
+        "atmospheric",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -35.6,
+      "true_peak_db": -21.4,
+      "loudness": {
+        "value": -35.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2237856,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tvk9bSslj0JjpxR0gzl9XXAO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhykyrrvd0mbi5gcex5rlqq/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water, River Recording\" on Soundza (https://soundza.com/sound/flowing-water-river-recording)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyjgbl5jhuufkz7o9fmy7u",
+      "url": "https://soundza.com/sound/flowing-water-loop",
+      "title": "Flowing Water Loop",
+      "description": "A gentle, naturalistic water flow with soft trickling and babbling textures, creating an organic, minimal ambient soundscape perfect for atmospheric pads and environmental transitions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 14.47,
+      "bpm": 117,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "soft"
+      ],
+      "tags": [
+        "foley",
+        "ambient",
+        "texture",
+        "atmospheric",
+        "organic",
+        "soft",
+        "minimal",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -23.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -23.2,
+        "basis": "integrated"
+      },
+      "gain_db": 3.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 4168020,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lOzKFSdzE4LuujEG3I5D4zWH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyjgbl5jhuufkz7o9fmy7u/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water Loop\" on Soundza (https://soundza.com/sound/flowing-water-loop)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0ggycni79h82d2syrqdppj",
+      "url": "https://soundza.com/sound/evaporating-water-hiss",
+      "title": "Evaporating Water Hiss",
+      "description": "A sustained, high-frequency hissing sound of water evaporating under heat, recorded with field recording techniques. Useful as a continuous ambient bed for scenes involving steam, heat effects, or laboratory environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 16.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "hiss",
+        "ambience",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -34.1,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -34.1,
+        "basis": "integrated"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 4828994,
+      "category": {
+        "id": "WATRStm",
+        "label": "Water › Steam"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/nZTF1ESWJgEBuq-JGfm_eymB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0ggycni79h82d2syrqdppj/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Evaporating Water Hiss\" on Soundza (https://soundza.com/sound/evaporating-water-hiss)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyk4i4trdgv8t9p0j7v7f6",
+      "url": "https://soundza.com/sound/flowing-water-texture",
+      "title": "Flowing Water Texture",
+      "description": "A lush, flowing field recording of water cascading through a California forest creek, with naturalistic babbling and gurgling textures layered over deep, organic ambient tones. The heavy, liquid soundscape captures the rhythmic flow of a waterfall and downstream current with rich mid-range complexity and atmospheric depth.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 39.43,
+      "bpm": null,
+      "key": "C# major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "ambient",
+        "pad",
+        "foley",
+        "texture",
+        "organic",
+        "atmospheric",
+        "ethereal",
+        "lush"
+      ],
+      "sync_ms": null,
+      "lufs": -21.6,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -21.6,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11356502,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/q7CJBTpOc6g3upX06r7J2ZFG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyk4i4trdgv8t9p0j7v7f6/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Flowing Water Texture\" on Soundza (https://soundza.com/sound/flowing-water-texture)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhym9rfrqln2i8sfm5s01j0",
+      "url": "https://soundza.com/sound/small-creek-burbling",
+      "title": "Small Creek Burbling",
+      "description": "Water in a shallow creek bubbles and gurgles steadily over rocks, with occasional bird calls in the background. Ideal as a natural water bed for nature scenes or outdoor ambience.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 30.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.1,
+      "true_peak_db": -3.5,
+      "loudness": {
+        "value": -30.1,
+        "basis": "integrated"
+      },
+      "gain_db": 2.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8138000,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cpCT4uhjBgHFID5JP7lTq-7F.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhym9rfrqln2i8sfm5s01j0/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Creek Burbling\" on Soundza (https://soundza.com/sound/small-creek-burbling)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmuhyls2nhvapfq0arwb4lctu",
+      "url": "https://soundza.com/sound/babbling-river-ambience",
+      "title": "Babbling River Ambience",
+      "description": "A gentle, shallow river flows with continuous burbling and trickling sounds. Perfect as a calming natural bed for meditation, nature documentaries, or atmospheric background.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.2,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "nature",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19353208,
+      "category": {
+        "id": "WATRFlow",
+        "label": "Water › Flow"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0ELUwkwVkTVqlYNPeoZZ2PCS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyls2nhvapfq0arwb4lctu/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Babbling River Ambience\" on Soundza (https://soundza.com/sound/babbling-river-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmtny9qvi4bl48r75j3rqjuc1",
+      "url": "https://soundza.com/sound/water-barrel-roll",
+      "title": "Water Barrel Roll",
+      "description": "A punchy percussive kick roll with rapid, crispy attack and tight decay, featuring dense drum hits in the low-mid range that create a driving, rhythmic texture ideal for breakbeats and fast-paced productions.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [],
+      "duration": 7.51,
+      "bpm": 172,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "punchy"
+      ],
+      "tags": [
+        "kick",
+        "percussion",
+        "punchy",
+        "crispy",
+        "tight",
+        "rhythmic",
+        "one-shot",
+        "gritty"
+      ],
+      "sync_ms": null,
+      "lufs": -14.8,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.8,
+        "basis": "integrated"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2162932,
+      "category": null,
+      "pack": {
+        "id": "marvp94izn32zhivnncm7e61",
+        "name": "Afrobeats Drum and Percussion One-Shots",
+        "slug": "afrobeats-drum-and-percussion-one-shots",
+        "sound_count": 140,
+        "url": "https://soundza.com/packs/afrobeats-drum-and-percussion-one-shots"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Tt8TygI9HJHklvQB6Btktd8k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtny9qvi4bl48r75j3rqjuc1/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Barrel Roll\" on Soundza (https://soundza.com/sound/water-barrel-roll)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5t39z500ti06kt7a0ml5f7",
+      "url": "https://soundza.com/sound/train-ambience-onboard-dundee-scotland-1",
+      "title": "Train Ambience Onboard Dundee Scotland 1",
+      "description": "Interior ambience of a moving train recorded onboard in Scotland, with the steady rhythm of rails, mechanical hum, and subtle vibrations of the carriage.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 152.18,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "train",
+        "ambience",
+        "mechanical"
+      ],
+      "sync_ms": null,
+      "lufs": -24,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -24,
+        "basis": "integrated"
+      },
+      "gain_db": -1,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 87655786,
+      "category": {
+        "id": "TRNInt",
+        "label": "Trains › Interior"
+      },
+      "pack": {
+        "id": "onhaz8jmr95vcv6vf02p5tai",
+        "name": "City Field Recordings Vol 2: Trains, Planes, Cafés and Crowds",
+        "slug": "city-field-recordings-vol-2-trains-planes-and-stations",
+        "sound_count": 58,
+        "url": "https://soundza.com/packs/city-field-recordings-vol-2-trains-planes-and-stations"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xsfjw_2stqvQagtShk0sFJxH.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t39z500ti06kt7a0ml5f7/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Train Ambience Onboard Dundee Scotland 1\" on Soundza (https://soundza.com/sound/train-ambience-onboard-dundee-scotland-1)",
+      "matched_words": [
+        "onboard"
+      ]
+    },
+    {
+      "id": "cmukcuilsnxk1nek0bpe7u05c",
+      "url": "https://soundza.com/sound/hand-splash-water",
+      "title": "Hand Splash Water",
+      "description": "A shallow hand splash into water, recorded with clarity and minimal processing. Useful for pool scenes, water interactions, or light water impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.33,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact"
+      ],
+      "sync_ms": 186,
+      "lufs": -21.4,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -17,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 352342,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/p_UU1h_mTcx2bMMYpZWCAa6o.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcuilsnxk1nek0bpe7u05c/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hand Splash Water\" on Soundza (https://soundza.com/sound/hand-splash-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukbi5zp7ponezkp49ohtv6j",
+      "url": "https://soundza.com/sound/underwater-lake-ambience",
+      "title": "Underwater Lake Ambience",
+      "description": "A submerged contact microphone recording capturing the muted, tonal qualities of underwater acoustics beneath a rail bridge on a lake. Subtle mechanical vibrations and water movements create a peaceful, immersive soundscape ideal for scenes requiring aquatic depth and stillness.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 186.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ambience",
+        "field-recording",
+        "texture",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22.3,
+      "true_peak_db": -1,
+      "loudness": {
+        "value": -22.3,
+        "basis": "integrated"
+      },
+      "gain_db": 0,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 49350114,
+      "category": {
+        "id": "WATRUndwtr",
+        "label": "Water › Underwater"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/IHmrFRVcakuQ8tlK8R3Ymihh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukbi5zp7ponezkp49ohtv6j/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Underwater Lake Ambience\" on Soundza (https://soundza.com/sound/underwater-lake-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukdx6avceim8959f8sxxrf1",
+      "url": "https://soundza.com/sound/water-splash-close-up",
+      "title": "Water Splash Close-Up",
+      "description": "A brief, sharp water splash with crisp high-frequency impact, recorded in close proximity. Suitable for realistic foley in scenes involving water interactions.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "close-up",
+        "wet",
+        "impact"
+      ],
+      "sync_ms": 9,
+      "lufs": -26,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -21.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 3.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 222086,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Ly4iHyibrZ8XvADMhTPpU6I7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdx6avceim8959f8sxxrf1/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Splash Close-Up\" on Soundza (https://soundza.com/sound/water-splash-close-up)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukdvm20wgey7how7kzjc5ct",
+      "url": "https://soundza.com/sound/bathroom-water-splash",
+      "title": "Bathroom Water Splash",
+      "description": "A single water splash sound recorded in a bathroom environment. Useful for adding impact and realism to scenes involving water, splashing, or bathroom activities.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 2.08,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "indoor"
+      ],
+      "sync_ms": 503,
+      "lufs": -20,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -17.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 599282,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/l-yy3rz0Neiya4p1jD32O7O-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdvm20wgey7how7kzjc5ct/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bathroom Water Splash\" on Soundza (https://soundza.com/sound/bathroom-water-splash)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvoww0elkfdkmk7x24wyg68w",
+      "url": "https://soundza.com/sound/fast-water-drips",
+      "title": "Fast Water Drips",
+      "description": "Rapid water droplets falling at a steady rate, like a kitchen faucet leak or drain overflow. Useful for establishing an anxious or neglectful atmosphere in a scene.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 11.82,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": 7000,
+      "lufs": -28.9,
+      "true_peak_db": -6,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3127378,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/21gxV0iSNaixNHg6b5jHdtSh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvoww0elkfdkmk7x24wyg68w/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fast Water Drips\" on Soundza (https://soundza.com/sound/fast-water-drips)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukcteckeq2slqy5tjsgii2c",
+      "url": "https://soundza.com/sound/small-water-spill",
+      "title": "Small Water Spill",
+      "description": "A brief recording of water splashing and trickling as it spills, captured with clear detail. Ideal for foley in scenes involving liquid accidents or small water events.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -41.8,
+      "true_peak_db": -24.6,
+      "loudness": {
+        "value": -40.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 23.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 255058,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hqfWDJzoKC97UMzQuDhyVTtT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukcteckeq2slqy5tjsgii2c/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Small Water Spill\" on Soundza (https://soundza.com/sound/small-water-spill)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukdv8y0qjyd1kvptwas4ljt",
+      "url": "https://soundza.com/sound/water-splash-1",
+      "title": "Water Splash",
+      "description": "A single water splash with a bright, airy quality and quick decay. Ideal for foley work in scenes involving water impact, splashing, or liquid contact.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "impact",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -43.2,
+      "true_peak_db": -14.7,
+      "loudness": {
+        "value": -38.2,
+        "basis": "momentary_max"
+      },
+      "gain_db": 13.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 480090,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/r30cLqfnQ5s8jBCFkUhtipWF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukdv8y0qjyd1kvptwas4ljt/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Splash\" on Soundza (https://soundza.com/sound/water-splash-1)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5mzdr700w906l4sqr4kx21",
+      "url": "https://soundza.com/sound/water-pour",
+      "title": "Water Pour",
+      "description": "The organic sound of water being poured, with a clear, natural splash and flow. Ideal for fantasy games, potion bottles, or any scene requiring authentic liquid effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_pickup"
+      ],
+      "duration": 1.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "splash",
+        "foley",
+        "game"
+      ],
+      "sync_ms": 169,
+      "lufs": -20.8,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -16.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 426138,
+      "category": {
+        "id": "WATRPour",
+        "label": "Water › Pour"
+      },
+      "pack": {
+        "id": "cmv5mzdnx00ts06l4984n80ie",
+        "name": "Tinysized Fantasy SFX",
+        "slug": "tinysized-fantasy-sfx",
+        "sound_count": 75,
+        "url": "https://soundza.com/packs/tinysized-fantasy-sfx"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tuH-9s-O990RIQUrQ9QSntxB.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mzdr700w906l4sqr4kx21/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Pour\" on Soundza (https://soundza.com/sound/water-pour)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvos9b2rrh1oqa2ue9al8f8i",
+      "url": "https://soundza.com/sound/water-dynamite-firecracker",
+      "title": "Water Dynamite Firecracker",
+      "description": "A sharp, percussive pop from a small underwater explosive device, with a quick attack and minimal decay. Suitable for close-range impact and firecracker moments in video or games.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "game_hit"
+      ],
+      "duration": 1.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "explosion",
+        "impact",
+        "water"
+      ],
+      "sync_ms": 131,
+      "lufs": -19.7,
+      "true_peak_db": 0.1,
+      "loudness": {
+        "value": -19.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 267182,
+      "category": {
+        "id": "EXPLReal",
+        "label": "Explosions › Real"
+      },
+      "pack": {
+        "id": "wn8vaqs5s8tszss8shncazpo",
+        "name": "Explosion Sound Effects — Small, Medium, Large, Distant & Debris",
+        "slug": "explosion-sound-effects-small-medium-large-distant-and-debris",
+        "sound_count": 166,
+        "url": "https://soundza.com/packs/explosion-sound-effects-small-medium-large-distant-and-debris"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zwkkmUWkmeQEVVKITAUTGPJ7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvos9b2rrh1oqa2ue9al8f8i/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Water Dynamite Firecracker\" on Soundza (https://soundza.com/sound/water-dynamite-firecracker)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmukagm6m2ml05nztzcd7cpcs",
+      "url": "https://soundza.com/sound/summer-field-dusk-ambience",
+      "title": "Summer Field Dusk Ambience",
+      "description": "A peaceful outdoor recording of a summer field near a lake at dusk in July. You'll hear distant bird calls, a quick fly buzz, and a motorboat passing in the distance, capturing the natural sounds of a rural evening.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 60.38,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "birds",
+        "nature",
+        "outdoor",
+        "water",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -40.6,
+      "true_peak_db": -23.6,
+      "loudness": {
+        "value": -40.6,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 17389700,
+      "category": {
+        "id": "AMBRurl",
+        "label": "Ambience › Rural"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8za3sW944c5m2Ga-_ebEmJzA.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukagm6m2ml05nztzcd7cpcs/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Summer Field Dusk Ambience\" on Soundza (https://soundza.com/sound/summer-field-dusk-ambience)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv5ncxv501w306l46fc99gdr",
+      "url": "https://soundza.com/sound/drinking-water-2",
+      "title": "Drinking Water 2",
+      "description": "A single swallow of liquid being drunk. Clean and direct foley recording of the act of drinking water.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 0.44,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley",
+        "close-up",
+        "dry"
+      ],
+      "sync_ms": null,
+      "lufs": -33.4,
+      "true_peak_db": -12.6,
+      "loudness": {
+        "value": -33.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 58814,
+      "category": {
+        "id": "FOODDrnk",
+        "label": "Food & Drink › Drinking"
+      },
+      "pack": {
+        "id": "gmhau3haysdxb5ktr7ti7iif",
+        "name": "Household Sound Effects",
+        "slug": "household-sound-effects",
+        "sound_count": 269,
+        "url": "https://soundza.com/packs/household-sound-effects"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/r94TblQ0aNzu4UQ2xH0ywRwa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5ncxv501w306l46fc99gdr/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Drinking Water 2\" on Soundza (https://soundza.com/sound/drinking-water-2)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvowy3bv02h1v9n13egawt3c",
+      "url": "https://soundza.com/sound/faucet-dripping-into-water",
+      "title": "Faucet Dripping Into Water",
+      "description": "Individual water drops falling from a faucet into a bowl or container of water, creating soft impacts and light splashing sounds. Useful for domestic ambiences, bathroom scenes, or subtle water effects.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 13,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "impact"
+      ],
+      "sync_ms": 1133,
+      "lufs": -31.3,
+      "true_peak_db": -6.4,
+      "loudness": {
+        "value": -26.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 5.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3440732,
+      "category": {
+        "id": "WATRDrip",
+        "label": "Water › Drip"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/1XgXhNOXObTbc9OePID9k14j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvowy3bv02h1v9n13egawt3c/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Faucet Dripping Into Water\" on Soundza (https://soundza.com/sound/faucet-dripping-into-water)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmvdzgx8shpx17pvpcyxdhcwc",
+      "url": "https://soundza.com/sound/big-boat-horn",
+      "title": "Big Boat Horn",
+      "description": "A deep, resonant horn blast from a large vessel, with a sustained tonal quality characteristic of maritime fog horns or ship announcement systems. Suitable for maritime scenes, vehicle ambiences, or dramatic warning moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "boat",
+        "ferry",
+        "horn",
+        "ship"
+      ],
+      "sync_ms": null,
+      "lufs": -7.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -5.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6350478,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dNRMmaJQn-O5pZTFOn-BEqRi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgx8shpx17pvpcyxdhcwc/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Big Boat Horn\" on Soundza (https://soundza.com/sound/big-boat-horn)",
+      "matched_words": [
+        "ferry"
+      ]
+    },
+    {
+      "id": "cmvovm2iw234ebjub8maeupfy",
+      "url": "https://soundza.com/sound/jump-into-water-02",
+      "title": "Jump Into Water",
+      "description": "A person diving from a height into a lake, captured with natural recording clarity. A sharp impact followed by churning water and splashing, useful for action sequences involving water entry.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat",
+        "transition",
+        "reveal"
+      ],
+      "duration": 7.73,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "splash",
+        "water",
+        "jump",
+        "impact",
+        "foley",
+        "outdoor"
+      ],
+      "sync_ms": 750,
+      "lufs": -21.5,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14,
+        "basis": "momentary_max"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2046248,
+      "category": {
+        "id": "WATRSplsh",
+        "label": "Water › Splash"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eLd9B6AmRL0oGL6Ld9uJdZCC.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvovm2iw234ebjub8maeupfy/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Jump Into Water\" on Soundza (https://soundza.com/sound/jump-into-water-02)",
+      "matched_words": [
+        "water"
+      ]
+    },
+    {
+      "id": "cmv0gp83000a006i9u6j9hhfe",
+      "url": "https://soundza.com/sound/tap-water-1",
+      "title": "Tap Water 1",
+      "description": "Water running from a tap with gentle splashing and dripping sounds. Useful for domestic scenes, kitchens, or bathroom ambiences.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "footsteps",
+        "background_bed",
+        "ui_click"
+      ],
+      "duration": 11.71,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -18,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3098980,
+      "category": {
+        "id": "WATRPour",
+        "label": "Water › Pour"
+      },
+      "pack": {
+        "id": "eg4138htoikbvx691x0x13fa",
+        "name": "Game Foley & UI Sounds",
+        "slug": "game-foley-and-ui-sounds",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/game-foley-and-ui-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Xop1PcBiUEGxH76qshCNlWhb.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gp83000a006i9u6j9hhfe/file?search_id=s62kekr5g6x1top1utvwssew",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Tap Water 1\" on Soundza (https://soundza.com/sound/tap-water-1)",
+      "matched_words": [
+        "water"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "ferry ride onboard water",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: I'm looking for the sound of a ferry ride on the water. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"ferry ride onboard water\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "s62kekr5g6x1top1utvwssew"
+}

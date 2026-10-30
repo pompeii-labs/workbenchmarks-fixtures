@@ -1,0 +1,3550 @@
+{
+  "query": {
+    "q": "success achievement jingle",
+    "max_duration": "6",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 280,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=success+achievement+jingle&max_duration=6&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmvcmglyb2ober4qol7ms50a9",
+      "url": "https://soundza.com/sound/uplifting-success-stinger",
+      "title": "Uplifting Success Stinger",
+      "description": "A bright, optimistic synthesized fanfare with a rising melodic phrase that lands on a triumphant chord. Perfect for game victories, level completions, or achievement notifications.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_power_up",
+        "impact_on_beat"
+      ],
+      "duration": 3.3,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "bright",
+        "synth",
+        "game"
+      ],
+      "sync_ms": 167,
+      "lufs": -16.1,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -16.1,
+        "basis": "integrated"
+      },
+      "gain_db": 0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 872544,
+      "category": null,
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/yXwWTMff7KOgbqVLmcEzj8ne.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmglyb2ober4qol7ms50a9/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Uplifting Success Stinger\" on Soundza (https://soundza.com/sound/uplifting-success-stinger)",
+      "matched_words": [
+        "success",
+        "achievement"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lt06l4e19kshe4",
+      "url": "https://soundza.com/sound/hit-jingle-14",
+      "title": "Hit Jingle 14",
+      "description": "A brief, bright musical stinger designed for game victory moments. Perfect for marking successful gameplay, level completion, or winning scenarios in games and interactive media.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -15,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 77598,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cURjIZxvDdViAk95UOKoCq41.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lt06l4e19kshe4/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 14\" on Soundza (https://soundza.com/sound/hit-jingle-14)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mg06l4u73u9vzk",
+      "url": "https://soundza.com/sound/pizzicato-jingle-3",
+      "title": "Pizzicato Jingle 3",
+      "description": "A bright, cheerful short jingle with a playful melody, designed as a win or success fanfare for games. Perfect as a quick audio reward or game state indicator.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.4,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -12.4,
+        "basis": "integrated"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 252968,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/xbud5zbH_QlfWuxNfNMk03q8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mg06l4u73u9vzk/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 3\" on Soundza (https://soundza.com/sound/pizzicato-jingle-3)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01nn06l43h4vac5d",
+      "url": "https://soundza.com/sound/steel-drum-jingle-12",
+      "title": "Steel Drum Jingle 12",
+      "description": "A quick, cheerful synthetic jingle with a rising melodic flourish, designed to reward player success in games. Perfect for victory or level-complete moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "stab",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 218420,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/UAM1uldQaJkChW7Ee7C_LuDO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nn06l43h4vac5d/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 12\" on Soundza (https://soundza.com/sound/steel-drum-jingle-12)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmvcmgrvo7jkug0wqmz1zitf6",
+      "url": "https://soundza.com/sound/success-fanfare",
+      "title": "Success Fanfare",
+      "description": "A triumphant brass fanfare with a bright, ascending melodic arc. Perfect for game level completion, victory moments, or notification alerts.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 4.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "brass",
+        "game",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -16,
+      "true_peak_db": -5.6,
+      "loudness": {
+        "value": -16,
+        "basis": "integrated"
+      },
+      "gain_db": 0,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1174238,
+      "category": null,
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hWUr0IkfSz7k6gBvj2YCK7tK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmgrvo7jkug0wqmz1zitf6/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Success Fanfare\" on Soundza (https://soundza.com/sound/success-fanfare)",
+      "matched_words": [
+        "success"
+      ]
+    },
+    {
+      "id": "cmv1ddeu8001u06l8hdsoyyam",
+      "url": "https://soundza.com/sound/apple-cider-failure-sting",
+      "title": "Apple Cider: Failure Sting",
+      "description": "A short, gentle electronic fanfare with warm synth chords and a melancholic, whimsical character. Designed as a lighthearted \"failure\" or \"wrong answer\" stinger for puzzle games and cozy-themed video content.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_hit",
+        "title_or_logo"
+      ],
+      "duration": 5.41,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "synth",
+        "game",
+        "sting",
+        "jingle"
+      ],
+      "sync_ms": 312,
+      "lufs": -15.6,
+      "true_peak_db": -0.3,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1430572,
+      "category": null,
+      "pack": {
+        "id": "cmv1d8ke3001706l8v8wzi5g0",
+        "name": "Cozy & Puzzle Music",
+        "slug": "cozy-and-puzzle-music",
+        "sound_count": 30,
+        "url": "https://soundza.com/packs/cozy-and-puzzle-music"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eOcFmvc3bbZGTNaWo2prZdNP.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1ddeu8001u06l8hdsoyyam/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Apple Cider: Failure Sting\" on Soundza (https://soundza.com/sound/apple-cider-failure-sting)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv1ch98a000106l2iggye0d5",
+      "url": "https://soundza.com/sound/victory-fanfare-sting",
+      "title": "Victory Fanfare Sting",
+      "description": "A bright, upbeat chiptune fanfare with synthetic square-wave melodies and a triumphant character. Perfect for game victories, level completions, or retro menu screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 4.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "retro",
+        "game",
+        "sting",
+        "jingle"
+      ],
+      "sync_ms": null,
+      "lufs": -21.1,
+      "true_peak_db": -10.7,
+      "loudness": {
+        "value": -21.1,
+        "basis": "integrated"
+      },
+      "gain_db": 5.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 645696,
+      "category": null,
+      "pack": {
+        "id": "cmv1ch975000006l2168st70a",
+        "name": "Menu, Victory & Game Over Music",
+        "slug": "menu-victory-and-game-over-music",
+        "sound_count": 10,
+        "url": "https://soundza.com/packs/menu-victory-and-game-over-music"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/cZZ-zx1QCy2ttVaKGSJ2Edc5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1ch98a000106l2iggye0d5/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Victory Fanfare Sting\" on Soundza (https://soundza.com/sound/victory-fanfare-sting)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5mluqr001o06l4w2hs1u1f",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-win-sting",
+      "title": "Poupi's Incredible Adventures: Win Sting",
+      "description": "A bright, energetic synthesizer stinger that announces victory or success in a game. Perfect for win screens, level completion fanfares, or triumphant moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 1.67,
+      "bpm": null,
+      "key": "C major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "synth",
+        "bright",
+        "game",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -23.6,
+      "true_peak_db": -8.2,
+      "loudness": {
+        "value": -23.6,
+        "basis": "integrated"
+      },
+      "gain_db": 7.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 442474,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mfOgLAzX8xpBuh11L-QR88Ot.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr001o06l4w2hs1u1f/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: Win Sting\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-win-sting)",
+      "matched_words": [
+        "success"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lo06l4cg397083",
+      "url": "https://soundza.com/sound/hit-jingle-9",
+      "title": "Hit Jingle 9",
+      "description": "A bright, punchy musical stinger designed for game victory moments. Perfect for signaling successful completion or winning scenarios in games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 75252,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/_NoQ2F18CV9OYi8NpfRo8dD4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lo06l4cg397083/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 9\" on Soundza (https://soundza.com/sound/hit-jingle-9)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01m806l4su9luzi3",
+      "url": "https://soundza.com/sound/nes-jingle-12",
+      "title": "NES Jingle 12",
+      "description": "A bright, chiptune-style victory fanfare with digital synthesizer tones. Perfect for game level completion or success moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "impact_on_beat"
+      ],
+      "duration": 0.83,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "synth",
+        "lo-fi"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 220896,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/-laCyRaE-H03npkiDHbfT7Bz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m806l4su9luzi3/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 12\" on Soundza (https://soundza.com/sound/nes-jingle-12)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmvcmks509aru9rrvw4i06rw2",
+      "url": "https://soundza.com/sound/retro-8-bit-victory-stinger",
+      "title": "Retro 8-bit Victory Stinger",
+      "description": "A bright, ascending chiptune flourish made with classic 8-bit synthesis, perfect for celebrating wins, achievements, or level completions in games and applications.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "game_power_up",
+        "title_or_logo",
+        "notification"
+      ],
+      "duration": 2.02,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "retro",
+        "synth"
+      ],
+      "sync_ms": null,
+      "lufs": -19.4,
+      "true_peak_db": -1.1,
+      "loudness": {
+        "value": -19.4,
+        "basis": "integrated"
+      },
+      "gain_db": 0.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 267338,
+      "category": null,
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/w20pamu3TRQ1o5AMKesf5OUI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmks509aru9rrvw4i06rw2/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Retro 8-bit Victory Stinger\" on Soundza (https://soundza.com/sound/retro-8-bit-victory-stinger)",
+      "matched_words": [
+        "achievement"
+      ]
+    },
+    {
+      "id": "cmv5n88du01nf06l45oat48g4",
+      "url": "https://soundza.com/sound/steel-drum-jingle-4",
+      "title": "Steel Drum Jingle 4",
+      "description": "A bright, metallic synthesized stinger with a rising melodic phrase, designed as a short winning fanfare for game events. Works well as a success or level-complete cue.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "impact_on_beat"
+      ],
+      "duration": 1.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -11,
+      "true_peak_db": -1.4,
+      "loudness": {
+        "value": -11,
+        "basis": "integrated"
+      },
+      "gain_db": -5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 367148,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/ebyNZqUcqWNpcb3JXVSRxYXO.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01nf06l45oat48g4/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 4\" on Soundza (https://soundza.com/sound/steel-drum-jingle-4)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01ng06l4xyy7b0ql",
+      "url": "https://soundza.com/sound/steel-drum-jingle-5",
+      "title": "Steel Drum Jingle 5",
+      "description": "A bright, metallic chime sequence that signals victory or success in a game. Short and punchy, perfect for level completion or win screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "melodic",
+        "bright",
+        "metal"
+      ],
+      "sync_ms": 138,
+      "lufs": -15.5,
+      "true_peak_db": -1.5,
+      "loudness": {
+        "value": -15.5,
+        "basis": "integrated"
+      },
+      "gain_db": -0.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 240572,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/a7mEzYXOxTwvcLvLbsfNEMIa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ng06l4xyy7b0ql/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 5\" on Soundza (https://soundza.com/sound/steel-drum-jingle-5)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmvcmhgv2r3qx2iidtxm08cxx",
+      "url": "https://soundza.com/sound/8-bit-correct-answer",
+      "title": "8-bit Correct Answer",
+      "description": "A bright, cheerful chiptune fanfare with major-third harmonies that announces success or confirmation. Perfect for game notifications, UI feedback, or retro-style victory stings.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "title_or_logo"
+      ],
+      "duration": 0.81,
+      "bpm": null,
+      "key": "A major",
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "arcade",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -8,
+      "true_peak_db": 0.2,
+      "loudness": {
+        "value": -8,
+        "basis": "integrated"
+      },
+      "gain_db": -8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 107160,
+      "category": null,
+      "pack": {
+        "id": "xc1jjbv08eqvl7thl5ly2glx",
+        "name": "Stream Alert Sound Effects — Alert Chimes, Donation Jingles, Coins & Level Ups",
+        "slug": "stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups",
+        "sound_count": 35,
+        "url": "https://soundza.com/packs/stream-alert-sound-effects-alert-chimes-donation-jingles-coins-and-level-ups"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/O8hhLduQp0vttcV0n3m1Zjdx.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvcmhgv2r3qx2iidtxm08cxx/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"8-bit Correct Answer\" on Soundza (https://soundza.com/sound/8-bit-correct-answer)",
+      "matched_words": [
+        "success"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01m106l4zqdytc96",
+      "url": "https://soundza.com/sound/nes-jingle-5",
+      "title": "NES Jingle 5",
+      "description": "A short, bright chiptune fanfare celebrating victory in a retro video game. Perfect for level completions, achievements, or winning screens.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.6,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -10.3,
+      "true_peak_db": -4.7,
+      "loudness": {
+        "value": -10.3,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 159816,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R_0ifS2kzYJuSPr47XPwYlkL.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m106l4zqdytc96/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 5\" on Soundza (https://soundza.com/sound/nes-jingle-5)",
+      "matched_words": [
+        "achievement",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mu06l4k6ivm8ci",
+      "url": "https://soundza.com/sound/pizzicato-jingle-17",
+      "title": "Pizzicato Jingle 17",
+      "description": "A short, bright 8-bit style game jingle ideal for victory or success moments in casual games. Perfect for quick audio feedback in fast-paced gameplay.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.46,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "8-bit",
+        "retro",
+        "ui"
+      ],
+      "sync_ms": 82,
+      "lufs": -15.7,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -15.7,
+        "basis": "integrated"
+      },
+      "gain_db": -0.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 122204,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aS7ewHOYs6oW_9wdtK8xltOe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mu06l4k6ivm8ci/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 17\" on Soundza (https://soundza.com/sound/pizzicato-jingle-17)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01ma06l4wjr7iujw",
+      "url": "https://soundza.com/sound/nes-jingle-14",
+      "title": "NES Jingle 14",
+      "description": "A bright, chiptune-style victory fanfare using simple synth tones. Perfect for game level completion or success states.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 1.05,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": "C#3",
+      "mood": [
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "synth",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 277272,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/YOcyPy90-DYWJohFDn6nFq9p.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01ma06l4wjr7iujw/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 14\" on Soundza (https://soundza.com/sound/nes-jingle-14)",
+      "matched_words": [
+        "success",
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01ln06l48w78sihw",
+      "url": "https://soundza.com/sound/hit-jingle-8",
+      "title": "Hit Jingle 8",
+      "description": "A brief, punchy musical jingle designed for game events. Works as a win, lose, or transition stinger in video game scenarios.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "impact_on_beat"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4.4,
+      "loudness": {
+        "value": -15.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 75252,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/w3hFiDNVqioZ36sS-qUI1eKG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01ln06l48w78sihw/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 8\" on Soundza (https://soundza.com/sound/hit-jingle-8)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lp06l47d0vmhoq",
+      "url": "https://soundza.com/sound/hit-jingle-10",
+      "title": "Hit Jingle 10",
+      "description": "A bright, concise musical jingle lasting under one second, designed for game events like winning, losing, or level completion. Suitable for UI feedback and game state transitions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "ui",
+        "notification",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -12.8,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -12.8,
+        "basis": "integrated"
+      },
+      "gain_db": -3.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 197406,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dPuYh6J4adGe6wC67fgE7e-K.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lp06l47d0vmhoq/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 10\" on Soundza (https://soundza.com/sound/hit-jingle-10)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mh06l44or7fi8e",
+      "url": "https://soundza.com/sound/pizzicato-jingle-4",
+      "title": "Pizzicato Jingle 4",
+      "description": "A bright, cheerful synthetic jingle with a playful ascending melody, perfect for game victory moments or short positive notifications.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 1.15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -10.8,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -10.8,
+        "basis": "integrated"
+      },
+      "gain_db": -5.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 303542,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XeD7EGOUpIgfihVPJPdhoSS6.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mh06l44or7fi8e/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 4\" on Soundza (https://soundza.com/sound/pizzicato-jingle-4)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mi06l48ziz0mki",
+      "url": "https://soundza.com/sound/pizzicato-jingle-5",
+      "title": "Pizzicato Jingle 5",
+      "description": "A short, cheerful synth jingle with a pizzicato or bouncy character, designed as a game asset for quick musical punctuation like wins or menu moments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.56,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "synth",
+        "bright",
+        "game",
+        "8-bit"
+      ],
+      "sync_ms": 134,
+      "lufs": -14.9,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -14.9,
+        "basis": "integrated"
+      },
+      "gain_db": -1.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 149348,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tgZbiOqRUCo3n_yIsdze9-py.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mi06l48ziz0mki/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 5\" on Soundza (https://soundza.com/sound/pizzicato-jingle-5)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mk06l4q0ept2bp",
+      "url": "https://soundza.com/sound/pizzicato-jingle-7",
+      "title": "Pizzicato Jingle 7",
+      "description": "A short, uplifting synth jingle with a cheerful melodic phrase, perfect for game notifications or win scenarios. Bright and punchy, ideal for quick transitions and UI feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "notification",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.7,
+        "basis": "integrated"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 182648,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wUPjFa6VqsqK0sbt8p1L0olT.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mk06l4q0ept2bp/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 7\" on Soundza (https://soundza.com/sound/pizzicato-jingle-7)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01ml06l4bynhqnyu",
+      "url": "https://soundza.com/sound/pizzicato-jingle-8",
+      "title": "Pizzicato Jingle 8",
+      "description": "A short, bright jingle suitable for game menus, item pickups, or victory moments. Playful and cheerful with simple melodic elements.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 1.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "8-bit",
+        "bright",
+        "stab",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -5.7,
+      "loudness": {
+        "value": -14.4,
+        "basis": "integrated"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 350420,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/OT9s5oCRKrp5KlPkC77OpawQ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01ml06l4bynhqnyu/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 8\" on Soundza (https://soundza.com/sound/pizzicato-jingle-8)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mr06l4gm1vhp8d",
+      "url": "https://soundza.com/sound/pizzicato-jingle-14",
+      "title": "Pizzicato Jingle 14",
+      "description": "A short, bright musical jingle suitable for game events like winning, losing, or level transitions. Works well as a UI accent or reward sound in casual games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "one-shot",
+        "arcade",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -6.2,
+      "loudness": {
+        "value": -14.4,
+        "basis": "integrated"
+      },
+      "gain_db": -1.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 233228,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BrGMkhd9eGzg0eXH7-qeEqQ_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mr06l4gm1vhp8d/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 14\" on Soundza (https://soundza.com/sound/pizzicato-jingle-14)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01ne06l4qvsr6b4a",
+      "url": "https://soundza.com/sound/steel-drum-jingle-3",
+      "title": "Steel Drum Jingle 3",
+      "description": "A bright, metallic synthetic jingle lasting just over a second, designed for game events like wins, losses, or level transitions. Perfect for arcade-style or casual game feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 1.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "notification"
+      ],
+      "sync_ms": null,
+      "lufs": -11.6,
+      "true_peak_db": -0.8,
+      "loudness": {
+        "value": -11.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 367148,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NzyH1vmtYJF2l5z0vHlavRHR.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ne06l4qvsr6b4a/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Steel Drum Jingle 3\" on Soundza (https://soundza.com/sound/steel-drum-jingle-3)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lu06l4s6citcpq",
+      "url": "https://soundza.com/sound/hit-jingle-15",
+      "title": "Hit Jingle 15",
+      "description": "A short, punchy stinger designed as a game event sound, likely for winning, losing, or level completion in a game context.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "impact_on_beat",
+        "game_pickup"
+      ],
+      "duration": 0.42,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "impact",
+        "bright",
+        "electronic"
+      ],
+      "sync_ms": null,
+      "lufs": -13.1,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -13.1,
+        "basis": "integrated"
+      },
+      "gain_db": -2.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 110484,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/44KmbtM4ItcuMkz6vHw5saJ2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lu06l4s6citcpq/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 15\" on Soundza (https://soundza.com/sound/hit-jingle-15)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lh06l4nxbho2ei",
+      "url": "https://soundza.com/sound/hit-jingle-2",
+      "title": "Hit Jingle 2",
+      "description": "A short, punchy musical stinger designed as a game notification or event trigger. Works as a win, lose, or status update accent in game interfaces.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.51,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "notification",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.7,
+        "basis": "integrated"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 133980,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mu1tLgsM28Yz_PWClfJHO068.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lh06l4nxbho2ei/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 2\" on Soundza (https://soundza.com/sound/hit-jingle-2)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lj06l4af0tkoit",
+      "url": "https://soundza.com/sound/hit-jingle-4",
+      "title": "Hit Jingle 4",
+      "description": "A bright, short synthesizer stinger with a rising melodic phrase that signals victory in a game. Perfect for win screens and positive game feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_power_up",
+        "notification"
+      ],
+      "duration": 0.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -13.4,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -13.4,
+        "basis": "integrated"
+      },
+      "gain_db": -2.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 197400,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/SGaO-snnGoi2PzxcdS6RCvns.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lj06l4af0tkoit/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 4\" on Soundza (https://soundza.com/sound/hit-jingle-4)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lk06l48o5q5ulg",
+      "url": "https://soundza.com/sound/hit-jingle-5",
+      "title": "Hit Jingle 5",
+      "description": "A brief, uplifting musical phrase designed as a game asset. Works as a win, loss, or transition cue in game environments.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo",
+        "impact_on_beat"
+      ],
+      "duration": 0.64,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "bright",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": -15.2,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -15.2,
+        "basis": "integrated"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 169218,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2A9mmlA3JinOZFWFo3xECAif.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lk06l48o5q5ulg/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 5\" on Soundza (https://soundza.com/sound/hit-jingle-5)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lq06l4ldrm570g",
+      "url": "https://soundza.com/sound/hit-jingle-11",
+      "title": "Hit Jingle 11",
+      "description": "A quick, uplifting musical phrase perfect for game events like wins, level completions, or item pickups. Ideal for use as a notification stinger in games and interactive media.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "notification",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -12.7,
+        "basis": "integrated"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 197406,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4mZkLys0BVWXHLrajTo8UOFw.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lq06l4ldrm570g/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 11\" on Soundza (https://soundza.com/sound/hit-jingle-11)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lr06l49qp2dyx6",
+      "url": "https://soundza.com/sound/hit-jingle-12",
+      "title": "Hit Jingle 12",
+      "description": "A short, punchy musical stinger suitable for game events like wins, losses, or level completion. Works as a standalone accent or layered into game music.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_hit",
+        "impact_on_beat"
+      ],
+      "duration": 0.96,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -13.2,
+      "true_peak_db": -3.9,
+      "loudness": {
+        "value": -13.2,
+        "basis": "integrated"
+      },
+      "gain_db": -2.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 253782,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/XK0vSAbychbkOZwhJkvi0Pm9.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lr06l49qp2dyx6/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 12\" on Soundza (https://soundza.com/sound/hit-jingle-12)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01ls06l4tpyo1aww",
+      "url": "https://soundza.com/sound/hit-jingle-13",
+      "title": "Hit Jingle 13",
+      "description": "A bright, punchy musical phrase lasting under a third of a second, designed as a quick win or transition stinger for games. Perfect for level completion, collectibles, or menu navigation.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "punchy",
+        "transition"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4,
+      "loudness": {
+        "value": -14.9,
+        "basis": "momentary_max"
+      },
+      "gain_db": 2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 72900,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3oQQUlZuCiiLxMxNAx9e6Aqp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01ls06l4tpyo1aww/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 13\" on Soundza (https://soundza.com/sound/hit-jingle-13)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lv06l4k0tm5hrz",
+      "url": "https://soundza.com/sound/hit-jingle-16",
+      "title": "Hit Jingle 16",
+      "description": "A brief, uplifting musical phrase designed as a game audio asset. Works well as a win, loss, or UI feedback sound in games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 1.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "bright",
+        "arcade"
+      ],
+      "sync_ms": null,
+      "lufs": -15.5,
+      "true_peak_db": -4.1,
+      "loudness": {
+        "value": -15.5,
+        "basis": "integrated"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 307812,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0TAptGV0UqcuCyRcn2SQNgl_.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lv06l4k0tm5hrz/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 16\" on Soundza (https://soundza.com/sound/hit-jingle-16)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lw06l43b2or1xa",
+      "url": "https://soundza.com/sound/hit-jingle-17",
+      "title": "Hit Jingle 17",
+      "description": "A brief, punchy musical phrase designed for game notifications. Perfect for win, lose, or status change moments in interactive media.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_hit",
+        "title_or_logo"
+      ],
+      "duration": 0.29,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "notification",
+        "8-bit",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -14.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": 1.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 77598,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/j9VNruR6mjlZ5vwB0K7BEBu7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lw06l43b2or1xa/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Hit Jingle 17\" on Soundza (https://soundza.com/sound/hit-jingle-17)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01lx06l4usfuiww5",
+      "url": "https://soundza.com/sound/nes-jingle-1",
+      "title": "NES Jingle 1",
+      "description": "A bright, punchy chiptune stinger in the style of classic 8-bit game music, perfect for game transitions and UI feedback.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "title_or_logo"
+      ],
+      "duration": 1.76,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "8-bit",
+        "ui",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -11.2,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -11.2,
+        "basis": "integrated"
+      },
+      "gain_db": -4.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 465204,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RiNhTWOmcsnKwligHUop2yS1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01lx06l4usfuiww5/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 1\" on Soundza (https://soundza.com/sound/nes-jingle-1)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01m206l4aoppz2bt",
+      "url": "https://soundza.com/sound/nes-jingle-6",
+      "title": "NES Jingle 6",
+      "description": "A bright, cheerful chiptune stinger with synthesized tones, perfect for game victory screens or level completion moments. Classic retro video game style.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "synth"
+      ],
+      "sync_ms": null,
+      "lufs": -11.4,
+      "true_peak_db": -4.6,
+      "loudness": {
+        "value": -11.4,
+        "basis": "integrated"
+      },
+      "gain_db": -4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 239688,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/KPcRAbbesTmyYQcs0UIcXvzJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m206l4aoppz2bt/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 6\" on Soundza (https://soundza.com/sound/nes-jingle-6)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01m406l4ormcod79",
+      "url": "https://soundza.com/sound/nes-jingle-8",
+      "title": "NES Jingle 8",
+      "description": "A short, bright chiptune fanfare lasting under a second, perfect for game notifications, level completions, or UI confirmations. The retro 8-bit sound and quick resolution make it ideal for arcade-style games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "notification",
+        "game_pickup",
+        "title_or_logo"
+      ],
+      "duration": 0.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": -10.2,
+      "true_peak_db": -4.7,
+      "loudness": {
+        "value": -10.2,
+        "basis": "integrated"
+      },
+      "gain_db": -5.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 197406,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/c_Ln9gYJ7BK1E6cdNxEU5zhz.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m406l4ormcod79/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 8\" on Soundza (https://soundza.com/sound/nes-jingle-8)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01m906l4f1x7p1rc",
+      "url": "https://soundza.com/sound/nes-jingle-13",
+      "title": "NES Jingle 13",
+      "description": "A short, bright chiptune fanfare with synthetic bleeps and bloops, perfect for game victory screens or level completion.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.85,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "synth",
+        "bright",
+        "one-shot"
+      ],
+      "sync_ms": null,
+      "lufs": -10.3,
+      "true_peak_db": -4.3,
+      "loudness": {
+        "value": -10.3,
+        "basis": "integrated"
+      },
+      "gain_db": -5.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 225594,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/re5k2lhIH-UqKzCcazqF36vI.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01m906l4f1x7p1rc/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 13\" on Soundza (https://soundza.com/sound/nes-jingle-13)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mb06l41hnqy79g",
+      "url": "https://soundza.com/sound/nes-jingle-15",
+      "title": "NES Jingle 15",
+      "description": "A bright, punchy synthesized fanfare with a classic 8-bit video game character. Perfect for victory moments and level completion in retro-styled games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.37,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "retro"
+      ],
+      "tags": [
+        "8-bit",
+        "game",
+        "bright",
+        "synth",
+        "retro"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": -0.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 98742,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/GgvUUTCb2uZkMo9UPhms74WG.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mb06l41hnqy79g/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 15\" on Soundza (https://soundza.com/sound/nes-jingle-15)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mc06l44pdav27p",
+      "url": "https://soundza.com/sound/nes-jingle-16",
+      "title": "NES Jingle 16",
+      "description": "A bright, short chiptune-style fanfare with synthetic tones, perfect for game victory or win scenarios. Cheerful 8-bit character captures classic NES-era game aesthetics.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.43,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "8-bit",
+        "retro",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.4,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -12.4,
+        "basis": "integrated"
+      },
+      "gain_db": -3.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 112836,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/4lik79DeK2C2N-a1OZy0rCrZ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mc06l44pdav27p/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"NES Jingle 16\" on Soundza (https://soundza.com/sound/nes-jingle-16)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01me06l4eer5mg4g",
+      "url": "https://soundza.com/sound/pizzicato-jingle-1",
+      "title": "Pizzicato Jingle 1",
+      "description": "A brief, punchy musical phrase designed for game events. Works as a win, lose, or transition cue in games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "one-shot",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -15,
+      "true_peak_db": -6.1,
+      "loudness": {
+        "value": -15,
+        "basis": "integrated"
+      },
+      "gain_db": -1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 130838,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/fEpSPFFnC7bW_iwZJU0C56xE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01me06l4eer5mg4g/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 1\" on Soundza (https://soundza.com/sound/pizzicato-jingle-1)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mf06l4k23rlwev",
+      "url": "https://soundza.com/sound/pizzicato-jingle-2",
+      "title": "Pizzicato Jingle 2",
+      "description": "A bright, cheerful short stinger with synthesized tones, perfect for signaling a game win or menu selection. Ideal for pizza-themed or casual mobile games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 1,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "synth",
+        "bright",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": -5.1,
+      "loudness": {
+        "value": -12.1,
+        "basis": "integrated"
+      },
+      "gain_db": -3.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 265304,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tuRXKEToNk_0sZELDebUN4Pk.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mf06l4k23rlwev/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 2\" on Soundza (https://soundza.com/sound/pizzicato-jingle-2)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mm06l4axbx8xxm",
+      "url": "https://soundza.com/sound/pizzicato-jingle-9",
+      "title": "Pizzicato Jingle 9",
+      "description": "A short, bright stinger perfect for game events like wins, losses, or level transitions. Playful and energetic with a classic arcade feel.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "bright",
+        "arcade",
+        "8-bit"
+      ],
+      "sync_ms": 157,
+      "lufs": -15.2,
+      "true_peak_db": -4.8,
+      "loudness": {
+        "value": -15.2,
+        "basis": "integrated"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 150578,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7IFUDJl6sQ8cPZhbWJR2FPk-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mm06l4axbx8xxm/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 9\" on Soundza (https://soundza.com/sound/pizzicato-jingle-9)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88dt01mn06l4stibj8oj",
+      "url": "https://soundza.com/sound/pizzicato-jingle-10",
+      "title": "Pizzicato Jingle 10",
+      "description": "A short, cheerful musical phrase designed for game menus or UI interactions. Perfect for winning moments or level completion scenarios.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "ui"
+      ],
+      "sync_ms": 142,
+      "lufs": -15.1,
+      "true_peak_db": -5,
+      "loudness": {
+        "value": -15.1,
+        "basis": "integrated"
+      },
+      "gain_db": -0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 150578,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6eLyRd0B-uP-MgxsAFVfBte5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88dt01mn06l4stibj8oj/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 10\" on Soundza (https://soundza.com/sound/pizzicato-jingle-10)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mp06l4v5lk717z",
+      "url": "https://soundza.com/sound/pizzicato-jingle-12",
+      "title": "Pizzicato Jingle 12",
+      "description": "A short, bright stinger designed for game notifications and victory moments. Quick and punchy with a playful character.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_pickup"
+      ],
+      "duration": 0.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -12.7,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.7,
+        "basis": "integrated"
+      },
+      "gain_db": -3.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 209786,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6vAXisAM2uuVup1YiR4PDVjE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mp06l4v5lk717z/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 12\" on Soundza (https://soundza.com/sound/pizzicato-jingle-12)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mq06l4kyha0b8o",
+      "url": "https://soundza.com/sound/pizzicato-jingle-13",
+      "title": "Pizzicato Jingle 13",
+      "description": "A quick, upbeat musical phrase designed as a game stinger or transition. Ideal for marking wins, losses, or menu interactions in games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "impact_on_beat"
+      ],
+      "duration": 0.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.2,
+      "true_peak_db": -4.2,
+      "loudness": {
+        "value": -12.2,
+        "basis": "integrated"
+      },
+      "gain_db": -3.8,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 262838,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6S9_s_isiRubdV9i94PsSOIE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mq06l4kyha0b8o/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 13\" on Soundza (https://soundza.com/sound/pizzicato-jingle-13)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01ms06l45a71vays",
+      "url": "https://soundza.com/sound/pizzicato-jingle-15",
+      "title": "Pizzicato Jingle 15",
+      "description": "A bright, upbeat stinger with synth tones that completes quickly, perfect for game events like scoring points or winning rounds.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "retro",
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "retro",
+        "synth",
+        "bright",
+        "8-bit"
+      ],
+      "sync_ms": null,
+      "lufs": -12,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -12,
+        "basis": "integrated"
+      },
+      "gain_db": -4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 244328,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/41gL-qotGvNSV6Z7uEPfeTi7.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01ms06l45a71vays/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 15\" on Soundza (https://soundza.com/sound/pizzicato-jingle-15)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mt06l4hto8cfyb",
+      "url": "https://soundza.com/sound/pizzicato-jingle-16",
+      "title": "Pizzicato Jingle 16",
+      "description": "A short, energetic musical phrase for game victory or completion, designed for rapid playback in game scenarios. Bright and celebratory in character.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup",
+        "notification"
+      ],
+      "duration": 0.81,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -12.5,
+      "true_peak_db": -3.6,
+      "loudness": {
+        "value": -12.5,
+        "basis": "integrated"
+      },
+      "gain_db": -3.5,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 214724,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/E-R-6fmi6yEzFpt2VPIsCp0j.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mt06l4hto8cfyb/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Pizzicato Jingle 16\" on Soundza (https://soundza.com/sound/pizzicato-jingle-16)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01mv06l44f0xnr3s",
+      "url": "https://soundza.com/sound/sax-jingle-1",
+      "title": "Sax Jingle 1",
+      "description": "A bright, punchy saxophone phrase lasting under half a second, designed as a game stinger or transition accent. Perfect for notifications, level transitions, or UI feedback in games.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "ui_click"
+      ],
+      "duration": 0.39,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright",
+        "punchy"
+      ],
+      "tags": [
+        "stab",
+        "game",
+        "bright",
+        "punchy",
+        "ui"
+      ],
+      "sync_ms": null,
+      "lufs": null,
+      "true_peak_db": -10.2,
+      "loudness": {
+        "value": -17.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 103440,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/R8p6OyxkIGGtHRTrkL94Oh8K.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01mv06l44f0xnr3s/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sax Jingle 1\" on Soundza (https://soundza.com/sound/sax-jingle-1)",
+      "matched_words": [
+        "jingle"
+      ]
+    },
+    {
+      "id": "cmv5n88du01n606l4vpwwbgx9",
+      "url": "https://soundza.com/sound/sax-jingle-12",
+      "title": "Sax Jingle 12",
+      "description": "A short, cheerful saxophone fanfare lasting under a second. Perfect for game UI feedback, win screens, or level transitions.",
+      "type": "music",
+      "form": "one_shot",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "notification",
+        "game_hit"
+      ],
+      "duration": 0.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "bright"
+      ],
+      "tags": [
+        "game",
+        "bright"
+      ],
+      "sync_ms": null,
+      "lufs": -16.2,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -16.2,
+        "basis": "integrated"
+      },
+      "gain_db": 0.2,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 164514,
+      "category": null,
+      "pack": {
+        "id": "cmv5n88bd01lf06l48lrvumz3",
+        "name": "Short Game Jingles",
+        "slug": "short-game-jingles",
+        "sound_count": 85,
+        "url": "https://soundza.com/packs/short-game-jingles"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Jg8Hkg1LG1WiFhGjoolBoG6X.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5n88du01n606l4vpwwbgx9/file?search_id=if1p7dcbsfftjyciaa3ygqqk",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sax Jingle 12\" on Soundza (https://soundza.com/sound/sax-jingle-12)",
+      "matched_words": [
+        "jingle"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "music",
+    "query": "success achievement jingle",
+    "form": "one_shot",
+    "parts": "full_mix",
+    "vocals": null,
+    "mood": [
+      "upbeat"
+    ],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": 6,
+    "style": null,
+    "good_for": [
+      "title_or_logo"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: A short, upbeat music jingle for success or achievement. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"success achievement jingle\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "if1p7dcbsfftjyciaa3ygqqk"
+}

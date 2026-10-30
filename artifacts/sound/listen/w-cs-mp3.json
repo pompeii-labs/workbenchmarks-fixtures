@@ -1,0 +1,16 @@
+{
+  "file": "scratch/w-cs.mp3",
+  "sha": "629e0a936ae1201b",
+  "want": "a rider thrown off a jet ski and crashing into the sea at speed: a big heavy violent body splash with spray and churning water after",
+  "model": "xiaomi/mimo-v2.6-pro",
+  "fits": [
+    3,
+    2,
+    2
+  ],
+  "fit": 2,
+  "heard": "A quick, crisp water slap followed immediately by gurgling bubbles and a thin, calm tail of lapping and small drips. The impact is modest in size — like a bowling ball or small rock dropped into a pool or tub from waist height. It is close-miked with almost no environmental space or low-end weight, and the tail settles into gentle sloshing and a few drips within a couple of seconds.",
+  "sounds_like": "A large rock or bucket of water dropped into a swimming pool",
+  "problems": "Far too small and polite for the brief. There is no body-sized impact weight, no low-frequency thump, no velocity or violence, and no spray layer at all. The tail is soft gurgling and lapping rather than churning, frothing water — it dies away almost immediately instead of continuing to thrash. Also lacks any ocean context (no surf, no wave wash, no sense of open water). Would need to be pitched down, layered with a heavy low-end impact and a big spray/skitter layer, and given a long chaotic churn tail to come close.",
+  "veto": true
+}

@@ -1,0 +1,3311 @@
+{
+  "query": {
+    "q": "sailing boat at sea",
+    "per_page": "50"
+  },
+  "page": 1,
+  "per_page": 50,
+  "total_results": 321,
+  "next_page": "https://api.soundza.com/v1/sounds/search?q=sailing+boat+at+sea&page=2&per_page=50",
+  "sounds": [
+    {
+      "id": "cmv5t3sch009n06jusx9ixtqy",
+      "url": "https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro",
+      "title": "Waves and Distant Small Boat Perast Montenegro",
+      "description": "Ocean waves lap against the shore with a gentle, rhythmic motion, while a small boat engine hums faintly in the distance. The layered water sounds create a peaceful seaside ambience suitable for travel scenes or coastal backdrops.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 150.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "distant",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -30.8,
+      "true_peak_db": -5.5,
+      "loudness": {
+        "value": -30.8,
+        "basis": "integrated"
+      },
+      "gain_db": 4.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 39920368,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/lmcC9GLsXR2Xp6UdJCr78jFe.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5t3sch009n06jusx9ixtqy/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Waves and Distant Small Boat Perast Montenegro\" on Soundza (https://soundza.com/sound/waves-and-distant-small-boat-perast-montenegro)",
+      "matched_words": [
+        "boat",
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmukg811ecno05cap87fqne2x",
+      "url": "https://soundza.com/sound/sea-cave-ambience",
+      "title": "Sea Cave Ambience",
+      "description": "A coastal cave filled with the sounds of waves crashing and water dripping, capturing the echoing reverb and moisture of a seaside cavern. Ideal for underwater scenes, dungeon atmospheres, or any location needing a damp, cavernous quality.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 67.49,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "water",
+        "ocean",
+        "ambience",
+        "field-recording",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -32.4,
+      "true_peak_db": -2.6,
+      "loudness": {
+        "value": -32.4,
+        "basis": "integrated"
+      },
+      "gain_db": 1.6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 38873170,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/tv9rYRmfQu_rkYssiynJnoqV.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukg811ecno05cap87fqne2x/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Sea Cave Ambience\" on Soundza (https://soundza.com/sound/sea-cave-ambience)",
+      "matched_words": [
+        "sea",
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmsf1twks001504l4ks13xzqz",
+      "url": "https://soundza.com/sound/beach-waves-ambience",
+      "title": "Beach Waves Ambience",
+      "description": "A layered beach ambience capturing the rhythmic crash and wash of ocean waves with subtle wind textures, creating a natural, spacious soundscape with organic depth and movement.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 297.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "organic",
+        "ambient",
+        "wet",
+        "layered"
+      ],
+      "sync_ms": null,
+      "lufs": -25,
+      "true_peak_db": -5.2,
+      "loudness": {
+        "value": -25,
+        "basis": "integrated"
+      },
+      "gain_db": 4.3,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 85767662,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/LKJz00wDtt6VTfquLgkuGSGa.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmsf1twks001504l4ks13xzqz/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Beach Waves Ambience\" by Sean Joad on Soundza (https://soundza.com/sound/beach-waves-ambience)",
+      "matched_words": [
+        "sea",
+        "ocean",
+        "waves",
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv8zgplvzsnu5apjw4fwf62p",
+      "url": "https://soundza.com/sound/crickets-at-night-ambience",
+      "title": "Crickets At Night Ambience",
+      "description": "The natural sounds of crickets chirping in a garden at night during summer. A clean field recording with background noise removed, ideal for nature scenes or game environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 169,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "insects",
+        "night",
+        "nature",
+        "field-recording",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -26.9,
+      "true_peak_db": -12.5,
+      "loudness": {
+        "value": -26.9,
+        "basis": "integrated"
+      },
+      "gain_db": 6.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 48672710,
+      "category": {
+        "id": "ANMLInsc",
+        "label": "Animals › Insect"
+      },
+      "pack": {
+        "id": "zq8qgsglfw0578x9zictlh3j",
+        "name": "Game Show Sound Effects — Dings, Buzzers, Drum Rolls & Audience Reactions",
+        "slug": "game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions",
+        "sound_count": 50,
+        "url": "https://soundza.com/packs/game-show-sound-effects-dings-buzzers-drum-rolls-and-audience-reactions"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bMirfNSMobaJgMoTCPX-jNF0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8zgplvzsnu5apjw4fwf62p/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Crickets At Night Ambience\" on Soundza (https://soundza.com/sound/crickets-at-night-ambience)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv5supxe00e206l6tevplrq2",
+      "url": "https://soundza.com/sound/national-museum-of-scotland-sitting-at-the-entrance",
+      "title": "National Museum of Scotland Sitting at the Entrance",
+      "description": "The subtle acoustic environment of a museum entrance hall with distant crowd murmur, occasional footsteps, and the ambient hum of a public space. Suitable as a background bed for interior scenes in museums, galleries, or similar institutional settings.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 77.77,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "indoor",
+        "crowd",
+        "distant",
+        "room-tone",
+        "people"
+      ],
+      "sync_ms": null,
+      "lufs": -23.5,
+      "true_peak_db": -4.7,
+      "loudness": {
+        "value": -23.5,
+        "basis": "integrated"
+      },
+      "gain_db": 3.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 44795256,
+      "category": {
+        "id": "AMBPubl",
+        "label": "Ambience › Public Place"
+      },
+      "pack": {
+        "id": "onhaz8jmr95vcv6vf02p5tai",
+        "name": "City Field Recordings Vol 2: Trains, Planes, Cafés and Crowds",
+        "slug": "city-field-recordings-vol-2-trains-planes-and-stations",
+        "sound_count": 58,
+        "url": "https://soundza.com/packs/city-field-recordings-vol-2-trains-planes-and-stations"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/flgDyiISc3JAvVBjJ0jloFZj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5supxe00e206l6tevplrq2/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"National Museum of Scotland Sitting at the Entrance\" on Soundza (https://soundza.com/sound/national-museum-of-scotland-sitting-at-the-entrance)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmukai5wr17g1m7afatdr9q9e",
+      "url": "https://soundza.com/sound/blackbirds-at-dawn-chorus",
+      "title": "Blackbirds at Dawn Chorus",
+      "description": "A serene dawn chorus of mostly blackbirds recorded in the UK countryside at sunrise. Multiple birds sing together in their natural habitat, creating an immersive forest ambience.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 291.28,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "birds",
+        "field-recording",
+        "nature"
+      ],
+      "sync_ms": null,
+      "lufs": -21.9,
+      "true_peak_db": -0.9,
+      "loudness": {
+        "value": -21.9,
+        "basis": "integrated"
+      },
+      "gain_db": -0.1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 77073552,
+      "category": {
+        "id": "AMBBird",
+        "label": "Ambience › Birdsong"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sAraJgePCwhwvRC-aH0co3t4.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukai5wr17g1m7afatdr9q9e/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Blackbirds at Dawn Chorus\" on Soundza (https://soundza.com/sound/blackbirds-at-dawn-chorus)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv5supxe00e506l6g1ojl03r",
+      "url": "https://soundza.com/sound/national-museum-of-scotland-sitting-at-the-entrance-1",
+      "title": "National Museum of Scotland Sitting at the Entrance",
+      "description": "A moderate crowd murmuring with distant footsteps and occasional movement in a museum entrance hall. Suitable for establishing a public indoor space with subtle human activity.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 185.87,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience",
+        "crowd",
+        "indoor",
+        "people",
+        "footsteps"
+      ],
+      "sync_ms": null,
+      "lufs": -21.5,
+      "true_peak_db": -3.8,
+      "loudness": {
+        "value": -21.5,
+        "basis": "integrated"
+      },
+      "gain_db": 1.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 107060084,
+      "category": {
+        "id": "AMBPubl",
+        "label": "Ambience › Public Place"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/EQ2xFFea_fPYFd2jnowH_Cq0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5supxe00e506l6g1ojl03r/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"National Museum of Scotland Sitting at the Entrance\" on Soundza (https://soundza.com/sound/national-museum-of-scotland-sitting-at-the-entrance-1)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv5szuny03b606l66c8nj39k",
+      "url": "https://soundza.com/sound/rain-at-night-light-shower-1-1",
+      "title": "Rain at Night Light Shower 1",
+      "description": "Light rain falling outdoors at night, creating a gentle and calm atmospheric soundscape. Suitable for relaxation, meditation, or as background ambience for night scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 175.79,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "night",
+        "ambience",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -35.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -35.1,
+        "basis": "integrated"
+      },
+      "gain_db": -1,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 101255716,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/igggFg2QL_1WrZIsIXv4V-i8.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5szuny03b606l66c8nj39k/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain at Night Light Shower 1\" on Soundza (https://soundza.com/sound/rain-at-night-light-shower-1-1)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv5szuny03be06l6mtnzmq3d",
+      "url": "https://soundza.com/sound/rain-at-night-light-shower-2-1",
+      "title": "Rain at Night Light Shower 2",
+      "description": "A gentle rainfall recorded outdoors at night, with soft, consistent rain sounds perfect as a continuous background bed for calm or atmospheric scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 218.16,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "night",
+        "ambience",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -35.9,
+      "true_peak_db": -5.4,
+      "loudness": {
+        "value": -35.9,
+        "basis": "integrated"
+      },
+      "gain_db": 4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 125660920,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/JG6tHvGkbFbZ10wI4NoyToYS.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5szuny03be06l6mtnzmq3d/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain at Night Light Shower 2\" on Soundza (https://soundza.com/sound/rain-at-night-light-shower-2-1)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv91lb59icrriw52qu9lmtsm",
+      "url": "https://soundza.com/sound/carolers-at-railway-station",
+      "title": "Carolers at Railway Station",
+      "description": "A choir singing Christmas carols in a high-ceilinged railway station, recorded live with background transit noise and architectural reverb. Authentic field recording suitable for festive or travel scene backgrounds.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 199.17,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "field-recording",
+        "ambience",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": -2.7,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -4.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 52699946,
+      "category": {
+        "id": "AMBTran",
+        "label": "Ambience › Transportation"
+      },
+      "pack": {
+        "id": "dh0fxeecn91l1ey9pn8gtwu7",
+        "name": "Christmas Sound Effects — Sleigh Bells, Santa, Fireplace & More",
+        "slug": "christmas-sound-effects-sleigh-bells-santa-fireplace-and-more",
+        "sound_count": 84,
+        "url": "https://soundza.com/packs/christmas-sound-effects-sleigh-bells-santa-fireplace-and-more"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sARx1DjlhMhVUpyde1E7NWUh.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv91lb59icrriw52qu9lmtsm/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Carolers at Railway Station\" on Soundza (https://soundza.com/sound/carolers-at-railway-station)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv90t9hpv3avnpnuh9mjoe49",
+      "url": "https://soundza.com/sound/ducks-quacking-at-pond",
+      "title": "Ducks Quacking at Pond",
+      "description": "A group of ducks quacking and calling while being fed at a pond. Natural outdoor ambience with multiple duck vocalizations overlapping continuously.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 100.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "animal",
+        "birds",
+        "outdoor",
+        "nature",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -25.5,
+      "true_peak_db": -6.8,
+      "loudness": {
+        "value": -25.5,
+        "basis": "integrated"
+      },
+      "gain_db": 5.5,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 11024,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3307550,
+      "category": {
+        "id": "ANMLAqua",
+        "label": "Animals › Aquatic"
+      },
+      "pack": {
+        "id": "gkvwpt6ak29aa3lmqfybn1t5",
+        "name": "Animal Sound Effects for Kids — Farm, Pets, Jungle & Dinosaurs",
+        "slug": "animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs",
+        "sound_count": 74,
+        "url": "https://soundza.com/packs/animal-sound-effects-for-kids-farm-pets-jungle-and-dinosaurs"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/egbf7p_OywOxUhCXLch0vuAW.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv90t9hpv3avnpnuh9mjoe49/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ducks Quacking at Pond\" on Soundza (https://soundza.com/sound/ducks-quacking-at-pond)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmtxr7pnlnp29hmo7a6viby4p",
+      "url": "https://soundza.com/sound/soft-hawaiian-ocean-with-wind",
+      "title": "Soft Hawaiian Ocean With Wind",
+      "description": "A dynamic, multi-layered ocean soundscape capturing the raw power of waves crashing onto a tropical beach with coral reefs, featuring deep roaring swells, splashing water textures, and ambient wind sighs that create an immersive, naturalistic coastal atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 37.69,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic",
+        "cinematic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "atmospheric",
+        "ambient",
+        "organic",
+        "cinematic",
+        "layered",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -40.9,
+      "true_peak_db": -9.2,
+      "loudness": {
+        "value": -40.9,
+        "basis": "integrated"
+      },
+      "gain_db": 8.2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 10855954,
+      "category": {
+        "id": "WATRSurf",
+        "label": "Water › Surf"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/2cJ_tXOsnqOK7vx1grWDI91k.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmtxr7pnlnp29hmo7a6viby4p/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Hawaiian Ocean With Wind\" on Soundza (https://soundza.com/sound/soft-hawaiian-ocean-with-wind)",
+      "matched_words": [
+        "ocean",
+        "waves",
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvdzgx8shpx17pvpcyxdhcwc",
+      "url": "https://soundza.com/sound/big-boat-horn",
+      "title": "Big Boat Horn",
+      "description": "A deep, resonant horn blast from a large vessel, with a sustained tonal quality characteristic of maritime fog horns or ship announcement systems. Suitable for maritime scenes, vehicle ambiences, or dramatic warning moments.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "impact_on_beat"
+      ],
+      "duration": 24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "boat",
+        "ferry",
+        "horn",
+        "ship"
+      ],
+      "sync_ms": null,
+      "lufs": -7.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -5.3,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.7,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6350478,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dNRMmaJQn-O5pZTFOn-BEqRi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgx8shpx17pvpcyxdhcwc/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Big Boat Horn\" on Soundza (https://soundza.com/sound/big-boat-horn)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmukgr0mqrhzf0ygnlnx1jjos",
+      "url": "https://soundza.com/sound/filtered-ocean-cave-drone",
+      "title": "Filtered Ocean Cave Drone",
+      "description": "A deep, resonant drone with an eerie ringing tone, created from ocean waves filtered through a high-pass and low-pass EQ. Perfect for looping as an atmospheric bed in horror, fantasy, or game scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "dark"
+      ],
+      "tags": [
+        "drone",
+        "ambience",
+        "ocean",
+        "horror",
+        "filtered",
+        "dark",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -24.6,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -24.6,
+        "basis": "integrated"
+      },
+      "gain_db": 4.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 16712226,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zZOQ2cgzdoBwyos0zt7KO3AE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukgr0mqrhzf0ygnlnx1jjos/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Filtered Ocean Cave Drone\" on Soundza (https://soundza.com/sound/filtered-ocean-cave-drone)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv5swkch00l306l60efpf8te",
+      "url": "https://soundza.com/sound/cleaning-dishes-in-sink-at-home",
+      "title": "Cleaning Dishes in Sink at Home",
+      "description": "The clinking and clattering of multiple dishes, glasses, and silverware being washed and moved around in a kitchen sink, with water splashing and ceramic impacts.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "ui_click",
+        "footsteps"
+      ],
+      "duration": 385.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "water",
+        "close-up"
+      ],
+      "sync_ms": null,
+      "lufs": -16.4,
+      "true_peak_db": 0.6,
+      "loudness": {
+        "value": -5.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -7.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 102115842,
+      "category": {
+        "id": "FOODTware",
+        "label": "Food & Drink › Tableware"
+      },
+      "pack": {
+        "id": "cmv5svwc800g106l6kcbj2qwy",
+        "name": "450+ Foley Sounds: Smashes, Voices, Whistles and Mouth Sounds",
+        "slug": "smash-crunch-and-handling-foley",
+        "sound_count": 452,
+        "url": "https://soundza.com/packs/smash-crunch-and-handling-foley"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/DdVM5mQif4VpQKgTJK2ZNXqE.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5swkch00l306l60efpf8te/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Cleaning Dishes in Sink at Home\" on Soundza (https://soundza.com/sound/cleaning-dishes-in-sink-at-home)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv1e4bwq006z06l8w970bjpd",
+      "url": "https://soundza.com/sound/at-the-end-of-hope-loop",
+      "title": "At the End of Hope Loop",
+      "description": "A contemplative electronic piano melody with warm, subdued tones and minimal movement. Suitable as an ambient underscore or introspective bed for video and games.",
+      "type": "music",
+      "form": "loop",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 72,
+      "bpm": 80,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "piano",
+        "loop",
+        "ambient",
+        "electronic",
+        "pad",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -15.6,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -15.6,
+        "basis": "integrated"
+      },
+      "gain_db": -0.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19051288,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AeUvVfPrbFQ3o9Ca8AF07RQ0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1e4bwq006z06l8w970bjpd/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"At the End of Hope Loop\" on Soundza (https://soundza.com/sound/at-the-end-of-hope-loop)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv1e4bwq007106l8lqzisn92",
+      "url": "https://soundza.com/sound/at-the-end-of-hope",
+      "title": "At the End of Hope",
+      "description": "A slow, contemplative electronic piano composition with melancholic harmonies and a sustained, introspective mood. The track includes a full 3-minute song and loopable sections suitable for ambient backgrounds or cinematic underscore.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 183.04,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "piano",
+        "electronic",
+        "ambient",
+        "atmospheric",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -15.8,
+      "true_peak_db": -2.9,
+      "loudness": {
+        "value": -15.8,
+        "basis": "integrated"
+      },
+      "gain_db": -0.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 48432468,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/M6TOYcf-Ir5H7HbZVcNEvFkY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1e4bwq007106l8lqzisn92/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"At the End of Hope\" on Soundza (https://soundza.com/sound/at-the-end-of-hope)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv0ge3y4ai11dexwlorigu91",
+      "url": "https://soundza.com/sound/close-fly-buzzing-at-window",
+      "title": "Close Fly Buzzing at Window",
+      "description": "A close, detailed recording of a house fly buzzing near an interior window. The high-frequency drone captures the insect's wing vibration with clarity and proximity.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 9.94,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "foley",
+        "close-up"
+      ],
+      "sync_ms": 246,
+      "lufs": -29.5,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -19.5,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.9,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2850224,
+      "category": {
+        "id": "ANMLInsc",
+        "label": "Animals › Insect"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/mcpH90Spvr4l7HLuypWNb7_s.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0ge3y4ai11dexwlorigu91/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Close Fly Buzzing at Window\" on Soundza (https://soundza.com/sound/close-fly-buzzing-at-window)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv5mluqr000y06l4xgswzrrf",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat",
+      "title": "Poupi's Incredible Adventures: I'm on a Boat",
+      "description": "A whimsical, melodic musical phrase with bright synth and playful orchestral elements that captures the joy of an unexpected voyage. Perfect as a game scene transition or victory moment.",
+      "type": "music",
+      "form": "track",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "game_pickup"
+      ],
+      "duration": 108,
+      "bpm": 120.2,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "melodic"
+      ],
+      "sync_ms": null,
+      "lufs": -20.7,
+      "true_peak_db": -5.8,
+      "loudness": {
+        "value": -20.7,
+        "basis": "integrated"
+      },
+      "gain_db": 4.7,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 28576910,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/zBjmUF8xL_ZCMB3BmHiINcqY.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr000y06l4xgswzrrf/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: I'm on a Boat\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-im-on-a-boat)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmv1e2ux3006r06l82e9f20qg",
+      "url": "https://soundza.com/sound/at-home",
+      "title": "At Home",
+      "description": "A serene orchestral composition featuring strings with a melancholic character. Suitable as a calm underscore or emotional backdrop for film and video projects.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 74.32,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "cinematic"
+      ],
+      "tags": [
+        "strings",
+        "cinematic",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -23.9,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -23.9,
+        "basis": "integrated"
+      },
+      "gain_db": 7.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 19664654,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/bvwXwsIIYgdpyzfv-fQDqCaF.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1e2ux3006r06l82e9f20qg/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"At Home\" on Soundza (https://soundza.com/sound/at-home)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmuhywjvzr6townql9dhi0wsc",
+      "url": "https://soundza.com/sound/soft-wind",
+      "title": "Soft Wind",
+      "description": "A gentle, sustained wind sound with natural air movement and subtle texture. Ideal as a background layer for outdoor scenes or meditative atmospheres.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 35.68,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "wind",
+        "nature",
+        "soft",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -34,
+      "true_peak_db": -21.8,
+      "loudness": {
+        "value": -34,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 9441866,
+      "category": {
+        "id": "WIND",
+        "label": "Wind › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/K-U3efFO3ye1DpSdGfrOWFAU.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhywjvzr6townql9dhi0wsc/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Soft Wind\" on Soundza (https://soundza.com/sound/soft-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5szuny03b706l63g7p6zhm",
+      "url": "https://soundza.com/sound/rain-at-night-light-shower-2",
+      "title": "Rain at Night Light Shower 2",
+      "description": "A gentle rain falling at night with natural, light precipitation. Peaceful outdoor ambience suitable as a calming background bed for scenes, meditation, or nature content.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 160.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "night",
+        "ambience",
+        "outdoor",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -38.9,
+      "true_peak_db": -10.4,
+      "loudness": {
+        "value": -38.9,
+        "basis": "integrated"
+      },
+      "gain_db": 9.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 92428306,
+      "category": null,
+      "pack": {
+        "id": "cmv5szd25039z06l69o2o1mta",
+        "name": "Nature Field Recordings: Rain, Water, Weather, Birds and Animals",
+        "slug": "rain-and-thunder-field-recordings",
+        "sound_count": 131,
+        "url": "https://soundza.com/packs/rain-and-thunder-field-recordings"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/eOAAXdJcNeRYbJ_enJRHiI5O.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5szuny03b706l63g7p6zhm/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain at Night Light Shower 2\" on Soundza (https://soundza.com/sound/rain-at-night-light-shower-2)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv0gefqpurnslohqay6sqsii",
+      "url": "https://soundza.com/sound/fly-buzzing-at-window",
+      "title": "Fly Buzzing at Window",
+      "description": "A house fly buzzes persistently against a window pane, creating an irritating high-pitched sound as it attempts to escape. The buzzing has a distinctive tonal quality characteristic of insect wing vibrations.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "game_hit"
+      ],
+      "duration": 4.24,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "indoor",
+        "animal",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -45.4,
+      "true_peak_db": -28.7,
+      "loudness": {
+        "value": -42.8,
+        "basis": "momentary_max"
+      },
+      "gain_db": 24,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 1121930,
+      "category": {
+        "id": "ANMLInsc",
+        "label": "Animals › Insect"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/rQ-eG-m3-eTt0wvxW_T7Un4V.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gefqpurnslohqay6sqsii/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Fly Buzzing at Window\" on Soundza (https://soundza.com/sound/fly-buzzing-at-window)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv0gayash0qd1cjftjtp4znk",
+      "url": "https://soundza.com/sound/heron-vocalization-at-nest",
+      "title": "Heron Vocalization at Nest",
+      "description": "A single heron call captured during a brief moment of vocalization near its nest. The sound is quiet and sparse, with minimal harmonic content, typical of a shy nesting bird.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 15,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "nature"
+      ],
+      "sync_ms": 6129,
+      "lufs": -31.8,
+      "true_peak_db": -13.1,
+      "loudness": {
+        "value": -24.1,
+        "basis": "momentary_max"
+      },
+      "gain_db": 11.1,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3969092,
+      "category": {
+        "id": "BIRDMisc",
+        "label": "Birds › Misc"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/P1V91aZouXNtCaDfpfPnXF1Y.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gayash0qd1cjftjtp4znk/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Heron Vocalization at Nest\" on Soundza (https://soundza.com/sound/heron-vocalization-at-nest)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmuhyqpkm5yjwucv3r5pie4xk",
+      "url": "https://soundza.com/sound/bright-wind-ambience",
+      "title": "Bright Wind Ambience",
+      "description": "A gentle, naturalistic recording of wind moving through wooded surroundings. Ideal as a calm atmospheric bed for outdoor scenes or nature-focused media.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 65.8,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "soft"
+      ],
+      "tags": [
+        "wind",
+        "ambience",
+        "field-recording",
+        "nature",
+        "soft",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -40.8,
+      "true_peak_db": -26.1,
+      "loudness": {
+        "value": -40.8,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 37900886,
+      "category": {
+        "id": "WINDVege",
+        "label": "Wind › Vegetation"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/NYipAb5OXhCs3mBhrcnBXmSq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmuhyqpkm5yjwucv3r5pie4xk/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Bright Wind Ambience\" on Soundza (https://soundza.com/sound/bright-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvckvfbmqa2t8wxu0aj7jwbn",
+      "url": "https://soundza.com/sound/church-bell-at-midnight",
+      "title": "Church Bell at Midnight",
+      "description": "A deep, resonant church bell tolls at midnight, surrounded by atmospheric room tone from inside the church. The recording captures the full decay of the bell strike with natural reverb from the stone interior.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "title_or_logo",
+        "impact_on_beat"
+      ],
+      "duration": 69.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -28.5,
+      "true_peak_db": -12.1,
+      "loudness": {
+        "value": -22.4,
+        "basis": "momentary_max"
+      },
+      "gain_db": 9.4,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18420562,
+      "category": {
+        "id": "BELLLrg",
+        "label": "Bells › Large"
+      },
+      "pack": {
+        "id": "pbkgmdwmgs7xerqx50exb7os",
+        "name": "New Year's Eve Sound Effects — Fireworks, Countdowns, Party Horns & Toasts",
+        "slug": "new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts",
+        "sound_count": 51,
+        "url": "https://soundza.com/packs/new-years-eve-sound-effects-fireworks-countdowns-party-horns-and-toasts"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/46xOfbxdgZ4O6gK7YVsZIiew.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvckvfbmqa2t8wxu0aj7jwbn/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Church Bell at Midnight\" on Soundza (https://soundza.com/sound/church-bell-at-midnight)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmv1e4bwq007006l8ztqxmn1d",
+      "url": "https://soundza.com/sound/at-the-end-of-hope-intro",
+      "title": "At the End of Hope Intro",
+      "description": "A contemplative electronic piano piece with sparse, mournful chords that create an introspective atmosphere. This intro section sets a deeply ambient, melancholic mood suitable for emotional underscore or reflective game scenes.",
+      "type": "music",
+      "form": "excerpt",
+      "parts": "single_part",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "intro",
+        "build_up"
+      ],
+      "duration": 27,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "piano",
+        "ambient",
+        "electronic",
+        "intro",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -16.2,
+      "true_peak_db": -3,
+      "loudness": {
+        "value": -13.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 0.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 7144290,
+      "category": null,
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QqhAjPn4-7eqj_-md4S_QmRN.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv1e4bwq007006l8ztqxmn1d/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"At the End of Hope Intro\" on Soundza (https://soundza.com/sound/at-the-end-of-hope-intro)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmukhhl7x2tkciyq3kgj97tl9",
+      "url": "https://soundza.com/sound/mercedes-engine-idle-at-distance",
+      "title": "Mercedes Engine Idle at Distance",
+      "description": "A Mercedes-Benz 190E-16V engine idling at 6500 RPM in neutral, recorded from 30 feet away. The steady, tonal engine drone is suitable as a continuous bed for vehicle scenes or layered with other automotive ambience.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 1.92,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "engine",
+        "car",
+        "distant",
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -20.8,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -20.6,
+        "basis": "momentary_max"
+      },
+      "gain_db": 7.6,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 96000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 552098,
+      "category": {
+        "id": "VEHCar",
+        "label": "Vehicles › Car"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/uIy4tusYzBa_AS3wRU2kQlHJ.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukhhl7x2tkciyq3kgj97tl9/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Mercedes Engine Idle at Distance\" on Soundza (https://soundza.com/sound/mercedes-engine-idle-at-distance)",
+      "matched_words": [
+        "at"
+      ]
+    },
+    {
+      "id": "cmvdzgg3vzqljjv5yrn4l15wp",
+      "url": "https://soundza.com/sound/boat-horn",
+      "title": "Boat Horn",
+      "description": "A deep, tonal horn blast from a cruiser ship, recorded in Istanbul. The sound has a rich, resonant quality with clear harmonic content, typical of maritime vessel warning signals.",
+      "type": "sound_effect",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [],
+      "duration": 31.03,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "field-recording"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -0.7,
+      "loudness": {
+        "value": -10.7,
+        "basis": "momentary_max"
+      },
+      "gain_db": -2.3,
+      "loop_seamless": null,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8937644,
+      "category": {
+        "id": "BOATHorn",
+        "label": "Boats › Horn"
+      },
+      "pack": {
+        "id": "trwez07czza29yepnl0b2n1d",
+        "name": "Vehicle Sound Effects for Kids — Trains, Helicopters, Tractors, Diggers & Horns",
+        "slug": "vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns",
+        "sound_count": 52,
+        "url": "https://soundza.com/packs/vehicle-sound-effects-for-kids-trains-helicopters-tractors-diggers-and-horns"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/6UHUiQsl51DVxHXbE4olIFp-.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvdzgg3vzqljjv5yrn4l15wp/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Boat Horn\" on Soundza (https://soundza.com/sound/boat-horn)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmt2j50k0000004jsig5ij0s2",
+      "url": "https://soundza.com/sound/ocean-ambient-beach-texture",
+      "title": "Ocean Ambient Beach Texture",
+      "description": "A lush, airy ocean wave texture with gentle crashing and rolling water sounds that creates an ethereal, spacious ambient atmosphere. The warm, organic field recording captures the hypnotic rhythm of surf with soft, layered waves ideal for cinematic underscore or meditative soundscapes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 70.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "organic"
+      ],
+      "tags": [
+        "foley",
+        "texture",
+        "ambient",
+        "ethereal",
+        "atmospheric",
+        "pad",
+        "organic",
+        "dreamy"
+      ],
+      "sync_ms": null,
+      "lufs": -40.4,
+      "true_peak_db": -15.4,
+      "loudness": {
+        "value": -40.4,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 18756188,
+      "category": {
+        "id": "AMBSea",
+        "label": "Ambience › Seaside"
+      },
+      "pack": {
+        "id": "cmspbz0ar000004jjjw2lqz99",
+        "name": "Beach Sounds - Textures, Impacts, Found Sounds",
+        "slug": "beach-sounds-textures-impacts-found-sounds",
+        "sound_count": 123,
+        "url": "https://soundza.com/packs/beach-sounds-textures-impacts-found-sounds"
+      },
+      "creator": {
+        "name": "Sean Joad",
+        "url": "https://soundza.com/creators/joad"
+      },
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/8Lw95hZFTujp_wYjdgisUp6w.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmt2j50k0000004jsig5ij0s2/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Ocean Ambient Beach Texture\" by Sean Joad on Soundza (https://soundza.com/sound/ocean-ambient-beach-texture)",
+      "matched_words": [
+        "ocean",
+        "waves"
+      ]
+    },
+    {
+      "id": "cmv8yokx1ddw6fa1osa3nsrr2",
+      "url": "https://soundza.com/sound/graveyard-night-wind",
+      "title": "Graveyard Night Wind",
+      "description": "Eerie howling wind moving through a dark graveyard at night, with a continuous, unsettling atmosphere. Ideal for Halloween scenes and spooky environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 49.61,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "night",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -20.5,
+      "true_peak_db": -8.9,
+      "loudness": {
+        "value": -20.5,
+        "basis": "integrated"
+      },
+      "gain_db": 0.5,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11895638,
+      "category": {
+        "id": "AMBDsgn",
+        "label": "Ambience › Designed"
+      },
+      "pack": {
+        "id": "n8felmm4lap8em8wrtnkusjy",
+        "name": "Halloween Sound Effects — Jumpscares, Evil Laughs, Screams & Monsters",
+        "slug": "halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters",
+        "sound_count": 67,
+        "url": "https://soundza.com/packs/halloween-sound-effects-jumpscares-evil-laughs-screams-and-monsters"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/VkD1n9q27PlIq0sQxM_wYMbq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv8yokx1ddw6fa1osa3nsrr2/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Graveyard Night Wind\" on Soundza (https://soundza.com/sound/graveyard-night-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0gw5cgrik2y8fcidp196hb",
+      "url": "https://soundza.com/sound/autumn-wind-leaves",
+      "title": "Autumn Wind Leaves",
+      "description": "Wind moving through dry leaves on an autumn sidewalk, with subtle background noise including possible light rain. A natural outdoor ambience suitable for game scenes or video transitions.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 42.91,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "nature",
+        "outdoor",
+        "dry",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -37.7,
+      "true_peak_db": -11.4,
+      "loudness": {
+        "value": -37.7,
+        "basis": "integrated"
+      },
+      "gain_db": 10.4,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 12359166,
+      "category": {
+        "id": "VEGELeaf",
+        "label": "Vegetation › Leaves"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/RGhruJQbdUvUYx8awO6CX6nd.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0gw5cgrik2y8fcidp196hb/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Autumn Wind Leaves\" on Soundza (https://soundza.com/sound/autumn-wind-leaves)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0h64lxq9x95ndww2vma4iw",
+      "url": "https://soundza.com/sound/arctic-cold-wind",
+      "title": "Arctic Cold Wind",
+      "description": "A harsh, howling wind with synthetic qualities created through white noise filtering. Suitable as an atmospheric bed for arctic or winter environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 59,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -18.6,
+      "true_peak_db": -3.3,
+      "loudness": {
+        "value": -18.6,
+        "basis": "integrated"
+      },
+      "gain_db": -1.4,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 15611482,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/wFIIGCPPLYi_SAqxdv1gZc77.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h64lxq9x95ndww2vma4iw/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Arctic Cold Wind\" on Soundza (https://soundza.com/sound/arctic-cold-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7iigwj80fmrugj3017o2b",
+      "url": "https://soundza.com/sound/wind-low-gust",
+      "title": "Wind Low Gust",
+      "description": "A deep, rumbling wind gust with a tonal, low-frequency character. Suitable as a background layer for outdoor scenes or storm ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "build_up",
+        "transition"
+      ],
+      "duration": 2.5,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -19.3,
+      "true_peak_db": -1.9,
+      "loudness": {
+        "value": -19.3,
+        "basis": "integrated"
+      },
+      "gain_db": -0.7,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 661578,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/BBHq6zXvGEJqfiDgfkGDRrMp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7iigwj80fmrugj3017o2b/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Wind Low Gust\" on Soundza (https://soundza.com/sound/wind-low-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmukh3myypdako01hlgocu2ua",
+      "url": "https://soundza.com/sound/desert-wind-ambience",
+      "title": "Desert Wind Ambience",
+      "description": "A sustained, howling desert wind with a slightly tonal quality, created from an emergency whistle technique. Ideal for outdoor post-apocalyptic scenes or desolate wasteland atmospheres.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.97,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -20.5,
+      "true_peak_db": -0.2,
+      "loudness": {
+        "value": -20.5,
+        "basis": "integrated"
+      },
+      "gain_db": -0.8,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 2642642,
+      "category": {
+        "id": "WINDGust",
+        "label": "Wind › Gust"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/hqhmJjPu-IMMMXUr6Ey5VlVr.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukh3myypdako01hlgocu2ua/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Desert Wind Ambience\" on Soundza (https://soundza.com/sound/desert-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6uiouuxa6t1yfp428itr6",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-short",
+      "title": "Whistling Wind Gusts Short",
+      "description": "A continuous wind with a tonal, whistling quality as it moves around a building exterior. Useful as a weather bed or layered under stormy scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 13.23,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "atmospheric",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -27.8,
+      "true_peak_db": -9.5,
+      "loudness": {
+        "value": -27.8,
+        "basis": "integrated"
+      },
+      "gain_db": 7.8,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 1905642,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/AJMKlFPzSeiKA1ayVO855bS1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6uiouuxa6t1yfp428itr6/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Short\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-short)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6u2wdv1fgv12skxj7tv2q",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-long",
+      "title": "Whistling Wind Gusts Long",
+      "description": "Wind sweeps around a building with a distinctly tonal, whistling quality. Suitable as an atmospheric layer for stormy or windy exterior scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 26.88,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -23,
+      "true_peak_db": -6.5,
+      "loudness": {
+        "value": -23,
+        "basis": "integrated"
+      },
+      "gain_db": 3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3871356,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/0O0sfofLcjJVyC03S8g--Wgn.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6u2wdv1fgv12skxj7tv2q/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Long\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-long)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7iq0ln04kova7ojut785c",
+      "url": "https://soundza.com/sound/rain-with-wind-ambience",
+      "title": "Rain with Wind Ambience",
+      "description": "Steady rain falling with gentle wind moving through trees, creating a natural outdoor weather soundscape. Ideal for layering under scenes or establishing a rainy atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 29.35,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "rain",
+        "wind",
+        "ambience",
+        "outdoor",
+        "nature",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -40,
+      "true_peak_db": -16.3,
+      "loudness": {
+        "value": -40,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8454166,
+      "category": {
+        "id": "RAIN",
+        "label": "Rain › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/i8u-bKiZWvM5bp1uNkwpU6Xq.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7iq0ln04kova7ojut785c/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rain with Wind Ambience\" on Soundza (https://soundza.com/sound/rain-with-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6uy6jocknyi72skcbusnn",
+      "url": "https://soundza.com/sound/whistling-wind-gusts-extended",
+      "title": "Whistling Wind Gusts Extended",
+      "description": "Sharp, tonal wind gusts whistling around a building with varying intensity. A outdoor ambience suitable for stormy scenes or exposed locations.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 24.62,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": -4.9,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3545776,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3rZ5VNVOSnHeDJRy47cJk9cf.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6uy6jocknyi72skcbusnn/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gusts Extended\" on Soundza (https://soundza.com/sound/whistling-wind-gusts-extended)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7a2natyzdpenngncr2uea",
+      "url": "https://soundza.com/sound/strong-desert-wind",
+      "title": "Strong Desert Wind",
+      "description": "A continuous, howling wind recorded in a desert environment with a characteristic tonal quality resembling a snowy, arctic setting. Suitable as an atmospheric bed for outdoor scenes or weather sequences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 19.75,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -14.6,
+      "true_peak_db": -3.2,
+      "loudness": {
+        "value": -14.6,
+        "basis": "integrated"
+      },
+      "gain_db": -5.3,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 5225556,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/g78Bguo_LF3C71XaJlEh6t7L.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7a2natyzdpenngncr2uea/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Strong Desert Wind\" on Soundza (https://soundza.com/sound/strong-desert-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv0h88j251qjffvb4s2zq710",
+      "url": "https://soundza.com/sound/desert-wind-ambience-1",
+      "title": "Desert Wind Ambience",
+      "description": "A subtle, airy wind sound created by vocal breath passed through reverb and stereo delay, evoking the loneliness of an empty desert plain. Suitable as a sparse, atmospheric bed for wilderness or isolation scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 41.14,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [
+        "airy"
+      ],
+      "tags": [
+        "wind",
+        "ambience",
+        "airy",
+        "reverb"
+      ],
+      "sync_ms": null,
+      "lufs": -38,
+      "true_peak_db": -19.3,
+      "loudness": {
+        "value": -38,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 11849228,
+      "category": {
+        "id": "AMBDsrt",
+        "label": "Ambience › Desert"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/7E3EIt-IcROpw7VXkyGq09Sj.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv0h88j251qjffvb4s2zq710/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Desert Wind Ambience\" on Soundza (https://soundza.com/sound/desert-wind-ambience-1)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl5ezidge6niz3mcrcpd97y",
+      "url": "https://soundza.com/sound/burning-candle-wind-ambience",
+      "title": "Burning Candle Wind Ambience",
+      "description": "A flickering candle flame with wind gusts passing through. Suitable as a background layer for tense or quiet scenes, or as a transition element between environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 12,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "fire",
+        "wind",
+        "ambience",
+        "atmospheric",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -49.5,
+      "true_peak_db": -20.8,
+      "loudness": {
+        "value": -49.5,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 3456094,
+      "category": {
+        "id": "FIREBurn",
+        "label": "Fire › Burning"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/dcZg5JzjRsQYTYB4uZJc0Klo.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl5ezidge6niz3mcrcpd97y/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Burning Candle Wind Ambience\" on Soundza (https://soundza.com/sound/burning-candle-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7ailqar290cp7yj7y4f4l",
+      "url": "https://soundza.com/sound/winter-winds",
+      "title": "Winter Winds",
+      "description": "A continuous, tonal wind sound whistling through a mountainside. This mouth-created effect works well as atmospheric background for cold outdoor scenes, caves, or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 10.72,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience"
+      ],
+      "sync_ms": null,
+      "lufs": -22,
+      "true_peak_db": -11.1,
+      "loudness": {
+        "value": -22,
+        "basis": "integrated"
+      },
+      "gain_db": 2,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 2835702,
+      "category": {
+        "id": "WIND",
+        "label": "Wind › General"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/sfAAYLqsd-kyJ5yXS4FhPYq5.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7ailqar290cp7yj7y4f4l/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Winter Winds\" on Soundza (https://soundza.com/sound/winter-winds)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmukh388sjiz65rqfmaf71pgc",
+      "url": "https://soundza.com/sound/indoor-wind-howl",
+      "title": "Indoor Wind Howl",
+      "description": "A sustained, eerie wind howl recorded inside an abandoned office building. The hollow, tonal quality creates an atmospheric backdrop suitable for post-apocalyptic or desolate environments.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 32.57,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "indoor",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -25.9,
+      "true_peak_db": -13.3,
+      "loudness": {
+        "value": -25.9,
+        "basis": "integrated"
+      },
+      "gain_db": 5.9,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 8617948,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/3JY-TNxwRFNDuplxOeT5krBy.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmukh388sjiz65rqfmaf71pgc/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Indoor Wind Howl\" on Soundza (https://soundza.com/sound/indoor-wind-howl)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7avsubhnpl076lltu3pcs",
+      "url": "https://soundza.com/sound/rolling-wind-ambience",
+      "title": "Rolling Wind Ambience",
+      "description": "A sustained, howling wind with a rolling quality that loops seamlessly. Suitable as a background bed for winter scenes, storms, or atmospheric underscore.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "intro",
+        "outro"
+      ],
+      "duration": 30,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "ambience",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -26,
+      "true_peak_db": -9.9,
+      "loudness": {
+        "value": -26,
+        "basis": "integrated"
+      },
+      "gain_db": 6,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 1,
+      "size_bytes": 3969086,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/e8oMJhM7RtgFmpBmUSDowOOp.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7avsubhnpl076lltu3pcs/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Rolling Wind Ambience\" on Soundza (https://soundza.com/sound/rolling-wind-ambience)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmv5mluqr000x06l4iu8wqlw7",
+      "url": "https://soundza.com/sound/poupis-incredible-adventures-paddle-boat",
+      "title": "Poupi's Incredible Adventures: Paddle Boat",
+      "description": "A charming, gently pulsing synth melody evokes a peaceful boat journey through a fantastical world. Perfectly suited for exploration or calm gameplay moments in a story-driven adventure game.",
+      "type": "music",
+      "form": "track",
+      "parts": "full_mix",
+      "vocals": "none",
+      "style": null,
+      "good_for": [
+        "menu"
+      ],
+      "duration": 54.86,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "game",
+        "synth",
+        "loop"
+      ],
+      "sync_ms": null,
+      "lufs": -19.2,
+      "true_peak_db": -5.9,
+      "loudness": {
+        "value": -19.2,
+        "basis": "integrated"
+      },
+      "gain_db": 3.2,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 14515308,
+      "category": null,
+      "pack": {
+        "id": "cmv5mlum5000006l4fendu5ku",
+        "name": "Poupi's Incredible Adventures",
+        "slug": "poupis-incredible-adventures",
+        "sound_count": 70,
+        "url": "https://soundza.com/packs/poupis-incredible-adventures"
+      },
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/aD8LnsIin4CL4V7VdpJT4jv0.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmv5mluqr000x06l4iu8wqlw7/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Poupi's Incredible Adventures: Paddle Boat\" on Soundza (https://soundza.com/sound/poupis-incredible-adventures-paddle-boat)",
+      "matched_words": [
+        "boat"
+      ]
+    },
+    {
+      "id": "cmvl7ppimojpwp68hhuyi5nvz",
+      "url": "https://soundza.com/sound/whipping-wind-storm-heavy",
+      "title": "Whipping Wind Storm Heavy",
+      "description": "A synthetic simulation of a heavy windstorm with turbulent gusts and variable intensity wind movement. Suitable as an atmospheric bed for storm scenes or weather ambiences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 23.99,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric"
+      ],
+      "sync_ms": null,
+      "lufs": -14.4,
+      "true_peak_db": -0.1,
+      "loudness": {
+        "value": -14.4,
+        "basis": "integrated"
+      },
+      "gain_db": -5.6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6348840,
+      "category": {
+        "id": "WINDTurb",
+        "label": "Wind › Turbulent"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/oRKmwSq8Q1D_5QJTZdxgk3Bi.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7ppimojpwp68hhuyi5nvz/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whipping Wind Storm Heavy\" on Soundza (https://soundza.com/sound/whipping-wind-storm-heavy)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl7apl7g5v5n1jzxknu3jwy",
+      "url": "https://soundza.com/sound/howling-wind-ambience-1",
+      "title": "Howling Wind Ambience",
+      "description": "A sustained, atmospheric wind sound with howling tones, created to evoke the experience of being indoors during a cold, windy night. Suitable as an ambient bed for winter scenes or tense outdoor sequences.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 25.47,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "atmospheric",
+        "indoor",
+        "night"
+      ],
+      "sync_ms": null,
+      "lufs": -12.1,
+      "true_peak_db": 0,
+      "loudness": {
+        "value": -12.1,
+        "basis": "integrated"
+      },
+      "gain_db": -7.9,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 6740366,
+      "category": {
+        "id": "WINDInt",
+        "label": "Wind › Interior"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/Zucnsr7-P9LDykgSHbVVtYV2.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl7apl7g5v5n1jzxknu3jwy/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Howling Wind Ambience\" on Soundza (https://soundza.com/sound/howling-wind-ambience-1)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmvl6t8t6t6hc4p2a0g8nnxpf",
+      "url": "https://soundza.com/sound/whistling-wind-gust",
+      "title": "Whistling Wind Gust",
+      "description": "A sustained wind passing through a narrow tunnel space, creating a tonal whistling quality. Useful as a weather bed or transition element for outdoor scenes.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed",
+        "transition",
+        "reveal"
+      ],
+      "duration": 2.01,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "outdoor"
+      ],
+      "sync_ms": null,
+      "lufs": -26,
+      "true_peak_db": -10.6,
+      "loudness": {
+        "value": -26,
+        "basis": "integrated"
+      },
+      "gain_db": 6,
+      "loop_seamless": false,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 532314,
+      "category": {
+        "id": "WINDTonl",
+        "label": "Wind › Tonal"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/QgVduKbmFqtUU2pOivevm8JK.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmvl6t8t6t6hc4p2a0g8nnxpf/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Whistling Wind Gust\" on Soundza (https://soundza.com/sound/whistling-wind-gust)",
+      "matched_words": [
+        "wind"
+      ]
+    },
+    {
+      "id": "cmui04a6so6oijgx4ofubel34",
+      "url": "https://soundza.com/sound/open-plough-field-wind",
+      "title": "Open Plough Field Wind",
+      "description": "A sustained recording of wind moving through an open ploughed field, with the dry rustle of grass and soil creating a natural, unadorned atmosphere.",
+      "type": "ambience",
+      "form": null,
+      "parts": null,
+      "vocals": null,
+      "style": null,
+      "good_for": [
+        "background_bed"
+      ],
+      "duration": 114.48,
+      "bpm": null,
+      "key": null,
+      "chord": null,
+      "note": null,
+      "mood": [],
+      "tags": [
+        "wind",
+        "dry",
+        "nature",
+        "outdoor",
+        "foley"
+      ],
+      "sync_ms": null,
+      "lufs": -48.3,
+      "true_peak_db": -21.7,
+      "loudness": {
+        "value": -48.3,
+        "basis": "integrated"
+      },
+      "gain_db": 12,
+      "loop_seamless": true,
+      "file_type": "audio/wav",
+      "file_extension": "wav",
+      "sample_rate": 44100,
+      "bit_depth": 24,
+      "channels": 2,
+      "size_bytes": 30292744,
+      "category": {
+        "id": "AMBGras",
+        "label": "Ambience › Grassland"
+      },
+      "pack": null,
+      "creator": null,
+      "preview_files": [
+        {
+          "type": "audio/mpeg",
+          "bitrate": 128,
+          "link": "https://media.soundza.com/public/previews/HBkDdXmYIwHugTSh2Hqaf1G1.mp3"
+        }
+      ],
+      "download_url": "https://api.soundza.com/v1/sounds/cmui04a6so6oijgx4ofubel34/file?search_id=h7zcab9o6jm6dqgm5z57psz8",
+      "license": {
+        "name": "Soundza Standard License",
+        "url": "https://soundza.com/license"
+      },
+      "attribution": "\"Open Plough Field Wind\" on Soundza (https://soundza.com/sound/open-plough-field-wind)",
+      "matched_words": [
+        "wind"
+      ]
+    }
+  ],
+  "relaxed_filters": [],
+  "text_match": "any_word",
+  "interpreted_as": {
+    "type": "ambience",
+    "query": "sailing boat at sea, ocean waves, wind",
+    "form": null,
+    "parts": null,
+    "vocals": null,
+    "mood": [
+      "calm"
+    ],
+    "genre": null,
+    "bpm": null,
+    "key": null,
+    "fit_seconds": null,
+    "min_seconds": null,
+    "max_seconds": null,
+    "style": null,
+    "good_for": [
+      "background_bed"
+    ],
+    "avoid": []
+  },
+  "notes": [
+    "Read as a brief: You are looking for the sound of a sailing boat at sea. interpreted_as lists the filters it set; send any of them as parameters to change them.",
+    "No sound matched every word of \"sailing boat at sea\", so these match some of them, closest first; each sound's matched_words says which. Further down, results match fewer of your words."
+  ],
+  "search_id": "h7zcab9o6jm6dqgm5z57psz8"
+}
