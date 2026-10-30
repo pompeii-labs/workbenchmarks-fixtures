@@ -27,6 +27,14 @@ Press **Race** and you line up on a 6-ski grid behind the start line with five A
 - **P / Esc** pause, **R** restart the race, **M** mute
 - Touch: left stick to ride and steer (pull down to brake), JUMP and BOOST buttons
 
+## Sound
+Sound effects, the ocean ambience and the music come from [Soundza](https://soundza.com). They live in `public/sfx/`, and `public/sfx/CREDITS.md` lists each source. The engine loop and the music track are AI-generated.
+
+- Audio starts on the first click or key press, as browsers require. Samples load in the background, and until each one decodes (or if it fails) the old procedural sound plays in its place.
+- The engine loop's pitch and filter follow your revs. Filtered noise under it follows hull speed. The nearest rival gets its own engine voice, quieter and panned to its side.
+- Landings, wipeouts, bumps, ramp launches, rings, gates, tricks, boost, the 3-2-1-GO countdown, laps, best laps and the finish each have their own sound. Splashes and bumps from nearby rivals fade with distance and pan with position.
+- Pausing turns the music and ambience down, and a hidden tab suspends audio. **M** mutes everything.
+
 ## Run
 ```
 npm install

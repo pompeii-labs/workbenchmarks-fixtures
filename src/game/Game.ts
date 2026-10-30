@@ -86,6 +86,7 @@ export class Game {
   private renderScale = 1;
   private reducedMotion = false;
   private lastCmd: Command = IDLE;
+  private wasBoosting = false;
   private emitAcc = { rooster: 0, bow: 0, carve: 0, foam: 0 };
 
   // camera state
@@ -131,6 +132,12 @@ export class Game {
     el('#again-btn').addEventListener('click', () => this.restartRace());
     el('#pause-btn').addEventListener('click', () => this.setPaused(this.ui !== 'paused'));
     el('#mute-btn').addEventListener('click', () => this.toggleMute());
+    for (const id of ['#start-btn', '#resume-btn', '#restart-btn', '#again-btn', '#pause-btn', '#mute-btn']) {
+      el(id).addEventListener('pointerdown', () => {
+        this.audio.unlock();
+        this.audio.click();
+      });
+    }
     document.addEventListener('visibilitychange', () => {
       if (document.hidden && this.ui === 'play') this.setPaused(true);
     });
@@ -197,6 +204,7 @@ export class Game {
     this.audio.unlock();
     if (this.ui === 'title') this.resetRun('countdown');
     this.ui = 'play';
+    this.audio.setPaused(false);
     this.input.flush();
     el('#title').classList.add('hidden');
     el('#pause').classList.add('hidden');
@@ -205,6 +213,7 @@ export class Game {
   private setPaused(p: boolean): void {
     if (this.ui === 'title' || this.ui === 'finished') return;
     this.ui = p ? 'paused' : 'play';
+    this.audio.setPaused(p);
     el('#pause').classList.toggle('hidden', !p);
     if (p) {
       const r = this.sim.race;
@@ -241,6 +250,7 @@ export class Game {
     this.hintPilot.reset();
     this.hud.resetRace();
     this.lastEventId = 0;
+    this.wasBoosting = false;
     this.acc = 0;
     this.splash.reset(this.seed);
     this.world.clearRings();
@@ -284,6 +294,7 @@ export class Game {
       this.sim.boosting,
       (this.ui === 'play' || this.ui === 'finished') && this.sim.mode === 'ride',
     );
+    this.updateRivalEngine();
     this.publishDiagnostics();
   }
 
@@ -297,6 +308,8 @@ export class Game {
       this.lastEventId = ev.id;
       this.handleEvent(ev);
     }
+    if (this.sim.boosting && !this.wasBoosting && this.ui === 'play') this.audio.boost();
+    this.wasBoosting = this.sim.boosting;
     // Rivals: spray and splashes near the camera only.
     const cam = this.camera.position;
     for (let i = 1; i < w.racers.length; i += 1) {
@@ -332,6 +345,7 @@ export class Game {
     switch (ev.type) {
       case 'launch':
         this.splash.burst(ev.x, ev.y, ev.z, 26, 3 + Math.min(4, ev.value * 0.3), this.carry);
+        if (loud) this.audio.launch(ev.value);
         break;
       case 'land': {
         const impact = Math.max(0, ev.value);
@@ -345,18 +359,18 @@ export class Game {
       case 'wipeout':
         this.splash.burst(ev.x, ev.y, ev.z, 260, 8, this.carry);
         this.trauma = Math.min(1, this.trauma + 0.7);
-        if (loud) this.audio.splash(14);
+        if (loud) this.audio.wipeout();
         break;
       case 'ring':
         this.world.popRing(ev.value);
         this.splash.burst(ev.x, ev.y - 1, ev.z, 40, 4, this.carry);
-        if (loud) this.audio.chime(ev.label === 'air');
+        if (loud) this.audio.ring(ev.label === 'air');
         break;
       case 'race-start':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.gate();
         break;
       case 'gate':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.gate();
         break;
       case 'lap': {
         const best = ev.label === 'best';
@@ -370,11 +384,13 @@ export class Game {
           }
         }
         if (this.ui !== 'title') this.hud.lapComplete(s.t, s.race.laps, ev.value, best, prev);
-        if (loud) this.audio.fanfare(best);
+        // The last lap's sound is the finish fanfare (race event, same step).
+        if (loud && !this.race.racers[0].finished) this.audio.lap(best);
         break;
       }
       case 'trick':
         if (ev.label && this.ui !== 'title') this.hud.popup(ev.label, ev.value);
+        if (loud && ev.label) this.audio.trick(ev.value);
         break;
       default:
         break;
@@ -383,19 +399,65 @@ export class Game {
 
   private handleRivalEvent(s: SimState, ev: SimEvent): void {
     this.carry.set(s.vx, 0, s.vz);
+    const loud = this.ui === 'play' || this.ui === 'finished';
     if (ev.type === 'launch') this.splash.burst(ev.x, ev.y, ev.z, 14, 3 + Math.min(4, ev.value * 0.3), this.carry);
-    else if (ev.type === 'land' && ev.value > 2) this.splash.burst(ev.x, ev.y, ev.z, Math.min(120, 30 + ev.value * 6), 3 + ev.value * 0.4, this.carry);
-    else if (ev.type === 'wipeout') this.splash.burst(ev.x, ev.y, ev.z, 140, 7, this.carry);
+    else if (ev.type === 'land' && ev.value > 2) {
+      this.splash.burst(ev.x, ev.y, ev.z, Math.min(120, 30 + ev.value * 6), 3 + ev.value * 0.4, this.carry);
+      if (loud && ev.value > 4) {
+        const sp = this.spatial(ev.x, ev.z);
+        if (sp.gain > 0.05) this.audio.splash(ev.value, sp.gain * 0.7, sp.pan);
+      }
+    } else if (ev.type === 'wipeout') {
+      this.splash.burst(ev.x, ev.y, ev.z, 140, 7, this.carry);
+      if (loud) {
+        const sp = this.spatial(ev.x, ev.z);
+        if (sp.gain > 0.05) this.audio.wipeout(sp.gain * 0.8, sp.pan);
+      }
+    }
+  }
+
+  /** Distance falloff and stereo pan for a world-space sound, relative to the camera. */
+  private spatial(x: number, z: number): { gain: number; pan: number; dist: number } {
+    const cam = this.camera.position;
+    const dx = x - cam.x;
+    const dz = z - cam.z;
+    const dist = Math.hypot(dx, dz);
+    // camera right vector from its yaw (camera looks along -sin, -cos of camYaw)
+    const rx = Math.cos(this.camYaw);
+    const rz = -Math.sin(this.camYaw);
+    const pan = dist > 0.01 ? (dx * rx + dz * rz) / dist : 0;
+    const gain = Math.max(0, Math.min(1, 12 / Math.max(12, dist)) - dist / 400);
+    return { gain, pan: pan * 0.8, dist };
+  }
+
+  private updateRivalEngine(): void {
+    let best = Infinity;
+    let bi = -1;
+    const cam = this.camera.position;
+    for (let i = 1; i < this.race.racers.length; i += 1) {
+      const r = this.race.racers[i].s;
+      if (r.mode !== 'ride') continue;
+      const d = Math.hypot(r.x - cam.x, r.z - cam.z);
+      if (d < best) {
+        best = d;
+        bi = i;
+      }
+    }
+    const active = bi > 0 && (this.ui === 'play' || this.ui === 'finished');
+    if (bi < 0) return this.audio.rivalEngine(1e3, 0, 0, false);
+    const r = this.race.racers[bi].s;
+    const sp = this.spatial(r.x, r.z);
+    this.audio.rivalEngine(best, Math.min(1, Math.hypot(r.vx, r.vz) / TUNING.boostSpeed), sp.pan, active);
   }
 
   private handleRaceEvent(ev: RaceEvent): void {
     const loud = this.ui === 'play' || this.ui === 'finished';
     switch (ev.type) {
       case 'countdown':
-        if (loud) this.audio.chime(false);
+        if (loud) this.audio.countdown(ev.value);
         break;
       case 'go':
-        if (loud) this.audio.chime(true);
+        if (loud) this.audio.go();
         break;
       case 'bump': {
         const a = this.race.racers[ev.a].s;
@@ -404,14 +466,17 @@ export class Game {
         this.splash.burst(ev.x, ev.y, ev.z, Math.min(90, 20 + ev.value * 10), 2.5 + ev.value * 0.5, this.carry);
         if (ev.a === 0) {
           this.trauma = Math.min(1, this.trauma + 0.15 + ev.value * 0.05);
-          if (loud) this.audio.splash(4 + ev.value * 1.5);
+          if (loud) this.audio.bump(ev.value);
+        } else if (loud) {
+          const sp = this.spatial(ev.x, ev.z);
+          if (sp.gain > 0.05) this.audio.bump(ev.value, sp.gain * 0.7, sp.pan);
         }
         break;
       }
       case 'finish':
         if (ev.a === 0 && this.ui !== 'title') {
           this.finishAt = this.sim.t + 1.1;
-          if (loud) this.audio.fanfare(ev.b === 1);
+          if (loud) this.audio.finish(ev.b);
         }
         break;
       default:
@@ -563,6 +628,7 @@ export class Game {
     window.__THREE_GAME_DIAGNOSTICS__ = {
       frame: this.frame,
       ui: this.ui,
+      audio: this.audio.diagnostics(),
       sim: {
         t: s.t,
         step: s.step,

@@ -242,6 +242,8 @@ kbd {
 .panel button.ghost { background: rgba(255, 255, 255, 0.14); color: #fff; box-shadow: none; }
 .panel button:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
 .small { margin: 12px 0 0; font-size: 0.8rem; opacity: 0.8; }
+.credit { font-size: 0.7rem; opacity: 0.6; }
+.credit a { color: inherit; }
 .touch-only { display: none; }
 
 #mute-btn, #pause-btn {

@@ -6,6 +6,16 @@ declare const __TEST_HOOKS__: boolean;
 interface ThreeGameDiagnostics {
   frame: number;
   ui: string;
+  audio: {
+    state: string;
+    loaded: number;
+    total: number;
+    failed: number;
+    sampledEngine: boolean;
+    beds: boolean;
+    muted: boolean;
+    plays: Record<string, number | undefined>;
+  };
   sim: {
     t: number;
     step: number;
