@@ -47,10 +47,12 @@ const view = {
 const POL_MIN = 0.35;
 const POL_MAX = 1.52;
 
+let maxPixelRatio = 2;
+
 function resize() {
   const w = window.innerWidth;
   const h = window.innerHeight;
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, maxPixelRatio));
   renderer.setSize(w, h, false);
   camera.aspect = w / h;
   camera.fov = FOV;
@@ -143,6 +145,9 @@ let t = params.has('t') ? Number(params.get('t')) : still ? STILL_T : 0;
 if (still && !params.has('az') && !params.has('rel')) view.az = STILL_AZ;
 let needsRender = true;
 let last = 0;
+let lastRaw = 0;
+let slowTime = 0;
+let slowFrames = 0;
 let raf = 0;
 
 function frame(now) {
@@ -150,6 +155,18 @@ function frame(now) {
   const dt = Math.min(Math.max((now - last) / 1000, 0), 0.05); // never jump after a stall
   last = now;
   const dragging = pointers.size > 0;
+  // If the machine cannot keep up, give up resolution rather than smoothness.
+  if (!still && maxPixelRatio > 1 && (window.devicePixelRatio || 1) > 1) {
+    slowTime += Math.min((now - lastRaw) / 1000, 0.25);
+    if (++slowFrames === 40) {
+      if (slowTime / slowFrames > 1 / 40) {
+        maxPixelRatio = Math.max(1, maxPixelRatio - 0.5);
+        resize();
+      }
+      slowTime = slowFrames = 0;
+    }
+  }
+  lastRaw = now;
   if (still) {
     if (!needsRender) return;
   } else {
@@ -181,7 +198,8 @@ motionQuery.addEventListener('change', (e) => {
 document.addEventListener('visibilitychange', () => {
   cancelAnimationFrame(raf);
   if (!document.hidden) {
-    last = performance.now();
+    last = lastRaw = performance.now();
+    slowTime = slowFrames = 0;
     raf = requestAnimationFrame(frame);
   }
 });
@@ -190,7 +208,7 @@ window.addEventListener('orientationchange', resize);
 canvas.addEventListener('webglcontextrestored', () => (needsRender = true));
 
 resize();
-last = performance.now();
+last = lastRaw = performance.now();
 raf = requestAnimationFrame(frame);
 
 // Handle for inspection from the console and for automated checks.
