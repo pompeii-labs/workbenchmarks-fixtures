@@ -9,7 +9,7 @@ const params = new URLSearchParams(location.search);
 const reduceQuery = matchMedia('(prefers-reduced-motion: reduce)');
 let reduced = reduceQuery.matches || params.has('still');
 // A frame with two pins in the air and one in a wing.
-const STILL_T = 10 * BEAT + 0.2;
+const STILL_T = 10 * BEAT + 0.1;
 const T0 = params.has('t') ? parseFloat(params.get('t')) : 2.0;
 const FROZEN = params.has('t');
 
@@ -109,7 +109,7 @@ function fitDistance() {
   const tv = Math.tan(vh);
   const th = tv * camera.aspect;
   // the act: about 1.7 m wide (wings + pins) and 2.9 m tall (floor to pin apex)
-  return (Math.max(1.5 / tv, 0.95 / th) * 1.05) / ZOOM;
+  return (Math.max(1.38 / tv, 0.9 / th) * 1.05) / ZOOM;
 }
 
 let lastYaw = 0;
@@ -118,7 +118,7 @@ function initCamera(t) {
   const target = new THREE.Vector3(pose.x, AIM_Y, pose.z);
   // front-left three-quarter view, slightly above
   const camA = parseFloat(params.get('cam') || '0');
-  const dir = new THREE.Vector3(0.62, 0.22, 0.75)
+  const dir = new THREE.Vector3(0.88, 0.22, 0.45)
     .normalize()
     .applyAxisAngle(new THREE.Vector3(0, 1, 0), pose.yaw + camA);
   camera.position.copy(target).addScaledVector(dir, fitDistance());
@@ -211,4 +211,4 @@ camera.updateProjectionMatrix();
 start();
 
 // hooks for automated checks
-window.__act = { poseAt, pinState, bodyMatrixAt, bodyG, hubG, pins, setAct, renderer, scene, camera, get t() { return simT; } };
+window.__act = { pelican, poseAt, pinState, bodyMatrixAt, bodyG, hubG, pins, setAct, renderer, scene, camera, get t() { return simT; }, set t(v) { simT = v; } };

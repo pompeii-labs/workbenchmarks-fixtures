@@ -27,6 +27,13 @@ export class DynTube {
       }
     }
     geo.setIndex(idx);
+    const uv = new Float32Array(samples * (radial + 1) * 2);
+    for (let i = 0, k = 0; i < samples; i++)
+      for (let j = 0; j <= radial; j++) {
+        uv[k++] = j / radial;
+        uv[k++] = i / (samples - 1);
+      }
+    geo.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
     this.geo = geo;
     this.mesh = new THREE.Mesh(geo, mat);
     this.mesh.castShadow = true;
@@ -163,5 +170,35 @@ export function canvasTexture(w, h, draw) {
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 4;
+  return t;
+}
+
+// Overlapping rounded feather tips, as a greyscale bump map.
+export function featherBump() {
+  const t = canvasTexture(256, 256, (g, w, h) => {
+    g.fillStyle = '#808080';
+    g.fillRect(0, 0, w, h);
+    const rows = 12,
+      cols = 10;
+    const cw = w / cols,
+      rh = h / rows;
+    for (let r = 0; r < rows + 1; r++) {
+      for (let c = -1; c < cols + 1; c++) {
+        const x = c * cw + (r % 2) * cw * 0.5;
+        const y = r * rh;
+        const grd = g.createRadialGradient(x, y - rh * 0.6, rh * 0.2, x, y - rh * 0.4, rh * 1.25);
+        grd.addColorStop(0, '#b4b4b4');
+        grd.addColorStop(0.8, '#8a8a8a');
+        grd.addColorStop(1, '#505050');
+        g.fillStyle = grd;
+        g.beginPath();
+        g.ellipse(x, y - rh * 0.4, cw * 0.62, rh * 1.15, 0, 0, Math.PI);
+        g.fill();
+      }
+    }
+  });
+  t.colorSpace = THREE.NoColorSpace;
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.repeat.set(2, 1.2);
   return t;
 }

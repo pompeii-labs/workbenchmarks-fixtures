@@ -1,6 +1,8 @@
 // The pelican: an American white pelican, modelled entirely in code.
 import * as THREE from 'three';
-import { ellipsoid, DynTube, GridSurface, solveTwoBone, placeSegment } from './geom.js';
+import { ellipsoid, DynTube, GridSurface, solveTwoBone, placeSegment, featherBump } from './geom.js';
+
+const FEATHER_BUMP = featherBump();
 import {
   handLocal,
   handSide,
@@ -11,8 +13,8 @@ import {
 } from './motion.js';
 
 const M = {
-  feather: new THREE.MeshStandardMaterial({ color: 0xf6f3ec, roughness: 0.88 }),
-  featherWarm: new THREE.MeshStandardMaterial({ color: 0xeee6d6, roughness: 0.9 }),
+  feather: new THREE.MeshStandardMaterial({ color: 0xf6f3ec, roughness: 0.88, bumpMap: FEATHER_BUMP, bumpScale: 0.9 }),
+  featherWarm: new THREE.MeshStandardMaterial({ color: 0xeee6d6, roughness: 0.9, bumpMap: FEATHER_BUMP, bumpScale: 0.9 }),
   black: new THREE.MeshStandardMaterial({ color: 0x1c1b20, roughness: 0.65 }),
   bill: new THREE.MeshStandardMaterial({ color: 0xf3a531, roughness: 0.4 }),
   nail: new THREE.MeshStandardMaterial({ color: 0xe0601e, roughness: 0.4 }),

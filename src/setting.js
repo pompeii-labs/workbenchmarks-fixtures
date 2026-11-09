@@ -134,14 +134,14 @@ export function buildSetting(scene, maxAniso) {
   const headGeo = new THREE.SphereGeometry(0.11, 10, 8);
   headGeo.translate(0, 0.72, 0);
   const torsos = new THREE.InstancedMesh(torsoGeo, new THREE.MeshStandardMaterial({ roughness: 0.9 }), people.length);
-  const heads = new THREE.InstancedMesh(headGeo, new THREE.MeshStandardMaterial({ color: 0x3a2a22, roughness: 0.8 }), people.length);
+  const heads = new THREE.InstancedMesh(headGeo, new THREE.MeshStandardMaterial({ color: 0x1e1612, roughness: 0.9 }), people.length);
   const mtx = new THREE.Matrix4();
   const col = new THREE.Color();
   people.forEach(([x, y, z, s], i) => {
     mtx.makeScale(s, s, s).setPosition(x, y, z);
     torsos.setMatrixAt(i, mtx);
     heads.setMatrixAt(i, mtx);
-    col.setHSL(r(), 0.25, 0.05 + r() * 0.06);
+    col.setHSL(r(), 0.3, 0.025 + r() * 0.035);
     torsos.setColorAt(i, col);
   });
   scene.add(torsos, heads);
