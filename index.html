@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#150a12" />
+    <meta name="description" content="A pelican riding a unicycle while juggling three bowling pins, in real-time 3D." />
+    <title>The Juggling Pelican</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #150a12;
+      }
+      canvas#stage {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        touch-action: none;
+        cursor: grab;
+        outline: none;
+      }
+      canvas#stage.dragging {
+        cursor: grabbing;
+      }
+      h1 {
+        position: fixed;
+        left: max(14px, env(safe-area-inset-left));
+        bottom: max(12px, env(safe-area-inset-bottom));
+        margin: 0;
+        font: 500 11px/1.2 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: rgba(255, 240, 215, 0.72);
+        text-shadow: 0 1px 3px rgba(20, 8, 14, 0.85);
+        pointer-events: none;
+        user-select: none;
+      }
+      #fallback {
+        position: fixed;
+        inset: 0;
+        display: none;
+        place-items: center;
+        padding: 24px;
+        text-align: center;
+        font: 15px/1.5 ui-sans-serif, system-ui, sans-serif;
+        color: #f1e2c0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="stage" aria-label="A pelican riding a unicycle around a circus ring while juggling three bowling pins. Drag to look around."></canvas>
+    <h1>The Juggling Pelican</h1>
+    <div id="fallback">This act needs WebGL, which is not available in this browser.</div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
