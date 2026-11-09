@@ -154,7 +154,7 @@
       "section": "orbit-touch",
       "label": "finger drag orbits the camera (azimuth increases by > 0.5 rad)",
       "ok": true,
-      "detail": "1.1182203800121593 -> 4.8663742261660055"
+      "detail": "1.119 -> 4.867153846153846"
     },
     {
       "section": "orbit-touch",

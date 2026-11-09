@@ -316,7 +316,7 @@ export class Pelican {
     // Primaries fan from the wrist, sweeping back and down: the folded black wingtip.
     const pri: THREE.BufferGeometry[] = [];
     for (let i = 0; i < 7; i++) {
-      const f = featherGeometry(0.24 + i * 0.012, 0.045, 0.03);
+      const f = featherGeometry(0.28 + i * 0.016, 0.048, 0.03);
       f.rotateX(-0.55 - i * 0.12);
       f.translate(-side * 0.003 * i, -0.01 - i * 0.006, 0.02);
       pri.push(f);
@@ -348,10 +348,10 @@ export class Pelican {
     const thighGeo = new THREE.LatheGeometry(
       [
         new THREE.Vector2(0.0, -0.03),
-        new THREE.Vector2(0.05, -0.01),
-        new THREE.Vector2(0.066, 0.06),
-        new THREE.Vector2(0.058, 0.15),
-        new THREE.Vector2(0.036, LEG_L1 - 0.02),
+        new THREE.Vector2(0.046, -0.01),
+        new THREE.Vector2(0.056, 0.05),
+        new THREE.Vector2(0.046, 0.13),
+        new THREE.Vector2(0.028, LEG_L1 - 0.03),
         new THREE.Vector2(0.02, LEG_L1 + 0.005),
         new THREE.Vector2(0.0, LEG_L1 + 0.01),
       ],

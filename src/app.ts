@@ -183,7 +183,7 @@ export class App {
     const vfov = THREE.MathUtils.degToRad(this.camera.fov);
     const tanV = Math.tan(vfov / 2);
     const tanH = tanV * this.camera.aspect;
-    const dist = Math.max(0.92 / tanV, 0.68 / tanH) * 1.05 + 0.45;
+    const dist = Math.max(0.88 / tanV, 0.68 / tanH) * 1.05 + 0.45;
     const heading = this.pose.heading;
     const breathe = this.reducedMotion ? 0 : 0.035 * Math.sin(this.t * 0.13);
     const el = THREE.MathUtils.clamp(this.el + breathe, 0.02, 0.85);
