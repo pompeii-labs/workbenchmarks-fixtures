@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "runId": "pass-7",
+  "captures": [
+    {
+      "mode": "desktop",
+      "state": "active-play",
+      "report": "artifacts/pass-7/desktop-active-play.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "active-play",
+      "report": "artifacts/pass-7/mobile-active-play.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "side-view",
+      "report": "artifacts/pass-7/desktop-side-view.json"
+    },
+    {
+      "mode": "desktop",
+      "state": "reduced-motion",
+      "report": "artifacts/pass-7/desktop-reduced-motion.json"
+    },
+    {
+      "mode": "mobile",
+      "state": "reduced-motion",
+      "report": "artifacts/pass-7/mobile-reduced-motion.json"
+    }
+  ]
+}

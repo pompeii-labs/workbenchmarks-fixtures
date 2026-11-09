@@ -1,0 +1,190 @@
+{
+  "runner": "tgplaytest@1",
+  "timeScale": 3,
+  "renderScale": 0.5,
+  "hooks": {
+    "setTimeScale": true,
+    "setRenderScale": true
+  },
+  "sections": {
+    "motion": {
+      "file": "motion.mjs",
+      "pass": 14,
+      "fail": 0,
+      "metrics": {
+        "slip": 0.004584256988831129,
+        "travelMin": 0.43025846247807803,
+        "footErr": 0,
+        "footGap": 9.171947447016606e-16,
+        "wristErr": 0,
+        "grip": 9.104505742017335e-15,
+        "minPinY": 0.7186575066698189,
+        "accelErr": 5.652545098655537e-11,
+        "accelSamples": 531,
+        "jump": 0.010413719007764706,
+        "seam": 4.138644592482276e-13,
+        "pitchMin": -0.034130506572872435,
+        "pitchMax": 0.052985208454621194,
+        "inHandMin": 1,
+        "inHandMax": 2,
+        "pen": -0.4999460354220293
+      },
+      "seconds": 6
+    },
+    "orbit-mouse": {
+      "file": "orbit-mouse.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 14
+    },
+    "orbit-touch": {
+      "file": "orbit-touch.mjs",
+      "pass": 2,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 14
+    },
+    "reduced-motion": {
+      "file": "reduced-motion.mjs",
+      "pass": 4,
+      "fail": 0,
+      "metrics": {},
+      "seconds": 7
+    }
+  },
+  "checks": [
+    {
+      "section": "motion",
+      "label": "the act clock advances on its own",
+      "ok": true,
+      "detail": "8.314 -> 9.514000000000003"
+    },
+    {
+      "section": "motion",
+      "label": "wheel rolls without slipping (contact point speed < 2% of travel speed)",
+      "ok": true,
+      "detail": "ratio 0.004584256988831129"
+    },
+    {
+      "section": "motion",
+      "label": "the unicycle never stops (min travel speed > 0.25 m/s)",
+      "ok": true,
+      "detail": "0.43025846247807803"
+    },
+    {
+      "section": "motion",
+      "label": "leg IK always reaches the pedals",
+      "ok": true,
+      "detail": "0 m"
+    },
+    {
+      "section": "motion",
+      "label": "ball of each webbed foot sits on its pedal (< 2 mm)",
+      "ok": true,
+      "detail": "9.171947447016606e-16 m"
+    },
+    {
+      "section": "motion",
+      "label": "wing IK always reaches the grip point",
+      "ok": true,
+      "detail": "0 m"
+    },
+    {
+      "section": "motion",
+      "label": "held pins stay in the wing tip (neck within 2 mm of wrist)",
+      "ok": true,
+      "detail": "9.104505742017335e-15 m"
+    },
+    {
+      "section": "motion",
+      "label": "no pin ever drops (lowest pin point stays above 0.45 m)",
+      "ok": true,
+      "detail": "0.7186575066698189 m"
+    },
+    {
+      "section": "motion",
+      "label": "pins in flight accelerate at g (within 0.05 m/s^2)",
+      "ok": true,
+      "detail": "5.652545098655537e-11 over 531"
+    },
+    {
+      "section": "motion",
+      "label": "no pin teleports at throws or catches (< 1.5 cm per 1/240 s)",
+      "ok": true,
+      "detail": "0.010413719007764706 m"
+    },
+    {
+      "section": "motion",
+      "label": "pattern repeats with no seam, even an hour in (< 1 mm)",
+      "ok": true,
+      "detail": "4.138644592482276e-13 m"
+    },
+    {
+      "section": "motion",
+      "label": "always 1 or 2 pins held, never all 3 or none",
+      "ok": true,
+      "detail": "1..2"
+    },
+    {
+      "section": "motion",
+      "label": "pins never pass through the body (conservative ellipsoid test)",
+      "ok": true,
+      "detail": "penetration -0.4999460354220293"
+    },
+    {
+      "section": "motion",
+      "label": "balance is never still (fore-aft lean spans > 3 degrees)",
+      "ok": true,
+      "detail": "-0.034130506572872435..0.052985208454621194"
+    },
+    {
+      "section": "orbit-mouse",
+      "label": "mouse drag left orbits the camera (azimuth increases by > 0.5 rad)",
+      "ok": true,
+      "detail": "1.119 -> 3.0590625000000005"
+    },
+    {
+      "section": "orbit-mouse",
+      "label": "auto drift resumes after release",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "section": "orbit-touch",
+      "label": "finger drag orbits the camera (azimuth increases by > 0.5 rad)",
+      "ok": true,
+      "detail": "1.1182203800121593 -> 4.8663742261660055"
+    },
+    {
+      "section": "orbit-touch",
+      "label": "canvas fills the phone viewport",
+      "ok": true,
+      "detail": "{\"w\":390,\"h\":844}"
+    },
+    {
+      "section": "reduced-motion",
+      "label": "act clock frozen",
+      "ok": true,
+      "detail": "7.514 -> 7.514"
+    },
+    {
+      "section": "reduced-motion",
+      "label": "camera does not drift",
+      "ok": true,
+      "detail": "1.1445 -> 1.1445"
+    },
+    {
+      "section": "reduced-motion",
+      "label": "no continuous re-rendering while still",
+      "ok": true,
+      "detail": "11 -> 11"
+    },
+    {
+      "section": "reduced-motion",
+      "label": "motion resumes when the preference is cleared",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
