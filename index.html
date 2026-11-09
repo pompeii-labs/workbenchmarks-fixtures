@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#160c10" />
+    <link rel="icon" href="data:," />
+    <title>Pelican on a Unicycle</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #160c10; }
+      #app { position: fixed; inset: 0; touch-action: none; }
+      #app canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+      #app canvas:active { cursor: grabbing; }
+      h1 {
+        position: fixed; left: 14px; bottom: 10px; margin: 0;
+        font: 500 12px/1.2 ui-serif, Georgia, serif; letter-spacing: 0.12em; text-transform: uppercase;
+        color: rgba(255, 236, 205, 0.55); pointer-events: none; user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <h1>The Juggling Pelican</h1>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
