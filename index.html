@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f3eb" />
+    <meta
+      name="description"
+      content="Should you put solar panels on your roof to power your sauna? An interactive, transparent 25-year analysis for a Minneapolis homeowner."
+    />
+    <title>The Good Heat — Solar, sauna & the bottom line</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%2327372e'/%3E%3Cpath d='M13 29c-7-9 9-9 2-18m6 18c-7-9 9-9 2-18m6 18c-7-9 9-9 2-18' fill='none' stroke='%23e8bd5b' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#assumptions">Skip to the calculator</a>
+    <header class="masthead wrap">
+      <a class="brand" href="#" aria-label="The Good Heat, home"
+        ><svg viewBox="0 0 36 36" aria-hidden="true">
+          <path
+            d="M9 29C0 18 21 17 12 5M18 29C9 18 30 17 21 5M27 29C18 18 39 17 30 5"
+          /></svg
+        >THE GOOD HEAT<span>A HOME ENERGY FIELD NOTE</span></a
+      >
+      <nav aria-label="Page navigation">
+        <a href="#energy">The energy</a><a href="#money">The money</a
+        ><a href="#method">The fine print <span>↗</span></a>
+      </nav>
+      <span class="edition"
+        >MINNEAPOLIS, MN <span>44.98° N / 93.27° W</span></span
+      >
+    </header>
+    <main>
+      <section class="hero wrap" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="tiny-sun">✳</span> SOLAR + SAUNA / A 25-YEAR LOOK
+          </p>
+          <h1 id="page-title">A little sun.<br />A lot of steam.</h1>
+          <p class="hero-question">
+            Should you put solar panels on your roof<br class="desktop-break" />
+            to power your sauna?
+          </p>
+          <p class="hero-description">
+            A Minneapolis roof. Four evening sessions a week.<br />Let’s
+            separate the warm feeling from the cold math.
+          </p>
+          <a class="text-link" href="#verdict"
+            >Start with the bottom line <span>↓</span></a
+          >
+        </div>
+        <figure class="house-figure">
+          <svg
+            viewBox="0 0 570 390"
+            role="img"
+            aria-labelledby="house-title house-desc"
+          >
+            <title id="house-title">A solar-powered Scandinavian sauna</title>
+            <desc id="house-desc">
+              An illustrated timber sauna with a south-facing solar roof, a
+              golden sun, and Minnesota pines.
+            </desc>
+            <defs>
+              <pattern
+                id="wood"
+                width="13"
+                height="13"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect width="13" height="13" fill="#b88c62" />
+                <path d="M0 0v13" stroke="#926b49" stroke-width="1" />
+              </pattern>
+              <pattern
+                id="panels"
+                width="48"
+                height="39"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect width="48" height="39" fill="#344e4b" />
+                <path
+                  d="M0 0h48v39H0z"
+                  fill="none"
+                  stroke="#8aaba2"
+                  stroke-width="1.2"
+                />
+                <path
+                  d="M24 0v39M0 19.5h48"
+                  fill="none"
+                  stroke="#6b8b83"
+                  stroke-width=".5"
+                />
+              </pattern>
+            </defs>
+            <ellipse cx="294" cy="344" rx="233" ry="22" fill="#e5e3d6" />
+            <g stroke="#d7b05a" stroke-width="1">
+              <circle cx="393" cy="103" r="56" fill="#e8bc5b" stroke="none" />
+              <circle
+                cx="393"
+                cy="103"
+                r="70"
+                fill="none"
+                stroke-dasharray="1 9"
+              />
+              <path
+                d="M393 17v-8m0 180v8m86-94h8m-180 0h-8m147-61 6-6m-128 128-6 6m128-6 6 6M332 42l-6-6"
+              />
+            </g>
+            <g fill="#728270">
+              <path
+                d="M107 124 70 204h20l-32 61h31l-29 55h91l-28-55h27l-32-61h20z"
+              />
+              <path
+                d="M480 176 450 236h18l-27 49h22l-22 43h75l-22-43h22l-26-49h17z"
+              />
+            </g>
+            <g stroke="#526752" stroke-width="2">
+              <path d="M107 184v151m373-104v105" />
+            </g>
+            <path d="m151 216 171 30 139-70-170-32z" fill="#8d694a" />
+            <path d="m151 216 171 30v95l-171-31z" fill="url(#wood)" />
+            <path d="m322 246 139-70v96l-139 69z" fill="#9d754f" />
+            <path d="m136 214 185 35 158-80-187-35z" fill="#263d38" />
+            <path d="m144 207 177 33 146-74-177-32z" fill="#9ba899" />
+            <g transform="matrix(1 .185 -.88 .445 291 141)">
+              <rect
+                width="170"
+                height="150"
+                fill="url(#panels)"
+                stroke="#d3d6bf"
+                stroke-width="3"
+              />
+              <path d="M85 0v150M0 75h170" stroke="#d3d6bf" stroke-width="3" />
+            </g>
+            <path d="m174 239 53 10v67l-53-10z" fill="#34433a" />
+            <path d="m181 248 38 7v45l-38-7z" fill="#e9b56b" />
+            <path d="m184 285 33 6v5l-33-6z" fill="#ad7549" />
+            <path d="m249 254 45 8v73l-45-8z" fill="#354339" />
+            <path d="m255 260 33 6v51l-33-6z" fill="#627067" />
+            <path d="m280 290 0 12" stroke="#e7c185" stroke-width="2" />
+            <path d="m350 245 81-41v51l-81 41z" fill="#2b3c35" />
+            <path d="m357 247 67-34v36l-67 34z" fill="#daa96b" />
+            <path d="m391 230v37" stroke="#3c493b" stroke-width="4" />
+            <path d="m357 272 67-34v7l-67 34z" fill="#ae7545" />
+            <path d="m242 328 59 11-15 9-59-11z" fill="#aa9b7d" />
+            <path d="m227 337 59 11v6l-59-11z" fill="#8d8068" />
+            <g fill="none" stroke="#9c9f8c" stroke-width="1.3">
+              <path
+                d="M243 110c-16-19 18-21 1-42M256 116c-16-19 18-21 1-42M269 122c-16-19 18-21 1-42"
+              />
+            </g>
+            <g fill="#79816d">
+              <path
+                d="m152 339 9-14 4 16 8-10 2 15zM422 332l5-16 5 15 9-10-3 17z"
+              />
+            </g>
+            <path
+              d="m348 150 24-22h62"
+              fill="none"
+              stroke="#777c68"
+              stroke-width=".7"
+            />
+            <text
+              x="441"
+              y="131"
+              font-size="9"
+              fill="#56604e"
+              font-family="monospace"
+            >
+              35° / SOUTH
+            </text>
+          </svg>
+          <figcaption>
+            <span class="dot"></span> Designed for the sun. Used after work.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section
+        class="verdict wrap"
+        id="verdict"
+        aria-labelledby="verdict-title"
+      >
+        <div class="verdict-main">
+          <p class="eyebrow">
+            <span class="status-dot"></span> THE SHORT ANSWER
+            <span class="live-tag">LIVE ESTIMATE</span>
+          </p>
+          <h2 id="verdict-title">
+            For the sauna alone,<br /><em>not quite.</em>
+          </h2>
+          <p id="verdict-copy">Calculating your 25-year outlook…</p>
+        </div>
+        <div class="verdict-number">
+          <span class="metric-label">25-YEAR NET PRESENT VALUE</span
+          ><strong id="hero-npv">−$1,544</strong>
+          <p id="npv-meaning">
+            Compared with buying all sauna electricity from the grid.
+          </p>
+          <a href="#money">Follow the money <span>↘</span></a>
+        </div>
+      </section>
+
+      <section
+        class="controls wrap"
+        id="assumptions"
+        aria-labelledby="controls-title"
+      >
+        <div class="controls-heading">
+          <h2 id="controls-title">Make it your roof.</h2>
+          <p>Change an assumption. The whole story follows.</p>
+          <button class="reset-button" id="reset" type="button">↺ Reset</button>
+        </div>
+        <div class="control-grid">
+          <div class="control">
+            <label for="array-size"
+              >ARRAY SIZE
+              <output id="array-output" for="array-size">3.0 kW</output></label
+            ><input
+              id="array-size"
+              type="range"
+              min="0"
+              max="12"
+              step="0.25"
+              value="3"
+            />
+            <div class="range-labels"><span>0 kW</span><span>12 kW</span></div>
+          </div>
+          <fieldset class="control">
+            <legend>EXPORT POLICY</legend>
+            <div class="segmented">
+              <label
+                ><input
+                  type="radio"
+                  name="policy"
+                  value="net-metering"
+                  checked
+                /><span>Net metering</span></label
+              ><label
+                ><input type="radio" name="policy" value="net-billing" /><span
+                  >Net billing</span
+                ></label
+              >
+            </div>
+            <p id="policy-hint">Annual credits at the retail rate</p>
+          </fieldset>
+          <fieldset class="control">
+            <legend>BATTERY STORAGE</legend>
+            <div class="segmented">
+              <label
+                ><input
+                  type="radio"
+                  name="battery"
+                  value="false"
+                  checked
+                /><span>None</span></label
+              ><label
+                ><input type="radio" name="battery" value="true" /><span
+                  >13.5 kWh</span
+                ></label
+              >
+            </div>
+            <p>Adds $11,000 + a year-13 replacement</p>
+          </fieldset>
+          <div class="control">
+            <label for="grid-price"
+              >GRID PRICE
+              <output id="price-output" for="grid-price"
+                >16¢ / kWh</output
+              ></label
+            ><input
+              id="grid-price"
+              type="range"
+              min="4"
+              max="50"
+              step="1"
+              value="16"
+            />
+            <div class="range-labels"><span>4¢</span><span>50¢</span></div>
+          </div>
+          <div class="control">
+            <label for="discount-rate"
+              >DISCOUNT RATE
+              <output id="rate-output" for="discount-rate">5.0%</output></label
+            ><input
+              id="discount-rate"
+              type="range"
+              min="0"
+              max="12"
+              step="0.5"
+              value="5"
+            />
+            <div class="range-labels"><span>0%</span><span>12%</span></div>
+          </div>
+        </div>
+        <p class="control-footnote">
+          <span class="small-star">✳</span> South-facing roof · 35° tilt · no
+          shade · spring 2027 installation · sauna load only
+        </p>
+      </section>
+
+      <div class="wrap story">
+        <section
+          id="energy"
+          class="story-section"
+          aria-labelledby="timing-title"
+        >
+          <div class="section-heading">
+            <p class="section-index">01 / THE ENERGY</p>
+            <h2 id="timing-title">
+              The sun clocks out.<br />Your sauna clocks in.
+            </h2>
+            <p>
+              Solar makes its best effort around midday. Your heater starts at
+              6:30 p.m. Generating enough energy over a year is not the same as
+              having it when you need it.
+            </p>
+          </div>
+          <div class="chart-card daily-card">
+            <div class="chart-heading">
+              <div>
+                <h3>A summer day, hour by hour</h3>
+                <p>
+                  Tuesday, June 22 · representative weather · local daylight
+                  time
+                </p>
+              </div>
+              <span class="unit-tag">POWER / kW</span>
+            </div>
+            <div class="chart-legend">
+              <span><i class="key solar"></i>Solar production</span
+              ><span><i class="key load"></i>Sauna demand</span
+              ><span><i class="key grid"></i>From the grid</span
+              ><span class="battery-legend"
+                ><i class="key battery"></i>Battery discharge</span
+              >
+            </div>
+            <div id="daily-chart" class="svg-chart"></div>
+            <div class="chart-footer">
+              <span><strong>6:30–7:15 p.m.</strong> Heat up · 8 kW</span
+              ><span><strong>7:15–8:00 p.m.</strong> Enjoy · 4 kW</span
+              ><span class="session-total"
+                ><strong>9 kWh</strong> per session</span
+              >
+            </div>
+          </div>
+          <div class="energy-summary">
+            <div class="energy-intro">
+              <span class="eyebrow">WHAT ACTUALLY HEATS THE SAUNA?</span>
+              <h3 id="grid-share-title"></h3>
+              <p id="grid-share-copy"></p>
+            </div>
+            <div class="energy-distribution">
+              <div class="distribution-heading">
+                <span>YEAR 1 · <strong id="annual-demand"></strong></span
+                ><span>208 sessions</span>
+              </div>
+              <div id="energy-bar" class="energy-bar" role="img"></div>
+              <div id="energy-key" class="energy-key"></div>
+              <p class="micro-note">
+                Physical energy, before any utility bill credits.
+              </p>
+            </div>
+          </div>
+
+          <div class="section-subheading">
+            <div>
+              <p class="eyebrow">A YEAR ON THE ROOF</p>
+              <h3>Long summer days.<br />Long winter evenings.</h3>
+            </div>
+            <p id="annual-copy"></p>
+          </div>
+          <div class="chart-card">
+            <div class="chart-heading">
+              <div>
+                <h3>Where the solar goes</h3>
+                <p>
+                  Monthly production and sauna demand · first operating year
+                </p>
+              </div>
+              <span class="unit-tag">ENERGY / kWh</span>
+            </div>
+            <div class="chart-legend">
+              <span><i class="key export"></i>Exported</span
+              ><span><i class="key solar"></i>Direct to sauna</span
+              ><span class="battery-legend"
+                ><i class="key battery"></i>Into storage*</span
+              ><span><i class="key demand"></i>Sauna demand</span>
+            </div>
+            <div id="monthly-chart" class="svg-chart"></div>
+            <p class="chart-note" id="monthly-note"></p>
+          </div>
+          <details class="data-disclosure">
+            <summary>
+              See the monthly energy & value ledger
+              <span>12 MONTHS <b>+</b></span>
+            </summary>
+            <div
+              class="table-scroll"
+              tabindex="0"
+              role="region"
+              aria-label="Monthly energy and value table"
+            >
+              <table id="monthly-table"></table>
+            </div>
+            <p class="micro-note">
+              Net-metering value is an allocation of the annual settlement, not
+              twelve separate monthly settlements. All energy is kWh; money is
+              nominal USD. Rounded rows may not sum exactly.
+            </p>
+          </details>
+        </section>
+
+        <section id="money" class="story-section" aria-labelledby="money-title">
+          <div class="section-heading">
+            <p class="section-index">02 / THE MONEY</p>
+            <h2 id="money-title">
+              A sunny roof is not<br />the same as a good return.
+            </h2>
+            <p id="money-intro"></p>
+          </div>
+          <div class="finance-metrics">
+            <div>
+              <span class="metric-label">YOUR UPFRONT COST</span
+              ><strong id="upfront"></strong
+              ><small>No federal credit in 2027</small>
+            </div>
+            <div>
+              <span class="metric-label">FIRST-YEAR VALUE</span
+              ><strong id="savings"></strong
+              ><small>Bill savings + export revenue</small>
+            </div>
+            <div>
+              <span class="metric-label">SIMPLE PAYBACK</span
+              ><strong id="payback"></strong
+              ><small>Undiscounted, within 25 years</small>
+            </div>
+            <div>
+              <span class="metric-label">INTERNAL RATE OF RETURN</span
+              ><strong id="irr"></strong
+              ><small
+                >Compared with <span id="hurdle"></span> required return</small
+              >
+            </div>
+          </div>
+          <div class="money-grid">
+            <div class="settlement-card">
+              <p class="eyebrow">FOLLOW ONE YEAR’S DOLLARS</p>
+              <h3 id="settlement-title">The first-year settlement</h3>
+              <div id="settlement-lines"></div>
+              <div class="settlement-total">
+                <span>Total value to you</span
+                ><strong id="settlement-total"></strong>
+              </div>
+              <p id="settlement-note"></p>
+            </div>
+            <aside class="tariff-note">
+              <span class="note-symbol">↗</span>
+              <p class="eyebrow">THE RULE THAT CHANGES THE ANSWER</p>
+              <h3 id="tariff-title"></h3>
+              <p id="tariff-copy"></p>
+              <div class="tariff-compare" id="tariff-compare"></div>
+              <p class="micro-note">
+                Same roof. Same heater. Different rules for the very same
+                electrons.
+              </p>
+            </aside>
+          </div>
+          <div class="chart-card lifetime-card">
+            <div class="chart-heading">
+              <div>
+                <h3>The long view</h3>
+                <p>
+                  Cumulative cash flow after purchase, over 25 operating years
+                </p>
+              </div>
+              <span class="unit-tag">MONEY / USD</span>
+            </div>
+            <div class="chart-legend">
+              <span><i class="key nominal"></i>Cash in hand</span
+              ><span><i class="key discounted"></i>In today’s dollars</span>
+            </div>
+            <div id="lifetime-chart" class="svg-chart"></div>
+            <div class="chart-footer"><p id="lifetime-copy"></p></div>
+          </div>
+          <details class="data-disclosure">
+            <summary>
+              Open the full year-by-year cash flows
+              <span>YEAR 0–25 <b>+</b></span>
+            </summary>
+            <div
+              class="table-scroll"
+              tabindex="0"
+              role="region"
+              aria-label="25-year cash flow table"
+            >
+              <table id="cashflow-table"></table>
+            </div>
+            <p class="micro-note">
+              Year 0 is the purchase. Each operating cash flow arrives at
+              year-end. Prices rise 3%/year; output falls 0.5%/year.
+              Replacement, if selected, is $6,000 at the end of year 13.
+            </p>
+            <button type="button" id="download-csv" class="text-button">
+              Download these cash flows (.csv) <span>↓</span>
+            </button>
+          </details>
+          <aside class="credit-note">
+            <span>!</span>
+            <p>
+              <strong
+                >One important 2027 reality: the federal credit is $0.</strong
+              >
+              The homeowner Residential Clean Energy Credit ended for property
+              placed in service after December 31, 2025. This analysis does not
+              subtract the old 30% credit, or assume state or utility
+              incentives.
+              <a
+                href="https://www.irs.gov/credits-deductions/residential-clean-energy-credit"
+                target="_blank"
+                rel="noreferrer"
+                >Read the IRS guidance ↗</a
+              >
+            </p>
+          </aside>
+        </section>
+
+        <section
+          id="sensitivity"
+          class="story-section"
+          aria-labelledby="sensitivity-title"
+        >
+          <div class="section-heading">
+            <p class="section-index">03 / WHAT WOULD CHANGE THE ANSWER?</p>
+            <h2 id="sensitivity-title">
+              The answer has<br />a few moving parts.
+            </h2>
+            <p>
+              Electricity prices and your required return do a lot of the work.
+              Here’s the same system under different assumptions. Green means it
+              beats buying from the grid; clay means it doesn’t.
+            </p>
+          </div>
+          <div class="sensitivity-layout">
+            <div class="chart-card heatmap-card">
+              <div class="chart-heading">
+                <div>
+                  <h3>How much is this roof worth?</h3>
+                  <p>25-year NPV · click any cell to try that scenario</p>
+                </div>
+              </div>
+              <div id="heatmap"></div>
+              <p class="micro-note">
+                Grid price is year 1; both energy prices still rise 3%/year. All
+                other settings stay as selected above.
+              </p>
+            </div>
+            <div class="sensitivity-insight">
+              <p class="eyebrow">THE TIPPING POINT</p>
+              <h3 id="break-even-price"></h3>
+              <p id="break-even-copy"></p>
+              <hr />
+              <h4>
+                A battery buys timing.<br />Not necessarily a better return.
+              </h4>
+              <p id="battery-insight"></p>
+            </div>
+          </div>
+          <div class="comparison-heading">
+            <h3>Four ways to buy the same heat</h3>
+            <p id="comparison-caption"></p>
+          </div>
+          <div
+            class="table-scroll comparison-table"
+            tabindex="0"
+            role="region"
+            aria-label="Compare tariff and battery scenarios"
+          >
+            <table id="comparison-table"></table>
+          </div>
+          <p class="micro-note">
+            Every row uses your selected array size, grid price and discount
+            rate. The highlighted row is your current scenario.
+          </p>
+          <aside class="sizing-note">
+            <div>
+              <p class="eyebrow">SIZE MATTERS, TOO</p>
+              <h3>Start with the load. Not the whole roof.</h3>
+              <p id="sizing-copy"></p>
+            </div>
+            <button id="try-sized" type="button">
+              Try 1.25 kW, no battery <span>↗</span>
+            </button>
+          </aside>
+        </section>
+
+        <section
+          id="method"
+          class="story-section method-section"
+          aria-labelledby="method-title"
+        >
+          <div class="section-heading">
+            <p class="section-index">04 / THE OPEN NOTEBOOK</p>
+            <h2 id="method-title">
+              No black box.<br />Just a roof and some math.
+            </h2>
+            <p>
+              This is a decision aid, not an installer’s quote or a production
+              guarantee. The resource, dispatch and cash flows are all here so
+              you can challenge the answer.
+            </p>
+          </div>
+          <details class="method-detail" open>
+            <summary>
+              <span>01</span> The roof, the weather & the clock <b>−</b>
+            </summary>
+            <div class="method-content">
+              <p>
+                We use
+                <strong
+                  >8,760 hourly weather records from a PVGIS–ERA5 typical
+                  meteorological year</strong
+                >
+                at 44.98° N, 93.27° W. The representative months are selected
+                from 2005–2023, not a forecast of 2027. The data are bundled
+                with this page; no live weather service is needed.
+              </p>
+              <p>
+                Direct, diffuse and global radiation are transposed onto an
+                unshaded, south-facing, 35° plane. We use isotropic sky diffuse,
+                0.20 ground albedo, a 45°C nominal operating cell temperature
+                and a −0.4%/°C power coefficient. Apply 14% aggregate losses and
+                a 1:1 DC-to-AC inverter limit. There is no separate snow-cover
+                simulation.
+              </p>
+              <div class="formula">
+                Cell °C = air °C + irradiance × (45 − 20) / 800<br />PV kW =
+                array kW × irradiance / 1,000 × [1 − 0.004 × (cell °C − 25)] ×
+                0.86
+              </div>
+              <p>
+                Hourly solar output is held constant within four 15-minute
+                intervals. Solar geometry uses PVGIS’s +0.5-hour irradiance
+                offset. The load follows
+                <strong
+                  >America/Chicago civil time, including daylight saving</strong
+                >, not fixed standard time. Tuesday, Thursday, Saturday and
+                Sunday give 208 sessions in the 2027 reference calendar.
+              </p>
+              <div class="formula">
+                Session energy = 8 kW × 0.75 h + 4 kW × 0.75 h = 9 kWh<br />Annual
+                sauna energy = 208 × 9 = 1,872 kWh
+              </div>
+              <p>
+                <strong>Installation timing:</strong> spring 2027 is the
+                purchase at year 0. Year 1 is an annualized full operating year,
+                not January production before installation. We repeat the full
+                2027 weather and weekday calendar for each operating year, then
+                apply degradation. No partial first season is counted.
+              </p>
+              <p class="source-links">
+                <a id="pvgis-source" target="_blank" rel="noreferrer"
+                  >PVGIS resource & metadata ↗</a
+                ><a
+                  href="https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+                  target="_blank"
+                  rel="noreferrer"
+                  >NOAA solar geometry ↗</a
+                >
+              </p>
+            </div>
+          </details>
+          <details class="method-detail">
+            <summary>
+              <span>02</span> Where every kilowatt-hour goes <b>+</b>
+            </summary>
+            <div class="method-content">
+              <p>
+                In each quarter-hour, solar serves the sauna first. A selected
+                battery charges only from the remaining solar; anything left is
+                exported. The battery discharges only into unmet sauna demand,
+                and the grid supplies the rest. There is no other household
+                load, grid charging or battery export.
+              </p>
+              <p>
+                The battery holds 13.5 kWh of usable stored energy with a 5 kW
+                AC limit in either direction. Charge and discharge efficiency
+                are each √0.90, giving 90% round-trip efficiency. It starts
+                empty in year 1; stored energy carries across years. At the end
+                of year 13, replacement discards any remaining charge and year
+                14 begins empty. Capacity does not otherwise fade.
+              </p>
+              <div class="formula">
+                Sauna = direct solar + battery delivered + grid imports<br />Solar
+                = direct solar + battery charging + exports<br />Solar + grid
+                imports = sauna + exports + battery losses + Δ stored energy
+              </div>
+              <p>
+                A full battery still cannot run an 8 kW heater alone: its
+                maximum output is 5 kW. The grid or simultaneous solar must
+                cover the difference.
+              </p>
+              <div id="energy-audit" class="audit-box"></div>
+            </div>
+          </details>
+          <details class="method-detail">
+            <summary>
+              <span>03</span> Utility credits, cash flows & returns <b>+</b>
+            </summary>
+            <div class="method-content">
+              <p>
+                Let D be direct solar, B battery-delivered energy, E exports, G
+                grid imports, p the retail price and x the export price. Every
+                quantity below is recalculated each year. Exports only earn
+                retail credit up to the year’s grid imports under net metering.
+                Surplus is paid 4¢/kWh in year 1.
+              </p>
+              <div class="formula">
+                Net metering value = (D + B + min[E, G]) × p + max(E − G, 0) ×
+                x<br />Net billing value = (D + B) × p + E × x
+              </div>
+              <div class="formula">
+                Solar in year t = year-1 solar × 0.995^(t − 1)<br />Retail /
+                export price in year t = year-1 price × 1.03^(t − 1)<br />CF₀ =
+                −(array kW × $3,000 + battery cost − federal credit)<br />CFₜ =
+                annual energy value − replacement cost in year t<br />NPV = CF₀
+                + Σ [CFₜ / (1 + discount rate)^t], t = 1…25
+              </div>
+              <p>
+                All prices and discount rates are nominal. The battery adds
+                $11,000 at purchase and a $6,000 nominal replacement at the end
+                of year 13. No financing, maintenance, additional inverter
+                replacement, property taxes, export-income taxes, insurance,
+                fixed utility charges or residual value are modeled. Those are
+                not necessarily zero in real life.
+              </p>
+              <p>
+                <strong>Payback</strong> is the interpolated, undiscounted time
+                to sustained cost recovery, including replacement. It is “not in
+                25 years” if the final balance is negative.
+                <strong>IRR</strong> is the rate that sets these cash flows’ NPV
+                to zero; an unavailable or ambiguous rate is shown as a dash. A
+                positive NPV, not payback alone, determines our financial
+                verdict.
+              </p>
+            </div>
+          </details>
+          <details class="method-detail">
+            <summary><span>04</span> Reproduce the numbers <b>+</b></summary>
+            <div class="method-content">
+              <p>
+                The page and its public API use exactly the same model. Open
+                your browser console and call:
+              </p>
+              <pre><code>window.saunaModel({
+  arrayKw: 3,
+  exportPolicy: "net-metering",
+  battery: false,
+  gridPriceUsdPerKwh: 0.16,
+  discountRatePct: 5
+})</code></pre>
+              <p>
+                All inputs are optional and use the page’s original defaults
+                above when omitted. The synchronous result includes the required
+                annual energy and financial totals, plus <code>monthly</code>,
+                <code>daily</code> and <code>years</code> ledgers. Numeric
+                outputs are unrounded.
+                <code>window.saunaModelNotes</code> exposes the full method and
+                data provenance.
+              </p>
+              <p>
+                <strong>What this cannot tell you:</strong> your actual roof’s
+                snow and shade losses, future weather, future tariff rules,
+                utility eligibility, installer quality or backup-power value.
+                The result values only electricity for the sauna, not home
+                resale, carbon reductions, the rest of the house or the pleasure
+                of a good steam.
+              </p>
+            </div>
+          </details>
+        </section>
+        <section class="closing">
+          <span class="small-star">✳</span>
+          <p>
+            A sauna is a good idea.<br /><em
+              >The roof should earn its own place.</em
+            >
+          </p>
+          <a href="#assumptions" class="text-link"
+            >Try another set of assumptions <span>↑</span></a
+          >
+        </section>
+      </div>
+    </main>
+    <footer class="wrap footer">
+      <span>THE GOOD HEAT <small>Warmth, with a little clarity.</small></span>
+      <p>
+        An independent field note. Not financial or tax advice.<br />Model &
+        federal guidance checked November 2026.
+      </p>
+      <a href="#">BACK TO TOP ↑</a>
+    </footer>
+    <div
+      id="update-status"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

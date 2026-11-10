@@ -172,7 +172,7 @@ function calculateIrr(flows) {
     const right = min + (max - min) * i / count;
     const rightValue = value(right);
     if (leftValue === 0) roots.push(Math.expm1(left) * 100);
-    if (leftValue * rightValue < 0) {
+    if (leftValue !== 0 && rightValue !== 0 && (leftValue > 0) !== (rightValue > 0)) {
       let lo = left, hi = right, loValue = leftValue;
       for (let iteration = 0; iteration < 70; iteration++) {
         const mid = (lo + hi) / 2, midValue = value(mid);

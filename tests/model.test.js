@@ -207,3 +207,10 @@ test('cached dispatch is isolated from callers and financial sensitivities do no
   assert.equal(again.annualSolarKwh, first.annualSolarKwh);
   assert.notEqual(again.npvUsd, first.npvUsd);
 });
+
+test('IRR remains scale invariant for very small finite cash flows', () => {
+  const reference = saunaModel({ arrayKw: 0.001 });
+  const tiny = saunaModel({ arrayKw: 1e-200 });
+  assert.notEqual(tiny.irrPct, null);
+  close(tiny.irrPct, reference.irrPct, 1e-6);
+});
