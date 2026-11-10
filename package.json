@@ -1,0 +1,17 @@
+{
+  "name": "solar-sauna-finance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive explanatory finance model: Should I put solar panels on my roof to power my sauna in Minneapolis?",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "vitest": "^3.0.8"
+  }
+}

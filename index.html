@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar Panels for a Minneapolis Sauna? — An Interactive Capital-Budgeting Analysis</title>
+    <meta
+      name="description"
+      content="An interactive 25-year engineering and financial analysis of rooftop solar and battery storage for an 8 kW residential electric sauna in Minneapolis, Minnesota."
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- Masthead -->
+      <header class="masthead">
+        <div class="kicker">
+          Explanatory Finance · Minneapolis, MN (44.98° N, 93.27° W) · Spring 2027 Installation
+        </div>
+        <h1>Should You Put Solar Panels on Your Roof to Power Your Sauna?</h1>
+        <p class="standfirst">
+          An 8&nbsp;kW sauna heater sounds ravenous, and roof panels feel like the cleanest way to run it guilt-free.
+          Follow the kilowatt-hours and cash flows across a day, a year, and 25&nbsp;years—and test every assumption
+          yourself.
+        </p>
+        <div class="byline-meta">
+          <span><strong>Solar Data:</strong> US DOE / NLR PVWatts v8 (NSRDB TMY-2020 · Station #778153 · 1,397.6 kWh/kW-yr)</span>
+          <span><strong>Array:</strong> Fixed Roof Mount · 180° Due South · 35° Tilt · 14% Losses</span>
+          <span><strong>Tax Law:</strong> Spring 2027 Homeowner Purchase (IRC §&nbsp;25D = 0%)</span>
+        </div>
+      </header>
+
+      <!-- Up-Top Verdict -->
+      <section class="verdict-section" aria-label="Executive Verdict">
+        <div class="verdict-essay-card">
+          <h2>The Bottom Line</h2>
+          <div class="verdict-headline">
+            Almost certainly no—with one narrow net-metering loophole if you build tiny and skip the battery.
+          </div>
+          <p>
+            <strong>1. An 8&nbsp;kW heater is a big power draw, not a big electric bill.</strong> Used every Tuesday,
+            Thursday, Saturday, and Sunday at 6:30&nbsp;pm (45&nbsp;minutes at 8&nbsp;kW to heat up, 45&nbsp;minutes at
+            4&nbsp;kW to bathe), the sauna consumes <strong>9.0&nbsp;kWh per evening</strong>—<strong>1,872&nbsp;kWh a year</strong>.
+            At $0.16/kWh, status-quo grid power costs <strong>$299.52 in Year&nbsp;1</strong> ($1.44 a bath), or
+            <strong><span id="prose-pv-baseline">$5,716</span> in present value</strong> across all 25&nbsp;years. That
+            sets a hard ceiling on how much capital a sauna-only project can justify.
+          </p>
+          <p>
+            <strong>2. 6:30&nbsp;pm misses the sun, and the 30% federal tax credit is gone.</strong> Under Public Law
+            119-21 (July&nbsp;2025), the residential solar credit (IRC §&nbsp;25D) expired December&nbsp;31, 2025, so a
+            Spring&nbsp;2027 buyer pays the full <strong>$3.00/W</strong>. Meanwhile, south-facing panels generate ~99%
+            of their power before the heater switches on. Under <strong>net billing</strong> ($0.04/kWh exports), panels
+            never pay back at any size; adding an <strong>$11,000 battery</strong> (+$6,000 in Year&nbsp;13) loses over
+            $13,000 in NPV and still pulls grid power during every 8&nbsp;kW preheat because the battery maxes out at
+            5&nbsp;kW.
+          </p>
+          <p>
+            <strong>3. The sole exception:</strong> Under <strong>1:1 annual net metering with no battery</strong>, a
+            micro-array of <strong>0.5 to 2.15&nbsp;kW</strong> (peaking near <strong>1.42&nbsp;kW</strong>, ~3–4 panels,
+            <strong>+$1,421 NPV / 7.86% IRR</strong>) clears a 5% hurdle—not by physically heating your stones, but by
+            using the utility meter as a free seasonal bank, <em>provided</em> an installer will actually build a
+            four-panel roof system at $3.00/W.
+          </p>
+        </div>
+
+        <div class="live-verdict-card is-no" id="live-verdict-card">
+          <div>
+            <div class="live-badge-row">
+              <span class="verdict-pill no" id="verdict-pill">Verdict: No</span>
+              <span class="scenario-tag" id="scenario-tag">3.00 kW · Net Metering · No Battery</span>
+            </div>
+            <p class="live-verdict-summary" id="live-verdict-summary">
+              Loading model…
+            </p>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box">
+              <div class="kpi-label">25-Year Net Present Value</div>
+              <div class="kpi-val neg" id="kpi-npv">−$1,682</div>
+              <div class="kpi-sub" id="kpi-npv-sub">at 5.0% discount rate</div>
+            </div>
+            <div class="kpi-box">
+              <div class="kpi-label">Internal Rate of Return</div>
+              <div class="kpi-val" id="kpi-irr">3.25%</div>
+              <div class="kpi-sub" id="kpi-irr-sub">vs. 5.0% hurdle rate</div>
+            </div>
+            <div class="kpi-box">
+              <div class="kpi-label">Upfront Cost (Year 0)</div>
+              <div class="kpi-val" id="kpi-upfront">$9,000</div>
+              <div class="kpi-sub" id="kpi-taxcredit">$0 federal tax credit (2027)</div>
+            </div>
+            <div class="kpi-box">
+              <div class="kpi-label">Simple Payback</div>
+              <div class="kpi-val" id="kpi-payback">18.0 yrs</div>
+              <div class="kpi-sub" id="kpi-yr1sav">$392 Year 1 bill savings</div>
+            </div>
+            <div class="kpi-box">
+              <div class="kpi-label">Year 1 Solar vs. Sauna</div>
+              <div class="kpi-val" id="kpi-solarkwh">4,193 kWh</div>
+              <div class="kpi-sub">vs. 1,872 kWh sauna use</div>
+            </div>
+            <div class="kpi-box">
+              <div class="kpi-label">Sauna Served Off-Grid</div>
+              <div class="kpi-val" id="kpi-selfshare">1.3%</div>
+              <div class="kpi-sub" id="kpi-selfshare-sub">25 kWh direct · 0 kWh batt</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Assumption Controls -->
+      <section class="controls-dock" aria-label="Model Controls">
+        <div class="presets-bar">
+          <span class="presets-label">Test a Regime:</span>
+          <button type="button" class="preset-btn active" data-preset="default">
+            Min. Realistic Roof Quote (3.0 kW · Net Metering)
+          </button>
+          <button type="button" class="preset-btn" data-preset="sweetspot">
+            The 1.4 kW Sweet Spot (Net Metering · No Battery)
+          </button>
+          <button type="button" class="preset-btn" data-preset="netbilling">
+            Net Billing Reality (3.0 kW · Net Billing)
+          </button>
+          <button type="button" class="preset-btn" data-preset="battery">
+            Solar + Battery (3.0 kW · Net Billing + 13.5 kWh)
+          </button>
+          <button type="button" class="preset-btn" data-preset="oversized">
+            8 kW Heater-Sized Trap (8.0 kW · Net Metering)
+          </button>
+        </div>
+
+        <div class="controls-grid">
+          <div class="ctrl-group">
+            <div class="ctrl-top">
+              <label for="ctrl-array-range">Array Size (DC)</label>
+              <span class="ctrl-readout" id="readout-array">3.00 kW (~8 panels)</span>
+            </div>
+            <div class="slider-row">
+              <input type="range" id="ctrl-array-range" min="0.5" max="10" step="0.05" value="3.0" />
+              <input
+                type="number"
+                id="ctrl-array-num"
+                class="num-input"
+                min="0"
+                max="25"
+                step="0.05"
+                value="3.0"
+                aria-label="Array size in kilowatts"
+              />
+            </div>
+          </div>
+
+          <div class="ctrl-group">
+            <div class="ctrl-top">
+              <label>Export Policy</label>
+              <span class="ctrl-readout" id="readout-policy">1:1 Offset</span>
+            </div>
+            <div class="seg-toggle" role="group" aria-label="Export Policy">
+              <button type="button" id="btn-nm" class="active" data-policy="net-metering">Net Metering</button>
+              <button type="button" id="btn-nb" data-policy="net-billing">Net Billing</button>
+            </div>
+          </div>
+
+          <div class="ctrl-group">
+            <div class="ctrl-top">
+              <label>Battery Storage</label>
+              <span class="ctrl-readout" id="readout-battery">None ($0)</span>
+            </div>
+            <div class="seg-toggle" role="group" aria-label="Battery Option">
+              <button type="button" id="btn-batt-off" class="active" data-batt="false">No Battery</button>
+              <button type="button" id="btn-batt-on" data-batt="true">With Battery</button>
+            </div>
+          </div>
+
+          <div class="ctrl-group">
+            <div class="ctrl-top">
+              <label for="ctrl-price-range">Grid Price (Yr 1)</label>
+              <span class="ctrl-readout" id="readout-price">$0.16 / kWh</span>
+            </div>
+            <div class="slider-row">
+              <input type="range" id="ctrl-price-range" min="0.06" max="0.50" step="0.01" value="0.16" />
+              <input
+                type="number"
+                id="ctrl-price-num"
+                class="num-input"
+                min="0.01"
+                max="2.00"
+                step="0.01"
+                value="0.16"
+                aria-label="Grid electricity price USD per kWh"
+              />
+            </div>
+          </div>
+
+          <div class="ctrl-group">
+            <div class="ctrl-top">
+              <label for="ctrl-disc-range">Discount Rate</label>
+              <span class="ctrl-readout" id="readout-disc">5.00%</span>
+            </div>
+            <div class="slider-row">
+              <input type="range" id="ctrl-disc-range" min="0" max="12" step="0.25" value="5.0" />
+              <input
+                type="number"
+                id="ctrl-disc-num"
+                class="num-input"
+                min="0"
+                max="30"
+                step="0.25"
+                value="5.0"
+                aria-label="Discount rate percent"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="dock-live-strip" id="dock-live-strip">
+          <span>Active NPV: <strong id="strip-npv">−$1,682</strong></span>
+          <span>IRR: <strong id="strip-irr">3.25%</strong></span>
+          <span>Payback: <strong id="strip-pb">18.0 yrs</strong></span>
+          <span>Yr 1 Solar: <strong id="strip-solar">4,193 kWh</strong></span>
+          <span>Yr 1 Savings: <strong id="strip-sav">$392.35</strong></span>
+        </div>
+      </section>
+
+      <!-- SECTION I: ACROSS A DAY -->
+      <section class="essay-section" id="sec-day">
+        <div class="section-header">
+          <div class="section-num">Part I · Across a Single Day</div>
+          <h2>Why a 6:30 pm Sauna Almost Never Meets a South-Facing Sun</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            Start with the clock. In Minneapolis (44.98°&nbsp;N, 93.27°&nbsp;W), an unshaded roof array facing due south
+            at a 35° tilt peaks around 12:15&nbsp;pm in winter (CST) and 1:15&nbsp;pm during Daylight Saving Time (CDT).
+            Your sauna, however, sits cold all afternoon and switches on at <strong>6:30&nbsp;pm on the wall clock</strong>,
+            drawing <strong>8.0&nbsp;kW for 45&nbsp;minutes</strong> (6.0&nbsp;kWh) to heat the rocks and averaging
+            <strong>4.0&nbsp;kW for 45&nbsp;minutes</strong> (3.0&nbsp;kWh) while you bathe, before shutting off at 8:00&nbsp;pm.
+          </p>
+          <p>
+            From November through mid-March, sunset in the Twin Cities falls between 4:31&nbsp;pm and 6:15&nbsp;pm—your
+            panels produce <strong>0.00&nbsp;kW</strong> when the contactor closes. Even in late June, when sunset
+            stretches past 9:00&nbsp;pm CDT, by 6:30&nbsp;pm the sun has swung into the northwest, glancing obliquely
+            across a due-south roof. At your current <span class="dyn-num" id="p-kw-1">3.00 kW</span> array size, direct
+            panel-to-heater electricity supplies just <span class="dyn-num" id="p-direct-kwh">24.8 kWh</span> out of
+            1,872&nbsp;kWh all year (<span class="dyn-num" id="p-direct-pct">1.3%</span>).
+          </p>
+          <p>
+            What if you add the optional <strong>13.5&nbsp;kWh battery</strong>? Toggle it on above and watch the 6:30&nbsp;pm
+            bar in Figure&nbsp;1. Because the battery inverter's maximum discharge power is <strong>5.0&nbsp;kW</strong>
+            while the heater demands <strong>8.0&nbsp;kW</strong> for the first 45&nbsp;minutes, a physical
+            <strong>3.0&nbsp;kW power gap</strong> (~2.25&nbsp;kWh per session) spills onto the utility grid even on a
+            clear July evening when the battery starts 100% full.
+          </p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Figure 1 · 24-Hour Power Dispatch &amp; Battery State of Charge (15-Minute Intervals)</h3>
+              <p class="figure-sub">
+                Wall-clock time in Minneapolis (accounting for CST/CDT shifts against PVWatts standard-time irradiance).
+                Hover or tap any quarter-hour slice.
+              </p>
+            </div>
+            <div class="day-tabs" role="tablist" aria-label="Select Representative Day">
+              <button type="button" class="day-tab active" data-day="summerSolstice">Jun 22 · Summer Sauna</button>
+              <button type="button" class="day-tab" data-day="springEquinox">Mar 18 · Spring Sauna</button>
+              <button type="button" class="day-tab" data-day="winterSolstice">Dec 21 · Winter Sauna</button>
+              <button type="button" class="day-tab" data-day="sunnyIdleDay">Jun 23 · Non-Sauna Day</button>
+            </div>
+          </div>
+
+          <div class="legend-row">
+            <span class="legend-item"><span class="swatch-line" style="background:#b45309"></span>Solar Output (kW)</span>
+            <span class="legend-item"><span class="swatch-line" style="background:#181614"></span>Sauna Heater Load (8 kW → 4 kW)</span>
+            <span class="legend-item"><span class="swatch" style="background:#d97706"></span>Direct Solar → Sauna</span>
+            <span class="legend-item"><span class="swatch" style="background:#0f766e"></span>Battery Charge / Discharge</span>
+            <span class="legend-item"><span class="swatch" style="background:rgba(75,123,236,0.45)"></span>Exported to Grid</span>
+            <span class="legend-item"><span class="swatch" style="background:#c2410c"></span>Imported from Grid</span>
+          </div>
+
+          <div class="chart-canvas" id="chart-daily"></div>
+          <p class="figure-caption">
+            Source: US DOE / NLR PVWatts v8 hourly TMY-2020 data for 44.98°&nbsp;N, 93.27°&nbsp;W mapped to 2027 local
+            wall-clock time (CDT Mar&nbsp;14–Nov&nbsp;6; CST otherwise). On the non-sauna days (Mon, Wed, Fri—157 days a
+            year), 100% of solar above battery recharge is exported to the utility.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION II: ACROSS A YEAR -->
+      <section class="essay-section" id="sec-year">
+        <div class="section-header">
+          <div class="section-num">Part II · Across a Year</div>
+          <h2>Where the Kilowatt-Hours Go—and Why Tariff Rules Decide Their Value</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            Zoom out to all 365 days of Year&nbsp;1. Across 52 weeks of 2027, there are exactly
+            <strong>208 sauna evenings</strong> (52 Tuesdays, Thursdays, Saturdays, and Sundays; Jan&nbsp;1 and Dec&nbsp;31
+            fall on Fridays), demanding <strong>1,872.0&nbsp;kWh</strong> at a steady pace of 144 to 162&nbsp;kWh every
+            month. Meanwhile, your <span class="dyn-num" id="p-kw-2">3.00 kW</span> south-facing array produces
+            <span class="dyn-num" id="p-solar-yr1">4,193 kWh</span>—ranging from abundant spring and summer sun down to
+            snow-muted December, when output is less than half of July's.
+          </p>
+          <p>
+            Because <span class="dyn-num" id="p-export-yr1">4,168 kWh</span> leaves your house to the grid while
+            <span class="dyn-num" id="p-grid-yr1">1,847 kWh</span> enters from the grid at night, the entire economics
+            of solar-for-a-sauna turn on how your utility settles that two-way traffic:
+          </p>
+          <p>
+            Under <strong>Net Metering</strong>, every exported kilowatt-hour erases one imported kilowatt-hour over the
+            year at the full <span class="dyn-num" id="p-gprice-1">$0.16</span> retail rate, up to the sauna's use;
+            only annual surplus beyond it earns <strong>$0.04/kWh</strong>. Notice a counterintuitive consequence in
+            Table&nbsp;1: under net metering, <em>adding a battery actually lowers your Year&nbsp;1 bill savings</em>,
+            because running electricity through a 90%-efficient chemical battery burns 10% of the energy as heat instead
+            of banking it 100% loss-free on the utility's ledger! Under <strong>Net Billing</strong>, by contrast, every
+            exported kWh is paid $0.04 while every evening import costs full retail—crushing solar-only savings by ~75%.
+          </p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Figure 2 · Year 1 Energy Flow &amp; Utility Bill Settlement</h3>
+              <p class="figure-sub">
+                Left: physical kWh routing from panels and grid to the sauna. Right: how your utility tariff converts
+                those kWh into Year&nbsp;1 dollar savings.
+              </p>
+            </div>
+          </div>
+          <div class="chart-canvas" id="chart-flows"></div>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Figure 3 · Monthly Solar Production vs. Sauna Demand (January – December, Year 1)</h3>
+              <p class="figure-sub">
+                Paired monthly stacks: left bar shows roof generation by destination; right bar shows sauna consumption
+                by supply source.
+              </p>
+            </div>
+          </div>
+          <div class="legend-row">
+            <span class="legend-item"><span class="swatch" style="background:#d97706"></span>Direct PV → Sauna</span>
+            <span class="legend-item"><span class="swatch" style="background:#0f766e"></span>Battery → Sauna</span>
+            <span class="legend-item"><span class="swatch" style="background:#94a3b8"></span>Battery 10% Conversion Loss</span>
+            <span class="legend-item"><span class="swatch" style="background:rgba(75,123,236,0.72)"></span>Exported to Grid</span>
+            <span class="legend-item"><span class="swatch" style="background:#c2410c"></span>Imported from Grid</span>
+          </div>
+          <div class="chart-canvas" id="chart-monthly"></div>
+        </div>
+
+        <!-- Table 1: 4-Regime Comparison at Current Array Size -->
+        <div class="table-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">
+                Table 1 · Comparing All Four Policy &amp; Hardware Regimes at <span id="tbl1-kw">3.00 kW</span>
+              </h3>
+              <p class="figure-sub">
+                Holding array size, retail electricity price, and discount rate at your active controls; highlighted row
+                marks your active configuration.
+              </p>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="fin-table" id="table-regimes">
+              <thead>
+                <tr>
+                  <th>Configuration</th>
+                  <th>Upfront (Yr 0)</th>
+                  <th>Direct PV</th>
+                  <th>Battery</th>
+                  <th>Grid Import</th>
+                  <th>Exported</th>
+                  <th>Yr 1 Saved</th>
+                  <th>Payback</th>
+                  <th>IRR</th>
+                  <th>25-Yr NPV</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION III: ACROSS 25 YEARS -->
+      <section class="essay-section" id="sec-lifetime">
+        <div class="section-header">
+          <div class="section-num">Part III · Across the 25-Year Life of the System</div>
+          <h2>Full-Freight Capital Costs, Panel Degradation, and the 1.42 kW Kink</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            Why is upfront capital recovery so unforgiving in Spring&nbsp;2027? For four years (2022–2025), homeowners
+            took a 30% federal tax credit for granted. Not anymore:
+          </p>
+        </div>
+
+        <div class="callout-box law-callout">
+          <strong>Statutory Note — Why the Spring 2027 Federal Tax Credit Is $0:</strong> Under the
+          <em>One Big Beautiful Bill Act</em> (Public Law 119-21, 139 Stat.&nbsp;72, enacted July&nbsp;4, 2025; IRS Fact
+          Sheet FS-2025-05), Congress terminated the <strong>IRC §&nbsp;25D Residential Clean Energy Credit</strong> for
+          any solar or battery property placed in service after <strong>December&nbsp;31, 2025</strong>. A homeowner
+          purchasing a <span id="callout-kw">3.00 kW</span> system in Spring&nbsp;2027 receives
+          <strong>$0 in federal tax credits</strong> and pays the full <strong id="callout-capex">$9,000</strong> out of
+          pocket. (Had the 30% credit survived, it would have shaved <span id="callout-itc30">$2,700</span> off Year&nbsp;0
+          and shifted your NPV to <strong id="callout-npv30">+$1,018</strong>.)
+        </div>
+
+        <div class="prose">
+          <p>
+            Over 25 years, two opposing clocks run simultaneously: both grid and export electricity prices compound
+            upward by <strong>3.0% per year</strong> from Year&nbsp;2 onward, while crystalline-silicon panel output
+            degrades by <strong>0.5% per year</strong> (producing 88.67% of Year&nbsp;1 kWh by Year&nbsp;25). Notice in
+            Figure&nbsp;4 how discounting future dollars at <span class="dyn-num" id="p-disc-1">5.0%</span> separates
+            nominal break-even from true economic value: an array can eventually cross zero in nominal Year-18 dollars
+            while still leaving you poorer in present value than putting your Year&nbsp;0 cash in a 5% Treasury or index
+            account.
+          </p>
+          <p>
+            Now look at <strong>Figure&nbsp;5</strong>, which plots 25-year NPV across every array size from 0.5&nbsp;kW
+            to 10.0&nbsp;kW. Under <strong>Net Metering · Solar Only</strong> (green curve), every kilowatt up to
+            <strong>1.34&nbsp;kW</strong> offsets 100% retail electricity in Year&nbsp;1 ($223.62/yr per $3,000 kW, a
+            7.86% IRR). Accounting for 0.5%/yr panel fade over 25 years, NPV peaks sharply at
+            <strong>1.42&nbsp;kW</strong>. Past that elbow, every extra kilowatt of panels costs $3,000 up front only to
+            export lifetime surplus at <strong>$0.04/kWh</strong> ($55.90/yr in Year&nbsp;1)—destroying ~$1,990 of NPV per
+            extra kilowatt and flipping the entire project negative above <strong>2.15&nbsp;kW</strong>.
+          </p>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Figure 4 · 25-Year Cumulative Cash Flow Trajectory (Years 0 – 25)</h3>
+              <p class="figure-sub">
+                Solid line: cumulative discounted present value (NPV path at your discount rate). Dashed line:
+                cumulative undiscounted cash flow showing simple payback.
+              </p>
+            </div>
+          </div>
+          <div class="chart-canvas" id="chart-cashflow"></div>
+        </div>
+
+        <div class="figure-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Figure 5 · Net Present Value vs. Array Size Across All Four Regimes (0.5 – 10.0 kW)</h3>
+              <p class="figure-sub">
+                Click anywhere along the horizontal axis to set your array size and inspect the kink at 1.42&nbsp;kW.
+              </p>
+            </div>
+          </div>
+          <div class="legend-row">
+            <span class="legend-item"><span class="swatch-line" style="background:#15803d"></span>Net Metering · Solar Only</span>
+            <span class="legend-item"><span class="swatch-line" style="background:#c2410c"></span>Net Billing · Solar Only</span>
+            <span class="legend-item"><span class="swatch-line" style="background:#0f766e"></span>Net Metering · + Battery</span>
+            <span class="legend-item"><span class="swatch-line" style="background:#6d28d9"></span>Net Billing · + Battery</span>
+          </div>
+          <div class="chart-canvas" id="chart-sizing"></div>
+        </div>
+      </section>
+
+      <!-- SECTION IV: SENSITIVITY & WHAT WOULD CHANGE THE ANSWER -->
+      <section class="essay-section" id="sec-sensitivity">
+        <div class="section-header">
+          <div class="section-num">Part IV · Sensitivity Analysis</div>
+          <h2>What Would Have to Change to Flip the Verdict?</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            Good financial analysis doesn't stop at a point estimate; it tells you where the fences sit. Holding your
+            other active inputs fixed, here are the exact thresholds required for your current configuration to break
+            even (NPV&nbsp;=&nbsp;$0), and why the battery fails by such a wide margin even under Net Billing:
+          </p>
+          <p>
+            Under Net Billing at $0.16/kWh retail and $0.04/kWh export, cycling solar through a 90%-efficient battery
+            instead of exporting 1.111&nbsp;kWh at $0.0444 yields a net arbitrage spread of
+            <strong>$0.1156 per delivered kWh</strong>. Because the sauna's 8&nbsp;kW preheat exceeds the battery's
+            5&nbsp;kW cap, the battery can deliver at most ~1,392&nbsp;kWh/yr to the sauna—worth only
+            <strong>~$161/yr in Year&nbsp;1 arbitrage</strong> (~$3,080 in 25-year present value at 5%). Yet the battery
+            plus its Year-13 replacement costs <strong>$14,182 in present value</strong> ($11,000 + $6,000&nbsp;÷&nbsp;1.05<sup>13</sup>).
+            You are spending $14,182 to capture $3,080.
+          </p>
+        </div>
+
+        <div class="breakeven-grid">
+          <div class="be-card">
+            <div class="be-title">Break-Even Grid Rate</div>
+            <div class="be-val" id="be-grid-price">$0.23 / kWh</div>
+            <div class="be-desc" id="be-grid-desc">
+              Year 1 retail electricity price needed for NPV = $0 at your current array size and tariff.
+            </div>
+          </div>
+          <div class="be-card">
+            <div class="be-title">Break-Even Solar Price</div>
+            <div class="be-val" id="be-solar-cost">$2.44 / W</div>
+            <div class="be-desc" id="be-solar-desc">
+              Installed $/W needed (vs. $3.00/W) to break even—e.g., via equipment cost drops or local rebates.
+            </div>
+          </div>
+          <div class="be-card">
+            <div class="be-title">Break-Even Discount Rate</div>
+            <div class="be-val" id="be-irr">3.25%</div>
+            <div class="be-desc" id="be-irr-desc">
+              Equal to the project's IRR: any hurdle rate below this yields a positive NPV.
+            </div>
+          </div>
+          <div class="be-card">
+            <div class="be-title">Incremental Battery Value</div>
+            <div class="be-val val-neg" id="be-batt-delta">−$14,300</div>
+            <div class="be-desc" id="be-batt-desc">
+              25-yr PV bill gain vs. $14,182 PV battery cost ($11k upfront + $6k yr 13).
+            </div>
+          </div>
+        </div>
+
+        <!-- Table 2: Two-Way Sensitivity Matrix -->
+        <div class="table-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">
+                Table 2 · Two-Way NPV Sensitivity Matrix: Array Size × Year 1 Grid Price
+                (<span id="sens-subtitle">Net Metering · No Battery · 5.0% Discount Rate</span>)
+              </h3>
+              <p class="figure-sub">
+                25-year Net Present Value ($) across 42 combinations. Green cells beat your discount rate; click any cell
+                to load those assumptions.
+              </p>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="fin-table" id="table-sensitivity">
+              <thead></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="prose">
+          <p>
+            <strong>One real-world caveat before you close the book:</strong> This model obeys the crucial capital-budgeting
+            rule of <em>isolation</em>—evaluating an array bought strictly for the sauna, treating the rest of the house
+            as off-limits. In real life, a homeowner's main breaker panel serves refrigerators, air conditioning, Dishwashers,
+            and heat pumps <em>during the middle of the day</em> when solar peaks. An array that loses money under Net
+            Billing against an evening-only sauna can look dramatically better when daytime kitchen and cooling loads
+            absorb $0.16/kWh power directly on the spot—or if you preheat a well-insulated sauna at 4:30&nbsp;pm on summer
+            weekends instead of 6:30&nbsp;pm.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION V: THE MATH & 25-YEAR SCHEDULE -->
+      <section class="essay-section" id="sec-math">
+        <div class="section-header">
+          <div class="section-num">Part V · Show the Math</div>
+          <h2>Exact Equations &amp; Complete 25-Year Cash-Flow Schedule</h2>
+        </div>
+
+        <div class="prose">
+          <p>
+            Every chart and figure on this page—and the programmatic verification interface
+            <code>window.saunaModel(inputs)</code>—evaluates the exact chronological dispatch and discounted cash-flow
+            system shown below, plugged live with your active inputs:
+          </p>
+        </div>
+
+        <div class="math-grid">
+          <div class="formula-card">
+            <h3>1. Sauna Load &amp; Degrading PV Generation</h3>
+            <div class="eq-block">E_session = (8 kW × 0.75 h) + (4 kW × 0.75 h) = 9.0 kWh
+E_sauna   = 208 sessions/yr × 9.0 kWh = 1,872.0 kWh/yr
+P_pv(y,q) = P_1kW(h_CST) × Array_kW × (1 − 0.005)^(y−1)</div>
+            <div class="eq-live" id="eq-live-1"></div>
+          </div>
+
+          <div class="formula-card">
+            <h3>2. Quarter-Hour Dispatch &amp; 90% RTE Battery</h3>
+            <div class="eq-block">Direct(q) = min(P_pv(q), P_sauna(q)) × Δt   [Δt = 0.25 h]
+Charge_in = min(min(Surplus_kW, 5 kW)×Δt, (13.5 − SOC)/0.90)
+SOC_next  = SOC + 0.90 × Charge_in − Discharge_out
+Disch_out = min(min(Unmet_kW, 5 kW)×Δt, SOC)</div>
+            <div class="eq-live" id="eq-live-2"></div>
+          </div>
+
+          <div class="formula-card">
+            <h3>3. Escalating Tariff &amp; Annual Bill Savings</h3>
+            <div class="eq-block">p_grid(y) = p_grid(1) × 1.03^(y−1),  p_exp(y) = $0.04 × 1.03^(y−1)
+Sav_NM(y) = [1872 − max(0, G_y − X_y)]·p_grid(y) + max(0, X_y − G_y)·p_exp(y)
+Sav_NB(y) = (Direct_y + Batt_y)·p_grid(y) + X_y·p_exp(y)</div>
+            <div class="eq-live" id="eq-live-3"></div>
+          </div>
+
+          <div class="formula-card">
+            <h3>4. Capital Outlay, NPV, Payback &amp; IRR</h3>
+            <div class="eq-block">CF_0  = −($3,000 × Array_kW + $11,000 × I_batt − $0 ITC_2027)
+CF_y  = Savings(y) − ($6,000 if Battery and y = 13 else $0)
+NPV   = Σ_{y=0..25} CF_y / (1 + r)^y
+0     = Σ_{y=0..25} CF_y / (1 + IRR)^y</div>
+            <div class="eq-live" id="eq-live-4"></div>
+          </div>
+        </div>
+
+        <!-- Table 3: Complete Year-by-Year Schedule (Years 0 to 25) -->
+        <div class="table-card">
+          <div class="figure-top">
+            <div>
+              <h3 class="figure-title">Table 3 · Complete Year-by-Year Energy &amp; Cash-Flow Ledger (Years 0 – 25)</h3>
+              <p class="figure-sub">
+                All 26 periods from initial Spring&nbsp;2027 purchase (Year&nbsp;0) through Year&nbsp;25, incorporating
+                0.5%/yr panel degradation, 3.0%/yr price escalation, and end-of-year discounting.
+              </p>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="fin-table" id="table-schedule">
+              <thead>
+                <tr>
+                  <th>Yr</th>
+                  <th>Cal.</th>
+                  <th>Solar (kWh)</th>
+                  <th>Direct+Batt</th>
+                  <th>Grid In</th>
+                  <th>Exported</th>
+                  <th>Grid / Exp Rate</th>
+                  <th>Bill Saved</th>
+                  <th>CapEx / Repl.</th>
+                  <th>Net CF</th>
+                  <th>PV of CF</th>
+                  <th>Cum. Nom.</th>
+                  <th>Cum. NPV</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+              <tfoot></tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <p>
+          <strong>Methodology &amp; Verification API:</strong> Solar irradiance and AC output use official US DOE
+          National Laboratory of the Rockies (formerly NREL) PVWatts v8 hourly data (NSRDB PSM V3 GOES TMY-2020 3.2.0,
+          Station #778153 at 44.97°&nbsp;N, 93.26°&nbsp;W, 1.36&nbsp;km from target coordinates; fixed roof mount, 180°
+          azimuth, 35° tilt, 14% system losses). Wall-clock alignment converts CST weather timestamps to Minneapolis
+          <code>America/Chicago</code> time (CDT second Sunday in March to first Sunday in November). Federal residential
+          clean energy tax credit under IRC §&nbsp;25D is 0% for Spring&nbsp;2027 installations per P.L.&nbsp;119-21. For
+          programmatic verification, call <code>window.saunaModel(inputs)</code> in the browser console.
+        </p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
