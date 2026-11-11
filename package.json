@@ -1,0 +1,21 @@
+{
+  "name": "photon-to-current",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An interactive explainer: how a solar cell turns sunlight into electric current.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\" && tsc --noEmit && vite build && vite build -c vite.three.config.ts",
+    "preview": "vite preview",
+    "check:physics": "node scripts/check-physics.ts"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
