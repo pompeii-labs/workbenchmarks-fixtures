@@ -121,7 +121,8 @@ export function journey(root: HTMLElement) {
       const b = s('text', { x: tx, y: cy + 31, 'text-anchor': anchor }); b.textContent = clock(st.d / C_MKM_S);
       const c = s('text', { x: tx, y: cy + 46, 'text-anchor': anchor, class: 'axis-title' });
       c.textContent = `${fmt(st.d, st.d > 140 ? 0 : 0)} M km`;
-      svg.append(a, b, c);
+      svg.append(a, b);
+      if (W >= 440 || earth) svg.append(c);
     }
     trail = s('line', { x1: x0, x2: x0, y1: cy, y2: cy, stroke: '#ffb938', 'stroke-width': 2, 'stroke-linecap': 'round', opacity: 0.8 });
     photon = s('circle', { cx: x0, cy, r: 4.5, fill: '#fff', stroke: '#ffb938', 'stroke-width': 2, opacity: 0 });
