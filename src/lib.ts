@@ -155,7 +155,8 @@ export function pointerXY(svg: SVGSVGElement, ev: PointerEvent, vbW: number, vbH
  * Drag handling for charts: follows the pointer on hover (mouse) and on
  * horizontal drags (touch), leaving vertical swipes to scroll the page.
  */
-export function scrub(target: SVGElement | HTMLElement, onMove: (ev: PointerEvent) => void, hover = true) {
+export function scrub(el: SVGElement | HTMLElement, onMove: (ev: PointerEvent) => void, hover = true) {
+  const target = el as HTMLElement;
   let down = false;
   target.addEventListener('pointerdown', (ev) => {
     down = true;

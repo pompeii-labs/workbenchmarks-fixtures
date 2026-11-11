@@ -275,7 +275,7 @@ input[type='range'].rainbow { --track: linear-gradient(90deg, #7a5cff 0%, #4b6bf
 .layer-info {
   display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.9rem; align-items: start;
   margin-top: 0.9rem; padding: 0.8rem 1rem; border-radius: 12px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.035);
-  min-height: 6.2em;
+  min-height: 6.2em; align-content: start;
 }
 .layer-info .chip { width: 0.9rem; height: 0.9rem; border-radius: 4px; margin-top: 0.3rem; }
 .layer-info h4 { margin: 0; font-size: 0.98rem; font-weight: 620; }
@@ -335,3 +335,7 @@ input[type='range'].rainbow { --track: linear-gradient(90deg, #7a5cff 0%, #4b6bf
 .foot { border-top: 1px solid var(--line); padding: 2rem var(--pad) 3rem; text-align: center; color: var(--faint); font-size: 0.82rem; }
 .noscript { text-align: center; padding: 1rem; color: var(--photon); }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 480px) {
+  .seg button { font-size: 0.8rem; padding: 0.4rem 0.62rem; }
+  .seg .step-n { margin-right: 0.25em; }
+}
