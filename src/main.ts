@@ -30,7 +30,12 @@ function init() {
   ];
   for (const [name, build] of figs) {
     const el = body(`fig-${name}`);
-    whenNear(el, () => safely(name, () => build(el)), '900px');
+    let built = false;
+    const run = () => { if (!built) { built = true; safely(name, () => build(el)); } };
+    whenNear(el, run, '900px');
+    // They are cheap, so build the rest shortly after first paint too: the page
+    // then has its final height before anyone jumps around with the chapter links.
+    window.setTimeout(run, 1200);
   }
   // 3D figures share one lazily loaded bundle.
   mount3d(body('fig-lattice'), 'lattice');
