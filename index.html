@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How a solar cell works: from a photon to a current</title>
+  <meta name="description" content="An interactive explainer that follows sunlight from the surface of the sun into a slice of silicon and out through a wire as electric current.">
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23ffb938'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#journey">Skip to the story</a>
+
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#top"><span class="brand-dot" aria-hidden="true"></span>How a solar cell works</a>
+    <nav class="chapters" aria-label="Chapters">
+      <a href="#journey">Journey</a>
+      <a href="#light">Light</a>
+      <a href="#silicon">Silicon</a>
+      <a href="#budget">Limits</a>
+      <a href="#junction">Junction</a>
+      <a href="#cell">Cell</a>
+      <a href="#power">Power</a>
+      <a href="#panel">Panel</a>
+    </nav>
+    <div class="progress" aria-hidden="true"><div class="progress-bar" id="progress-bar"></div></div>
+  </header>
+
+  <main id="top">
+    <!-- ───────────────────────── Hero ───────────────────────── -->
+    <section class="hero">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="kicker">An interactive explainer</p>
+        <h1>How sunlight becomes <em>electricity</em></h1>
+        <p class="lede">A solar cell has no moving parts, burns nothing, and makes no sound. It is a thin slice of purified sand that sits in the light and pushes electrons around a wire. This is the story of how, told from the point of view of the light.</p>
+        <ul class="key" aria-label="The cast, and the colours used for them throughout">
+          <li><span class="swatch photon"></span>photon <small>a packet of light</small></li>
+          <li><span class="swatch electron"></span>electron <small>negative charge</small></li>
+          <li><span class="swatch hole"></span>hole <small>a missing electron</small></li>
+        </ul>
+        <a class="scroll-cue" href="#journey">Start at the sun <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 1. Journey ───────────────────────── -->
+    <section class="chapter" id="journey">
+      <div class="prose">
+        <p class="chapter-no">01 <span>The journey</span></p>
+        <h2>A photon leaves the sun</h2>
+        <p>Deep in the sun's core, at around 15 million degrees, hydrogen is being crushed into helium. Every second about four million tonnes of matter simply stop being matter and become energy.</p>
+        <p>That energy does not stroll out. The sun's interior is so dense that light is absorbed and re-emitted after travelling a tiny distance, over and over, in random directions. Estimates vary, but the energy takes somewhere between ten thousand and a couple of hundred thousand years to stagger its way to the surface.</p>
+        <p>At the surface, a glowing layer at about 5,500&nbsp;°C, it finally gets out as <strong>photons</strong>: the smallest possible packets of light. From there the trip is a straight line through empty space, and it is quick.</p>
+      </div>
+
+      <figure class="fig" id="fig-journey">
+        <div class="fig-body"></div>
+        <figcaption>Distances and the sun's size are drawn to scale; the planets are far too small to see at this scale, so they are marked with dots. The clock runs 60 times faster than the real trip.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Eight minutes and nineteen seconds after leaving, the photon reaches Earth. It has plenty of company. On a clear day with the sun high, each square metre of ground receives about <strong>1,000 watts</strong> of sunlight, delivered by roughly <span class="num" id="flux-words">four thousand billion billion</span> photons every second.</p>
+        <p>A solar cell's whole job is to catch those photons one at a time and make each one move an electron. To see how well that can work, we first need to look at what the photons are like.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 2. Light ───────────────────────── -->
+    <section class="chapter" id="light">
+      <div class="prose">
+        <p class="chapter-no">02 <span>The light</span></p>
+        <h2>Not all photons are equal</h2>
+        <p>Sunlight looks white, but it is a mixture. Spread it out with a prism or a raindrop and you see the colours, and beyond both ends of the rainbow there is more that our eyes miss: ultraviolet past the violet, infrared past the red.</p>
+        <p>Colour is not decoration. <strong>A photon's colour is its energy.</strong> Each colour corresponds to a wavelength, and the shorter the wavelength, the more energy one photon carries. A blue photon carries nearly twice the energy of a red one. Physicists count this energy in <em>electron-volts</em> (eV), a unit sized for single particles: visible photons carry roughly 2 to 3&nbsp;eV each.</p>
+        <p>The chart below is the standard measurement of sunlight that the solar industry uses to rate every panel. Move across it to weigh a single photon of each colour.</p>
+      </div>
+
+      <figure class="fig" id="fig-spectrum">
+        <div class="fig-body"></div>
+        <figcaption>The height of the curve is how much power arrives at each wavelength. The bites out of the ground-level curve are colours absorbed on the way down, mostly by water vapour, plus oxygen, ozone and carbon dioxide. Data: ASTM G173-03 reference spectra.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Two things to carry forward. First, sunlight is broad: only about half of its power is in visible light, and most of the rest is infrared. Second, the energy comes in fixed lumps. You cannot have half a photon, and a material cannot absorb half of one. That all-or-nothing behaviour is about to matter a great deal.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 3. Silicon ───────────────────────── -->
+    <section class="chapter" id="silicon">
+      <div class="prose">
+        <p class="chapter-no">03 <span>The material</span></p>
+        <h2>Silicon and its one strict rule</h2>
+        <p>Almost every solar panel is made of silicon, refined from quartz sand and grown into crystals of astonishing purity. In the crystal, every silicon atom holds hands with exactly four neighbours. Each "hand" is a bond made of two shared electrons.</p>
+        <p>This is a case where the shape itself is the explanation, so here is the crystal. Drag to turn it.</p>
+      </div>
+
+      <figure class="fig fig-3d" id="fig-lattice">
+        <div class="fig-body"></div>
+        <figcaption>A tiny piece of silicon crystal: grey spheres are atoms, and the small blue dots are the electrons shared in each bond. Neighbouring atoms are 0.235 millionths of a millimetre apart. Atoms are drawn smaller than they really are so you can see inside.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Notice that in the pure crystal every electron is busy holding a bond. None is free to wander, which is why pure silicon in the dark is a poor conductor. Electricity needs electrons that can move.</p>
+        <p>A photon can supply one. If it hits a bonded electron hard enough, it knocks the electron loose and the electron is free to drift through the crystal. Press <em>Hit it with a photon</em> above and watch two things appear: a <span class="t-electron">free electron</span>, and the gap it left behind in the bond. That gap is called a <span class="t-hole">hole</span>. A neighbouring electron can hop into it, which moves the gap one bond over, so the hole wanders too, behaving just like a positive charge on the loose.</p>
+        <p>Here is the strict rule. Breaking an electron out of a bond in silicon costs a fixed amount of energy, about <strong>1.12&nbsp;eV</strong>. This fee is called the <strong>band gap</strong>. There are no discounts and no change is given:</p>
+        <ul>
+          <li>A photon with <strong>less</strong> than 1.12&nbsp;eV cannot free an electron at all. Silicon is transparent to it and it passes straight through.</li>
+          <li>A photon with <strong>more</strong> than 1.12&nbsp;eV frees exactly one electron. The extra energy makes the electron briefly "hot", and within a few trillionths of a second it has shaken that surplus off into the crystal as heat.</li>
+        </ul>
+        <p>Try it. The picture below is the standard way to draw this: height means electron energy. Bonded electrons live in the lower band, free electrons in the upper band, and nothing is allowed in between.</p>
+      </div>
+
+      <figure class="fig" id="fig-gap">
+        <div class="fig-body"></div>
+        <figcaption>However energetic the photon, the electron ends up resting at the bottom edge of the upper band, holding 1.12&nbsp;eV. That is all a silicon cell can ever bank from one photon.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ───────────────────────── 4. Budget ───────────────────────── -->
+    <section class="chapter" id="budget">
+      <div class="prose">
+        <p class="chapter-no">04 <span>The limit</span></p>
+        <h2>What the rule costs</h2>
+        <p>Put the strict rule together with the spread of sunlight and you get an uncomfortable budget. Infrared photons below the band gap are lost entirely. Everything above it is trimmed down to the band gap, with the trimmings lost as heat.</p>
+        <p>So why not choose a material with a smaller gap and catch more photons? Because then every photon gets trimmed harder. A bigger gap? Each captured photon is worth more, but more of them slip through. Drag the band gap across the chart to feel the trade-off.</p>
+      </div>
+
+      <figure class="fig" id="fig-budget">
+        <div class="fig-body"></div>
+        <figcaption>Calculated here from the sunlight spectrum above for an otherwise perfect cell with a single band gap (the Shockley–Queisser limit). The fourth slice is subtler: even a flawless cell must glow faintly, and cannot deliver each electron at the full band-gap voltage.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>The ceiling for any single material is about 33 to 34 percent, and silicon sits close to the peak. Real cells lose a little more to reflection, to electrical resistance, and to electrons that fall back into holes before they are collected. The best laboratory silicon cells convert just under 28 percent of sunlight; good rooftop panels manage 20 to 24.</p>
+        <p class="aside">The way past the ceiling is to stack two materials: a large-gap layer on top to take the blue light at a high price, and silicon underneath for the red and infrared. Such "tandem" cells have passed 34 percent in the lab.</p>
+        <p>But we have skipped a problem. A freed electron and its hole attract each other. Left alone, the electron soon falls back into a hole and the photon's energy becomes a little warmth, nothing more. To get electricity, something has to pull the two apart and send them different ways.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 5. Junction ───────────────────────── -->
+    <section class="chapter" id="junction">
+      <div class="prose">
+        <p class="chapter-no">05 <span>The trick</span></p>
+        <h2>Building a one-way street</h2>
+        <p>The trick is to make the two halves of the silicon slightly different, by swapping roughly one atom in a million for an impostor. This is called <strong>doping</strong>.</p>
+      </div>
+
+      <figure class="fig fig-3d" id="fig-doping">
+        <div class="fig-body"></div>
+        <figcaption>Both kinds of doped silicon are electrically neutral overall: the impostor atom's own charge balances the wanderer. What changes is that there is now a charge that can <em>move</em>.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p><strong>Phosphorus</strong> has five outer electrons where silicon has four. Four go into bonds; the fifth has nowhere to be and wanders off through the crystal. Silicon doped this way is called <span class="t-n">n-type</span>, for its extra <em>negative</em> wanderers.</p>
+        <p><strong>Boron</strong> has only three. One bond is left an electron short, which is a ready-made hole, free to hop from bond to bond. This is <span class="t-p">p-type</span>, for its <em>positive</em> wanderers.</p>
+        <p>Neither half does anything remarkable alone. The interesting thing happens at the surface where they meet, called the <strong>p–n junction</strong>. Step through it:</p>
+      </div>
+
+      <figure class="fig" id="fig-junction">
+        <div class="fig-body"></div>
+        <figcaption>A cross-section, not to scale. In a real cell the n-type layer is less than a thousandth of a millimetre thick and the charged zone is thinner still, while the p-type layer below is over a hundred times thicker.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>When the two halves touch, wandering electrons from the n-side spill across and drop into holes on the p-side. Each one that leaves strands a positively charged phosphorus atom behind, and creates a negatively charged boron atom where it lands. These charged atoms are locked in the crystal and cannot move.</p>
+        <p>Very quickly a thin zone builds up along the junction with fixed positive charge on one side and fixed negative on the other. Between them is an <strong>electric field</strong>, and it pushes back against any further spilling. The crystal settles into a standoff, with a permanent built-in field across the middle, like a slope built into the floor.</p>
+        <p>Now shine light on it. Each absorbed photon makes an electron and a hole, which wander at random. If the pair was born on the p-side and the electron stumbles into the zone before falling into a hole, the field grabs it and flings it across to the n-side. It cannot come back: the slope only goes one way. Holes born on the n-side are flung the other way.</p>
+        <p>The result is a crowd of extra electrons on the n-side and extra holes on the p-side. Give the electrons a wire to escape through, and they take it, flowing round to the far side to fill the waiting holes. That flow is the electric current.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 6. Cell ───────────────────────── -->
+    <section class="chapter" id="cell">
+      <div class="prose">
+        <p class="chapter-no">06 <span>The device</span></p>
+        <h2>The whole cell, taken apart</h2>
+        <p>Everything else in a solar cell exists to serve that junction: to get as much light in as possible, and to get the electrons out with as little fuss as possible. A cell is a sandwich, so it is best understood by pulling the layers apart.</p>
+      </div>
+
+      <figure class="fig fig-3d fig-wide" id="fig-cell">
+        <div class="fig-body"></div>
+        <figcaption>Thicknesses are hugely exaggerated. A real cell is about as wide as your hand and 0.15&nbsp;mm thick, thinner than two sheets of paper, and the n-type layer and coating would be invisibly thin at this scale.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Follow one loop. A photon passes between the silver lines, through the blue coating, and is absorbed in the silicon. Its <span class="t-electron">electron</span> is swept up through the junction, drifts sideways to the nearest silver finger, and runs along the metal and out into the wire. It passes through whatever you have plugged in, giving up its energy there, and returns to the back contact, where it drops into a <span class="t-hole">hole</span> that has drifted down to meet it. Nothing is used up. The same electrons go round and round for decades, and the sunlight pays for each lap.</p>
+        <p class="aside">By a convention older than the discovery of the electron, electric "current" is drawn flowing from plus to minus, the opposite way to the electrons actually moving. Here we follow the electrons.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 7. Power ───────────────────────── -->
+    <section class="chapter" id="power">
+      <div class="prose">
+        <p class="chapter-no">07 <span>The output</span></p>
+        <h2>Volts, amps and the sweet spot</h2>
+        <p>Two numbers describe what comes out of the wire. <strong>Current</strong>, in amps, is how many electrons flow each second, and it is set by the light: each collected photon contributes one electron, so twice the light gives twice the current. <strong>Voltage</strong>, in volts, is how hard each electron is pushed, and it is set mostly by the material: for silicon, never more than about 0.7 volts.</p>
+        <p><strong>Power</strong> is the two multiplied together, and here is the catch: you cannot have the most of both at once. How much of each you get depends on what you connect.</p>
+        <ul>
+          <li>Join the two contacts with a plain wire and the electrons pour round at the maximum rate, but nothing resists them, so they do no work. Full current, zero volts, zero power.</li>
+          <li>Leave the contacts unconnected and the electrons pile up on the n-side until the pressure reaches its limit. Full voltage, zero current, zero power.</li>
+          <li>Somewhere in between is a load that asks for just the right amount.</li>
+        </ul>
+      </div>
+
+      <figure class="fig" id="fig-iv">
+        <div class="fig-body"></div>
+        <figcaption>A model of one modern full-size silicon cell, 182&nbsp;mm square. The shaded rectangle's area is the power being delivered: its width is the voltage and its height is the current.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Try dimming the sunlight: the current falls in step, while the voltage hardly moves. Then heat the cell up. Counter-intuitively, solar cells work <em>worse</em> when hot, losing roughly a third of a percent of their power for each degree, because heat helps electrons fall back across the junction and that lowers the voltage. A panel on a freezing, bright day outperforms the same panel in a heatwave.</p>
+        <p>Because the sweet spot keeps shifting with the weather, the electronics attached to real solar panels hunt for it continuously, adjusting what the panels "see" many times a second. This is called maximum power point tracking.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── 8. Panel ───────────────────────── -->
+    <section class="chapter" id="panel">
+      <div class="prose">
+        <p class="chapter-no">08 <span>The system</span></p>
+        <h2>From one cell to a rooftop</h2>
+        <p>Half a volt is not much use: a phone charger wants ten times that and your house wiring hundreds of times. So cells are connected in a chain, the back of each to the front of the next, like batteries end to end in a torch. The voltages add up. Sixty cells make a panel of about 35 volts.</p>
+        <p>A chain has a weakness. The same electrons must pass through every cell in turn, so the whole chain can only carry as much current as its weakest cell. Shade a single cell and it becomes a bottleneck for all the others. Click or tap cells below to drop some shade on them.</p>
+      </div>
+
+      <figure class="fig" id="fig-panel">
+        <div class="fig-body"></div>
+        <figcaption>A simplified 60-cell panel wired as three chains of twenty. A shaded cell here still receives 15 percent of full light from the sky. Real panels behave this way, though the exact numbers depend on the design; many newer panels split each cell in two to soften the effect.</figcaption>
+      </figure>
+
+      <div class="prose">
+        <p>Panels protect themselves with <strong>bypass diodes</strong>: one-way valves that let current skip a chain that cannot keep up. That is why a single fallen leaf can cost a third of a panel's output, but no more than that. It is also why installers fuss about chimneys and trees.</p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Recap ───────────────────────── -->
+    <section class="chapter" id="recap">
+      <div class="prose">
+        <p class="chapter-no">09 <span>The whole story</span></p>
+        <h2>Eight minutes, then a wire</h2>
+      </div>
+      <ol class="recap">
+        <li><span class="recap-n">1</span><h3>Launch</h3><p>Fusion energy reaches the sun's surface and leaves as photons. They cross 150 million km in 8 minutes 19 seconds.</p></li>
+        <li><span class="recap-n">2</span><h3>Arrival</h3><p>Each photon carries a fixed lump of energy set by its colour: more for blue, less for red and infrared.</p></li>
+        <li><span class="recap-n">3</span><h3>Absorption</h3><p>In silicon, a photon with at least 1.12&nbsp;eV knocks one electron out of its bond, leaving a hole. Any surplus becomes heat.</p></li>
+        <li><span class="recap-n">4</span><h3>Separation</h3><p>The built-in field at the p–n junction sweeps electrons one way and holes the other before they can reunite.</p></li>
+        <li><span class="recap-n">5</span><h3>Collection</h3><p>Electrons leave through the silver fingers on the front, pushed with about half a volt each.</p></li>
+        <li><span class="recap-n">6</span><h3>Work</h3><p>They flow through the wire, deliver their energy to whatever is plugged in, and return to the back of the cell to go again.</p></li>
+      </ol>
+      <div class="prose">
+        <p>That is all of it. No fuel, no moving parts, nothing consumed: a crystal with a built-in slope, sitting in a rain of photons, quietly turning about a fifth of them into the cheapest electricity people have ever made.</p>
+
+        <details class="notes">
+          <summary>What was simplified, and where the numbers come from</summary>
+          <ul>
+            <li><strong>Spectrum.</strong> The sunlight data are the ASTM G173-03 reference spectra (extraterrestrial, and "AM1.5 global": clear sky, sun about 48° from overhead, on a sun-facing tilted surface, 1,000 W/m²), averaged into 5&nbsp;nm bins. The dashed "ideal glowing ball" curve is Planck's law at 5,772&nbsp;K.</li>
+            <li><strong>Photon energy.</strong> Energy in eV = 1,239.8 ÷ wavelength in nanometres.</li>
+            <li><strong>The limit chart</strong> is a detailed-balance (Shockley–Queisser) calculation done in your browser from that spectrum, for a cell at 25&nbsp;°C that absorbs every photon above its gap and loses electrons only by emitting light from its front face. It gives 33.7% at best and about 33.5% for silicon's 1.12&nbsp;eV. Real silicon has an extra unavoidable loss (Auger recombination) that puts its practical ceiling near 29.4%.</li>
+            <li><strong>The band picture.</strong> Silicon's gap is "indirect": absorbing a photon near 1.12&nbsp;eV also needs a nudge from a crystal vibration, so silicon absorbs red and infrared light weakly. That is why wafers must be fairly thick and why their surfaces are textured to trap light.</li>
+            <li><strong>The junction animation</strong> shows a few dozen charges where a real cell has billions of billions, and exaggerates the width of the charged zone. The behaviour is faithful: carriers wander by diffusion, and only the thin zone at the junction has a strong field. In real cells nearly all carriers are collected; the animation loses more so that you can see it happen.</li>
+            <li><strong>The cell.</strong> The model shown is the classic design: a p-type wafer with a thin n-type layer on the sunny side and a full metal back. Many current cells swap the recipe (n-type wafer) and add refinements such as passivating layers, but they separate charge in the same way.</li>
+            <li><strong>The current–voltage chart</strong> uses the standard single-diode model with values typical of a 2020s cell: 13.6&nbsp;A short-circuit current and 0.705&nbsp;V open-circuit voltage at 1,000&nbsp;W/m² and 25&nbsp;°C.</li>
+            <li><strong>The panel</strong> treats each chain of twenty cells as either running at full current or being bypassed, and picks whichever operating point gives more power, as a tracker would. Diode voltage drops and partial shading levels are ignored.</li>
+            <li><strong>The sun.</strong> The time for energy to diffuse out of the sun is genuinely uncertain; published estimates run from about 10,000 to 170,000 years. And strictly, no single photon makes that trip: the energy is handed along between countless photons.</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Sunlight data: ASTM G173-03. Everything else is calculated on the page.</p>
+  </footer>
+
+  <noscript><p class="noscript">The diagrams on this page are interactive and need JavaScript. The text can be read without it.</p></noscript>
+</body>
+</html>
