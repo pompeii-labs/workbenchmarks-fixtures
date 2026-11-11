@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Starlight to Current — How a Solar Cell Actually Works</title>
+    <meta
+      name="description"
+      content="An interactive visual guide tracing a photon from the Sun's surface into a silicon crystal, across a P-N junction, and around an electric circuit."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%23f59e0b'/%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23fbbf24' stroke-width='2' stroke-dasharray='3 3'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <!-- Top sticky reading progress & chapter jumper -->
+    <header class="topbar" id="topbar" aria-label="Chapter navigation">
+      <div class="topbar-progress" id="reading-progress"></div>
+      <div class="topbar-inner">
+        <a href="#top" class="topbar-brand">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>How a Solar Cell Works</span>
+        </a>
+        <nav class="chapter-nav" aria-label="Story chapters">
+          <a href="#ch-photons" data-chapter="ch-photons">1. Sunlight</a>
+          <a href="#ch-silicon" data-chapter="ch-silicon">2. Silicon 3D</a>
+          <a href="#ch-junction" data-chapter="ch-junction">3. P–N Junction</a>
+          <a href="#ch-architecture" data-chapter="ch-architecture">4. Cell 3D</a>
+          <a href="#ch-circuit" data-chapter="ch-circuit">5. Current &amp; Power</a>
+          <a href="#ch-ledger" data-chapter="ch-ledger">6. Full Ledger</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="eyebrow">Interactive Physics Essay &middot; Zero Prior Physics Needed</div>
+          <h1>From a Sunbeam to Electric Current in a Wire</h1>
+          <p class="hero-lede">
+            A solar panel has no pistons, no turbines, and no moving parts. Yet sit a thin slice of
+            purified beach sand in the sun and it silently pumps billions of trillions of electrons
+            through a wire every second—for thirty years straight. Here is what actually happens
+            inside, one physical step at a time.
+          </p>
+
+          <!-- Live lightweight hero schematic: Sun -> Photon -> Silicon -> Wire -->
+          <div class="hero-stage-card" aria-label="Overview animation from Sun to electrical circuit">
+            <canvas id="hero-ribbon-canvas" class="hero-canvas" width="960" height="230"></canvas>
+            <div class="hero-stage-steps">
+              <div class="hero-step">
+                <span class="step-num">01</span>
+                <strong>8 min 20 sec</strong>
+                <span>A photon crosses 150 million km of vacuum from the Sun’s 5,778 K surface.</span>
+              </div>
+              <div class="hero-step">
+                <span class="step-num">02</span>
+                <strong>1.12 eV Knock</strong>
+                <span>If the photon packs enough energy, it frees a locked electron inside silicon.</span>
+              </div>
+              <div class="hero-step">
+                <span class="step-num">03</span>
+                <strong>One-Way Field</strong>
+                <span>An internal P–N junction sweeps electrons one way and empty “holes” the other.</span>
+              </div>
+              <div class="hero-step">
+                <span class="step-num">04</span>
+                <strong>Closed Loop</strong>
+                <span>Blocked internally, electrons take the external wire—doing useful work on the way back.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="color-legend" aria-label="Visual key used across all diagrams">
+            <span class="legend-label">Visual key throughout this guide:</span>
+            <span class="legend-pill"><i class="dot dot-photon"></i> Photon (light packet)</span>
+            <span class="legend-pill"><i class="dot dot-electron"></i> Electron (&minus; mobile charge)</span>
+            <span class="legend-pill"><i class="dot dot-hole"></i> Hole (+ missing-electron seat)</span>
+            <span class="legend-pill"><i class="dot dot-field"></i> Built-in Electric Field</span>
+            <span class="legend-pill"><i class="dot dot-heat"></i> Heat (lattice vibration)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           CHAPTER 1: SUNLIGHT & PHOTONS
+           ================================================================ -->
+      <article class="chapter" id="ch-photons">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 1 &middot; The Arrival</div>
+          <h2>Sunlight Is a Rainstorm of Tiny Energy Packets</h2>
+          <p>
+            Step outside at noon on a clear day and roughly <strong>1,000 watts</strong> of solar
+            power lands on every square meter of ground. To our skin, sunlight feels like a smooth,
+            continuous warmth. Zoom down to the atomic scale, however, and a sunbeam is actually a
+            torrential downpour of individual particles of light called <strong>photons</strong>—about
+            four sextillion (<span class="math">4 &times; 10<sup>21</sup></span>) of them hitting a
+            single square meter every second.
+          </p>
+          <p>
+            Each photon was born deep inside the Sun’s core as fierce gamma radiation, spent roughly
+            a hundred thousand years ricocheting outward to the Sun’s glowing surface, and then
+            streaked across empty space in <strong>8 minutes and 20 seconds</strong>. Crucially,
+            sunlight isn’t a single color: it is a mixture of ultraviolet, visible rainbow colors,
+            and invisible infrared light.
+          </p>
+          <p>
+            Why does color matter to a solar cell? Because <strong>a photon’s wavelength determines
+            the exact size of its energy punch</strong>. Physicists measure atomic-scale energy in
+            <strong>electron-volts (eV)</strong>—the tiny nudge of energy a single electron gains
+            when pushed by a 1-volt battery:
+          </p>
+
+          <div class="callout-grid">
+            <div class="mini-card">
+              <div class="mini-card-tag tag-blue">Short Wavelength &middot; Blue &amp; UV</div>
+              <strong>2.5 to 3.5+ eV per photon</strong>
+              <p>Tight, rapid waves. Fewer of them in sunlight, but each individual packet hits hard.</p>
+            </div>
+            <div class="mini-card">
+              <div class="mini-card-tag tag-gold">Medium Wavelength &middot; Green &amp; Red</div>
+              <strong>1.7 to 2.4 eV per photon</strong>
+              <p>The heart of visible daylight—abundant and energetic enough to knock silicon electrons loose.</p>
+            </div>
+            <div class="mini-card">
+              <div class="mini-card-tag tag-rose">Long Wavelength &middot; Infrared</div>
+              <strong>0.5 to 1.1 eV per photon</strong>
+              <p>Half of all solar photons live in the infrared! Gentle packets—many are too weak for silicon.</p>
+            </div>
+          </div>
+
+          <p>
+            Inside silicon, every electron is held in place by an energy latch of
+            <strong>1.12 eV</strong> (called silicon’s <strong>bandgap</strong>). Try dragging the
+            wavelength slider below to test a single photon against that 1.12 eV threshold:
+          </p>
+        </div>
+
+        <!-- INTERACTIVE ILLUSTRATION 1A: SINGLE PHOTON TUNER -->
+        <figure class="interactive-figure wide-prose" aria-labelledby="fig-photon-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge">Interactive Wave Illustration</span>
+              <h3 id="fig-photon-title">Anatomy of a Single Photon vs. Silicon’s 1.12 eV Latch</h3>
+            </div>
+          </div>
+          <div id="photon-tuner-mount" class="mount-box"></div>
+          <figcaption class="figure-caption">
+            Photon energy follows <span class="math">E = hc / &lambda; &approx; 1240 eV&middot;nm / &lambda;</span>.
+            Notice the all-or-nothing rule of quantum mechanics: two 0.8 eV infrared photons cannot
+            “team up” under ordinary sunlight to clear a 1.12 eV hurdle. One photon must clear the bar
+            on its own—and any leftover energy above 1.12 eV immediately turns into heat.
+          </figcaption>
+        </figure>
+
+        <div class="prose">
+          <h3>The Goldilocks Dilemma: Why No Single Solar Cell Reaches 100%</h3>
+          <p>
+            That single rule creates one of the deepest trade-offs in clean energy, discovered in
+            1961 by physicists William Shockley and Hans-Joachim Queisser:
+          </p>
+          <ul class="clean-list">
+            <li>
+              <strong>Pick a low threshold (small bandgap):</strong> You catch almost every photon in
+              sunlight, giving you huge electric <em>current</em>—but almost every photon’s excess
+              energy is wasted as heat, leaving you with tiny <em>voltage</em>.
+            </li>
+            <li>
+              <strong>Pick a high threshold (large bandgap):</strong> Every captured photon delivers
+              high <em>voltage</em>—but most of the sunbeam passes straight through the crystal like
+              window glass, starving you of <em>current</em>.
+            </li>
+          </ul>
+          <p>
+            Explore the real terrestrial solar spectrum (<strong>AM1.5G</strong>—sunlight after
+            filtering through Earth’s atmosphere, complete with dips where water vapor and oxygen
+            swallow specific infrared bands) and drag the bandgap slider to find nature’s sweet spot:
+          </p>
+        </div>
+
+        <!-- INTERACTIVE CHART 1B: AM1.5G SPECTRUM + SHOCKLEY-QUEISSER -->
+        <figure class="interactive-figure breakout" aria-labelledby="fig-spectrum-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge">Interactive Data Charts</span>
+              <h3 id="fig-spectrum-title">Earth’s Solar Spectrum (AM1.5G) &amp; The Shockley–Queisser Limit</h3>
+            </div>
+          </div>
+          <div id="spectrum-chart-mount" class="mount-box"></div>
+          <figcaption class="figure-caption">
+            <strong>Left:</strong> Real AM1.5G spectral irradiance from 280 nm to 2,500 nm, partitioned
+            live by your chosen bandgap <span class="math">E<sub>g</sub></span>.
+            <strong>Right:</strong> Maximum theoretical efficiency for a single-junction cell under
+            unconcentrated sunlight (~33.7% peak at 1.34 eV). Silicon’s natural 1.12 eV bandgap sits
+            right near the summit (~32.9% theoretical ceiling)—a stroke of cosmic luck for an element
+            made from ordinary sand.
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- ================================================================
+           CHAPTER 2: SILICON CRYSTAL & DOPING (3D)
+           ================================================================ -->
+      <article class="chapter" id="ch-silicon">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 2 &middot; The Crystal</div>
+          <h2>Locked in Sand: Silicon’s Three-Dimensional Lattice</h2>
+          <p>
+            Why silicon? Besides having a near-ideal 1.12 eV bandgap, silicon is the second most
+            abundant element in Earth’s crust, right behind oxygen. Quartz and beach sand are silicon
+            dioxide (<span class="math">SiO<sub>2</sub></span>). Strip away the oxygen in an electric
+            furnace and grow a single crystal, and silicon atoms snap into an extraordinary
+            three-dimensional pattern—the exact same <strong>diamond-cubic geometry</strong> found in
+            a diamond gemstone.
+          </p>
+          <p>
+            Every silicon atom carries <strong>4 outer (valence) electrons</strong>, and atoms feel
+            most stable when surrounded by 8. In three dimensions, each silicon atom solves this by
+            reaching out in four symmetric tetrahedral directions (109.5&deg; apart) to share one
+            electron apiece with four neighbors.
+          </p>
+          <p>
+            In the dark, every outer electron is locked tight in one of those shared two-electron
+            handshakes. Nothing can flow. Now watch what happens when a photon carrying at least
+            1.12 eV strikes a bond—and how engineers intentionally “season” silicon with trace
+            impurities (<strong>doping</strong>) to prepare it for electricity:
+          </p>
+        </div>
+
+        <!-- INTERACTIVE 3D COMPONENT #1: SILICON LATTICE & DOPING -->
+        <figure class="interactive-figure breakout" aria-labelledby="fig-lattice-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge badge-3d">Interactive 3D Crystal</span>
+              <h3 id="fig-lattice-title">Diamond-Cubic Silicon Lattice &amp; Atomic Doping Explorer</h3>
+            </div>
+            <div class="hint-pill">Drag to rotate in 3D &middot; Scroll/pinch to zoom</div>
+          </div>
+          <div id="lattice-3d-mount" class="mount-box mount-3d">
+            <div class="loading-3d">Initializing 3D Silicon Crystal Lattice&hellip;</div>
+          </div>
+          <figcaption class="figure-caption">
+            Flat textbook grids make silicon look like a flat checkerboard, hiding its real 109.5&deg;
+            tetrahedral geometry. Switch between <strong>Pure Silicon</strong>,
+            <strong>N-Type (Phosphorus, 5 outer electrons)</strong>, and
+            <strong>P-Type (Boron, 3 outer electrons)</strong>, then fire photons of different colors
+            at the crystal.
+          </figcaption>
+        </figure>
+
+        <div class="prose">
+          <div class="myth-box">
+            <div class="myth-label">Crucial Subtlety Most Explanations Miss</div>
+            <h4>“N-Type” and “P-Type” Silicon Are Both Electrically Neutral!</h4>
+            <p>
+              It is tempting to think N-type silicon has an overall negative charge because we added
+              phosphorus with a 5th outer electron. <strong>It doesn’t!</strong> Every phosphorus atom
+              brings 15 positive protons in its nucleus and 15 negative electrons around it—net charge
+              zero. Likewise, boron brings 5 protons and 5 electrons—also net charge zero.
+            </p>
+            <p>
+              What changes is <em>what is free to move</em>: in N-type silicon, the 5th electron wanders
+              freely while the phosphorus atom’s remaining core (<span class="math">P<sup>+</sup></span>)
+              stays bolted in the crystal. In P-type silicon, the empty seat—a <strong>hole</strong>—hops
+              freely from bond to bond like an empty chair in a crowded row, while the boron core
+              (<span class="math">B<sup>&minus;</sup></span>) stays bolted in place. That distinction
+              between <em>mobile carriers</em> and <em>locked crystal ions</em> is the entire secret
+              of Chapter 3.
+            </p>
+          </div>
+
+          <p>
+            Why wasn’t pure silicon enough on its own? As you saw in the 3D crystal above, when sunlight
+            hits pure silicon, an electron and a hole pop free—and then wander randomly in every
+            direction. Within microseconds, the wandering electron bumps back into a hole, snaps back
+            into a bond (<strong>recombination</strong>), and turns its energy into gentle warmth.
+            To get electric current, we have to separate them before they reunite.
+          </p>
+        </div>
+      </article>
+
+      <!-- ================================================================
+           CHAPTER 3: THE P-N JUNCTION
+           ================================================================ -->
+      <article class="chapter" id="ch-junction">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 3 &middot; The One-Way Valve</div>
+          <h2>Building an Invisible Slide: The P–N Junction</h2>
+          <p>
+            Imagine taking a wafer of boron-doped <strong>P-type silicon</strong> (rich in mobile
+            holes) and diffusing a razor-thin top skin of phosphorus into it so the top layer becomes
+            <strong>N-type silicon</strong> (rich in mobile electrons). Even before a single ray of
+            sunlight hits this crystal, a remarkable self-organizing dance takes place right along
+            the border:
+          </p>
+
+          <ol class="numbered-steps">
+            <li>
+              <strong>Crowds spread out (Diffusion):</strong> Mobile electrons crowded on the N-side
+              naturally wander across the border into the P-side and drop into waiting holes near the
+              boundary.
+            </li>
+            <li>
+              <strong>Locked crystal cores get uncovered:</strong> Every electron that leaves the N-side
+              uncovers a positive phosphorus core (<span class="math">P<sup>+</sup></span>) cemented in
+              the lattice. Every hole filled on the P-side uncovers a negative boron core
+              (<span class="math">B<sup>&minus;</sup></span>) cemented in the lattice.
+            </li>
+            <li>
+              <strong>A permanent internal electric field switches on:</strong> Those uncovered
+              <span class="math">+</span> and <span class="math">&minus;</span> crystal ions create a
+              thin, carrier-swept border zone—the <strong>depletion region</strong>—with a fierce
+              built-in electric field (~10,000+ volts per centimeter!) that pushes electrons back toward
+              the N-side until diffusion halts in perfect balance.
+            </li>
+          </ol>
+
+          <p>
+            Physicists picture this junction as an <strong>energy slide</strong> (a band diagram).
+            Electrons behave like marbles that want to roll <em>downhill</em> toward the N-side; holes
+            behave like air bubbles under water that want to float <em>uphill</em> toward the P-side.
+            Click anywhere inside the wafer below to drop photons into different zones, or change the
+            circuit switch to watch how voltage builds up:
+          </p>
+        </div>
+
+        <!-- INTERACTIVE SIMULATION + BAND DIAGRAM: P-N JUNCTION -->
+        <figure class="interactive-figure breakout" aria-labelledby="fig-junction-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge">Interactive Physics Simulation + Band Diagram</span>
+              <h3 id="fig-junction-title">Inside the P–N Junction &amp; Synchronized Energy Slide</h3>
+            </div>
+            <div class="hint-pill">Click inside the silicon cross-section to spawn a photon</div>
+          </div>
+          <div id="pn-junction-mount" class="mount-box"></div>
+          <figcaption class="figure-caption">
+            <strong>Top panel:</strong> Cross-section showing mobile electrons (cyan), mobile holes
+            (coral rings), and locked <span class="math">P<sup>+</sup></span> /
+            <span class="math">B<sup>&minus;</sup></span> crystal ions inside the depletion zone. Notice
+            that pairs created outside the depletion zone aren’t lost—they jiggle randomly by thermal
+            diffusion until they touch the edge of the zone and get whisked across!
+            <strong>Bottom panel:</strong> Aligned energy band diagram showing how electrons roll
+            downhill on the Conduction Band (<span class="math">E<sub>c</sub></span>) while holes float
+            uphill on the Valence Band (<span class="math">E<sub>v</sub></span>). Switch to
+            <strong>Open Circuit</strong> under sunlight to see piled-up charges flatten the hill by
+            <span class="math">qV<sub>oc</sub></span>—that split <em>is</em> the solar cell’s voltage!
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- ================================================================
+           CHAPTER 4: REAL SOLAR CELL ARCHITECTURE (3D)
+           ================================================================ -->
+      <article class="chapter" id="ch-architecture">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 4 &middot; Optical &amp; Electrical Engineering</div>
+          <h2>Why Solar Panels Are Dark Indigo and Pinstriped with Silver</h2>
+          <p>
+            If you slice a raw wafer of silicon and set it in the sun, it looks like a polished metal
+            mirror: bare silicon bounces more than <strong>30% of incoming sunlight</strong> straight
+            back into the sky. Worse yet, every solar cell engineer faces a geometric paradox:
+          </p>
+          <p>
+            To collect electrons off the sunlit N-type top surface, you need metal conductors—yet
+            <strong>metal is opaque</strong>! Cover the top with solid metal and no sunlight gets in;
+            put metal only on the outer rim and electrons get stuck fighting electrical resistance
+            across the wafer.
+          </p>
+          <p>
+            Modern silicon cells (such as the industry-workhorse <strong>PERC</strong>—Passivated
+            Emitter and Rear Cell) solve every piece of this puzzle in three dimensions:
+          </p>
+          <ul class="clean-list">
+            <li>
+              <strong>Microscopic 3D Pyramids:</strong> Bathing the silicon wafer in alkaline potassium
+              hydroxide etches millions of tiny pyramids just 3–8 micrometers tall along silicon’s
+              natural crystal planes. Any ray that reflects off one pyramid face bounces <em>downward</em>
+              into its neighbor for a second chance at entry!
+            </li>
+            <li>
+              <strong>Indigo Anti-Reflective Coating (<span class="math">SiN<sub>x</sub></span>):</strong>
+              A 75-nanometer transparent film of silicon nitride uses wave interference—the same physics
+              on camera lenses and soap bubbles—to cancel reflections, cutting bounced light below 2%
+              and giving solar cells their signature deep blue-indigo sheen.
+            </li>
+            <li>
+              <strong>Hair-Thin Silver “Fingers” &amp; Busbars:</strong> Screen-printed silver grid lines
+              just ~35 micrometers wide shade less than 3% of the face while giving electrons a nearby
+              metallic highway every ~1.5 millimeters.
+            </li>
+            <li>
+              <strong>Ultra-Thin Top Emitter + Thick Base + Rear Mirror:</strong> Blue photons get
+              absorbed within nanometers of the top surface, so the N-type layer is kept whisper-thin
+              (~0.3 &mu;m). Lazy infrared photons need 150+ micrometers of silicon, so a rear dielectric
+              mirror bounces unabsorbed red/IR light back up through the wafer for a double pass!
+            </li>
+          </ul>
+        </div>
+
+        <!-- INTERACTIVE 3D COMPONENT #2: EXPLODED SOLAR CELL STACK -->
+        <figure class="interactive-figure breakout" aria-labelledby="fig-cell3d-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge badge-3d">Interactive 3D Architecture</span>
+              <h3 id="fig-cell3d-title">Exploded 3D Silicon Solar Cell: Light Trapping &amp; Current Collection</h3>
+            </div>
+            <div class="hint-pill">Drag to orbit &middot; Explode layers &middot; Click any layer</div>
+          </div>
+          <div id="cell-3d-mount" class="mount-box mount-3d">
+            <div class="loading-3d">Initializing 3D Solar Cell Stack&hellip;</div>
+          </div>
+          <figcaption class="figure-caption">
+            Use the <strong>Explode Layers</strong> slider to pull apart the six functional layers of
+            a modern silicon cell, click any layer button to inspect its engineering role, and watch
+            blue vs. red photons absorb at different depths while electrons stream laterally into the
+            silver fingers and out onto the busbar.
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- ================================================================
+           CHAPTER 5: CURRENT, VOLTAGE & POWER IN A WIRE
+           ================================================================ -->
+      <article class="chapter" id="ch-circuit">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 5 &middot; Into the Wire</div>
+          <h2>The Electron Pump: Current, Voltage, and the Sweet Spot of Power</h2>
+          <p>
+            Now clip a copper wire from the front silver busbar (N-side), run it through an LED lamp
+            or inverter, and connect the other end to the rear contact (P-side). Here is the crispest
+            way to hold the whole picture in your head:
+          </p>
+          <blockquote class="pullquote">
+            A solar cell never “uses up” electrons. It is a silent, photon-powered
+            <strong>circulation pump</strong>: photons lift electrons up an energy hill inside the
+            crystal, the P–N junction blocks them from sliding back internally, and the external wire
+            gives them a path home—delivering energy to your appliance on the way back to fill waiting
+            holes at the rear contact.
+          </blockquote>
+
+          <p>
+            How much useful electrical <strong>power</strong> (<span class="math">Watts = Volts &times; Amps</span>)
+            comes out of that wire depends critically on how hard your connected load pushes back:
+          </p>
+          <ul class="clean-list">
+            <li>
+              <strong>Short Circuit (<span class="math">0 Volts</span>):</strong> Connect the front and
+              back directly with a zero-resistance wire. Electrons race around effortlessly at maximum
+              <strong>Short-Circuit Current (<span class="math">I<sub>sc</sub></span>)</strong>—but with
+              zero voltage push, <strong>power is zero</strong> (<span class="math">0 V &times; 10 A = 0 W</span>).
+              It’s a waterwheel spinning freely with nothing attached.
+            </li>
+            <li>
+              <strong>Open Circuit (<span class="math">~0.68 Volts</span> per cell):</strong> Snip the
+              wire. Electrons pile up on the N-side until their forward voltage
+              (<strong>Open-Circuit Voltage, <span class="math">V<sub>oc</sub></span></strong>) pushes
+              electrons backward across the junction just as fast as sunlight pumps them forward.
+              Maximum voltage, zero current—again, <strong>power is zero</strong>!
+            </li>
+            <li>
+              <strong>Maximum Power Point (MPP, <span class="math">~0.57 Volts</span>):</strong> Dial in
+              just the right load resistance so voltage stays high right before internal leakage ramps
+              up. Every modern solar inverter runs an electronic tracker (<strong>MPPT</strong>) that
+              hunts this exact sweet spot every second as clouds drift overhead.
+            </li>
+          </ul>
+          <p>
+            Test this yourself on the live solar bench below—and try sliding the
+            <strong>Cell Temperature</strong> up to 65&deg;C (a realistic black rooftop in July) to see
+            a surprising quirk of semiconductor physics:
+          </p>
+        </div>
+
+        <!-- INTERACTIVE LAB BENCH: CIRCUIT SCHEMATIC + I-V & P-V CURVES -->
+        <figure class="interactive-figure breakout" aria-labelledby="fig-iv-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge">Interactive Circuit &amp; I–V Curve Lab</span>
+              <h3 id="fig-iv-title">Live Closed-Loop Circuit &amp; Single-Diode I–V / Power Curve</h3>
+            </div>
+          </div>
+          <div id="iv-lab-mount" class="mount-box"></div>
+          <figcaption class="figure-caption">
+            Computed in real time from the physical single-diode solar cell equation. Notice how
+            <strong>brighter sunlight</strong> scales current (<span class="math">I<sub>sc</sub></span>)
+            almost linearly, whereas <strong>higher cell temperature</strong> makes thermally agitated
+            electrons leak back across the junction more easily—shrinking voltage
+            (<span class="math">V<sub>oc</sub></span>) and cutting peak power by ~0.35% per &deg;C! A
+            crisp, sunny winter morning on a snowy mountain actually beats a scorching August afternoon.
+            Toggle <strong>60-Cell Rooftop Panel</strong> to see how wiring cells in series adds their
+            0.57 V nudges into ~34 V at ~390+ Watts.
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- ================================================================
+           CHAPTER 6: COMPLETE ENERGY LEDGER & FINALE
+           ================================================================ -->
+      <article class="chapter" id="ch-ledger">
+        <div class="prose">
+          <div class="chapter-kicker">Chapter 6 &middot; The Big Picture</div>
+          <h2>Every Watt Accounted For—and How Next-Gen Cells Beat the Limit</h2>
+          <p>
+            We started with <strong>1,000 watts</strong> of raw starlight falling on one square meter
+            of Earth. Now that you know every physical mechanism inside the cell, there is nothing
+            mysterious about why a typical rooftop panel delivers around <strong>225 watts</strong> of
+            electricity from that square meter (~22.5% efficiency), or why record laboratory silicon
+            cells top out near <strong>27.3%</strong>.
+          </p>
+          <p>
+            Compare the full energy waterfall across three generations of solar cells—including
+            <strong>perovskite-on-silicon tandem cells</strong>, which stack a wide-bandgap top crystal
+            (to catch blue/green photons at high voltage with far less heat loss) right on top of a
+            silicon bottom cell (to catch the red and near-infrared photons that pass through):
+          </p>
+        </div>
+
+        <!-- INTERACTIVE WATERFALL CHART: 1000 W/m2 ACCOUNTABILITY -->
+        <figure class="interactive-figure wide-prose" aria-labelledby="fig-waterfall-title">
+          <div class="figure-header">
+            <div>
+              <span class="figure-badge">Interactive Energy Ledger</span>
+              <h3 id="fig-waterfall-title">From 1,000 W/m&sup2; of Sunlight to Current in the Wire</h3>
+            </div>
+          </div>
+          <div id="waterfall-mount" class="mount-box"></div>
+          <figcaption class="figure-caption">
+            Hover or tap any bar segment to inspect the exact physical mechanism behind each share of
+            sunlight. Stacking two complementary bandgaps in a tandem cell slashes thermalization heat
+            losses without sacrificing infrared capture—pushing efficiency past 34%.
+          </figcaption>
+        </figure>
+
+        <div class="prose closing-summary">
+          <h3>The Whole Story in Five Sentences</h3>
+          <div class="summary-timeline">
+            <div class="summary-item">
+              <span class="summary-step">1</span>
+              <p>
+                <strong>Sunlight arrives as discrete packets (photons)</strong> whose colors set their
+                individual energy punches, from gentle infrared (~0.7 eV) to fierce blue/UV (~3+ eV).
+              </p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-step">2</span>
+              <p>
+                <strong>Inside silicon’s 3D tetrahedral crystal</strong>, any photon carrying at least
+                <strong>1.12 eV</strong> knocks a locked bond electron free into a mobile state, leaving
+                behind a mobile positive vacancy—a <strong>hole</strong>—while shedding any excess photon
+                energy as heat.
+              </p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-step">3</span>
+              <p>
+                <strong>Doping one side with phosphorus (N-type) and the other with boron (P-type)</strong>
+                uncovers locked <span class="math">P<sup>+</sup></span> and
+                <span class="math">B<sup>&minus;</sup></span> crystal ions along their border, creating a
+                permanent built-in electric field—a one-way slide.
+              </p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-step">4</span>
+              <p>
+                <strong>Micro-pyramids and an indigo anti-reflective coating</strong> trap >98% of
+                sunlight inside the wafer while hair-thin silver fingers collect electrons pushed to the
+                N-type top skin.
+              </p>
+            </div>
+            <div class="summary-item">
+              <span class="summary-step">5</span>
+              <p>
+                <strong>Blocked from crossing back internally</strong>, those electrons flow out through
+                your external wire, power your load at the cell’s Maximum Power Point (~0.57 V per cell),
+                and reunite with waiting holes at the rear contact—ready for the next photon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>
+          <strong>From Starlight to Current</strong> &middot; Interactive Physics Guide to Photovoltaic
+          Cells. Built with physical single-diode equations, real AM1.5G terrestrial spectral standards,
+          and interactive 2D/3D simulations.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
