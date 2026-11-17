@@ -16,3 +16,8 @@ body { font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; background: #0f1115;
 .grid td.name { color: #8b91a0; }
 .flash-up { background: rgba(46, 160, 67, 0.35); }
 .flash-down { background: rgba(218, 54, 51, 0.35); }
+/* Only visible rows are rendered, so pin column widths to keep them steady while scrolling. */
+.grid th:nth-child(1), .grid td.symbol { width: 84px; }
+.grid th:nth-child(2), .grid td.name { width: 160px; }
+.grid th[data-field], .grid td.num { width: 96px; }
+.grid tr.spacer { border: 0; }

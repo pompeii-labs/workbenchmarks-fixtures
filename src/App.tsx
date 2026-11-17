@@ -1,22 +1,59 @@
-import { useEffect, useState } from 'react';
-import { instruments, NUMERIC_FIELDS, snapshot, subscribe, type NumericField } from './feed/feed';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { instruments, NUMERIC_FIELDS, type NumericField } from './feed/feed';
+import { connect, FIELD_COUNT, indexOfField, rowVersion, takeFrame, values } from './store';
 import { QuoteRow } from './QuoteRow';
 
-export type Quote = Record<NumericField, number>;
 type SortDir = 'asc' | 'desc';
 
+// Rows rendered beyond the visible window on each side.
+const OVERSCAN = 12;
+const DEFAULT_ROW_HEIGHT = 27;
+
+const lowerSymbols = instruments.map((i) => i.symbol.toLowerCase());
+
+function sortRows(rows: number[], field: NumericField, dir: SortDir): number[] {
+    const f = indexOfField(field);
+    const sign = dir === 'desc' ? -1 : 1;
+    // Ties keep instrument order, as the old stable sort did.
+    return [...rows].sort((a, b) => sign * (values[a * FIELD_COUNT + f] - values[b * FIELD_COUNT + f]) || a - b);
+}
+
 export function App() {
-    const [quotes, setQuotes] = useState<Quote[]>(() => snapshot());
     const [filter, setFilter] = useState('');
     const [sortField, setSortField] = useState<NumericField | null>(null);
     const [sortDir, setSortDir] = useState<SortDir>('desc');
+    // Bumped once per frame when the feed changed something on screen.
+    const [, setFrame] = useState(0);
+    // Bumped when the sort field's values moved, to re-sort.
+    const [sortVersion, setSortVersion] = useState(0);
+    const [scrollTop, setScrollTop] = useState(0);
+    const [viewport, setViewport] = useState(1000);
+    const [rowHeight, setRowHeight] = useState(DEFAULT_ROW_HEIGHT);
+
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const sortFieldRef = useRef(-1);
+    sortFieldRef.current = sortField ? indexOfField(sortField) : -1;
+
+    useEffect(() => connect(), []);
 
     useEffect(() => {
-        return subscribe((message) => {
-            setQuotes((prev) =>
-                prev.map((q, i) => (i === message.row ? { ...q, [message.field]: message.value } : q))
-            );
-        });
+        let raf = 0;
+        const loop = (now: number) => {
+            const { changed, sortFieldChanged } = takeFrame(now, sortFieldRef.current);
+            if (changed) setFrame((n) => n + 1);
+            if (sortFieldChanged) setSortVersion((n) => n + 1);
+            raf = requestAnimationFrame(loop);
+        };
+        raf = requestAnimationFrame(loop);
+        return () => cancelAnimationFrame(raf);
+    }, []);
+
+    useLayoutEffect(() => {
+        const el = scrollRef.current!;
+        const ro = new ResizeObserver(() => setViewport(el.clientHeight));
+        ro.observe(el);
+        setViewport(el.clientHeight);
+        return () => ro.disconnect();
     }, []);
 
     function toggleSort(field: NumericField) {
@@ -29,11 +66,44 @@ export function App() {
     }
 
     const needle = filter.trim().toLowerCase();
-    let rows = instruments.map((instrument, index) => ({ instrument, index, quote: quotes[index] }));
-    if (needle) rows = rows.filter((r) => r.instrument.symbol.toLowerCase().includes(needle));
-    if (sortField) {
-        const sign = sortDir === 'desc' ? -1 : 1;
-        rows = [...rows].sort((a, b) => sign * (a.quote[sortField] - b.quote[sortField]));
+    const filtered = useMemo(() => {
+        const out: number[] = [];
+        for (let i = 0; i < lowerSymbols.length; i++) if (!needle || lowerSymbols[i].includes(needle)) out.push(i);
+        return out;
+    }, [needle]);
+
+    const rows = useMemo(
+        () => (sortField ? sortRows(filtered, sortField, sortDir) : filtered),
+        // sortVersion re-sorts as the sorted field's values move.
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        [filtered, sortField, sortDir, sortVersion]
+    );
+
+    // Virtual window: only rows near the viewport are in the DOM; spacer rows
+    // keep the full board's height so every instrument is reachable by scrolling.
+    const start = Math.max(0, Math.floor(scrollTop / rowHeight) - OVERSCAN);
+    const end = Math.min(rows.length, Math.ceil((scrollTop + viewport) / rowHeight) + OVERSCAN);
+    const topPad = start * rowHeight;
+    const bottomPad = (rows.length - end) * rowHeight;
+
+    const measureRow = useCallback((el: HTMLTableRowElement | null) => {
+        if (!el) return;
+        const h = el.getBoundingClientRect().height;
+        if (h > 0) setRowHeight((prev) => (Math.abs(prev - h) > 0.01 ? h : prev));
+    }, []);
+
+    const visible = [];
+    for (let k = start; k < end; k++) {
+        const index = rows[k];
+        visible.push(
+            <QuoteRow
+                key={instruments[index].symbol}
+                ref={k === start ? measureRow : undefined}
+                instrument={instruments[index]}
+                row={index}
+                version={rowVersion[index]}
+            />
+        );
     }
 
     return (
@@ -48,7 +118,7 @@ export function App() {
                 />
                 <span className="count">{rows.length} instruments</span>
             </header>
-            <div className="grid-scroll">
+            <div className="grid-scroll" ref={scrollRef} onScroll={(e) => setScrollTop(e.currentTarget.scrollTop)}>
                 <table className="grid">
                     <thead>
                         <tr>
@@ -68,9 +138,9 @@ export function App() {
                         </tr>
                     </thead>
                     <tbody>
-                        {rows.map((r) => (
-                            <QuoteRow key={r.instrument.symbol} instrument={r.instrument} quote={r.quote} />
-                        ))}
+                        {topPad > 0 && <tr className="spacer" aria-hidden="true" style={{ height: topPad }} />}
+                        {visible}
+                        {bottomPad > 0 && <tr className="spacer" aria-hidden="true" style={{ height: bottomPad }} />}
                     </tbody>
                 </table>
             </div>
