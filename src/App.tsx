@@ -1,22 +1,45 @@
-import { useEffect, useState } from 'react';
-import { instruments, NUMERIC_FIELDS, snapshot, subscribe, type NumericField } from './feed/feed';
+import { useEffect, useLayoutEffect, useMemo, useReducer, useRef, useState } from 'react';
+import { instruments, NUMERIC_FIELDS, type NumericField } from './feed/feed';
 import { QuoteRow } from './QuoteRow';
+import { connect, FIELD_COUNT, indexOfField, takeDirty, values } from './quoteStore';
 
-export type Quote = Record<NumericField, number>;
 type SortDir = 'asc' | 'desc';
 
+/** Rows rendered above and below the viewport. */
+const OVERSCAN = 8;
+const DEFAULT_ROW_HEIGHT = 27;
+
+const allRows = instruments.map((_, i) => i);
+const lowerSymbols = instruments.map((ins) => ins.symbol.toLowerCase());
+
 export function App() {
-    const [quotes, setQuotes] = useState<Quote[]>(() => snapshot());
     const [filter, setFilter] = useState('');
     const [sortField, setSortField] = useState<NumericField | null>(null);
     const [sortDir, setSortDir] = useState<SortDir>('desc');
+    const [scrollTop, setScrollTop] = useState(0);
+    const [viewportHeight, setViewportHeight] = useState(800);
+    const [rowHeight, setRowHeight] = useState(DEFAULT_ROW_HEIGHT);
+    // Bumped once per animation frame while the feed is moving.
+    const [frame, nextFrame] = useReducer((n: number) => n + 1, 0);
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const tbodyRef = useRef<HTMLTableSectionElement>(null);
+
+    useEffect(() => connect(), []);
 
     useEffect(() => {
-        return subscribe((message) => {
-            setQuotes((prev) =>
-                prev.map((q, i) => (i === message.row ? { ...q, [message.field]: message.value } : q))
-            );
+        let raf = requestAnimationFrame(function loop(now) {
+            if (takeDirty(now)) nextFrame();
+            raf = requestAnimationFrame(loop);
         });
+        return () => cancelAnimationFrame(raf);
+    }, []);
+
+    useLayoutEffect(() => {
+        const el = scrollRef.current!;
+        const ro = new ResizeObserver(() => setViewportHeight(el.clientHeight));
+        ro.observe(el);
+        setViewportHeight(el.clientHeight);
+        return () => ro.disconnect();
     }, []);
 
     function toggleSort(field: NumericField) {
@@ -29,11 +52,44 @@ export function App() {
     }
 
     const needle = filter.trim().toLowerCase();
-    let rows = instruments.map((instrument, index) => ({ instrument, index, quote: quotes[index] }));
-    if (needle) rows = rows.filter((r) => r.instrument.symbol.toLowerCase().includes(needle));
-    if (sortField) {
+    const filtered = useMemo(
+        () => (needle ? allRows.filter((i) => lowerSymbols[i].includes(needle)) : allRows),
+        [needle]
+    );
+
+    // The sort is recomputed every frame so the order follows live values.
+    // `frame` is the signal that values moved.
+    const rows = useMemo(() => {
+        if (!sortField) return filtered;
+        const f = indexOfField(sortField);
         const sign = sortDir === 'desc' ? -1 : 1;
-        rows = [...rows].sort((a, b) => sign * (a.quote[sortField] - b.quote[sortField]));
+        // Stable sort from instrument order, so ties keep instrument order.
+        return [...filtered].sort((a, b) => sign * (values[a * FIELD_COUNT + f] - values[b * FIELD_COUNT + f]));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [filtered, sortField, sortDir, frame]);
+
+    const total = rows.length;
+    const first = Math.max(0, Math.floor(scrollTop / rowHeight) - OVERSCAN);
+    const last = Math.min(total, Math.ceil((scrollTop + viewportHeight) / rowHeight) + OVERSCAN);
+    const topPad = first * rowHeight;
+    const bottomPad = (total - last) * rowHeight;
+    const now = performance.now();
+
+    // Use the real rendered row height so the scroll extent is exact. Measured
+    // only when the viewport changes size, not every frame: reading layout
+    // forces a synchronous reflow.
+    const firstRowPresent = total > 0;
+    useLayoutEffect(() => {
+        const tr = tbodyRef.current?.querySelector<HTMLTableRowElement>('tr[data-symbol]');
+        if (!tr) return;
+        const h = tr.getBoundingClientRect().height;
+        if (h > 0 && Math.abs(h - rowHeight) > 0.01) setRowHeight(h);
+    }, [viewportHeight, firstRowPresent, rowHeight]);
+
+    const visible = [];
+    for (let k = first; k < last; k++) {
+        const index = rows[k];
+        visible.push(<QuoteRow key={instruments[index].symbol} instrument={instruments[index]} index={index} now={now} />);
     }
 
     return (
@@ -48,8 +104,15 @@ export function App() {
                 />
                 <span className="count">{rows.length} instruments</span>
             </header>
-            <div className="grid-scroll">
+            <div className="grid-scroll" ref={scrollRef} onScroll={(e) => setScrollTop(e.currentTarget.scrollTop)}>
                 <table className="grid">
+                    <colgroup>
+                        <col className="col-symbol" />
+                        <col className="col-name" />
+                        {NUMERIC_FIELDS.map((field) => (
+                            <col key={field} className="col-num" />
+                        ))}
+                    </colgroup>
                     <thead>
                         <tr>
                             <th>Symbol</th>
@@ -67,10 +130,18 @@ export function App() {
                             ))}
                         </tr>
                     </thead>
-                    <tbody>
-                        {rows.map((r) => (
-                            <QuoteRow key={r.instrument.symbol} instrument={r.instrument} quote={r.quote} />
-                        ))}
+                    <tbody ref={tbodyRef}>
+                        {topPad > 0 && (
+                            <tr className="spacer" aria-hidden="true" style={{ height: topPad }}>
+                                <td colSpan={NUMERIC_FIELDS.length + 2} />
+                            </tr>
+                        )}
+                        {visible}
+                        {bottomPad > 0 && (
+                            <tr className="spacer" aria-hidden="true" style={{ height: bottomPad }}>
+                                <td colSpan={NUMERIC_FIELDS.length + 2} />
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
