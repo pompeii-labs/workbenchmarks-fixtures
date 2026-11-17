@@ -4,3 +4,6 @@ dist/
 *.log
 .env
 .env.*
+.uiperf/base/
+.uiperf/runs/
+.uiperf/last.json
