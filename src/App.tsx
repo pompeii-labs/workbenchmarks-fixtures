@@ -1,23 +1,95 @@
-import { useEffect, useState } from 'react';
-import { instruments, NUMERIC_FIELDS, snapshot, subscribe, type NumericField } from './feed/feed';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { instruments, NUMERIC_FIELDS, ROWS, snapshot, subscribe, type NumericField } from './feed/feed';
 import { QuoteRow } from './QuoteRow';
 
 export type Quote = Record<NumericField, number>;
 type SortDir = 'asc' | 'desc';
 
+const FIELD_COUNT = NUMERIC_FIELDS.length;
+const FIELD_INDEX = Object.fromEntries(NUMERIC_FIELDS.map((f, i) => [f, i])) as Record<NumericField, number>;
+const OVERSCAN = 8;
+const FALLBACK_FLUSH_MS = 100;
+
+export interface QuoteStore {
+    quotes: Quote[];
+    versions: number[];
+    flash: Int8Array;
+}
+
+function createStore(): QuoteStore {
+    return {
+        quotes: snapshot(),
+        versions: new Array<number>(ROWS).fill(0),
+        flash: new Int8Array(ROWS * FIELD_COUNT),
+    };
+}
+
 export function App() {
-    const [quotes, setQuotes] = useState<Quote[]>(() => snapshot());
+    const storeRef = useRef<QuoteStore | null>(null);
+    if (!storeRef.current) storeRef.current = createStore();
+    const store = storeRef.current;
+
+    const [, setFrame] = useState(0);
     const [filter, setFilter] = useState('');
     const [sortField, setSortField] = useState<NumericField | null>(null);
     const [sortDir, setSortDir] = useState<SortDir>('desc');
+    const [scrollTop, setScrollTop] = useState(0);
+    const [viewportH, setViewportH] = useState(600);
+    const [rowH, setRowH] = useState(26);
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const bodyRef = useRef<HTMLTableSectionElement>(null);
 
     useEffect(() => {
-        return subscribe((message) => {
-            setQuotes((prev) =>
-                prev.map((q, i) => (i === message.row ? { ...q, [message.field]: message.value } : q))
-            );
+        let raf = 0;
+        let fallback: ReturnType<typeof setTimeout> | undefined;
+        const flush = () => {
+            if (raf) {
+                cancelAnimationFrame(raf);
+                raf = 0;
+            }
+            if (fallback) {
+                clearTimeout(fallback);
+                fallback = undefined;
+            }
+            setFrame((f) => f + 1);
+        };
+        const schedule = () => {
+            if (!raf) raf = requestAnimationFrame(flush);
+            if (!fallback) fallback = setTimeout(flush, FALLBACK_FLUSH_MS);
+        };
+        const unsubscribe = subscribe((message) => {
+            const quote = store.quotes[message.row];
+            const old = quote[message.field];
+            if (message.value === old) return;
+            quote[message.field] = message.value;
+            store.versions[message.row]++;
+            store.flash[message.row * FIELD_COUNT + FIELD_INDEX[message.field]] = message.value > old ? 1 : -1;
+            schedule();
         });
+        return () => {
+            unsubscribe();
+            if (raf) cancelAnimationFrame(raf);
+            if (fallback) clearTimeout(fallback);
+        };
+    }, [store]);
+
+    useLayoutEffect(() => {
+        const el = scrollRef.current;
+        if (!el) return;
+        setViewportH(el.clientHeight);
+        const observer = new ResizeObserver(() => setViewportH(el.clientHeight));
+        observer.observe(el);
+        return () => observer.disconnect();
     }, []);
+
+    useLayoutEffect(() => {
+        const body = bodyRef.current;
+        if (!body) return;
+        const rows = body.querySelectorAll<HTMLTableRowElement>('tr[data-symbol]');
+        if (rows.length === 0) return;
+        const measured = rows.length > 1 ? rows[1].offsetTop - rows[0].offsetTop : rows[0].offsetHeight;
+        if (measured > 0) setRowH((prev) => (prev === measured ? prev : measured));
+    });
 
     function toggleSort(field: NumericField) {
         if (sortField === field) {
@@ -29,12 +101,27 @@ export function App() {
     }
 
     const needle = filter.trim().toLowerCase();
-    let rows = instruments.map((instrument, index) => ({ instrument, index, quote: quotes[index] }));
-    if (needle) rows = rows.filter((r) => r.instrument.symbol.toLowerCase().includes(needle));
-    if (sortField) {
-        const sign = sortDir === 'desc' ? -1 : 1;
-        rows = [...rows].sort((a, b) => sign * (a.quote[sortField] - b.quote[sortField]));
-    }
+    const filtered = useMemo(() => {
+        const out: number[] = [];
+        for (let i = 0; i < ROWS; i++) {
+            if (!needle || instruments[i].symbol.toLowerCase().includes(needle)) out.push(i);
+        }
+        return out;
+    }, [needle]);
+
+    const order = sortField
+        ? [...filtered].sort((a, b) => {
+              const sign = sortDir === 'desc' ? -1 : 1;
+              return sign * (store.quotes[a][sortField] - store.quotes[b][sortField]);
+          })
+        : filtered;
+
+    const total = order.length;
+    const start = Math.max(0, Math.min(Math.floor(scrollTop / rowH) - OVERSCAN, total));
+    const end = Math.max(start, Math.min(total, Math.ceil((scrollTop + viewportH) / rowH) + OVERSCAN));
+    const topPad = start * rowH;
+    const bottomPad = (total - end) * rowH;
+    const visible = order.slice(start, end);
 
     return (
         <div className="app">
@@ -46,10 +133,17 @@ export function App() {
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
                 />
-                <span className="count">{rows.length} instruments</span>
+                <span className="count">{total} instruments</span>
             </header>
-            <div className="grid-scroll">
+            <div className="grid-scroll" ref={scrollRef} onScroll={(e) => setScrollTop(e.currentTarget.scrollTop)}>
                 <table className="grid">
+                    <colgroup>
+                        <col style={{ width: 90 }} />
+                        <col style={{ width: 180 }} />
+                        {NUMERIC_FIELDS.map((field) => (
+                            <col key={field} style={{ width: 88 }} />
+                        ))}
+                    </colgroup>
                     <thead>
                         <tr>
                             <th>Symbol</th>
@@ -67,10 +161,27 @@ export function App() {
                             ))}
                         </tr>
                     </thead>
-                    <tbody>
-                        {rows.map((r) => (
-                            <QuoteRow key={r.instrument.symbol} instrument={r.instrument} quote={r.quote} />
+                    <tbody ref={bodyRef}>
+                        {topPad > 0 && (
+                            <tr aria-hidden="true" className="spacer">
+                                <td colSpan={FIELD_COUNT + 2} style={{ height: topPad }} />
+                            </tr>
+                        )}
+                        {visible.map((index) => (
+                            <QuoteRow
+                                key={instruments[index].symbol}
+                                instrument={instruments[index]}
+                                quote={store.quotes[index]}
+                                version={store.versions[index]}
+                                index={index}
+                                store={store}
+                            />
                         ))}
+                        {bottomPad > 0 && (
+                            <tr aria-hidden="true" className="spacer">
+                                <td colSpan={FIELD_COUNT + 2} style={{ height: bottomPad }} />
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
