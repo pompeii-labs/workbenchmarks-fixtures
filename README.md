@@ -13,8 +13,11 @@ npm run build   # static site in dist/
 
 - `src/feed/` is the market-data client. It is shared with the other desks
   and is not ours to change.
-- `src/App.tsx` holds quotes, filter, and sort. `src/QuoteRow.tsx` renders
-  a row and flashes changed cells.
+- `src/store.ts` holds every quote in typed arrays outside React; feed
+  messages write values and flash timestamps there, nothing else.
+- `src/App.tsx` holds filter, sort, and the virtualized visible window,
+  repainted once per animation frame. `src/QuoteRow.tsx` renders a row and
+  flashes changed cells from those timestamps.
 
 ## Behavior the desk relies on
 

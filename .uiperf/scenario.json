@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "site": "dist",
+  "ready": "document.querySelectorAll('tr[data-symbol] td[data-field]').length > 0",
+  "liveMs": 10000,
+  "scroll": { "selector": ".grid-scroll" },
+  "freshness": "(() => { const qa = window.__marketQA; if (!qa) return { checked: 0, stale: 0, example: null }; const now = performance.now(); const vw = innerWidth, vh = innerHeight; let checked = 0, stale = 0, example = null; for (const tr of document.querySelectorAll('tr[data-symbol]')) { const r = tr.getBoundingClientRect(); if (r.height === 0 || r.bottom <= 0 || r.top >= vh) continue; const row = Number(tr.getAttribute('data-symbol').slice(3)); for (const td of tr.querySelectorAll('td[data-field]')) { const c = td.getBoundingClientRect(); if (c.right <= 0 || c.left >= vw) continue; const field = td.getAttribute('data-field'); const t = qa.recent(row, field); const shown = td.textContent; checked++; if (shown === t.value.toFixed(2)) continue; if (now - t.changedAt <= 250 && shown === t.previous.toFixed(2)) continue; stale++; if (!example) example = { id: tr.getAttribute('data-symbol'), field, shown, truth: t.value.toFixed(2) }; } } return { checked, stale, example }; })()",
+  "interactions": [
+    {
+      "name": "sort bid desc",
+      "click": "th[data-field=bid]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"bid\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const qa = window.__marketQA; const vals = []; for (const tr of document.querySelectorAll('tr[data-symbol]')) { const r = tr.getBoundingClientRect(); if (r.height === 0 || r.bottom <= 0 || r.top >= innerHeight) continue; vals.push(qa.truth(Number(tr.getAttribute('data-symbol').slice(3)), 'bid')); } if (vals.length < 2) return false; for (let i = 1; i < vals.length; i++) if (vals[i] > vals[i - 1] + 0.05) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort bid asc",
+      "click": "th[data-field=bid]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"bid\"]'); if (!th || th.getAttribute('aria-sort') !== 'ascending') return false; const qa = window.__marketQA; const vals = []; for (const tr of document.querySelectorAll('tr[data-symbol]')) { const r = tr.getBoundingClientRect(); if (r.height === 0 || r.bottom <= 0 || r.top >= innerHeight) continue; vals.push(qa.truth(Number(tr.getAttribute('data-symbol').slice(3)), 'bid')); } if (vals.length < 2) return false; for (let i = 1; i < vals.length; i++) if (vals[i] < vals[i - 1] - 0.05) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort last desc",
+      "click": "th[data-field=last]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"last\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const qa = window.__marketQA; const vals = []; for (const tr of document.querySelectorAll('tr[data-symbol]')) { const r = tr.getBoundingClientRect(); if (r.height === 0 || r.bottom <= 0 || r.top >= innerHeight) continue; vals.push(qa.truth(Number(tr.getAttribute('data-symbol').slice(3)), 'last')); } if (vals.length < 2) return false; for (let i = 1; i < vals.length; i++) if (vals[i] > vals[i - 1] + 0.05) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "filter sym01",
+      "fill": "input[name=filter]",
+      "value": "sym01",
+      "until": "(() => { const c = document.querySelector('.count'); if (!c || c.textContent !== '100 instruments') return false; const trs = document.querySelectorAll('tr[data-symbol]'); if (!trs.length) return false; for (const tr of trs) if (!tr.getAttribute('data-symbol').toLowerCase().includes('sym01')) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "clear filter",
+      "fill": "input[name=filter]",
+      "value": "",
+      "until": "(() => { const c = document.querySelector('.count'); return !!c && c.textContent === '5000 instruments' && document.querySelectorAll('tr[data-symbol]').length > 0; })()",
+      "budgetMs": 300
+    }
+  ],
+  "budgets": { "p95FrameMs": 20, "longTaskShare": 0.05, "taskLagP95Ms": 50, "staleShare": 0.02 }
+}
