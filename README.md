@@ -13,8 +13,9 @@ npm run build   # static site in dist/
 
 - `src/feed/` is the market-data client. It is shared with the other desks
   and is not ours to change.
-- `src/App.tsx` holds quotes, filter, and sort. `src/QuoteRow.tsx` renders
-  a row and flashes changed cells.
+- `src/quoteStore.ts` holds the live values, coalesces feed messages into one
+  update per frame, flashes changed cells, and windows row rendering.
+- `src/App.tsx` holds filter and sort. `src/QuoteRow.tsx` renders a row.
 
 ## Behavior the desk relies on
 
