@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "site": "dist",
+  "ready": "document.querySelectorAll('tr[data-symbol] td[data-field]').length > 0",
+  "warmupMs": 2000,
+  "liveMs": 10000,
+  "scroll": { "selector": ".grid-scroll", "px": 7000, "everyMs": 100 },
+  "freshness": "(() => { const qa = window.__marketQA; if (!qa) return { checked: 0, stale: 0, example: null }; const now = performance.now(); const vw = innerWidth, vh = innerHeight; let checked = 0, stale = 0, example = null; const rows = document.querySelectorAll('tr[data-symbol]'); for (const tr of rows) { const rr = tr.getBoundingClientRect(); if (rr.bottom <= 0 || rr.top >= vh || rr.height === 0) continue; const sym = tr.getAttribute('data-symbol'); const row = parseInt(sym.slice(3), 10); const cells = tr.querySelectorAll('td[data-field]'); for (const cell of cells) { const cr = cell.getBoundingClientRect(); if (cr.right <= 0 || cr.left >= vw || cr.width === 0) continue; const field = cell.getAttribute('data-field'); const shown = cell.textContent.trim(); const rec = qa.recent(row, field); const truth = rec.value.toFixed(2); checked++; if (shown === truth) continue; if (now - rec.changedAt <= 500 && shown === rec.previous.toFixed(2)) continue; stale++; if (!example) example = { id: sym, field, shown, truth }; } } return { checked, stale, example }; })()",
+  "interactions": [
+    {
+      "name": "sort bid desc",
+      "click": "th[data-field=bid]",
+      "until": "(() => { const th = document.querySelector('th[data-field=bid]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const cs = [...document.querySelectorAll('tr[data-symbol] td[data-field=bid]')].map(c => ({ v: parseFloat(c.textContent), r: c.getBoundingClientRect() })).filter(o => o.r.top >= 0 && o.r.bottom <= innerHeight && o.r.height > 0); if (cs.length < 2) return false; for (let i = 1; i < cs.length; i++) if (cs[i-1].v < cs[i].v) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort bid asc",
+      "click": "th[data-field=bid]",
+      "until": "(() => { const th = document.querySelector('th[data-field=bid]'); if (!th || th.getAttribute('aria-sort') !== 'ascending') return false; const cs = [...document.querySelectorAll('tr[data-symbol] td[data-field=bid]')].map(c => ({ v: parseFloat(c.textContent), r: c.getBoundingClientRect() })).filter(o => o.r.top >= 0 && o.r.bottom <= innerHeight && o.r.height > 0); if (cs.length < 2) return false; for (let i = 1; i < cs.length; i++) if (cs[i-1].v > cs[i].v) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort volume desc",
+      "click": "th[data-field=volume]",
+      "until": "(() => { const th = document.querySelector('th[data-field=volume]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const cs = [...document.querySelectorAll('tr[data-symbol] td[data-field=volume]')].map(c => ({ v: parseFloat(c.textContent), r: c.getBoundingClientRect() })).filter(o => o.r.top >= 0 && o.r.bottom <= innerHeight && o.r.height > 0); if (cs.length < 2) return false; for (let i = 1; i < cs.length; i++) if (cs[i-1].v < cs[i].v) return false; return true; })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "filter SYM00",
+      "fill": "input[name=filter]",
+      "value": "SYM00",
+      "until": "(() => { const c = document.querySelector('.count'); if (!c || parseInt(c.textContent, 10) !== 100) return false; const rows = [...document.querySelectorAll('tr[data-symbol]')]; if (rows.length === 0) return false; return rows.every(tr => tr.getAttribute('data-symbol').toLowerCase().includes('sym00')); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "clear filter",
+      "fill": "input[name=filter]",
+      "value": "",
+      "until": "(() => { const c = document.querySelector('.count'); return !!c && parseInt(c.textContent, 10) === 5000; })()",
+      "budgetMs": 300
+    }
+  ],
+  "budgets": { "p95FrameMs": 20, "longTaskShare": 0.05, "taskLagP95Ms": 50, "staleShare": 0.02 }
+}
