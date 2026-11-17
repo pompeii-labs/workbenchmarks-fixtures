@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "site": "dist",
+  "ready": "document.querySelectorAll('tr[data-symbol] td[data-field]').length > 0",
+  "liveMs": 10000,
+  "scroll": { "selector": ".grid-scroll" },
+  "freshness": "(() => { const qa = window.__marketQA; if (!qa) return { checked: 0, stale: 0, example: null }; const now = performance.now(); let checked = 0, stale = 0, example = null; for (const r of document.querySelectorAll('tr[data-symbol]')) { const rb = r.getBoundingClientRect(); if (rb.bottom <= 0 || rb.top >= innerHeight) continue; const row = parseInt(r.getAttribute('data-symbol').slice(3), 10); for (const td of r.querySelectorAll('td[data-field]')) { const b = td.getBoundingClientRect(); if (b.right <= 0 || b.left >= innerWidth || b.bottom <= 0 || b.top >= innerHeight) continue; const field = td.getAttribute('data-field'); const t = qa.recent(row, field); const shown = td.textContent; checked++; if (shown === t.value.toFixed(2)) continue; if (shown === t.previous.toFixed(2) && now - t.changedAt <= 500) continue; stale++; if (!example) example = { id: r.getAttribute('data-symbol'), field, shown, truth: t.value.toFixed(2) }; } } return { checked, stale, example }; })()",
+  "interactions": [
+    {
+      "name": "sort last desc",
+      "click": "th[data-field=\"last\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"last\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const rs = Array.from(document.querySelectorAll('tr[data-symbol]')).filter(r => { const b = r.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; }); if (rs.length < 9) return false; const v = r => parseFloat(r.querySelector('td[data-field=\"last\"]').textContent); return v(rs[0]) >= v(rs[8]); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort last asc",
+      "click": "th[data-field=\"last\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"last\"]'); if (!th || th.getAttribute('aria-sort') !== 'ascending') return false; const rs = Array.from(document.querySelectorAll('tr[data-symbol]')).filter(r => { const b = r.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; }); if (rs.length < 9) return false; const v = r => parseFloat(r.querySelector('td[data-field=\"last\"]').textContent); return v(rs[0]) <= v(rs[8]); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort volume desc",
+      "click": "th[data-field=\"volume\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"volume\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const rs = Array.from(document.querySelectorAll('tr[data-symbol]')).filter(r => { const b = r.getBoundingClientRect(); return b.bottom > 0 && b.top < innerHeight; }); if (rs.length < 9) return false; const v = r => parseFloat(r.querySelector('td[data-field=\"volume\"]').textContent); return v(rs[0]) >= v(rs[8]); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "filter sym01",
+      "fill": "input[name=\"filter\"]",
+      "value": "sym01",
+      "until": "(() => { const c = document.querySelector('.count'); if (!c || c.textContent.trim() !== '100 instruments') return false; const rs = Array.from(document.querySelectorAll('tr[data-symbol]')); return rs.length > 0 && rs.every(r => r.getAttribute('data-symbol').toLowerCase().includes('sym01')); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "clear filter",
+      "fill": "input[name=\"filter\"]",
+      "value": "",
+      "until": "(() => { const c = document.querySelector('.count'); if (!c || c.textContent.trim() !== '5000 instruments') return false; return document.querySelectorAll('tr[data-symbol]').length > 10; })()",
+      "budgetMs": 300
+    }
+  ],
+  "rest": {
+    "stop": "window.__marketQA.pause()",
+    "resume": "window.__marketQA.resume()",
+    "transient": "(() => { const els = document.querySelectorAll('td.flash-up, td.flash-down'); return { count: els.length, example: els.length ? els[0].getAttribute('data-symbol') + '/' + els[0].getAttribute('data-field') : null }; })()"
+  },
+  "budgets": { "p95FrameMs": 20, "longTaskShare": 0.05, "taskLagP95Ms": 50, "staleShare": 0.02 }
+}

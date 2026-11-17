@@ -14,5 +14,6 @@ body { font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; background: #0f1115;
 .grid td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .grid td.symbol { font-weight: 600; }
 .grid td.name { color: #8b91a0; }
+.grid tr.spacer td { padding: 0; border: 0; }
 .flash-up { background: rgba(46, 160, 67, 0.35); }
 .flash-down { background: rgba(218, 54, 51, 0.35); }

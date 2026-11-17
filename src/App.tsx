@@ -1,40 +1,33 @@
-import { useEffect, useState } from 'react';
-import { instruments, NUMERIC_FIELDS, snapshot, subscribe, type NumericField } from './feed/feed';
+import { useEffect, useRef, useSyncExternalStore } from 'react';
+import { NUMERIC_FIELDS } from './feed/feed';
 import { QuoteRow } from './QuoteRow';
-
-export type Quote = Record<NumericField, number>;
-type SortDir = 'asc' | 'desc';
+import {
+    attach,
+    getFilter,
+    getOrder,
+    getPaintNow,
+    getSortDir,
+    getSortField,
+    getVersion,
+    getWindow,
+    setFilter,
+    subscribeFrame,
+    toggleSort,
+} from './store';
 
 export function App() {
-    const [quotes, setQuotes] = useState<Quote[]>(() => snapshot());
-    const [filter, setFilter] = useState('');
-    const [sortField, setSortField] = useState<NumericField | null>(null);
-    const [sortDir, setSortDir] = useState<SortDir>('desc');
+    useSyncExternalStore(subscribeFrame, getVersion);
+    const scrollRef = useRef<HTMLDivElement>(null);
+    useEffect(() => attach(scrollRef.current), []);
 
-    useEffect(() => {
-        return subscribe((message) => {
-            setQuotes((prev) =>
-                prev.map((q, i) => (i === message.row ? { ...q, [message.field]: message.value } : q))
-            );
-        });
-    }, []);
-
-    function toggleSort(field: NumericField) {
-        if (sortField === field) {
-            setSortDir(sortDir === 'desc' ? 'asc' : 'desc');
-        } else {
-            setSortField(field);
-            setSortDir('desc');
-        }
-    }
-
-    const needle = filter.trim().toLowerCase();
-    let rows = instruments.map((instrument, index) => ({ instrument, index, quote: quotes[index] }));
-    if (needle) rows = rows.filter((r) => r.instrument.symbol.toLowerCase().includes(needle));
-    if (sortField) {
-        const sign = sortDir === 'desc' ? -1 : 1;
-        rows = [...rows].sort((a, b) => sign * (a.quote[sortField] - b.quote[sortField]));
-    }
+    const filter = getFilter();
+    const sortField = getSortField();
+    const sortDir = getSortDir();
+    const { start, end, total, rowH } = getWindow();
+    const order = getOrder();
+    const now = getPaintNow();
+    const visible = order.slice(start, end);
+    const colSpan = NUMERIC_FIELDS.length + 2;
 
     return (
         <div className="app">
@@ -46,9 +39,9 @@ export function App() {
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
                 />
-                <span className="count">{rows.length} instruments</span>
+                <span className="count">{total} instruments</span>
             </header>
-            <div className="grid-scroll">
+            <div className="grid-scroll" ref={scrollRef}>
                 <table className="grid">
                     <thead>
                         <tr>
@@ -68,9 +61,19 @@ export function App() {
                         </tr>
                     </thead>
                     <tbody>
-                        {rows.map((r) => (
-                            <QuoteRow key={r.instrument.symbol} instrument={r.instrument} quote={r.quote} />
+                        {start > 0 && (
+                            <tr key="spacer-top" className="spacer" aria-hidden="true">
+                                <td colSpan={colSpan} style={{ height: start * rowH }} />
+                            </tr>
+                        )}
+                        {visible.map((index, slot) => (
+                            <QuoteRow key={slot} index={index} now={now} />
                         ))}
+                        {end < total && (
+                            <tr key="spacer-bottom" className="spacer" aria-hidden="true">
+                                <td colSpan={colSpan} style={{ height: (total - end) * rowH }} />
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
