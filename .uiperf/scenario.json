@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "site": "dist",
+  "ready": "document.querySelectorAll('tbody tr[data-symbol] td[data-field]').length > 0",
+  "liveMs": 10000,
+  "scroll": { "selector": ".grid-scroll" },
+  "freshness": "(() => { const qa = window.__marketQA; if (!qa) return { checked: 0, stale: 0, example: 'no QA hook' }; const vh = window.innerHeight, vw = window.innerWidth; const now = performance.now(); let checked = 0, stale = 0, example = null; for (const tr of document.querySelectorAll('tbody tr[data-symbol]')) { const r = tr.getBoundingClientRect(); if (r.bottom <= 0 || r.top >= vh) continue; const idx = parseInt(tr.getAttribute('data-symbol').slice(3), 10); for (const td of tr.querySelectorAll('td[data-field]')) { const c = td.getBoundingClientRect(); if (c.right <= 0 || c.left >= vw || c.bottom <= 0 || c.top >= vh) continue; const field = td.getAttribute('data-field'); const shown = td.textContent; const truth = qa.truth(idx, field); checked++; if (shown === truth.toFixed(2)) continue; const rec = qa.recent(idx, field); if (now - rec.changedAt < 500 && shown === rec.previous.toFixed(2)) continue; stale++; if (!example) example = { id: tr.getAttribute('data-symbol'), field, shown, truth: truth.toFixed(2) }; } } return { checked, stale, example }; })()",
+  "interactions": [
+    {
+      "name": "sort by last desc",
+      "click": "th[data-field=\"last\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"last\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const vals = [...document.querySelectorAll('tbody tr[data-symbol] td[data-field=\"last\"]')].map(td => parseFloat(td.textContent)); return vals.length > 1 && vals.every((v, i) => i === 0 || vals[i - 1] >= v); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort by last asc",
+      "click": "th[data-field=\"last\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"last\"]'); if (!th || th.getAttribute('aria-sort') !== 'ascending') return false; const vals = [...document.querySelectorAll('tbody tr[data-symbol] td[data-field=\"last\"]')].map(td => parseFloat(td.textContent)); return vals.length > 1 && vals.every((v, i) => i === 0 || vals[i - 1] <= v); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "sort by volume desc",
+      "click": "th[data-field=\"volume\"]",
+      "until": "(() => { const th = document.querySelector('th[data-field=\"volume\"]'); if (!th || th.getAttribute('aria-sort') !== 'descending') return false; const vals = [...document.querySelectorAll('tbody tr[data-symbol] td[data-field=\"volume\"]')].map(td => parseFloat(td.textContent)); return vals.length > 1 && vals.every((v, i) => i === 0 || vals[i - 1] >= v); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "filter to sym004",
+      "fill": "input[name=\"filter\"]",
+      "value": "sym004",
+      "until": "(() => { const rows = [...document.querySelectorAll('tbody tr[data-symbol]')]; const count = document.querySelector('.count'); return !!count && count.textContent === '10 instruments' && rows.length === 10 && rows.every(r => r.getAttribute('data-symbol').toLowerCase().includes('sym004')); })()",
+      "budgetMs": 300
+    },
+    {
+      "name": "clear filter",
+      "fill": "input[name=\"filter\"]",
+      "value": "",
+      "until": "(() => { const count = document.querySelector('.count'); return !!count && count.textContent === '5000 instruments' && document.querySelectorAll('tbody tr[data-symbol]').length > 20; })()",
+      "budgetMs": 300
+    }
+  ],
+  "rest": {
+    "stop": "window.__marketQA.pause()",
+    "resume": "window.__marketQA.resume()",
+    "transient": "(() => { const els = document.querySelectorAll('td.flash-up, td.flash-down'); return { count: els.length, example: els[0] ? els[0].closest('tr').getAttribute('data-symbol') + '/' + els[0].getAttribute('data-field') : null }; })()"
+  },
+  "budgets": { "p95FrameMs": 20, "longTaskShare": 0.05, "taskLagP95Ms": 50, "staleShare": 0.02 }
+}

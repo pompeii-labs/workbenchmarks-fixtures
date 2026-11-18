@@ -8,9 +8,10 @@ body { font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; background: #0f1115;
 .count { color: #7d8390; }
 .grid-scroll { flex: 1; overflow: auto; }
 .grid { border-collapse: collapse; width: max-content; min-width: 100%; }
-.grid th { position: sticky; top: 0; background: #15181e; text-align: right; padding: 6px 10px; cursor: pointer; user-select: none; border-bottom: 1px solid #2c3039; font-weight: 600; color: #a9aebb; }
+.grid th { position: sticky; top: 0; background: #15181e; text-align: right; padding: 6px 10px; cursor: pointer; user-select: none; border-bottom: 1px solid #2c3039; font-weight: 600; color: #a9aebb; line-height: 18px; }
 .grid th:nth-child(-n + 2) { text-align: left; cursor: default; }
-.grid td { padding: 4px 10px; border-bottom: 1px solid #1b1e25; white-space: nowrap; height: 26px; }
+.grid td { padding: 4px 10px; border-bottom: 1px solid #1b1e25; white-space: nowrap; height: 27px; line-height: 18px; }
+.grid tr.spacer td { padding: 0; border: none; }
 .grid td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .grid td.symbol { font-weight: 600; }
 .grid td.name { color: #8b91a0; }

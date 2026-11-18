@@ -1,22 +1,31 @@
-import { useEffect, useState } from 'react';
-import { instruments, NUMERIC_FIELDS, snapshot, subscribe, type NumericField } from './feed/feed';
+import { useLayoutEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
+import { instruments, NUMERIC_FIELDS, ROWS, type NumericField } from './feed/feed';
 import { QuoteRow } from './QuoteRow';
+import { getValue, getVersion, subscribeToStore } from './store';
 
-export type Quote = Record<NumericField, number>;
 type SortDir = 'asc' | 'desc';
 
+const ROW_HEIGHT = 27;
+const HEADER_HEIGHT = 31;
+const OVERSCAN = 6;
+const COLUMN_COUNT = 2 + NUMERIC_FIELDS.length;
+
 export function App() {
-    const [quotes, setQuotes] = useState<Quote[]>(() => snapshot());
+    const version = useSyncExternalStore(subscribeToStore, getVersion);
     const [filter, setFilter] = useState('');
     const [sortField, setSortField] = useState<NumericField | null>(null);
     const [sortDir, setSortDir] = useState<SortDir>('desc');
+    const [scrollTop, setScrollTop] = useState(0);
+    const [viewportHeight, setViewportHeight] = useState(600);
+    const scrollRef = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        return subscribe((message) => {
-            setQuotes((prev) =>
-                prev.map((q, i) => (i === message.row ? { ...q, [message.field]: message.value } : q))
-            );
-        });
+    useLayoutEffect(() => {
+        const el = scrollRef.current;
+        if (!el) return;
+        const observer = new ResizeObserver(() => setViewportHeight(el.clientHeight));
+        observer.observe(el);
+        setViewportHeight(el.clientHeight);
+        return () => observer.disconnect();
     }, []);
 
     function toggleSort(field: NumericField) {
@@ -28,13 +37,29 @@ export function App() {
         }
     }
 
-    const needle = filter.trim().toLowerCase();
-    let rows = instruments.map((instrument, index) => ({ instrument, index, quote: quotes[index] }));
-    if (needle) rows = rows.filter((r) => r.instrument.symbol.toLowerCase().includes(needle));
-    if (sortField) {
+    const filtered = useMemo(() => {
+        const needle = filter.trim().toLowerCase();
+        const out: number[] = [];
+        for (let i = 0; i < ROWS; i++) {
+            if (!needle || instruments[i].symbol.toLowerCase().includes(needle)) out.push(i);
+        }
+        return out;
+    }, [filter]);
+
+    const sorted = useMemo(() => {
+        if (!sortField) return filtered;
+        const f = NUMERIC_FIELDS.indexOf(sortField);
         const sign = sortDir === 'desc' ? -1 : 1;
-        rows = [...rows].sort((a, b) => sign * (a.quote[sortField] - b.quote[sortField]));
-    }
+        const out = filtered.slice();
+        out.sort((a, b) => sign * (getValue(a, f) - getValue(b, f)));
+        return out;
+    }, [filtered, sortField, sortDir, version]);
+
+    const total = sorted.length;
+    const bodyTop = scrollTop - HEADER_HEIGHT;
+    const start = Math.max(0, Math.floor(bodyTop / ROW_HEIGHT) - OVERSCAN);
+    const end = Math.min(total, Math.ceil((bodyTop + viewportHeight) / ROW_HEIGHT) + OVERSCAN);
+    const visible = sorted.slice(start, end);
 
     return (
         <div className="app">
@@ -46,9 +71,9 @@ export function App() {
                     value={filter}
                     onChange={(e) => setFilter(e.target.value)}
                 />
-                <span className="count">{rows.length} instruments</span>
+                <span className="count">{total} instruments</span>
             </header>
-            <div className="grid-scroll">
+            <div className="grid-scroll" ref={scrollRef} onScroll={(e) => setScrollTop(e.currentTarget.scrollTop)}>
                 <table className="grid">
                     <thead>
                         <tr>
@@ -68,9 +93,19 @@ export function App() {
                         </tr>
                     </thead>
                     <tbody>
-                        {rows.map((r) => (
-                            <QuoteRow key={r.instrument.symbol} instrument={r.instrument} quote={r.quote} />
+                        {start > 0 && (
+                            <tr className="spacer" aria-hidden="true" style={{ height: start * ROW_HEIGHT }}>
+                                <td colSpan={COLUMN_COUNT} style={{ height: start * ROW_HEIGHT }} />
+                            </tr>
+                        )}
+                        {visible.map((rowIndex) => (
+                            <QuoteRow key={instruments[rowIndex].symbol} rowIndex={rowIndex} />
                         ))}
+                        {end < total && (
+                            <tr className="spacer" aria-hidden="true" style={{ height: (total - end) * ROW_HEIGHT }}>
+                                <td colSpan={COLUMN_COUNT} style={{ height: (total - end) * ROW_HEIGHT }} />
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
